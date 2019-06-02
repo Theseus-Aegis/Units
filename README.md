@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/jonpas/TAC_Resources/blob/master/extras/assets/logo/logo_tacu_ca.png">
+    <img src="https://github.com/Theseus-Aegis/Units/blob/master/extras/assets/logo/logo_tacu_ca.png">
 </p>
 
 **TAC Units** is a content mod for Theseus mission makers, providing new factions.
