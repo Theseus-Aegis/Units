@@ -96,7 +96,7 @@ class CfgVehicles {
         };
         weapons[] = {"CUP_arifle_M16A1", "Throw", "Put"};
         magazines[] = {
-            mag_4("CUP_20Rnd_556x45_Stanag"),
+            mag_4("CUP_20Rnd_556x45_Stanag")
         };
     };
 
@@ -119,7 +119,7 @@ class CfgVehicles {
         displayName = "Rifleman (M14 Light)";
         weapons[] = {"CUP_srifle_M14", "Throw", "Put"};
         magazines[] = {
-            mag_4("20Rnd_762x51_Mag"),
+            mag_4("20Rnd_762x51_Mag")
         };
     };
 
@@ -136,7 +136,7 @@ class CfgVehicles {
             "ItemWatch"
         };
         Items[] = {
-            mag_6("ACE_fieldDressing"),
+            mag_6("ACE_fieldDressing")
         };
         weapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "Throw", "Put"};
         magazines[] = {
@@ -444,7 +444,7 @@ class CfgVehicles {
         crew = "TACU_Vietnam_U_US_Rifleman_M16_Light";
     };
 
-    class TACU_Vietnam_V_US_LandRover_M2: CUP_B_LR_Transport_GB_W {
+    class TACU_Vietnam_V_US_LandRover_M2: CUP_B_LR_MG_GB_W {
         _generalMacro = "TACU_Vietnam_V_US_LandRover_M2";
         faction = "TACU_Vietnam_US";
         side = 1;
@@ -516,7 +516,7 @@ class CfgVehicles {
         crew = "TACU_Vietnam_U_US_Pilot_Helo";
     };
 
-    class TACU_Vietnam_V_US_C47_Skytrain: CUP_B_AC47_Spooky_USA {
+    class TACU_Vietnam_V_US_C47_Skytrain: CUP_B_C47_USA {
         _generalMacro = "TACU_Vietnam_V_US_C47_Skytrain";
         faction = "TACU_Vietnam_US";
         side = 1;

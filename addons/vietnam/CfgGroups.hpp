@@ -2,13 +2,14 @@ class CfgGroups {
     class WEST {
         class TACU_Vietnam_US {
             name = "US Vietnam Forces";
-            class TACU_Vietnam_US_Infantry {
+            class TACU_Vietnam_G_US_Infantry {
                 name = "Infantry";
 
                 class TACU_Vietnam_US_Infantry_Patrol {
                     name = "Soldiers (Patrol)";
                     side = 1;
                     faction = "TACU_Vietnam_US";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     class unit0 {
                         vehicle = "TACU_Vietnam_U_US_Rifleman_M16_Light";
                         side = 1;
@@ -29,10 +30,11 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vietnam_US_Infantry_Fireteam {
+                class TACU_Vietnam_G_US_Infantry_Fireteam {
                     name = "Soldiers (Fireteam)";
                     side = 1;
                     faction = "TACU_Vietnam_US";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     class unit0 {
                         vehicle = "TACU_Vietnam_U_US_TeamLeader";
                         side = 1;
@@ -59,10 +61,11 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vietnam_US_Infantry_Squad {
+                class TACU_Vietnam_G_US_Infantry_Squad {
                     name = "Soldiers (Squad)";
                     side = 1;
                     faction = "TACU_Vietnam_US";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     class unit0 {
                         vehicle = "TACU_Vietnam_U_US_TeamLeader";
                         side = 1;
@@ -113,10 +116,11 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vietnam_US_Infantry_MGTeam {
+                class TACU_Vietnam_G_US_Infantry_MGTeam {
                     name = "Soldiers (MG Team)";
                     side = 1;
                     faction = "TACU_Vietnam_US";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     class unit0 {
                         vehicle = "TACU_Vietnam_U_US_TeamLeader";
                         side = 1;
@@ -137,10 +141,11 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vietnam_US_Infantry_ATTeam {
+                class TACU_Vietnam_G_US_Infantry_ATTeam {
                     name = "Soldiers (AT Team)";
                     side = 1;
                     faction = "TACU_Vietnam_US";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     class unit0 {
                         vehicle = "TACU_Vietnam_U_US_TeamLeader";
                         side = 1;
