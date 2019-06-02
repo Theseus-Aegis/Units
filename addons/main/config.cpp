@@ -6,7 +6,13 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_main", "cba_main"};
+        requiredAddons[] = {
+            "A3_Data_F",
+            "A3_Characters_F",
+            "A3_Weapons_F",
+            "ace_main",
+            "cba_main"
+        };
         author = CSTRING(Author);
         authors[] = {CSTRING(author)};
         url = CSTRING(URL);
