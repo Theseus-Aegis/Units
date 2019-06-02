@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TACU">
+    <Package name="Main">
+        <Key ID="STR_TACU_Main_Author">
+            <English>TAC Units Team</English>
+        </Key>
+        <Key ID="STR_TACU_Main_URL">
+            <English>http://www.theseus-aegis.com/</English>
+        </Key>
+    </Package>
+</Project>
