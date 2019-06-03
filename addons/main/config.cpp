@@ -7,11 +7,24 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
+            // Arma 3
             "A3_Data_F",
             "A3_Characters_F",
             "A3_Weapons_F",
+            "A3_Data_F_Tank_Loadorder",
+            // ACE
             "ace_main",
-            "cba_main"
+            "ace_medical",
+            "ace_flashsuppressors",
+            "ace_laserpointer",
+            "ace_nightvision",
+            // CBA
+            "cba_main",
+            // Theseus
+            "tacs_vehicles",
+            "tacs_headgear",
+            "tacs_units",
+            "tacs_vests",
         };
         author = CSTRING(Author);
         authors[] = {CSTRING(author)};
