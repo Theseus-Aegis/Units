@@ -5,7 +5,7 @@ class CfgGroups {
             class TACU_Vietnam_G_US_Infantry {
                 name = "Infantry";
 
-                class TACU_Vietnam_US_Infantry_Patrol {
+                class TACU_Vietnam_G_US_Infantry_Patrol {
                     name = "Soldiers (Patrol)";
                     side = 1;
                     faction = "TACU_Vietnam_US";
