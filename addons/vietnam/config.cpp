@@ -35,10 +35,42 @@ class CfgPatches {
             "TACU_Vietnam_V_US_UH1H_Gunship",
             "TACU_Vietnam_V_US_AC47D_Spooky",
             "TACU_Vietnam_V_US_C47_Skytrain",
+            //
+            // PAVN Forces
+            // Units
+            "TACU_Vietnam_U_PAVN_Soldier_Base",
+            "TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56",
+            "TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U",
+            "TACU_Vietnam_U_PAVN_NVA_Rifleman_AT",
+            "TACU_Vietnam_U_PAVN_NVA_Autorifleman",
+            "TACU_Vietnam_U_PAVN_NVA_Machinegunner",
+            "TACU_Vietnam_U_PAVN_NVA_TeamLeader",
+            "TACU_Vietnam_U_PAVN_NVA_Medic",
+            "TACU_Vietnam_U_PAVN_NVA_Sniper",
+            "TACU_Vietnam_U_PAVN_NVA_Sniper_Ghillie",
+            "TACU_Vietnam_U_PAVN_NVA_Sapper",
+            "TACU_Vietnam_U_PAVN_NVA_Rifleman_Wounded",
+            "TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56",
+            "TACU_Vietnam_U_PAVN_NLF_Rifleman_AKS74U",
+            "TACU_Vietnam_U_PAVN_NLF_Rifleman_AT",
+            "TACU_Vietnam_U_PAVN_NLF_TeamLeader",
+            "TACU_Vietnam_U_PAVN_NLF_Autorifleman",
+            "TACU_Vietnam_U_PAVN_NLF_Sapper",
+            "TACU_Vietnam_U_PAVN_NLF_Sniper",
+            "TACU_Vietnam_U_PAVN_NLF_Rifleman_Wounded",
+            "TACU_Vietnam_U_PAVN_NLF_Medic",
+            // Vehicles
+            "TACU_Vietnam_V_PAVN_UAZ",
+            "TACU_Vietnam_V_PAVN_UAZ_Open",
+            "TACU_Vietnam_V_PAVN_UAZ_MG",
+            "TACU_Vietnam_V_PAVN_Ural",
+            "TACU_Vietnam_V_PAVN_Ural_Open"
         };
         weapons[] = {
             "TACU_Vietnam_W_M40A3",
-            "TACU_Vietnam_W_M40A3_Ghillie"
+            "TACU_Vietnam_W_M40A3_Ghillie",
+            "TACU_Vietnam_W_Dragunov",
+            "TACU_Vietnam_W_Dragunov_Ghillie"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
