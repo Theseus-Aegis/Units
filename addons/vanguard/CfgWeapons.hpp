@@ -1,7 +1,7 @@
 class CfgWeapons {
 
     class arifle_MXM_Black_F;
-    class TACU_VanguardPMC_W_MXM_Black: arifle_MXM_Black_F {
+    class TACU_Vanguard_W_MXM_Black: arifle_MXM_Black_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -21,7 +21,7 @@ class CfgWeapons {
     };
 
     class arifle_ARX_blk_F;
-    class TACU_VanguardPMC_W_ARX_Black: arifle_ARX_blk_F {
+    class TACU_Vanguard_W_ARX_Black: arifle_ARX_blk_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -41,7 +41,7 @@ class CfgWeapons {
     };
 
     class arifle_MX_Black_F;
-    class TACU_VanguardPMC_W_MX_Black: arifle_MX_Black_F {
+    class TACU_Vanguard_W_MX_Black: arifle_MX_Black_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -61,7 +61,7 @@ class CfgWeapons {
     };
 
     class arifle_MX_GL_Black_F;
-    class TACU_VanguardPMC_W_MX_GL_Black: arifle_MX_GL_Black_F {
+    class TACU_Vanguard_W_MX_GL_Black: arifle_MX_GL_Black_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -81,7 +81,7 @@ class CfgWeapons {
     };
 
     class arifle_MX_SW_Black_F;
-    class TACU_VanguardPMC_W_MX_SW_Black: arifle_MX_SW_Black_F {
+    class TACU_Vanguard_W_MX_SW_Black: arifle_MX_SW_Black_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -101,7 +101,7 @@ class CfgWeapons {
     };
 
     class arifle_MXC_Black_F;
-    class TACU_VanguardPMC_W_MXC_Black: arifle_MXC_Black_F {
+    class TACU_Vanguard_W_MXC_Black: arifle_MXC_Black_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -121,7 +121,7 @@ class CfgWeapons {
     };
 
     class hgun_Rook40_F;
-    class TACU_VanguardPMC_W_Rook40: hgun_Rook40_F {
+    class TACU_Vanguard_W_Rook40: hgun_Rook40_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {

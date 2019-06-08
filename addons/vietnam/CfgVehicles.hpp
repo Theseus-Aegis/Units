@@ -825,12 +825,6 @@ class CfgVehicles {
     };
 
     // Vehicles - PAVN Forces
-    class CUP_O_UAZ_Unarmed_SLA;
-    class CUP_O_UAZ_MG_SLA;
-    class CUP_O_UAZ_Open_SLA;
-    class CUP_O_Ural_SLA;
-    class CUP_O_Ural_Open_SLA;
-
     class TACU_Vietnam_V_PAVN_UAZ: CUP_O_UAZ_Unarmed_SLA {
         faction = "TACU_Vietnam_PAVN";
         side = 0;

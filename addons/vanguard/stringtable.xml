@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="TACU">
-    <Package name="VanguardPMC">
-        <Key ID="STR_TACU_VanguardPMC_Author">
+    <Package name="Vanguard">
+        <Key ID="STR_TACU_Vanguard_Author">
             <English>Tyrone</English>
         </Key>
     </Package>
