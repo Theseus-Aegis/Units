@@ -19,5 +19,5 @@ Following helpers can also be double-clicked for convenience.
 
 ```sh
 $ make.bat          # Development build
-$ make_release.bat  # Release build (clean, build, sign)
+$ make_release.bat  # Release build (clean, build, sign, zip)
 ```
