@@ -8,5 +8,9 @@ files = [
     "logo_tacu_small_ca.paa"
 ]
 modname = "tac_units"
-keyname = "tacu_{{version}}"
-signame = "tacu_{{version}}"
+keyname = "{{prefix}}_{{version}}"
+signame = "{{prefix}}_{{version}}"
+
+releasebuild = [
+    "@zip tac_units_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
