@@ -7,19 +7,17 @@
 
 ### Setup
 
-#### Windows
+Use `hemtt.exe` (Windows) or `hemtt` (Linux) directly from command line or terminal, or use provided helpers on Windows.
 
-```
-$ make.bat              # Quick build
-$ make_release.bat      # Release build (clean, build, sign)
+```sh
+$ hemtt --help      # Show HEMTT usage
 ```
 
-#### Linux
+#### Windows Helpers
 
-```
-$ make                  # Quick build
-$ make <component>.pbo  # Quick build of specified component
-$ make filepatching     # Development build (file patching)
-$ make release          # Clean, build, sign and archive
-$ make clean            # Clean build files
+Following helpers can also be double-clicked for convenience.
+
+```sh
+$ make.bat          # Development build
+$ make_release.bat  # Release build (clean, build, sign)
 ```
