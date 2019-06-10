@@ -96,10 +96,10 @@ class CfgVehicles {
     class TACU_Vanguard_U_Contractor_Driver: TACU_Vanguard_U_Contractor_Rifleman_01 {
         displayName = "Driver";
         uniformClass = "tacs_Uniform_Combat_LS_CDBS_GP_TB";
-        weapons[] = {"srifle_EBR_MRCO_LP_BI_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
-        respawnWeapons[] = {"srifle_EBR_MRCO_LP_BI_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
-        magazines[] = {mag_7("20Rnd_762x51_Mag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-        respawnMagazines[] = {mag_7("20Rnd_762x51_Mag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+        weapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
+        respawnWeapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
+        magazines[] = {mag_4("30Rnd_9x21_Mag_SMG_02"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
+        respawnMagazines[] = {mag_4("30Rnd_9x21_Mag_SMG_02"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
         editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Driver.jpg);
     };
 
