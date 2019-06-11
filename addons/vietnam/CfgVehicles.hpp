@@ -298,8 +298,8 @@ class CfgVehicles {
         respawnItems[] = {mag_4("ACE_fieldDressing")};
         weapons[] = {"CUP_hgun_Colt1911", "Binocular", "Throw", "Put"};
         respawnWeapons[] = {"CUP_hgun_Colt1911", "Binocular", "Throw", "Put"};
-        magazines[] = {mag_5("CUP_HandGrenade_M67")};
-        respawnMagazines[] = {mag_5("CUP_HandGrenade_M67")};
+        magazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
+        respawnMagazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
         headgearList[] = {
             "H_Beret_Colonel",1
         };
@@ -318,8 +318,8 @@ class CfgVehicles {
         respawnItems[] = {mag_6("ACE_fieldDressing")};
         weapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
         respawnWeapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
-        magazines[] = {mag_4("CUP_20Rnd_556x45_Stanag")};
-        respawnMagazines[] = {mag_4("CUP_20Rnd_556x45_Stanag")};
+        magazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
+        respawnMagazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
         headgearList[] = {
             "CUP_H_USMC_Crew_Helmet",1
         };
