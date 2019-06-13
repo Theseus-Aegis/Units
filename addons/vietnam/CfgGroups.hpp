@@ -97,7 +97,7 @@ class CfgGroups {
                         position[] = {-10,-10,0};
                     };
                     class unit5 {
-                        vehicle = "TACU_Vietnam_U_US_Grenadier";
+                        vehicle = "TACU_Vietnam_U_US_Grenadier_M79";
                         side = 1;
                         rank = "PRIVATE";
                         position[] = {15,-15,0};

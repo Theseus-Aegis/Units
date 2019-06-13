@@ -14,7 +14,6 @@ class CfgPatches {
             "TACU_Vietnam_U_US_Rifleman_AT",
             "TACU_Vietnam_U_US_Rifleman_Wounded",
             "TACU_Vietnam_U_US_Machinegunner",
-            "TACU_Vietnam_U_US_Grenadier",
             "TACU_Vietnam_U_US_Grenadier_M79",
             "TACU_Vietnam_U_US_Sniper",
             "TACU_Vietnam_U_US_Sniper_Ghillie",
