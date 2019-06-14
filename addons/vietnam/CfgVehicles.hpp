@@ -84,8 +84,8 @@ class CfgVehicles {
         role = "Rifleman";
         uniformClass = "CUP_U_B_US_BDU_OD";
         backpack = "";
-        linkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_PASGT_no_bags_OD"};
-        respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_PASGT_no_bags_OD"};
+        linkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_ALICE"};
+        respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_ALICE"};
         Items[] = {mag_3("ACE_fieldDressing")};
         respawnItems[] = {mag_3("ACE_fieldDressing")};
         weapons[] = {"CUP_arifle_M16A1", "Throw", "Put"};
@@ -125,8 +125,8 @@ class CfgVehicles {
         respawnItems[] = {mag_6("ACE_fieldDressing")};
         weapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "Throw", "Put"};
         respawnWeapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "Throw", "Put"};
-        magazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_3("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
-        respawnMagazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_3("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+        magazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+        respawnMagazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
         headgearList[] = {
             "CUP_H_USArmy_Helmet_M1_Vine",0.30,
             "CUP_H_USArmy_Helmet_M1_Olive",0.30,
@@ -138,8 +138,8 @@ class CfgVehicles {
         displayName = "Rifleman (M14)";
         weapons[] = {"CUP_srifle_M14", "CUP_hgun_Colt1911", "Throw", "Put"};
         respawnWeapons[] = {"CUP_srifle_M14", "CUP_hgun_Colt1911", "Throw", "Put"};
-        magazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_3("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
-        respawnMagazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_3("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+        magazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+        respawnMagazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     };
 
     class TACU_Vietnam_U_US_Rifleman_AT: TACU_Vietnam_U_US_Rifleman_M16 {
@@ -189,24 +189,14 @@ class CfgVehicles {
         };
     };
 
-    class TACU_Vietnam_U_US_Grenadier: TACU_Vietnam_U_US_Rifleman_M16 {
-        displayName = "Grenadier";
-        linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
-        respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
-        weapons[] = {"CUP_arifle_M16A2_GL", "CUP_hgun_Colt1911", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_M16A2_GL", "CUP_hgun_Colt1911", "Throw", "Put"};
-        magazines[] = {mag_5("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), mag_4("CUP_1Rnd_HE_M203"), "1Rnd_Smoke_Grenade_shell"};
-        respawnMagazines[] = {mag_5("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), mag_4("CUP_1Rnd_HE_M203"), "1Rnd_Smoke_Grenade_shell"};
-    };
-
-    class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Grenadier {
+    class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Rifleman_M16 {
         displayName = "Grenadier (M79)";
         linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
         respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
         weapons[] = {"CUP_glaunch_M79", "CUP_hgun_Colt1911", "Throw", "Put"};
         respawnWeapons[] = {"CUP_glaunch_M79", "CUP_hgun_Colt1911", "Throw", "Put"};
-        magazines[] = {mag_12("CUP_1Rnd_HE_M203"), mag_4("CUP_7Rnd_45ACP_1911"), mag_2("1Rnd_Smoke_Grenade_shell")};
-        respawnMagazines[] = {mag_12("CUP_1Rnd_HE_M203"), mag_4("CUP_7Rnd_45ACP_1911"), mag_2("1Rnd_Smoke_Grenade_shell")};
+        magazines[] = {mag_12("CUP_1Rnd_HE_M203"), mag_5("CUP_7Rnd_45ACP_1911"), mag_2("1Rnd_Smoke_Grenade_shell")};
+        respawnMagazines[] = {mag_12("CUP_1Rnd_HE_M203"), mag_5("CUP_7Rnd_45ACP_1911"), mag_2("1Rnd_Smoke_Grenade_shell")};
     };
 
     class TACU_Vietnam_U_US_Sniper: TACU_Vietnam_U_US_Soldier_Base {
