@@ -20,6 +20,7 @@ class CfgPatches {
             // ACE
             "ace_explosives",
             "ace_flashsuppressors",
+            "ace_grenades",
             "ace_laserpointer",
             "ace_main",
             "ace_medical",
@@ -75,7 +76,7 @@ class CfgPatches {
             "tacs_vehicles",
             "tacs_headgear",
             "tacs_units",
-            "tacs_vests",
+            "tacs_vests"
         };
         author = CSTRING(Author);
         authors[] = {CSTRING(author)};
@@ -99,5 +100,3 @@ class CfgMods {
         action = CSTRING(URL);
     };
 };
-
-#include "CfgFunctions.hpp"

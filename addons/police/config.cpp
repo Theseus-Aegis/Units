@@ -6,11 +6,14 @@ class CfgPatches {
         units[] = {
             "TACU_Police_Item_Vest_PlateCarrier_Police",
             "TACU_Police_U_B_Soldier_Base",
-            "TACU_Police_U_B_CT_Rifleman"
+            "TACU_Police_U_B_CT_Rifleman",
+            "TACU_Police_U_B_CT_Breacher",
+            "TACU_Police_U_B_CT_Marksman"
         };
         weapons[] = {
             "TACU_Police_Vest_PlateCarrier_Police",
             "TACU_Police_W_HK416_CQB_Geared",
+            "TACU_Police_W_MK12SPR_Geared"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
