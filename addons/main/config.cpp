@@ -20,12 +20,15 @@ class CfgPatches {
             // ACE
             "ace_explosives",
             "ace_flashsuppressors",
+            "ace_grenades",
             "ace_laserpointer",
             "ace_main",
             "ace_medical",
             "ace_nightvision",
             "ace_realisticnames",
             "ace_scopes",
+            // BWA
+            "bwa3_headgear",
             // CBA
             "cba_main",
             // CUP
@@ -35,6 +38,7 @@ class CfgPatches {
             "CUP_Creatures_Military_CDF",
             "CUP_Creatures_Military_Chedaki",
             "CUP_Creatures_Military_NAPA",
+            "CUP_Creatures_Military_PMC",
             "CUP_Creatures_Military_RACS",
             "CUP_Creatures_Military_Russia",
             "CUP_Creatures_Military_SLA",
@@ -48,16 +52,20 @@ class CfgPatches {
             "CUP_Weapons_Backpacks",
             "CUP_Weapons_Colt1911",
             "CUP_Weapons_East_Attachments",
+            "CUP_Weapons_Glock17",
             "CUP_Weapons_GrenadeLaunchers",
             "CUP_Weapons_Grenades",
+            "CUP_Weapons_HK416",
             "CUP_Weapons_Makarov",
             "CUP_Weapons_M14",
             "CUP_Weapons_M16",
             "CUP_Weapons_M24",
+            "CUP_Weapons_MP5",
             "CUP_Weapons_PK",
             "CUP_Weapons_RPG7",
             "CUP_Weapons_SA61",
             "CUP_Weapons_SVD",
+            "CUP_Weapons_West_Attachments",
             "CUP_WheeledVehicles_LR",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
@@ -68,7 +76,7 @@ class CfgPatches {
             "tacs_vehicles",
             "tacs_headgear",
             "tacs_units",
-            "tacs_vests",
+            "tacs_vests"
         };
         author = CSTRING(Author);
         authors[] = {CSTRING(author)};
