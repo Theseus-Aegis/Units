@@ -189,7 +189,7 @@ class CfgVehicles {
         };
     };
 
-    class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Grenadier {
+    class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Rifleman_M16 {
         displayName = "Grenadier (M79)";
         linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
         respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
