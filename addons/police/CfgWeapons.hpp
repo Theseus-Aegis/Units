@@ -3,7 +3,7 @@ class CfgWeapons {
     class V_PlateCarrier1_blk;
 
     class TACU_Police_Vest_PlateCarrier_PoliceBlue: V_PlateCarrier1_blk {
-        author = ECSTRING(Police,Author);
+        author = ECSTRING(COMPONENT_BEAUTIFIED,Author);
         displayName = "Carrier Lite (Police, Blue)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceBlue_co.paa)};
     };
