@@ -25,8 +25,7 @@ class CfgPatches {
             "TACU_Cartel_V_Offroad_Jeep_Armed",
             "TACU_Cartel_V_Van_Transport"
         };
-        weapons[] = {
-        };
+        weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
         author = ECSTRING(Cartel,Author);

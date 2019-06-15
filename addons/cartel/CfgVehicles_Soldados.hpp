@@ -25,10 +25,10 @@
         editorSubcategory = "TACU_Cartel_EdSubCat_Soldados";
         editorPreview = QPATHTOF(ui\Cartel_U_Soldado_Rifleman.jpg);
         headgearList[] = {
-        "H_Bandanna_gry",0.30,
-        "H_Bandanna_cbr",0.30,
-        "H_Bandanna_khk",0.30
-    };
+        "H_Bandanna_gry", 0.30,
+        "H_Bandanna_cbr", 0.30,
+        "H_Bandanna_khk", 0.30
+        };
     };
 
     class TACU_Cartel_U_Soldado_Rifleman_01: TACU_Cartel_U_Soldier_Rifleman {
