@@ -1,9 +1,6 @@
-// Base Class
-class TACU_Main_U_BLUFOR_Soldier_Base;
-
 // Units - Police (Counter Terrorism)
 class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
-    author = CSTRING(Author);
+    author = ECSTRING(Police,Author);
     displayName = "Rifleman";
     faction = "TACU_Police_B";
     scope = 2;

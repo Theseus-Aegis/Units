@@ -2,10 +2,11 @@ class CfgVehicles {
 
     // Base Classes
     class Vest_Base_F;
+    class TACU_Main_U_BLUFOR_Soldier_Base;
 
     // Ground Items
     class TACU_Police_Item_Vest_PlateCarrier_PoliceBlue: Vest_Base_F {
-        author = ECSTRING(COMPONENT_BEAUTIFIED,Author);
+        author = ECSTRING(Police,Author);
         displayName = "Carrier Lite (Police, Blue)";
         scope = 2;
         scopeCurator = 2;
