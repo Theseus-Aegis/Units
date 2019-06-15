@@ -21,6 +21,9 @@
         respawnWeapons[] = {"CUP_hgun_Glock17", "Throw", "Put"};
         magazines[] = {mag_4("CUP_17Rnd_9x19_glock17"), mag_2("HandGrenade"), "SmokeShell"};
         respawnMagazines[] = {mag_4("CUP_17Rnd_9x19_glock17"), mag_2("HandGrenade"), "SmokeShell"};
+        headgearList[] = {
+            "",1
+        };
         editorPreview = QPATHTOF(ui\Cartel_U_Sicario_Rifleman_01.jpg);
         editorSubcategory = "TACU_Cartel_EdSubCat_Sicarios";
     };
