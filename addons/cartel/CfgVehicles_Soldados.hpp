@@ -1,11 +1,11 @@
     // Units - Cartel Soldados
 
-    class TACU_Cartel_U_Soldier_Base: TACU_Main_U_OPFOR_Soldier_Base {
+    class TACU_Cartel_U_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         author = ECSTRING(Cartel,Author);
-        displayName = "Cartel Base Soldier";
+        displayName = "Soldado (P99)";
         faction = "TACU_Cartel";
-        scope = 1;
-        scopeCurator = 1;
+        scope = 2;
+        scopeCurator = 2;
         side = 0;
         model = "\A3\characters_F\OPFOR\o_soldier_01.p3d";
         identityTypes[] = {"LanguageFRE_F", "Head_Tanoan", "NoGlasses"};
@@ -18,10 +18,12 @@
         respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk", "V_BandollierB_blk"};
         Items[] = {mag_5("ACE_fieldDressing")};
         respawnItems[] = {mag_5("ACE_fieldDressing")};
-        weapons[] = {"arifle_AKS_F", "Throw", "Put"};
-        respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
-        magazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
-        respawnMagazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
+        weapons[] = {"hgun_P07_F", "Throw", "Put"};
+        respawnWeapons[] = {"hgun_P07_F", "Throw", "Put"};
+        magazines[] = {mag_7("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+        respawnMagazines[] = {mag_7("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+        editorSubcategory = "TACU_Cartel_EdSubCat_Soldados";
+        editorPreview = QPATHTOF(ui\Cartel_U_Soldado_Rifleman.jpg);
         headgearList[] = {
         "H_Bandanna_gry",0.30,
         "H_Bandanna_cbr",0.30,
@@ -29,7 +31,7 @@
     };
     };
 
-    class TACU_Cartel_U_Soldado_Rifleman_01: TACU_Cartel_U_Soldier_Base {
+    class TACU_Cartel_U_Soldado_Rifleman_01: TACU_Cartel_U_Soldier_Rifleman {
         displayName = "Soldado (AK)";
         scope = 2;
         scopeCurator = 2;
@@ -128,4 +130,28 @@
         magazines[] = {mag_4("CUP_30Rnd_545x39_AK_M"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
         respawnMagazines[] = {mag_4("CUP_30Rnd_545x39_AK_M"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
         editorPreview = QPATHTOF(ui\Cartel_U_Soldado_Grenadier.jpg);
+    };
+
+    // Vehicles - Cartel
+
+    class TACU_Cartel_V_Offroad_Jeep: I_C_Offroad_02_unarmed_F {
+        faction = "TACU_Cartel";
+        side = 0;
+        displayName = "Jeep Wrangler";
+        crew = "TACU_Cartel_U_Soldado_Driver";
+        editorPreview = QPATHTOF(ui\Cartel_V_Offroad_Jeep.jpg);
+    };    
+    class TACU_Cartel_V_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
+        faction = "TACU_Cartel";
+        side = 0;
+        displayName = "Jeep Wrangler (LMG)";
+        crew = "TACU_Cartel_U_Soldado_Driver";
+        editorPreview = QPATHTOF(ui\Cartel_V_Offroad_Jeep_Armed.jpg);
+    };    
+    class TACU_Cartel_V_Van_Transport: C_Van_02_transport_F {
+        faction = "TACU_Cartel";
+        side = 0;
+        displayName = "Cargo Van Transport";
+        crew = "TACU_Cartel_U_Soldado_Driver";
+        editorPreview = QPATHTOF(ui\Cartel_V_Van_Transport.jpg);
     };

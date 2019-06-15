@@ -5,7 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             "TACU_Main_U_OPFOR_Soldier_Base",
-            "TACU_Cartel_U_Soldier_Base",
+            "TACU_Cartel_U_Soldado_Rifleman",
             "TACU_Cartel_U_Soldado_Rifleman_01",
             "TACU_Cartel_U_Soldado_Rifleman_02",
             "TACU_Cartel_U_Soldado_Rifleman_03",
