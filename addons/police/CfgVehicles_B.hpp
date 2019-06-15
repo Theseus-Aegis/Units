@@ -16,8 +16,8 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     magazines[] = {mag_6("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
     respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
     headgearList[] = {
-        "BWA3_OpsCore",0.50,
-        "BWA3_OpsCore_Camera",0.50
+        "BWA3_OpsCore", 0.50,
+        "BWA3_OpsCore_Camera", 0.50
     };
     editorSubcategory = "TACU_Police_EdSubCat_B_CT";
 };

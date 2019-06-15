@@ -105,13 +105,13 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
     magazines[] = {mag_7("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_7("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
-        "CUP_H_SLA_Helmet",0.25,
-        "CUP_H_SLA_Helmet_DES",0.50,
-        "CUP_H_SLA_Helmet_BLK",0.25,
-        "CUP_H_SLA_Helmet_URB",0.25,
-        "CUP_H_FR_BandanaGreen",0.25,
-        "CUP_H_ChDKZ_Cap",0.25,
-        "",0.20
+        "CUP_H_SLA_Helmet", 0.25,
+        "CUP_H_SLA_Helmet_DES", 0.50,
+        "CUP_H_SLA_Helmet_BLK", 0.25,
+        "CUP_H_SLA_Helmet_URB", 0.25,
+        "CUP_H_FR_BandanaGreen", 0.25,
+        "CUP_H_ChDKZ_Cap", 0.25,
+        "", 0.20
     };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NVA";
 };
@@ -176,7 +176,7 @@ class TACU_Vietnam_U_PAVN_NVA_TeamLeader: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type5
     magazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5", "SmokeShell"};
     respawnMagazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5", "SmokeShell"};
     headgearList[] = {
-        "CUP_H_SLA_SLCap",1
+        "CUP_H_SLA_SLCap", 1
     };
 };
 
@@ -192,7 +192,7 @@ class TACU_Vietnam_U_PAVN_NVA_Medic: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     magazines[] = {mag_4("CUP_8Rnd_9x18_Makarov_M"), "SmokeShell"};
     respawnMagazines[] = {mag_4("CUP_8Rnd_9x18_Makarov_M"), "SmokeShell"};
     headgearList[] = {
-        "CUP_H_ChDKZ_Cap",1
+        "CUP_H_ChDKZ_Cap", 1
     };
 };
 
@@ -214,7 +214,7 @@ class TACU_Vietnam_U_PAVN_NVA_Sniper_Ghillie: TACU_Vietnam_U_PAVN_NVA_Rifleman_T
     magazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M"), mag_2("CUP_8Rnd_9x18_Makarov_M")};
     respawnMagazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M"), mag_2("CUP_8Rnd_9x18_Makarov_M")};
     headgearList[] = {
-        "",1
+        "", 1
     };
 };
 
@@ -246,9 +246,9 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Wounded: TACU_Vietnam_U_PAVN_NVA_Rifleman
     magazines[] = {mag_2("CUP_8Rnd_9x18_Makarov_M")};
     respawnMagazines[] = {mag_2("CUP_8Rnd_9x18_Makarov_M")};
     headgearList[] = {
-        "H_HeadBandage_clean_F",0.30,
-        "H_HeadBandage_stained_F",0.30,
-        "H_HeadBandage_bloody_F",0.30,
+        "H_HeadBandage_clean_F", 0.30,
+        "H_HeadBandage_stained_F", 0.30,
+        "H_HeadBandage_bloody_F", 0.30,
     };
 };
 
@@ -274,12 +274,12 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
     magazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
-        "H_Hat_Safari_sand_F",0.25,
-        "CUP_H_FR_BandanaGreen",0.25,
-        "CUP_H_NAPA_Fedora",0.25,
-        "CUP_H_ChDKZ_Cap",0.25,
-        "H_HeadBandage_clean_F",0.25,
-        "",0.25
+        "H_Hat_Safari_sand_F", 0.25,
+        "CUP_H_FR_BandanaGreen", 0.25,
+        "CUP_H_NAPA_Fedora", 0.25,
+        "CUP_H_ChDKZ_Cap", 0.25,
+        "H_HeadBandage_clean_F", 0.25,
+        "", 0.25
     };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NLF";
 };
@@ -372,9 +372,9 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_Wounded: TACU_Vietnam_U_PAVN_NLF_Rifleman
     magazines[] = {mag_2("CUP_8Rnd_9x18_Makarov_M")};
     respawnMagazines[] = {mag_2("CUP_8Rnd_9x18_Makarov_M")};
     headgearList[] = {
-        "H_HeadBandage_clean_F",0.25,
-        "H_HeadBandage_stained_F",0.25,
-        "H_HeadBandage_bloody_F",0.25
+        "H_HeadBandage_clean_F", 0.25,
+        "H_HeadBandage_stained_F", 0.25,
+        "H_HeadBandage_bloody_F", 0.25
     };
 };
 

@@ -30,7 +30,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
         headgearList[] = {
-            "",1
+            "", 1
         };
     };
 
@@ -60,7 +60,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
         headgearList[] = {
-            "",1
+            "", 1
         };
     };
 
@@ -90,7 +90,7 @@ class CfgVehicles {
         magazines[] = {};
         respawnMagazines[] = {};
         headgearList[] = {
-            "",1
+            "", 1
         };
     };
 };

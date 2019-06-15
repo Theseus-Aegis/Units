@@ -65,11 +65,11 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
     magazines[] = {mag_4("CUP_20Rnd_556x45_Stanag")};
     respawnMagazines[] = {mag_4("CUP_20Rnd_556x45_Stanag")};
     headgearList[] = {
-        "CUP_H_FR_BandanaGreen",0.25,
-        "CUP_H_FR_BandanaWdl",0.25,
-        "CUP_H_US_patrol_cap_OD",0.25,
-        "CUP_H_US_patrol_cap_WDL",0.25,
-        "",0.25
+        "CUP_H_FR_BandanaGreen", 0.25,
+        "CUP_H_FR_BandanaWdl", 0.25,
+        "CUP_H_US_patrol_cap_OD", 0.25,
+        "CUP_H_US_patrol_cap_WDL", 0.25,
+        "", 0.25
     };
 };
 
@@ -92,9 +92,9 @@ class TACU_Vietnam_U_US_Rifleman_M16: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     respawnMagazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     headgearList[] = {
-        "CUP_H_USArmy_Helmet_M1_Vine",0.30,
-        "CUP_H_USArmy_Helmet_M1_Olive",0.30,
-        "CUP_H_USArmy_Helmet_M1_m81",0.30
+        "CUP_H_USArmy_Helmet_M1_Vine", 0.30,
+        "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
+        "CUP_H_USArmy_Helmet_M1_m81", 0.30
     };
 };
 
@@ -125,9 +125,9 @@ class TACU_Vietnam_U_US_Rifleman_Wounded: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_2("CUP_20Rnd_556x45_Stanag")};
     respawnMagazines[] = {mag_2("CUP_20Rnd_556x45_Stanag")};
     headgearList[] = {
-        "H_HeadBandage_clean_F",0.30,
-        "H_HeadBandage_stained_F",0.30,
-        "H_HeadBandage_bloody_F",0.30
+        "H_HeadBandage_clean_F", 0.30,
+        "H_HeadBandage_stained_F", 0.30,
+        "H_HeadBandage_bloody_F", 0.30
     };
 };
 
@@ -145,9 +145,9 @@ class TACU_Vietnam_U_US_Machinegunner: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {"hlc_200Rnd_762x51_T_M60E4", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     respawnMagazines[] = {"hlc_200Rnd_762x51_T_M60E4", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     headgearList[] = {
-        "CUP_H_USArmy_Helmet_M1_Vine",0.30,
-        "CUP_H_USArmy_Helmet_M1_Olive",0.30,
-        "CUP_H_USArmy_Helmet_M1_m81",0.30
+        "CUP_H_USArmy_Helmet_M1_Vine", 0.30,
+        "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
+        "CUP_H_USArmy_Helmet_M1_m81", 0.30
     };
 };
 
@@ -173,12 +173,12 @@ class TACU_Vietnam_U_US_Sniper: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_6("CUP_5Rnd_762x51_M24"), mag_4("CUP_7Rnd_45ACP_1911")};
     respawnMagazines[] = {mag_6("CUP_5Rnd_762x51_M24"), mag_4("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
-        "H_Booniehat_oli",0.30,
-        "CUP_H_SLA_Boonie",0.30,
-        "H_Booniehat_tna_F",0.30,
-        "tacs_Hat_Boonie_Woodland",0.30,
-        "tacs_Hat_Boonie_RangerGreen",0.30,
-        "CUP_H_USMC_BOONIE_WDL",0.30
+        "H_Booniehat_oli", 0.30,
+        "CUP_H_SLA_Boonie", 0.30,
+        "H_Booniehat_tna_F", 0.30,
+        "tacs_Hat_Boonie_Woodland", 0.30,
+        "tacs_Hat_Boonie_RangerGreen", 0.30,
+        "CUP_H_USMC_BOONIE_WDL", 0.30
     };
 };
 
@@ -210,9 +210,9 @@ class TACU_Vietnam_U_US_Medic: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
     respawnMagazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
-        "CUP_H_USArmy_Helmet_M1_Vine",0.30,
-        "CUP_H_USArmy_Helmet_M1_Olive",0.30,
-        "CUP_H_USArmy_Helmet_M1_m81",0.30
+        "CUP_H_USArmy_Helmet_M1_Vine", 0.30,
+        "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
+        "CUP_H_USArmy_Helmet_M1_m81", 0.30
     };
 };
 
@@ -228,8 +228,8 @@ class TACU_Vietnam_U_US_TeamLeader: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_5("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), mag_2("CUP_HandGrenade_M67"), mag_2("SmokeShell")};
     respawnMagazines[] = {mag_5("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), mag_2("CUP_HandGrenade_M67"), mag_2("SmokeShell")};
     headgearList[] = {
-        "CUP_H_CDF_OfficerCap_FST",0.50,
-        "CUP_H_CDF_OfficerCap_MNT",0.50
+        "CUP_H_CDF_OfficerCap_FST", 0.50,
+        "CUP_H_CDF_OfficerCap_MNT", 0.50
     };
 };
 
@@ -245,7 +245,7 @@ class TACU_Vietnam_U_US_Officer: TACU_Vietnam_U_US_TeamLeader {
     magazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
     respawnMagazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
-        "H_Beret_Colonel",1
+        "H_Beret_Colonel", 1
     };
 };
 
@@ -263,7 +263,7 @@ class TACU_Vietnam_U_US_Crewman: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
     respawnMagazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
-        "CUP_H_USMC_Crew_Helmet",1
+        "CUP_H_USMC_Crew_Helmet", 1
     };
 };
 
@@ -273,7 +273,7 @@ class TACU_Vietnam_U_US_Pilot_Helo: TACU_Vietnam_U_US_Crewman {
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "CUP_V_B_ALICE"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "CUP_V_B_ALICE"};
     headgearList[] = {
-        "CUP_H_USMC_Helmet_Pilot",1
+        "CUP_H_USMC_Helmet_Pilot", 1
     };
 };
 

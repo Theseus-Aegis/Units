@@ -20,7 +20,7 @@ class TACU_Vanguard_U_Contractor_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     magazines[] = {mag_7("30Rnd_556x45_Stanag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("30Rnd_556x45_Stanag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
-        "H_HelmetB_light_black",1
+        "H_HelmetB_light_black", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors";
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Rifleman_01.jpg);

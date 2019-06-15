@@ -20,7 +20,7 @@ class TACU_Vanguard_U_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     magazines[] = {mag_7("30Rnd_65x39_caseless_black_mag"), mag_2("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("30Rnd_65x39_caseless_black_mag"), mag_2("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
-        "tacs_Helmet_Enc_Ballistic_DarkBlack",1
+        "tacs_Helmet_Enc_Ballistic_DarkBlack", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Specialists";
     editorPreview = QPATHTOF(ui\Vanguard_U_Specialist_Rifleman.jpg);
