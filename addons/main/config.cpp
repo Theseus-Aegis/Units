@@ -64,6 +64,7 @@ class CfgPatches {
             "CUP_Weapons_MP5",
             "CUP_Weapons_PK",
             "CUP_Weapons_RPG7",
+            "CUP_Weapons_SA58",
             "CUP_Weapons_SA61",
             "CUP_Weapons_SVD",
             "CUP_Weapons_VSS",
