@@ -1,7 +1,7 @@
     // Units - Cartel Sicarios
 
     class TACU_Cartel_U_Sicario_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
-        author = ECSTRING(Cartel,Author);
+        author = "Tyrone";
         displayName = "Cartel Sicario (Glock)";
         faction = "TACU_Cartel";
         scope = 2;

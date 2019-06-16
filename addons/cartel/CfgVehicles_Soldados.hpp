@@ -1,7 +1,7 @@
     // Units - Cartel Soldados
 
     class TACU_Cartel_U_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
-        author = ECSTRING(Cartel,Author);
+        author = "Tyrone";
         displayName = "Soldado (P99)";
         faction = "TACU_Cartel";
         scope = 2;
