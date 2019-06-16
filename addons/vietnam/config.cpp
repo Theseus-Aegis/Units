@@ -34,7 +34,6 @@ class CfgPatches {
             "TACU_Vietnam_V_US_UH1H_Gunship",
             "TACU_Vietnam_V_US_AC47D_Spooky",
             "TACU_Vietnam_V_US_C47_Skytrain",
-            //
             // PAVN Forces
             // Units
             "TACU_Vietnam_U_PAVN_Soldier_Base",
@@ -73,7 +72,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
-        author = "Kresky";
+        author = ECSTRING(main,Author);
         authors[] = "Kresky"};
         VERSION_CONFIG;
     };
