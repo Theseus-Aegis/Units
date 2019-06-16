@@ -28,8 +28,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
-        author = "Tyrone";
-        authors[] = {"Tyrone"};
+        author[] = "ECSTRING(Main,Author)";
+        authors = "Tyrone";
         VERSION_CONFIG;
     };
 };
