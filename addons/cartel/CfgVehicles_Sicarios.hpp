@@ -67,8 +67,8 @@
         uniformClass = "tacs_Uniform_Combat_LS_BS_GP_TB";
         linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};
         respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};
-        weapons[] = {"CUP_arifle_Sa58RIS2", "Launch_RPG7_F", "Throw", "Put"};
-        respawnWeapons[] = {"CUP_arifle_Sa58RIS2", "Launch_RPG7_F", "Throw", "Put"};
+        weapons[] = {"CUP_arifle_Sa58RIS2", "CUP_launch_RPG7V", "Throw", "Put"};
+        respawnWeapons[] = {"CUP_arifle_Sa58RIS2", "CUP_launch_RPG7V", "Throw", "Put"};
         magazines[] = {mag_2("CUP_30Rnd_Sa58_M_TracerG"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
         respawnMagazines[] = {mag_2("CUP_30Rnd_Sa58_M_TracerG"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
         editorPreview = QPATHTOF(ui\Cartel_U_Sicario_Rifleman_AT.jpg);

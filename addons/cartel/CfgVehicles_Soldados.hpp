@@ -101,8 +101,8 @@
         uniformClass = "tacs_Uniform_Polo_TP_BS_TP_TB_NoLogo";
         linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_BandollierB_blk"};
         respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_BandollierB_blk"};
-        weapons[] = {"arifle_AKS_F", "Launch_RPG7_F", "Throw", "Put"};
-        respawnWeapons[] = {"arifle_AKS_F", "Launch_RPG7_F", "Throw", "Put"};
+        weapons[] = {"arifle_AKS_F", "CUP_launch_RPG7V", "Throw", "Put"};
+        respawnWeapons[] = {"arifle_AKS_F", "CUP_launch_RPG7V", "Throw", "Put"};
         magazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
         respawnMagazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
         editorPreview = QPATHTOF(ui\Cartel_U_Soldado_Rifleman_AT.jpg);
