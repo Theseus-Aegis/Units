@@ -1,6 +1,6 @@
 // Units - Vanguard Specialists
 class TACU_Vanguard_U_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
-    author = CSTRING(Author);
+    author = "Tyrone";
     displayName = "Rifleman";
     faction = "TACU_Vanguard";
     scope = 2;

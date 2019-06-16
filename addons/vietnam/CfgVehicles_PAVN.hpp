@@ -85,7 +85,7 @@ class TACU_Vietnam_B_PAVN_Sapper: B_FieldPack_khk {
 
 // Units - PAVN NVA
 class TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
-    author = ECSTRING(Vietnam,Author);
+    author = "Kresky";
     displayName = "Rifleman (Type 56-2)";
     faction = "TACU_Vietnam_PAVN";
     scope = 2;
@@ -254,7 +254,7 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Wounded: TACU_Vietnam_U_PAVN_NVA_Rifleman
 
 // Units - PAVN NLF
 class TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
-    author = ECSTRING(Vietnam,Author);
+    author = "Kresky";
     displayName = "Rifleman (Type 56-2)";
     faction = "TACU_Vietnam_PAVN";
     scope = 2;

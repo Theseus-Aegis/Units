@@ -6,7 +6,7 @@ class CfgVehicles {
 
     // Base BLUFOR Soldier
     class TACU_Main_U_BLUFOR_Soldier_Base: SoldierWB {
-        author = CSTRING(Author);
+        author = "TAC Units Team";
         displayName = "TACU BLUFOR Base Soldier";
         faction = "";
         scope = 1;
@@ -36,7 +36,7 @@ class CfgVehicles {
 
     // Base OPFOR Soldier
     class TACU_Main_U_OPFOR_Soldier_Base: SoldierEB {
-        author = CSTRING(Author);
+        author = "TAC Units Team";
         displayName = "TACU OPFOR Base Soldier";
         faction = "";
         scope = 1;
@@ -66,7 +66,7 @@ class CfgVehicles {
 
     // Base INDEP Soldier
     class TACU_Main_U_INDEP_Soldier_Base: SoldierGB {
-        author = CSTRING(Author);
+        author = "TAC Units Team";
         displayName = "TACU INDEP Base Soldier";
         faction = "";
         scope = 1;

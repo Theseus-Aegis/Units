@@ -47,7 +47,7 @@ class TACU_Vietnam_B_US_MG: CUP_B_AlicePack_OD {
 
 // Units
 class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
-    author = ECSTRING(Vietnam,Author);
+    author = "Kresky";
     displayName = "Rifleman (M16 Light)";
     faction = "TACU_Vietnam_US";
     scope = 2;
