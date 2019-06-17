@@ -8,9 +8,9 @@ class CfgFactionClasses {
 
 class CfgEditorSubcategories {
     class TACU_Vanguard_EdSubCat_Contractors {
-        displayName = "Men (Contractors)"
+        displayName = "Men (Contractors)";
     };
     class TACU_Vanguard_EdSubCat_Specialists {
-        displayName = "Men (Specialists)"
+        displayName = "Men (Specialists)";
     };
 };

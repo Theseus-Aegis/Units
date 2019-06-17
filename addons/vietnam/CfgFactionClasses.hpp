@@ -13,9 +13,9 @@ class CfgFactionClasses {
 
 class CfgEditorSubcategories {
     class TACU_Vietnam_EdSubCat_PAVN_NLF {
-        displayName = "Men (National Liberation Front)"
+        displayName = "Men (National Liberation Front)";
     };
     class TACU_Vietnam_EdSubCat_PAVN_NVA {
-        displayName = "Men (North Vietnamese Army)"
+        displayName = "Men (North Vietnamese Army)";
     };
 };

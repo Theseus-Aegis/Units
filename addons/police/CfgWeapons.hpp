@@ -2,6 +2,12 @@ class CfgWeapons {
     // Helmets
     class H_PASGT_neckprot_blue_press_F;
 
+    class TACU_Police_Helmet_PASGT_Neck_PoliceBlack: H_PASGT_neckprot_blue_press_F {
+        author = "Kresky";
+        displayName = "Police Helmet (Neck Protection, Black)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Helmet_PASGT_Neck_PoliceBlack_co.paa)};
+    };
+
     class TACU_Police_Helmet_PASGT_Neck_PoliceGreen: H_PASGT_neckprot_blue_press_F {
         author = "Kresky";
         displayName = "Police Helmet (Neck Protection, Green)";
@@ -73,10 +79,16 @@ class CfgWeapons {
     class V_PlateCarrier1_blk;
     class V_PlateCarrierIAGL_oli;
 
-    class TACU_Police_Vest_PlateCarrier_PoliceBlue: V_PlateCarrier1_blk {
+    class TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack: V_PlateCarrierIAGL_oli {
         author = "Kresky";
-        displayName = "Carrier Lite (Police, Blue)";
-        hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceBlue_co.paa)};
+        displayName = "Heavy Plate Carrier (Police, Black)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlack_co.paa), QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlack_Parts_co.paa)};
+    };
+
+    class TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue: V_PlateCarrierIAGL_oli {
+        author = "Kresky";
+        displayName = "Heavy Plate Carrier (Police, Blue)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlue_co.paa), QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlue_Parts_co.paa)};
     };
 
     class TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen: V_PlateCarrierIAGL_oli {
@@ -85,12 +97,32 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceGreen_co.paa), QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceGreen_Parts_co.paa)};
     };
 
+    class TACU_Police_Vest_PlateCarrier_PoliceBlack: V_PlateCarrier1_blk {
+        author = "Kresky";
+        displayName = "Plate Carrier (Police, Black)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceBlack_co.paa)};
+    };
+
+    class TACU_Police_Vest_PlateCarrier_PoliceBlue: V_PlateCarrier1_blk {
+        author = "Kresky";
+        displayName = "Plate Carrier (Police, Blue)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceBlue_co.paa)};
+    };
+
+    class TACU_Police_Vest_PlateCarrier_PoliceGreen: V_PlateCarrier1_blk {
+        author = "Kresky";
+        displayName = "Plate Carrier (Police, Green)";
+        hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceGreen_co.paa)};
+    };
+
     // Weapons
     class CUP_arifle_HK416_CQB_Black;
     class CUP_arifle_HK417_20;
     class CUP_arifle_SR3M_Vikhr_VFG;
     class CUP_smg_vityaz_vfg;
     class CUP_srifle_SVD;
+    class hlc_rifle_SG550Sniper_RIS;
+    class hlc_rifle_SG551LB_TAC;
 
     class TACU_Police_W_Dragunov: CUP_srifle_SVD {
         scope = 1;
@@ -134,6 +166,32 @@ class CfgWeapons {
                 slot = "UnderBarrelSlot";
                 item = "bipod_01_f_blk";
             };
+		};
+    };
+
+    class TACU_Police_W_SG5501_DMR_Rail: hlc_rifle_SG550Sniper_RIS {
+        scope = 1;
+		scopeCurator = 1;
+		class LinkedItems {
+			class LinkedItemsOptic {
+				slot = "CowsSlot";
+				item = "hlc_optic_zf95base";
+			};
+		};
+    };
+
+    class TACU_Police_W_SG551LB_TAC: hlc_rifle_SG551LB_TAC {
+        scope = 1;
+		scopeCurator = 1;
+		class LinkedItems {
+			class LinkedItemsOptic {
+				slot = "CowsSlot";
+				item = "optic_mrco";
+			};
+            class LinkedItemsAcc {
+				slot = "PointerSlot";
+				item = "cup_acc_anpeq_15_top_flashlight_black_l";
+			};
 		};
     };
 

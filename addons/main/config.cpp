@@ -8,15 +8,8 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             // Arma 3
-            "A3_Data_F",
-            "A3_Characters_F",
-            "A3_Characters_F_Exp",
-            "A3_Characters_F_Exp_Vests",
-            "A3_Characters_F_Orange_Headgear",
-            "A3_Weapons_F",
-            "A3_Weapons_F_Explosives",
-            "A3_Weapons_F_Mark_Acc",
             "A3_Data_F_Tank_Loadorder",
+            "A3_Data_F_Mod_Loadorder",
             // ACE
             "ace_explosives",
             "ace_flashsuppressors",
@@ -53,6 +46,7 @@ class CfgPatches {
             "CUP_Weapons_Bizon",
             "CUP_Weapons_Colt1911",
             "CUP_Weapons_East_Attachments",
+            "CUP_Weapons_G36",
             "CUP_Weapons_Glock17",
             "CUP_Weapons_GrenadeLaunchers",
             "CUP_Weapons_Grenades",
@@ -69,12 +63,18 @@ class CfgPatches {
             "CUP_Weapons_SVD",
             "CUP_Weapons_VSS",
             "CUP_Weapons_West_Attachments",
+            "CUP_WheeledVehicles_BRDM2",
             "CUP_WheeledVehicles_LR",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
             // NIArms
             "hlcweapons_core",
             "hlcweapons_m60e4",
+            "hlcweapons_SG550",
+            "niaweapons_226",
+            // Project Infinite
+            "bnae_core",
+            "bnae_M97",
             // Theseus
             "tacs_vehicles",
             "tacs_headgear",

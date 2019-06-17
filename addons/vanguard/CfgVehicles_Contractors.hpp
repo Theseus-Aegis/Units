@@ -163,7 +163,7 @@ class TACU_Vanguard_V_Hunter: B_MRAP_01_F {
     side = 2;
     displayName = "Hunter";
     crew = "TACU_Vanguard_U_Contractor_Driver";
-    hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_V_Hunter_ext01_CO.paa), QPATHTOF(data\Vanguard_V_Hunter_ext02_CO)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_V_Hunter_ext01_CO.paa), QPATHTOF(data\Vanguard_V_Hunter_ext02_CO.paa)};
     editorPreview = QPATHTOF(ui\Vanguard_V_Hunter.jpg);
 };
 

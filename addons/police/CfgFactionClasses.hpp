@@ -10,14 +10,36 @@ class CfgFactionClasses {
         side = 0;
         priority = 2;
     };
+
+    class TACU_Police_I {
+        displayName = "Law Enforcement";
+        side = 2;
+        priority = 2;
+    };
 };
 
 class CfgEditorSubcategories {
     class TACU_Police_EdSubCat_B_CT {
-        displayName = "Men (Counter-Terrorism)"
+        displayName = "Men (Counter-Terrorism)";
+    };
+
+    class TACU_Police_EdSubCat_B_Enforcer {
+        displayName = "Men (Enforcers)";
     };
 
     class TACU_Police_EdSubCat_O_CT {
-        displayName = "Men (Counter-Terrorism)"
+        displayName = "Men (Counter-Terrorism)";
+    };
+
+    class TACU_Police_EdSubCat_O_Enforcer {
+        displayName = "Men (Enforcers)";
+    };
+
+    class TACU_Police_EdSubCat_I_CT {
+        displayName = "Men (Counter-Terrorism)";
+    };
+
+    class TACU_Police_EdSubCat_I_Enforcer {
+        displayName = "Men (Enforcers)";
     };
 };
