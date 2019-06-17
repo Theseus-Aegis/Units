@@ -31,7 +31,7 @@
         };
     };
 
-    class TACU_Cartel_U_Soldado_Rifleman_01: TACU_Cartel_U_Soldier_Rifleman {
+    class TACU_Cartel_U_Soldado_Rifleman_01: TACU_Cartel_U_Soldado_Rifleman {
         displayName = "Soldado (AK)";
         scope = 2;
         scopeCurator = 2;
