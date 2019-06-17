@@ -114,6 +114,7 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
         "", 0.20
     };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NVA";
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Rifleman_Type56.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -125,6 +126,7 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U: TACU_Vietnam_U_PAVN_NVA_Rifleman_
     respawnWeapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
     magazines[] = {mag_7("CUP_30Rnd_545x39_AK74_plum_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_7("CUP_30Rnd_545x39_AK74_plum_M"), "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Rifleman_AKS74U.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Rifleman_AT: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -136,6 +138,7 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_AT: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type
     respawnWeapons[] = {"CUP_arifle_AK47_Early", "CUP_launch_RPG7V", "Throw", "Put"};
     magazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M")};
     respawnWagazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M")};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Rifleman_AT.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Autorifleman: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -149,6 +152,7 @@ class TACU_Vietnam_U_PAVN_NVA_Autorifleman: TACU_Vietnam_U_PAVN_NVA_Rifleman_Typ
     respawnWeapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     magazines[] = {mag_3("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_3("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"), "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Autorifleman.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Machinegunner: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -163,6 +167,7 @@ class TACU_Vietnam_U_PAVN_NVA_Machinegunner: TACU_Vietnam_U_PAVN_NVA_Rifleman_Ty
     respawnWeapons[] = {"CUP_lmg_PKM", "Throw", "Put"};
     magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Machinegunner.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_TeamLeader: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -178,6 +183,7 @@ class TACU_Vietnam_U_PAVN_NVA_TeamLeader: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type5
     headgearList[] = {
         "CUP_H_SLA_SLCap", 1
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_TeamLeader.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Medic: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -194,6 +200,7 @@ class TACU_Vietnam_U_PAVN_NVA_Medic: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     headgearList[] = {
         "CUP_H_ChDKZ_Cap", 1
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Medic.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Sniper: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -202,6 +209,7 @@ class TACU_Vietnam_U_PAVN_NVA_Sniper: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     respawnWeapons[] = {"TACU_Vietnam_W_Dragunov", "CUP_hgun_Makarov", "Throw", "Put"};
     magazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M"), mag_2("CUP_8Rnd_9x18_Makarov_M")};
     respawnMagazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M"), mag_2("CUP_8Rnd_9x18_Makarov_M")};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Sniper.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Sniper_Ghillie: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -216,6 +224,7 @@ class TACU_Vietnam_U_PAVN_NVA_Sniper_Ghillie: TACU_Vietnam_U_PAVN_NVA_Rifleman_T
     headgearList[] = {
         "", 1
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Sniper_Ghillie.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Sapper: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -232,6 +241,7 @@ class TACU_Vietnam_U_PAVN_NVA_Sapper: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     respawnWeapons[] = {"CUP_smg_SA61", "Throw", "Put"};
     magazines[] = {mag_3("CUP_20Rnd_B_765x17_Ball_M"), mag_2("CUP_50Rnd_B_765x17_Ball_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_3("CUP_20Rnd_B_765x17_Ball_M"), mag_2("CUP_50Rnd_B_765x17_Ball_M"), "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Sapper.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NVA_Rifleman_Wounded: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
@@ -250,6 +260,7 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Wounded: TACU_Vietnam_U_PAVN_NVA_Rifleman
         "H_HeadBandage_stained_F", 0.30,
         "H_HeadBandage_bloody_F", 0.30,
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Rifleman_Wounded.jpg);
 };
 
 // Units - PAVN NLF
@@ -282,6 +293,7 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
         "", 0.25
     };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NLF";
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Rifleman_Type56.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_Rifleman_AKS74U: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -293,6 +305,7 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_AKS74U: TACU_Vietnam_U_PAVN_NLF_Rifleman_
     respawnWeapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
     magazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M"), "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Rifleman_AKS74U.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_Rifleman_AT: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -307,6 +320,7 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_AT: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type
     respawnWeapons[] = {"CUP_arifle_AKS", "CUP_launch_RPG7V", "Throw", "Put"};
     magazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M")};
     respawnMagazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M")};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Rifleman_AT.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_TeamLeader: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -319,6 +333,7 @@ class TACU_Vietnam_U_PAVN_NLF_TeamLeader: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type5
     respawnWeapons[] = {"CUP_arifle_AK47_Early", "Binocular", "Throw", "Put"};
     magazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_TeamLeader.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_Autorifleman: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -333,6 +348,7 @@ class TACU_Vietnam_U_PAVN_NLF_Autorifleman: TACU_Vietnam_U_PAVN_NLF_Rifleman_Typ
     respawnWeapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     magazines[] = {mag_2("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_2("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"), "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Autorifleman.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_Sapper: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -347,6 +363,7 @@ class TACU_Vietnam_U_PAVN_NLF_Sapper: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
     respawnWeapons[] = {"CUP_smg_SA61", "Throw", "Put"};
     magazines[] = {mag_3("CUP_20Rnd_B_765x17_Ball_M"), mag_2("CUP_50Rnd_B_765x17_Ball_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_3("CUP_20Rnd_B_765x17_Ball_M"), mag_2("CUP_50Rnd_B_765x17_Ball_M"), "CUP_HandGrenade_RGD5"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Sapper.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_Sniper: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -358,6 +375,7 @@ class TACU_Vietnam_U_PAVN_NLF_Sniper: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
     respawnWeapons[] = {"TACU_Vietnam_W_Dragunov", "Throw", "Put"};
     magazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M")};
     respawnMagazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M")};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Sniper.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_Rifleman_Wounded: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -376,6 +394,7 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_Wounded: TACU_Vietnam_U_PAVN_NLF_Rifleman
         "H_HeadBandage_stained_F", 0.25,
         "H_HeadBandage_bloody_F", 0.25
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Rifleman_Wounded.jpg);
 };
 
 class TACU_Vietnam_U_PAVN_NLF_Medic: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
@@ -390,6 +409,7 @@ class TACU_Vietnam_U_PAVN_NLF_Medic: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
     respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
     magazines[] = {mag_5("CUP_8Rnd_9x18_Makarov_M"), "SmokeShell"};
     respawnMagazines[] = {mag_5("CUP_8Rnd_9x18_Makarov_M"), "SmokeShell"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Medic.jpg);
 };
 
 // Vehicles
@@ -398,6 +418,7 @@ class TACU_Vietnam_V_PAVN_UAZ: CUP_O_UAZ_Unarmed_SLA {
     side = 0;
     displayName = "UAZ";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56";
+    editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_UAZ.jpg);
 };
 
 class TACU_Vietnam_V_PAVN_UAZ_Open: CUP_O_UAZ_Open_SLA {
@@ -405,6 +426,7 @@ class TACU_Vietnam_V_PAVN_UAZ_Open: CUP_O_UAZ_Open_SLA {
     side = 0;
     displayName = "UAZ (Open)";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U";
+    editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_UAZ_Open.jpg);
 };
 
 class TACU_Vietnam_V_PAVN_UAZ_MG: CUP_O_UAZ_MG_SLA {
@@ -412,6 +434,7 @@ class TACU_Vietnam_V_PAVN_UAZ_MG: CUP_O_UAZ_MG_SLA {
     side = 0;
     displayName = "UAZ (MG)";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56";
+    editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_UAZ_MG.jpg);
 };
 
 class TACU_Vietnam_V_PAVN_Ural: CUP_O_Ural_SLA {
@@ -419,6 +442,7 @@ class TACU_Vietnam_V_PAVN_Ural: CUP_O_Ural_SLA {
     side = 0;
     displayName = "Ural";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56";
+    editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_Ural.jpg);
 };
 
 class TACU_Vietnam_V_PAVN_Ural_Open: CUP_O_Ural_Open_SLA {
@@ -426,4 +450,5 @@ class TACU_Vietnam_V_PAVN_Ural_Open: CUP_O_Ural_Open_SLA {
     side = 0;
     displayName = "Ural (Open)";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U";
+    editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_Ural_Open.jpg);
 };

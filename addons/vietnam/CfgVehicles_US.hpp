@@ -71,6 +71,7 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
         "CUP_H_US_patrol_cap_WDL", 0.25,
         "", 0.25
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M16_Light.jpg);
 };
 
 class TACU_Vietnam_U_US_Rifleman_M14_Light: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -79,6 +80,7 @@ class TACU_Vietnam_U_US_Rifleman_M14_Light: TACU_Vietnam_U_US_Rifleman_M16_Light
     respawnWeapons[] = {"CUP_srifle_M14", "Throw", "Put"};
     magazines[] = {mag_4("20Rnd_762x51_Mag")};
     respawnMagazines[] = {mag_4("20Rnd_762x51_Mag")};
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M14_Light.jpg);
 };
 
 class TACU_Vietnam_U_US_Rifleman_M16: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -96,6 +98,7 @@ class TACU_Vietnam_U_US_Rifleman_M16: TACU_Vietnam_U_US_Rifleman_M16_Light {
         "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
         "CUP_H_USArmy_Helmet_M1_m81", 0.30
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M16.jpg);
 };
 
 class TACU_Vietnam_U_US_Rifleman_M14: TACU_Vietnam_U_US_Rifleman_M16 {
@@ -104,6 +107,7 @@ class TACU_Vietnam_U_US_Rifleman_M14: TACU_Vietnam_U_US_Rifleman_M16 {
     respawnWeapons[] = {"CUP_srifle_M14", "CUP_hgun_Colt1911", "Throw", "Put"};
     magazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     respawnMagazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M14.jpg);
 };
 
 class TACU_Vietnam_U_US_Rifleman_AT: TACU_Vietnam_U_US_Rifleman_M16 {
@@ -112,6 +116,7 @@ class TACU_Vietnam_U_US_Rifleman_AT: TACU_Vietnam_U_US_Rifleman_M16 {
     role = "MissileSpecialist";
     weapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "CUP_launch_M72A6", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "CUP_launch_M72A6", "Throw", "Put"};
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_AT.jpg);
 };
 
 class TACU_Vietnam_U_US_Rifleman_Wounded: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -129,6 +134,7 @@ class TACU_Vietnam_U_US_Rifleman_Wounded: TACU_Vietnam_U_US_Rifleman_M16_Light {
         "H_HeadBandage_stained_F", 0.30,
         "H_HeadBandage_bloody_F", 0.30
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_Wounded.jpg);
 };
 
 class TACU_Vietnam_U_US_Machinegunner: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -149,6 +155,7 @@ class TACU_Vietnam_U_US_Machinegunner: TACU_Vietnam_U_US_Rifleman_M16_Light {
         "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
         "CUP_H_USArmy_Helmet_M1_m81", 0.30
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Machinegunner.jpg);
 };
 
 class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Rifleman_M16 {
@@ -159,6 +166,7 @@ class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Rifleman_M16 {
     respawnWeapons[] = {"CUP_glaunch_M79", "CUP_hgun_Colt1911", "Throw", "Put"};
     magazines[] = {mag_12("CUP_1Rnd_HE_M203"), mag_5("CUP_7Rnd_45ACP_1911"), mag_2("1Rnd_Smoke_Grenade_shell")};
     respawnMagazines[] = {mag_12("CUP_1Rnd_HE_M203"), mag_5("CUP_7Rnd_45ACP_1911"), mag_2("1Rnd_Smoke_Grenade_shell")};
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Grenadier_M79.jpg);
 };
 
 class TACU_Vietnam_U_US_Sniper: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -180,6 +188,7 @@ class TACU_Vietnam_U_US_Sniper: TACU_Vietnam_U_US_Rifleman_M16_Light {
         "tacs_Hat_Boonie_RangerGreen", 0.30,
         "CUP_H_USMC_BOONIE_WDL", 0.30
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Sniper.jpg);
 };
 
 class TACU_Vietnam_U_US_Sniper_Ghillie: TACU_Vietnam_U_US_Sniper {
@@ -193,6 +202,7 @@ class TACU_Vietnam_U_US_Sniper_Ghillie: TACU_Vietnam_U_US_Sniper {
     headgearList[] = {
         "",1
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Sniper_Ghillie.jpg);
 };
 
 class TACU_Vietnam_U_US_Medic: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -214,6 +224,7 @@ class TACU_Vietnam_U_US_Medic: TACU_Vietnam_U_US_Rifleman_M16_Light {
         "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
         "CUP_H_USArmy_Helmet_M1_m81", 0.30
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Medic.jpg);
 };
 
 class TACU_Vietnam_U_US_TeamLeader: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -231,6 +242,7 @@ class TACU_Vietnam_U_US_TeamLeader: TACU_Vietnam_U_US_Rifleman_M16_Light {
         "CUP_H_CDF_OfficerCap_FST", 0.50,
         "CUP_H_CDF_OfficerCap_MNT", 0.50
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_TeamLeader.jpg);
 };
 
 class TACU_Vietnam_U_US_Officer: TACU_Vietnam_U_US_TeamLeader {
@@ -247,6 +259,7 @@ class TACU_Vietnam_U_US_Officer: TACU_Vietnam_U_US_TeamLeader {
     headgearList[] = {
         "H_Beret_Colonel", 1
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Officer.jpg);
 };
 
 class TACU_Vietnam_U_US_Crewman: TACU_Vietnam_U_US_Rifleman_M16_Light {
@@ -265,6 +278,7 @@ class TACU_Vietnam_U_US_Crewman: TACU_Vietnam_U_US_Rifleman_M16_Light {
     headgearList[] = {
         "CUP_H_USMC_Crew_Helmet", 1
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Crewman.jpg);
 };
 
 class TACU_Vietnam_U_US_Pilot_Helo: TACU_Vietnam_U_US_Crewman {
@@ -275,6 +289,7 @@ class TACU_Vietnam_U_US_Pilot_Helo: TACU_Vietnam_U_US_Crewman {
     headgearList[] = {
         "CUP_H_USMC_Helmet_Pilot", 1
     };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Pilot_Helo.jpg);
 };
 
 // Vehicles
@@ -283,6 +298,7 @@ class TACU_Vietnam_V_US_LandRover: CUP_B_LR_Transport_GB_W {
     side = 1;
     displayName = "Land Rover";
     crew = "TACU_Vietnam_U_US_Rifleman_M16_Light";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_LandRover.jpg);
 };
 
 class TACU_Vietnam_V_US_LandRover_M2: CUP_B_LR_MG_GB_W {
@@ -290,6 +306,7 @@ class TACU_Vietnam_V_US_LandRover_M2: CUP_B_LR_MG_GB_W {
     side = 1;
     displayName = "Land Rover (M2)";
     crew = "TACU_Vietnam_U_US_Rifleman_M16";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_LandRover_M2.jpg);
 };
 
 class TACU_Vietnam_V_US_M113A3: CUP_B_M113_USA {
@@ -297,6 +314,7 @@ class TACU_Vietnam_V_US_M113A3: CUP_B_M113_USA {
     side = 1;
     displayName = "M113A3";
     crew = "TACU_Vietnam_U_US_Crewman";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_M113A3.jpg);
 };
 
 class TACU_Vietnam_V_US_M113A3_Medic: CUP_B_M113_Med_USA {
@@ -304,6 +322,7 @@ class TACU_Vietnam_V_US_M113A3_Medic: CUP_B_M113_Med_USA {
     side = 1;
     displayName = "M113A3 (Ambulance)";
     crew = "TACU_Vietnam_U_US_Crewman";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_M113A3_Medic.jpg);
 };
 
 class TACU_Vietnam_V_US_M163A1VADS: CUP_B_M163_USA {
@@ -311,6 +330,7 @@ class TACU_Vietnam_V_US_M163A1VADS: CUP_B_M163_USA {
     side = 1;
     displayName = "M163A1 VADS";
     crew = "TACU_Vietnam_U_US_Crewman";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_M163A1VADS.jpg);
 };
 
 class TACU_Vietnam_V_US_M60A3: CUP_B_M60A3_USMC {
@@ -318,6 +338,7 @@ class TACU_Vietnam_V_US_M60A3: CUP_B_M60A3_USMC {
     side = 1;
     displayName = "M60A3 Patton";
     crew = "TACU_Vietnam_U_US_Crewman";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_M60A3.jpg);
 };
 
 class TACU_Vietnam_V_US_UH1H: CUP_I_UH1H_slick_TK_GUE {
@@ -325,6 +346,7 @@ class TACU_Vietnam_V_US_UH1H: CUP_I_UH1H_slick_TK_GUE {
     side = 1;
     displayName = "UH-1H Huey";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_UH1H.jpg);
 };
 
 class TACU_Vietnam_V_US_UH1H_Armed: CUP_I_UH1H_armed_TK_GUE {
@@ -332,6 +354,7 @@ class TACU_Vietnam_V_US_UH1H_Armed: CUP_I_UH1H_armed_TK_GUE {
     side = 1;
     displayName = "UH-1H Huey (Armed)";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_UH1H_Armed.jpg);
 };
 
 class TACU_Vietnam_V_US_UH1H_Gunship: CUP_I_UH1H_gunship_TK_GUE {
@@ -339,6 +362,7 @@ class TACU_Vietnam_V_US_UH1H_Gunship: CUP_I_UH1H_gunship_TK_GUE {
     side = 1;
     displayName = "UH-1H Huey (Gunship)";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_UH1H_Gunship.jpg);
 };
 
 class TACU_Vietnam_V_US_AC47D_Spooky: CUP_B_AC47_Spooky_USA {
@@ -346,6 +370,7 @@ class TACU_Vietnam_V_US_AC47D_Spooky: CUP_B_AC47_Spooky_USA {
     side = 1;
     displayName = "AC-47D Spooky";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_AC47D_Spooky.jpg);
 };
 
 class TACU_Vietnam_V_US_C47_Skytrain: CUP_B_C47_USA {
@@ -353,4 +378,5 @@ class TACU_Vietnam_V_US_C47_Skytrain: CUP_B_C47_USA {
     side = 1;
     displayName = "C-47 Skytrain";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    editorPreview = QPATHTOF(ui\Vietnam_V_US_C47_Skytrain.jpg);
 };
