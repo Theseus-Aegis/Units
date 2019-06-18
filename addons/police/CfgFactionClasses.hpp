@@ -20,7 +20,7 @@ class CfgFactionClasses {
 
 class CfgEditorSubcategories {
     class TACU_Police_EdSubCat_B_CT {
-        displayName = "Men (Counter-Terrorism)";
+        displayName = "Men (Counter-Terrorists)";
     };
 
     class TACU_Police_EdSubCat_B_Enforcer {
@@ -28,7 +28,7 @@ class CfgEditorSubcategories {
     };
 
     class TACU_Police_EdSubCat_O_CT {
-        displayName = "Men (Counter-Terrorism)";
+        displayName = "Men (Counter-Terrorists)";
     };
 
     class TACU_Police_EdSubCat_O_Enforcer {
@@ -36,7 +36,7 @@ class CfgEditorSubcategories {
     };
 
     class TACU_Police_EdSubCat_I_CT {
-        displayName = "Men (Counter-Terrorism)";
+        displayName = "Men (Counter-Terrorists)";
     };
 
     class TACU_Police_EdSubCat_I_Enforcer {
