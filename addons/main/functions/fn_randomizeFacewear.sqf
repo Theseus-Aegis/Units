@@ -1,6 +1,6 @@
 /*
  * Author: commy2
- * Adds random BW glasses to BW soldiers.
+ * Adds random glasses to soldiers.
  *
  * Arguments:
  * 0: unit <OBJECT>
