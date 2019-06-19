@@ -71,6 +71,14 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
         "CUP_H_US_patrol_cap_WDL", 0.25,
         "", 0.25
     };
+    TACU_allowedFacewear[] = {
+        "None",0.25,
+        "G_Balaclava_blk",0.25,
+        "G_Balaclava_oli",0.25,
+        "G_Balaclava_combat",0.25,
+        "G_Bandanna_blk",0.25,
+        "G_Bandanna_oli",0.25
+    };
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M16_Light.jpg);
 };
 

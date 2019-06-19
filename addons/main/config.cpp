@@ -88,5 +88,6 @@ class CfgPatches {
     };
 };
 
+#include "CfgEventHandlers.hpp"
 #include "CfgMods.hpp"
 #include "CfgVehicles.hpp"
