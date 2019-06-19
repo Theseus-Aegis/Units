@@ -140,6 +140,7 @@ class TACU_Cartel_V_O_Offroad_Jeep: I_C_Offroad_02_unarmed_F {
     side = 0;
     displayName = "Jeep Wrangler";
     crew = "TACU_Cartel_U_O_Soldado_Driver";
+    typicalCargo[] = {"TACU_Cartel_U_O_Soldado_Rifleman_01"};
     editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
 
@@ -148,6 +149,7 @@ class TACU_Cartel_V_O_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
     side = 0;
     displayName = "Jeep Wrangler (LMG)";
     crew = "TACU_Cartel_U_O_Soldado_Driver";
+    typicalCargo[] = {"TACU_Cartel_U_O_Soldado_Rifleman_02"};
     editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep_Armed.jpg);
 };
 
@@ -156,5 +158,6 @@ class TACU_Cartel_V_O_Van_Transport: C_Van_02_transport_F {
     side = 0;
     displayName = "Cargo Van Transport";
     crew = "TACU_Cartel_U_O_Soldado_Driver";
+    typicalCargo[] = {"TACU_Cartel_U_O_Soldado_Rifleman_03"};
     editorPreview = QPATHTOF(ui\Cartel_V_O_Van_Transport.jpg);
 };

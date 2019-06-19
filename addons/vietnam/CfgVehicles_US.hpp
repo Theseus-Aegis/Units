@@ -308,6 +308,7 @@ class TACU_Vietnam_V_US_LandRover: CUP_B_LR_Transport_GB_W {
     side = 1;
     displayName = "Land Rover";
     crew = "TACU_Vietnam_U_US_Rifleman_M16_Light";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Rifleman_M14_Light"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_LandRover.jpg);
 };
 
@@ -316,6 +317,7 @@ class TACU_Vietnam_V_US_LandRover_M2: CUP_B_LR_MG_GB_W {
     side = 1;
     displayName = "Land Rover (M2)";
     crew = "TACU_Vietnam_U_US_Rifleman_M16";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Rifleman_M14_Light"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_LandRover_M2.jpg);
 };
 
@@ -324,6 +326,7 @@ class TACU_Vietnam_V_US_M113A3: CUP_B_M113_USA {
     side = 1;
     displayName = "M113A3";
     crew = "TACU_Vietnam_U_US_Crewman";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Crewman"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_M113A3.jpg);
 };
 
@@ -332,6 +335,7 @@ class TACU_Vietnam_V_US_M113A3_Medic: CUP_B_M113_Med_USA {
     side = 1;
     displayName = "M113A3 (Ambulance)";
     crew = "TACU_Vietnam_U_US_Crewman";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Medic"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_M113A3_Medic.jpg);
 };
 
@@ -340,6 +344,7 @@ class TACU_Vietnam_V_US_M163A1VADS: CUP_B_M163_USA {
     side = 1;
     displayName = "M163A1 VADS";
     crew = "TACU_Vietnam_U_US_Crewman";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Crewman"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_M163A1VADS.jpg);
 };
 
@@ -348,6 +353,7 @@ class TACU_Vietnam_V_US_M60A3: CUP_B_M60A3_USMC {
     side = 1;
     displayName = "M60A3 Patton";
     crew = "TACU_Vietnam_U_US_Crewman";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Crewman"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_M60A3.jpg);
 };
 
@@ -356,6 +362,7 @@ class TACU_Vietnam_V_US_UH1H: CUP_I_UH1H_slick_TK_GUE {
     side = 1;
     displayName = "UH-1H Huey";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Pilot_Helo"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_UH1H.jpg);
 };
 
@@ -364,6 +371,7 @@ class TACU_Vietnam_V_US_UH1H_Armed: CUP_I_UH1H_armed_TK_GUE {
     side = 1;
     displayName = "UH-1H Huey (Armed)";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Pilot_Helo"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_UH1H_Armed.jpg);
 };
 
@@ -372,6 +380,7 @@ class TACU_Vietnam_V_US_UH1H_Gunship: CUP_I_UH1H_gunship_TK_GUE {
     side = 1;
     displayName = "UH-1H Huey (Gunship)";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Pilot_Helo"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_UH1H_Gunship.jpg);
 };
 
@@ -380,6 +389,7 @@ class TACU_Vietnam_V_US_AC47D_Spooky: CUP_B_AC47_Spooky_USA {
     side = 1;
     displayName = "AC-47D Spooky";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Pilot_Helo"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_AC47D_Spooky.jpg);
 };
 
@@ -388,5 +398,6 @@ class TACU_Vietnam_V_US_C47_Skytrain: CUP_B_C47_USA {
     side = 1;
     displayName = "C-47 Skytrain";
     crew = "TACU_Vietnam_U_US_Pilot_Helo";
+    typicalCargo[] = {"TACU_Vietnam_U_US_Pilot_Helo"};
     editorPreview = QPATHTOF(ui\Vietnam_V_US_C47_Skytrain.jpg);
 };

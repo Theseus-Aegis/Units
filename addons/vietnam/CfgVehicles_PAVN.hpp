@@ -426,6 +426,7 @@ class TACU_Vietnam_V_PAVN_UAZ: CUP_O_UAZ_Unarmed_SLA {
     side = 0;
     displayName = "UAZ";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56";
+    typicalCargo[] = {"TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U"};
     editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_UAZ.jpg);
 };
 
@@ -434,6 +435,7 @@ class TACU_Vietnam_V_PAVN_UAZ_Open: CUP_O_UAZ_Open_SLA {
     side = 0;
     displayName = "UAZ (Open)";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U";
+    typicalCargo[] = {"TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56"};
     editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_UAZ_Open.jpg);
 };
 
@@ -442,6 +444,7 @@ class TACU_Vietnam_V_PAVN_UAZ_MG: CUP_O_UAZ_MG_SLA {
     side = 0;
     displayName = "UAZ (MG)";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56";
+    typicalCargo[] = {"TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U"};
     editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_UAZ_MG.jpg);
 };
 
@@ -450,6 +453,7 @@ class TACU_Vietnam_V_PAVN_Ural: CUP_O_Ural_SLA {
     side = 0;
     displayName = "Ural";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56";
+    typicalCargo[] = {"TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U"};
     editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_Ural.jpg);
 };
 
@@ -458,5 +462,6 @@ class TACU_Vietnam_V_PAVN_Ural_Open: CUP_O_Ural_Open_SLA {
     side = 0;
     displayName = "Ural (Open)";
     crew = "TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U";
+    typicalCargo[] = {"TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56"};
     editorPreview = QPATHTOF(ui\Vietnam_V_PAVN_Ural_Open.jpg);
 };
