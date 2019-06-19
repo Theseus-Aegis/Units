@@ -22,6 +22,9 @@ class TACU_Vanguard_U_Contractor_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     headgearList[] = {
         "H_HelmetB_light_black", 1
     };
+    TACU_allowedFacewear[] = {
+        "None", 1
+    };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors";
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Rifleman_01.jpg);
 };

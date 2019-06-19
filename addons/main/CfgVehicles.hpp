@@ -32,6 +32,9 @@ class CfgVehicles {
         headgearList[] = {
             "", 1
         };
+        TACU_allowedFacewear[] = {
+            "None", 1
+        };
     };
 
     // Base OPFOR Soldier
@@ -62,6 +65,9 @@ class CfgVehicles {
         headgearList[] = {
             "", 1
         };
+        TACU_allowedFacewear[] = {
+            "None", 1
+        };
     };
 
     // Base INDEP Soldier
@@ -91,6 +97,9 @@ class CfgVehicles {
         respawnMagazines[] = {};
         headgearList[] = {
             "", 1
+        };
+        TACU_allowedFacewear[] = {
+            "None", 1
         };
     };
 };

@@ -23,6 +23,11 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     headgearList[] = {
         "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", 1
     };
+    TACU_allowedFacewear[] = {
+        "CUP_RUS_Balaclava_grn", 0.30,
+        "CUP_RUS_Balaclava_blk", 0.30,
+        "G_Balaclava_TI_G_blk_F", 0.30
+    };
     editorSubcategory = "TACU_Police_EdSubCat_O_CT";
 };
 
@@ -66,19 +71,25 @@ class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
 class TACU_Police_U_O_Enforcer_SMG_1: TACU_Police_U_O_CT_Rifleman {
     displayName = "SMG (Vityaz)";
     editorPreview = QPATHTOF(ui\Police_U_O_Enforcer_SMG_1.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_US_patrol_cap_OD", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_US_patrol_cap_OD", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Beret", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Beret", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
     weapons[] = {"CUP_smg_vityaz", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_vityaz", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_4("CUP_30Rnd_9x19AP_Vityaz"), mag_2("16Rnd_9x21_Mag")};
     respawnMagazines[] = {mag_4("CUP_30Rnd_9x19AP_Vityaz"), mag_2("16Rnd_9x21_Mag")};
     headgearList[] = {
-        "CUP_H_US_patrol_cap_OD", 0.80,
+        "CUP_H_SLA_Beret", 0.80,
         "CUP_H_PMC_Cap_Tan", 0.50,
         "CUP_H_PMC_Cap_PRR_Grey", 0.50,
         "CUP_H_PMC_Beanie_Khaki", 0.20,
         "CUP_H_SLA_BeanieGreen", 0.20,
         "CUP_H_PMC_Beanie_Black", 0.20,
+    };
+    TACU_allowedFacewear[] = {
+        "CUP_G_Oakleys_Drk", 0.25,
+        "CUP_G_Oakleys_Embr", 0.25,
+        "CUP_G_Oakleys_Clr", 0.25,
+        "G_Shades_Black", 0.25
     };
     editorSubcategory = "TACU_Police_EdSubCat_O_Enforcer";
 };

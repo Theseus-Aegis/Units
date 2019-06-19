@@ -21,6 +21,10 @@ class TACU_Police_U_I_CT_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     headgearList[] = {
         "TACU_Police_Helmet_PASGT_Neck_PoliceBlack", 1
     };
+    TACU_allowedFacewear[] = {
+        "G_Balaclava_blk", 0.70,
+        "G_Balaclava_combat", 0.30
+    };
     editorSubcategory = "TACU_Police_EdSubCat_I_CT";
 };
 
@@ -63,8 +67,8 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     uniformClass = "TACU_Police_Uniform_Combat_Black";
     backpack = "";
     editorPreview = QPATHTOF(ui\Police_U_I_Enforcer_Rifleman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Beret", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Beret", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_G36C", "hlc_pistol_P226US", "Throw", "Put"};
@@ -72,11 +76,17 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     magazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_3("hlc_15Rnd_9x19_B_P226")};
     respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_3("hlc_15Rnd_9x19_B_P226")};
     headgearList[] = {
-        "CUP_H_SLA_Beret", 0.80,
-        "H_Cap_blk", 0.50,
-        "CUP_H_PMC_Cap_Grey", 0.30,
+        "H_Cap_blk", 0.60,
+        "CUP_H_PMC_Cap_Grey", 0.40,
         "CUP_H_USArmy_Helmet_Pro", 0.10,
         "CUP_H_USArmy_Helmet_Pro_gog", 0.10
+    };
+    TACU_allowedFacewear[] = {
+        "CUP_G_Oakleys_Drk", 0.20,
+        "CUP_G_Oakleys_Embr", 0.20,
+        "CUP_G_Oakleys_Clr", 0.20,
+        "G_Shades_Black", 0.20,
+        "G_Aviator", 0.20
     };
     editorSubcategory = "TACU_Police_EdSubCat_I_Enforcer";
 };

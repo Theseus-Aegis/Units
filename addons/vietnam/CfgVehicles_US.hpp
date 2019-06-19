@@ -71,6 +71,12 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
         "CUP_H_US_patrol_cap_WDL", 0.25,
         "", 0.25
     };
+    TACU_allowedFacewear[] = {
+        "None", 0.60,
+        "G_Spectacles", 0.15,
+        "G_Squares", 0.15,
+        "G_Spectacles_Tinted", 0.05
+    };
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M16_Light.jpg);
 };
 
@@ -241,6 +247,10 @@ class TACU_Vietnam_U_US_TeamLeader: TACU_Vietnam_U_US_Rifleman_M16_Light {
     headgearList[] = {
         "CUP_H_CDF_OfficerCap_FST", 0.50,
         "CUP_H_CDF_OfficerCap_MNT", 0.50
+    };
+    TACU_allowedFacewear[] = {
+        "None", 0.50,
+        "G_Aviator", 0.50
     };
     editorPreview = QPATHTOF(ui\Vietnam_U_US_TeamLeader.jpg);
 };

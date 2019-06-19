@@ -113,6 +113,10 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
         "CUP_H_ChDKZ_Cap", 0.25,
         "", 0.20
     };
+    TACU_allowedFacewear[] = {
+        "None", 0.90,
+        "G_Squares", 0.10
+    };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NVA";
     editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Rifleman_Type56.jpg);
 };
@@ -120,8 +124,8 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
 class TACU_Vietnam_U_PAVN_NVA_Rifleman_AKS74U: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     displayName = "Rifleman (AKS-74U)";
     uniformClass = "CUP_U_O_RUS_M88_MSV_rolled_up";
-    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2"};
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN"};
     weapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
     magazines[] = {mag_7("CUP_30Rnd_545x39_AK74_plum_M"), "CUP_HandGrenade_RGD5"};
@@ -146,8 +150,8 @@ class TACU_Vietnam_U_PAVN_NVA_Autorifleman: TACU_Vietnam_U_PAVN_NVA_Rifleman_Typ
     icon = "iconManMG";
     role = "MachineGunner";
     backpack = "TACU_Vietnam_B_PAVN_LMG";
-    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG", "CUP_FR_NeckScarf2"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG", "CUP_FR_NeckScarf2"};
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_SLA_Helmet", "CUP_V_O_Ins_Carrier_Rig_MG"};
     weapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     magazines[] = {mag_3("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"), "CUP_HandGrenade_RGD5"};
@@ -191,8 +195,8 @@ class TACU_Vietnam_U_PAVN_NVA_Medic: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     backpack = "TACU_Vietnam_B_PAVN_Medic";
-    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_ChDKZ_Cap", "CUP_V_O_TK_Vest_2", "CUP_FR_NeckScarf2"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_ChDKZ_Cap", "CUP_V_O_TK_Vest_2", "CUP_FR_NeckScarf2"};
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_ChDKZ_Cap", "CUP_V_O_TK_Vest_2"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_ChDKZ_Cap", "CUP_V_O_TK_Vest_2"};
     weapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_Makarov", "Throw", "Put"};
     magazines[] = {mag_4("CUP_8Rnd_9x18_Makarov_M"), "SmokeShell"};
@@ -233,8 +237,8 @@ class TACU_Vietnam_U_PAVN_NVA_Sapper: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     role = "Sapper";
     uniformClass = "CUP_U_O_RUS_M88_MSV_rolled_up";
     backpack = "TACU_Vietnam_B_PAVN_Sapper";
-    linkedItems[] = {DEFAULT_ITEMS,"CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS,"CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN", "CUP_FR_NeckScarf2"};
+    linkedItems[] = {DEFAULT_ITEMS,"CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS,"CUP_H_SLA_Helmet", "CUP_V_O_SLA_M23_1_BRN"};
     Items[] = {mag_5("ACE_fieldDressing"), "ACE_DefusalKit"};
     respawnItems[] = {mag_5("ACE_fieldDressing"), "ACE_DefusalKit"};
     weapons[] = {"CUP_smg_SA61", "Throw", "Put"};
@@ -291,6 +295,10 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
         "CUP_H_ChDKZ_Cap", 0.25,
         "H_HeadBandage_clean_F", 0.25,
         "", 0.25
+    };
+    TACU_allowedFacewear[] = {
+        "None", 0.90,
+        "G_Squares", 0.10
     };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NLF";
     editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Rifleman_Type56.jpg);
