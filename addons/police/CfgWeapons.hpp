@@ -128,10 +128,7 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_pso_1_1_open";
-			};
+            EQUIP_OPTIC(cup_optic_pso_1_1_open);
 		};
     };
 
@@ -139,14 +136,8 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_eotech553_black";
-			};
-            class LinkedItemsAcc {
-				slot = "PointerSlot";
-				item = "cup_acc_anpeq_15_top_flashlight_black_l";
-			};
+            EQUIP_OPTIC(cup_optic_eotech553_black);
+            EQUIP_POINTER(cup_acc_anpeq_15_top_flashlight_black_l);
 		};
     };
 
@@ -154,18 +145,9 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_leupoldmk4_cq_t";
-			};
-            class LinkedItemsAcc {
-				slot = "PointerSlot";
-				item = "cup_acc_anpeq_15_black";
-			};
-            class LinkedItemsUnder {
-                slot = "UnderBarrelSlot";
-                item = "bipod_01_f_blk";
-            };
+            EQUIP_OPTIC(cup_optic_leupoldmk4_cq_t);
+            EQUIP_POINTER(cup_acc_anpeq_15_black);
+            EQUIP_BIPOD(bipod_01_f_blk);
 		};
     };
 
@@ -173,10 +155,7 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "hlc_optic_zf95base";
-			};
+            EQUIP_OPTIC(hlc_optic_zf95base);
 		};
     };
 
@@ -184,14 +163,8 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "optic_mrco";
-			};
-            class LinkedItemsAcc {
-				slot = "PointerSlot";
-				item = "cup_acc_anpeq_15_top_flashlight_black_l";
-			};
+            EQUIP_OPTIC(optic_mrco);
+            EQUIP_POINTER(cup_acc_anpeq_15_top_flashlight_black_l);
 		};
     };
 
@@ -199,18 +172,9 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_kobra";
-			};
-            class LinkedItemsAcc {
-				slot = "PointerSlot";
-				item = "cup_acc_anpeq_15_flashlight_black_l";
-			};
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "cup_muzzle_snds_sr3m";
-            };
+            EQUIP_OPTIC(cup_optic_kobra);
+            EQUIP_POINTER(cup_acc_anpeq_15_flashlight_black_l);
+            EQUIP_MUZZLE(cup_muzzle_snds_sr3m);
 		};
     };
 
@@ -218,18 +182,9 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_kobra";
-			};
-            class LinkedItemsAcc {
-				slot = "PointerSlot";
-				item = "cup_acc_anpeq_15_flashlight_black_l";
-			};
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "cup_muzzle_bizon";
-            };
+            EQUIP_OPTIC(cup_optic_kobra);
+            EQUIP_POINTER(cup_acc_anpeq_15_flashlight_black_l);
+            EQUIP_MUZZLE(cup_muzzle_bizon);
 		};
     };
 };

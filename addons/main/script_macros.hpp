@@ -40,3 +40,52 @@
 // Default Items (Compass, Map, Watch, Radio)
 #define DEFAULT_ITEMS "ItemMap", "ItemCompass", "ItemWatch"
 #define DEFAULT_ITEMS_RADIO "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"
+
+// Add Weapon, Item, Magazine to transport cargo (Vehicle, backpack etc.)
+#define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON { \
+    weapon = #WEAPON; \
+    count = COUNT; \
+}
+
+#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
+    name = #ITEM; \
+    count = COUNT; \
+}
+
+#define MACRO_ADDMAGAZINE(MAGAZINE,COUNT) class _xx_##MAGAZINE{ \
+    magazine = #MAGAZINE; \
+    count = COUNT; \
+}
+
+#define MACRO_ADDBACKPACK(BACKPACK,COUNT) class _xx_##BACKPACK { \
+    backpack = #BACKPACK; \
+    count = COUNT; \
+}
+
+// Empty vehicle cargo inventory
+#define MACRO_CLEAR_VEHICLE_CARGO \
+    class TransportBackpacks {}; \
+    class TransportItems {}; \
+    class TransportMagazines {}; \
+    class TransportWeapons {};
+
+// Add Attachments to Weapons (Optics, Pointer, Muzzle, Bipod)
+#define EQUIP_OPTIC(OPTIC) class LinkedItemsOptic { \
+    slot = "CowsSlot"; \
+    item = #OPTIC; \
+}
+
+#define EQUIP_POINTER(POINTER) class LinkedItemsAcc { \
+    slot = "PointerSlot"; \
+    item = #POINTER; \
+}
+
+#define EQUIP_MUZZLE(MUZZLE) class LinkedItemsMuzzle { \
+    slot = "MuzzleSlot"; \
+    item = #MUZZLE; \
+}
+
+#define EQUIP_BIPOD(BIPOD) class LinkedItemsUnder { \
+    slot = "UnderBarrelSlot"; \
+    item = #BIPOD; \
+}

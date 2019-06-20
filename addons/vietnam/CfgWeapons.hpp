@@ -7,10 +7,7 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "optic_khs_old";
-			};
+            EQUIP_OPTIC(optic_khs_old);
 		};
     };
 
@@ -18,14 +15,8 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_leupoldmk4_10x40_lrt_woodland";
-			};
-            class LinkedItemsAcc {
-				slot = "PointerSlot";
-				item = "cup_mxx_camo";
-			};
+            EQUIP_OPTIC(cup_optic_leupoldmk4_10x40_lrt_woodland);
+            EQUIP_POINTER(cup_mxx_camo);
 		};
     };
 
@@ -34,10 +25,7 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_pso_1_open";
-			};
+            EQUIP_OPTIC(cup_optic_pso_1_open);
 		};
     };
 
@@ -45,14 +33,8 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-			class LinkedItemsOptic {
-				slot = "CowsSlot";
-				item = "cup_optic_pso_1_open";
-			};
-            class LinkedItemsAcc {
-				slot = "PointerSlot";
-				item = "cup_svd_camo_g";
-			};
+            EQUIP_OPTIC(cup_optic_pso_1_open);
+            EQUIP_POINTER(cup_svd_camo_g);
 		};
     };
 };

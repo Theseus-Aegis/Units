@@ -123,6 +123,7 @@ class TACU_Police_U_O_Enforcer_Breacher: TACU_Police_U_O_Enforcer_SMG_1 {
 
 // Vehicles
 class TACU_Police_V_O_BRDM2_BlackRus: CUP_O_BRDM2_RUS {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Police_O";
     side = 0;
     displayName = "BRDM-2 (Police, Black)";
@@ -136,6 +137,7 @@ class TACU_Police_V_O_BRDM2_BlackRus: CUP_O_BRDM2_RUS {
 };
 
 class TACU_Police_V_O_Offroad_Black: Offroad_01_unarmed_base_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_O";
     scope = 2;
@@ -167,6 +169,7 @@ class TACU_Police_V_O_Offroad_Black: Offroad_01_unarmed_base_F {
 };
 
 class TACU_Police_V_O_Van_Cargo_Black: Van_02_vehicle_base_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_O";
     scope = 2;
@@ -198,6 +201,7 @@ class TACU_Police_V_O_Van_Cargo_Black: Van_02_vehicle_base_F {
 };
 
 class TACU_Police_V_O_Van_Transport_Black: Van_02_transport_base_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_O";
     scope = 2;

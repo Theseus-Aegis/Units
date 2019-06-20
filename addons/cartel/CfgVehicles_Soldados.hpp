@@ -136,6 +136,7 @@ class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
 // Vehicles - Cartel
 
 class TACU_Cartel_V_O_Offroad_Jeep: I_C_Offroad_02_unarmed_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Cartel_O";
     side = 0;
     displayName = "Jeep Wrangler";
@@ -145,6 +146,7 @@ class TACU_Cartel_V_O_Offroad_Jeep: I_C_Offroad_02_unarmed_F {
 };
 
 class TACU_Cartel_V_O_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Cartel_O";
     side = 0;
     displayName = "Jeep Wrangler (LMG)";
@@ -154,6 +156,7 @@ class TACU_Cartel_V_O_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
 };
 
 class TACU_Cartel_V_O_Van_Transport: C_Van_02_transport_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Cartel_O";
     side = 0;
     displayName = "Cargo Van Transport";

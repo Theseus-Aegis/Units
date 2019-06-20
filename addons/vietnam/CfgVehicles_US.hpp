@@ -3,34 +3,13 @@ class TACU_Vietnam_B_US_Medic: CUP_B_AlicePack_OD {
     scope = 1;
     scopeCurator = 1;
     class TransportItems {
-        class _xx_ACE_surgicalKit {
-            name = "ACE_surgicalKit";
-            count = 1;
-        };
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
-            count = 20;
-        };
-        class _xx_ACE_packingBandage {
-            name = "ACE_packingBandage";
-            count = 10;
-        };
-        class _xx_ACE_tourniquet {
-            name = "ACE_tourniquet";
-            count = 8;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 6;
-        };
-        class _xx_ACE_epinephrine {
-            name = "ACE_epinephrine";
-            count = 4;
-        };
-        class _xx_ACE_salineIV_500 {
-            name = "ACE_salineIV";
-            count = 4;
-        };
+        MACRO_ADDITEM(ACE_surgicalKit,1);
+        MACRO_ADDITEM(ACE_fieldDressing,20);
+        MACRO_ADDITEM(ACE_packingBandage,10);
+        MACRO_ADDITEM(ACE_tourniquet,8);
+        MACRO_ADDITEM(ACE_morphine,6);
+        MACRO_ADDITEM(ACE_epinephrine,4);
+        MACRO_ADDITEM(ACE_salineIV,4);
     };
 };
 
@@ -38,10 +17,7 @@ class TACU_Vietnam_B_US_MG: CUP_B_AlicePack_OD {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        class _xx_hlc_200Rnd_762x51_T_M60E4 {
-            magazine = "hlc_200Rnd_762x51_T_M60E4";
-            count = 2;
-        };
+        MACRO_ADDMAGAZINE(hlc_200Rnd_762x51_T_M60E4,2);
     };
 };
 
@@ -304,6 +280,7 @@ class TACU_Vietnam_U_US_Pilot_Helo: TACU_Vietnam_U_US_Crewman {
 
 // Vehicles
 class TACU_Vietnam_V_US_LandRover: CUP_B_LR_Transport_GB_W {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "Land Rover";
@@ -313,6 +290,7 @@ class TACU_Vietnam_V_US_LandRover: CUP_B_LR_Transport_GB_W {
 };
 
 class TACU_Vietnam_V_US_LandRover_M2: CUP_B_LR_MG_GB_W {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "Land Rover (M2)";
@@ -322,6 +300,7 @@ class TACU_Vietnam_V_US_LandRover_M2: CUP_B_LR_MG_GB_W {
 };
 
 class TACU_Vietnam_V_US_M113A3: CUP_B_M113_USA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "M113A3";
@@ -331,6 +310,7 @@ class TACU_Vietnam_V_US_M113A3: CUP_B_M113_USA {
 };
 
 class TACU_Vietnam_V_US_M113A3_Medic: CUP_B_M113_Med_USA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "M113A3 (Ambulance)";
@@ -340,6 +320,7 @@ class TACU_Vietnam_V_US_M113A3_Medic: CUP_B_M113_Med_USA {
 };
 
 class TACU_Vietnam_V_US_M163A1VADS: CUP_B_M163_USA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "M163A1 VADS";
@@ -349,6 +330,7 @@ class TACU_Vietnam_V_US_M163A1VADS: CUP_B_M163_USA {
 };
 
 class TACU_Vietnam_V_US_M60A3: CUP_B_M60A3_USMC {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "M60A3 Patton";
@@ -358,6 +340,7 @@ class TACU_Vietnam_V_US_M60A3: CUP_B_M60A3_USMC {
 };
 
 class TACU_Vietnam_V_US_UH1H: CUP_I_UH1H_slick_TK_GUE {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "UH-1H Huey";
@@ -367,6 +350,7 @@ class TACU_Vietnam_V_US_UH1H: CUP_I_UH1H_slick_TK_GUE {
 };
 
 class TACU_Vietnam_V_US_UH1H_Armed: CUP_I_UH1H_armed_TK_GUE {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "UH-1H Huey (Armed)";
@@ -376,6 +360,7 @@ class TACU_Vietnam_V_US_UH1H_Armed: CUP_I_UH1H_armed_TK_GUE {
 };
 
 class TACU_Vietnam_V_US_UH1H_Gunship: CUP_I_UH1H_gunship_TK_GUE {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "UH-1H Huey (Gunship)";
@@ -385,6 +370,7 @@ class TACU_Vietnam_V_US_UH1H_Gunship: CUP_I_UH1H_gunship_TK_GUE {
 };
 
 class TACU_Vietnam_V_US_AC47D_Spooky: CUP_B_AC47_Spooky_USA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "AC-47D Spooky";
@@ -394,6 +380,7 @@ class TACU_Vietnam_V_US_AC47D_Spooky: CUP_B_AC47_Spooky_USA {
 };
 
 class TACU_Vietnam_V_US_C47_Skytrain: CUP_B_C47_USA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_US";
     side = 1;
     displayName = "C-47 Skytrain";

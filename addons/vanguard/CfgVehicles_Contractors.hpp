@@ -136,6 +136,7 @@ class TACU_Vanguard_U_Contractor_Pilot: TACU_Vanguard_U_Contractor_Rifleman_01 {
 
 // Vehicles - Vanguard PMC
 class TACU_Vanguard_V_UH80_Ghosthawk: B_Heli_Transport_01_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     displayName = "UH-80 Ghosthawk";
@@ -146,6 +147,7 @@ class TACU_Vanguard_V_UH80_Ghosthawk: B_Heli_Transport_01_F {
 };
 
 class TACU_Vanguard_V_AH9_Pawnee: B_Heli_Light_01_dynamicLoadout_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     displayName = "AH-9 Pawnee";
@@ -156,6 +158,7 @@ class TACU_Vanguard_V_AH9_Pawnee: B_Heli_Light_01_dynamicLoadout_F {
 };
 
 class TACU_Vanguard_V_Offroad_Armed: tacs_Offroad_B_Armed_Black {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     displayName = "Offroad (Armed)";
@@ -165,6 +168,7 @@ class TACU_Vanguard_V_Offroad_Armed: tacs_Offroad_B_Armed_Black {
 };
 
 class TACU_Vanguard_V_Hunter: B_MRAP_01_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     displayName = "Hunter";
@@ -175,6 +179,7 @@ class TACU_Vanguard_V_Hunter: B_MRAP_01_F {
 };
 
 class TACU_Vanguard_V_Strider: I_MRAP_03_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     displayName = "Strider";
@@ -185,6 +190,7 @@ class TACU_Vanguard_V_Strider: I_MRAP_03_F {
 };
 
 class TACU_Vanguard_V_AFV4_Gorgon: I_APC_Wheeled_03_cannon_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     displayName = "AFV-4 Gorgon";
@@ -195,6 +201,7 @@ class TACU_Vanguard_V_AFV4_Gorgon: I_APC_Wheeled_03_cannon_F {
 };
 
 class TACU_Vanguard_V_Prowler: B_T_LSV_01_unarmed_black_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     scope = 2;
@@ -206,6 +213,7 @@ class TACU_Vanguard_V_Prowler: B_T_LSV_01_unarmed_black_F {
 };
 
 class TACU_Vanguard_V_Qilin: O_T_LSV_02_armed_black_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
     scope = 2;

@@ -3,10 +3,7 @@ class TACU_Vietnam_B_PAVN_AT: CUP_B_RPGPack_Khaki {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        class _xx_CUP_PG7V_M {
-            magazine = "CUP_PG7V_M";
-            count = 2;
-        };
+        MACRO_ADDMAGAZINE(CUP_PG7V_M,2);
     };
 };
 
@@ -14,10 +11,7 @@ class TACU_Vietnam_B_PAVN_LMG: CUP_B_AlicePack_Khaki {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        class _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M {
-            magazine = "CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M";
-            count = 4;
-        };
+        MACRO_ADDMAGAZINE(CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M,4);
     };
 };
 
@@ -25,10 +19,7 @@ class TACU_Vietnam_B_PAVN_MMG: CUP_B_AlicePack_OD {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M {
-            magazine = "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
-            count = 3;
-        };
+        MACRO_ADDMAGAZINE(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,3);
     };
 };
 
@@ -37,34 +28,13 @@ class TACU_Vietnam_B_PAVN_Medic: CUP_B_AlicePack_Bedroll {
     scope = 1;
     scopeCurator = 1;
     class TransportItems {
-        class _xx_ACE_surgicalKit {
-            name = "ACE_surgicalKit";
-            count = 1;
-        };
-        class _xx_ACE_fieldDressing {
-            name = "ACE_fieldDressing";
-            count = 20;
-        };
-        class _xx_ACE_packingBandage {
-            name = "ACE_packingBandage";
-            count = 10;
-        };
-        class _xx_ACE_tourniquet {
-            name = "ACE_tourniquet";
-            count = 8;
-        };
-        class _xx_ACE_morphine {
-            name = "ACE_morphine";
-            count = 6;
-        };
-        class _xx_ACE_epinephrine {
-            name = "ACE_epinephrine";
-            count = 4;
-        };
-        class _xx_ACE_salineIV_500 {
-            name = "ACE_salineIV";
-            count = 4;
-        };
+        MACRO_ADDITEM(ACE_surgicalKit,1);
+        MACRO_ADDITEM(ACE_fieldDressing,20);
+        MACRO_ADDITEM(ACE_packingBandage,10);
+        MACRO_ADDITEM(ACE_tourniquet,8);
+        MACRO_ADDITEM(ACE_morphine,6);
+        MACRO_ADDITEM(ACE_epinephrine,4);
+        MACRO_ADDITEM(ACE_salineIV,4);
     };
 };
 
@@ -72,14 +42,8 @@ class TACU_Vietnam_B_PAVN_Sapper: B_FieldPack_khk {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        class _xx_APERSBoundingMine_Range_Mag {
-            magazine = "APERSBoundingMine_Range_Mag";
-            count = 2;
-        };
-        class _xx_APERSMine_Range_Mag {
-            magazine = "APERSMine_Range_Mag";
-            count = 2;
-        };
+        MACRO_ADDMAGAZINE(APERSBoundingMine_Range_Mag,2);
+        MACRO_ADDMAGAZINE(APERSMine_Range_Mag,2);
     };
 };
 
@@ -422,6 +386,7 @@ class TACU_Vietnam_U_PAVN_NLF_Medic: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
 
 // Vehicles
 class TACU_Vietnam_V_PAVN_UAZ: CUP_O_UAZ_Unarmed_SLA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_PAVN";
     side = 0;
     displayName = "UAZ";
@@ -431,6 +396,7 @@ class TACU_Vietnam_V_PAVN_UAZ: CUP_O_UAZ_Unarmed_SLA {
 };
 
 class TACU_Vietnam_V_PAVN_UAZ_Open: CUP_O_UAZ_Open_SLA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_PAVN";
     side = 0;
     displayName = "UAZ (Open)";
@@ -440,6 +406,7 @@ class TACU_Vietnam_V_PAVN_UAZ_Open: CUP_O_UAZ_Open_SLA {
 };
 
 class TACU_Vietnam_V_PAVN_UAZ_MG: CUP_O_UAZ_MG_SLA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_PAVN";
     side = 0;
     displayName = "UAZ (MG)";
@@ -449,6 +416,7 @@ class TACU_Vietnam_V_PAVN_UAZ_MG: CUP_O_UAZ_MG_SLA {
 };
 
 class TACU_Vietnam_V_PAVN_Ural: CUP_O_Ural_SLA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_PAVN";
     side = 0;
     displayName = "Ural";
@@ -458,6 +426,7 @@ class TACU_Vietnam_V_PAVN_Ural: CUP_O_Ural_SLA {
 };
 
 class TACU_Vietnam_V_PAVN_Ural_Open: CUP_O_Ural_Open_SLA {
+    MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vietnam_PAVN";
     side = 0;
     displayName = "Ural (Open)";

@@ -5,18 +5,9 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CowsSlot";
-                item = "optic_dms";
-            };
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "ACE_Muzzle_mzls_H";
-            };
-            class LinkedItemsAcc {
-                slot = "PointerSlot";
-                item = "ACE_acc_pointer_green";
-            };
+            EQUIP_OPTIC(optic_dms);
+            EQUIP_MUZZLE(ACE_Muzzle_mzls_H);
+            EQUIP_POINTER(ACE_acc_pointer_green);
         };
     };
 
@@ -25,18 +16,9 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CowsSlot";
-                item = "optic_Hamr";
-            };
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "ACE_muzzle_mzls_H";
-            };
-            class LinkedItemsAcc {
-                slot = "PointerSlot";
-                item = "ACE_acc_pointer_green";
-            };
+            EQUIP_OPTIC(optic_Hamr);
+            EQUIP_MUZZLE(ACE_Muzzle_mzls_H);
+            EQUIP_POINTER(ACE_acc_pointer_green);
         };
     };
 
@@ -45,18 +27,9 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CowsSlot";
-                item = "optic_Hamr";
-            };
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "ACE_muzzle_mzls_H";
-            };
-            class LinkedItemsAcc {
-                slot = "PointerSlot";
-                item = "ACE_acc_pointer_green";
-            };
+            EQUIP_OPTIC(optic_Hamr);
+            EQUIP_MUZZLE(ACE_Muzzle_mzls_H);
+            EQUIP_POINTER(ACE_acc_pointer_green);
         };
     };
 
@@ -65,18 +38,9 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CowsSlot";
-                item = "optic_Hamr";
-            };
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "ACE_muzzle_mzls_H";
-            };
-            class LinkedItemsAcc {
-                slot = "PointerSlot";
-                item = "ACE_acc_pointer_green";
-            };
+            EQUIP_OPTIC(optic_Hamr);
+            EQUIP_MUZZLE(ACE_Muzzle_mzls_H);
+            EQUIP_POINTER(ACE_acc_pointer_green);
         };
     };
 
@@ -85,18 +49,9 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CowsSlot";
-                item = "optic_Hamr";
-            };
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "ACE_muzzle_mzls_H";
-            };
-            class LinkedItemsAcc {
-                slot = "PointerSlot";
-                item = "ACE_acc_pointer_green";
-            };
+            EQUIP_OPTIC(optic_Hamr);
+            EQUIP_MUZZLE(ACE_Muzzle_mzls_H);
+            EQUIP_POINTER(ACE_acc_pointer_green);
         };
     };
 
@@ -105,18 +60,9 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CowsSlot";
-                item = "optic_mrco";
-            };
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "ACE_muzzle_mzls_H";
-            };
-            class LinkedItemsAcc {
-                slot = "PointerSlot";
-                item = "ACE_acc_pointer_green";
-            };
+            EQUIP_OPTIC(optic_mrco);
+            EQUIP_MUZZLE(ACE_Muzzle_mzls_H);
+            EQUIP_POINTER(ACE_acc_pointer_green);
         };
     };
 
@@ -125,10 +71,7 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsMuzzle {
-                slot = "MuzzleSlot";
-                item = "muzzle_snds_L";
-            };
+            EQUIP_MUZZLE(muzzle_snds_L);
         };
     };
 };

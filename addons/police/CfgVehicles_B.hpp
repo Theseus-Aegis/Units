@@ -119,6 +119,7 @@ class TACU_Police_U_B_Enforcer_Breacher: TACU_Police_U_B_Enforcer_Rifleman {
 
 // Vehicles
 class TACU_Police_V_B_Offroad_Blue: Offroad_01_unarmed_base_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_B";
     scope = 2;
@@ -150,6 +151,7 @@ class TACU_Police_V_B_Offroad_Blue: Offroad_01_unarmed_base_F {
 };
 
 class TACU_Police_V_B_Van_Cargo_Blue: Van_02_vehicle_base_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_B";
     scope = 2;
@@ -181,6 +183,7 @@ class TACU_Police_V_B_Van_Cargo_Blue: Van_02_vehicle_base_F {
 };
 
 class TACU_Police_V_B_Van_Transport_Blue: Van_02_transport_base_F {
+    MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_B";
     scope = 2;
