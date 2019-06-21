@@ -27,7 +27,7 @@ class CfgWeapons {
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
-            uniformClass = "MSF_Unit_Combat_TigerDesert";
+            uniformClass = "TACU_MSF_Unit_Combat_TigerDesert";
             containerClass = "Supply40";
             mass = 40;
         };

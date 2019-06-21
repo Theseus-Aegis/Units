@@ -17,10 +17,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
-            class _xx_TACU_MSF_Uniform_Combat_TigerBlack {
-                name = "Combat Uniform (Tiger Black)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_TigerBlack,1);
         };
     };
 
@@ -31,10 +28,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
-            class _xx_TACU_MSF_Uniform_Combat_TigerDesert {
-                name = "Combat Uniform (Tiger Desert)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_TigerDesert,1);
         };
     };
 
@@ -45,10 +39,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
-            class _xx_TACU_MSF_Uniform_Combat_TigerWood {
-                name = "Combat Uniform (Tiger Wood)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_TigerWood,1);
         };
     };
 
@@ -60,14 +51,14 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerBlack_co.paa)};
     };
 
-    class TACU_MSF_Unit_Combat_TigerDesert: tacs_Unit_Combat_LS_Base {
+    class TACU_MSF_Unit_Combat_TigerDesert: TACU_MSF_Unit_Combat_TigerBlack {
         scope = 1;
         author = "Pomigit, Kresky";
         uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
         hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerDesert_co.paa)};
     };
 
-    class TACU_MSF_Unit_Combat_TigerWood: tacs_Unit_Combat_LS_Base {
+    class TACU_MSF_Unit_Combat_TigerWood: TACU_MSF_Unit_Combat_TigerBlack {
         scope = 1;
         author = "Pomigit, Kresky";
         uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
