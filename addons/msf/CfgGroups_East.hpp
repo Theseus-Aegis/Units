@@ -1,5 +1,114 @@
 class TACU_MSF_O {
     name = "Militaires Sans Frontières";
+    class TACU_MSF_G_O_Infantry_Main {
+        name = "Infantry";
+
+        class TACU_MSF_G_O_Infantry_Main_Patrol {
+            name = "Patrol";
+            side = 0;
+            faction = "TACU_MSF_O";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_O_Main_TeamLeader";
+                side = 0;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_O_Main_Rifleman";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+        };
+
+        class TACU_MSF_G_O_Infantry_Main_Fireteam {
+            name = "Fireteam";
+            side = 0;
+            faction = "TACU_MSF_O";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_O_Main_TeamLeader";
+                side = 0;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_O_Main_Autorifleman";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_O_Main_Rifleman";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_O_Main_Rifleman_AT";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+        };
+
+        class TACU_MSF_G_O_Infantry_Main_Squad {
+            name = "Squad";
+            side = 0;
+            faction = "TACU_MSF_O";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_O_Main_TeamLeader";
+                side = 0;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_O_Main_Autorifleman";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_O_Main_Rifleman";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_O_Main_Rifleman_AT";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+            class unit4 {
+                vehicle = "TACU_MSF_U_O_Main_Grenadier";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {-10, -10, 0};
+            };
+            class unit5 {
+                vehicle = "TACU_MSF_U_O_Main_Medic";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {15, -15, 0};
+            };
+            class unit6 {
+                vehicle = "TACU_MSF_U_O_Main_Engineer";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {-15, -15, 0};
+            };
+            class unit7 {
+                vehicle = "TACU_MSF_U_O_Main_Marksman";
+                side = 0;
+                rank = "PRIVATE";
+                position[] = {20, -20, 0};
+            };
+        };
+    };
+
     class TACU_MSF_G_O_Infantry_Desert {
         name = "Infantry (Desert)";
 
@@ -25,7 +134,7 @@ class TACU_MSF_O {
         class TACU_MSF_G_O_Infantry_Desert_Fireteam {
             name = "Fireteam";
             side = 0;
-            faction = "TACU_MSF_I";
+            faction = "TACU_MSF_O";
             icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
             class unit0 {
                 vehicle = "TACU_MSF_U_O_Desert_TeamLeader";
@@ -56,7 +165,7 @@ class TACU_MSF_O {
         class TACU_MSF_G_O_Infantry_Desert_Squad {
             name = "Squad";
             side = 0;
-            faction = "TACU_MSF_I";
+            faction = "TACU_MSF_O";
             icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
             class unit0 {
                 vehicle = "TACU_MSF_U_O_Desert_TeamLeader";
@@ -115,7 +224,7 @@ class TACU_MSF_O {
         class TACU_MSF_G_O_Infantry_Wood_Patrol {
             name = "Patrol";
             side = 0;
-            faction = "TACU_MSF_I";
+            faction = "TACU_MSF_O";
             icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
             class unit0 {
                 vehicle = "TACU_MSF_U_O_Wood_TeamLeader";
@@ -134,7 +243,7 @@ class TACU_MSF_O {
         class TACU_MSF_G_O_Infantry_Wood_Fireteam {
             name = "Fireteam";
             side = 0;
-            faction = "TACU_MSF_I";
+            faction = "TACU_MSF_O";
             icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
             class unit0 {
                 vehicle = "TACU_MSF_U_O_Wood_TeamLeader";
@@ -165,7 +274,7 @@ class TACU_MSF_O {
         class TACU_MSF_G_O_Infantry_Wood_Squad {
             name = "Squad";
             side = 0;
-            faction = "TACU_MSF_I";
+            faction = "TACU_MSF_O";
             icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
             class unit0 {
                 vehicle = "TACU_MSF_U_O_Wood_TeamLeader";

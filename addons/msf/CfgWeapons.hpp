@@ -13,7 +13,7 @@ class CfgWeapons {
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = "TACU_MSF_Unit_Combat_TigerBlack";
-            containerClass = "Supply40";
+            containerClass = "Supply100";
             mass = 40;
         };
     };
@@ -28,7 +28,7 @@ class CfgWeapons {
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = "TACU_MSF_Unit_Combat_TigerDesert";
-            containerClass = "Supply40";
+            containerClass = "Supply100";
             mass = 40;
         };
     };
@@ -43,8 +43,56 @@ class CfgWeapons {
         class ItemInfo: UniformItem {
             uniformModel = "-";
             uniformClass = "TACU_MSF_Unit_Combat_TigerWood";
-            containerClass = "Supply40";
+            containerClass = "Supply100";
             mass = 40;
+        };
+    };
+
+    // Vests
+    class V_PlateCarrierGL_blk;
+    class V_PlateCarrier1_blk;
+
+    class TACU_MSF_Vest_HeavyPlateCarrier_Black: V_PlateCarrierGL_blk {
+        author = "Kresky";
+        displayName = "Heavy Plate Carrier (MSF, Black)";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Black_co.paa)
+        };
+    };
+
+    class TACU_MSF_Vest_HeavyPlateCarrier_Coyote: V_PlateCarrierGL_blk {
+        displayName = "Heavy Plate Carrier (MSF, Coyote)";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Coyote_co.paa)
+        };
+    };
+
+    class TACU_MSF_Vest_HeavyPlateCarrier_Green: V_PlateCarrierGL_blk {
+        displayName = "Heavy Plate Carrier (MSF, Green)";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Green_co.paa)
+        };
+    };
+
+    class TACU_MSF_Vest_PlateCarrier_Black: V_PlateCarrier1_blk {
+        author = "Kresky";
+        displayName = "Plate Carrier (MSF, Black)";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\MSF_Vest_PlateCarrier_Black_co.paa)
+        };
+    };
+
+    class TACU_MSF_Vest_PlateCarrier_Coyote: V_PlateCarrier1_blk {
+        displayName = "Plate Carrier (MSF, Coyote)";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\MSF_Vest_PlateCarrier_Coyote_co.paa)
+        };
+    };
+
+    class TACU_MSF_Vest_PlateCarrier_Green: V_PlateCarrier1_blk {
+        displayName = "Plate Carrier (MSF, Green)";
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\MSF_Vest_PlateCarrier_Green_co.paa)
         };
     };
 

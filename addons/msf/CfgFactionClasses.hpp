@@ -13,8 +13,8 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_MSF_EdSubCat_Black {
-        displayName = "Men (Black Ops)";
+    class TACU_MSF_EdSubCat_Main {
+        displayName = "Men";
     };
 
     class TACU_MSF_EdSubCat_Desert {

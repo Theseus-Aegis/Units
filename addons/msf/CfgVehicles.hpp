@@ -1,13 +1,17 @@
 class CfgVehicles {
 
     // Base Classes
-    class Item_Base_F;
-    class TACU_Main_U_INDEP_Soldier_Base;
-    class tacs_Unit_Combat_LS_Base;
+    class B_AssaultPack_blk;
     class B_AssaultPack_cbr;
     class B_AssaultPack_rgr;
-    class CUP_B_RPGPack_Khaki;
+    class B_FieldPack_blk;
+    class B_FieldPack_cbr;
+    class B_FieldPack_oli;
     class CUP_I_Mi24_D_Dynamic_ION;
+    class Item_Base_F;
+    class tacs_Unit_Combat_LS_Base;
+    class TACU_Main_U_INDEP_Soldier_Base;
+    class Vest_Base_F;
 
     // Ground Items
     class TACU_MSF_Item_Uniform_Combat_TigerBlack: Item_Base_F {
@@ -43,6 +47,72 @@ class CfgVehicles {
         };
     };
 
+    class TACU_MSF_Item_Vest_HeavyPlateCarrier_Black: Vest_Base_F {
+        author = "Kresky";
+        displayName = "Heavy Plate Carrier (MSF, Black)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_HeavyPlateCarrier_Black,1);
+        };
+    };
+
+    class TACU_MSF_Item_Vest_HeavyPlateCarrier_Coyote: Vest_Base_F {
+        author = "Kresky";
+        displayName = "Heavy Plate Carrier (MSF, Coyote)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_HeavyPlateCarrier_Coyote,1);
+        };
+    };
+
+    class TACU_MSF_Item_Vest_HeavyPlateCarrier_Green: Vest_Base_F {
+        author = "Kresky";
+        displayName = "Heavy Plate Carrier (MSF, Green)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_HeavyPlateCarrier_Green,1);
+        };
+    };
+
+    class TACU_MSF_Item_Vest_PlateCarrier_Black: Vest_Base_F {
+        author = "Kresky";
+        displayName = "Plate Carrier (MSF, Black)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_PlateCarrier_Black,1);
+        };
+    };
+
+    class TACU_MSF_Item_Vest_PlateCarrier_Coyote: Vest_Base_F {
+        author = "Kresky";
+        displayName = "Plate Carrier (MSF, Coyote)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_PlateCarrier_Coyote,1);
+        };
+    };
+
+    class TACU_MSF_Item_Vest_PlateCarrier_Green: Vest_Base_F {
+        author = "Kresky";
+        displayName = "Plate Carrier (MSF, Green)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_PlateCarrier_Green,1);
+        };
+    };
+
     // Uniforms
     class TACU_MSF_Unit_Combat_TigerBlack: tacs_Unit_Combat_LS_Base {
         scope = 1;
@@ -66,19 +136,41 @@ class CfgVehicles {
     };
 
     // Backpacks
-    class TACU_MSF_B_AT_Coyote: B_AssaultPack_cbr {
+    class TACU_MSF_B_AT_Black: B_FieldPack_blk {
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_PG7V_M,2);
+            MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
         };
     };
 
-    class TACU_MSF_B_AT_Green: B_AssaultPack_rgr {
+    class TACU_MSF_B_AT_Coyote: B_FieldPack_cbr {
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_PG7V_M,2);
+            MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
+        };
+    };
+
+    class TACU_MSF_B_AT_Green: B_FieldPack_oli {
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
+        };
+    };
+
+    class TACU_MSF_B_Engineer_Black: B_AssaultPack_blk {
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,2);
+        };
+        class TransportItems {
+            MACRO_ADDITEM(ACE_DefusalKit,1);
+            MACRO_ADDITEM(ACE_M26_Clacker,1);
+            MACRO_ADDITEM(ACE_wirecutter,1);
+            MACRO_ADDITEM(ToolKit,1);
         };
     };
 
@@ -107,6 +199,23 @@ class CfgVehicles {
             MACRO_ADDITEM(ACE_M26_Clacker,1);
             MACRO_ADDITEM(ACE_wirecutter,1);
             MACRO_ADDITEM(ToolKit,1);
+        };
+    };
+
+    class TACU_MSF_B_Medic_Black: B_AssaultPack_blk {
+        scope = 1;
+        scopeCurator = 1;
+        class TransportItems {
+            MACRO_ADDITEM(ACE_surgicalKit,1);
+            MACRO_ADDITEM(ACE_personalAidKit,1);
+            MACRO_ADDITEM(ACE_tourniquet,8);
+            MACRO_ADDITEM(ACE_morphine,10);
+            MACRO_ADDITEM(ACE_epinephrine,10);
+            MACRO_ADDITEM(ACE_salineIV_500,4);
+            MACRO_ADDITEM(ACE_fieldDressing,40);
+            MACRO_ADDITEM(ACE_elasticBandage,10);
+            MACRO_ADDITEM(ACE_quikclot,10);
+            MACRO_ADDITEM(ACE_packingBandage,10);
         };
     };
 
@@ -146,8 +255,8 @@ class CfgVehicles {
 
     // Units and Vehicles
     #include "CfgVehicles_Desert.hpp"
+    #include "CfgVehicles_Main.hpp"
     #include "CfgVehicles_Wood.hpp"
-    #include "CfgVehicles_Black.hpp"
 };
 
 class Extended_Init_Eventhandlers {
