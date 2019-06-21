@@ -3,6 +3,7 @@ class TACU_MSF_U_I_Black_Pilot: TACU_MSF_U_I_Desert_Rifleman {
     displayName = "Pilot";
     icon = "iconManEngineer";
     role = "Sapper";
+    engineer = 1;
     uniformClass = "TACU_MSF_Uniform_Combat_TigerBlack";
     //editorPreview = QPATHTOF(ui\MSF_U_I_Black_Pilot.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Black_Veh"};

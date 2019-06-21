@@ -94,6 +94,7 @@ class TACU_MSF_U_I_Desert_Engineer: TACU_MSF_U_I_Desert_Rifleman {
     displayName = "Engineer";
     icon = "iconManEngineer";
     role = "Sapper";
+    engineer = 1;
     backpack = "TACU_MSF_B_Engineer_Coyote";
     //editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Engineer.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "CUP_V_B_BAF_DDPM_Osprey_Mk3_Engineer"};
