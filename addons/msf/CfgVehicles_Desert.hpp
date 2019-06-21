@@ -31,6 +31,11 @@ class TACU_MSF_U_I_Desert_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     editorSubcategory = "TACU_MSF_EdSubCat_Desert";
 };
 
+class TACU_MSF_U_O_Desert_Rifleman: TACU_MSF_U_I_Desert_Rifleman {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
 class TACU_MSF_U_I_Desert_Rifleman_AT: TACU_MSF_U_I_Desert_Rifleman {
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
@@ -43,6 +48,11 @@ class TACU_MSF_U_I_Desert_Rifleman_AT: TACU_MSF_U_I_Desert_Rifleman {
     respawnWeapons[] = {"TACU_MSF_W_ACR_Carb_Black", "CUP_launch_RPG7V", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_8("hlc_30rnd_556x45_EPR"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
     respawnMagazines[] = {mag_8("hlc_30rnd_556x45_EPR"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+};
+
+class TACU_MSF_U_O_Desert_Rifleman_AT: TACU_MSF_U_I_Desert_Rifleman_AT {
+    side = 0;
+    faction = "TACU_MSF_O";
 };
 
 class TACU_MSF_U_I_Desert_Autorifleman: TACU_MSF_U_I_Desert_Rifleman {
@@ -58,6 +68,11 @@ class TACU_MSF_U_I_Desert_Autorifleman: TACU_MSF_U_I_Desert_Rifleman {
     respawnMagazines[] = {mag_5("200Rnd_556x45_Box_Red_F"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
 };
 
+class TACU_MSF_U_O_Desert_Autorifleman: TACU_MSF_U_I_Desert_Autorifleman {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
 class TACU_MSF_U_I_Desert_TeamLeader: TACU_MSF_U_I_Desert_Rifleman {
     displayName = "Team Leader";
     icon = "iconManLeader";
@@ -68,6 +83,11 @@ class TACU_MSF_U_I_Desert_TeamLeader: TACU_MSF_U_I_Desert_Rifleman {
     respawnWeapons[] = {"TACU_MSF_W_ACR_Carb_Black", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_8("hlc_30rnd_556x45_EPR"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
     respawnMagazines[] = {mag_8("hlc_30rnd_556x45_EPR"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+};
+
+class TACU_MSF_U_O_Desert_TeamLeader: TACU_MSF_U_I_Desert_TeamLeader {
+    side = 0;
+    faction = "TACU_MSF_O";
 };
 
 class TACU_MSF_U_I_Desert_Engineer: TACU_MSF_U_I_Desert_Rifleman {
@@ -84,6 +104,11 @@ class TACU_MSF_U_I_Desert_Engineer: TACU_MSF_U_I_Desert_Rifleman {
     respawnMagazines[] = {mag_8("hlc_30rnd_556x45_EPR"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
 };
 
+class TACU_MSF_U_O_Desert_Engineer: TACU_MSF_U_I_Desert_Engineer {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
 class TACU_MSF_U_I_Desert_SMG: TACU_MSF_U_I_Desert_Rifleman {
     displayName = "SMG";
     //editorPreview = QPATHTOF(ui\MSF_U_I_Desert_SMG.jpg);
@@ -93,6 +118,11 @@ class TACU_MSF_U_I_Desert_SMG: TACU_MSF_U_I_Desert_Rifleman {
     respawnWeapons[] = {"SMG_03C_black", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_5("50Rnd_570x28_SMG_03"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
     respawnMagazines[] = {mag_5("50Rnd_570x28_SMG_03"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+};
+
+class TACU_MSF_U_O_Desert_SMG: TACU_MSF_U_I_Desert_SMG {
+    side = 0;
+    faction = "TACU_MSF_O";
 };
 
 class TACU_MSF_U_I_Desert_Medic: TACU_MSF_U_I_Desert_Rifleman {
@@ -110,6 +140,11 @@ class TACU_MSF_U_I_Desert_Medic: TACU_MSF_U_I_Desert_Rifleman {
     respawnMagazines[] = {mag_6("hlc_30rnd_556x45_EPR"), mag_3("11Rnd_45ACP_Mag"), mag_2("SmokeShell")};
 };
 
+class TACU_MSF_U_O_Desert_Medic: TACU_MSF_U_I_Desert_Medic {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
 class TACU_MSF_U_I_Desert_Grenadier: TACU_MSF_U_I_Desert_Rifleman {
     displayName = "Grenadier";
     //editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Grenadier.jpg);
@@ -119,6 +154,11 @@ class TACU_MSF_U_I_Desert_Grenadier: TACU_MSF_U_I_Desert_Rifleman {
     respawnWeapons[] = {"TACU_MSF_W_ACR_GL_Carb_Black", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_7("hlc_30rnd_556x45_EPR"), mag_6("1Rnd_HE_Grenade_shell"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("hlc_30rnd_556x45_EPR"), mag_6("1Rnd_HE_Grenade_shell"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+};
+
+class TACU_MSF_U_O_Desert_Grenadier: TACU_MSF_U_I_Desert_Grenadier {
+    side = 0;
+    faction = "TACU_MSF_O";
 };
 
 class TACU_MSF_U_I_Desert_Marksman: TACU_MSF_U_I_Desert_Rifleman {
@@ -133,18 +173,7 @@ class TACU_MSF_U_I_Desert_Marksman: TACU_MSF_U_I_Desert_Rifleman {
     respawnMagazines[] = {mag_6("20Rnd_762x51_Mag"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
 };
 
-class TACU_MSF_U_I_Desert_Crewman: TACU_MSF_U_I_Desert_Rifleman {
-    displayName = "Crewman";
-    icon = "iconManEngineer";
-    role = "Sapper";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Crewman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "CUP_V_B_BAF_DDPM_Osprey_Mk3_Crewman"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "CUP_V_B_BAF_DDPM_Osprey_Mk3_Crewman"};
-    weapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
-    respawnWeapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
-    magazines[] = {mag_4("11Rnd_45ACP_Mag"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_4("11Rnd_45ACP_Mag"), mag_2("SmokeShell")};
-    headgearList[] = {
-        "H_HelmetCrew_B", 1
-    };
+class TACU_MSF_U_O_Desert_Marksman: TACU_MSF_U_I_Desert_Marksman {
+    side = 0;
+    faction = "TACU_MSF_O";
 };

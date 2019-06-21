@@ -154,12 +154,9 @@ class CfgVehicles {
     };
 
     // Units and Vehicles
-    #include "CfgVehicles_I_Desert.hpp"
-    #include "CfgVehicles_I_Wood.hpp"
-    #include "CfgVehicles_O_Desert.hpp"
-    #include "CfgVehicles_O_Wood.hpp"
-    #include "CfgVehicles_I_Vehicles.hpp"
-    #include "CfgVehicles_O_Vehicles.hpp"
+    #include "CfgVehicles_Desert.hpp"
+    #include "CfgVehicles_Wood.hpp"
+    #include "CfgVehicles_Black.hpp"
 };
 
 class Extended_Init_Eventhandlers {
