@@ -8,7 +8,7 @@ class CfgWeapons {
         scope = 2;
         scopeCurator = 2;
         displayName = "Combat Uniform (Tiger Black)";
-        //picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerBlack.paa);
+        picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerBlack_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -23,7 +23,7 @@ class CfgWeapons {
         scope = 2;
         scopeCurator = 2;
         displayName = "Combat Uniform (Tiger Desert)";
-        //picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerDesert.paa);
+        picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerDesert_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -38,7 +38,7 @@ class CfgWeapons {
         scope = 2;
         scopeCurator = 2;
         displayName = "Combat Uniform (Tiger Wood)";
-        //picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerWood.paa);
+        picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerWood_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -49,26 +49,31 @@ class CfgWeapons {
     };
 
     // Vests
-    class V_PlateCarrierGL_blk;
+    class V_PlateCarrierGL_rgr;
     class V_PlateCarrier1_blk;
 
-    class TACU_MSF_Vest_HeavyPlateCarrier_Black: V_PlateCarrierGL_blk {
+    class TACU_MSF_Vest_HeavyPlateCarrier_Black: V_PlateCarrierGL_rgr {
         author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Black)";
+        picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Black_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Black_co.paa)
         };
     };
 
-    class TACU_MSF_Vest_HeavyPlateCarrier_Coyote: V_PlateCarrierGL_blk {
+    class TACU_MSF_Vest_HeavyPlateCarrier_Coyote: V_PlateCarrierGL_rgr {
+        author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Coyote)";
+        picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Coyote_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Coyote_co.paa)
         };
     };
 
-    class TACU_MSF_Vest_HeavyPlateCarrier_Green: V_PlateCarrierGL_blk {
+    class TACU_MSF_Vest_HeavyPlateCarrier_Green: V_PlateCarrierGL_rgr {
+        author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Green)";
+        picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Green_ca.paa);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Green_co.paa)
         };
