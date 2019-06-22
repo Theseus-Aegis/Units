@@ -254,8 +254,8 @@ class CfgVehicles {
     };
 
     // Units and Vehicles
+    #include "CfgVehicles_Black.hpp"
     #include "CfgVehicles_Desert.hpp"
-    #include "CfgVehicles_Main.hpp"
     #include "CfgVehicles_Wood.hpp"
 };
 
