@@ -4,6 +4,7 @@ class CfgWeapons {
     class UniformItem;
 
     class TACU_MSF_Uniform_Combat_TigerBlack: Uniform_Base {
+        dlc = QUOTE(PREFIX);
         author = "Kresky";
         scope = 2;
         scopeCurator = 2;
@@ -19,6 +20,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_Uniform_Combat_TigerDesert: Uniform_Base {
+        dlc = QUOTE(PREFIX);
         author = "Kresky";
         scope = 2;
         scopeCurator = 2;
@@ -34,6 +36,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_Uniform_Combat_TigerWood: Uniform_Base {
+        dlc = QUOTE(PREFIX);
         author = "Kresky";
         scope = 2;
         scopeCurator = 2;
@@ -53,6 +56,7 @@ class CfgWeapons {
     class V_PlateCarrier1_blk;
 
     class TACU_MSF_Vest_HeavyPlateCarrier_Black: V_PlateCarrierGL_rgr {
+        dlc = QUOTE(PREFIX);
         author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Black)";
         picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Black_ca.paa);
@@ -62,6 +66,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_Vest_HeavyPlateCarrier_Coyote: V_PlateCarrierGL_rgr {
+        dlc = QUOTE(PREFIX);
         author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Coyote)";
         picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Coyote_ca.paa);
@@ -71,6 +76,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_Vest_HeavyPlateCarrier_Green: V_PlateCarrierGL_rgr {
+        dlc = QUOTE(PREFIX);
         author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Green)";
         picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Green_ca.paa);
@@ -80,6 +86,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_Vest_PlateCarrier_Black: V_PlateCarrier1_blk {
+        dlc = QUOTE(PREFIX);
         author = "Kresky";
         displayName = "Plate Carrier (MSF, Black)";
         hiddenSelectionsTextures[] = {
@@ -88,6 +95,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_Vest_PlateCarrier_Coyote: V_PlateCarrier1_blk {
+        dlc = QUOTE(PREFIX);
         displayName = "Plate Carrier (MSF, Coyote)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\MSF_Vest_PlateCarrier_Coyote_co.paa)
@@ -95,6 +103,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_Vest_PlateCarrier_Green: V_PlateCarrier1_blk {
+        dlc = QUOTE(PREFIX);
         displayName = "Plate Carrier (MSF, Green)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\MSF_Vest_PlateCarrier_Green_co.paa)
@@ -107,6 +116,7 @@ class CfgWeapons {
     class srifle_DMR_03_F;
 
     class TACU_MSF_W_ACR_Carb_Black: hlc_rifle_ACR_carb_black {
+        dlc = QUOTE(PREFIX);
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
@@ -115,6 +125,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_W_ACR_GL_Carb_Black: hlc_rifle_ACR_GL_Carb_black {
+        dlc = QUOTE(PREFIX);
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
@@ -123,6 +134,7 @@ class CfgWeapons {
     };
 
     class TACU_MSF_W_SIG556_DMR: srifle_DMR_03_F {
+        dlc = QUOTE(PREFIX);
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {

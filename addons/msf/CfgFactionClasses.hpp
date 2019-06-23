@@ -13,7 +13,7 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_MSF_EdSubCat_Main {
+    class TACU_MSF_EdSubCat_Black {
         displayName = "Men";
     };
 

@@ -89,9 +89,41 @@ class CfgPatches {
             "TACU_MSF_U_O_Wood_SMG",
             "TACU_MSF_U_O_Wood_TeamLeader",
             // Vehicles (Indep)
+            "TACU_MSF_V_I_C130_Infantry",
+            "TACU_MSF_V_I_C130_Vehicle",
             "TACU_MSF_V_I_Mi24",
+            "TACU_MSF_V_I_MTVR_Transport_Black",
+            "TACU_MSF_V_I_MTVR_Ammo_Black",
+            "TACU_MSF_V_I_MTVR_Refuel_Black",
+            "TACU_MSF_V_I_MTVR_Repair_Black",
+            "TACU_MSF_V_I_Prowler_Black",
+            "TACU_MSF_V_I_Prowler_HMG_Black",
+            "TACU_MSF_V_I_Prowler_AT_Black",
+            "TACU_MSF_V_I_UH60",
+            "TACU_MSF_V_I_UH60_FFV",
+            "TACU_MSF_V_I_UH60_Unarmed",
+            "TACU_MSF_V_I_UH60_Unarmed_FFV",
+            "TACU_MSF_V_I_UH60_Gunship",
+            "TACU_MSF_V_I_V44_Infantry",
+            "TACU_MSF_V_I_V44_Vehicle",
             // Vehicles (Opfor)
-            "TACU_MSF_V_O_Mi24"
+            "TACU_MSF_V_O_C130_Infantry",
+            "TACU_MSF_V_O_C130_Vehicle",
+            "TACU_MSF_V_O_Mi24",
+            "TACU_MSF_V_O_MTVR_Transport_Black",
+            "TACU_MSF_V_O_MTVR_Ammo_Black",
+            "TACU_MSF_V_O_MTVR_Refuel_Black",
+            "TACU_MSF_V_O_MTVR_Repair_Black",
+            "TACU_MSF_V_O_Prowler_Black",
+            "TACU_MSF_V_O_Prowler_HMG_Black",
+            "TACU_MSF_V_O_Prowler_AT_Black",
+            "TACU_MSF_V_O_UH60",
+            "TACU_MSF_V_O_UH60_FFV",
+            "TACU_MSF_V_O_UH60_Unarmed",
+            "TACU_MSF_V_O_UH60_Unarmed_FFV",
+            "TACU_MSF_V_O_UH60_Gunship",
+            "TACU_MSF_V_O_V44_Infantry",
+            "TACU_MSF_V_O_V44_Vehicle"
         };
         weapons[] = {
             // Uniforms
@@ -112,7 +144,7 @@ class CfgPatches {
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
-        author = ECSTRING(Black,Author);
+        author = ECSTRING(main,Author);
         authors[] = {"Kresky"};
         VERSION_CONFIG;
     };
