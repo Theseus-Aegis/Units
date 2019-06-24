@@ -109,6 +109,115 @@ class TACU_MSF_I {
         };
     };
 
+    class TACU_MSF_G_I_Infantry_Elite_Black {
+        name = "Infantry (Elite - Black)";
+
+        class TACU_MSF_G_I_Infantry_Elite_Black_Patrol {
+            name = "Patrol";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Rifleman";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Teamleader";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+        };
+
+        class TACU_MSF_G_I_Infantry_Elite_Black_Fireteam {
+            name = "Fireteam";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Teamleader";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Autorifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Rifleman_AT";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+        };
+
+        class TACU_MSF_G_I_Infantry_Elite_Black_Squad {
+            name = "Squad";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Teamleader";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Autorifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Rifleman_AT";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+            class unit4 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Grenadier";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-10, -10, 0};
+            };
+            class unit5 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Medic";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {15, -15, 0};
+            };
+            class unit6 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-15, -15, 0};
+            };
+            class unit7 {
+                vehicle = "TACU_MSF_U_I_Elite_Black_Marksman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {20, -20, 0};
+            };
+        };
+    };
+
     class TACU_MSF_G_I_Infantry_Desert {
         name = "Infantry (Desert)";
 
@@ -218,6 +327,115 @@ class TACU_MSF_I {
         };
     };
 
+    class TACU_MSF_G_I_Infantry_Elite_Desert {
+        name = "Infantry (Elite - Desert)";
+
+        class TACU_MSF_G_I_Infantry_Elite_Desert_Patrol {
+            name = "Patrol";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Rifleman";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Teamleader";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+        };
+
+        class TACU_MSF_G_I_Infantry_Elite_Desert_Fireteam {
+            name = "Fireteam";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Teamleader";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Autorifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Rifleman_AT";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+        };
+
+        class TACU_MSF_G_I_Infantry_Elite_Desert_Squad {
+            name = "Squad";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Teamleader";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Autorifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Rifleman_AT";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+            class unit4 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Grenadier";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-10, -10, 0};
+            };
+            class unit5 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Medic";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {15, -15, 0};
+            };
+            class unit6 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-15, -15, 0};
+            };
+            class unit7 {
+                vehicle = "TACU_MSF_U_I_Elite_Desert_Marksman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {20, -20, 0};
+            };
+        };
+    };
+
     class TACU_MSF_G_I_Infantry_Wood {
         name = "Infantry (Woodland)";
 
@@ -320,6 +538,115 @@ class TACU_MSF_I {
             };
             class unit7 {
                 vehicle = "TACU_MSF_U_I_Wood_Marksman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {20, -20, 0};
+            };
+        };
+    };
+
+    class TACU_MSF_G_I_Infantry_Elite_Wood {
+        name = "Infantry (Elite - Wood)";
+
+        class TACU_MSF_G_I_Infantry_Elite_Wood_Patrol {
+            name = "Patrol";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Rifleman";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Teamleader";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+        };
+
+        class TACU_MSF_G_I_Infantry_Elite_Wood_Fireteam {
+            name = "Fireteam";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Teamleader";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Autorifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Rifleman_AT";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+        };
+
+        class TACU_MSF_G_I_Infantry_Elite_Wood_Squad {
+            name = "Squad";
+            side = 2;
+            faction = "TACU_MSF_I";
+            icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+            class unit0 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Teamleader";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Autorifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Rifleman_AT";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
+            };
+            class unit4 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Grenadier";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-10, -10, 0};
+            };
+            class unit5 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Medic";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {15, -15, 0};
+            };
+            class unit6 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-15, -15, 0};
+            };
+            class unit7 {
+                vehicle = "TACU_MSF_U_I_Elite_Wood_Marksman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {20, -20, 0};

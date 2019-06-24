@@ -36,6 +36,14 @@ class CfgPatches {
             "TACU_MSF_U_I_Black_Rifleman_AT",
             "TACU_MSF_U_I_Black_SMG",
             "TACU_MSF_U_I_Black_TeamLeader",
+            // Units (Indep - Elite Black)
+            "TACU_MSF_U_I_Elite_Black_Rifleman",
+            "TACU_MSF_U_I_Elite_Black_Rifleman_AT",
+            "TACU_MSF_U_I_Elite_Black_Autorifleman",
+            "TACU_MSF_U_I_Elite_Black_Grenadier",
+            "TACU_MSF_U_I_Elite_Black_Teamleader",
+            "TACU_MSF_U_I_Elite_Black_Marksman",
+            "TACU_MSF_U_I_Elite_Black_Medic",
             // Units (Indep - Desert)
             "TACU_MSF_U_I_Desert_Autorifleman",
             "TACU_MSF_U_I_Desert_Engineer",
@@ -46,6 +54,14 @@ class CfgPatches {
             "TACU_MSF_U_I_Desert_Rifleman_AT",
             "TACU_MSF_U_I_Desert_SMG",
             "TACU_MSF_U_I_Desert_TeamLeader",
+            // Units (Indep - Elite Desert)
+            "TACU_MSF_U_I_Elite_Desert_Rifleman",
+            "TACU_MSF_U_I_Elite_Desert_Rifleman_AT",
+            "TACU_MSF_U_I_Elite_Desert_Autorifleman",
+            "TACU_MSF_U_I_Elite_Desert_Grenadier",
+            "TACU_MSF_U_I_Elite_Desert_Teamleader",
+            "TACU_MSF_U_I_Elite_Desert_Marksman",
+            "TACU_MSF_U_I_Elite_Desert_Medic",
             // Units (Indep - Wood)
             "TACU_MSF_U_I_Wood_Autorifleman",
             "TACU_MSF_U_I_Wood_Engineer",
@@ -56,6 +72,14 @@ class CfgPatches {
             "TACU_MSF_U_I_Wood_Rifleman_AT",
             "TACU_MSF_U_I_Wood_SMG",
             "TACU_MSF_U_I_Wood_TeamLeader",
+            // Units (Indep - Elite Wood)
+            "TACU_MSF_U_I_Elite_Wood_Rifleman",
+            "TACU_MSF_U_I_Elite_Wood_Rifleman_AT",
+            "TACU_MSF_U_I_Elite_Wood_Autorifleman",
+            "TACU_MSF_U_I_Elite_Wood_Grenadier",
+            "TACU_MSF_U_I_Elite_Wood_Teamleader",
+            "TACU_MSF_U_I_Elite_Wood_Marksman",
+            "TACU_MSF_U_I_Elite_Wood_Medic",
             // Units (Opfor - Black)
             "TACU_MSF_U_O_Black_Autorifleman",
             "TACU_MSF_U_O_Black_Crewman",
@@ -68,6 +92,14 @@ class CfgPatches {
             "TACU_MSF_U_O_Black_Rifleman_AT",
             "TACU_MSF_U_O_Black_SMG",
             "TACU_MSF_U_O_Black_TeamLeader",
+            // Units (Opfor - Elite Black)
+            "TACU_MSF_U_O_Elite_Black_Rifleman",
+            "TACU_MSF_U_O_Elite_Black_Rifleman_AT",
+            "TACU_MSF_U_O_Elite_Black_Autorifleman",
+            "TACU_MSF_U_O_Elite_Black_Grenadier",
+            "TACU_MSF_U_O_Elite_Black_Teamleader",
+            "TACU_MSF_U_O_Elite_Black_Marksman",
+            "TACU_MSF_U_O_Elite_Black_Medic",
             // Units (Opfor - Desert)
             "TACU_MSF_U_O_Desert_Autorifleman",
             "TACU_MSF_U_O_Desert_Engineer",
@@ -78,6 +110,14 @@ class CfgPatches {
             "TACU_MSF_U_O_Desert_Rifleman_AT",
             "TACU_MSF_U_O_Desert_SMG",
             "TACU_MSF_U_O_Desert_TeamLeader",
+            // Units (Opfor - Elite Desert)
+            "TACU_MSF_U_O_Elite_Desert_Rifleman",
+            "TACU_MSF_U_O_Elite_Desert_Rifleman_AT",
+            "TACU_MSF_U_O_Elite_Desert_Autorifleman",
+            "TACU_MSF_U_O_Elite_Desert_Grenadier",
+            "TACU_MSF_U_O_Elite_Desert_Teamleader",
+            "TACU_MSF_U_O_Elite_Desert_Marksman",
+            "TACU_MSF_U_O_Elite_Desert_Medic",
             // Units (Opfor - Wood)
             "TACU_MSF_U_O_Wood_Autorifleman",
             "TACU_MSF_U_O_Wood_Engineer",
@@ -88,6 +128,14 @@ class CfgPatches {
             "TACU_MSF_U_O_Wood_Rifleman_AT",
             "TACU_MSF_U_O_Wood_SMG",
             "TACU_MSF_U_O_Wood_TeamLeader",
+            // Units (Opfor - Elite Wood)
+            "TACU_MSF_U_O_Elite_Wood_Rifleman",
+            "TACU_MSF_U_O_Elite_Wood_Rifleman_AT",
+            "TACU_MSF_U_O_Elite_Wood_Autorifleman",
+            "TACU_MSF_U_O_Elite_Wood_Grenadier",
+            "TACU_MSF_U_O_Elite_Wood_Teamleader",
+            "TACU_MSF_U_O_Elite_Wood_Marksman",
+            "TACU_MSF_U_O_Elite_Wood_Medic",
             // Vehicles (Indep)
             "TACU_MSF_V_I_C130_Infantry",
             "TACU_MSF_V_I_C130_Vehicle",
@@ -114,8 +162,11 @@ class CfgPatches {
             "TACU_MSF_V_O_MTVR_Ammo_Black",
             "TACU_MSF_V_O_MTVR_Refuel_Black",
             "TACU_MSF_V_O_MTVR_Repair_Black",
+            "TACU_MSF_V_Prowler_Base",
             "TACU_MSF_V_O_Prowler_Black",
+            "TACU_MSF_V_Prowler_HMG_Base",
             "TACU_MSF_V_O_Prowler_HMG_Black",
+            "TACU_MSF_V_Prowler_AT_Base",
             "TACU_MSF_V_O_Prowler_AT_Black",
             "TACU_MSF_V_O_UH60",
             "TACU_MSF_V_O_UH60_FFV",
@@ -140,7 +191,12 @@ class CfgPatches {
             // Weapons
             "TACU_MSF_W_ACR_Carb_Black",
             "TACU_MSF_W_ACR_GL_Carb_Black",
-            "TACU_MSF_W_SIG556_DMR"
+            "TACU_MSF_W_ACR68_Carb_Black",
+            "TACU_MSF_W_ACR68_GL_Carb_Black",
+            "TACU_MSF_W_MinimiSPW",
+            "TACU_MSF_W_P226R_40Combat",
+            "TACU_MSF_W_SIG556_DMR",
+            "TACU_MSF_W_SIG556_DMR_Elite"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};

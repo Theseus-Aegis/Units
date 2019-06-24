@@ -114,6 +114,10 @@ class CfgWeapons {
     class hlc_rifle_ACR_carb_black;
     class hlc_rifle_ACR_GL_Carb_black;
     class srifle_DMR_03_F;
+    class hlc_rifle_ACR68_carb_black;
+    class hlc_rifle_ACR68_GL_Carb_black;
+    class hlc_pistol_P226R_40Combat;
+    class LMG_03_F;
 
     class TACU_MSF_W_ACR_Carb_Black: hlc_rifle_ACR_carb_black {
         dlc = QUOTE(PREFIX);
@@ -140,6 +144,61 @@ class CfgWeapons {
 		class LinkedItems {
             EQUIP_OPTIC(optic_dms);
             EQUIP_BIPOD(bipod_01_f_blk);
+		};
+    };
+
+    class TACU_MSF_W_ACR68_Carb_Black: hlc_rifle_ACR68_carb_black {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_erco_blk_f);
+            EQUIP_POINTER(ace_acc_pointer_green);
+            EQUIP_MUZZLE(hlc_muzzle_300blk_kac);
+        };
+    };
+
+    class TACU_MSF_W_ACR68_GL_Carb_Black: hlc_rifle_ACR68_GL_Carb_black {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_erco_blk_f);
+            EQUIP_POINTER(ace_acc_pointer_green);
+            EQUIP_MUZZLE(hlc_muzzle_300blk_kac);
+        };
+    };
+
+    class TACU_MSF_W_P226R_40Combat: hlc_pistol_P226R_40Combat {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(hlc_optic_docter_cadex);
+            EQUIP_POINTER(cup_acc_mlpls_laser);
+            EQUIP_MUZZLE(hlc_muzzle_tirant9);
+        };
+    };
+
+    class TACU_MSF_W_MinimiSPW: LMG_03_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_erco_blk_f);
+            EQUIP_POINTER(ace_acc_pointer_green);
+            EQUIP_MUZZLE(muzzle_snds_h_mg_blk_f);
+        };
+    };
+
+    class TACU_MSF_W_SIG556_DMR_Elite: srifle_DMR_03_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+		scopeCurator = 1;
+		class LinkedItems {
+            EQUIP_OPTIC(optic_dms);
+            EQUIP_BIPOD(bipod_01_f_blk);
+            EQUIP_MUZZLE(muzzle_snds_b);
 		};
     };
 };
