@@ -11,8 +11,8 @@ class TACU_Vanguard_U_Contractor_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Combat_LS_CDBS_GP_TB";
     backpack = "";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetB_light_black", "tacs_Vest_PlateCarrier_Green"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetB_light_black", "tacs_Vest_PlateCarrier_Green"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetB_light_black", "V_PlateCarrier2_rgr_noflag_F"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetB_light_black", "V_PlateCarrier2_rgr_noflag_F"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_Mk20_ACO_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
