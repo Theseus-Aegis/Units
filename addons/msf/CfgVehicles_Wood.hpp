@@ -120,103 +120,103 @@ class TACU_MSF_U_O_Wood_Marksman: TACU_MSF_U_I_Wood_Marksman {
 };
 
 // Units - Elite
-class TACU_MSF_U_I_Elite_Wood_Rifleman: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_I_Wood_Elite_Rifleman: TACU_MSF_U_I_Black_Elite_Rifleman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Wood_Rifleman.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Wood_Elite_Rifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Wood";
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood_Elite";
 };
-class TACU_MSF_U_O_Elite_Wood_Rifleman: TACU_MSF_U_I_Elite_Wood_Rifleman {
+class TACU_MSF_U_O_Wood_Elite_Rifleman: TACU_MSF_U_I_Wood_Elite_Rifleman {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Wood_Rifleman_AT: TACU_MSF_U_I_Elite_Black_Rifleman_AT {
+class TACU_MSF_U_I_Wood_Elite_Rifleman_AT: TACU_MSF_U_I_Black_Elite_Rifleman_AT {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
     backpack = "TACU_MSF_B_AT_Green";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Wood_Rifleman_AT.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Wood_Elite_Rifleman_AT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Wood";
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood_Elite";
 };
-class TACU_MSF_U_O_Elite_Wood_Rifleman_AT: TACU_MSF_U_I_Elite_Wood_Rifleman_AT {
+class TACU_MSF_U_O_Wood_Elite_Rifleman_AT: TACU_MSF_U_I_Wood_Elite_Rifleman_AT {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Wood_Autorifleman: TACU_MSF_U_I_Elite_Black_Autorifleman {
+class TACU_MSF_U_I_Wood_Elite_Autorifleman: TACU_MSF_U_I_Black_Elite_Autorifleman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Wood_Autorifleman.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Wood_Elite_Autorifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Wood";
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood_Elite";
 };
-class TACU_MSF_U_O_Elite_Wood_Autorifleman: TACU_MSF_U_I_Elite_Wood_Autorifleman {
+class TACU_MSF_U_O_Wood_Elite_Autorifleman: TACU_MSF_U_I_Wood_Elite_Autorifleman {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Wood_Grenadier: TACU_MSF_U_I_Elite_Black_Grenadier {
+class TACU_MSF_U_I_Wood_Elite_Grenadier: TACU_MSF_U_I_Black_Elite_Grenadier {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Wood_Grenadier.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Wood_Elite_Grenadier.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Wood";
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood_Elite";
 };
-class TACU_MSF_U_O_Elite_Wood_Grenadier: TACU_MSF_U_I_Elite_Wood_Grenadier {
+class TACU_MSF_U_O_Wood_Elite_Grenadier: TACU_MSF_U_I_Wood_Elite_Grenadier {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Wood_Teamleader: TACU_MSF_U_I_Elite_Black_Teamleader {
+class TACU_MSF_U_I_Wood_Elite_Teamleader: TACU_MSF_U_I_Black_Elite_Teamleader {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Wood_Teamleader.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Wood_Elite_Teamleader.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Wood";
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood_Elite";
 };
-class TACU_MSF_U_O_Elite_Wood_Teamleader: TACU_MSF_U_I_Elite_Wood_Teamleader {
+class TACU_MSF_U_O_Wood_Elite_Teamleader: TACU_MSF_U_I_Wood_Elite_Teamleader {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Wood_Marksman: TACU_MSF_U_I_Elite_Black_Marksman {
+class TACU_MSF_U_I_Wood_Elite_Marksman: TACU_MSF_U_I_Black_Elite_Marksman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Wood_Marksman.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Wood_Elite_Marksman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Wood";
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood_Elite";
 };
-class TACU_MSF_U_O_Elite_Wood_Marksman: TACU_MSF_U_I_Elite_Wood_Marksman {
+class TACU_MSF_U_O_Wood_Elite_Marksman: TACU_MSF_U_I_Wood_Elite_Marksman {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Wood_Medic: TACU_MSF_U_I_Elite_Black_Medic {
+class TACU_MSF_U_I_Wood_Elite_Medic: TACU_MSF_U_I_Black_Elite_Medic {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
     backpack = "TACU_MSF_B_Medic_Green";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Wood_Medic.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Wood_Elite_Medic.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Green", "NVGogglesB_grn_F"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Wood";
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood_Elite";
 };
-class TACU_MSF_U_O_Elite_Wood_Medic: TACU_MSF_U_I_Elite_Wood_Medic {
+class TACU_MSF_U_O_Wood_Elite_Medic: TACU_MSF_U_I_Wood_Elite_Medic {
     side = 0;
     faction = "TACU_MSF_O";
 };

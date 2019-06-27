@@ -148,13 +148,13 @@ class TACU_MSF_U_O_Black_Marksman: TACU_MSF_U_I_Black_Marksman {
 };
 
 // Units - Elite
-class TACU_MSF_U_I_Elite_Black_Rifleman: TACU_MSF_U_I_Black_Rifleman {
+class TACU_MSF_U_I_Black_Elite_Rifleman: TACU_MSF_U_I_Black_Rifleman {
     displayName = "Rifleman";
     sensitivity = 2;
     sensitivityEar = 0.15;
     icon = "iconMan";
     role = "Rifleman";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Black_Rifleman.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Black_Elite_Rifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGogglesB_blk_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGogglesB_blk_F"};
     weapons[] = {"TACU_MSF_W_ACR68_Carb_Black", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
@@ -167,32 +167,32 @@ class TACU_MSF_U_I_Elite_Black_Rifleman: TACU_MSF_U_I_Black_Rifleman {
     TACU_allowedFacewear[] = {
         "G_Balaclava_TI_blk_F", 1,
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Black";
+    editorSubcategory = "TACU_MSF_EdSubCat_Black_Elite";
 };
-class TACU_MSF_U_O_Elite_Black_Rifleman: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_O_Black_Elite_Rifleman: TACU_MSF_U_I_Black_Elite_Rifleman {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Black_Rifleman_AT: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_I_Black_Elite_Rifleman_AT: TACU_MSF_U_I_Black_Elite_Rifleman {
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
     backpack = "TACU_MSF_B_AT_Black";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Black_Rifleman_AT.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Black_Elite_Rifleman_AT.jpg);
     weapons[] = {"TACU_MSF_W_ACR68_Carb_Black", "TACU_MSF_W_P226R_40Combat", "CUP_launch_RPG7V", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_ACR68_Carb_Black", "TACU_MSF_W_P226R_40Combat", "CUP_launch_RPG7V", "Throw", "Put"};
     magazines[] = {mag_6("hlc_30rnd_68x43_FMJ"), mag_3("hlc_12Rnd_40SW_B_P226"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_6("hlc_30rnd_68x43_FMJ"), mag_3("hlc_12Rnd_40SW_B_P226"), mag_2("HandGrenade"), "SmokeShell"};
 };
-class TACU_MSF_U_O_Elite_Black_Rifleman_AT: TACU_MSF_U_I_Elite_Black_Rifleman_AT {
+class TACU_MSF_U_O_Black_Elite_Rifleman_AT: TACU_MSF_U_I_Black_Elite_Rifleman_AT {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Black_Autorifleman: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_I_Black_Elite_Autorifleman: TACU_MSF_U_I_Black_Elite_Rifleman {
     displayName = "Autorifleman";
     icon = "iconManMG";
     role = "MachineGunner";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Black_Autorifleman.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Black_Elite_Autorifleman.jpg);
     weapons[] = {"TACU_MSF_W_MinimiSPW", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_MinimiSPW", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
     magazines[] = {mag_4("200Rnd_556x45_Box_F"), mag_2("hlc_12Rnd_40SW_B_P226"), "HandGrenade", "SmokeShell"};
@@ -203,17 +203,16 @@ class TACU_MSF_U_I_Elite_Black_Autorifleman: TACU_MSF_U_I_Elite_Black_Rifleman {
     TACU_allowedFacewear[] = {
         "G_Balaclava_TI_blk_F", 1,
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Elite_Black";
 };
-class TACU_MSF_U_O_Elite_Black_Autorifleman: TACU_MSF_U_I_Elite_Black_Autorifleman {
+class TACU_MSF_U_O_Black_Elite_Autorifleman: TACU_MSF_U_I_Black_Elite_Autorifleman {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Black_Grenadier: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_I_Black_Elite_Grenadier: TACU_MSF_U_I_Black_Elite_Rifleman {
     displayName = "Grenadier";
     icon = "iconMan";
     role = "Rifleman";
-    //editorPreview = QPATHTOF(ui\MSF_U_O_Elite_Black_Grenadier.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_O_Black_Elite_Grenadier.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGogglesB_blk_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGogglesB_blk_F"};
     weapons[] = {"TACU_MSF_W_ACR68_GL_Carb_Black", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
@@ -221,51 +220,51 @@ class TACU_MSF_U_I_Elite_Black_Grenadier: TACU_MSF_U_I_Elite_Black_Rifleman {
     magazines[] = {mag_7("hlc_30rnd_68x43_FMJ"), mag_5("1Rnd_HE_Grenade_shell"), mag_3("hlc_12Rnd_40SW_B_P226"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("hlc_30rnd_68x43_FMJ"), mag_5("1Rnd_HE_Grenade_shell"), mag_3("hlc_12Rnd_40SW_B_P226"), mag_2("HandGrenade"), "SmokeShell"};
 };
-class TACU_MSF_U_O_Elite_Black_Grenadier: TACU_MSF_U_I_Elite_Black_Grenadier {
+class TACU_MSF_U_O_Black_Elite_Grenadier: TACU_MSF_U_I_Black_Elite_Grenadier {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Black_Teamleader: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_I_Black_Elite_Teamleader: TACU_MSF_U_I_Black_Elite_Rifleman {
     displayName = "Team Leader";
     sensitivity = 2;
     sensitivityEar = 0.15;
     icon = "iconManLeader";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Black_Teamleader.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Black_Elite_Teamleader.jpg);
     magazines[] = {mag_8("hlc_30rnd_68x43_FMJ"), mag_3("hlc_12Rnd_40SW_B_P226"), mag_2("HandGrenade"), mag_2("SmokeShell")};
     respawnMagazines[] = {mag_8("hlc_30rnd_68x43_FMJ"), mag_3("hlc_12Rnd_40SW_B_P226"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
-class TACU_MSF_U_O_Elite_Black_Teamleader: TACU_MSF_U_I_Elite_Black_Teamleader {
+class TACU_MSF_U_O_Black_Elite_Teamleader: TACU_MSF_U_I_Black_Elite_Teamleader {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Black_Marksman: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_I_Black_Elite_Marksman: TACU_MSF_U_I_Black_Elite_Rifleman {
     displayName = "Marksman";
     sensitivity = 2;
     sensitivityEar = 0.15;
     role = "Marksman";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Black_Marksman.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Black_Elite_Marksman.jpg);
     weapons[] = {"TACU_MSF_W_SIG556_DMR_Elite", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_SIG556_DMR_Elite", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
     magazines[] = {mag_6("20Rnd_762x51_Mag"), mag_3("hlc_12Rnd_40SW_B_P226"), "HandGrenade", "SmokeShell"};
     respawnMagazines[] = {mag_6("20Rnd_762x51_Mag"), mag_3("hlc_12Rnd_40SW_B_P226"), "HandGrenade", "SmokeShell"};
 };
-class TACU_MSF_U_O_Elite_Black_Marksman: TACU_MSF_U_I_Elite_Black_Marksman {
+class TACU_MSF_U_O_Black_Elite_Marksman: TACU_MSF_U_I_Black_Elite_Marksman {
     side = 0;
     faction = "TACU_MSF_O";
 };
-class TACU_MSF_U_I_Elite_Black_Medic: TACU_MSF_U_I_Elite_Black_Rifleman {
+class TACU_MSF_U_I_Black_Elite_Medic: TACU_MSF_U_I_Black_Elite_Rifleman {
     displayName = "Medic";
     attendant = 1;
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     backpack = "TACU_MSF_B_Medic_Black";
-    //editorPreview = QPATHTOF(ui\MSF_U_I_Elite_Black_Medic.jpg);
+    //editorPreview = QPATHTOF(ui\MSF_U_I_Black_Elite_Medic.jpg);
     weapons[] = {"TACU_MSF_W_ACR68_Carb_Black", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_ACR68_Carb_Black", "TACU_MSF_W_P226R_40Combat", "Throw", "Put"};
     magazines[] = {mag_6("hlc_30rnd_68x43_FMJ"), mag_3("hlc_12Rnd_40SW_B_P226"), "HandGrenade", mag_2("SmokeShell")};
     respawnMagazines[] = {mag_6("hlc_30rnd_68x43_FMJ"), mag_3("hlc_12Rnd_40SW_B_P226"), "HandGrenade", mag_2("SmokeShell")};
 };
-class TACU_MSF_U_O_Elite_Black_Medic: TACU_MSF_U_I_Elite_Black_Medic {
+class TACU_MSF_U_O_Black_Elite_Medic: TACU_MSF_U_I_Black_Elite_Medic {
     side = 0;
     faction = "TACU_MSF_O";
 };
@@ -286,7 +285,6 @@ class TACU_MSF_U_I_Black_Pilot: TACU_MSF_U_I_Black_Rifleman {
     headgearList[] = {
         "H_PilotHelmetHeli_B", 1
     };
-    editorSubcategory = "TACU_MSF_EdSubCat_Black";
 };
 class TACU_MSF_U_O_Black_Pilot: TACU_MSF_U_I_Black_Pilot {
     side = 0;

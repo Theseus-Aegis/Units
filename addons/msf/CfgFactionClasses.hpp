@@ -24,13 +24,13 @@ class CfgEditorSubcategories {
         displayName = "Men (Desert)";
     };
     class TACU_MSF_EdSubCat_Elite_Desert {
-        displayName = "Men (Elite - Desert)";
+        displayName = "Men (Desert - Elite)";
     };
 
     class TACU_MSF_EdSubCat_Wood {
         displayName = "Men (Woodland)";
     };
     class TACU_MSF_EdSubCat_Elite_Wood {
-        displayName = "Men (Elite - Wood)";
+        displayName = "Men (Woodland - Elite)";
     };
 };
