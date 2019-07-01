@@ -25,8 +25,11 @@ class CfgPatches {
             // CBA
             "cba_main",
             // CUP
+            "CUP_AirVehicles_C130J",
             "CUP_AirVehicles_DC3",
+            "CUP_AirVehicles_Mi24",
             "CUP_AirVehicles_UH1H",
+            "CUP_AirVehicles_UH60",
             "CUP_Creatures_Military_BAF",
             "CUP_Creatures_Military_CDF",
             "CUP_Creatures_Military_Chedaki",
@@ -65,9 +68,11 @@ class CfgPatches {
             "CUP_Weapons_West_Attachments",
             "CUP_WheeledVehicles_BRDM2",
             "CUP_WheeledVehicles_LR",
+            "CUP_WheeledVehicles_MTVR",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
             // NIArms
+            "hlcweapons_acr",
             "hlcweapons_core",
             "hlcweapons_m60e4",
             "hlcweapons_SG550",
@@ -75,7 +80,7 @@ class CfgPatches {
             // Project Infinite
             "bnae_core",
             "bnae_M97",
-            // Theseus
+            // Theseus Services
             "tacs_vehicles",
             "tacs_headgear",
             "tacs_units",

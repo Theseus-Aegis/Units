@@ -20,10 +20,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsHeadgear";
         class TransportItems {
-            class _xx_TACU_Police_Helmet_PASGT_Neck_PoliceBlack {
-                name = "Police Helmet (Neck Protection, Black)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Helmet_PASGT_Neck_PoliceBlack,1);
         };
     };
 
@@ -34,10 +31,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsHeadgear";
         class TransportItems {
-            class _xx_TACU_Police_Helmet_PASGT_Neck_PoliceGreen {
-                name = "Police Helmet (Neck Protection, Green)";
-                count = 1;
-            };
+            MACRO_ADDITEM(ACU_Police_Helmet_PASGT_Neck_PoliceGreen,1);
         };
     };
 
@@ -48,10 +42,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
-            class _xx_TACU_Police_Uniform_Combat_Black {
-                name = "Police Combat Uniform (Black)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Uniform_Combat_Black,1);
         };
     };
 
@@ -62,10 +53,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
-            class _xx_TACU_Police_Uniform_Combat_Blue {
-                name = "Police Combat Uniform (Blue)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Uniform_Combat_Blue,1);
         };
     };
 
@@ -76,10 +64,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
-            class _xx_TACU_Police_Uniform_Combat_Brown {
-                name = "Police Combat Uniform (Brown)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Uniform_Combat_Brown,1);
         };
     };
 
@@ -90,10 +75,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsUniforms";
         class TransportItems {
-            class _xx_TACU_Police_Uniform_Combat_Green {
-                name = "Police Combat Uniform (Green)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Uniform_Combat_Green,1);
         };
     };
 
@@ -104,10 +86,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsVests";
         class TransportItems {
-            class _xx_TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack {
-                name = "Heavy Plate (Police, Black)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack,1);
         };
     };
 
@@ -118,10 +97,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsVests";
         class TransportItems {
-            class _xx_TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue {
-                name = "Heavy Plate (Police, Blue)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue,1);
         };
     };
 
@@ -132,10 +108,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsVests";
         class TransportItems {
-            class _xx_TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen {
-                name = "Heavy Plate (Police, Green)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen,1);
         };
     };
 
@@ -146,10 +119,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsVests";
         class TransportItems {
-            class _xx_TACU_Police_Vest_PlateCarrier_PoliceBlack {
-                name = "Plate Carrier (Police, Black)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Vest_PlateCarrier_PoliceBlack,1);
         };
     };
 
@@ -160,10 +130,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsVests";
         class TransportItems {
-            class _xx_TACU_Police_Vest_PlateCarrier_PoliceBlue {
-                name = "Plate Carrier (Police, Blue)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Vest_PlateCarrier_PoliceBlue,1);
         };
     };
 
@@ -174,10 +141,7 @@ class CfgVehicles {
         scopeCurator = 2;
         vehicleClass = "ItemsVests";
         class TransportItems {
-            class _xx_TACU_Police_Vest_PlateCarrier_PoliceGreen {
-                name = "Plate Carrier (Police, Green)";
-                count = 1;
-            };
+            MACRO_ADDITEM(TACU_Police_Vest_PlateCarrier_PoliceGreen,1);
         };
     };
 
