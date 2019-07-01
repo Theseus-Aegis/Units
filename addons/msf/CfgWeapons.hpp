@@ -154,7 +154,6 @@ class CfgWeapons {
         class LinkedItems {
             EQUIP_OPTIC(optic_erco_blk_f);
             EQUIP_POINTER(ace_acc_pointer_green);
-            EQUIP_MUZZLE(hlc_muzzle_300blk_kac);
         };
     };
 
@@ -165,7 +164,6 @@ class CfgWeapons {
         class LinkedItems {
             EQUIP_OPTIC(optic_erco_blk_f);
             EQUIP_POINTER(ace_acc_pointer_green);
-            EQUIP_MUZZLE(hlc_muzzle_300blk_kac);
         };
     };
 
@@ -176,7 +174,6 @@ class CfgWeapons {
         class LinkedItems {
             EQUIP_OPTIC(hlc_optic_docter_cadex);
             EQUIP_POINTER(cup_acc_mlpls_laser);
-            EQUIP_MUZZLE(hlc_muzzle_tirant9);
         };
     };
 
@@ -187,18 +184,6 @@ class CfgWeapons {
         class LinkedItems {
             EQUIP_OPTIC(optic_erco_blk_f);
             EQUIP_POINTER(ace_acc_pointer_green);
-            EQUIP_MUZZLE(muzzle_snds_h_mg_blk_f);
         };
-    };
-
-    class TACU_MSF_W_SIG556_DMR_Elite: srifle_DMR_03_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-		scopeCurator = 1;
-		class LinkedItems {
-            EQUIP_OPTIC(optic_dms);
-            EQUIP_BIPOD(bipod_01_f_blk);
-            EQUIP_MUZZLE(muzzle_snds_b);
-		};
     };
 };
