@@ -300,7 +300,7 @@ class CfgVehicles {
 };
 
 class Extended_Init_Eventhandlers {
-    class TACU_MSF_U_I_Black_Rifleman {
+    class TACU_MSF_U_I_Black_Rifleman_01 {
         class TACU_MSF_insignia_init {
             init = "if (local (_this select 0)) then {[(_this select 0), ""TACU_MSF_Insignia_Text""] call BIS_fnc_setUnitInsignia;};";
         };
