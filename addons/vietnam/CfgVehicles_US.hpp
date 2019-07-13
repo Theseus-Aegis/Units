@@ -87,8 +87,8 @@ class TACU_Vietnam_U_US_Rifleman_M14: TACU_Vietnam_U_US_Rifleman_M16 {
     displayName = "Rifleman (M14)";
     weapons[] = {"CUP_srifle_M14", "CUP_hgun_Colt1911", "Throw", "Put"};
     respawnWeapons[] = {"CUP_srifle_M14", "CUP_hgun_Colt1911", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
-    respawnMagazines[] = {mag_4("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+    magazines[] = {mag_6("20Rnd_762x51_Mag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+    respawnMagazines[] = {mag_6("20Rnd_762x51_Mag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M14.jpg);
 };
 
