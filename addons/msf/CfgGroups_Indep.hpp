@@ -328,7 +328,7 @@ class TACU_MSF_I {
     };
 
     class TACU_MSF_G_I_Infantry_Heavy_Desert {
-        name = "Infantry (Heavy - Desert)";
+        name = "Infantry (Desert - Heavy)";
 
         class TACU_MSF_G_I_Infantry_Desert_Heavy_Patrol {
             name = "Patrol";
@@ -546,7 +546,7 @@ class TACU_MSF_I {
     };
 
     class TACU_MSF_G_I_Infantry_Heavy_Wood {
-        name = "Infantry (Heavy - Wood)";
+        name = "Infantry (Woodland - Heavy)";
 
         class TACU_MSF_G_I_Infantry_Wood_Heavy_Patrol {
             name = "Patrol";

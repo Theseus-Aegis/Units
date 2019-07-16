@@ -48,10 +48,10 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
         "", 0.25
     };
     TACU_allowedFacewear[] = {
-        "None", 0.60,
-        "G_Spectacles", 0.15,
-        "G_Squares", 0.15,
-        "G_Spectacles_Tinted", 0.05
+        "None", 0.88,
+        "G_Spectacles", 0.05,
+        "G_Squares", 0.05,
+        "G_Spectacles_Tinted", 0.02
     };
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M16_Light.jpg);
 };

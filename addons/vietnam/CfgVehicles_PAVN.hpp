@@ -78,8 +78,8 @@ class TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
         "", 0.20
     };
     TACU_allowedFacewear[] = {
-        "None", 0.90,
-        "G_Squares", 0.10
+        "None", 0.95,
+        "G_Squares", 0.05
     };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NVA";
     editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NVA_Rifleman_Type56.jpg);
@@ -261,8 +261,8 @@ class TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56: TACU_Main_U_OPFOR_Soldier_Base {
         "", 0.25
     };
     TACU_allowedFacewear[] = {
-        "None", 0.90,
-        "G_Squares", 0.10
+        "None", 0.95,
+        "G_Squares", 0.05
     };
     editorSubcategory = "TACU_Vietnam_EdSubCat_PAVN_NLF";
     editorPreview = QPATHTOF(ui\Vietnam_U_PAVN_NLF_Rifleman_Type56.jpg);
