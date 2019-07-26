@@ -204,7 +204,7 @@ class TACU_MSF_I {
                 position[] = {15, -15, 0};
             };
             class unit6 {
-                vehicle = "TACU_MSF_U_I_Black_Heavy_Rifleman_01";
+                vehicle = "TACU_MSF_U_I_Black_Heavy_Engineer";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {-15, -15, 0};
@@ -422,7 +422,7 @@ class TACU_MSF_I {
                 position[] = {15, -15, 0};
             };
             class unit6 {
-                vehicle = "TACU_MSF_U_I_Desert_Heavy_Rifleman_01";
+                vehicle = "TACU_MSF_U_I_Desert_Heavy_Engineer";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {-15, -15, 0};
@@ -640,7 +640,7 @@ class TACU_MSF_I {
                 position[] = {15, -15, 0};
             };
             class unit6 {
-                vehicle = "TACU_MSF_U_I_Wood_Heavy_Rifleman_01";
+                vehicle = "TACU_MSF_U_I_Wood_Heavy_Engineer";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {-15, -15, 0};

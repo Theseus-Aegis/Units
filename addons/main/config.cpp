@@ -55,6 +55,7 @@ class CfgPatches {
             "CUP_Weapons_Grenades",
             "CUP_Weapons_HK416",
             "CUP_Weapons_Makarov",
+            "CUP_Weapons_M136",
             "CUP_Weapons_M14",
             "CUP_Weapons_M16",
             "CUP_Weapons_M24",
@@ -72,7 +73,6 @@ class CfgPatches {
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
             // NIArms
-            "hlcweapons_acr",
             "hlcweapons_core",
             "hlcweapons_m60e4",
             "hlcweapons_SG550",

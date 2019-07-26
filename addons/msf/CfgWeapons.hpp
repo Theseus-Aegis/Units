@@ -110,44 +110,77 @@ class CfgWeapons {
         };
     };
 
-    // Weapons
-    class hlc_rifle_ACR_carb_black;
-    class hlc_rifle_ACR_GL_Carb_black;
-    class srifle_DMR_03_F;
-    class hlc_rifle_ACR68_carb_black;
-    class hlc_rifle_ACR68_GL_Carb_black;
-    class hlc_pistol_P226R_40Combat;
-    class LMG_03_F;
-
-    class TACU_MSF_W_ACR_Carb_Black: hlc_rifle_ACR_carb_black {
+    // Weapons - Regular Units
+    class CUP_arifle_HK416_Black;
+    class TACU_MSF_W_HK416_Black: CUP_arifle_HK416_Black {
         dlc = QUOTE(PREFIX);
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
             EQUIP_OPTIC(cup_optic_eotech553_black);
+            EQUIP_POINTER(cup_acc_flashlight);
 		};
     };
 
-    class TACU_MSF_W_ACR_GL_Carb_Black: hlc_rifle_ACR_GL_Carb_black {
+    class CUP_arifle_HK416_M203_Black;
+    class TACU_MSF_W_HK416_GL_Black: CUP_arifle_HK416_M203_Black {
         dlc = QUOTE(PREFIX);
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
             EQUIP_OPTIC(cup_optic_eotech553_black);
+            EQUIP_POINTER(cup_acc_flashlight);
 		};
     };
 
-    class TACU_MSF_W_SIG556_DMR: srifle_DMR_03_F {
+    class CUP_arifle_HK416_CQB_Black;
+    class TACU_MSF_W_HK416_CQC_Black: CUP_arifle_HK416_CQB_Black {
         dlc = QUOTE(PREFIX);
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-            EQUIP_OPTIC(optic_dms);
+            EQUIP_OPTIC(cup_optic_eotech553_black);
+            EQUIP_POINTER(cup_acc_flashlight);
+		};
+    };
+
+    class CUP_arifle_HK416_CQB_M203_Black;
+    class TACU_MSF_W_HK416_GL_CQC_Black: CUP_arifle_HK416_CQB_M203_Black {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+		scopeCurator = 1;
+		class LinkedItems {
+            EQUIP_OPTIC(cup_optic_eotech553_black);
+            EQUIP_POINTER(cup_acc_flashlight);
+		};
+    };
+
+    class CUP_arifle_HK417_20;
+    class TACU_MSF_W_HK417_DMR_Black: CUP_arifle_HK417_20 {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+		scopeCurator = 1;
+		class LinkedItems {
+            EQUIP_OPTIC(optic_sos);
+            EQUIP_POINTER(cup_acc_flashlight);
+		};
+    };
+
+    class CUP_arifle_HK_M27_VFG;
+    class TACU_MSF_W_M27_Grip: CUP_arifle_HK_M27_VFG {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+		scopeCurator = 1;
+		class LinkedItems {
+            EQUIP_OPTIC(cup_optic_eotech553_black);
+            EQUIP_POINTER(cup_acc_flashlight);
             EQUIP_BIPOD(bipod_01_f_blk);
 		};
     };
 
-    class TACU_MSF_W_ACR68_Carb_Black: hlc_rifle_ACR68_carb_black {
+    // Weapons - Heavy Units
+    class arifle_MSBS65_black_F;
+    class TACU_MSF_W_Promet_Black: arifle_MSBS65_black_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
@@ -157,7 +190,8 @@ class CfgWeapons {
         };
     };
 
-    class TACU_MSF_W_ACR68_GL_Carb_Black: hlc_rifle_ACR68_GL_Carb_black {
+    class arifle_MSBS65_GL_black_F;
+    class TACU_MSF_W_Promet_GL_Black: arifle_MSBS65_GL_black_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
@@ -167,23 +201,47 @@ class CfgWeapons {
         };
     };
 
-    class TACU_MSF_W_P226R_40Combat: hlc_pistol_P226R_40Combat {
+    class arifle_MSBS65_Mark_black_F;
+    class TACU_MSF_W_Promet_DMR_Black: arifle_MSBS65_Mark_black_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(hlc_optic_docter_cadex);
+            EQUIP_OPTIC(optic_sos);
+            EQUIP_POINTER(ace_acc_pointer_green);
+        };
+    };
+
+    class arifle_MSBS65_UBS_black_F;
+    class TACU_MSF_W_Promet_SG_Black: arifle_MSBS65_UBS_black_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_erco_blk_f);
+            EQUIP_POINTER(ace_acc_pointer_green);
+        };
+    };
+
+    class LMG_Mk200_F;
+    class TACU_MSF_W_Stoner99LMG: LMG_Mk200_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_erco_blk_f);
+            EQUIP_POINTER(ace_acc_pointer_green);
+        };
+    };
+
+    class hgun_Pistol_heavy_01_green_F;
+    class TACU_MSF_W_FNX45_Green: hgun_Pistol_heavy_01_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_mrd_black);
             EQUIP_POINTER(cup_acc_mlpls_laser);
-        };
-    };
-
-    class TACU_MSF_W_MinimiSPW: LMG_03_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            EQUIP_OPTIC(optic_erco_blk_f);
-            EQUIP_POINTER(ace_acc_pointer_green);
         };
     };
 };

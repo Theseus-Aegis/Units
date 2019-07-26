@@ -38,6 +38,7 @@ class CfgPatches {
             "TACU_MSF_U_I_Black_TeamLeader",
             // Units (Indep - Black Heavy)
             "TACU_MSF_U_I_Black_Heavy_Autorifleman",
+            "TACU_MSF_U_I_Black_Heavy_Engineer",
             "TACU_MSF_U_I_Black_Heavy_Grenadier",
             "TACU_MSF_U_I_Black_Heavy_Marksman",
             "TACU_MSF_U_I_Black_Heavy_Medic",
@@ -56,6 +57,7 @@ class CfgPatches {
             "TACU_MSF_U_I_Desert_TeamLeader",
             // Units (Indep - Desert Heavy)
             "TACU_MSF_U_I_Desert_Heavy_Autorifleman",
+            "TACU_MSF_U_I_Desert_Heavy_Engineer",
             "TACU_MSF_U_I_Desert_Heavy_Grenadier",
             "TACU_MSF_U_I_Desert_Heavy_Marksman",
             "TACU_MSF_U_I_Desert_Heavy_Medic",
@@ -74,6 +76,7 @@ class CfgPatches {
             "TACU_MSF_U_I_Wood_TeamLeader",
             // Units (Indep - Wood Heavy)
             "TACU_MSF_U_I_Wood_Heavy_Autorifleman",
+            "TACU_MSF_U_I_Wood_Heavy_Engineer",
             "TACU_MSF_U_I_Wood_Heavy_Grenadier",
             "TACU_MSF_U_I_Wood_Heavy_Marksman",
             "TACU_MSF_U_I_Wood_Heavy_Medic",
@@ -94,6 +97,7 @@ class CfgPatches {
             "TACU_MSF_U_O_Black_TeamLeader",
             // Units (Opfor - Black Heavy)
             "TACU_MSF_U_O_Black_Heavy_Autorifleman",
+            "TACU_MSF_U_O_Black_Heavy_Engineer",
             "TACU_MSF_U_O_Black_Heavy_Grenadier",
             "TACU_MSF_U_O_Black_Heavy_Marksman",
             "TACU_MSF_U_O_Black_Heavy_Medic",
@@ -112,6 +116,7 @@ class CfgPatches {
             "TACU_MSF_U_O_Desert_TeamLeader",
             // Units (Opfor - Desert Heavy)
             "TACU_MSF_U_O_Desert_Heavy_Autorifleman",
+            "TACU_MSF_U_O_Desert_Heavy_Engineer",
             "TACU_MSF_U_O_Desert_Heavy_Grenadier",
             "TACU_MSF_U_O_Desert_Heavy_Rifleman_01",
             "TACU_MSF_U_O_Desert_Heavy_Rifleman_AT",
@@ -130,6 +135,7 @@ class CfgPatches {
             "TACU_MSF_U_O_Wood_TeamLeader",
             // Units (Opfor - Wood Heavy)
             "TACU_MSF_U_O_Wood_Heavy_Autorifleman",
+            "TACU_MSF_U_O_Wood_Heavy_Engineer",
             "TACU_MSF_U_O_Wood_Heavy_Grenadier",
             "TACU_MSF_U_O_Wood_Heavy_Marksman",
             "TACU_MSF_U_O_Wood_Heavy_Medic",
@@ -190,14 +196,18 @@ class CfgPatches {
             "TACU_MSF_Vest_PlateCarrier_Coyote",
             "TACU_MSF_Vest_PlateCarrier_Green",
             // Weapons
-            "TACU_MSF_W_ACR_Carb_Black",
-            "TACU_MSF_W_ACR_GL_Carb_Black",
-            "TACU_MSF_W_ACR68_Carb_Black",
-            "TACU_MSF_W_ACR68_GL_Carb_Black",
-            "TACU_MSF_W_MinimiSPW",
-            "TACU_MSF_W_P226R_40Combat",
-            "TACU_MSF_W_SIG556_DMR",
-            "TACU_MSF_W_SIG556_DMR_Heavy"
+            "TACU_MSF_W_HK416_Black",
+            "TACU_MSF_W_HK416GL_Black",
+            "TACU_MSF_W_HK416_CQC_Black",
+            "TACU_MSF_W_HK416GL_CQC_Black",
+            "TACU_MSF_W_HK417DMR_Black",
+            "TACU_MSF_W_M27_Grip",
+            "TACU_MSF_W_Promet_Black",
+            "TACU_MSF_W_PrometGL_Black",
+            "TACU_MSF_W_PrometDMR_Black",
+            "TACU_MSF_W_PrometSG_Black",
+            "TACU_MSF_W_Stoner99LMG",
+            "TACU_MSF_W_FNX45_Green"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
