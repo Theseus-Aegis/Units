@@ -33,4 +33,7 @@ class CfgEditorSubcategories {
     class TACU_MSF_EdSubCat_Wood_Heavy {
         displayName = "Men (Woodland - Heavy)";
     };
+    class TACU_MSF_EdSubCat_Zero {
+        displayName = "Men (Zero Spec-Ops)";
+    };
 };

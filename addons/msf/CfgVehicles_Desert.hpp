@@ -106,8 +106,8 @@ class TACU_MSF_U_O_Desert_Marksman: TACU_MSF_U_I_Desert_Marksman {
 class TACU_MSF_U_I_Desert_Heavy_Rifleman_01: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Rifleman_01.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
@@ -121,8 +121,8 @@ class TACU_MSF_U_I_Desert_Heavy_Rifleman_AT: TACU_MSF_U_I_Black_Heavy_Rifleman_A
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_AT_Coyote";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Rifleman_AT.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
@@ -135,8 +135,8 @@ class TACU_MSF_U_O_Desert_Heavy_Rifleman_AT: TACU_MSF_U_I_Desert_Heavy_Rifleman_
 class TACU_MSF_U_I_Desert_Heavy_Autorifleman: TACU_MSF_U_I_Black_Heavy_Autorifleman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Autorifleman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
@@ -149,8 +149,8 @@ class TACU_MSF_U_O_Desert_Heavy_Autorifleman: TACU_MSF_U_I_Desert_Heavy_Autorifl
 class TACU_MSF_U_I_Desert_Heavy_Grenadier: TACU_MSF_U_I_Black_Heavy_Grenadier {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Grenadier.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
@@ -163,8 +163,8 @@ class TACU_MSF_U_O_Desert_Heavy_Grenadier: TACU_MSF_U_I_Desert_Heavy_Grenadier {
 class TACU_MSF_U_I_Desert_Heavy_Teamleader: TACU_MSF_U_I_Black_Heavy_Teamleader {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Teamleader.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
@@ -177,8 +177,8 @@ class TACU_MSF_U_O_Desert_Heavy_Teamleader: TACU_MSF_U_I_Desert_Heavy_Teamleader
 class TACU_MSF_U_I_Desert_Heavy_Marksman: TACU_MSF_U_I_Black_Heavy_Marksman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Marksman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
@@ -192,8 +192,8 @@ class TACU_MSF_U_I_Desert_Heavy_Medic: TACU_MSF_U_I_Black_Heavy_Medic {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_Medic_Coyote";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Medic.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
@@ -207,8 +207,8 @@ class TACU_MSF_U_I_Desert_Heavy_Engineer: TACU_MSF_U_I_Black_Heavy_Engineer {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_Medic_Coyote";
     editorPreview = QPATHTOF(ui\MSF_U_I_Desert_Heavy_Engineer.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "NVGoggles"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Coyote", "CUP_NVG_PVS14"};
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };

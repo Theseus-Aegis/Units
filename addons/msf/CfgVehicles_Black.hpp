@@ -155,8 +155,8 @@ class TACU_MSF_U_I_Black_Heavy_Rifleman_01: TACU_MSF_U_I_Black_Rifleman_01 {
     icon = "iconMan";
     role = "Rifleman";
     editorPreview = QPATHTOF(ui\MSF_U_I_Black_Heavy_Rifleman_01.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGoggles_OPFOR"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGoggles_OPFOR"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "CUP_NVG_PVS14"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "CUP_NVG_PVS14"};
     weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
     magazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};

@@ -244,4 +244,51 @@ class CfgWeapons {
             EQUIP_POINTER(cup_acc_mlpls_laser);
         };
     };
+    class TACU_MSF_W_FNX45_Stealth_Green: hgun_Pistol_heavy_01_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_mrd_black);
+            EQUIP_POINTER(cup_acc_mlpls_laser);
+            EQUIP_MUZZLE(muzzle_snds_acp);
+        };
+    };
+
+    class hlc_rifle_honeybadger;
+    class TACU_MSF_W_HoneyBadger: hlc_rifle_honeybadger {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_aco);
+            EQUIP_POINTER(acc_pointer_ir);
+            EQUIP_MUZZLE(muzzle_hbadger);
+        };
+    };
+
+    class hlc_rifle_samr2;
+    class TACU_MSF_W_LAR15: hlc_rifle_samr2 {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_nvs);
+            EQUIP_POINTER(acc_pointer_ir);
+            EQUIP_MUZZLE(hlc_muzzle_556nato_kac);
+            EQUIP_BIPOD(bipod_01_f_blk);
+        };
+    };
+
+    class SMG_02_F;
+    class TACU_MSF_W_Scorpion: SMG_02_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_aco);
+            EQUIP_POINTER(acc_pointer_ir);
+            EQUIP_MUZZLE(muzzle_snds_l);
+        };
+    };
 };

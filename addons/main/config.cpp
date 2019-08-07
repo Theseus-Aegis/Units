@@ -73,6 +73,7 @@ class CfgPatches {
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
             // NIArms
+            "hlcweapons_ar15",
             "hlcweapons_core",
             "hlcweapons_m60e4",
             "hlcweapons_SG550",

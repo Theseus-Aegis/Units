@@ -83,6 +83,11 @@ class CfgPatches {
             "TACU_MSF_U_I_Wood_Heavy_Rifleman_01",
             "TACU_MSF_U_I_Wood_Heavy_Rifleman_AT",
             "TACU_MSF_U_I_Wood_Heavy_Teamleader",
+            // Units (Indep - Zero Spec-Ops)
+            "TACU_MSF_U_I_Zero_Rifleman_01",
+            "TACU_MSF_U_I_Zero_Autorifleman",
+            "TACU_MSF_U_I_Zero_Marksman",
+            "TACU_MSF_U_I_Zero_SMG_01",
             // Units (Opfor - Black)
             "TACU_MSF_U_O_Black_Autorifleman",
             "TACU_MSF_U_O_Black_Crewman",
@@ -142,6 +147,11 @@ class CfgPatches {
             "TACU_MSF_U_O_Wood_Heavy_Rifleman_01",
             "TACU_MSF_U_O_Wood_Heavy_Rifleman_AT",
             "TACU_MSF_U_O_Wood_Heavy_Teamleader",
+            // Units (Indep - Zero Spec-Ops)
+            "TACU_MSF_U_O_Zero_Rifleman_01",
+            "TACU_MSF_U_O_Zero_Autorifleman",
+            "TACU_MSF_U_O_Zero_Marksman",
+            "TACU_MSF_U_O_Zero_SMG_01",
             // Vehicles (Base classes)
             "TACU_MSF_V_Prowler_AT_Base",
             "TACU_MSF_V_Prowler_HMG_Base",
@@ -196,18 +206,23 @@ class CfgPatches {
             "TACU_MSF_Vest_PlateCarrier_Coyote",
             "TACU_MSF_Vest_PlateCarrier_Green",
             // Weapons
+            "TACU_MSF_W_FNX45_Green",
+            "TACU_MSF_W_FNX45_Stealth_Green",
             "TACU_MSF_W_HK416_Black",
             "TACU_MSF_W_HK416GL_Black",
             "TACU_MSF_W_HK416_CQC_Black",
             "TACU_MSF_W_HK416GL_CQC_Black",
             "TACU_MSF_W_HK417DMR_Black",
+            "TACU_MSF_W_HoneyBadger",
+            "TACU_MSF_W_LAR15",
             "TACU_MSF_W_M27_Grip",
             "TACU_MSF_W_Promet_Black",
             "TACU_MSF_W_PrometGL_Black",
             "TACU_MSF_W_PrometDMR_Black",
             "TACU_MSF_W_PrometSG_Black",
-            "TACU_MSF_W_Stoner99LMG",
-            "TACU_MSF_W_FNX45_Green"
+            "TACU_MSF_W_Scorpion",
+            "TACU_MSF_W_Stoner99LMG"
+
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
