@@ -96,6 +96,7 @@ class CfgWeapons {
 
     class TACU_MSF_Vest_PlateCarrier_Coyote: V_PlateCarrier1_blk {
         dlc = QUOTE(PREFIX);
+        author = "Kresky";
         displayName = "Plate Carrier (MSF, Coyote)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\MSF_Vest_PlateCarrier_Coyote_co.paa)
@@ -104,6 +105,7 @@ class CfgWeapons {
 
     class TACU_MSF_Vest_PlateCarrier_Green: V_PlateCarrier1_blk {
         dlc = QUOTE(PREFIX);
+        author = "Kresky";
         displayName = "Plate Carrier (MSF, Green)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\MSF_Vest_PlateCarrier_Green_co.paa)
