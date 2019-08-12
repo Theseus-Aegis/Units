@@ -124,7 +124,7 @@ class CfgGroups {
                 class TACU_Cartel_G_Sicario_Fireteam {
                     name = "Sicario Fireteam";
                     side = 0;
-                    faction = "TACU_Cartel";
+                    faction = "TACU_Cartel_O";
                     icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                     class unit0 {
                         vehicle = "TACU_Cartel_U_O_Sicario_Rifleman_03";
