@@ -7,8 +7,14 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_Vanguard_EdSubCat_Contractors {
-        displayName = "Men (Contractors)";
+    class TACU_Vanguard_EdSubCat_Contractors_Green {
+        displayName = "Men (Contractors Green)";
+    };
+    class TACU_Vanguard_EdSubCat_Contractors_Sand {
+        displayName = "Men (Contractors Sand)";
+    };
+    class TACU_Vanguard_EdSubCat_Guards {
+        displayName = "Men (Guards)";
     };
     class TACU_Vanguard_EdSubCat_Specialists {
         displayName = "Men (Specialists)";
