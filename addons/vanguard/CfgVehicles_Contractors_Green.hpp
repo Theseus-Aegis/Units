@@ -139,6 +139,8 @@ class TACU_Vanguard_V_UH80_Ghosthawk: B_Heli_Transport_01_F {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "UH-80 Ghosthawk";
     crew = "TACU_Vanguard_U_Contractor_Pilot";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -150,6 +152,8 @@ class TACU_Vanguard_V_AH9_Pawnee: B_Heli_Light_01_dynamicLoadout_F {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "AH-9 Pawnee";
     crew = "TACU_Vanguard_U_Contractor_Pilot";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -161,6 +165,8 @@ class TACU_Vanguard_V_Offroad_Armed: tacs_Offroad_B_Armed_Black {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "Offroad (Armed)";
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -171,6 +177,8 @@ class TACU_Vanguard_V_Dagor_Green: tacs_Polaris_B_Green {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "Polaris Dagor (Green)";
     crew = "TACU_Vanguard_U_Contractor_Green_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -181,6 +189,8 @@ class TACU_Vanguard_V_Dagor_Armed_Green: tacs_Polaris_B_Armed_Green {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "Polaris Dagor (XM312) Green";
     crew = "TACU_Vanguard_U_Contractor_Green_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -190,6 +200,8 @@ class TACU_Vanguard_V_AFV4_Gorgon: I_APC_Wheeled_03_cannon_F {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "AFV-4 Gorgon (Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -201,6 +213,8 @@ class TACU_Vanguard_V_Hunter: B_MRAP_01_F {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "Hunter (Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -212,6 +226,8 @@ class TACU_Vanguard_V_Dagor_Tan: tacs_Polaris_B_Tan {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "Polaris Dagor Sand";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -222,6 +238,8 @@ class TACU_Vanguard_V_Dagor_Armed_Tan: tacs_Polaris_B_Armed_Tan {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "Polaris Dagor (XM312) Sand";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -231,6 +249,8 @@ class TACU_Vanguard_V_Strider: I_MRAP_03_F {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
+    scope = 2;
+    scopeCurator = 2;
     displayName = "Strider";
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};

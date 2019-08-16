@@ -25,7 +25,7 @@ class TACU_Vanguard_U_Contractor_Guard_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     TACU_allowedFacewear[] = {
         "G_Aviator", 1
     };
-    editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Guards";
+    editorSubcategory = "TACU_Vanguard_EdSubCat_Guards";
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Guard_Rifleman_01.jpg);
 };
 
