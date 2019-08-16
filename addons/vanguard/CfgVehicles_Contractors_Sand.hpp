@@ -25,7 +25,7 @@ class TACU_Vanguard_U_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_Bas
     TACU_allowedFacewear[] = {
         "CUP_FR_NeckScarf2", 1
     };
-    editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors2";
+    editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Sand";
     editorPreview = QPATHTOF(ui\TACU_Vanguard_U_Contractor_Sand_Rifleman_01.jpg);
 };
 

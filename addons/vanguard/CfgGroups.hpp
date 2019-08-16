@@ -2,7 +2,7 @@ class CfgGroups {
     class INDEP {
         class TACU_Vanguard {
             name = "Vanguard PMC";
-            class TACU_Vanguard_G_G_Contractors {
+            class TACU_Vanguard_G_Contractors_Green {
                 name = "Contractors (Green)";
 
                 class TACU_Vanguard_G_G_Contractors_Patrol {
