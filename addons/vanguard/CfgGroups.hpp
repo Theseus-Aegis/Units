@@ -2,96 +2,192 @@ class CfgGroups {
     class INDEP {
         class TACU_Vanguard {
             name = "Vanguard PMC";
-            class TACU_Vanguard_G_Contractors {
-                name = "Contractors";
+            class TACU_Vanguard_G_G_Contractors {
+                name = "Contractors (Green)";
 
-                class TACU_Vanguard_G_Contractors_Patrol {
+                class TACU_Vanguard_G_G_Contractors_Patrol {
                     name = "Patrol";
                     side = 2;
                     faction = "TACU_Vanguard";
                     icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class unit0 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Rifleman_01";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Rifleman_01";
                         side = 2;
                         rank = "SERGEANT";
                         position[] = {0, 0, 0};
                     };
                     class unit1 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Rifleman_02";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Rifleman_02";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {5, -5, 0};
                     };
                 };
 
-                class TACU_Vanguard_G_Contractors_Fireteam {
+                class TACU_Vanguard_G_G_Contractors_Fireteam {
                     name = "Fireteam";
                     side = 2;
                     faction = "TACU_Vanguard";
                     icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class unit0 {
-                        vehicle = "TACU_Vanguard_U_Contractor_TeamLeader";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_TeamLeader";
                         side = 2;
                         rank = "SERGEANT";
                         position[] = {0, 0, 0};
                     };
                     class unit1 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Grenadier";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Grenadier";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {5, -5, 0};
                     };
                     class unit2 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Rifleman_AT";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Rifleman_AT";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {-5, -5, 0};
                     };
                     class unit3 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Medic";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Medic";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {10, -10, 0};
                     };
                 };
 
-                class TACU_Vanguard_G_Contractors_Squad {
+                class TACU_Vanguard_G_G_Contractors_Squad {
                     name = "Squad";
                     side = 2;
                     faction = "TACU_Vanguard";
                     icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
                     class unit0 {
-                        vehicle = "TACU_Vanguard_U_Contractor_TeamLeader";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_TeamLeader";
                         side = 2;
                         rank = "SERGEANT";
                         position[] = {0, 0, 0};
                     };
                     class unit1 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Rifleman_01";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Rifleman_01";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {5, -5, 0};
                     };
                     class unit2 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Rifleman_AT";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Rifleman_AT";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {-5, -5, 0};
                     };
                     class unit3 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Medic";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Medic";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {10, -10, 0};
                     };
                     class unit4 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Engineer";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Engineer";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {-10, -10, 0};
                     };
                     class unit5 {
-                        vehicle = "TACU_Vanguard_U_Contractor_Autorifleman";
+                        vehicle = "TACU_Vanguard_U_Contractor_Green_Autorifleman";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {15, -15, 0};
+                    };
+                };
+            };
+            class TACU_Vanguard_G_S_Contractors {
+                name = "Contractors (Sand)";
+
+                class TACU_Vanguard_G_S_Contractors_Patrol {
+                    name = "Patrol";
+                    side = 2;
+                    faction = "TACU_Vanguard";
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                    class unit0 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Rifleman_01";
+                        side = 2;
+                        rank = "SERGEANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class unit1 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Rifleman_02";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {5, -5, 0};
+                    };
+                };
+
+                class TACU_Vanguard_G_S_Contractors_Fireteam {
+                    name = "Fireteam";
+                    side = 2;
+                    faction = "TACU_Vanguard";
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                    class unit0 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_TeamLeader";
+                        side = 2;
+                        rank = "SERGEANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class unit1 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Grenadier";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {5, -5, 0};
+                    };
+                    class unit2 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Rifleman_AT";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {-5, -5, 0};
+                    };
+                    class unit3 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Medic";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {10, -10, 0};
+                    };
+                };
+
+                class TACU_Vanguard_G_S_Contractors_Squad {
+                    name = "Squad";
+                    side = 2;
+                    faction = "TACU_Vanguard";
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                    class unit0 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_TeamLeader";
+                        side = 2;
+                        rank = "SERGEANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class unit1 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Rifleman_01";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {5, -5, 0};
+                    };
+                    class unit2 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Rifleman_AT";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {-5, -5, 0};
+                    };
+                    class unit3 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Medic";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {10, -10, 0};
+                    };
+                    class unit4 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Engineer";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {-10, -10, 0};
+                    };
+                    class unit5 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Sand_Autorifleman";
                         side = 2;
                         rank = "PRIVATE";
                         position[] = {15, -15, 0};
