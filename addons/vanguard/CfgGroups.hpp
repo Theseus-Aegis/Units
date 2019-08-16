@@ -5,7 +5,7 @@ class CfgGroups {
             class TACU_Vanguard_G_Contractors_Green {
                 name = "Contractors (Green)";
 
-                class TACU_Vanguard_G_G_Contractors_Patrol {
+                class TACU_Vanguard_G_Contractors_Green_Patrol {
                     name = "Patrol";
                     side = 2;
                     faction = "TACU_Vanguard";
@@ -24,7 +24,7 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vanguard_G_G_Contractors_Fireteam {
+                class TACU_Vanguard_G_Contractors_Green_Fireteam {
                     name = "Fireteam";
                     side = 2;
                     faction = "TACU_Vanguard";
@@ -55,7 +55,7 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vanguard_G_G_Contractors_Squad {
+                class TACU_Vanguard_G_Contractors_Green_Squad {
                     name = "Squad";
                     side = 2;
                     faction = "TACU_Vanguard";
@@ -98,10 +98,10 @@ class CfgGroups {
                     };
                 };
             };
-            class TACU_Vanguard_G_S_Contractors {
+            class TACU_Vanguard_G_Contractors_Sand {
                 name = "Contractors (Sand)";
 
-                class TACU_Vanguard_G_S_Contractors_Patrol {
+                class TACU_Vanguard_G_Contractors_Sand_Patrol {
                     name = "Patrol";
                     side = 2;
                     faction = "TACU_Vanguard";
@@ -120,7 +120,7 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vanguard_G_S_Contractors_Fireteam {
+                class TACU_Vanguard_G_Contractors_Sand_Fireteam {
                     name = "Fireteam";
                     side = 2;
                     faction = "TACU_Vanguard";
@@ -151,7 +151,7 @@ class CfgGroups {
                     };
                 };
 
-                class TACU_Vanguard_G_S_Contractors_Squad {
+                class TACU_Vanguard_G_Contractors_Sand_Squad {
                     name = "Squad";
                     side = 2;
                     faction = "TACU_Vanguard";
