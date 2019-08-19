@@ -1,35 +1,7 @@
 class CfgVehicles {
 
-    // Base Classes
-    class B_AssaultPack_blk;
-    class B_AssaultPack_cbr;
-    class B_AssaultPack_rgr;
-    class B_FieldPack_blk;
-    class B_FieldPack_cbr;
-    class B_FieldPack_oli;
-    class B_LSV_01_unarmed_F;
-    class B_LSV_01_armed_F;
-    class B_LSV_01_AT_F;
-    class B_T_VTOL_01_infantry_F;
-    class B_T_VTOL_01_vehicle_F;
-    class CUP_B_C130J_USMC;
-    class CUP_B_C130J_Cargo_USMC;
-    class CUP_B_MTVR_USA;
-    class CUP_B_MTVR_Ammo_USA;
-    class CUP_B_MTVR_Refuel_USA;
-    class CUP_B_MTVR_Repair_USA;
-    class CUP_B_UH60M_US;
-    class CUP_B_UH60M_FFV_US;
-    class CUP_B_UH60M_Unarmed_US;
-    class CUP_B_UH60M_Unarmed_FFV_US;
-    class CUP_B_MH60L_DAP_2x_US;
-    class CUP_I_Mi24_D_Dynamic_ION;
-    class Item_Base_F;
-    class tacs_Unit_Combat_LS_Base;
-    class TACU_Main_U_INDEP_Soldier_Base;
-    class Vest_Base_F;
-
     // Ground Items
+    class Item_Base_F;
     class TACU_MSF_Item_Uniform_Combat_TigerBlack: Item_Base_F {
         dlc = QUOTE(PREFIX);
         author = "Kresky";
@@ -66,6 +38,8 @@ class CfgVehicles {
         };
     };
 
+    // Ground Items (Vests)
+    class Vest_Base_F;
     class TACU_MSF_Item_Vest_HeavyPlateCarrier_Black: Vest_Base_F {
         dlc = QUOTE(PREFIX);
         author = "Kresky";
@@ -139,6 +113,7 @@ class CfgVehicles {
     };
 
     // Uniforms
+    class tacs_Unit_Combat_LS_Base;
     class TACU_MSF_Unit_Combat_TigerBlack: tacs_Unit_Combat_LS_Base {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -147,7 +122,6 @@ class CfgVehicles {
         modelSides[] = {6};
         hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerBlack_co.paa)};
     };
-
     class TACU_MSF_Unit_Combat_TigerDesert: TACU_MSF_Unit_Combat_TigerBlack {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -156,7 +130,6 @@ class CfgVehicles {
         modelSides[] = {6};
         hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerDesert_co.paa)};
     };
-
     class TACU_MSF_Unit_Combat_TigerWood: TACU_MSF_Unit_Combat_TigerBlack {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -167,6 +140,7 @@ class CfgVehicles {
     };
 
     // Backpacks
+    class B_FieldPack_blk;
     class TACU_MSF_B_AT_Black: B_FieldPack_blk {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -175,7 +149,16 @@ class CfgVehicles {
             MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
         };
     };
+    class TACU_MSF_B_MMG_Black: B_FieldPack_blk {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(130Rnd_338_Mag,3);
+        };
+    };
 
+    class B_FieldPack_cbr;
     class TACU_MSF_B_AT_Coyote: B_FieldPack_cbr {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -184,8 +167,17 @@ class CfgVehicles {
             MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
         };
     };
+    class TACU_MSF_B_MMG_Coyote: B_FieldPack_cbr {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(130Rnd_338_Mag,3);
+        };
+    };
 
-    class TACU_MSF_B_AT_Green: B_FieldPack_oli {
+    class B_FieldPack_green_F;
+    class TACU_MSF_B_AT_Green: B_FieldPack_green_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
@@ -193,7 +185,46 @@ class CfgVehicles {
             MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
         };
     };
+    class TACU_MSF_B_MMG_Green: B_FieldPack_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(130Rnd_338_Mag,3);
+        };
+    };
 
+    class tacs_Backpack_Carryall_DarkBlack;
+    class TACU_MSF_B_HAT_Black: tacs_Backpack_Carryall_DarkBlack {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_Javelin_M,2);
+        };
+    };
+
+    class B_Carryall_cbr;
+    class TACU_MSF_B_HAT_Coyote: B_Carryall_cbr {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_Javelin_M,2);
+        };
+    };
+
+    class B_Carryall_green_F;
+    class TACU_MSF_B_HAT_Green: B_Carryall_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_Javelin_M,2);
+        };
+    };
+
+    class B_AssaultPack_blk;
     class TACU_MSF_B_Engineer_Black: B_AssaultPack_blk {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -208,37 +239,6 @@ class CfgVehicles {
             MACRO_ADDITEM(ToolKit,1);
         };
     };
-
-    class TACU_MSF_B_Engineer_Coyote: B_AssaultPack_cbr {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class TransportMagazines {
-            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,2);
-        };
-        class TransportItems {
-            MACRO_ADDITEM(ACE_DefusalKit,1);
-            MACRO_ADDITEM(ACE_M26_Clacker,1);
-            MACRO_ADDITEM(ACE_wirecutter,1);
-            MACRO_ADDITEM(ToolKit,1);
-        };
-    };
-
-    class TACU_MSF_B_Engineer_Green: B_AssaultPack_rgr {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class TransportMagazines {
-            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,2);
-        };
-        class TransportItems {
-            MACRO_ADDITEM(ACE_DefusalKit,1);
-            MACRO_ADDITEM(ACE_M26_Clacker,1);
-            MACRO_ADDITEM(ACE_wirecutter,1);
-            MACRO_ADDITEM(ToolKit,1);
-        };
-    };
-
     class TACU_MSF_B_Medic_Black: B_AssaultPack_blk {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -257,6 +257,21 @@ class CfgVehicles {
         };
     };
 
+    class B_AssaultPack_cbr;
+    class TACU_MSF_B_Engineer_Coyote: B_AssaultPack_cbr {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,2);
+        };
+        class TransportItems {
+            MACRO_ADDITEM(ACE_DefusalKit,1);
+            MACRO_ADDITEM(ACE_M26_Clacker,1);
+            MACRO_ADDITEM(ACE_wirecutter,1);
+            MACRO_ADDITEM(ToolKit,1);
+        };
+    };
     class TACU_MSF_B_Medic_Coyote: B_AssaultPack_cbr {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -275,6 +290,21 @@ class CfgVehicles {
         };
     };
 
+    class B_AssaultPack_rgr;
+    class TACU_MSF_B_Engineer_Green: B_AssaultPack_rgr {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,2);
+        };
+        class TransportItems {
+            MACRO_ADDITEM(ACE_DefusalKit,1);
+            MACRO_ADDITEM(ACE_M26_Clacker,1);
+            MACRO_ADDITEM(ACE_wirecutter,1);
+            MACRO_ADDITEM(ToolKit,1);
+        };
+    };
     class TACU_MSF_B_Medic_Green: B_AssaultPack_rgr {
         dlc = QUOTE(PREFIX);
         scope = 1;

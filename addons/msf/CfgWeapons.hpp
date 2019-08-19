@@ -180,6 +180,16 @@ class CfgWeapons {
 		};
     };
 
+    class srifle_LRR_F;
+    class TACU_MSF_W_M200_Intervention: srifle_LRR_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_lrps);
+        };
+    };
+
     // Weapons - Heavy Units
     class arifle_MSBS65_black_F;
     class TACU_MSF_W_Promet_Black: arifle_MSBS65_black_F {
@@ -225,8 +235,8 @@ class CfgWeapons {
         };
     };
 
-    class LMG_Mk200_F;
-    class TACU_MSF_W_Stoner99LMG: LMG_Mk200_F {
+    class LMG_Mk200_black_F;
+    class TACU_MSF_W_Stoner99LMG: LMG_Mk200_black_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
@@ -275,7 +285,7 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(optic_nvs);
+            EQUIP_OPTIC(optic_nightstalker);
             EQUIP_POINTER(acc_pointer_ir);
             EQUIP_MUZZLE(hlc_muzzle_556nato_kac);
             EQUIP_BIPOD(bipod_01_f_blk);

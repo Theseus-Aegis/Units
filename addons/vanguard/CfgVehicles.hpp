@@ -16,6 +16,6 @@ class CfgVehicles {
 
     #include "CfgVehicles_Contractors_Green.hpp"
     #include "CfgVehicles_Contractors_Sand.hpp"
-    #include "CfgVehicles_Contractors_Guards.hpp"
+    #include "CfgVehicles_Guards.hpp"
     #include "CfgVehicles_Specialists.hpp"
 };

@@ -1,4 +1,5 @@
 // Units - Basic
+class TACU_Main_U_INDEP_Soldier_Base;
 class TACU_MSF_U_I_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     dlc = QUOTE(PREFIX);
     author = "Kresky";
@@ -35,6 +36,7 @@ class TACU_MSF_U_O_Black_Rifleman_01: TACU_MSF_U_I_Black_Rifleman_01 {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Rifleman_AT: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
@@ -50,6 +52,7 @@ class TACU_MSF_U_O_Black_Rifleman_AT: TACU_MSF_U_I_Black_Rifleman_AT {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Autorifleman: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Autorifleman";
     icon = "iconManMG";
@@ -64,6 +67,7 @@ class TACU_MSF_U_O_Black_Autorifleman: TACU_MSF_U_I_Black_Autorifleman {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_TeamLeader: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Team Leader";
     icon = "iconManLeader";
@@ -77,6 +81,7 @@ class TACU_MSF_U_O_Black_TeamLeader: TACU_MSF_U_I_Black_TeamLeader {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Engineer: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Engineer";
     icon = "iconManEngineer";
@@ -93,6 +98,7 @@ class TACU_MSF_U_O_Black_Engineer: TACU_MSF_U_I_Black_Engineer {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_SMG: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "SMG";
     editorPreview = QPATHTOF(ui\MSF_U_I_Black_SMG.jpg);
@@ -105,6 +111,7 @@ class TACU_MSF_U_O_Black_SMG: TACU_MSF_U_I_Black_SMG {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Medic: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Medic";
     attendant = 1;
@@ -121,6 +128,7 @@ class TACU_MSF_U_O_Black_Medic: TACU_MSF_U_I_Black_Medic {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Grenadier: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Grenadier";
     editorPreview = QPATHTOF(ui\MSF_U_I_Black_Grenadier.jpg);
@@ -133,6 +141,7 @@ class TACU_MSF_U_O_Black_Grenadier: TACU_MSF_U_I_Black_Grenadier {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Marksman: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Marksman";
     role = "Marksman";
@@ -143,6 +152,53 @@ class TACU_MSF_U_I_Black_Marksman: TACU_MSF_U_I_Black_Rifleman_01 {
     respawnMagazines[] = {mag_6("CUP_20Rnd_762x51_HK417"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
 };
 class TACU_MSF_U_O_Black_Marksman: TACU_MSF_U_I_Black_Marksman {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
+class TACU_MSF_U_I_Black_Sniper: TACU_MSF_U_I_Black_Rifleman_01 {
+    displayName = "Sniper";
+    role = "Marksman";
+    uniformClass = "TACU_MSF_Uniform_Combat_TigerBlack";
+    editorPreview = QPATHTOF(ui\MSF_U_I_Black_Sniper.jpg);
+    weapons[] = {"TACU_MSF_W_M200_Intervention", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_M200_Intervention", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    magazines[] = {mag_5("7Rnd_408_Mag"), mag_3("11Rnd_45ACP_Mag"), "SmokeShell"};
+    respawnMagazines[] = {mag_5("7Rnd_408_Mag"), mag_3("11Rnd_45ACP_Mag"), "SmokeShell"};
+};
+class TACU_MSF_U_O_Black_Sniper: TACU_MSF_U_I_Black_Sniper {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
+class TACU_MSF_U_I_Black_HAT: TACU_MSF_U_I_Black_Rifleman_01 {
+    displayName = "AT Specialist (Javelin)";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
+    backpack = "TACU_MSF_B_HAT_Black";
+    editorPreview = QPATHTOF(ui\MSF_U_I_Black_HAT.jpg);
+    weapons[] = {"TACU_MSF_W_HK416_CQC_Black", "CUP_launch_Javelin", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_HK416_CQC_Black", "CUP_launch_Javelin", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_PMAG_QP"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_PMAG_QP"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+};
+class TACU_MSF_U_O_Black_HAT: TACU_MSF_U_I_Black_HAT {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
+class TACU_MSF_U_I_Black_MMG: TACU_MSF_U_I_Black_Rifleman_01 {
+    displayName = "Machinegunner";
+    icon = "iconManMG";
+    role = "MachineGunner";
+    backpack = "TACU_MSF_B_MMG_Black";
+    editorPreview = QPATHTOF(ui\MSF_U_I_Black_MMG.jpg);
+    weapons[] = {"MMG_02_black_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    respawnWeapons[] = {"MMG_02_black_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    magazines[] = {"130Rnd_338_Mag", mag_2("11Rnd_45ACP_Mag")};
+    respawnMagazines[] = {"130Rnd_338_Mag", mag_2("11Rnd_45ACP_Mag")};
+};
+class TACU_MSF_U_O_Black_MMG: TACU_MSF_U_I_Black_MMG {
     side = 0;
     faction = "TACU_MSF_O";
 };
@@ -173,6 +229,7 @@ class TACU_MSF_U_O_Black_Heavy_Rifleman_01: TACU_MSF_U_I_Black_Heavy_Rifleman_01
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Heavy_Rifleman_AT: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
@@ -187,6 +244,7 @@ class TACU_MSF_U_O_Black_Heavy_Rifleman_AT: TACU_MSF_U_I_Black_Heavy_Rifleman_AT
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Heavy_Autorifleman: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     displayName = "Autorifleman";
     icon = "iconManMG";
@@ -201,6 +259,7 @@ class TACU_MSF_U_O_Black_Heavy_Autorifleman: TACU_MSF_U_I_Black_Heavy_Autoriflem
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Heavy_Grenadier: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     displayName = "Grenadier";
     icon = "iconMan";
@@ -215,6 +274,7 @@ class TACU_MSF_U_O_Black_Heavy_Grenadier: TACU_MSF_U_I_Black_Heavy_Grenadier {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Heavy_Teamleader: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     displayName = "Team Leader";
     sensitivity = 2;
@@ -228,6 +288,7 @@ class TACU_MSF_U_O_Black_Heavy_Teamleader: TACU_MSF_U_I_Black_Heavy_Teamleader {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Heavy_Marksman: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     displayName = "Marksman";
     sensitivity = 2;
@@ -243,6 +304,7 @@ class TACU_MSF_U_O_Black_Heavy_Marksman: TACU_MSF_U_I_Black_Heavy_Marksman {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Heavy_Medic: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     displayName = "Medic";
     attendant = 1;
@@ -259,6 +321,7 @@ class TACU_MSF_U_O_Black_Heavy_Medic: TACU_MSF_U_I_Black_Heavy_Medic {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Heavy_Engineer: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     displayName = "Engineer";
     icon = "iconManEngineer";
@@ -297,6 +360,7 @@ class TACU_MSF_U_O_Black_Pilot: TACU_MSF_U_I_Black_Pilot {
     side = 0;
     faction = "TACU_MSF_O";
 };
+
 class TACU_MSF_U_I_Black_Crewman: TACU_MSF_U_I_Black_Pilot {
     displayName = "Crewman";
     editorPreview = QPATHTOF(ui\MSF_U_I_Black_Crewman.jpg);
@@ -311,7 +375,67 @@ class TACU_MSF_U_O_Black_Crewman: TACU_MSF_U_I_Black_Crewman {
     faction = "TACU_MSF_O";
 };
 
+// APCs
+class CUP_B_M1126_ICV_M2_Woodland;
+class TACU_MSF_V_I_Stryker_HMG_Black: CUP_B_M1126_ICV_M2_Woodland {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "Stryker (M2 HMG)";
+    crew = "TACU_MSF_U_I_Black_Crewman";
+    typicalCargo[] = {"TACU_MSF_U_I_Black_Crewman"};
+    editorPreview = QPATHTOF(ui\MSF_V_I_Stryker_HMG_Black.jpg);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\MSF_V_Stryker_Body1_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Body2_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Body2_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_ICV_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Alfa_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Alfa_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_SlatArmor_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_SlatArmor_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Default_Black_co.paa)
+    };
+};
+class TACU_MSF_V_O_Stryker_HMG_Black: TACU_MSF_V_I_Stryker_HMG_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Black_Crewman";
+    typicalCargo[] = {"TACU_MSF_U_O_Black_Crewman"};
+};
+
+class CUP_B_M1126_ICV_MK19_Woodland;
+class TACU_MSF_V_I_Stryker_GL_Black: CUP_B_M1126_ICV_MK19_Woodland {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "Stryker (Mk19 GL)";
+    crew = "TACU_MSF_U_I_Black_Crewman";
+    typicalCargo[] = {"TACU_MSF_U_I_Black_Crewman"};
+    editorPreview = QPATHTOF(ui\MSF_V_I_Stryker_GL_Black.jpg);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\MSF_V_Stryker_Body1_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Body2_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Body2_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_ICV_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Alfa_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Alfa_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_SlatArmor_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_SlatArmor_Black_co.paa),
+        QPATHTOF(data\MSF_V_Stryker_Default_Black_co.paa)
+    };
+};
+class TACU_MSF_V_O_Stryker_GL_Black: TACU_MSF_V_I_Stryker_GL_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Black_Crewman";
+    typicalCargo[] = {"TACU_MSF_U_O_Black_Crewman"};
+};
+
 // Cars
+class CUP_B_MTVR_USA;
 class TACU_MSF_V_I_MTVR_Transport_Black: CUP_B_MTVR_USA {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -322,10 +446,10 @@ class TACU_MSF_V_I_MTVR_Transport_Black: CUP_B_MTVR_USA {
     typicalCargo[] = {"TACU_MSF_U_I_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\MSF_V_I_MTVR_Transport_Black.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Tarp_co)
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Tarp_co.paa)
     };
 };
 class TACU_MSF_V_O_MTVR_Transport_Black: TACU_MSF_V_I_MTVR_Transport_Black {
@@ -334,6 +458,8 @@ class TACU_MSF_V_O_MTVR_Transport_Black: TACU_MSF_V_I_MTVR_Transport_Black {
     crew = "TACU_MSF_U_O_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Rifleman_01"};
 };
+
+class CUP_B_MTVR_Ammo_USA;
 class TACU_MSF_V_I_MTVR_Ammo_Black: CUP_B_MTVR_Ammo_USA {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -344,10 +470,10 @@ class TACU_MSF_V_I_MTVR_Ammo_Black: CUP_B_MTVR_Ammo_USA {
     typicalCargo[] = {"TACU_MSF_U_I_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\MSF_V_I_MTVR_Ammo_Black.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Tarp_co)
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Tarp_co.paa)
     };
 };
 class TACU_MSF_V_O_MTVR_Ammo_Black: TACU_MSF_V_I_MTVR_Ammo_Black {
@@ -356,6 +482,8 @@ class TACU_MSF_V_O_MTVR_Ammo_Black: TACU_MSF_V_I_MTVR_Ammo_Black {
     crew = "TACU_MSF_U_O_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Rifleman_01"};
 };
+
+class CUP_B_MTVR_Refuel_USA;
 class TACU_MSF_V_I_MTVR_Refuel_Black: CUP_B_MTVR_Refuel_USA {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -366,10 +494,10 @@ class TACU_MSF_V_I_MTVR_Refuel_Black: CUP_B_MTVR_Refuel_USA {
     typicalCargo[] = {"TACU_MSF_U_I_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\MSF_V_I_MTVR_Refuel_Black.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Fuel_co)
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Fuel_co.paa)
     };
 };
 class TACU_MSF_V_O_MTVR_Refuel_Black: TACU_MSF_V_I_MTVR_Refuel_Black {
@@ -378,6 +506,8 @@ class TACU_MSF_V_O_MTVR_Refuel_Black: TACU_MSF_V_I_MTVR_Refuel_Black {
     crew = "TACU_MSF_U_O_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Rifleman_01"};
 };
+
+class CUP_B_MTVR_Repair_USA;
 class TACU_MSF_V_I_MTVR_Repair_Black: CUP_B_MTVR_Repair_USA {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -388,10 +518,10 @@ class TACU_MSF_V_I_MTVR_Repair_Black: CUP_B_MTVR_Repair_USA {
     typicalCargo[] = {"TACU_MSF_U_I_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\MSF_V_I_MTVR_Repair_Black.jpg);
     hiddenSelectionsTextures[] = {
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co),
-        QPATHTOF(data\MSF_V_MTVR_Black_Repair_co)
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext01_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Ext02_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Interior_co.paa),
+        QPATHTOF(data\MSF_V_MTVR_Black_Repair_co.paa)
     };
 };
 class TACU_MSF_V_O_MTVR_Repair_Black: TACU_MSF_V_I_MTVR_Repair_Black {
@@ -400,11 +530,9 @@ class TACU_MSF_V_O_MTVR_Repair_Black: TACU_MSF_V_I_MTVR_Repair_Black {
     crew = "TACU_MSF_U_O_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Rifleman_01"};
 };
-class TACU_MSF_V_Prowler_Base: B_LSV_01_unarmed_F {
-    scope = 0;
-    class EventHandlers;
-};
-class TACU_MSF_V_I_Prowler_Black: TACU_MSF_V_Prowler_Base {
+
+class tacs_Polaris_B_Black;
+class TACU_MSF_V_I_Prowler_Black: tacs_Polaris_B_Black {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_MSF_I";
@@ -414,15 +542,6 @@ class TACU_MSF_V_I_Prowler_Black: TACU_MSF_V_Prowler_Base {
     crew = "TACU_MSF_U_I_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_I_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\MSF_V_I_Prowler_Black.jpg);
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext01_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext02_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext03_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Adds_co.paa)
-    };
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-    };
 };
 class TACU_MSF_V_O_Prowler_Black: TACU_MSF_V_I_Prowler_Black {
     faction = "TACU_MSF_O";
@@ -430,11 +549,9 @@ class TACU_MSF_V_O_Prowler_Black: TACU_MSF_V_I_Prowler_Black {
     crew = "TACU_MSF_U_O_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Rifleman_01"};
 };
-class TACU_MSF_V_Prowler_HMG_Base: B_LSV_01_armed_F {
-    scope = 0;
-    class EventHandlers;
-};
-class TACU_MSF_V_I_Prowler_HMG_Black: TACU_MSF_V_Prowler_HMG_Base {
+
+class tacs_Polaris_B_Armed_Black;
+class TACU_MSF_V_I_Prowler_HMG_Black: tacs_Polaris_B_Armed_Black {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_MSF_I";
@@ -444,15 +561,6 @@ class TACU_MSF_V_I_Prowler_HMG_Black: TACU_MSF_V_Prowler_HMG_Base {
     crew = "TACU_MSF_U_I_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_I_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\MSF_V_I_Prowler_HMG_Black.jpg);
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext01_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext02_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext03_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Adds_co.paa)
-    };
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-    };
 };
 class TACU_MSF_V_O_Prowler_HMG_Black: TACU_MSF_V_I_Prowler_HMG_Black {
     faction = "TACU_MSF_O";
@@ -460,11 +568,9 @@ class TACU_MSF_V_O_Prowler_HMG_Black: TACU_MSF_V_I_Prowler_HMG_Black {
     crew = "TACU_MSF_U_O_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Rifleman_01"};
 };
-class TACU_MSF_V_Prowler_AT_Base: B_LSV_01_AT_F {
-    scope = 0;
-    class EventHandlers;
-};
-class TACU_MSF_V_I_Prowler_AT_Black: TACU_MSF_V_Prowler_AT_Base {
+
+class tacs_Polaris_B_AT_Black;
+class TACU_MSF_V_I_Prowler_AT_Black: tacs_Polaris_B_AT_Black {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_MSF_I";
@@ -474,17 +580,6 @@ class TACU_MSF_V_I_Prowler_AT_Black: TACU_MSF_V_Prowler_AT_Base {
     crew = "TACU_MSF_U_I_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_I_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\MSF_V_I_Prowler_AT_Black.jpg);
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext01_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext02_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Ext03_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_Adds_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_ATLauncher_co.paa),
-        QPATHTOF(data\MSF_V_Prowler_Black_ATTube_co.paa)
-    };
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-    };
 };
 class TACU_MSF_V_O_Prowler_AT_Black: TACU_MSF_V_I_Prowler_AT_Black {
     faction = "TACU_MSF_O";
@@ -494,6 +589,7 @@ class TACU_MSF_V_O_Prowler_AT_Black: TACU_MSF_V_I_Prowler_AT_Black {
 };
 
 // Helicopters
+class CUP_I_Mi24_D_Dynamic_ION;
 class TACU_MSF_V_I_Mi24: CUP_I_Mi24_D_Dynamic_ION {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -514,6 +610,8 @@ class TACU_MSF_V_O_Mi24: TACU_MSF_V_I_Mi24 {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class CUP_B_UH60M_US;
 class TACU_MSF_V_I_UH60: CUP_B_UH60M_US {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -535,6 +633,8 @@ class TACU_MSF_V_O_UH60: TACU_MSF_V_I_UH60 {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class CUP_B_UH60M_FFV_US;
 class TACU_MSF_V_I_UH60_FFV: CUP_B_UH60M_FFV_US {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -556,6 +656,8 @@ class TACU_MSF_V_O_UH60_FFV: TACU_MSF_V_I_UH60_FFV {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class CUP_B_UH60M_Unarmed_US;
 class TACU_MSF_V_I_UH60_Unarmed: CUP_B_UH60M_Unarmed_US {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -577,6 +679,8 @@ class TACU_MSF_V_O_UH60_Unarmed: TACU_MSF_V_I_UH60_Unarmed {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class CUP_B_UH60M_Unarmed_FFV_US;
 class TACU_MSF_V_I_UH60_Unarmed_FFV: CUP_B_UH60M_Unarmed_FFV_US {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -598,6 +702,8 @@ class TACU_MSF_V_O_UH60_Unarmed_FFV: TACU_MSF_V_I_UH60_Unarmed_FFV {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class CUP_B_MH60L_DAP_2x_US;
 class TACU_MSF_V_I_UH60_Gunship: CUP_B_MH60L_DAP_2x_US {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -621,6 +727,7 @@ class TACU_MSF_V_O_UH60_Gunship: TACU_MSF_V_I_UH60_Gunship {
 };
 
 // Planes
+class CUP_B_C130J_USMC;
 class TACU_MSF_V_I_C130_Infantry: CUP_B_C130J_USMC {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -641,6 +748,8 @@ class TACU_MSF_V_O_C130_Infantry: TACU_MSF_V_I_C130_Infantry {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class CUP_B_C130J_Cargo_USMC;
 class TACU_MSF_V_I_C130_Vehicle: CUP_B_C130J_Cargo_USMC {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -661,6 +770,8 @@ class TACU_MSF_V_O_C130_Vehicle: TACU_MSF_V_I_C130_Vehicle {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class B_T_VTOL_01_infantry_F;
 class TACU_MSF_V_I_V44_Infantry: B_T_VTOL_01_infantry_F {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
@@ -684,6 +795,8 @@ class TACU_MSF_V_O_V44_Infantry: TACU_MSF_V_I_V44_Infantry {
     crew = "TACU_MSF_U_O_Black_Pilot";
     typicalCargo[] = {"TACU_MSF_U_O_Black_Pilot"};
 };
+
+class B_T_VTOL_01_vehicle_F;
 class TACU_MSF_V_I_V44_Vehicle: B_T_VTOL_01_vehicle_F {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO

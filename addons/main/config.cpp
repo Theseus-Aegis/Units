@@ -55,6 +55,7 @@ class CfgPatches {
             "CUP_Weapons_GrenadeLaunchers",
             "CUP_Weapons_Grenades",
             "CUP_Weapons_HK416",
+            "CUP_Weapons_Javelin",
             "CUP_Weapons_Makarov",
             "CUP_Weapons_M110",
             "CUP_Weapons_M136",
@@ -73,6 +74,7 @@ class CfgPatches {
             "CUP_WheeledVehicles_BRDM2",
             "CUP_WheeledVehicles_LR",
             "CUP_WheeledVehicles_MTVR",
+            "CUP_WheeledVehicles_Stryker",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
             // Military Gear Pack
@@ -89,9 +91,10 @@ class CfgPatches {
             "bnae_core",
             "bnae_M97",
             // Theseus Services
-            "tacs_vehicles",
+            "tacs_backpacks",
             "tacs_headgear",
             "tacs_units",
+            "tacs_vehicles",
             "tacs_vests"
         };
         author = CSTRING(Author);
