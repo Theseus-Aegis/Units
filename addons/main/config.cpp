@@ -76,11 +76,15 @@ class CfgPatches {
             "CUP_WheeledVehicles_MTVR",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
+            // Military Gear Pack
+            "milgp_vests_cfg",
             // NIArms
             "hlcweapons_ar15",
             "hlcweapons_core",
             "hlcweapons_m60e4",
+            "hlcweapons_mp5",
             "hlcweapons_SG550",
+            "niarms_416",
             "niaweapons_226",
             // Project Infinite
             "bnae_core",
