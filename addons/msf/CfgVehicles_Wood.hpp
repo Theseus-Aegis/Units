@@ -122,6 +122,19 @@ class TACU_MSF_U_O_Wood_Sniper: TACU_MSF_U_I_Wood_Sniper {
     faction = "TACU_MSF_O";
 };
 
+class TACU_MSF_U_I_Wood_AT_Specialist: TACU_MSF_U_I_Black_AT_Specialist {
+    uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
+    backpack = "TACU_MSF_B_Engineer_Green";
+    editorPreview = QPATHTOF(ui\MSF_U_I_Wood_AT_Specialist.jpg);
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
+    editorSubcategory = "TACU_MSF_EdSubCat_Wood";
+};
+class TACU_MSF_U_O_Wood_AT_Specialist: TACU_MSF_U_I_Wood_AT_Specialist {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
 // Units - Heavy
 class TACU_MSF_U_I_Wood_Heavy_Rifleman_01: TACU_MSF_U_I_Black_Heavy_Rifleman_01 {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";

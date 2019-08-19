@@ -171,6 +171,22 @@ class TACU_MSF_U_O_Black_Sniper: TACU_MSF_U_I_Black_Sniper {
     faction = "TACU_MSF_O";
 };
 
+class TACU_MSF_U_I_Black_AT_Specialist: TACU_MSF_U_I_Black_Rifleman_01 {
+    displayName = "AT Specialist (Javelin)";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
+    backpack = "TACU_MSF_B_HAT_Black";
+    editorPreview = QPATHTOF(ui\MSF_U_I_Black_AT_Specialist.jpg);
+    weapons[] = {"TACU_MSF_W_HK416_CQC_Black", "CUP_launch_Javelin", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_HK416_CQC_Black", "CUP_launch_Javelin", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_PMAG_QP"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_PMAG_QP"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+};
+class TACU_MSF_U_O_Black_AT_Specialist: TACU_MSF_U_I_Black_AT_Specialist {
+    side = 0;
+    faction = "TACU_MSF_O";
+};
+
 // Units - Heavy
 class TACU_MSF_U_I_Black_Heavy_Rifleman_01: TACU_MSF_U_I_Black_Rifleman_01 {
     displayName = "Rifleman";

@@ -55,6 +55,7 @@ class CfgPatches {
             "CUP_Weapons_GrenadeLaunchers",
             "CUP_Weapons_Grenades",
             "CUP_Weapons_HK416",
+            "CUP_Weapons_Javelin",
             "CUP_Weapons_Makarov",
             "CUP_Weapons_M110",
             "CUP_Weapons_M136",
@@ -85,9 +86,10 @@ class CfgPatches {
             "bnae_core",
             "bnae_M97",
             // Theseus Services
-            "tacs_vehicles",
+            "tacs_backpacks",
             "tacs_headgear",
             "tacs_units",
+            "tacs_vehicles",
             "tacs_vests"
         };
         author = CSTRING(Author);

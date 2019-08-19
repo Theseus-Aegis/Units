@@ -170,6 +170,36 @@ class CfgVehicles {
         };
     };
 
+    class tacs_Backpack_Carryall_DarkBlack;
+    class TACU_MSF_B_HAT_Black: tacs_Backpack_Carryall_DarkBlack {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_Javelin_M,1);
+        };
+    };
+
+    class B_Carryall_green_F;
+    class TACU_MSF_B_HAT_Green: B_Carryall_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_Javelin_M,1);
+        };
+    };
+
+    class B_Carryall_cbr;
+    class TACU_MSF_B_HAT_Coyote: B_Carryall_cbr {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_Javelin_M,1);
+        };
+    };
+
     class B_AssaultPack_blk;
     class TACU_MSF_B_Engineer_Black: B_AssaultPack_blk {
         dlc = QUOTE(PREFIX);

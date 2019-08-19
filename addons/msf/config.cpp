@@ -26,6 +26,7 @@ class CfgPatches {
             "TACU_MSF_B_Medic_Green",
             // Units (Indep - Black)
             "TACU_MSF_U_I_Black_Autorifleman",
+            "TACU_MSF_U_I_Black_AT_Specialist",
             "TACU_MSF_U_I_Black_Crewman",
             "TACU_MSF_U_I_Black_Engineer",
             "TACU_MSF_U_I_Black_Grenadier",
@@ -48,6 +49,7 @@ class CfgPatches {
             "TACU_MSF_U_I_Black_Heavy_Teamleader",
             // Units (Indep - Desert)
             "TACU_MSF_U_I_Desert_Autorifleman",
+            "TACU_MSF_U_I_Desert_AT_Specialist",
             "TACU_MSF_U_I_Desert_Engineer",
             "TACU_MSF_U_I_Desert_Grenadier",
             "TACU_MSF_U_I_Desert_Marksman",
@@ -68,6 +70,7 @@ class CfgPatches {
             "TACU_MSF_U_I_Desert_Heavy_Teamleader",
             // Units (Indep - Wood)
             "TACU_MSF_U_I_Wood_Autorifleman",
+            "TACU_MSF_U_I_Wood_AT_Specialist",
             "TACU_MSF_U_I_Wood_Engineer",
             "TACU_MSF_U_I_Wood_Grenadier",
             "TACU_MSF_U_I_Wood_Marksman",
@@ -93,6 +96,7 @@ class CfgPatches {
             "TACU_MSF_U_I_Zero_SMG_01",
             // Units (Opfor - Black)
             "TACU_MSF_U_O_Black_Autorifleman",
+            "TACU_MSF_U_O_Black_AT_Specialist",
             "TACU_MSF_U_O_Black_Crewman",
             "TACU_MSF_U_O_Black_Engineer",
             "TACU_MSF_U_O_Black_Grenadier",
@@ -115,6 +119,7 @@ class CfgPatches {
             "TACU_MSF_U_O_Black_Heavy_Teamleader",
             // Units (Opfor - Desert)
             "TACU_MSF_U_O_Desert_Autorifleman",
+            "TACU_MSF_U_O_Desert_AT_Specialist",
             "TACU_MSF_U_O_Desert_Engineer",
             "TACU_MSF_U_O_Desert_Grenadier",
             "TACU_MSF_U_O_Desert_Marksman",
@@ -135,6 +140,7 @@ class CfgPatches {
             "TACU_MSF_U_O_Desert_Heavy_Teamleader",
             // Units (Opfor - Wood)
             "TACU_MSF_U_O_Wood_Autorifleman",
+            "TACU_MSF_U_O_Wood_AT_Specialist",
             "TACU_MSF_U_O_Wood_Engineer",
             "TACU_MSF_U_O_Wood_Grenadier",
             "TACU_MSF_U_O_Wood_Marksman",
