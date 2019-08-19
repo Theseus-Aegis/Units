@@ -385,7 +385,7 @@ class TACU_MSF_V_I_Stryker_HMG_Black: CUP_B_M1126_ICV_M2_Woodland {
     displayName = "Stryker (M2 HMG)";
     crew = "TACU_MSF_U_I_Black_Crewman";
     typicalCargo[] = {"TACU_MSF_U_I_Black_Crewman"};
-    editorPreview = QPATHTOF(ui\MSF_V_I_Stryker_HMG_Black);
+    editorPreview = QPATHTOF(ui\MSF_V_I_Stryker_HMG_Black.jpg);
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\MSF_V_Stryker_Body1_Black_co.paa),
         QPATHTOF(data\MSF_V_Stryker_Body2_Black_co.paa),
@@ -414,7 +414,7 @@ class TACU_MSF_V_I_Stryker_GL_Black: CUP_B_M1126_ICV_MK19_Woodland {
     displayName = "Stryker (Mk19 GL)";
     crew = "TACU_MSF_U_I_Black_Crewman";
     typicalCargo[] = {"TACU_MSF_U_I_Black_Crewman"};
-    editorPreview = QPATHTOF(ui\MSF_V_I_Stryker_GL_Black);
+    editorPreview = QPATHTOF(ui\MSF_V_I_Stryker_GL_Black.jpg);
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\MSF_V_Stryker_Body1_Black_co.paa),
         QPATHTOF(data\MSF_V_Stryker_Body2_Black_co.paa),
