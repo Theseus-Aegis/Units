@@ -74,6 +74,7 @@ class CfgPatches {
             "CUP_WheeledVehicles_BRDM2",
             "CUP_WheeledVehicles_LR",
             "CUP_WheeledVehicles_MTVR",
+            "CUP_WheeledVehicles_Stryker",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
             // Military Gear Pack
