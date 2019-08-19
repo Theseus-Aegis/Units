@@ -26,6 +26,9 @@ class CfgEditorSubcategories {
     class TACU_MSF_EdSubCat_Desert_Heavy {
         displayName = "Men (Desert - Heavy)";
     };
+    class TACU_MSF_EdSubCat_Desert_Cars {
+        displayName = "Cars (Desert)";
+    };
 
     class TACU_MSF_EdSubCat_Wood {
         displayName = "Men (Woodland)";
@@ -33,6 +36,10 @@ class CfgEditorSubcategories {
     class TACU_MSF_EdSubCat_Wood_Heavy {
         displayName = "Men (Woodland - Heavy)";
     };
+    class TACU_MSF_EdSubCat_Wood_Cars {
+        displayName = "Cars (Woodland)";
+    };
+
     class TACU_MSF_EdSubCat_Zero {
         displayName = "Men (Zero Spec-Ops)";
     };
