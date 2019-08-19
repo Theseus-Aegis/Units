@@ -222,7 +222,6 @@ class CfgPatches {
             "TACU_MSF_W_PrometSG_Black",
             "TACU_MSF_W_Scorpion",
             "TACU_MSF_W_Stoner99LMG"
-
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
