@@ -1,9 +1,19 @@
 class CfgGroups {
     class INDEP {
-        #include "CfgGroups_Indep.hpp"
+        class TACU_MSF_I {
+            name = "Militaires Sans Frontières";
+            #include "CfgGroups_Indep_DDogs.hpp"
+            #include "CfgGroups_Indep_Foxhound.hpp"
+            #include "CfgGroups_Indep_Regular.hpp"
+        };
     };
 
     class EAST {
-        #include "CfgGroups_East.hpp"
+        class TACU_MSF_O {
+            name = "Militaires Sans Frontières";
+            #include "CfgGroups_Opfor_DDogs.hpp"
+            #include "CfgGroups_Opfor_Foxhound.hpp"
+            #include "CfgGroups_Opfor_Regular.hpp"
+        };
     };
 };

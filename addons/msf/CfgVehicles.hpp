@@ -1,6 +1,18 @@
 class CfgVehicles {
 
     // Ground Items
+    class Headgear_Base_F;
+    class TACU_MSF_Item_Helmet_LightCombat_DarkBlack: Headgear_Base_F {
+        author = "Kresky";
+        displayName = "Light Combat Helmet (Dark Black)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsHeadgear";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Helmet_LightCombat_DarkBlack,1);
+        };
+    };
+
     class Item_Base_F;
     class TACU_MSF_Item_Uniform_Combat_TigerBlack: Item_Base_F {
         dlc = QUOTE(PREFIX);
@@ -324,16 +336,32 @@ class CfgVehicles {
     };
 
     // Units and Vehicles
-    #include "CfgVehicles_Black.hpp"
-    #include "CfgVehicles_Desert.hpp"
-    #include "CfgVehicles_Wood.hpp"
-    #include "CfgVehicles_Zero.hpp"
+    #include "CfgVehicles_DDogs_Black.hpp"
+    #include "CfgVehicles_DDogs_Desert.hpp"
+    #include "CfgVehicles_DDogs_Wood.hpp"
+    #include "CfgVehicles_Foxhound.hpp"
+    #include "CfgVehicles_Regular_Black.hpp"
+    #include "CfgVehicles_Regular_Desert.hpp"
+    #include "CfgVehicles_Regular_Wood.hpp"
+    #include "CfgVehicles_Vehicles_Black.hpp"
+    #include "CfgVehicles_Vehicles_Desert.hpp"
+    #include "CfgVehicles_Vehicles_Wood.hpp"
 };
 
 class Extended_Init_Eventhandlers {
-    class TACU_MSF_U_I_Black_Rifleman_01 {
-        class TACU_MSF_insignia_init {
-            init = "if (local (_this select 0)) then {[(_this select 0), ""TACU_MSF_Insignia_Text""] call BIS_fnc_setUnitInsignia;};";
+    class TACU_MSF_U_I_Regular_Black_Rifleman_01 {
+        class TACU_MSF_insignia_MSF_init {
+            init = "if (local (_this select 0)) then {[(_this select 0), ""TACU_MSF_Insignia_MSF_Text""] call BIS_fnc_setUnitInsignia;};";
+        };
+    };
+    class TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
+        class TACU_MSF_insignia_DDogs_init {
+            init = "if (local (_this select 0)) then {[(_this select 0), ""TACU_MSF_Insignia_DDogs_Text""] call BIS_fnc_setUnitInsignia;};";
+        };
+    };
+    class TACU_MSF_U_I_Foxhound_Rifleman_01 {
+        class TACU_MSF_insignia_Foxhound_init {
+            init = "if (local (_this select 0)) then {[(_this select 0), ""TACU_MSF_Insignia_Foxhound_Text""] call BIS_fnc_setUnitInsignia;};";
         };
     };
 };

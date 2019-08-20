@@ -13,34 +13,34 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_MSF_EdSubCat_Black {
-        displayName = "Men (Black)";
-    };
-    class TACU_MSF_EdSubCat_Black_Heavy {
-        displayName = "Men (Black - Heavy)";
-    };
-
-    class TACU_MSF_EdSubCat_Desert {
-        displayName = "Men (Desert)";
-    };
-    class TACU_MSF_EdSubCat_Desert_Heavy {
-        displayName = "Men (Desert - Heavy)";
-    };
-    class TACU_MSF_EdSubCat_Desert_Cars {
+    class TACU_MSF_EdSubCat_Cars_Desert {
         displayName = "Cars (Desert)";
     };
-
-    class TACU_MSF_EdSubCat_Wood {
-        displayName = "Men (Woodland)";
-    };
-    class TACU_MSF_EdSubCat_Wood_Heavy {
-        displayName = "Men (Woodland - Heavy)";
-    };
-    class TACU_MSF_EdSubCat_Wood_Cars {
+    class TACU_MSF_EdSubCat_Cars_Wood {
         displayName = "Cars (Woodland)";
     };
 
-    class TACU_MSF_EdSubCat_Zero {
-        displayName = "Men (Zero Spec-Ops)";
+    class TACU_MSF_EdSubCat_DDogs_Black {
+        displayName = "Men (Diamond Dogs - Black)";
+    };
+    class TACU_MSF_EdSubCat_DDogs_Desert {
+        displayName = "Men (Diamond Dogs - Desert)";
+    };
+    class TACU_MSF_EdSubCat_DDogs_Wood {
+        displayName = "Men (Diamond Dogs - Woodland)";
+    };
+
+    class TACU_MSF_EdSubCat_Foxhound {
+        displayName = "Men (Foxhound Special Forces)";
+    };
+
+    class TACU_MSF_EdSubCat_Regular_Black {
+        displayName = "Men (Regular - Black)";
+    };
+    class TACU_MSF_EdSubCat_Regular_Desert {
+        displayName = "Men (Regular - Desert)";
+    };
+    class TACU_MSF_EdSubCat_Regular_Wood {
+        displayName = "Men (Regular - Woodland)";
     };
 };
