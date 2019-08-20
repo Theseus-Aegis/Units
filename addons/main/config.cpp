@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             // Arma 3
-            "A3_Data_F_Tank_Loadorder",
+            "A3_Data_F_Enoch_Loadorder",
             "A3_Data_F_Mod_Loadorder",
             // ACE
             "ace_explosives",
