@@ -13,6 +13,9 @@ class CfgEditorSubcategories {
     class TACU_Vanguard_EdSubCat_Contractors_Sand {
         displayName = "Men (Contractors - Sand)";
     };
+    class TACU_Vanguard_EdSubCat_Contractors_Winter {
+        displayName = "Men (Contractors - Winter)";
+    };
     class TACU_Vanguard_EdSubCat_Guards {
         displayName = "Men (Guards)";
     };
