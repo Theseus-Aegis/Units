@@ -132,8 +132,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_05: TACU_PLR_U_O_Insurgent_Rifleman_01 {
 
 class TACU_PLR_U_O_Insurgent_Rifleman_AT: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     displayName = "Rifleman (AT)";
-    icon = "iconMan";
-    role = "Rifleman";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
     uniformClass = "CUP_U_O_TK_MixedCamo";
     backpack = "TACU_PLR_B_AT";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_blk", "CUP_V_B_Interceptor_Base_DCU"};

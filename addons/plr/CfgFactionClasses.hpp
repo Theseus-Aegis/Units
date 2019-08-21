@@ -10,4 +10,8 @@ class CfgEditorSubcategories {
     class TACU_PLR_EdSubCat_Insurgents {
         displayName = "Men (Insurgents)";
     };
+
+    class TACU_PLR_EdSubCat_Paramilitary {
+        displayName = "Men (Paramilitary)";
+    };
 };
