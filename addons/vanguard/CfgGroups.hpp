@@ -194,7 +194,102 @@ class CfgGroups {
                     };
                 };
             };
+            class TACU_Vanguard_G_Contractors_Winter {
+                name = "Contractors (Winter)";
 
+                class TACU_Vanguard_G_Contractors_Winter_Patrol {
+                    name = "Patrol";
+                    side = 2;
+                    faction = "TACU_Vanguard";
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                    class unit0 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Rifleman_01";
+                        side = 2;
+                        rank = "SERGEANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class unit1 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Rifleman_02";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {5, -5, 0};
+                    };
+                };
+
+                class TACU_Vanguard_G_Contractors_Winter_Fireteam {
+                    name = "Fireteam";
+                    side = 2;
+                    faction = "TACU_Vanguard";
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                    class unit0 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_TeamLeader";
+                        side = 2;
+                        rank = "SERGEANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class unit1 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Grenadier";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {5, -5, 0};
+                    };
+                    class unit2 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Rifleman_AT";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {-5, -5, 0};
+                    };
+                    class unit3 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Medic";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {10, -10, 0};
+                    };
+                };
+
+                class TACU_Vanguard_G_Contractors_Winter_Squad {
+                    name = "Squad";
+                    side = 2;
+                    faction = "TACU_Vanguard";
+                    icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                    class unit0 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_TeamLeader";
+                        side = 2;
+                        rank = "SERGEANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class unit1 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Rifleman_01";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {5, -5, 0};
+                    };
+                    class unit2 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Rifleman_AT";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {-5, -5, 0};
+                    };
+                    class unit3 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Medic";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {10, -10, 0};
+                    };
+                    class unit4 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Rifleman_02";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {-10, -10, 0};
+                    };
+                    class unit5 {
+                        vehicle = "TACU_Vanguard_U_Contractor_Winter_Autorifleman";
+                        side = 2;
+                        rank = "PRIVATE";
+                        position[] = {15, -15, 0};
+                    };
+                };
+            };
             class TACU_Vanguard_G_Specialists {
                 name = "Specialists";
 
