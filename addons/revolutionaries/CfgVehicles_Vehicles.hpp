@@ -1,6 +1,5 @@
-//Revolutionaries (Tanoan)
-class C_Hatchback_01_F;
-class TACU_Revolutionaries_V_O_Hatchback01: C_Hatchback_01_F {
+class C_Hatchback_01_F; //Revolutionaries (Tanoan)
+class TACU_Revolutionaries_V_O_Hatchback01: C_Hatchback_01_F { 
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_O";
 	editorSubcategory = "TACU_Revolutionaries_EdSubCat_O_Cars_Tanoa";
@@ -9,7 +8,6 @@ class TACU_Revolutionaries_V_O_Hatchback01: C_Hatchback_01_F {
     crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman05";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class C_Truck_02_transport_F;
 class TACU_Revolutionaries_V_O_Transport01: C_Truck_02_transport_F {
     MACRO_CLEAR_VEHICLE_CARGO
@@ -20,7 +18,6 @@ class TACU_Revolutionaries_V_O_Transport01: C_Truck_02_transport_F {
     crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman05";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class C_Offroad_01_covered_F;
 class TACU_Revolutionaries_V_O_OffroadC01: C_Offroad_01_covered_F {
     MACRO_CLEAR_VEHICLE_CARGO
@@ -31,7 +28,6 @@ class TACU_Revolutionaries_V_O_OffroadC01: C_Offroad_01_covered_F {
     crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman05";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class I_C_Offroad_02_LMG_F;
 class TACU_Revolutionaries_V_O_Jeep_LMG: I_C_Offroad_02_LMG_F {
     MACRO_CLEAR_VEHICLE_CARGO
@@ -43,9 +39,7 @@ class TACU_Revolutionaries_V_O_Jeep_LMG: I_C_Offroad_02_LMG_F {
     typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
-//Revolutionaries (Russian)
-class CUP_C_Datsun_4seat;
+class CUP_C_Datsun_4seat; //Revolutionaries (Russian)
 class TACU_Revolutionaries_V_O_Datsun_5Seat: CUP_C_Datsun_4seat {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_O";
@@ -55,7 +49,6 @@ class TACU_Revolutionaries_V_O_Datsun_5Seat: CUP_C_Datsun_4seat {
     crew = "TACU_Revolutionaries_U_O_Russian_Rifleman05";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class CUP_C_Golf4_black_Civ;
 class TACU_Revolutionaries_V_O_Golf_Black: CUP_C_Golf4_black_Civ {
     MACRO_CLEAR_VEHICLE_CARGO
@@ -66,7 +59,6 @@ class TACU_Revolutionaries_V_O_Golf_Black: CUP_C_Golf4_black_Civ {
     crew = "TACU_Revolutionaries_U_O_Russian_Rifleman05";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class CUP_C_Skoda_Blue_CIV;
 class TACU_Revolutionaries_V_O_Skoda_Blue: CUP_C_Skoda_Blue_CIV {
     MACRO_CLEAR_VEHICLE_CARGO
@@ -77,7 +69,6 @@ class TACU_Revolutionaries_V_O_Skoda_Blue: CUP_C_Skoda_Blue_CIV {
     crew = "TACU_Revolutionaries_U_O_Russian_Rifleman05";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class CUP_O_Datsun_PK;
 class TACU_Revolutionaries_V_O_Fatsun_PK: CUP_O_Datsun_PK {
     MACRO_CLEAR_VEHICLE_CARGO
@@ -89,7 +80,6 @@ class TACU_Revolutionaries_V_O_Fatsun_PK: CUP_O_Datsun_PK {
 	typicalCargo[] = {"TACU_Revolutionaries_U_O_Russian_Rifleman03"}
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class CUP_C_Ural_Civ_03;
 class TACU_Revolutionaries_V_O_Ural01: CUP_C_Ural_Civ_03 {
     MACRO_CLEAR_VEHICLE_CARGO
@@ -100,9 +90,7 @@ class TACU_Revolutionaries_V_O_Ural01: CUP_C_Ural_Civ_03 {
     crew = "TACU_Revolutionaries_U_O_Russian_Rifleman05";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
-//Home Defense (Russian)
-class TACU_Revolutionaries_V_I_Datsun_5Seat: CUP_C_Datsun_4seat {
+class TACU_Revolutionaries_V_I_Datsun_5Seat: CUP_C_Datsun_4seat { //Home Defense (Russian)
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_I";
 	editorSubcategory = "TACU_Revolutionaries_EdSubCat_I_Cars_Russian";
@@ -111,7 +99,6 @@ class TACU_Revolutionaries_V_I_Datsun_5Seat: CUP_C_Datsun_4seat {
     crew = "TACU_Revolutionaries_U_I_Russian_Rifleman04";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class TACU_Revolutionaries_V_I_Golf_Black: CUP_C_Golf4_black_Civ {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_I";
@@ -121,7 +108,6 @@ class TACU_Revolutionaries_V_I_Golf_Black: CUP_C_Golf4_black_Civ {
     crew = "TACU_Revolutionaries_U_I_Russian_Rifleman04";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class TACU_Revolutionaries_V_I_Skoda_Blue: CUP_C_Skoda_Blue_CIV {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_I";
@@ -131,9 +117,7 @@ class TACU_Revolutionaries_V_I_Skoda_Blue: CUP_C_Skoda_Blue_CIV {
     crew = "TACU_Revolutionaries_U_I_Russian_Rifleman04";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
-//Home Defense (Tanoan)
-class C_Offroad_01_F;
+class C_Offroad_01_F; //Home Defense (Tanoan)
 class TACU_Revolutionaries_V_I_OffroadC01: C_Offroad_01_F {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_I";
@@ -143,7 +127,6 @@ class TACU_Revolutionaries_V_I_OffroadC01: C_Offroad_01_F {
     crew = "TACU_Revolutionaries_U_I_Tanoan_Rifleman04";
     //editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
-
 class TACU_Revolutionaries_V_I_Hatchback01: C_Hatchback_01_F {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_I";

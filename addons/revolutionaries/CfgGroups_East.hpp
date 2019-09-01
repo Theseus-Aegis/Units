@@ -1,8 +1,7 @@
 class TACU_Revolutionaries_O {
     name = "Revolutionaries";
-    class TACU_Revolutionaries_G_O_Tanoan {
+    class TACU_Revolutionaries_G_O_Tanoan { //Tanoan
         name = "Revolutionaries (Tanoan)";
-
         class TACU_Revolutionaries_G_O_Tanoan_GuardL {
             name = "Guards (Light)";
             side = 0;
@@ -21,7 +20,6 @@ class TACU_Revolutionaries_O {
                 position[] = {5, -5, 0};
             };
         };
-		
         class TACU_Revolutionaries_G_O_Tanoan_GuardH {
             name = "Guards (Heavy)";
             side = 0;
@@ -40,7 +38,6 @@ class TACU_Revolutionaries_O {
                 position[] = {5, -5, 0};
             };
         };
-		
         class TACU_Revolutionaries_G_O_Tanoan_SniperT {
             name = "Sniper Team";
             side = 0;
@@ -58,8 +55,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-        };		
-		
+        };				
         class TACU_Revolutionaries_G_O_Tanoan_FTeamL {
             name = "Fireteam (Light)";
             side = 0;
@@ -89,8 +85,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {10, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_O_Tanoan_FTeamH {
             name = "Fireteam (Heavy)";
             side = 0;
@@ -121,7 +116,6 @@ class TACU_Revolutionaries_O {
                 position[] = {10, -5, 0};
             };
         };
-		
         class TACU_Revolutionaries_G_O_Tanoan_SquadL {
             name = "Squad (Light)";
             side = 0;
@@ -163,8 +157,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {15, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_O_Tanoan_SquadH {
             name = "Squad (Heavy)";
             side = 0;
@@ -206,8 +199,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {15, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_O_Tanoan_SupportL {
             name = "Support (Light)";
             side = 0;
@@ -238,7 +230,6 @@ class TACU_Revolutionaries_O {
                 position[] = {10, -5, 0}
 			};
         };
-
         class TACU_Revolutionaries_G_O_Tanoan_SupportH {
             name = "Support (Heavy)";
             side = 0;
@@ -270,8 +261,7 @@ class TACU_Revolutionaries_O {
 			};			
         };
 	 };
-//Russian
-    class TACU_Revolutionaries_G_O_Russian {
+    class TACU_Revolutionaries_G_O_Russian { //Russian
         name = "Revolutionaries (Russian)";
 
         class TACU_Revolutionaries_G_O_Russian_GuardL {
@@ -291,8 +281,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-        };
-		
+        };		
         class TACU_Revolutionaries_G_O_Russian_GuardH {
             name = "Guards (Heavy)";
             side = 0;
@@ -310,8 +299,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_O_Russian_FTeamL {
             name = "Fireteam (Light)";
             side = 0;
@@ -341,8 +329,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {10, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_O_Russian_FTeamH {
             name = "Fireteam (Heavy)";
             side = 0;
@@ -372,8 +359,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {10, -5, 0};
             };
-        };
-		
+        };		
         class TACU_Revolutionaries_G_O_Russian_SquadL {
             name = "Squad (Light)";
             side = 0;
@@ -415,8 +401,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {15, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_O_Russian_SquadH {
             name = "Squad (Heavy)";
             side = 0;
@@ -458,8 +443,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {15, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_O_Russian_SupportL {
             name = "Support (Light)";
             side = 0;
@@ -490,7 +474,6 @@ class TACU_Revolutionaries_O {
                 position[] = {10, -5, 0}
 			};
         };
-
         class TACU_Revolutionaries_G_O_Russian_SniperT {
             name = "Sniper Team";
             side = 0;
@@ -508,8 +491,7 @@ class TACU_Revolutionaries_O {
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-        };	
-
+        };
         class TACU_Revolutionaries_G_O_Russian_SupportH {
             name = "Support (Heavy)";
             side = 0;
@@ -540,5 +522,5 @@ class TACU_Revolutionaries_O {
                 position[] = {10, -5, 0}
 			};			
         };		
-};
+    };
 };
