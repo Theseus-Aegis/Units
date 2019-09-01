@@ -1,6 +1,4 @@
-// Units - Revolutionaries (Tanoan)
-
-class TACU_Revolutionaries_U_O_Tanoan_Base: TACU_Main_U_OPFOR_Soldier_Base {
+class TACU_Revolutionaries_U_O_Tanoan_Base: TACU_Main_U_OPFOR_Soldier_Base { // Units - Revolutionaries (Tanoan)
     author = "Jack";
     displayName = "Rifleman (FAL)";
     faction = "TACU_Revolutionaries_O";
@@ -27,10 +25,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Base: TACU_Main_U_OPFOR_Soldier_Base {
         "G_Balaclava_blk", 1
     };
 };
-
-//Unit Specifics
-
-class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Revolutionaries_U_O_Tanoan_Base {
+class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Revolutionaries_U_O_Tanoan_Base { //Unit Specifics
     displayName = "Rifleman (MK14)"; 
     scope = 2;
     scopeCurator = 2;
@@ -39,10 +34,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"srifle_DMR_06_hunter_F"};
     magazines[] = {mag_2("10Rnd_Mk14_762x51_Mag")};
     respawnMagazines[] = {mag_2("10Rnd_Mk14_762x51_Mag")};
-	backpack = "TACU_Revolutionaries_Backpack_Mk14";
+    backpack = "TACU_Revolutionaries_Backpack_Mk14";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman02: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Shotgunner"; 
     scope = 2;
@@ -52,10 +46,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman02: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"sgun_HunterShotgun_01_F"};
     magazines[] = {mag_4("2Rnd_12Gauge_Pellets")};
     respawnMagazines[] = {mag_4("2Rnd_12Gauge_Pellets")};
-	backpack = "TACU_Revolutionaries_Backpack_Shotgun";
+    backpack = "TACU_Revolutionaries_Backpack_Shotgun";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman03: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Submachine Gunner (MP5K)"; 
     scope = 2;
@@ -65,10 +58,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman03: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"TACU_Revolutionaries_Weapon_O_MP5K"};
     magazines[] = {mag_2("30Rnd_9x21_Mag_SMG_02")};
     respawnMagazines[] = {mag_2("30Rnd_9x21_Mag_SMG_02")};
-	backpack = "TACU_Revolutionaries_Backpack_MP5K";
+    backpack = "TACU_Revolutionaries_Backpack_MP5K";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman04: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Marksmen"; 
     scope = 2;
@@ -78,10 +70,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman04: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"CUP_srifle_CZ550"};
     magazines[] = {mag_2("CUP_5x_22_LR_17_HMR_M")};
     respawnMagazines[] = {mag_2("CUP_5x_22_LR_17_HMR_M")};
-	backpack = "TACU_Revolutionaries_Backpack_CZ550";
+    backpack = "TACU_Revolutionaries_Backpack_CZ550";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman05: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Rifleman (Lee Enfield)"; 
     scope = 2;
@@ -91,10 +82,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman05: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"CUP_srifle_LeeEnfield"};
     magazines[] = {mag_2("CUP_10x_303_M")};
     respawnMagazines[] = {mag_2("CUP_10x_303_M")};
-	backpack = "TACU_Revolutionaries_Backpack_LeeEnfield";
+    backpack = "TACU_Revolutionaries_Backpack_LeeEnfield";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman06: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Grenadier"; 
     scope = 2;
@@ -104,10 +94,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman06: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"CUP_glaunch_M79"};
     magazines[] = {mag_5("1Rnd_HE_Grenade_shell")};
     respawnMagazines[] = {mag_5("1Rnd_HE_Grenade_shell")};
-	backpack = "TACU_Revolutionaries_Backpack_M79";
+    backpack = "TACU_Revolutionaries_Backpack_M79";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman07: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Submachine Gunner (Bizon)"; 
     scope = 2;
@@ -117,10 +106,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman07: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"CUP_smg_bizon"};
     magazines[] = {mag_2("CUP_64Rnd_9x19_Bizon_M")};
     respawnMagazines[] = {mag_2("CUP_64Rnd_9x19_Bizon_M")};
-	backpack = "TACU_Revolutionaries_Backpack_Bizon";
+    backpack = "TACU_Revolutionaries_Backpack_Bizon";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman08: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Machine Gunner (UK-59)"; 
     scope = 2;
@@ -130,10 +118,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman08: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"CUP_lmg_UK59"};
     magazines[] = {mag_2("CUP_50Rnd_UK59_762x54R_Tracer")};
     respawnMagazines[] = {mag_2("CUP_50Rnd_UK59_762x54R_Tracer")};
-	backpack = "TACU_Revolutionaries_Backpack_UK59";
+    backpack = "TACU_Revolutionaries_Backpack_UK59";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman09: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Machine Gunner (FN Minimi SPW)"; 
     scope = 2;
@@ -143,10 +130,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman09: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"TACU_Revolutionaries_Weapon_O_FNMinimiSPW"};
     magazines[] = {"200Rnd_556x45_Box_F"};
     respawnMagazines[] = {"200Rnd_556x45_Box_F"};
-	backpack = "TACU_Revolutionaries_Backpack_FNMinimiSPW";
+    backpack = "TACU_Revolutionaries_Backpack_FNMinimiSPW";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman10: TACU_Revolutionaries_U_O_Tanoan_Base {
     displayName = "Rifleman (CZ805 A2)"; 
     scope = 2;
@@ -156,6 +142,6 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman10: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"TACU_Revolutionaries_Weapon_O_CZ805A2"};
     magazines[] = {mag_2("CUP_30Rnd_556x45_G36")};
     respawnMagazines[] = {mag_2("CUP_30Rnd_556x45_G36")};
-	backpack = "TACU_Revolutionaries_Backpack_CZ805A2";
+    backpack = "TACU_Revolutionaries_Backpack_CZ805A2";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };

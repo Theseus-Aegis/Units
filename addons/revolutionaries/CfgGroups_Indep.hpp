@@ -1,8 +1,7 @@
 class TACU_Revolutionaries_I {
     name = "Civil Defense";
-    class TACU_Revolutionaries_G_I_Tanoan {
+    class TACU_Revolutionaries_G_I_Tanoan { //Tanoan
         name = "Civil Defense (Tanoan)";
-
         class TACU_Revolutionaries_G_I_Tanoan_GuardL {
             name = "Guards";
             side = 2;
@@ -21,8 +20,6 @@ class TACU_Revolutionaries_I {
                 position[] = {5, -5, 0};
             };
         };
-		
-	
         class TACU_Revolutionaries_G_I_Tanoan_SniperT {
             name = "Sniper Team";
             side = 2;
@@ -40,8 +37,7 @@ class TACU_Revolutionaries_I {
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-        };		
-		
+        };
         class TACU_Revolutionaries_G_I_Tanoan_FTeamL {
             name = "Fireteam";
             side = 2;
@@ -71,8 +67,7 @@ class TACU_Revolutionaries_I {
                 rank = "PRIVATE";
                 position[] = {10, -5, 0};
             };
-        };
-		
+        };	
         class TACU_Revolutionaries_G_I_Tanoan_SquadL {
             name = "Squad";
             side = 2;
@@ -115,11 +110,9 @@ class TACU_Revolutionaries_I {
                 position[] = {15, -5, 0};
             };
         };
- };
-//Russian
-     class TACU_Revolutionaries_G_I_Russian {
+    };
+    class TACU_Revolutionaries_G_I_Russian { //Russian
         name = "Civil Defense (Russian)";
-
         class TACU_Revolutionaries_G_I_Russian_GuardL {
             name = "Guards";
             side = 2;
@@ -138,8 +131,6 @@ class TACU_Revolutionaries_I {
                 position[] = {5, -5, 0};
             };
         };
-		
-	
         class TACU_Revolutionaries_G_I_Russian_SniperT {
             name = "Sniper Team";
             side = 2;
@@ -157,8 +148,7 @@ class TACU_Revolutionaries_I {
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-        };		
-		
+        };
         class TACU_Revolutionaries_G_I_Russian_FTeamL {
             name = "Fireteam";
             side = 2;
@@ -189,7 +179,6 @@ class TACU_Revolutionaries_I {
                 position[] = {10, -5, 0};
             };
         };
-		
         class TACU_Revolutionaries_G_I_Russian_SquadL {
             name = "Squad";
             side = 2;
@@ -232,5 +221,5 @@ class TACU_Revolutionaries_I {
                 position[] = {15, -5, 0};
             };
         };
-	 };
+	};
 };

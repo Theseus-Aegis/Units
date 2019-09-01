@@ -1,6 +1,4 @@
-//Home Defense (Russian)
-
-class TACU_Revolutionaries_U_I_Russian_Base: TACU_Main_U_INDEP_Soldier_Base {
+class TACU_Revolutionaries_U_I_Russian_Base: TACU_Main_U_INDEP_Soldier_Base { //Home Defense (Russian)
     author = "Jack";
     displayName = "Rifleman (FAL)";
     faction = "TACU_Revolutionaries_I";
@@ -27,10 +25,7 @@ class TACU_Revolutionaries_U_I_Russian_Base: TACU_Main_U_INDEP_Soldier_Base {
         "None", 1
     };
 };
-
-//Unit Specifics
-
-class TACU_Revolutionaries_U_I_Russian_Rifleman01: TACU_Revolutionaries_U_I_Russian_Base {
+class TACU_Revolutionaries_U_I_Russian_Rifleman01: TACU_Revolutionaries_U_I_Russian_Base { //Unit Specifics
     displayName = "Rifleman (MK14)"; 
     scope = 2;
     scopeCurator = 2;
@@ -39,10 +34,9 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman01: TACU_Revolutionaries_U_I_Russ
     respawnWeapons[] = {"srifle_DMR_06_hunter_F"};
     magazines[] = {mag_2("10Rnd_Mk14_762x51_Mag")};
     respawnMagazines[] = {mag_2("10Rnd_Mk14_762x51_Mag")};
-	backpack = "TACU_Revolutionaries_Backpack_Mk14";
+    backpack = "TACU_Revolutionaries_Backpack_Mk14";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_I_Russian_Rifleman02: TACU_Revolutionaries_U_I_Russian_Base {
     displayName = "Shotgunner"; 
     scope = 2;
@@ -52,10 +46,9 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman02: TACU_Revolutionaries_U_I_Russ
     respawnWeapons[] = {"sgun_HunterShotgun_01_F"};
     magazines[] = {mag_4("2Rnd_12Gauge_Pellets")};
     respawnMagazines[] = {mag_4("2Rnd_12Gauge_Pellets")};
-	backpack = "TACU_Revolutionaries_Backpack_Shotgun";
+    backpack = "TACU_Revolutionaries_Backpack_Shotgun";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_I_Russian_Rifleman03: TACU_Revolutionaries_U_I_Russian_Base {
     displayName = "Marksmen"; 
     scope = 2;
@@ -65,10 +58,9 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman03: TACU_Revolutionaries_U_I_Russ
     respawnWeapons[] = {"CUP_srifle_CZ550"};
     magazines[] = {mag_2("CUP_5x_22_LR_17_HMR_M")};
     respawnMagazines[] = {mag_2("CUP_5x_22_LR_17_HMR_M")};
-	backpack = "TACU_Revolutionaries_Backpack_CZ550";
+    backpack = "TACU_Revolutionaries_Backpack_CZ550";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
-
 class TACU_Revolutionaries_U_I_Russian_Rifleman04: TACU_Revolutionaries_U_I_Russian_Base {
     displayName = "Rifleman (Lee Enfield)"; 
     scope = 2;
@@ -78,6 +70,6 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman04: TACU_Revolutionaries_U_I_Russ
     respawnWeapons[] = {"CUP_srifle_LeeEnfield"};
     magazines[] = {mag_2("CUP_10x_303_M")};
     respawnMagazines[] = {mag_2("CUP_10x_303_M")};
-	backpack = "TACU_Revolutionaries_Backpack_LeeEnfield";
+    backpack = "TACU_Revolutionaries_Backpack_LeeEnfield";
     //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
