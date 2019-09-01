@@ -221,5 +221,5 @@ class TACU_Revolutionaries_I {
                 position[] = {15, -5, 0};
             };
         };
-	};
+    };
 };
