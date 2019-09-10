@@ -4,10 +4,8 @@
 #define ADDON DOUBLES(PREFIX,COMPONENT)
 
 // Main
-#define VERSION MAJOR.MINOR.PATCH
-#define VERSION_AR MAJOR,MINOR,PATCH
-#define VERSION_CONFIG version = QUOTE(VERSION); versionStr = QUOTE(VERSION); versionAr[] = {VERSION_AR}
 #define QUOTE(var1) #var1
+#define VERSION_CONFIG version = MAJOR.MINOR; versionStr = QUOTE(MAJOR.MINOR.PATCH); versionAr[] = {MAJOR,MINOR,PATCH}
 
 // Path
 #define PATHTOF_SYS(var1,var2,var3) \MAINPREFIX\var1\SUBPREFIX\var2\var3
