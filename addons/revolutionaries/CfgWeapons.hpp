@@ -19,7 +19,7 @@ class CfgWeapons {
     };
     class CUP_arifle_CZ805_A2;
     class TACU_Revolutionaries_Weapon_O_CZ805A2: CUP_arifle_CZ805_A2 {
-	    dlc = QUOTE(PREFIX);
+        dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {

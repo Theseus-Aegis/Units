@@ -19,7 +19,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Base: TACU_Main_U_INDEP_Soldier_Base { //H
     magazines[] = {mag_2("CUP_20Rnd_762x51_FNFAL_M")};
     respawnMagazines[] = {mag_2("CUP_20Rnd_762x51_FNFAL_M")};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_I_Tanoan";
-    // editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Base.jpg);
     headgearList[] = {};
     TACU_allowedFacewear[] = {
         "None", 1
@@ -35,7 +35,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Revolutionaries_U_I_Tanoa
     magazines[] = {mag_2("10Rnd_Mk14_762x51_Mag")};
     respawnMagazines[] = {mag_2("10Rnd_Mk14_762x51_Mag")};
     backpack = "TACU_Revolutionaries_Backpack_Mk14";
-    //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Rifleman01.jpg);
 };
 class TACU_Revolutionaries_U_I_Tanoan_Rifleman02: TACU_Revolutionaries_U_I_Tanoan_Base {
     displayName = "Shotgunner"; 
@@ -47,10 +47,10 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman02: TACU_Revolutionaries_U_I_Tanoa
     magazines[] = {mag_4("2Rnd_12Gauge_Pellets")};
     respawnMagazines[] = {mag_4("2Rnd_12Gauge_Pellets")};
     backpack = "TACU_Revolutionaries_Backpack_Shotgun";
-    //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Rifleman02.jpg);
 };
 class TACU_Revolutionaries_U_I_Tanoan_Rifleman03: TACU_Revolutionaries_U_I_Tanoan_Base {
-    displayName = "Marksmen"; 
+    displayName = "Marksman"; 
     scope = 2;
     scopeCurator = 2;
     uniformClass = "U_C_MAN_casual_5_F";
@@ -59,7 +59,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman03: TACU_Revolutionaries_U_I_Tanoa
     magazines[] = {mag_2("CUP_5x_22_LR_17_HMR_M")};
     respawnMagazines[] = {mag_2("CUP_5x_22_LR_17_HMR_M")};
     backpack = "TACU_Revolutionaries_Backpack_CZ550";
-    //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Rifleman03.jpg);
 };
 class TACU_Revolutionaries_U_I_Tanoan_Rifleman04: TACU_Revolutionaries_U_I_Tanoan_Base {
     displayName = "Rifleman (Lee Enfield)"; 
@@ -71,5 +71,26 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman04: TACU_Revolutionaries_U_I_Tanoa
     magazines[] = {mag_2("CUP_10x_303_M")};
     respawnMagazines[] = {mag_2("CUP_10x_303_M")};
     backpack = "TACU_Revolutionaries_Backpack_LeeEnfield";
-    //editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Rifleman04.jpg);
+};
+
+class C_Offroad_01_F; // Vehicles
+class TACU_Revolutionaries_V_I_OffroadC01: C_Offroad_01_F {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Revolutionaries_I";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_I_Cars_Tanoa";
+    side = 2;
+    displayName = "Offroad";
+    crew = "TACU_Revolutionaries_U_I_Tanoan_Rifleman04";
+    editorPreview = QPATHTOF(ui\Revolutionaries_V_I_OffroadC01.jpg);
+};
+class C_Hatchback_01_F;
+class TACU_Revolutionaries_V_I_Hatchback01: C_Hatchback_01_F {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Revolutionaries_I";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_I_Cars_Tanoa";
+    side = 2;
+    displayName = "Hatchback";
+    crew = "TACU_Revolutionaries_U_I_Tanoan_Rifleman04";
+    editorPreview = QPATHTOF(ui\Revolutionaries_V_I_Hatchback01.jpg);
 };

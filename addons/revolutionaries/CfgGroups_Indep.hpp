@@ -67,7 +67,7 @@ class TACU_Revolutionaries_I {
                 rank = "PRIVATE";
                 position[] = {10, -5, 0};
             };
-        };	
+        };  
         class TACU_Revolutionaries_G_I_Tanoan_SquadL {
             name = "Squad";
             side = 2;

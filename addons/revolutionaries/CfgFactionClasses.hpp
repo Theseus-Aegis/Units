@@ -24,7 +24,7 @@ class CfgEditorSubcategories {
         displayName = "Cars (Russian)";
     };
     class TACU_Revolutionaries_EdSubCat_I_Tanoan {
-		displayName = "Men (Tanoan)";
+        displayName = "Men (Tanoan)";
     };
     class TACU_Revolutionaries_EdSubCat_I_Russian {
         displayName = "Men (Russian)";
