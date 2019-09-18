@@ -1,8 +1,17 @@
-class CfgGroups {  
-  class EAST {
-        #include "CfgGroups_East.hpp"
-    };
+class CfgGroups {
     class INDEP {
-        #include "CfgGroups_Indep.hpp"
+        class TACU_Revolutionaries_I {
+            name = "Civil Defense";
+            #include "CfgGroups_Indep_Russians.hpp"
+            #include "CfgGroups_Indep_Tanoans.hpp"
+        };
+    };
+
+    class EAST {
+        class TACU_Revolutionaries_O {
+            name = "Revolutionaries";
+            #include "CfgGroups_Opfor_Russians.hpp"
+            #include "CfgGroups_Opfor_Tanoans.hpp"
+        };
     };
 };
