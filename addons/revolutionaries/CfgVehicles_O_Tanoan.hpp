@@ -139,12 +139,12 @@ class TACU_Revolutionaries_V_O_Hatchback: C_Hatchback_01_F {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_O_Cars_Tanoa";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "Hatchback";
     crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";
     typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
-    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Hatchback01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Hatchback.jpg);
 };
 
 class C_Truck_02_transport_F;
@@ -152,12 +152,12 @@ class TACU_Revolutionaries_V_O_KamAZ: C_Truck_02_transport_F {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_O_Cars_Tanoa";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "KamAZ Transport";
     crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";
     typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
-    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Transport01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_KamAZ.jpg);
 };
 
 class C_Offroad_01_covered_F;
@@ -165,12 +165,12 @@ class TACU_Revolutionaries_V_O_Offroad: C_Offroad_01_covered_F {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_O_Cars_Tanoa";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "Offroad";
     crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";
     typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
-    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_OffroadC01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Offroad.jpg);
 };
 
 class I_C_Offroad_02_LMG_F;
@@ -178,7 +178,7 @@ class TACU_Revolutionaries_V_O_Jeep_LMG: I_C_Offroad_02_LMG_F {
     dlc = QUOTE(PREFIX);
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_O_Cars_Tanoa";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "Jeep (LMG)";
     crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";

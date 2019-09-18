@@ -192,6 +192,6 @@ class TACU_Revolutionaries_V_O_Ural: CUP_C_Ural_Civ_03 {
     displayName = "Ural (Worker)";
     crew = "TACU_Revolutionaries_U_O_Russian_Rifleman03";
     typicalCargo[] = {"TACU_Revolutionaries_U_O_Russian_Rifleman03"};
-    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Ural01.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Ural.jpg);
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Russian";
 };

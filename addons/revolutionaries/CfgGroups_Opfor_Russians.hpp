@@ -86,7 +86,7 @@ class TACU_Revolutionaries_G_O_Infantry_Russians {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Marksman";
             side = 0;
             rank = "PRIVATE";
-            position[] = {10, -5, 0};
+            position[] = {10, -10, 0};
         };
     };
 
@@ -117,7 +117,7 @@ class TACU_Revolutionaries_G_O_Infantry_Russians {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Autorifleman";
             side = 0;
             rank = "PRIVATE";
-            position[] = {10, -5, 0};
+            position[] = {10, -10, 0};
         };
     };
 
@@ -148,19 +148,19 @@ class TACU_Revolutionaries_G_O_Infantry_Russians {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Marksman";
             side = 0;
             rank = "PRIVATE";
-            position[] = {10, -5, 0};
+            position[] = {10, -10, 0};
         };
         class unit4 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Machinegunner";
             side = 0;
             rank = "PRIVATE";
-            position[] = {-10, -5, 0};
+            position[] = {-10, -10, 0};
         };
         class unit5 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman01";
             side = 0;
             rank = "PRIVATE";
-            position[] = {15, -5, 0};
+            position[] = {15, -15, 0};
         };
     };
 
@@ -191,19 +191,19 @@ class TACU_Revolutionaries_G_O_Infantry_Russians {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Autorifleman";
             side = 0;
             rank = "PRIVATE";
-            position[] = {10, -5, 0};
+            position[] = {10, -10, 0};
         };
         class unit4 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman01";
             side = 0;
             rank = "PRIVATE";
-            position[] = {-10, -5, 0};
+            position[] = {-10, -10, 0};
         };
         class unit5 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman04";
             side = 0;
             rank = "PRIVATE";
-            position[] = {15, -5, 0};
+            position[] = {15, -15, 0};
         };
     };
 
@@ -234,7 +234,7 @@ class TACU_Revolutionaries_G_O_Infantry_Russians {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Grenadier";
             side = 0;
             rank = "PRIVATE";
-            position[] = {10, -5, 0};
+            position[] = {10, -10, 0};
         };
     };
 
@@ -265,7 +265,7 @@ class TACU_Revolutionaries_G_O_Infantry_Russians {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Grenadier";
             side = 0;
             rank = "PRIVATE";
-            position[] = {10, -5, 0};
+            position[] = {10, -10, 0};
         };
     };
 };
