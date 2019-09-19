@@ -33,8 +33,8 @@ class CfgVehicles {
         headgearList[] = {
             "", 1
         };
-        TACU_allowedFacewear[] = {
-            "None", 1
+        CBA_facewearList[] = {
+            "", 1
         };
     };
 
@@ -67,8 +67,8 @@ class CfgVehicles {
         headgearList[] = {
             "", 1
         };
-        TACU_allowedFacewear[] = {
-            "None", 1
+        CBA_facewearList[] = {
+            "", 1
         };
     };
 
@@ -101,8 +101,8 @@ class CfgVehicles {
         headgearList[] = {
             "", 1
         };
-        TACU_allowedFacewear[] = {
-            "None", 1
+        CBA_facewearList[] = {
+            "", 1
         };
     };
 };

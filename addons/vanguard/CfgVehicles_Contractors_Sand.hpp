@@ -22,7 +22,7 @@ class TACU_Vanguard_U_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_Bas
     headgearList[] = {
         "H_HelmetSpecB_sand", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf2", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Sand";

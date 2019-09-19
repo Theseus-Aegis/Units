@@ -27,7 +27,7 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     headgearList[] = {
         "TACU_MSF_Helmet_LightCombat_Foxhound", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Balaclava_TI_blk_F", 1,
     };
     editorSubcategory = "TACU_MSF_EdSubCat_Foxhound";

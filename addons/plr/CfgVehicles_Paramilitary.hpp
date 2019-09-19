@@ -23,7 +23,7 @@ class TACU_PLR_U_O_Paramilitary_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     headgearList[] = {
         "CUP_H_RUS_6B27_olive", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "milgp_f_face_shield_goggles_RGR", 1
     };
     editorPreview = QPATHTOF(ui\PLR_U_O_Paramilitary_Rifleman_01.jpg);

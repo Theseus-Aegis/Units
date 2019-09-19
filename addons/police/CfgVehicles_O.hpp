@@ -23,7 +23,7 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     headgearList[] = {
         "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_RUS_Balaclava_grn", 0.30,
         "CUP_RUS_Balaclava_blk", 0.30,
         "G_Balaclava_TI_G_blk_F", 0.30
@@ -85,7 +85,7 @@ class TACU_Police_U_O_Enforcer_SMG_1: TACU_Police_U_O_CT_Rifleman {
         "CUP_H_SLA_BeanieGreen", 0.20,
         "CUP_H_PMC_Beanie_Black", 0.20,
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_G_Oakleys_Drk", 0.25,
         "CUP_G_Oakleys_Embr", 0.25,
         "CUP_G_Oakleys_Clr", 0.25,

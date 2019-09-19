@@ -26,7 +26,7 @@ class TACU_PLR_U_O_Insurgent_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
         "H_Shemag_olive", 0.1,
         "CUP_H_SLA_Helmet_BLK", 0.25
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf5", 1,
         "CUP_FR_NeckScarf2", 0.2,
         "CUP_FR_NeckScarf", 0.2,
@@ -53,7 +53,7 @@ class TACU_PLR_U_O_Insurgent_Rifleman_02: TACU_PLR_U_O_Insurgent_Rifleman_01 {
         "H_Shemag_olive", 0.1,
         "CUP_H_SLA_Helmet_BLK", 0.5
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf5", 1,
         "CUP_FR_NeckScarf2", 0.2,
         "CUP_FR_NeckScarf", 0.2,
@@ -76,7 +76,7 @@ class TACU_PLR_U_O_Insurgent_Rifleman_03: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     headgearList[] = {
         "", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Balaclava_blk", 1,
         "G_Balaclava_oli", 0.2
     };
@@ -97,7 +97,7 @@ class TACU_PLR_U_O_Insurgent_Rifleman_04: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     headgearList[] = {
         "", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Balaclava_blk", 1,
         "G_Balaclava_oli", 0.2
     };
@@ -121,7 +121,7 @@ class TACU_PLR_U_O_Insurgent_Rifleman_05: TACU_PLR_U_O_Insurgent_Rifleman_01 {
         "H_Shemag_olive", 0.1,
         "CUP_H_SLA_Helmet_BLK", 0.4
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf5", 1,
         "CUP_FR_NeckScarf2", 0.2,
         "CUP_FR_NeckScarf", 0.2,
@@ -145,7 +145,7 @@ class TACU_PLR_U_O_Insurgent_Rifleman_AT: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     headgearList[] = {
         "", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Balaclava_blk", 1,
         "G_Balaclava_oli", 0.2
     };
@@ -166,7 +166,7 @@ class TACU_PLR_U_O_Insurgent_TeamLeader: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     headgearList[] = {
         "CUP_H_SLA_BeretRed", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf5", 1
     };
     editorPreview = QPATHTOF(ui\PLR_U_O_Insurgent_TeamLeader.jpg);
@@ -186,7 +186,7 @@ class TACU_PLR_U_O_Insurgent_Autorifleman: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     headgearList[] = {
         "", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Balaclava_blk", 1,
         "G_Balaclava_oli", 0.1
     };
@@ -209,7 +209,7 @@ class TACU_PLR_U_O_Insurgent_Sniper: TACU_PLR_U_O_Insurgent_Rifleman_01 {
         "H_ShemagOpen_tan", 0.2,
         "H_Shemag_olive", 0.2
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf5", 1,
         "CUP_FR_NeckScarf4", 0.1,
         "CUP_FR_NeckScarf2", 0.1,
