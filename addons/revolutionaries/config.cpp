@@ -4,8 +4,10 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             // Backpacks
-            "TACU_Revolutionaries_B_MMG_UK59",
-            "TACU_Revolutionaries_B_LMG_Minimi",
+            "TACU_Revolutionaries_B_MMG_UK59_Black",
+            "TACU_Revolutionaries_B_LMG_Minimi_Black",
+            "TACU_Revolutionaries_B_MMG_UK59_Green",
+            "TACU_Revolutionaries_B_LMG_Minimi_Green",
             // Units - Indep - Russian
             "TACU_Revolutionaries_U_I_Russian_Rifleman01",
             "TACU_Revolutionaries_U_I_Russian_Rifleman02",

@@ -12,9 +12,9 @@ class TACU_Revolutionaries_U_O_Russian_Rifleman01: TACU_Main_U_OPFOR_Soldier_Bas
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "CUP_U_C_Citizen_01";
-    backpack = "B_FieldPack_khk";
-    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    backpack = "B_FieldPack_blk";
+    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
@@ -54,6 +54,8 @@ class TACU_Revolutionaries_U_O_Russian_Rifleman03: TACU_Revolutionaries_U_O_Russ
 class TACU_Revolutionaries_U_O_Russian_Rifleman04: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Rifleman (CZ805 A2)";
     uniformClass = "U_O_R_Gorka_01_black_F";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     weapons[] = {"TACU_Revolutionaries_W_CZ805A2", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Revolutionaries_W_CZ805A2", "Throw", "Put"};
     magazines[] = {mag_6("CUP_30Rnd_556x45_G36")};
@@ -94,6 +96,8 @@ class TACU_Revolutionaries_U_O_Russian_SMG01: TACU_Revolutionaries_U_O_Russian_R
 class TACU_Revolutionaries_U_O_Russian_SMG02: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Submachine Gunner (Bizon)";
     uniformClass = "CUP_U_C_Woodlander_01";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     weapons[] = {"CUP_smg_bizon", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_bizon", "Throw", "Put"};
     magazines[] = {mag_4("CUP_64Rnd_9x19_Bizon_M")};
@@ -104,6 +108,8 @@ class TACU_Revolutionaries_U_O_Russian_SMG02: TACU_Revolutionaries_U_O_Russian_R
 class TACU_Revolutionaries_U_O_Russian_Grenadier: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Grenadier";
     uniformClass = "CUP_U_C_Woodlander_02";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     weapons[] = {"CUP_glaunch_M79", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"CUP_glaunch_M79", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     magazines[] = {mag_8("1Rnd_HE_Grenade_shell"), mag_6("CUP_17Rnd_9x19_glock17")};
@@ -114,7 +120,9 @@ class TACU_Revolutionaries_U_O_Russian_Grenadier: TACU_Revolutionaries_U_O_Russi
 class TACU_Revolutionaries_U_O_Russian_Machinegunner: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Machinegunner";
     uniformClass = "CUP_U_C_Worker_02";
-    backpack = "TACU_Revolutionaries_B_MMG_UK59";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    backpack = "TACU_Revolutionaries_B_MMG_UK59_Black";
     weapons[] = {"CUP_lmg_UK59", "Throw", "Put"};
     respawnWeapons[] = {"CUP_lmg_UK59", "Throw", "Put"};
     magazines[] = {mag_2("CUP_50Rnd_UK59_762x54R_Tracer")};
@@ -123,9 +131,11 @@ class TACU_Revolutionaries_U_O_Russian_Machinegunner: TACU_Revolutionaries_U_O_R
 };
 
 class TACU_Revolutionaries_U_O_Russian_Autorifleman: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
-    displayName = "Autorifleman (FN Minimi SPW)";
+    displayName = "Autorifleman";
     uniformClass = "CUP_U_C_Worker_03";
-    backpack = "TACU_Revolutionaries_B_LMG_Minimi";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
+    backpack = "TACU_Revolutionaries_B_LMG_Minimi_Black";
     weapons[] = {"TACU_Revolutionaries_W_FNMinimiSPW", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Revolutionaries_W_FNMinimiSPW", "Throw", "Put"};
     magazines[] = {"200Rnd_556x45_Box_F"};

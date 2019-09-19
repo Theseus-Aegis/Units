@@ -12,9 +12,9 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Main_U_INDEP_Soldier_Base
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "U_C_MAN_casual_1_F";
-    backpack = "B_FieldPack_khk";
-    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_O_TK_OfficerBelt"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_O_TK_OfficerBelt"};
+    backpack = "B_FieldPack_green_F";
+    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
