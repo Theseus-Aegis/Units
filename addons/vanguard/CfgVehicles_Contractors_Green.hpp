@@ -22,7 +22,7 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Green";

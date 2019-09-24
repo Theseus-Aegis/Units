@@ -26,8 +26,8 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman01: TACU_Main_U_INDEP_Soldier_Bas
     headgearList[] = {
         "", 1
     };
-    TACU_allowedFacewear[] = {
-        "None", 1
+    CBA_facewearList[] = {
+        "", 1
     };
 };
 

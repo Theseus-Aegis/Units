@@ -22,7 +22,7 @@ class TACU_Vanguard_U_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     headgearList[] = {
         "tacs_Helmet_Enc_Ballistic_DarkBlack", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Balaclava_blk", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Specialists";

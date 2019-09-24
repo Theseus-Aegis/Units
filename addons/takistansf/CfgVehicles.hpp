@@ -36,8 +36,8 @@ class CfgVehicles {
             "CUP_H_TKI_Lungee_06", 0.75,
             "CUP_H_TKI_Lungee_04", 0.75
         };
-        TACU_allowedFacewear[] = {
-            "None", 1,
+        CBA_facewearList[] = {
+            "", 1,
             "G_Shades_Black", 0.1
         };
         editorSubcategory = "TACU_TakistanSF_EdSubCat_TakistanSF";
@@ -78,7 +78,7 @@ class CfgVehicles {
             "CUP_H_TKI_Lungee_05", 1,
             "CUP_H_TKI_Lungee_06", 1
         };
-        TACU_allowedFacewear[] = {
+        CBA_facewearList[] = {
             "CUP_FR_NeckScarf", 1,
             "CUP_FR_NeckScarf2", 1,
             "CUP_FR_NeckScarf3", 1,
@@ -116,8 +116,8 @@ class CfgVehicles {
             "H_Shemag_olive_hs", 1,
             "H_Shemag_olive", 1
         };
-        TACU_allowedFacewear[] = {
-            "None", 1,
+        CBA_facewearList[] = {
+            "", 1,
             "G_Shades_Black", 1
         };
     };

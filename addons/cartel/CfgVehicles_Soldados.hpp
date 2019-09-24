@@ -28,8 +28,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "H_Bandanna_khk", 0.30,
         "", 0.30
     };
-    TACU_allowedFacewear[] = {
-        "None", 1
+    CBA_facewearList[] = {
+        "", 1
     };
 };
 

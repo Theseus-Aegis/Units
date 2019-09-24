@@ -23,7 +23,7 @@ class TACU_Cartel_U_O_Sicario_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     headgearList[] = {
         "", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Aviator", 1
     };
     editorPreview = QPATHTOF(ui\Cartel_U_O_Sicario_Rifleman_01.jpg);

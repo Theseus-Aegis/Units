@@ -22,7 +22,7 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     headgearList[] = {
         "tacs_Helmet_Enc_Ballistic_White", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_FR_NeckScarf4", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Winter";

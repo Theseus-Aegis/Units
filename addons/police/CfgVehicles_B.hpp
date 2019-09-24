@@ -20,7 +20,7 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "BWA3_OpsCore", 0.50,
         "BWA3_OpsCore_Camera", 0.50
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_G_PMC_Facewrap_Black_Glasses_Dark", 0.30,
         "CUP_G_PMC_Facewrap_Black_Glasses_Dark_Headset", 0.30,
         "CUP_G_PMC_Facewrap_Black_Glasses_Ember", 0.30
@@ -82,7 +82,7 @@ class TACU_Police_U_B_Enforcer_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "BWA3_OpsCore", 0.25,
         "BWA3_OpsCore_Camera", 0.25
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "CUP_G_Oakleys_Drk", 0.20,
         "CUP_G_Oakleys_Embr", 0.20,
         "CUP_G_Oakleys_Clr", 0.20

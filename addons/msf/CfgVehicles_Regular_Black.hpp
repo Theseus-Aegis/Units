@@ -27,7 +27,7 @@ class TACU_MSF_U_I_Regular_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     headgearList[] = {
         "", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Balaclava_TI_blk_F", 1,
     };
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Black";

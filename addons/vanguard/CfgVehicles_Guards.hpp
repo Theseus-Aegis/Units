@@ -22,7 +22,7 @@ class TACU_Vanguard_U_Guard_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     headgearList[] = {
         "None", 1
     };
-    TACU_allowedFacewear[] = {
+    CBA_facewearList[] = {
         "G_Aviator", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Guards";
