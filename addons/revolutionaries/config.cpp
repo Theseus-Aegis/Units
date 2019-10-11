@@ -8,6 +8,8 @@ class CfgPatches {
             "TACU_Revolutionaries_B_LMG_Minimi_Black",
             "TACU_Revolutionaries_B_MMG_UK59_Green",
             "TACU_Revolutionaries_B_LMG_Minimi_Green",
+            "TACU_Revolutionaries_B_Rocketeer_Black",
+            "TACU_Revolutionaries_B_Saboteur_Black",
             // Units - Indep - Russian
             "TACU_Revolutionaries_U_I_Russian_Rifleman01",
             "TACU_Revolutionaries_U_I_Russian_Rifleman02",
@@ -44,6 +46,13 @@ class CfgPatches {
             "TACU_Revolutionaries_U_O_Tanoan_Grenadier",
             "TACU_Revolutionaries_U_O_Tanoan_Machinegunner",
             "TACU_Revolutionaries_U_O_Tanoan_Autorifleman",
+            "TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA",
+            "TACU_Revolutionaries_U_O_Tanoan_FigureHead",
+            "TACU_Revolutionaries_U_O_Leader",
+            "TACU_Revolutionaries_U_O_Rocketeer",
+            "TACU_Revolutionaries_U_O_Saboteur",
+            "TACU_Revolutionaries_U_O_Pistoleer01",
+            "TACU_Revolutionaries_U_O_Pistoleer02",
             // Vehicles - Indep - Russian
             "TACU_Revolutionaries_V_I_Datsun_5Seat",
             "TACU_Revolutionaries_V_I_Golf_Black",
@@ -66,7 +75,8 @@ class CfgPatches {
         weapons[] = {
             "TACU_Revolutionaries_W_CZ805A2",
             "TACU_Revolutionaries_W_FNMinimiSPW",
-            "TACU_Revolutionaries_W_MP5K"
+            "TACU_Revolutionaries_W_MP5K",
+            "TACU_Revolutionaries_W_CZ805_GL"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};

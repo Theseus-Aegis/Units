@@ -112,8 +112,8 @@ class TACU_Revolutionaries_U_O_Russian_Grenadier: TACU_Revolutionaries_U_O_Russi
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     weapons[] = {"CUP_glaunch_M79", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"CUP_glaunch_M79", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_8("1Rnd_HE_Grenade_shell"), mag_6("CUP_17Rnd_9x19_glock17")};
-    respawnMagazines[] = {mag_8("1Rnd_HE_Grenade_shell"), mag_6("CUP_17Rnd_9x19_glock17")};
+    magazines[] = {mag_8("1Rnd_HE_Grenade_shell"), mag_3("CUP_17Rnd_9x19_glock17")};
+    respawnMagazines[] = {mag_8("1Rnd_HE_Grenade_shell"), mag_3("CUP_17Rnd_9x19_glock17")};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Grenadier.jpg);
 };
 

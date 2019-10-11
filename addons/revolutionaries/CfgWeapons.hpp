@@ -28,4 +28,14 @@ class CfgWeapons {
             EQUIP_POINTER(acc_flashlight);
         };
     };
+    
+    class CUP_arifle_CZ805_GL;
+    class TACU_Revolutionaries_W_CZ805_GL: CUP_arifle_CZ805_GL {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_POINTER(acc_flashlight);
+        };    
+    };
 };
