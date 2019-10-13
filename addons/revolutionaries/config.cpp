@@ -53,6 +53,7 @@ class CfgPatches {
             "TACU_Revolutionaries_U_O_Saboteur",
             "TACU_Revolutionaries_U_O_Pistoleer01",
             "TACU_Revolutionaries_U_O_Pistoleer02",
+            "TACU_Revolutionaries_U_O_Head",
             // Vehicles - Indep - Russian
             "TACU_Revolutionaries_V_I_Datsun_5Seat",
             "TACU_Revolutionaries_V_I_Golf_Black",
