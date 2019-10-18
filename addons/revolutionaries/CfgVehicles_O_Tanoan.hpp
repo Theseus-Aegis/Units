@@ -208,6 +208,8 @@ class TACU_Revolutionaries_U_O_Saboteur: TACU_Revolutionaries_U_O_Tanoan_Riflema
 class TACU_Revolutionaries_U_O_Pistoleer01: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Pistoleer (Garch)";
     uniformClass = "U_I_C_Soldier_Bandit_4_F";
+    linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     backpack = "";
     weapons[] = {"hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_Rook40_F", "Throw", "Put"};
@@ -288,7 +290,7 @@ class TACU_Revolutionaries_V_O_Jeep_LMG: I_C_Offroad_02_LMG_F {
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "Jeep (LMG)";
-    crew = "TACU_Revolutionaries_U_O_Pistoleer01";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Pistoleer01"};
+    crew = "TACU_Revolutionaries_U_O_Pistoleer02";
+    typicalCargo[] = {"TACU_Revolutionaries_U_O_Pistoleer02"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Jeep_LMG.jpg);
 };

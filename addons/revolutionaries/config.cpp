@@ -24,6 +24,12 @@ class CfgPatches {
             "TACU_Revolutionaries_U_I_Tanoan_Rifleman03",
             "TACU_Revolutionaries_U_I_Tanoan_Shotgunner",
             "TACU_Revolutionaries_U_I_Tanoan_Marksman",
+            "TACU_Revolutionaries_U_I_Leader",
+            "TACU_Revolutionaries_U_I_Tanoan_FigureHead",
+            "TACU_Revolutionaries_U_I_Tanoan_FigureHeadUA",
+            "TACU_Revolutionaries_U_I_Head",
+            "TACU_Revolutionaries_U_I_Pistoleer02",
+            "TACU_Revolutionaries_U_I_Pistoleer01",
             // Units - Opfor - Russian
             "TACU_Revolutionaries_U_O_Russian_Rifleman01",
             "TACU_Revolutionaries_U_O_Russian_Rifleman02",
