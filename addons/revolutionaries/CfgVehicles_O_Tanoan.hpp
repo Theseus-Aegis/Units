@@ -184,7 +184,7 @@ class TACU_Revolutionaries_U_O_Rocketeer: TACU_Revolutionaries_U_O_Tanoan_Riflem
     uniformClass = "U_I_C_Soldier_Bandit_1_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
-    backpack = "TACU_Revolutionaries_B_Rocketeer_Black";
+    backpack = "TACU_Revolutionaries_B_Rocketeer_Green";
     weapons[] = {"launch_RPG32_green_F","CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"launch_RPG32_green_F","CUP_hgun_Glock17_blk", "Throw", "Put"};
     magazines[] = {mag_3("CUP_17Rnd_9x19_glock17")};
@@ -197,7 +197,7 @@ class TACU_Revolutionaries_U_O_Saboteur: TACU_Revolutionaries_U_O_Tanoan_Riflema
     uniformClass = "U_I_C_Soldier_Bandit_5_F";
     Items[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
     respawnItems[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
-    backpack = "TACU_Revolutionaries_B_Saboteur_Black";
+    backpack = "TACU_Revolutionaries_B_Saboteur_Green";
     weapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     magazines[] = {mag_6("30Rnd_9x21_Mag")};
@@ -249,8 +249,8 @@ class TACU_Revolutionaries_V_O_Hatchback: C_Hatchback_01_F {
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "Hatchback";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
+    crew = "TACU_Revolutionaries_U_O_Pistoleer01";
+    typicalCargo[] = {"TACU_Revolutionaries_U_O_Pistoleer01"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Hatchback.jpg);
 };
 
@@ -262,8 +262,8 @@ class TACU_Revolutionaries_V_O_KamAZ: C_Truck_02_transport_F {
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "KamAZ Transport";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
+    crew = "TACU_Revolutionaries_U_O_Pistoleer02";
+    typicalCargo[] = {"TACU_Revolutionaries_U_O_Pistoleer02"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_O_KamAZ.jpg);
 };
 
@@ -275,8 +275,8 @@ class TACU_Revolutionaries_V_O_Offroad: C_Offroad_01_covered_F {
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "Offroad";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
+    crew = "TACU_Revolutionaries_U_O_Pistoleer01";
+    typicalCargo[] = {"TACU_Revolutionaries_U_O_Pistoleer01"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Offroad.jpg);
 };
 
@@ -288,7 +288,7 @@ class TACU_Revolutionaries_V_O_Jeep_LMG: I_C_Offroad_02_LMG_F {
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
     side = 0;
     displayName = "Jeep (LMG)";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Rifleman03";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Rifleman03"};
+    crew = "TACU_Revolutionaries_U_O_Pistoleer01";
+    typicalCargo[] = {"TACU_Revolutionaries_U_O_Pistoleer01"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Jeep_LMG.jpg);
 };

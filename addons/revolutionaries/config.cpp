@@ -10,6 +10,8 @@ class CfgPatches {
             "TACU_Revolutionaries_B_LMG_Minimi_Green",
             "TACU_Revolutionaries_B_Rocketeer_Black",
             "TACU_Revolutionaries_B_Saboteur_Black",
+            "TACU_Revolutionaries_B_Saboteur_Green",
+            "TACU_Revolutionaries_B_Rocketeer_Green",
             // Units - Indep - Russian
             "TACU_Revolutionaries_U_I_Russian_Rifleman01",
             "TACU_Revolutionaries_U_I_Russian_Rifleman02",
