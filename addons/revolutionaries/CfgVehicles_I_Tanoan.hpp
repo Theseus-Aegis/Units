@@ -71,7 +71,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Marksman: TACU_Revolutionaries_U_I_Tanoan_
     editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Marksman.jpg);
 };
 
-class TACU_Revolutionaries_U_I_Pistoleer01: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
+class TACU_Revolutionaries_U_I_Tanoan_Pistoleer01: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Pistoleer (Garch)";
     uniformClass = "U_I_C_Soldier_Bandit_1_F";
     backpack = "";
@@ -82,7 +82,7 @@ class TACU_Revolutionaries_U_I_Pistoleer01: TACU_Revolutionaries_U_I_Tanoan_Rifl
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
 };
 
-class TACU_Revolutionaries_U_I_Pistoleer02: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
+class TACU_Revolutionaries_U_I_Tanoan_Pistoleer02: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Pistoleer (FNX)";
     uniformClass = "U_I_C_Soldier_Bandit_4_F";
     backpack = "";
@@ -93,7 +93,7 @@ class TACU_Revolutionaries_U_I_Pistoleer02: TACU_Revolutionaries_U_I_Tanoan_Rifl
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
 };
 
-class TACU_Revolutionaries_U_I_Head: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
+class TACU_Revolutionaries_U_I_Tanoan_Head: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Head";
     uniformClass = "U_C_HunterBody_grn";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Cap_tan"};
@@ -128,7 +128,7 @@ class TACU_Revolutionaries_U_I_Tanoan_FigureHead: TACU_Revolutionaries_U_I_Tanoa
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
 };
 
-class TACU_Revolutionaries_U_I_Leader: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
+class TACU_Revolutionaries_U_I_Tanoan_Leader: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Leader";
     uniformClass = "U_BG_Guerilla3_1";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Booniehat_khk"};

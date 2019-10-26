@@ -96,7 +96,7 @@ class TACU_Revolutionaries_G_O_Infantry_Tanoans {
         faction = "TACU_Revolutionaries_O";
         icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
-            vehicle = "TACU_Revolutionaries_U_O_Leader";
+            vehicle = "TACU_Revolutionaries_U_O_Tanoan_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
@@ -170,7 +170,7 @@ class TACU_Revolutionaries_G_O_Infantry_Tanoans {
         faction = "TACU_Revolutionaries_O";
         icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
-            vehicle = "TACU_Revolutionaries_U_O_Leader";
+            vehicle = "TACU_Revolutionaries_U_O_Tanoan_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
@@ -244,7 +244,7 @@ class TACU_Revolutionaries_G_O_Infantry_Tanoans {
         faction = "TACU_Revolutionaries_O";
         icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
-            vehicle = "TACU_Revolutionaries_U_O_Leader";
+            vehicle = "TACU_Revolutionaries_U_O_Tanoan_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
