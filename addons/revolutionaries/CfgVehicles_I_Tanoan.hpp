@@ -114,8 +114,8 @@ class TACU_Revolutionaries_U_I_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_I_Tan
     backpack = "";
     weapons[] = {"Throw", "Put"};
     respawnWeapons[] = {"Throw", "Put"};
-    magazines[] = {""};
-    respawnMagazines[] = {""};
+    magazines[] = {};
+    respawnMagazines[] = {};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
 };
 

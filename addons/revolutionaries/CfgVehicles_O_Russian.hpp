@@ -147,7 +147,7 @@ class TACU_Revolutionaries_U_O_Russian_FigureHeadUA: TACU_Revolutionaries_U_O_Ru
     displayName = "Figure Head (Unarmed)";
     uniformClass = "CUP_U_B_USMC_FROG3_WMARPAT";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_CAP_WDL"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "", "CUP_H_USMC_CAP_WDL"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_CAP_WDL"};
     backpack = "";
     weapons[] = {"Throw", "Put"};
     respawnWeapons[] = {"Throw", "Put"};

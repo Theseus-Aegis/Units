@@ -77,7 +77,7 @@ class TACU_Revolutionaries_G_I_Infantry_Tanoans {
         faction = "TACU_Revolutionaries_I";
         icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
         class unit0 {
-            vehicle = "TACU_Revolutionaries_U_I_Leader";
+            vehicle = "TACU_Revolutionaries_U_I_Tanoan_Leader";
             side = 2;
             rank = "SERGEANT";
             position[] = {0, 0, 0};

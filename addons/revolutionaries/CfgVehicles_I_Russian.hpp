@@ -114,8 +114,8 @@ class TACU_Revolutionaries_U_I_Russian_FigureHeadUA: TACU_Revolutionaries_U_I_Ru
     backpack = "";
     weapons[] = {"Throw", "Put"};
     respawnWeapons[] = {"Throw", "Put"};
-    magazines[] = {""};
-    respawnMagazines[] = {""};
+    magazines[] = {};
+    respawnMagazines[] = {};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
 };
 
@@ -130,11 +130,11 @@ class TACU_Revolutionaries_U_I_Russian_FigureHead: TACU_Revolutionaries_U_I_Russ
 
 class TACU_Revolutionaries_U_I_Russian_Leader: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
     displayName = "Leader";
-    uniformClass = "CUP_U_B_USMC_MARPAT_WDL_Sleeves";
-    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_FR_BoonieMARPAT"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_FR_BoonieMARPAT"};
-    weapons[] = {"CUP_arifle_OTS14_GORZA-762", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_arifle_OTS14_GORZA-762", "Throw", "Put"};
+    uniformClass = "CUP_U_I_GUE_Anorak_03";
+    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_PMC_Cap_Grey"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_PMC_Cap_Grey"};
+    weapons[] = {"CUP_arifle_OTS14_GROZA_762", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_OTS14_GROZA_762", "Throw", "Put"};
     magazines[] = {mag_6("CUP_20Rnd_762X39_AMD63_M")};
     respawnMagazines[] = {mag_6("CUP_20Rnd_762X39_AMD63_M")};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
