@@ -154,6 +154,9 @@ class TACU_Revolutionaries_U_O_Russian_FigureHeadUA: TACU_Revolutionaries_U_O_Ru
     magazines[] = {""};
     respawnMagazines[] = {""};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    headgearList[] = {
+        "CUP_H_USMC_CAP_WDL", 1
+    };
 };
 
 class TACU_Revolutionaries_U_O_Russian_FigureHead: TACU_Revolutionaries_U_O_Russian_FigureHeadUA {
@@ -175,6 +178,9 @@ class TACU_Revolutionaries_U_O_Russian_Leader: TACU_Revolutionaries_U_O_Russian_
     magazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_6("1Rnd_HE_Grenade_shell")};
     respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_6("1Rnd_HE_Grenade_shell")};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    headgearList[] = {
+        "CUP_H_USMC_BOONIE_PRR_WDL", 1
+    };
 };
 
 class TACU_Revolutionaries_U_O_Russian_Rocketeer: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
@@ -238,6 +244,9 @@ class TACU_Revolutionaries_U_O_Russian_Head: TACU_Revolutionaries_U_O_Russian_Ri
     magazines[] = {mag_5("CUP_7Rnd_50AE_Deagle")};
     respawnMagazines[] = {mag_5("CUP_7Rnd_50AE_Deagle")};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    headgearList[] = {
+        "CUP_H_PMC_Beanie_Black", 1
+    };
 };
 
 // Vehicles

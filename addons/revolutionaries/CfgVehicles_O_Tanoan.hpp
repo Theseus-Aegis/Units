@@ -156,6 +156,9 @@ class TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_O_Tan
     magazines[] = {""};
     respawnMagazines[] = {""};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    headgearList[] = {
+        "H_Beret_blk", 1
+    };
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_FigureHead: TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA {
@@ -177,6 +180,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Leader: TACU_Revolutionaries_U_O_Tanoan_Ri
     magazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_6("1Rnd_HE_Grenade_shell")};
     respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_6("1Rnd_HE_Grenade_shell")};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    headgearList[] = {
+        "H_Booniehat_oil", 1
+    };
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -240,6 +246,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifl
     magazines[] = {mag_5("CUP_7Rnd_50AE_Deagle")};
     respawnMagazines[] = {mag_5("CUP_7Rnd_50AE_Deagle")};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    headgearList[] = {
+        "H_Hat_brown", 1
+    };
 };
 
 // Vehicles

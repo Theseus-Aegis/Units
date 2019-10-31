@@ -104,6 +104,9 @@ class TACU_Revolutionaries_U_I_Russian_Head: TACU_Revolutionaries_U_I_Russian_Ri
     magazines[] = {mag_6("16Rnd_9x21_Mag")};
     respawnMagazines[] = {mag_6("16Rnd_9x21_Mag")};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    headgearList[] = {
+        "CUP_H_C_Beret_04", 1
+    };
 };
 
 class TACU_Revolutionaries_U_I_Russian_FigureHeadUA: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
@@ -138,6 +141,9 @@ class TACU_Revolutionaries_U_I_Russian_Leader: TACU_Revolutionaries_U_I_Russian_
     magazines[] = {mag_6("CUP_20Rnd_762X39_AMD63_M")};
     respawnMagazines[] = {mag_6("CUP_20Rnd_762X39_AMD63_M")};
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    headgearList[] = {
+        "CUP_H_PMC_Cap_Grey", 1
+    };
 };
 
 // Vehicles
