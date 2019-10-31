@@ -158,7 +158,7 @@ class TACU_Revolutionaries_U_O_Russian_FigureHeadUA: TACU_Revolutionaries_U_O_Ru
         "CUP_H_USMC_CAP_WDL", 1
     };
     CBA_facewearList[] = {
-    "", 1
+        "", 1
     };
 };
 
@@ -251,7 +251,7 @@ class TACU_Revolutionaries_U_O_Russian_Head: TACU_Revolutionaries_U_O_Russian_Ri
         "CUP_H_PMC_Beanie_Black", 1
     };
     CBA_facewearList[] = {
-    "", 1
+        "", 1
     };
 };
 

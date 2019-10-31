@@ -160,7 +160,7 @@ class TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_O_Tan
         "H_Beret_blk", 1
     };
     CBA_facewearList[] = {
-    "", 1
+        "", 1
     };
 };
 
@@ -253,7 +253,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifl
         "H_Hat_brown", 1
     };
     CBA_facewearList[] = {
-    "", 1
+        "", 1
     };
 };
 
