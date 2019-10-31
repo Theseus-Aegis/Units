@@ -157,6 +157,9 @@ class TACU_Revolutionaries_U_O_Russian_FigureHeadUA: TACU_Revolutionaries_U_O_Ru
     headgearList[] = {
         "CUP_H_USMC_CAP_WDL", 1
     };
+    CBA_facewearList[] = {
+    "", 1
+    };
 };
 
 class TACU_Revolutionaries_U_O_Russian_FigureHead: TACU_Revolutionaries_U_O_Russian_FigureHeadUA {
@@ -171,8 +174,8 @@ class TACU_Revolutionaries_U_O_Russian_FigureHead: TACU_Revolutionaries_U_O_Russ
 class TACU_Revolutionaries_U_O_Russian_Leader: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Leader";
     uniformClass = "CUP_U_B_USMC_FROG1_WMARPAT";
-    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_USMC_BOONIE_PRR_WDL"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_USMC_BOONIE_PRR_WDL"};
+    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_USMC_BOONIE_PRR_WDL", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_USMC_BOONIE_PRR_WDL", "G_Balaclava_blk"};
     weapons[] = {"TACU_Revolutionaries_W_CZ805_GL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Revolutionaries_W_CZ805_GL", "Throw", "Put"};
     magazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_6("1Rnd_HE_Grenade_shell")};
@@ -246,6 +249,9 @@ class TACU_Revolutionaries_U_O_Russian_Head: TACU_Revolutionaries_U_O_Russian_Ri
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
     headgearList[] = {
         "CUP_H_PMC_Beanie_Black", 1
+    };
+    CBA_facewearList[] = {
+    "", 1
     };
 };
 
