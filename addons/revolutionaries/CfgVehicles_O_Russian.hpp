@@ -151,9 +151,9 @@ class TACU_Revolutionaries_U_O_Russian_FigureHeadUA: TACU_Revolutionaries_U_O_Ru
     backpack = "";
     weapons[] = {"Throw", "Put"};
     respawnWeapons[] = {"Throw", "Put"};
-    magazines[] = {""};
-    respawnMagazines[] = {""};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    magazines[] = {};
+    respawnMagazines[] = {};
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_FigureHeadUA.jpg);
     headgearList[] = {
         "CUP_H_USMC_CAP_WDL", 1
     };
@@ -166,9 +166,9 @@ class TACU_Revolutionaries_U_O_Russian_FigureHead: TACU_Revolutionaries_U_O_Russ
     displayName = "Figure Head";
     weapons[] = {"CUP_hgun_TaurusTracker455_gold", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_TaurusTracker455_gold", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_6Rnd_45ACP_M")};
-    respawnMagazines[] = {mag_6("CUP_6Rnd_45ACP_M")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    magazines[] = {mag_3("CUP_6Rnd_45ACP_M")};
+    respawnMagazines[] = {mag_3("CUP_6Rnd_45ACP_M")};
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_FigureHead.jpg);
 };
 
 class TACU_Revolutionaries_U_O_Russian_Leader: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
@@ -180,7 +180,7 @@ class TACU_Revolutionaries_U_O_Russian_Leader: TACU_Revolutionaries_U_O_Russian_
     respawnWeapons[] = {"TACU_Revolutionaries_W_CZ805_GL", "Throw", "Put"};
     magazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_6("1Rnd_HE_Grenade_shell")};
     respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_G36"), mag_6("1Rnd_HE_Grenade_shell")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Leader.jpg);
     headgearList[] = {
         "CUP_H_USMC_BOONIE_PRR_WDL", 1
     };
@@ -196,7 +196,7 @@ class TACU_Revolutionaries_U_O_Russian_Rocketeer: TACU_Revolutionaries_U_O_Russi
     respawnWeapons[] = {"launch_RPG32_green_F","CUP_hgun_Mac10", "Throw", "Put"};
     magazines[] = {mag_4("CUP_30Rnd_45ACP_MAC10_M")};
     respawnMagazines[] = {mag_4("CUP_30Rnd_45ACP_MAC10_M")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rocketeer.jpg);
 };
 
 class TACU_Revolutionaries_U_O_Russian_Saboteur: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
@@ -209,7 +209,7 @@ class TACU_Revolutionaries_U_O_Russian_Saboteur: TACU_Revolutionaries_U_O_Russia
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     magazines[] = {mag_6("30Rnd_9x21_Mag")};
     respawnMagazines[] = {mag_6("30Rnd_9x21_Mag")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Saboteur.jpg);
 };
 
 class TACU_Revolutionaries_U_O_Russian_Pistoleer01: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
@@ -222,7 +222,7 @@ class TACU_Revolutionaries_U_O_Russian_Pistoleer01: TACU_Revolutionaries_U_O_Rus
     respawnWeapons[] = {"hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_6("16Rnd_9x21_Mag")};
     respawnMagazines[] = {mag_6("16Rnd_9x21_Mag")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Pistoleer01.jpg);
 };
 
 class TACU_Revolutionaries_U_O_Russian_Pistoleer02: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
@@ -233,7 +233,7 @@ class TACU_Revolutionaries_U_O_Russian_Pistoleer02: TACU_Revolutionaries_U_O_Rus
     respawnWeapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_6("11Rnd_45ACP_Mag")};
     respawnMagazines[] = {mag_6("11Rnd_45ACP_Mag")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Pistoleer02.jpg);
 };
 
 class TACU_Revolutionaries_U_O_Russian_Head: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
@@ -246,7 +246,7 @@ class TACU_Revolutionaries_U_O_Russian_Head: TACU_Revolutionaries_U_O_Russian_Ri
     respawnWeapons[] = {"cup_hgun_Deagle", "Throw", "Put"};
     magazines[] = {mag_5("CUP_7Rnd_50AE_Deagle")};
     respawnMagazines[] = {mag_5("CUP_7Rnd_50AE_Deagle")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Head.jpg);
     headgearList[] = {
         "CUP_H_PMC_Beanie_Black", 1
     };

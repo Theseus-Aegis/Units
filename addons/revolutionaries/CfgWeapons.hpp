@@ -5,10 +5,13 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_POINTER(acc_flashlight);
+            class LinkedItemSide {
+                slot = "CUP_PicatinnySideMountCZ805";
+                item = "acc_flashlight";
+            };
         };
     };
-
+    
     class LMG_03_F;
     class TACU_Revolutionaries_W_FNMinimiSPW: LMG_03_F {
         dlc = QUOTE(PREFIX);

@@ -79,7 +79,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Pistoleer01: TACU_Revolutionaries_U_I_Tano
     respawnWeapons[] = {"hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_6("16Rnd_9x21_Mag")};
     respawnMagazines[] = {mag_6("16Rnd_9x21_Mag")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Pistoleer01.jpg);
 };
 
 class TACU_Revolutionaries_U_I_Tanoan_Pistoleer02: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
@@ -90,7 +90,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Pistoleer02: TACU_Revolutionaries_U_I_Tano
     respawnWeapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_6("11Rnd_45ACP_Mag")};
     respawnMagazines[] = {mag_6("11Rnd_45ACP_Mag")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Pistoleer02.jpg);
 };
 
 class TACU_Revolutionaries_U_I_Tanoan_Head: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
@@ -103,7 +103,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Head: TACU_Revolutionaries_U_I_Tanoan_Rifl
     respawnWeapons[] = {"hgun_P07_F", "Throw", "Put"};
     magazines[] = {mag_6("16Rnd_9x21_Mag")};
     respawnMagazines[] = {mag_6("16Rnd_9x21_Mag")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Head.jpg);
     headgearList[] = {
         "H_Cap_tan", 1
     };
@@ -119,7 +119,7 @@ class TACU_Revolutionaries_U_I_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_I_Tan
     respawnWeapons[] = {"Throw", "Put"};
     magazines[] = {};
     respawnMagazines[] = {};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_FigureHeadUA.jpg);
     headgearList[] = {
         "H_StrawHat_dark", 1
     };
@@ -131,7 +131,7 @@ class TACU_Revolutionaries_U_I_Tanoan_FigureHead: TACU_Revolutionaries_U_I_Tanoa
     respawnWeapons[] = {"hgun_Pistol_heavy_02_F", "Throw", "Put"};
     magazines[] = {mag_3("6Rnd_45ACP_Cylinder")};
     respawnMagazines[] = {mag_3("6Rnd_45ACP_Cylinder")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_FigureHead.jpg);
 };
 
 class TACU_Revolutionaries_U_I_Tanoan_Leader: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
@@ -143,7 +143,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Leader: TACU_Revolutionaries_U_I_Tanoan_Ri
     respawnWeapons[] = {"CUP_arifle_M16A1", "Throw", "Put"};
     magazines[] = {mag_6("CUP_20Rnd_556x45_Stanag")};
     respawnMagazines[] = {mag_6("CUP_20Rnd_556x45_Stanag")};
-    //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Leader.jpg);
     headgearList[] = {
         "H_Booniehat_khk", 1
     };
