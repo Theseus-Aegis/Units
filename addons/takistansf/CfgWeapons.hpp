@@ -7,11 +7,11 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             class LinkedItemsOptic {
-                slot = "CUP_PicatinnyTopMountM4";
+                slot = "CUP_PicatinnyTopMountMk18";
                 item = "cup_optic_compm2_low_coyote";
             };
             class LinkedItemSide {
-                slot = "CUP_PicatinnySideMountM4";
+                slot = "CUP_PicatinnySideMountMk18";
                 item = "cup_acc_anpeq_15_top_flashlight_black_l";
             };
         };
@@ -74,14 +74,8 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CUP_PicatinnyTopMountM110";
-                item = "cup_optic_leupoldm3lr";
-            };
-            class LinkedItemBipod {
-                slot = "CUP_PicatinnyUnderMountM110";
-                item = "cup_bipod_vltor_modpod";
-            };
+            EQUIP_OPTIC(cup_optic_leupoldm3lr);
+            EQUIP_BIPOD(cup_bipod_vltor_modpod);
         };
     };
 };
