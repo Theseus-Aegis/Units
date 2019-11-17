@@ -77,7 +77,7 @@ class TACU_Revolutionaries_G_I_Infantry_Russians {
         faction = "TACU_Revolutionaries_I";
         icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
         class unit0 {
-            vehicle = "TACU_Revolutionaries_U_I_Russian_Rifleman02";
+            vehicle = "TACU_Revolutionaries_U_I_Russian_Leader";
             side = 2;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
@@ -107,7 +107,7 @@ class TACU_Revolutionaries_G_I_Infantry_Russians {
             position[] = {-10, -10, 0};
         };
         class unit5 {
-            vehicle = "TACU_Revolutionaries_U_I_Russian_Rifleman03";
+            vehicle = "TACU_Revolutionaries_U_I_Russian_Rifleman02";
             side = 2;
             rank = "PRIVATE";
             position[] = {15, -15, 0};

@@ -5,10 +5,13 @@ class CfgWeapons {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_POINTER(acc_flashlight);
+            class LinkedItemSide {
+                slot = "CUP_PicatinnySideMountCZ805";
+                item = "acc_flashlight";
+            };
         };
     };
-
+    
     class LMG_03_F;
     class TACU_Revolutionaries_W_FNMinimiSPW: LMG_03_F {
         dlc = QUOTE(PREFIX);
@@ -27,5 +30,18 @@ class CfgWeapons {
         class LinkedItems {
             EQUIP_POINTER(acc_flashlight);
         };
+    };
+    
+    class CUP_arifle_CZ805_GL;
+    class TACU_Revolutionaries_W_CZ805_GL: CUP_arifle_CZ805_GL {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            class LinkedItemSide {
+                slot = "CUP_PicatinnySideMountCZ805";
+                item = "acc_flashlight";
+            };
+        };    
     };
 };

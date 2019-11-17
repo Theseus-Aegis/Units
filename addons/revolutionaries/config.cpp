@@ -8,18 +8,34 @@ class CfgPatches {
             "TACU_Revolutionaries_B_LMG_Minimi_Black",
             "TACU_Revolutionaries_B_MMG_UK59_Green",
             "TACU_Revolutionaries_B_LMG_Minimi_Green",
+            "TACU_Revolutionaries_B_Rocketeer_Black",
+            "TACU_Revolutionaries_B_Saboteur_Black",
+            "TACU_Revolutionaries_B_Saboteur_Green",
+            "TACU_Revolutionaries_B_Rocketeer_Green",
             // Units - Indep - Russian
             "TACU_Revolutionaries_U_I_Russian_Rifleman01",
             "TACU_Revolutionaries_U_I_Russian_Rifleman02",
             "TACU_Revolutionaries_U_I_Russian_Rifleman03",
             "TACU_Revolutionaries_U_I_Russian_Shotgunner",
             "TACU_Revolutionaries_U_I_Russian_Marksman",
+            "TACU_Revolutionaries_U_I_Russian_Leader",
+            "TACU_Revolutionaries_U_I_Russian_FigureHeadUA",
+            "TACU_Revolutionaries_U_I_Russian_FigureHead",
+            "TACU_Revolutionaries_U_I_Russian_Head",
+            "TACU_Revolutionaries_U_I_Russian_Pistoleer02",
+            "TACU_Revolutionaries_U_I_Russian_Pistoleer01",
             // Units - Indep - Tanoan
             "TACU_Revolutionaries_U_I_Tanoan_Rifleman01",
             "TACU_Revolutionaries_U_I_Tanoan_Rifleman02",
             "TACU_Revolutionaries_U_I_Tanoan_Rifleman03",
             "TACU_Revolutionaries_U_I_Tanoan_Shotgunner",
             "TACU_Revolutionaries_U_I_Tanoan_Marksman",
+            "TACU_Revolutionaries_U_I_Tanoan_Leader",
+            "TACU_Revolutionaries_U_I_Tanoan_FigureHeadUA",
+            "TACU_Revolutionaries_U_I_Tanoan_FigureHead",
+            "TACU_Revolutionaries_U_I_Tanoan_Head",
+            "TACU_Revolutionaries_U_I_Tanoan_Pistoleer02",
+            "TACU_Revolutionaries_U_I_Tanoan_Pistoleer01",
             // Units - Opfor - Russian
             "TACU_Revolutionaries_U_O_Russian_Rifleman01",
             "TACU_Revolutionaries_U_O_Russian_Rifleman02",
@@ -32,6 +48,14 @@ class CfgPatches {
             "TACU_Revolutionaries_U_O_Russian_Grenadier",
             "TACU_Revolutionaries_U_O_Russian_Machinegunner",
             "TACU_Revolutionaries_U_O_Russian_Autorifleman",
+            "TACU_Revolutionaries_U_O_Russian_FigureHeadUA",
+            "TACU_Revolutionaries_U_O_Russian_FigureHead",
+            "TACU_Revolutionaries_U_O_Russian_Leader",
+            "TACU_Revolutionaries_U_O_Russian_Rocketeer",
+            "TACU_Revolutionaries_U_O_Russian_Saboteur",
+            "TACU_Revolutionaries_U_O_Russian_Pistoleer01",
+            "TACU_Revolutionaries_U_O_Russian_Pistoleer02",
+            "TACU_Revolutionaries_U_O_Russian_Head",
             // Units - Opfor - Tanoan
             "TACU_Revolutionaries_U_O_Tanoan_Rifleman01",
             "TACU_Revolutionaries_U_O_Tanoan_Rifleman02",
@@ -44,6 +68,14 @@ class CfgPatches {
             "TACU_Revolutionaries_U_O_Tanoan_Grenadier",
             "TACU_Revolutionaries_U_O_Tanoan_Machinegunner",
             "TACU_Revolutionaries_U_O_Tanoan_Autorifleman",
+            "TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA",
+            "TACU_Revolutionaries_U_O_Tanoan_FigureHead",
+            "TACU_Revolutionaries_U_O_Tanoan_Leader",
+            "TACU_Revolutionaries_U_O_Tanoan_Rocketeer",
+            "TACU_Revolutionaries_U_O_Tanoan_Saboteur",
+            "TACU_Revolutionaries_U_O_Tanoan_Pistoleer01",
+            "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02",
+            "TACU_Revolutionaries_U_O_Tanoan_Head",
             // Vehicles - Indep - Russian
             "TACU_Revolutionaries_V_I_Datsun_5Seat",
             "TACU_Revolutionaries_V_I_Golf_Black",
@@ -66,7 +98,8 @@ class CfgPatches {
         weapons[] = {
             "TACU_Revolutionaries_W_CZ805A2",
             "TACU_Revolutionaries_W_FNMinimiSPW",
-            "TACU_Revolutionaries_W_MP5K"
+            "TACU_Revolutionaries_W_MP5K",
+            "TACU_Revolutionaries_W_CZ805_GL"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
