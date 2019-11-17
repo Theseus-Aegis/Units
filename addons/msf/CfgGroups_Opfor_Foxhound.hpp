@@ -89,7 +89,7 @@ class TACU_MSF_G_O_Infantry_Foxhound {
             position[] = {5, -5, 0};
         };
         class unit2 {
-            vehicle = "TACU_MSF_U_O_Foxhound_Autorifleman";
+            vehicle = "TACU_MSF_U_O_Foxhound_SMG_01";
             side = 0;
             rank = "PRIVATE";
             position[] = {-5, -5, 0};

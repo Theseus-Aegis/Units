@@ -101,7 +101,6 @@ class CfgPatches {
             "TACU_MSF_U_I_DDogs_Wood_Teamleader",
             // Units (Indep - Foxhound Special Forces)
             "TACU_MSF_U_I_Foxhound_Rifleman_01",
-            "TACU_MSF_U_I_Foxhound_Autorifleman",
             "TACU_MSF_U_I_Foxhound_Marksman",
             "TACU_MSF_U_I_Foxhound_SMG_01",
             // Units (Opfor - Combat Black)
@@ -174,7 +173,6 @@ class CfgPatches {
             "TACU_MSF_U_O_DDogs_Wood_Teamleader",
             // Units (Opfor - Foxhound Special Forces)
             "TACU_MSF_U_O_Foxhound_Rifleman_01",
-            "TACU_MSF_U_O_Foxhound_Autorifleman",
             "TACU_MSF_U_O_Foxhound_Marksman",
             "TACU_MSF_U_O_Foxhound_SMG_01",
             // Vehicles (Indep - Ground - Black))
@@ -267,22 +265,22 @@ class CfgPatches {
             "TACU_MSF_Vest_PlateCarrier_Coyote",
             "TACU_MSF_Vest_PlateCarrier_Green",
             // Weapons
-            "TACU_MSF_W_FNX45_Green",
-            "TACU_MSF_W_FNX45_Stealth_Green",
+            "TACU_MSF_W_CZ_BREN2_8in_Stealth",
             "TACU_MSF_W_HK416_Black",
             "TACU_MSF_W_HK416GL_Black",
             "TACU_MSF_W_HK416_CQC_Black",
             "TACU_MSF_W_HK416GL_CQC_Black",
             "TACU_MSF_W_HK417DMR_Black",
-            "TACU_MSF_W_HoneyBadger",
-            "TACU_MSF_W_LAR15",
+            "TACU_MSF_W_M110_Stealth",
             "TACU_MSF_W_M200_Intervention",
             "TACU_MSF_W_M27_Grip",
+            "TACU_MSF_W_Mk23_SOCOM",
+            "TACU_MSF_W_Mk23_SOCOM_Stealth",
+            "TACU_MSF_W_MP7A1_Stealth",
             "TACU_MSF_W_Promet_Black",
             "TACU_MSF_W_PrometGL_Black",
             "TACU_MSF_W_PrometDMR_Black",
             "TACU_MSF_W_PrometSG_Black",
-            "TACU_MSF_W_Scorpion",
             "TACU_MSF_W_Stoner99LMG"
         };
         requiredVersion = REQUIRED_VERSION;

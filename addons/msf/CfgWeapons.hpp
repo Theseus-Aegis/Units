@@ -127,7 +127,6 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-            EQUIP_OPTIC(cup_optic_eotech553_black);
             EQUIP_POINTER(cup_acc_flashlight);
 		};
     };
@@ -138,7 +137,6 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-            EQUIP_OPTIC(cup_optic_eotech553_black);
             EQUIP_POINTER(cup_acc_flashlight);
 		};
     };
@@ -149,7 +147,6 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-            EQUIP_OPTIC(cup_optic_eotech553_black);
             EQUIP_POINTER(cup_acc_flashlight);
 		};
     };
@@ -160,7 +157,6 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-            EQUIP_OPTIC(cup_optic_eotech553_black);
             EQUIP_POINTER(cup_acc_flashlight);
 		};
     };
@@ -182,7 +178,6 @@ class CfgWeapons {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-            EQUIP_OPTIC(cup_optic_eotech553_black);
             EQUIP_POINTER(cup_acc_flashlight);
             EQUIP_BIPOD(bipod_01_f_blk);
 		};
@@ -254,62 +249,62 @@ class CfgWeapons {
         };
     };
 
-    class hgun_Pistol_heavy_01_green_F;
-    class TACU_MSF_W_FNX45_Green: hgun_Pistol_heavy_01_green_F {
+    class CUP_hgun_Mk23;
+    class TACU_MSF_W_Mk23_SOCOM: CUP_hgun_Mk23 {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(optic_mrd_black);
-            EQUIP_POINTER(cup_acc_mlpls_laser);
-        };
-    };
-    class TACU_MSF_W_FNX45_Stealth_Green: hgun_Pistol_heavy_01_green_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            EQUIP_OPTIC(optic_mrd_black);
-            EQUIP_POINTER(cup_acc_mlpls_laser);
-            EQUIP_MUZZLE(muzzle_snds_acp);
+            EQUIP_POINTER(cup_acc_mk23_lam_f);
         };
     };
 
     // Weapons - Spec Ops
-    class hlc_rifle_honeybadger;
-    class TACU_MSF_W_HoneyBadger: hlc_rifle_honeybadger {
+    class CUP_hgun_Mk23;
+    class TACU_MSF_W_Mk23_SOCOM_Stealth: CUP_hgun_Mk23 {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(optic_aco);
-            EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(muzzle_hbadger);
+            EQUIP_POINTER(cup_acc_mk23_lam_f);
+            EQUIP_MUZZLE(cup_muzzle_snds_mk23);
         };
     };
 
-    class hlc_rifle_samr2;
-    class TACU_MSF_W_LAR15: hlc_rifle_samr2 {
+    class CUP_smg_MP7;
+    class TACU_MSF_W_MP7A1_Stealth: CUP_smg_MP7 {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(cup_optic_mrad);
+            EQUIP_POINTER(cup_acc_anpeq_15_black);
+            EQUIP_MUZZLE(cup_muzzle_snds_mp7);
+        };
+    };
+
+    class CUP_CZ_BREN2_556_8;
+    class TACU_MSF_W_CZ_BREN2_8in_Stealth: CUP_CZ_BREN2_556_8 {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(cup_optic_mrad);
+            EQUIP_POINTER(cup_acc_anpeq_15_black);
+            EQUIP_MUZZLE(cup_muzzle_snds_m16);
+        };
+    };
+
+    class CUP_srifle_M110_black;
+    class TACU_MSF_W_M110_Stealth: CUP_srifle_M110_black {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_nightstalker);
-            EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(hlc_muzzle_556nato_kac);
-            EQUIP_BIPOD(bipod_01_f_blk);
-        };
-    };
-
-    class SMG_02_F;
-    class TACU_MSF_W_Scorpion: SMG_02_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            EQUIP_OPTIC(optic_aco);
-            EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(muzzle_snds_l);
+            EQUIP_POINTER(cup_acc_anpeq_15_black);
+            EQUIP_MUZZLE(cup_muzzle_snds_m110_black);
+            EQUIP_BIPOD(cup_bipod_vltor_modpod_black);
         };
     };
 };

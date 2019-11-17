@@ -20,10 +20,10 @@ class TACU_MSF_U_I_DDogs_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "CUP_NVG_PVS14"};
     Items[] = {mag_8("ACE_fieldDressing")};
     respawnItems[] = {mag_8("ACE_fieldDressing")};
-    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    magazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    magazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
         "tacs_Helmet_Enc_Ballistic_DarkBlack", 1
     };
@@ -42,10 +42,10 @@ class TACU_MSF_U_I_DDogs_Black_Rifleman_AT: TACU_MSF_U_I_DDogs_Black_Rifleman_01
     icon = "iconManAT";
     role = "MissileSpecialist";
     editorPreview = QPATHTOF(ui\MSF_U_I_DDogs_Black_Rifleman_AT.jpg);
-    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "CUP_launch_M136", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "CUP_launch_M136", "Throw", "Put"};
-    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_M136", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_M136", "Throw", "Put"};
+    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
 };
 class TACU_MSF_U_O_DDogs_Black_Rifleman_AT: TACU_MSF_U_I_DDogs_Black_Rifleman_AT {
     side = 0;
@@ -57,10 +57,10 @@ class TACU_MSF_U_I_DDogs_Black_Autorifleman: TACU_MSF_U_I_DDogs_Black_Rifleman_0
     icon = "iconManMG";
     role = "MachineGunner";
     editorPreview = QPATHTOF(ui\MSF_U_I_DDogs_Black_Autorifleman.jpg);
-    weapons[] = {"TACU_MSF_W_Stoner99LMG", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Stoner99LMG", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    magazines[] = {mag_4("200Rnd_65x39_cased_Box_Tracer"), mag_2("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_4("200Rnd_65x39_cased_Box_Tracer"), mag_2("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+    weapons[] = {"TACU_MSF_W_Stoner99LMG", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Stoner99LMG", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    magazines[] = {mag_4("200Rnd_65x39_cased_Box_Tracer"), mag_2("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_4("200Rnd_65x39_cased_Box_Tracer"), mag_2("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
 };
 class TACU_MSF_U_O_DDogs_Black_Autorifleman: TACU_MSF_U_I_DDogs_Black_Autorifleman {
     side = 0;
@@ -72,10 +72,10 @@ class TACU_MSF_U_I_DDogs_Black_Grenadier: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     icon = "iconMan";
     role = "Rifleman";
     editorPreview = QPATHTOF(ui\MSF_U_I_DDogs_Black_Grenadier.jpg);
-    weapons[] = {"TACU_MSF_W_Promet_GL_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_GL_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_65x39_caseless_msbs_mag"), mag_5("1Rnd_HE_Grenade_shell"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_65x39_caseless_msbs_mag"), mag_5("1Rnd_HE_Grenade_shell"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    weapons[] = {"TACU_MSF_W_Promet_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    magazines[] = {mag_7("30Rnd_65x39_caseless_msbs_mag"), mag_5("1Rnd_HE_Grenade_shell"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("30Rnd_65x39_caseless_msbs_mag"), mag_5("1Rnd_HE_Grenade_shell"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
 };
 class TACU_MSF_U_O_DDogs_Black_Grenadier: TACU_MSF_U_I_DDogs_Black_Grenadier {
     side = 0;
@@ -88,8 +88,8 @@ class TACU_MSF_U_I_DDogs_Black_Teamleader: TACU_MSF_U_I_DDogs_Black_Rifleman_01 
     sensitivityEar = 0.15;
     icon = "iconManLeader";
     editorPreview = QPATHTOF(ui\MSF_U_I_DDogs_Black_Teamleader.jpg);
-    magazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class TACU_MSF_U_O_DDogs_Black_Teamleader: TACU_MSF_U_I_DDogs_Black_Teamleader {
     side = 0;
@@ -102,10 +102,10 @@ class TACU_MSF_U_I_DDogs_Black_Marksman: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     sensitivityEar = 0.15;
     role = "Marksman";
     editorPreview = QPATHTOF(ui\MSF_U_I_DDogs_Black_Marksman.jpg);
-    weapons[] = {"TACU_MSF_W_Promet_DMR_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_DMR_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+    weapons[] = {"TACU_MSF_W_Promet_DMR_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_DMR_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
 };
 class TACU_MSF_U_O_DDogs_Black_Marksman: TACU_MSF_U_I_DDogs_Black_Marksman {
     side = 0;
@@ -119,10 +119,10 @@ class TACU_MSF_U_I_DDogs_Black_Medic: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     role = "CombatLifeSaver";
     backpack = "TACU_MSF_B_Medic_Black";
     editorPreview = QPATHTOF(ui\MSF_U_I_DDogs_Black_Medic.jpg);
-    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", mag_2("SmokeShell")};
+    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", mag_2("SmokeShell")};
 };
 class TACU_MSF_U_O_DDogs_Black_Medic: TACU_MSF_U_I_DDogs_Black_Medic {
     side = 0;
@@ -136,10 +136,10 @@ class TACU_MSF_U_I_DDogs_Black_Engineer: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     engineer = 1;
     backpack = "TACU_MSF_B_Engineer_Black";
     editorPreview = QPATHTOF(ui\MSF_U_I_DDogs_Black_Engineer.jpg);
-    weapons[] = {"TACU_MSF_W_Promet_SG_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_SG_Black", "TACU_MSF_W_FNX45_Green", "Throw", "Put"};
-    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_4("6Rnd_12Gauge_Slug"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_4("6Rnd_12Gauge_Slug"), mag_3("11Rnd_45ACP_Mag"), "HandGrenade", "SmokeShell"};
+    weapons[] = {"TACU_MSF_W_Promet_SG_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_SG_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_4("6Rnd_12Gauge_Slug"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_4("6Rnd_12Gauge_Slug"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
 };
 class TACU_MSF_U_O_DDogs_Black_Engineer: TACU_MSF_U_I_DDogs_Black_Engineer {
     side = 0;
