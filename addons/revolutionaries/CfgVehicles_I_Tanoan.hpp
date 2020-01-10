@@ -51,6 +51,17 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman03: TACU_Revolutionaries_U_I_Tanoa
     editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Rifleman03.jpg);
 };
 
+class TACU_Revolutionaries_U_I_Tanoan_Paramedic: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
+    displayName = "Paramedic";
+    uniformClass = "U_C_Poloshirt_burgundy";
+    weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
+    respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
+    magazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    respawnMagazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    backpack = "TACU_Revolutionaries_B_Paramedic_Green";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Paramedic.jpg);
+};
+
 class TACU_Revolutionaries_U_I_Tanoan_Shotgunner: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Shotgunner";
     uniformClass = "U_C_MAN_casual_3_F";

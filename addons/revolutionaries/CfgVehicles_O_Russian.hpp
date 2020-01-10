@@ -63,6 +63,17 @@ class TACU_Revolutionaries_U_O_Russian_Rifleman04: TACU_Revolutionaries_U_O_Russ
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rifleman04.jpg);
 };
 
+class TACU_Revolutionaries_U_O_Russian_Paramedic: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
+    displayName = "Paramedic";
+    uniformClass = "CUP_U_C_Rocker_02";
+    weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
+    respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
+    magazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    respawnMagazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    backpack = "TACU_Revolutionaries_B_Paramedic_Black";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Paramedic.jpg);
+};
+
 class TACU_Revolutionaries_U_O_Russian_Shotgunner: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Shotgunner";
     uniformClass = "CUP_U_C_Citizen_03";

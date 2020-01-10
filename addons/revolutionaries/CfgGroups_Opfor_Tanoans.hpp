@@ -71,7 +71,7 @@ class TACU_Revolutionaries_G_O_Infantry_Tanoans {
             position[] = {0, 0, 0};
         };
         class unit1 {
-            vehicle = "TACU_Revolutionaries_U_O_Tanoan_Shotgunner";
+            vehicle = "TACU_Revolutionaries_U_O_Tanoan_Paramedic";
             side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
@@ -133,7 +133,7 @@ class TACU_Revolutionaries_G_O_Infantry_Tanoans {
             position[] = {0, 0, 0};
         };
         class unit1 {
-            vehicle = "TACU_Revolutionaries_U_O_Tanoan_Shotgunner";
+            vehicle = "TACU_Revolutionaries_U_O_Tanoan_Paramedic";
             side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
@@ -219,7 +219,7 @@ class TACU_Revolutionaries_G_O_Infantry_Tanoans {
             position[] = {0, 0, 0};
         };
         class unit1 {
-            vehicle = "TACU_Revolutionaries_U_O_Tanoan_SMG02";
+            vehicle = "TACU_Revolutionaries_U_O_Tanoan_SMG01";
             side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};

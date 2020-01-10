@@ -63,6 +63,17 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman04: TACU_Revolutionaries_U_O_Tanoa
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Rifleman04.jpg);
 };
 
+class TACU_Revolutionaries_U_O_Tanoan_Paramedic: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
+    displayName = "Paramedic";
+    uniformClass = "U_C_Poloshirt_burgundy";
+    weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
+    respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
+    magazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    respawnMagazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    backpack = "TACU_Revolutionaries_B_Paramedic_Green";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Paramedic.jpg);
+};
+
 class TACU_Revolutionaries_U_O_Tanoan_Shotgunner: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Shotgunner";
     uniformClass = "U_C_MAN_casual_3_F";
@@ -295,6 +306,19 @@ class TACU_Revolutionaries_V_O_Offroad: C_Offroad_01_covered_F {
     crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer01";
     typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer01"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Offroad.jpg);
+};
+
+class C_Van_02_vehicle_F;
+class TACU_Revolutionaries_V_O_Van: C_Van_02_vehicle_F {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Revolutionaries_O";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
+    side = 0;
+    displayName = "Van";
+    crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02";
+    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer01"};
+    editorPreview = QPATHTOF(ui\Revolutionaries_V_O_Van.jpg);
 };
 
 class I_C_Offroad_02_LMG_F;

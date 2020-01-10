@@ -52,7 +52,7 @@ class TACU_Revolutionaries_G_I_Infantry_Russians {
             position[] = {0, 0, 0};
         };
         class unit1 {
-            vehicle = "TACU_Revolutionaries_U_I_Russian_Shotgunner";
+            vehicle = "TACU_Revolutionaries_U_I_Russian_Paramedic";
             side = 2;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
@@ -83,7 +83,7 @@ class TACU_Revolutionaries_G_I_Infantry_Russians {
             position[] = {0, 0, 0};
         };
         class unit1 {
-            vehicle = "TACU_Revolutionaries_U_I_Russian_Shotgunner";
+            vehicle = "TACU_Revolutionaries_U_I_Russian_Paramedic";
             side = 2;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
