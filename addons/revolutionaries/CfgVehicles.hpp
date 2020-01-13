@@ -53,8 +53,8 @@ class CfgVehicles {
         };
     };
 
-        class B_FieldPack_green_F;    
-        class TACU_Revolutionaries_B_Paramedic_Green: B_FieldPack_green_F {
+    class B_FieldPack_green_F;    
+    class TACU_Revolutionaries_B_Paramedic_Green: B_FieldPack_green_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
