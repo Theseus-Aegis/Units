@@ -37,7 +37,39 @@ class CfgVehicles {
         };
     };
 
-    class B_FieldPack_green_F;
+    class TACU_Revolutionaries_B_Paramedic_Black: B_FieldPack_blk {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportItems {
+            MACRO_ADDITEM(ACE_fieldDressing,10);
+            MACRO_ADDITEM(ACE_bloodIV_500,1);
+            MACRO_ADDITEM(ACE_quikclot,5);
+            MACRO_ADDITEM(ACE_elasticBandage,5);
+            MACRO_ADDITEM(ACE_epinephrine,4);
+            MACRO_ADDITEM(ACE_morphine,4);
+            MACRO_ADDITEM(ACE_tourniquet,4);
+            MACRO_ADDITEM(ACE_splint,4);
+        };
+    };
+
+    class B_FieldPack_green_F;    
+    class TACU_Revolutionaries_B_Paramedic_Green: B_FieldPack_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportItems {
+            MACRO_ADDITEM(ACE_fieldDressing,10);
+            MACRO_ADDITEM(ACE_bloodIV_500,1);
+            MACRO_ADDITEM(ACE_quikclot,5);
+            MACRO_ADDITEM(ACE_elasticBandage,5);
+            MACRO_ADDITEM(ACE_epinephrine,4);
+            MACRO_ADDITEM(ACE_morphine,4);
+            MACRO_ADDITEM(ACE_tourniquet,4);
+            MACRO_ADDITEM(ACE_splint,4);
+        };
+    };
+
     class TACU_Revolutionaries_B_MMG_UK59_Green: B_FieldPack_green_F {
         dlc = QUOTE(PREFIX);
         scope = 1;

@@ -12,6 +12,8 @@ class CfgPatches {
             "TACU_Revolutionaries_B_Saboteur_Black",
             "TACU_Revolutionaries_B_Saboteur_Green",
             "TACU_Revolutionaries_B_Rocketeer_Green",
+            "TACU_Revolutionaries_B_Paramedic_Green",
+            "TACU_Revolutionaries_B_Paramedic_Black",
             // Units - Indep - Russian
             "TACU_Revolutionaries_U_I_Russian_Rifleman01",
             "TACU_Revolutionaries_U_I_Russian_Rifleman02",
@@ -24,6 +26,7 @@ class CfgPatches {
             "TACU_Revolutionaries_U_I_Russian_Head",
             "TACU_Revolutionaries_U_I_Russian_Pistoleer02",
             "TACU_Revolutionaries_U_I_Russian_Pistoleer01",
+            "TACU_Revolutionaries_U_I_Russian_Paramedic",
             // Units - Indep - Tanoan
             "TACU_Revolutionaries_U_I_Tanoan_Rifleman01",
             "TACU_Revolutionaries_U_I_Tanoan_Rifleman02",
@@ -36,6 +39,7 @@ class CfgPatches {
             "TACU_Revolutionaries_U_I_Tanoan_Head",
             "TACU_Revolutionaries_U_I_Tanoan_Pistoleer02",
             "TACU_Revolutionaries_U_I_Tanoan_Pistoleer01",
+            "TACU_Revolutionaries_U_I_Tanoan_Paramedic",
             // Units - Opfor - Russian
             "TACU_Revolutionaries_U_O_Russian_Rifleman01",
             "TACU_Revolutionaries_U_O_Russian_Rifleman02",
@@ -56,6 +60,7 @@ class CfgPatches {
             "TACU_Revolutionaries_U_O_Russian_Pistoleer01",
             "TACU_Revolutionaries_U_O_Russian_Pistoleer02",
             "TACU_Revolutionaries_U_O_Russian_Head",
+            "TACU_Revolutionaries_U_O_Russian_Paramedic",
             // Units - Opfor - Tanoan
             "TACU_Revolutionaries_U_O_Tanoan_Rifleman01",
             "TACU_Revolutionaries_U_O_Tanoan_Rifleman02",
@@ -76,6 +81,7 @@ class CfgPatches {
             "TACU_Revolutionaries_U_O_Tanoan_Pistoleer01",
             "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02",
             "TACU_Revolutionaries_U_O_Tanoan_Head",
+            "TACU_Revolutionaries_U_O_Tanoan_Paramedic",
             // Vehicles - Indep - Russian
             "TACU_Revolutionaries_V_I_Datsun_5Seat",
             "TACU_Revolutionaries_V_I_Golf_Black",
@@ -93,6 +99,7 @@ class CfgPatches {
             "TACU_Revolutionaries_V_O_Hatchback",
             "TACU_Revolutionaries_V_O_KamAZ",
             "TACU_Revolutionaries_V_O_Offroad",
+            "TACU_Revolutionaries_V_O_Van",
             "TACU_Revolutionaries_V_O_Jeep_LMG"
         };
         weapons[] = {
