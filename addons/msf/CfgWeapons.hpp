@@ -11,6 +11,22 @@ class CfgWeapons {
     class Uniform_Base;
     class UniformItem;
 
+    class TACU_MSF_Uniform_CBRN_Black: Uniform_Base {
+        dlc = QUOTE(PREFIX);
+        author = "Kresky, POLPOX";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "CBRN Suit (Black)";
+        picture = QPATHTOF(ui\MSF_Uniform_CBRN_Black_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = "TACU_MSF_Unit_CBRN_Black";
+            containerClass = "Supply100";
+            mass = 40;
+        };
+    };
+
     class TACU_MSF_Uniform_Combat_TigerBlack: Uniform_Base {
         dlc = QUOTE(PREFIX);
         author = "Kresky";

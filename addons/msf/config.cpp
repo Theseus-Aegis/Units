@@ -6,6 +6,7 @@ class CfgPatches {
         units[] = {
             // Ground Items
             "TACU_MSF_Item_Helmet_LightCombat_Foxhound",
+            "TACU_MSF_Item_Uniform_CBRN_Black",
             "TACU_MSF_Item_Uniform_Combat_TigerBlack",
             "TACU_MSF_Item_Uniform_Combat_TigerDesert",
             "TACU_MSF_Item_Uniform_Combat_TigerWood",
@@ -254,6 +255,7 @@ class CfgPatches {
             // Helmets
             "TACU_MSF_Helmet_LightCombat_Foxhound",
             // Uniforms
+            "TACU_MSF_Uniform_CBRN_Black",
             "TACU_MSF_Uniform_Combat_TigerBlack",
             "TACU_MSF_Uniform_Combat_TigerDesert",
             "TACU_MSF_Uniform_Combat_TigerWood",
