@@ -323,4 +323,16 @@ class CfgWeapons {
             EQUIP_BIPOD(cup_bipod_vltor_modpod_black);
         };
     };
+
+    // Weapons - XOF
+    class CUP_CZ_BREN2_556_11;
+    class TACU_MSF_W_CZ_BREN2_11in: CUP_CZ_BREN2_556_11 {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(cup_optic_mrad);
+            EQUIP_POINTER(cup_acc_anpeq_15_black);
+        };
+    };
 };

@@ -369,6 +369,7 @@ class CfgVehicles {
     #include "CfgVehicles_Vehicles_Black.hpp"
     #include "CfgVehicles_Vehicles_Desert.hpp"
     #include "CfgVehicles_Vehicles_Wood.hpp"
+    #include "CfgVehicles_XOF.hpp"
 };
 
 class Extended_Init_Eventhandlers {

@@ -43,4 +43,8 @@ class CfgEditorSubcategories {
     class TACU_MSF_EdSubCat_Regular_Wood {
         displayName = "Men (Regular - Woodland)";
     };
+
+    class TACU_MSF_EdSubCat_XOF {
+        displayName = "Men (XOF CBRN Unit)";
+    };
 };
