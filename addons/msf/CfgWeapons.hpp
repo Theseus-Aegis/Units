@@ -332,7 +332,48 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(cup_optic_mrad);
-            EQUIP_POINTER(cup_acc_anpeq_15_black);
+            EQUIP_POINTER(cup_acc_flashlight);
+        };
+    };
+
+    class CUP_CZ_BREN2_556_11_GL;
+    class TACU_MSF_W_CZ_BREN2_11in_GL: CUP_CZ_BREN2_556_11_GL {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(cup_optic_mrad);
+            EQUIP_POINTER(cup_acc_flashlight);
+        };
+    };
+
+    class CUP_smg_MP7;
+    class TACU_MSF_W_MP7A1: CUP_smg_MP7 {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_POINTER(cup_acc_flashlight);
+        };
+    };
+
+    class SMG_03C_TR_black;
+    class TACU_MSF_W_P90: SMG_03C_TR_black {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_POINTER(cup_acc_flashlight);
+        };
+    };
+
+    class CUP_sgun_M1014_Entry;
+    class TACU_MSF_W_M1014_Entry: CUP_sgun_M1014_Entry {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_POINTER(cup_acc_flashlight);
         };
     };
 };
