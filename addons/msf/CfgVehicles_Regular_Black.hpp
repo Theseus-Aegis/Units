@@ -210,8 +210,8 @@ class TACU_MSF_U_I_Regular_Black_Pilot: TACU_MSF_U_I_Regular_Black_Rifleman_01 {
     role = "Sapper";
     engineer = 1;
     editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Black_Pilot.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh", "NVGogglesB_blk_F"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh", "NVGogglesB_blk_F"};
     weapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_4("CUP_12Rnd_45ACP_mk23"), mag_2("SmokeShell")};
@@ -228,8 +228,8 @@ class TACU_MSF_U_O_Regular_Black_Pilot: TACU_MSF_U_I_Regular_Black_Pilot {
 class TACU_MSF_U_I_Regular_Black_Crewman: TACU_MSF_U_I_Regular_Black_Pilot {
     displayName = "Crewman";
     editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Black_Crewman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh", "NVGogglesB_blk_F"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "CUP_V_PMC_CIRAS_Combat_Black_Veh", "NVGogglesB_blk_F"};
     headgearList[] = {
         "H_HelmetCrew_B", 1
     };

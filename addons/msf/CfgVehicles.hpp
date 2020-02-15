@@ -1,6 +1,6 @@
 class CfgVehicles {
 
-    // Ground Items
+    // Ground Items (Helmets)
     class Headgear_Base_F;
     class TACU_MSF_Item_Helmet_LightCombat_DarkBlack: Headgear_Base_F {
         author = "Kresky";
@@ -13,7 +13,20 @@ class CfgVehicles {
         };
     };
 
+    // Ground Items (Uniforms)
     class Item_Base_F;
+    class TACU_MSF_Item_Uniform_CBRN_Black: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Kresky, POLPOX";
+        displayName = "CBRN Suit (Black)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_CBRN_Black,1);
+        };
+    };
+
     class TACU_MSF_Item_Uniform_Combat_TigerBlack: Item_Base_F {
         dlc = QUOTE(PREFIX);
         author = "Kresky";
@@ -125,6 +138,16 @@ class CfgVehicles {
     };
 
     // Uniforms
+    class B_CBRN_Man_Oversuit_01_MTP_F;
+    class TACU_MSF_Unit_CBRN_Black: B_CBRN_Man_Oversuit_01_MTP_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        author = "Kresky, POLPOX";
+        uniformClass = "TACU_MSF_Uniform_CBRN_Black";
+        modelSides[] = {6};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_CBRN_Black_co.paa)};
+    };
+
     class tacs_Unit_Combat_LS_Base;
     class TACU_MSF_Unit_Combat_TigerBlack: tacs_Unit_Combat_LS_Base {
         dlc = QUOTE(PREFIX);
@@ -346,6 +369,7 @@ class CfgVehicles {
     #include "CfgVehicles_Vehicles_Black.hpp"
     #include "CfgVehicles_Vehicles_Desert.hpp"
     #include "CfgVehicles_Vehicles_Wood.hpp"
+    #include "CfgVehicles_XOF.hpp"
 };
 
 class Extended_Init_Eventhandlers {

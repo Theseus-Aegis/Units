@@ -5,6 +5,7 @@ class CfgGroups {
             #include "CfgGroups_Indep_DDogs.hpp"
             #include "CfgGroups_Indep_Foxhound.hpp"
             #include "CfgGroups_Indep_Regular.hpp"
+            #include "CfgGroups_Indep_XOF.hpp"
         };
     };
 
@@ -14,6 +15,7 @@ class CfgGroups {
             #include "CfgGroups_Opfor_DDogs.hpp"
             #include "CfgGroups_Opfor_Foxhound.hpp"
             #include "CfgGroups_Opfor_Regular.hpp"
+            #include "CfgGroups_Opfor_XOF.hpp"
         };
     };
 };
