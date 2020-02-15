@@ -17,7 +17,7 @@ class TACU_Vietnam_B_US_MG: CUP_B_AlicePack_OD {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(hlc_200Rnd_762x51_T_M60E4,2);
+        MACRO_ADDMAGAZINE(CUP_100rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,4);
     };
 };
 
@@ -128,10 +128,10 @@ class TACU_Vietnam_U_US_Machinegunner: TACU_Vietnam_U_US_Rifleman_M16_Light {
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
     Items[] = {mag_6("ACE_fieldDressing")};
     respawnItems[] = {mag_6("ACE_fieldDressing")};
-    weapons[] = {"hlc_lmg_m60", "CUP_hgun_Colt1911", "Throw", "Put"};
-    respawnWeapons[] = {"hlc_lmg_m60", "CUP_hgun_Colt1911", "Throw", "Put"};
-    magazines[] = {"hlc_200Rnd_762x51_T_M60E4", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
-    respawnMagazines[] = {"hlc_200Rnd_762x51_T_M60E4", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+    weapons[] = {"CUP_lmg_M60", "CUP_hgun_Colt1911", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_lmg_M60", "CUP_hgun_Colt1911", "Throw", "Put"};
+    magazines[] = {"CUP_100rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
+    respawnMagazines[] = {"CUP_100rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     headgearList[] = {
         "CUP_H_USArmy_Helmet_M1_Vine", 0.30,
         "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
