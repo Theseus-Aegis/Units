@@ -118,11 +118,11 @@ class CfgWeapons {
     // Weapons
     class CUP_arifle_HK416_CQB_Black;
     class CUP_arifle_HK417_20;
-    class CUP_arifle_Mk16_STD_black;
     class CUP_arifle_SR3M_Vikhr_VFG;
     class CUP_smg_vityaz_vfg;
     class CUP_srifle_SVD;
-    class srifle_DMR_03_F;
+    class hlc_rifle_SG550Sniper_RIS;
+    class hlc_rifle_SG551LB_TAC;
 
     class TACU_Police_W_Dragunov: CUP_srifle_SVD {
         scope = 1;
@@ -151,15 +151,15 @@ class CfgWeapons {
 		};
     };
 
-    class TACU_Police_W_DMR_03_Rail: srifle_DMR_03_F {
+    class TACU_Police_W_SG5501_DMR_Rail: hlc_rifle_SG550Sniper_RIS {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {
-            EQUIP_OPTIC(optic_khs_blk);
+            EQUIP_OPTIC(hlc_optic_zf95base);
 		};
     };
 
-    class TACU_Police_W_MK16_TAC: CUP_arifle_Mk16_STD_black {
+    class TACU_Police_W_SG551LB_TAC: hlc_rifle_SG551LB_TAC {
         scope = 1;
 		scopeCurator = 1;
 		class LinkedItems {

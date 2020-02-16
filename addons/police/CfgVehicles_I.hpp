@@ -14,10 +14,10 @@ class TACU_Police_U_I_CT_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceBlack", "G_Balaclava_blk", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
-    weapons[] = {"TACU_Police_W_MK16_TAC", "CUP_hgun_M9", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_Police_W_MK16_TAC", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_30Rnd_556x45_Stanag_Mk16_black"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag_Mk16_black"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
+    weapons[] = {"TACU_Police_W_SG551LB_TAC", "CUP_hgun_M9", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_Police_W_SG551LB_TAC", "CUP_hgun_M9", "Throw", "Put"};
+    magazines[] = {mag_6("hlc_30Rnd_556x45_EPR_sg550"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("hlc_30Rnd_556x45_EPR_sg550"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
     headgearList[] = {
         "TACU_Police_Helmet_PASGT_Neck_PoliceBlack", 1
     };
@@ -40,10 +40,10 @@ class TACU_Police_U_I_CT_Breacher: TACU_Police_U_I_CT_Rifleman {
 class TACU_Police_U_I_CT_Marksman: TACU_Police_U_I_CT_Rifleman {
     displayName = "Marksman";
     editorPreview = QPATHTOF(ui\Police_U_I_CT_Marksman.jpg);
-    weapons[] = {"TACU_Police_W_DMR_03_Rail", "CUP_hgun_M9", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_Police_W_DMR_03_Rail", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("20Rnd_762x51_Mag"), mag_3("CUP_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("20Rnd_762x51_Mag"), mag_3("CUP_15Rnd_9x19_M9")};
+    weapons[] = {"TACU_Police_W_SG5501_DMR_Rail", "CUP_hgun_M9", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_Police_W_SG5501_DMR_Rail", "CUP_hgun_M9", "Throw", "Put"};
+    magazines[] = {mag_6("hlc_30Rnd_556x45_EPR_sg550"), mag_3("CUP_15Rnd_9x19_M9")};
+    respawnMagazines[] = {mag_6("hlc_30Rnd_556x45_EPR_sg550"), mag_3("CUP_15Rnd_9x19_M9")};
 };
 
 class TACU_Police_U_I_CT_RiotControl: TACU_Police_U_I_CT_Rifleman {

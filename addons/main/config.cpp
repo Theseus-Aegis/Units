@@ -87,6 +87,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_Stryker",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
+            // NIArms
+            "hlcweapons_core",
+            "hlcweapons_SG550",
             // Military Gear Pack
             "milgp_headgear_cfg",
             "milgp_vests_cfg",
