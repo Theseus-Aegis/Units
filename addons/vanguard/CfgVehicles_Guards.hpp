@@ -32,10 +32,10 @@ class TACU_Vanguard_U_Guard_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
 class TACU_Vanguard_U_Guard_Rifleman_02: TACU_Vanguard_U_Guard_Rifleman_01 {
     displayName = "Guard (MP5)";
     uniformClass = "tacs_Uniform_Combat_LS_CPS_BP_BB";
-    weapons[] = {"hlc_smg_mp5a2", "CUP_hgun_M9", "Throw", "Put"};
-    respawnWeapons[] = {"hlc_smg_mp5a2", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("hlc_30Rnd_9x19_B_MP5"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("hlc_30Rnd_9x19_B_MP5"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_M9", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_M9", "Throw", "Put"};
+    magazines[] = {mag_3("CUP_30Rnd_9x19_MP5"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("CUP_30Rnd_9x19_MP5"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Guard_Rifleman_02.jpg);
 };
 
@@ -62,10 +62,10 @@ class TACU_Vanguard_U_Guard_Rifleman_04: TACU_Vanguard_U_Guard_Rifleman_01 {
 class TACU_Vanguard_U_Guard_Rifleman_05: TACU_Vanguard_U_Guard_Rifleman_01 {
     displayName = "Guard (HK416C)";
     uniformClass = "tacs_Uniform_Combat_RS_CDFS_GP_TB";
-    weapons[] = {"hlc_rifle_416C", "CUP_hgun_M9", "Throw", "Put"};
-    respawnWeapons[] = {"hlc_rifle_416C", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("hlc_30rnd_556x45_EPR"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("hlc_30rnd_556x45_EPR"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    weapons[] = {"CUP_arifle_HK416_CQB_Black", "CUP_hgun_M9", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_HK416_CQB_Black", "CUP_hgun_M9", "Throw", "Put"};
+    magazines[] = {mag_3("CUP_30Rnd_556x45_PMAG_QP"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("CUP_30Rnd_556x45_PMAG_QP"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Guard_Rifleman_05.jpg);
 };
 

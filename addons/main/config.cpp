@@ -74,6 +74,7 @@ class CfgPatches {
             "CUP_Weapons_RPG7",
             "CUP_Weapons_SA58",
             "CUP_Weapons_SA61",
+            "CUP_Weapons_Scar",
             "CUP_Weapons_SVD",
             "CUP_Weapons_VSS",
             "CUP_Weapons_West_Attachments",
@@ -89,13 +90,6 @@ class CfgPatches {
             // Military Gear Pack
             "milgp_headgear_cfg",
             "milgp_vests_cfg",
-            // NIArms
-            "hlcweapons_ar15",
-            "hlcweapons_core",
-            "hlcweapons_mp5",
-            "hlcweapons_SG550",
-            "niarms_416",
-            "niaweapons_226",
             // Project Infinite
             "bnae_core",
             "bnae_M97",
