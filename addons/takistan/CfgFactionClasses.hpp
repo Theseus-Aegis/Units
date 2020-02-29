@@ -19,19 +19,25 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_TNA_EdSubCat_I_Regular {
-        displayName = "Men (Regular)";
+    class TACU_Takistan_EdSubCat_TakistanSF {
+        displayName = "Men (Takistani SF)";
     };
-    class TACU_TNA_EdSubCat_I_Commandos {
-        displayName = "Men (Commandos)";
-    };
-    class TACU_TNP_EdSubCat_I_Police {
+    class TACU_Takistan_EdSubCat_Officer {
         displayName = "Men (Officers)";
     };
-    class TACU_Tehrik_EdSubCat_O_Veteran {
+    class TACU_Takistan_EdSubCat_Regular {
+        displayName = "Men (Regular)";
+    };
+    class TACU_Takistan_EdSubCat_Commandos {
+        displayName = "Men (Commandos)";
+    };
+    class TACU_Takistan_EdSubCat_Police {
+        displayName = "Men (Officers)";
+    };
+    class TACU_Takistan_EdSubCat_Veteran {
         displayName = "Men (Veterans)";
     };
-    class TACU_Tehrik_EdSubCat_O_Enlisted {
+    class TACU_Takistan_EdSubCat_Enlisted {
         displayName = "Men (Enlisted)";
     };
 };

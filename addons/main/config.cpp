@@ -43,6 +43,7 @@ class CfgPatches {
             "CUP_Creatures_Military_TakiInsurgents",
             "CUP_Creatures_Military_USArmy",
             "CUP_Creatures_Military_USMC",
+            "CUP_Creatures_StaticWeapons",
             "CUP_TrackedVehicles_BMP",
             "CUP_TrackedVehicles_M113",
             "CUP_TrackedVehicles_M60",

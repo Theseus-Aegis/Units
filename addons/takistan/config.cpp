@@ -4,62 +4,83 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "TACU_TNA_U_I_Major",
-            "TACU_TNA_U_I_Lieutenant",
-            "TACU_TNA_U_I_NCO",
-            "TACU_TNA_U_I_Rifleman",
-            "TACU_TNA_U_I_Rifleman2",
-            "TACU_TNA_U_I_Rifleman3",
-            "TACU_TNA_U_I_LMG",
-            "TACU_TNA_U_I_Pilot",
-            "TACU_TNA_U_I_C_NCO",
-            "TACU_TNA_U_I_C_Breacher",
-            "TACU_TNA_U_I_C_Grenadier",
-            "TACU_TNA_U_I_C_LMG",
-            "TACU_TNA_U_I_C_Medic",
-            "TACU_TNA_U_I_C_Rifleman",
-            "TACU_TNP_U_I_Officer",
-            "TACU_TNP_U_I_Rifleman",
-            "TACU_TNP_U_I_Rifleman2",
-            "TACU_TNP_U_I_LMG",
-            "TACU_Talib_U_O_V_Leader",
-            "TACU_Talib_U_O_V_Rifleman",
-            "TACU_Talib_U_O_V_Rifleman2",
-            "TACU_Talib_U_O_V_Grenadier",
-            "TACU_Talib_U_O_V_LMG",
-            "TACU_Talib_U_O_V_RPG",
-            "TACU_Talib_U_O_E_Squadleader",
-            "TACU_Talib_U_O_E_Rifleman1",
-            "TACU_Talib_U_O_E_Rifleman2",
-            "TACU_Talib_U_O_E_Rifleman3",
-            "TACU_Talib_U_O_E_Rifleman4",
-            "TACU_Talib_U_O_E_LMG",
-            "TACU_Talib_U_O_E_RPG",
-            "TACU_Talib_V_O_Lada",
-            "TACU_Talib_V_O_Lada_GreenTK",
-            "TACU_Talib_V_O_V3S_Open",
-            "TACU_Talib_V_O_S1203",
-            "TACU_Talib_V_O_Volha_Blue",
-            "TACU_TNA_V_I_HMMWV_M2",
-            "TACU_TNA_V_I_M1151_M2",
-            "TACU_TNA_V_I_HMMWV_Unarmed",
-            "TACU_TNA_V_I_HMMWV_Transport",
-            "TACU_TNA_V_I_Kamaz",
-            "TACU_TNA_V_I_Mi17",
-            "TACU_TNP_V_I_Police_Offroad",
-            "TACU_TNP_V_I_Datsun",
-            "TACU_TNP_V_I_Datsun_PK"
+            "TACU_Takistan_U_TNA_Major", // TNA
+            "TACU_Takistan_U_TNA_Lieutenant",
+            "TACU_Takistan_U_TNA_NCO",
+            "TACU_Takistan_U_TNA_Rifleman",
+            "TACU_Takistan_U_TNA_Rifleman_02",
+            "TACU_Takistan_U_TNA_Rifleman_03",
+            "TACU_Takistan_U_TNA_Machinegunner",
+            "TACU_Takistan_U_TNA_Pilot",
+            "TACU_Takistan_U_TNA_Commandos_NCO",
+            "TACU_Takistan_U_TNA_Commandos_Breacher",
+            "TACU_Takistan_U_TNA_Commandos_Grenadier",
+            "TACU_Takistan_U_TNA_Commandos_Machinegunner",
+            "TACU_Takistan_U_TNA_Commandos_Medic",
+            "TACU_Takistan_U_TNA_Commandos_Rifleman",
+            "TACU_Takistan_U_TNP_Officer", // TNP
+            "TACU_Takistan_U_TNP_Rifleman",
+            "TACU_Takistan_U_TNP_Rifleman_02",
+            "TACU_Takistan_U_TNP_Machinegunner",
+            "TACU_Takistan_U_TSF_Grenadier", // TSF
+            "TACU_Takistan_U_TSF_Rifleman_01",
+            "TACU_Takistan_U_TSF_Rifleman_02",
+            "TACU_Takistan_U_TSF_Rifleman_03",
+            "TACU_Takistan_U_TSF_Sniper",
+            "TACU_Takistan_U_Tehrik_Leader", // Tehrik
+            "TACU_Takistan_U_Tehrik_Rifleman",
+            "TACU_Takistan_U_Tehrik_Rifleman_02",
+            "TACU_Takistan_U_Tehrik_Grenadier",
+            "TACU_Takistan_U_Tehrik_Machinegunner",
+            "TACU_Takistan_U_Tehrik_Rifleman_AT",
+            "TACU_Takistan_U_Tehrik_Enlisted_Squadleader",
+            "TACU_Takistan_U_Tehrik_Enlisted_Rifleman",
+            "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_02",
+            "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_03",
+            "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_04",
+            "TACU_Takistan_U_Tehrik_Enlisted_Machinegunner",
+            "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_AT",
+            "TACU_Takistan_V_TNA_HMMWV_M2", // Vehicles - TNA
+            "TACU_Takistan_V_TNA_M1151_M2",
+            "TACU_Takistan_V_TNA_M1151_M2_Deploy",
+            "TACU_Takistan_V_TNA_HMMWV_Unarmed",
+            "TACU_Takistan_V_TNA_HMMWV_Transport",
+            "TACU_Takistan_V_TNA_Kamaz",
+            "TACU_Takistan_V_TNA_Kamaz_Open",
+            "TACU_Takistan_V_TNA_Kamaz_Ammo",
+            "TACU_Takistan_V_TNA_Kamaz_Fuel",
+            "TACU_Takistan_V_TNA_M113_Med",
+            "TACU_Takistan_V_TNA_Mi17",
+            "TACU_Takistan_V_TNP_Offroad_Police", // TNP
+            "TACU_Takistan_V_TNP_Datsun",
+            "TACU_Takistan_V_TNP_Datsun_PK",
+            "TACU_Takistan_V_Tehrik_Lada", // Tehrik
+            "TACU_Takistan_V_Tehrik_Lada_Green",
+            "TACU_Takistan_V_Tehrik_V3S_Open",
+            "TACU_Takistan_V_Tehrik_S1203",
+            "TACU_Takistan_V_Tehrik_Volha_Blue",
+            "TACU_Takistan_V_TNA_M2_Static", // Turrets - TNA
+            "TACU_Takistan_V_TNA_M2_Mini_Static",
+            "TACU_Takistan_V_Tehrik_DSHKM", // Tehrik
+            "TACU_Takistan_V_Tehrik_DSHKM_Mini",
+            "TACU_Takistan_V_Tehrik_ZU23",
+            "TACU_Takistan_V_Tehrik_Metis",
+            "TACU_Takistan_V_Tehrik_SPG9"
         };
         weapons[] = {
-            "TACU_TNA_W_M4A3_Desert",
-            "TACU_TNA_W_M4A1_GL",
-            "TACU_TNA_W_M4A3_Black",
-            "TACU_TNA_W_M4A1_Black"
+            "TACU_Takistan_W_M4A1",
+            "TACU_Takistan_W_M4A1_GL",
+            "TACU_Takistan_W_M4A3",
+            "TACU_Takistan_W_M4A3_Desert",
+            "TACU_Takistan_W_M4SBR_Tan",
+            "TACU_Takistan_W_M4A1_Grip",
+            "TACU_Takistan_W_M16A4",
+            "TACU_Takistan_W_M110"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
         author = ECSTRING(main,Author);
-        authors[] = {"TyroneMF"};
+        authors[] = {"Kresky", "TyroneMF"};
         VERSION_CONFIG;
     };
 };
