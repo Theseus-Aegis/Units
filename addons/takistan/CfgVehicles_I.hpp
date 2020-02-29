@@ -20,7 +20,7 @@ class TACU_TNA_U_I_Major: TACU_Main_U_INDEP_Soldier_Base {
     respawnWeapons[] = {"CUP_hgun_M9", "Throw", "Put"};
     magazines[] = {mag_4("CUP_15Rnd_9x19_M9")};
     respawnMagazines[] = {mag_4("CUP_15Rnd_9x19_M9")};
-    editorSubcategory = "TACU_TNA_EdSubCat_I_Enlisted";
+    editorSubcategory = "TACU_TNA_EdSubCat_I_Regular";
 };
 
 class TACU_TNA_U_I_Lieutenant: TACU_TNA_U_I_Major {
@@ -56,24 +56,26 @@ class TACU_TNA_U_I_Rifleman: TACU_TNA_U_I_NCO {
 };
 
 class TACU_TNA_U_I_Rifleman2: TACU_TNA_U_I_NCO {
-    displayName = "Rifleman";
+    displayName = "Rifleman 2";
     editorPreview = QPATHTOF(ui\TNA_U_I_Rifleman2.jpg);
     uniformClass = "CUP_U_O_TK_MixedCamo";
 };
 
 class TACU_TNA_U_I_Rifleman3: TACU_TNA_U_I_NCO {
-    displayName = "Rifleman";
+    displayName = "Rifleman 3";
     editorPreview = QPATHTOF(ui\TNA_U_I_Rifleman3.jpg);
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_PASGT_no_bags", "CUP_H_Ger_M92_RGR"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_PASGT_no_bags", "CUP_H_Ger_M92_RGR"};
 };
 
 class TACU_TNA_U_I_LMG: TACU_TNA_U_I_NCO {
     displayName = "Machine-Gunner";
     editorPreview = QPATHTOF(ui\TNA_U_I_LMG.jpg);
-    backpack = "CUP_B_AlicePack_Khaki";
+    backpack = "TACU_TNA_B_LMG_Khaki";
     weapons[] = {"CUP_lmg_M249_E2", "Throw", "Put"};
     respawnWeapons[] = {"CUP_lmg_M249_E2", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_200Rnd_TE4_Red_Tracer_556x45_M249")};
-    respawnMagazines[] = {mag_4("CUP_200Rnd_TE4_Red_Tracer_556x45_M249")};
+    magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
+    respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
 };
 
 class TACU_TNA_U_I_Pilot: TACU_TNA_U_I_NCO {
@@ -157,8 +159,8 @@ class TACU_TNA_U_I_C_Rifleman: TACU_TNA_U_I_C_NCO {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
     weapons[] = {"TACU_TNA_W_M4A1_Black", "CUP_hgun_M9", "CUP_launch_M136_Loaded", "Throw", "Put"};
     respawnWeapons[] = {"TACU_TNA_W_M4A1_Black", "CUP_hgun_M9", "CUP_launch_M136_Loaded", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_10("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell"), "CUP_M136_M"};
+    respawnMagazines[] = {mag_10("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell"), "CUP_M136_M"};
 };
 
 // Units - Takistan National Police
@@ -168,6 +170,7 @@ class TACU_TNP_U_I_Officer: TACU_Main_U_INDEP_Soldier_Base {
     scope = 2;
     scopeCurator = 2;
     genericNames = "TakistaniMen";
+    identityTypes[] = {"LanguagePER_F", "Head_TK", "NoGlasses"};
     editorPreview = QPATHTOF(ui\TNP_U_I_Officer.jpg);
     uniformClass = "U_B_GEN_Commander_F";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket1_03", "CUP_H_TKI_Pakol_2_02"};
@@ -186,8 +189,8 @@ class TACU_TNP_U_I_Rifleman: TACU_TNP_U_I_Officer {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_06", "CUP_H_TKI_SkullCap_02"};
     weapons[] = {"CUP_arifle_AKS74_Early", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74_Early", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_30Rnd_545x39_AK74M_M")};
-    respawnMagazines[] = {mag_4("CUP_30Rnd_545x39_AK74M_M")};
+    magazines[] = {mag_7("CUP_30Rnd_545x39_AK74M_M")};
+    respawnMagazines[] = {mag_7("CUP_30Rnd_545x39_AK74M_M")};
 };
 
 class TACU_TNP_U_I_Rifleman2: TACU_TNP_U_I_Rifleman {
@@ -197,8 +200,8 @@ class TACU_TNP_U_I_Rifleman2: TACU_TNP_U_I_Rifleman {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_01", "CUP_H_TKI_Pakol_1_01"};
     weapons[] = {"CUP_arifle_AKS74", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_30Rnd_545x39_AK_M")};
-    respawnMagazines[] = {mag_4("CUP_30Rnd_545x39_AK_M")};
+    magazines[] = {mag_7("CUP_30Rnd_545x39_AK_M")};
+    respawnMagazines[] = {mag_7("CUP_30Rnd_545x39_AK_M")};
 };
 
 class TACU_TNP_U_I_LMG: TACU_TNP_U_I_Rifleman2 {
@@ -222,6 +225,9 @@ class TACU_TNA_V_I_HMMWV_M2: CUP_B_HMMWV_M2_USMC {
     crew = "TACU_TNA_U_I_Rifleman";
     typicalCargo[] = {"TACU_TNA_U_I_Rifleman"};
     editorPreview = QPATHTOF(ui\TNA_V_I_HMMWV_M2.jpg);
+    hiddenSelectionsTextures[] = {
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_co.paa"
+    };
 };
 
 class CUP_B_M1151_M2_USA;
@@ -233,6 +239,18 @@ class TACU_TNA_V_I_M1151_M2: CUP_B_M1151_M2_USA {
     crew = "TACU_TNA_U_I_Rifleman";
     typicalCargo[] = {"TACU_TNA_U_I_Rifleman"};
     editorPreview = QPATHTOF(ui\TNA_V_I_M1151_M2.jpg);
+    hiddenSelectionsTextures[] = {
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_parts_1_ca.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gmv_wl_01_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_details_2_wl_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\stryker_net_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_m1167turret_wl_co.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\fbcb2_co.paa"
+    };
 };
 
 class CUP_B_HMMWV_Unarmed_USMC;
@@ -244,6 +262,9 @@ class TACU_TNA_V_I_HMMWV_Unarmed: CUP_B_HMMWV_Unarmed_USMC {
     crew = "TACU_TNA_U_I_Rifleman";
     typicalCargo[] = {"TACU_TNA_U_I_Rifleman"};
     editorPreview = QPATHTOF(ui\TNA_V_I_HMMWV_Unarmed.jpg);
+    hiddenSelectionsTextures[] = {
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_co.paa"
+    };
 };
 
 class CUP_B_HMMWV_Transport_NATO_T;
@@ -266,6 +287,10 @@ class TACU_TNA_V_I_Kamaz: CUP_O_Kamaz_RU {
     crew = "TACU_TNA_U_I_Rifleman";
     typicalCargo[] = {"TACU_TNA_U_I_Rifleman"};
     editorPreview = QPATHTOF(ui\TNA_V_I_Kamaz.jpg);
+    hiddenSelectionsTextures[] = {
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_kamaz\data\extra\kamaz_green_00.paa",
+        "\CUP\WheeledVehicles\CUP_WheeledVehicles_kamaz\data\extra\kamaz_green_01.paa"
+    };
 };
 
 class CUP_C_Mi17_Civilian_RU;
@@ -277,6 +302,12 @@ class TACU_TNA_V_I_Mi17: CUP_C_Mi17_Civilian_RU {
     crew = "TACU_TNA_U_I_Pilot";
     typicalCargo[] = {"TACU_TNA_U_I_Pilot"};
     editorPreview = QPATHTOF(ui\TNA_V_I_Mi17.jpg);
+    hiddenSelectionsTextures[] = {
+        "\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_body_IND_CO.paa",
+        "\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa",
+        "\a3\data_f\clear_empty.paa",
+        "\CUP\AirVehicles\CUP_AirVehicles_Mi8\Data\mi8_decals_CA.paa"
+    };
 };
 
 // Vehicles - TNP

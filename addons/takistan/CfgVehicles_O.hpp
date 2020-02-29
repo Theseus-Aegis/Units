@@ -62,8 +62,8 @@ class TACU_Talib_U_O_V_LMG: TACU_Talib_U_O_V_Grenadier {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket1_03", "CUP_H_TKI_Lungee_03"};
     weapons[] = {"CUP_lmg_PKM", "Throw", "Put"};
     respawnWeapons[] = {"CUP_lmg_PKM", "Throw", "Put"};
-    magazines[] = {mag_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")};
-    respawnMagazines[] = {mag_5("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M")};
+    magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+    respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
 };
 
 class TACU_Talib_U_O_V_RPG: TACU_Talib_U_O_V_Grenadier {
@@ -72,10 +72,10 @@ class TACU_Talib_U_O_V_RPG: TACU_Talib_U_O_V_Grenadier {
     backpack = "TACU_Tehrik_B_RPG_Khaki";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket3_02", "CUP_H_TKI_Lungee_03"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket3_02", "CUP_H_TKI_Lungee_03"};
-    weapons[] = {"CUP_arifle_AKS", "launch_RPG7_F", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_arifle_AKS", "launch_RPG7_F", "Throw", "Put"};
-    magazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M")};
-    respawnMagazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M")};
+    weapons[] = {"CUP_arifle_AKS", "CUP_launch_RPG7V", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_AKS", "CUP_launch_RPG7V", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "RPG7_F"};
+    respawnMagazines[] = {mag_5("CUP_30Rnd_762x39_AK47_M"), "RPG7_F"};
 };
 
 // Units - Tehrik-i-Taliban Takistan, Enlisted.
@@ -149,10 +149,10 @@ class TACU_Talib_U_O_E_RPG: TACU_Talib_U_O_V_RPG {
     uniformClass = "CUP_O_TKI_Khet_Partug_03";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_04", "CUP_H_TKI_Lungee_04"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_04", "CUP_H_TKI_Lungee_04"};
-    weapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
-    magazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M")};
-    respawnMagazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M")};
+    weapons[] = {"CUP_arifle_AKS74U", "CUP_launch_RPG7V", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_AKS74U", "CUP_launch_RPG7V", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M"), "RPG7_F"};
+    respawnMagazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M"), "RPG7_F"};
     editorSubcategory = "TACU_Tehrik_EdSubCat_O_Enlisted";
 };
 

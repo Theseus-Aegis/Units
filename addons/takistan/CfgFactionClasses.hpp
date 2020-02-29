@@ -19,8 +19,8 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_TNA_EdSubCat_I_Enlisted {
-        displayName = "Men (Enlisted)";
+    class TACU_TNA_EdSubCat_I_Regular {
+        displayName = "Men (Regular)";
     };
     class TACU_TNA_EdSubCat_I_Commandos {
         displayName = "Men (Commandos)";

@@ -1,7 +1,7 @@
 class TACU_TNA_I {
     name = "Takistan National Army";
     class TACU_TNA_G_I_EL {
-        name = "Enlisted";
+        name = "Regular";
         
         class TACU_TNA_G_I_EL_Patrol {
             name = "Patrol";
@@ -15,7 +15,7 @@ class TACU_TNA_I {
                 position[] = {0, 0, 0};
             };
             class unit1 {
-                vehicle = "TACU_TNA_U_I_Rifleman2";
+                vehicle = "TACU_TNA_U_I_LMG";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
@@ -190,6 +190,63 @@ class TACU_TNA_I {
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {15, -15, 0};
+            };
+        };
+    };
+};
+
+class TACU_TNP_I {
+    name = "Takistan National Police";
+    class TACU_TNP_G_I_Of {
+        name = "Officers";
+
+        class TACU_TNP_G_I_CP_Patrol {
+            name = "Patrol";
+            scope = 2;
+            faction = "TACU_TNP_I";
+            icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+            class unit0 {
+                vehicle = "TACU_TNP_U_I_Rifleman";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_TNP_U_I_LMG";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+        };
+        
+        class TACU_TNP_G_I_CP_Fireteam {
+            name = "Fireteam";
+            scope = 2;
+            faction = "TACU_TNP_I";
+            icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+            class unit0 {
+                vehicle = "TACU_TNP_U_I_Officer";
+                side = 2;
+                rank = "SERGEANT";
+                position[] = {0, 0, 0};
+            };
+            class unit1 {
+                vehicle = "TACU_TNP_U_I_Rifleman";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {5, -5, 0};
+            };
+            class unit2 {
+                vehicle = "TACU_TNP_U_I_Rifleman2";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {-5, -5, 0};
+            };
+            class unit3 {
+                vehicle = "TACU_TNP_U_I_LMG";
+                side = 2;
+                rank = "PRIVATE";
+                position[] = {10, -10, 0};
             };
         };
     };
