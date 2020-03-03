@@ -86,8 +86,8 @@ class CfgPatches {
             "CUP_WheeledVehicles_S1203",
             "CUP_WheeledVehicles_Stryker",
             "CUP_WheeledVehicles_UAZ",
-            "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_UpHMMWV",
+            "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_V3S",
             "CUP_WheeledVehicles_Volha",
             // Military Gear Pack

@@ -1,7 +1,7 @@
 // Units - Takistan National Police
 class TACU_Takistan_U_TNP_Officer: TACU_Main_U_INDEP_Soldier_Base {
     displayName = "Officer";
-    faction = "TACU_TNP_I";
+    faction = "TACU_Takistan_TNP";
     scope = 2;
     scopeCurator = 2;
     genericNames = "TakistaniMen";
@@ -54,7 +54,7 @@ class TACU_Takistan_U_TNP_Machinegunner: TACU_Takistan_U_TNP_Rifleman_02 {
 class TACU_Police_V_B_Offroad_Blue;
 class TACU_Takistan_V_TNP_Offroad_Police: TACU_Police_V_B_Offroad_Blue {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNP_I";
+    faction = "TACU_Takistan_TNP";
     side = 2;
     displayName = "Offroad (Police)";
     crew = "TACU_Takistan_U_TNP_Rifleman";
@@ -65,7 +65,7 @@ class TACU_Takistan_V_TNP_Offroad_Police: TACU_Police_V_B_Offroad_Blue {
 class CUP_C_Datsun;
 class TACU_Takistan_V_TNP_Datsun: CUP_C_Datsun {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNP_I";
+    faction = "TACU_Takistan_TNP";
     side = 2;
     displayName = "Datsun (Unarmed)";
     crew = "TACU_Takistan_U_TNP_Rifleman";
@@ -76,7 +76,7 @@ class TACU_Takistan_V_TNP_Datsun: CUP_C_Datsun {
 class CUP_O_Datsun_PK_Random;
 class TACU_Takistan_V_TNP_Datsun_PK: CUP_O_Datsun_PK_Random {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNP_I";
+    faction = "TACU_Takistan_TNP";
     side = 2;
     displayName = "Datsun (PK)";
     crew = "TACU_Takistan_U_TNP_Rifleman";

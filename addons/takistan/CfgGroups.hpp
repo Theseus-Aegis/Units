@@ -1,9 +1,10 @@
 class CfgGroups {
     class EAST {
-        #include "CfgGroups_East.hpp"
+        #include "CfgGroups_Tehrik.hpp"
     };
     
     class INDEP {
-        #include "CfgGroups_Indep.hpp"
+        #include "CfgGroups_TNA.hpp"
+        #include "CfgGroups_TNP.hpp"
     };
 };

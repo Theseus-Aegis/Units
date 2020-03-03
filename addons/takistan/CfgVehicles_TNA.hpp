@@ -2,7 +2,7 @@
 class TACU_Takistan_U_TNA_Major: TACU_Main_U_INDEP_Soldier_Base {
     author = "TyroneMF";
     displayName = "Major";
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     scope = 2;
     scopeCurator = 2;
     identityTypes[] = {"LanguagePER_F", "Head_TK", "NoGlasses"};
@@ -168,7 +168,7 @@ class TACU_Takistan_U_TNA_Commandos_Rifleman: TACU_Takistan_U_TNA_Commandos_NCO 
 class CUP_B_HMMWV_M2_USMC;
 class TACU_Takistan_V_TNA_HMMWV_M2: CUP_B_HMMWV_M2_USMC {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "HMMWV (M2)";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -182,7 +182,7 @@ class TACU_Takistan_V_TNA_HMMWV_M2: CUP_B_HMMWV_M2_USMC {
 class CUP_B_M1151_M2_USA;
 class TACU_Takistan_V_TNA_M1151_M2: CUP_B_M1151_M2_USA {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "M1151 (M2)";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -205,7 +205,7 @@ class TACU_Takistan_V_TNA_M1151_M2: CUP_B_M1151_M2_USA {
 class CUP_B_M1151_Deploy_NATO_T;
 class TACU_Takistan_V_TNA_M1151_M2_Deploy: CUP_B_M1151_Deploy_NATO_T {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "M1151 (M2) Deployment";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -216,7 +216,7 @@ class TACU_Takistan_V_TNA_M1151_M2_Deploy: CUP_B_M1151_Deploy_NATO_T {
 class CUP_B_HMMWV_Unarmed_USMC;
 class TACU_Takistan_V_TNA_HMMWV_Unarmed: CUP_B_HMMWV_Unarmed_USMC {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "HMMWV (Unarmed)";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -230,7 +230,7 @@ class TACU_Takistan_V_TNA_HMMWV_Unarmed: CUP_B_HMMWV_Unarmed_USMC {
 class CUP_B_HMMWV_Transport_NATO_T;
 class TACU_Takistan_V_TNA_HMMWV_Transport: CUP_B_HMMWV_Transport_NATO_T {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "HMMWV (Transport)";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -241,7 +241,7 @@ class TACU_Takistan_V_TNA_HMMWV_Transport: CUP_B_HMMWV_Transport_NATO_T {
 class CUP_O_Kamaz_RU;
 class TACU_Takistan_V_TNA_Kamaz: CUP_O_Kamaz_RU {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "Kamaz 5350";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -256,7 +256,7 @@ class TACU_Takistan_V_TNA_Kamaz: CUP_O_Kamaz_RU {
 class CUP_O_Kamaz_Open_RU;
 class TACU_Takistan_V_TNA_Kamaz_Open: CUP_O_Kamaz_Open_RU {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "Kamaz 5350 (Open)";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -271,7 +271,7 @@ class TACU_Takistan_V_TNA_Kamaz_Open: CUP_O_Kamaz_Open_RU {
 class CUP_O_Kamaz_Reammo_RU;
 class TACU_Takistan_V_TNA_Kamaz_Ammo: CUP_O_Kamaz_Reammo_RU {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "Kamaz 5350 (Ammo)";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -286,7 +286,7 @@ class TACU_Takistan_V_TNA_Kamaz_Ammo: CUP_O_Kamaz_Reammo_RU {
 class CUP_O_Kamaz_Refuel_RU;
 class TACU_Takistan_V_TNA_Kamaz_Fuel: CUP_O_Kamaz_Refuel_RU {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "Kamaz 5350 (Fuel)";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -301,7 +301,7 @@ class TACU_Takistan_V_TNA_Kamaz_Fuel: CUP_O_Kamaz_Refuel_RU {
 class CUP_I_M113_Med_UN;
 class TACU_Takistan_V_TNA_M113_Med: CUP_I_M113_Med_UN {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "M113A3 Ambulance";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -316,7 +316,7 @@ class TACU_Takistan_V_TNA_M113_Med: CUP_I_M113_Med_UN {
 class CUP_C_Mi17_Civilian_RU;
 class TACU_Takistan_V_TNA_Mi17: CUP_C_Mi17_Civilian_RU {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "Mi17";
     crew = "TACU_Takistan_U_TNA_Pilot";
@@ -333,7 +333,7 @@ class TACU_Takistan_V_TNA_Mi17: CUP_C_Mi17_Civilian_RU {
 // Vehicles - TNA Turrets.
 class CUP_B_M2StaticMG_US;
 class TACU_Takistan_V_TNA_M2_Static: CUP_B_M2StaticMG_US {
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "M2 Machine Gun";
     crew = "TACU_Takistan_U_TNA_Rifleman";
@@ -343,7 +343,7 @@ class TACU_Takistan_V_TNA_M2_Static: CUP_B_M2StaticMG_US {
 
 class CUP_B_M2StaticMG_MiniTripod_US;
 class TACU_Takistan_V_TNA_M2_Mini_Static: CUP_B_M2StaticMG_MiniTripod_US {
-    faction = "TACU_TNA_I";
+    faction = "TACU_Takistan_TNA";
     side = 2;
     displayName = "M2 Machine Gun Minitripod";
     crew = "TACU_Takistan_U_TNA_Rifleman";

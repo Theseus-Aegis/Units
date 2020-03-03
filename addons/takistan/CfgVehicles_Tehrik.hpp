@@ -2,7 +2,7 @@
 class TACU_Takistan_U_Tehrik_Leader: TACU_Main_U_OPFOR_Soldier_Base {
     author = "TyroneMF";
     displayName = "Veteran Leader";
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     scope = 2;
     scopeCurator = 2;
     identityTypes[] = {"LanguagePER_F", "Head_TK", "NoGlasses"};
@@ -160,7 +160,7 @@ class TACU_Takistan_U_Tehrik_Enlisted_Rifleman_AT: TACU_Takistan_U_Tehrik_Riflem
 class CUP_C_Lada_TK2_CIV;
 class TACU_Takistan_V_Tehrik_Lada: CUP_C_Lada_TK2_CIV {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "Lada";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
@@ -171,7 +171,7 @@ class TACU_Takistan_V_Tehrik_Lada: CUP_C_Lada_TK2_CIV {
 class CUP_C_Lada_GreenTK_CIV;
 class TACU_Takistan_V_Tehrik_Lada_Green: CUP_C_Lada_GreenTK_CIV {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "Lada Green";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
@@ -182,7 +182,7 @@ class TACU_Takistan_V_Tehrik_Lada_Green: CUP_C_Lada_GreenTK_CIV {
 class CUP_O_V3S_Open_TKA;
 class TACU_Takistan_V_Tehrik_V3S_Open: CUP_O_V3S_Open_TKA {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "V3S Open";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
@@ -193,7 +193,7 @@ class TACU_Takistan_V_Tehrik_V3S_Open: CUP_O_V3S_Open_TKA {
 class CUP_C_S1203_CIV;
 class TACU_Takistan_V_Tehrik_S1203: CUP_C_S1203_CIV {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "Skoda S1203";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
@@ -204,7 +204,7 @@ class TACU_Takistan_V_Tehrik_S1203: CUP_C_S1203_CIV {
 class CUP_C_Volha_Blue_TKCIV;
 class TACU_Takistan_V_Tehrik_Volha_Blue: CUP_C_Volha_Blue_TKCIV {
     MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "Volha Blue";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
@@ -215,7 +215,7 @@ class TACU_Takistan_V_Tehrik_Volha_Blue: CUP_C_Volha_Blue_TKCIV {
 // Vehicles - Turrets
 class CUP_O_DSHKM_ChDKZ;
 class TACU_Takistan_V_Tehrik_DSHKM: CUP_O_DSHKM_ChDKZ {
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "DShKM";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
@@ -225,7 +225,7 @@ class TACU_Takistan_V_Tehrik_DSHKM: CUP_O_DSHKM_ChDKZ {
 
 class CUP_O_DSHkM_MiniTriPod_ChDKZ;
 class TACU_Takistan_V_Tehrik_DSHKM_Mini: CUP_O_DSHkM_MiniTriPod_ChDKZ {
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "DShKM Minitripod";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_02";
@@ -235,7 +235,7 @@ class TACU_Takistan_V_Tehrik_DSHKM_Mini: CUP_O_DSHkM_MiniTriPod_ChDKZ {
 
 class CUP_O_ZU23_RU;
 class TACU_Takistan_V_Tehrik_ZU23: CUP_O_ZU23_RU {
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "ZU-23";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_03";
@@ -245,7 +245,7 @@ class TACU_Takistan_V_Tehrik_ZU23: CUP_O_ZU23_RU {
 
 class CUP_O_Metis_RU;
 class TACU_Takistan_V_Tehrik_Metis: CUP_O_Metis_RU {
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "Metis AT-13";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_04";
@@ -255,7 +255,7 @@ class TACU_Takistan_V_Tehrik_Metis: CUP_O_Metis_RU {
 
 class CUP_O_SPG9_ChDKZ;
 class TACU_Takistan_V_Tehrik_SPG9: CUP_O_SPG9_ChDKZ {
-    faction = "TACU_Tehrik_Taliban_O";
+    faction = "TACU_Takistan_Tehrik";
     side = 0;
     displayName = "SPG-9";
     crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_03";

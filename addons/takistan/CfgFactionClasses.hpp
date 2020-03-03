@@ -1,17 +1,17 @@
 class CfgFactionClasses {
-    class TACU_TNA_I {
+    class TACU_Takistan_TNA {
         displayName = "Takistan National Army";
         side = 2;
         priority = 4;
     };
 
-    class TACU_TNP_I {
+    class TACU_Takistan_TNP {
         displayName = "Takistan National Police";
         side = 2;
         priority = 4;
     };
     
-    class TACU_Tehrik_Taliban_O {
+    class TACU_Takistan_Tehrik {
         displayName = "Tehrik-I-Taliban Takistan";
         side = 0;
         priority = 4;
