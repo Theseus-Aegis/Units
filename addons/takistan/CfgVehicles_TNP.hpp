@@ -51,15 +51,37 @@ class TACU_Takistan_U_TNP_Machinegunner: TACU_Takistan_U_TNP_Rifleman_02 {
 };
 
 // Vehicles - TNP
-class TACU_Police_V_B_Offroad_Blue;
-class TACU_Takistan_V_TNP_Offroad_Police: TACU_Police_V_B_Offroad_Blue {
+class Offroad_01_unarmed_base_F;
+class TACU_Takistan_V_TNP_Offroad_Police: Offroad_01_unarmed_base_F {
     MACRO_CLEAR_VEHICLE_CARGO
+    author = "Kresky";
     faction = "TACU_Takistan_TNP";
+    scope = 2;
+    scopeCurator = 2;
+    forceInGarage = 1;
     side = 2;
-    displayName = "Offroad (Police)";
+    displayName = "Offroad (Police, Tan)";
     crew = "TACU_Takistan_U_TNP_Rifleman";
     typicalCargo[] = {"TACU_Takistan_U_TNP_Rifleman"};
     editorPreview = QPATHTOF(ui\Takistan_V_TNP_Offroad_Police.jpg);
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\Takistan_V_TNP_Offroad_Police_co.paa),
+        QPATHTOF(data\Takistan_V_TNP_Offroad_Police_co.paa)
+    };
+    transportMaxBackpacks = 6;
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBumper1", 1,
+        "HideBumper2", 0,
+        "HideConstruction", 0.2,
+        "HideBackpacks", 1,
+        "HidePolice", 0
+    };
+    class EventHandlers: EventHandlers {
+        init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
+    };
 };
 
 class CUP_C_Datsun;
