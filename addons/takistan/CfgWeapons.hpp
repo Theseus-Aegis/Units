@@ -86,22 +86,6 @@ class CfgWeapons {
         };
     };
 
-    class TACU_Takistan_W_M4A1_Grip: CUP_arifle_M4A3_black {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            class LinkedItemsOptic {
-                slot = "CUP_PicatinnyTopMountM4";
-                item = "cup_optic_compm2_black";
-            };
-            class LinkedItemSide {
-                slot = "CUP_PicatinnySideMountM4";
-                item = "cup_acc_anpeq_15_top_flashlight_black_l";
-            };
-        };
-    };
-
     class CUP_arifle_M16A4_Base;
     class TACU_Takistan_W_M16A4: CUP_arifle_M16A4_Base {
         dlc = QUOTE(PREFIX);

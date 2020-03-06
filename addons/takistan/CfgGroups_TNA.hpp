@@ -15,7 +15,7 @@ class TACU_Takistan_TNA {
                 position[] = {0, 0, 0};
             };
             class unit1 {
-                vehicle = "TACU_Takistan_U_TNA_Machinegunner";
+                vehicle = "TACU_Takistan_U_TNA_Autorifleman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
@@ -46,7 +46,7 @@ class TACU_Takistan_TNA {
                 position[] = {-5, -5, 0};
             };
             class unit3 {
-                vehicle = "TACU_Takistan_U_TNA_Machinegunner";
+                vehicle = "TACU_Takistan_U_TNA_Autorifleman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {10, -10, 0};
@@ -83,7 +83,7 @@ class TACU_Takistan_TNA {
                 position[] = {10, -10, 0};
             };
             class unit4 {
-                vehicle = "TACU_Takistan_U_TNA_Machinegunner";
+                vehicle = "TACU_Takistan_U_TNA_Autorifleman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {-10, -10, 0};
@@ -143,7 +143,7 @@ class TACU_Takistan_TNA {
                 position[] = {-5, -5, 0};
             };
             class unit3 {
-                vehicle = "TACU_Takistan_U_TNA_Commandos_Machinegunner";
+                vehicle = "TACU_Takistan_U_TNA_Commandos_Autorifleman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {10, -10, 0};
@@ -174,7 +174,7 @@ class TACU_Takistan_TNA {
                 position[] = {-5, -5, 0};
             };
             class unit3 {
-                vehicle = "TACU_Takistan_U_TNA_Commandos_Machinegunner";
+                vehicle = "TACU_Takistan_U_TNA_Commandos_Autorifleman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {10, -10, 0};

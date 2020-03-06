@@ -48,8 +48,8 @@ class TACU_Takistan_U_TSF_Rifleman_02: TACU_Takistan_U_TSF_Rifleman_01 {
     editorPreview = QPATHTOF(ui\Takistan_U_TSF_Rifleman_02.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_TKI_Lungee_Open_01", "CUP_V_OI_TKI_Jacket4_03"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_TKI_Lungee_Open_01", "CUP_V_OI_TKI_Jacket4_03"};
-    weapons[] = {"TACU_Takistan_W_M4A1_Grip", "CUP_hgun_M9", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_Takistan_W_M4A1_Grip", "CUP_hgun_M9", "Throw", "Put"};
+    weapons[] = {"TACU_Takistan_W_M4A3", "CUP_hgun_M9", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_Takistan_W_M4A3", "CUP_hgun_M9", "Throw", "Put"};
     magazines[] = {mag_6("CUP_30Rnd_556x45_Emag"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
     respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Emag"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
 };

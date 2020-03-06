@@ -1,7 +1,7 @@
 // Units - Tehrik-i-Taliban Takistan, Veterans.
 class TACU_Takistan_U_Tehrik_Leader: TACU_Main_U_OPFOR_Soldier_Base {
     author = "TyroneMF";
-    displayName = "Veteran Leader";
+    displayName = "Leader";
     faction = "TACU_Takistan_Tehrik";
     scope = 2;
     scopeCurator = 2;
@@ -22,7 +22,7 @@ class TACU_Takistan_U_Tehrik_Leader: TACU_Main_U_OPFOR_Soldier_Base {
 };
 
 class TACU_Takistan_U_Tehrik_Rifleman: TACU_Takistan_U_Tehrik_Leader {
-    displayName = "Veteran Rifleman";
+    displayName = "Rifleman";
     editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Rifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_05", "CUP_H_TKI_Lungee_05"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_05", "CUP_H_TKI_Lungee_05"};
@@ -33,7 +33,7 @@ class TACU_Takistan_U_Tehrik_Rifleman: TACU_Takistan_U_Tehrik_Leader {
 };
 
 class TACU_Takistan_U_Tehrik_Rifleman_02: TACU_Takistan_U_Tehrik_Rifleman {
-    displayName = "Veteran Rifleman 2";
+    displayName = "Rifleman 2";
     editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Rifleman_02.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_03", "CUP_H_TKI_Lungee_03"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_03", "CUP_H_TKI_Lungee_03"};
@@ -54,9 +54,9 @@ class TACU_Takistan_U_Tehrik_Grenadier: TACU_Takistan_U_Tehrik_Rifleman_02 {
     respawnMagazines[] = {mag_10("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_10("CUP_1Rnd_HE_GP25_M")};
 };
 
-class TACU_Takistan_U_Tehrik_Machinegunner: TACU_Takistan_U_Tehrik_Grenadier {
-    displayName = "Veteran Machine-Gunner";
-    editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Machinegunner.jpg);
+class TACU_Takistan_U_Tehrik_Autorifleman: TACU_Takistan_U_Tehrik_Grenadier {
+    displayName = "Autorifleman";
+    editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Autorifleman.jpg);
     backpack = "TACU_Takistan_B_Tehrik_LMG";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket1_03", "CUP_H_TKI_Lungee_03"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket1_03", "CUP_H_TKI_Lungee_03"};
@@ -67,7 +67,7 @@ class TACU_Takistan_U_Tehrik_Machinegunner: TACU_Takistan_U_Tehrik_Grenadier {
 };
 
 class TACU_Takistan_U_Tehrik_Rifleman_AT: TACU_Takistan_U_Tehrik_Grenadier {
-    displayName = "Veteran AT";
+    displayName = "Rifleman AT";
     editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Rifleman_AT.jpg);
     backpack = "TACU_Takistan_B_Tehrik_AT";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket3_02", "CUP_H_TKI_Lungee_03"};
@@ -131,9 +131,9 @@ class TACU_Takistan_U_Tehrik_Enlisted_Rifleman_04: TACU_Takistan_U_Tehrik_Enlist
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_05", "CUP_H_TKI_SkullCap_06"};
 };
 
-class TACU_Takistan_U_Tehrik_Enlisted_Machinegunner: TACU_Takistan_U_Tehrik_Enlisted_Rifleman_04 {
+class TACU_Takistan_U_Tehrik_Enlisted_Autorifleman: TACU_Takistan_U_Tehrik_Enlisted_Rifleman_04 {
     displayName = "Machine-Gunner";
-    editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Enlisted_Machinegunner.jpg);
+    editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Enlisted_Autorifleman.jpg);
     uniformClass = "CUP_O_TKI_Khet_Partug_06";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_06", "CUP_H_TKI_Lungee_06"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_06", "CUP_H_TKI_Lungee_06"};

@@ -15,7 +15,7 @@ class TACU_Takistan_TNP {
                 position[] = {0, 0, 0};
             };
             class unit1 {
-                vehicle = "TACU_Takistan_U_TNP_Machinegunner";
+                vehicle = "TACU_Takistan_U_TNP_Autorifleman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
@@ -46,7 +46,7 @@ class TACU_Takistan_TNP {
                 position[] = {-5, -5, 0};
             };
             class unit3 {
-                vehicle = "TACU_Takistan_U_TNP_Machinegunner";
+                vehicle = "TACU_Takistan_U_TNP_Autorifleman";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {10, -10, 0};

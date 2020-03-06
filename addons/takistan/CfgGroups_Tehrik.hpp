@@ -46,7 +46,7 @@ class TACU_Takistan_Tehrik {
                 position[] = {-5, -5, 0};
             };
             class unit3 {
-                vehicle = "TACU_Takistan_U_Tehrik_Machinegunner";
+                vehicle = "TACU_Takistan_U_Tehrik_Autorifleman";
                 side = 0;
                 rank = "PRIVATE";
                 position[] = {10, -10, 0};
@@ -77,7 +77,7 @@ class TACU_Takistan_Tehrik {
                 position[] = {-5, -5, 0};
             };
             class unit3 {
-                vehicle = "TACU_Takistan_U_Tehrik_Machinegunner";
+                vehicle = "TACU_Takistan_U_Tehrik_Autorifleman";
                 side = 0;
                 rank = "PRIVATE";
                 position[] = {10, -10, 0};
@@ -137,7 +137,7 @@ class TACU_Takistan_Tehrik {
                 position[] = {5, -5, 0};
             };
             class unit2 {
-                vehicle = "TACU_Takistan_U_Tehrik_Enlisted_Machinegunner";
+                vehicle = "TACU_Takistan_U_Tehrik_Enlisted_Autorifleman";
                 side = 0;
                 rank = "PRIVATE";
                 position[] = {-5, -5, 0};
@@ -180,7 +180,7 @@ class TACU_Takistan_Tehrik {
                 position[] = {10, -10, 0};
             };
             class unit4 {
-                vehicle = "TACU_Takistan_U_Tehrik_Enlisted_Machinegunner";
+                vehicle = "TACU_Takistan_U_Tehrik_Enlisted_Autorifleman";
                 side = 0;
                 rank = "PRIVATE";
                 position[] = {-10, -10, 0};

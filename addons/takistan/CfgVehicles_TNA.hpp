@@ -25,8 +25,6 @@ class TACU_Takistan_U_TNA_Major: TACU_Main_U_INDEP_Soldier_Base {
 
 class TACU_Takistan_U_TNA_Lieutenant: TACU_Takistan_U_TNA_Major {
     displayName = "Lieutenant";
-    scope = 2;
-    scopeCurator = 2;
     uniformClass = "CUP_U_O_TK_Green";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Lieutenant.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_RRV_TL", "CUP_H_TK_Beret"};
@@ -39,39 +37,41 @@ class TACU_Takistan_U_TNA_Lieutenant: TACU_Takistan_U_TNA_Major {
 
 class TACU_Takistan_U_TNA_NCO: TACU_Takistan_U_TNA_Lieutenant {
     displayName = "NCO";
-    scope = 2;
-    scopeCurator = 2;
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_NCO.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_PASGT_no_bags_OD", "CUP_H_Ger_M92_RGR"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_PASGT_no_bags_OD", "CUP_H_Ger_M92_RGR"};
-    weapons[] = {"CUP_arifle_M16A2", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_arifle_M16A2", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
+    weapons[] = {"CUP_arifle_M16A2", "CUP_hgun_M9", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_M16A2", "CUP_hgun_M9", "Throw", "Put"};
+    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("SmokeShell")};
     editorSubcategory = "TACU_Takistan_EdSubCat_Regular";
 };
 
 class TACU_Takistan_U_TNA_Rifleman: TACU_Takistan_U_TNA_NCO {
     displayName = "Rifleman";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Rifleman.jpg);
+    weapons[] = {"CUP_arifle_M16A2", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_M16A2", "Throw", "Put"};
+    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
 };
 
-class TACU_Takistan_U_TNA_Rifleman_02: TACU_Takistan_U_TNA_NCO {
+class TACU_Takistan_U_TNA_Rifleman_02: TACU_Takistan_U_TNA_Rifleman {
     displayName = "Rifleman 2";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Rifleman_02.jpg);
     uniformClass = "CUP_U_O_TK_MixedCamo";
 };
 
-class TACU_Takistan_U_TNA_Rifleman_03: TACU_Takistan_U_TNA_NCO {
+class TACU_Takistan_U_TNA_Rifleman_03: TACU_Takistan_U_TNA_Rifleman_02 {
     displayName = "Rifleman 3";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Rifleman_03.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_PASGT_no_bags", "CUP_H_Ger_M92_RGR"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_PASGT_no_bags", "CUP_H_Ger_M92_RGR"};
 };
 
-class TACU_Takistan_U_TNA_Machinegunner: TACU_Takistan_U_TNA_NCO {
-    displayName = "Machine-Gunner";
-    editorPreview = QPATHTOF(ui\Takistan_U_TNA_Machinegunner.jpg);
+class TACU_Takistan_U_TNA_Autorifleman: TACU_Takistan_U_TNA_NCO {
+    displayName = "Autorifleman";
+    editorPreview = QPATHTOF(ui\Takistan_U_TNA_Autorifleman.jpg);
     backpack = "TACU_Takistan_B_TNA_LMG";
     weapons[] = {"CUP_lmg_M249_E2", "Throw", "Put"};
     respawnWeapons[] = {"CUP_lmg_M249_E2", "Throw", "Put"};
@@ -93,7 +93,7 @@ class TACU_Takistan_U_TNA_Pilot: TACU_Takistan_U_TNA_NCO {
 
 // Units - Takistan National Army, Commandos.
 class TACU_Takistan_U_TNA_Commandos_NCO: TACU_Takistan_U_TNA_Major {
-    displayName = "Commando NCO";
+    displayName = "NCO";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_NCO.jpg);
     uniformClass = "Gen3_M81";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive2", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
@@ -107,7 +107,7 @@ class TACU_Takistan_U_TNA_Commandos_NCO: TACU_Takistan_U_TNA_Major {
 };
 
 class TACU_Takistan_U_TNA_Commandos_Breacher: TACU_Takistan_U_TNA_Commandos_NCO {
-    displayName = "Commando Breacher";
+    displayName = "Breacher";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Breacher.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive2", "CUP_H_OpsCore_Grey", "CUP_NVG_PVS15_black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive2", "CUP_H_OpsCore_Grey", "CUP_NVG_PVS15_black"};
@@ -118,7 +118,7 @@ class TACU_Takistan_U_TNA_Commandos_Breacher: TACU_Takistan_U_TNA_Commandos_NCO 
 };
 
 class TACU_Takistan_U_TNA_Commandos_Grenadier: TACU_Takistan_U_TNA_Commandos_NCO {
-    displayName = "Commando Grenadier";
+    displayName = "Grenadier";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Grenadier.jpg);
     backpack = "CUP_B_Kombat_Olive";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_PMC_CIRAS_Coyote_Grenadier", "CUP_H_OpsCore_Tan", "CUP_NVG_PVS15_black"};
@@ -129,9 +129,9 @@ class TACU_Takistan_U_TNA_Commandos_Grenadier: TACU_Takistan_U_TNA_Commandos_NCO
     respawnMagazines[] = {mag_8("CUP_1Rnd_HEDP_M203"), mag_8("CUP_30Rnd_556x45_Stanag")};
 };
 
-class TACU_Takistan_U_TNA_Commandos_Machinegunner: TACU_Takistan_U_TNA_Commandos_NCO {
-    displayName = "Commando Machine-Gunner";
-    editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Machinegunner.jpg);
+class TACU_Takistan_U_TNA_Commandos_Autorifleman: TACU_Takistan_U_TNA_Commandos_NCO {
+    displayName = "Autorifleman";
+    editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Autorifleman.jpg);
     backpack = "TACU_Takistan_B_TNA_LMG";
     weapons[] = {"CUP_lmg_m249_para", "Throw", "Put"};
     respawnWeapons[] = {"CUP_lmg_m249_para", "Throw", "Put"};
@@ -140,7 +140,7 @@ class TACU_Takistan_U_TNA_Commandos_Machinegunner: TACU_Takistan_U_TNA_Commandos
 };
     
  class TACU_Takistan_U_TNA_Commandos_Medic: TACU_Takistan_U_TNA_Commandos_NCO {
-    displayName = "Commando Medic";
+    displayName = "Medic";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Medic.jpg);
     backpack = "tacs_Backpack_Kitbag_Medic_Sage";
     attendant = 1;
@@ -153,7 +153,7 @@ class TACU_Takistan_U_TNA_Commandos_Machinegunner: TACU_Takistan_U_TNA_Commandos
 };
 
 class TACU_Takistan_U_TNA_Commandos_Rifleman: TACU_Takistan_U_TNA_Commandos_NCO {
-    displayName = "Commando Rifleman";
+    displayName = "Rifleman";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Rifleman.jpg);
     backpack = "CUP_B_Kombat_Olive";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
