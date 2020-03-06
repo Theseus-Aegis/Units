@@ -73,7 +73,6 @@ class CfgPatches {
             "TACU_Takistan_W_M4A3",
             "TACU_Takistan_W_M4A3_Desert",
             "TACU_Takistan_W_M4SBR_Tan",
-            "TACU_Takistan_W_M4A1_Grip",
             "TACU_Takistan_W_M16A4",
             "TACU_Takistan_W_M110"
         };
