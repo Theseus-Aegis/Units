@@ -1,12 +1,4 @@
 class CfgWeapons {
-    // Helmets
-    class H_HelmetB_light_black;
-    class TACU_MSF_Helmet_LightCombat_DarkBlack: H_HelmetB_light_black {
-        author = "Kresky";
-        displayName = "Light Combat Helmet (Dark Black)";
-        hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Helmet_LightCombat_DarkBlack_co.paa)};
-    };
-
     // Uniforms
     class Uniform_Base;
     class UniformItem;
