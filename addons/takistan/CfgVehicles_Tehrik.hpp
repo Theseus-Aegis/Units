@@ -212,6 +212,108 @@ class TACU_Takistan_V_Tehrik_Volha_Blue: CUP_C_Volha_Blue_TKCIV {
     editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Volha_Blue.jpg);
 };
 
+class CUP_O_Hilux_unarmed_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_Unarmed: CUP_O_Hilux_unarmed_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux";
+    crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Enlisted_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_Unarmed.jpg);
+};
+
+class CUP_O_Hilux_btr60_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_BTR60: CUP_O_Hilux_btr60_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux (BTR-60)";
+    crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Enlisted_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_BTR60.jpg);
+};
+
+class CUP_O_Hilux_DSHKM_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_DSHKM: CUP_O_Hilux_DSHKM_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux (DShKM)";
+    hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_Hilux\data\v2\Body_CO.paa"};
+    crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Enlisted_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_DSHKM.jpg);
+};
+
+class CUP_O_Hilux_SPG9_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_SPG9: CUP_O_Hilux_SPG9_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux (SPG-9)";
+    hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_Hilux\data\v2\Body_CO.paa"};
+    crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Enlisted_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_SPG9.jpg);
+};
+
+class CUP_O_Hilux_zu23_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_ZU23: CUP_O_Hilux_zu23_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux (ZU-23-2)";
+    crew = "TACU_Takistan_U_Tehrik_Enlisted_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Enlisted_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_ZU23.jpg);
+};
+
+// Vehicles - Veterans
+class CUP_O_Hilux_armored_unarmed_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_Armored_Unarmed: CUP_O_Hilux_armored_unarmed_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux Full Armor Mode";
+    crew = "TACU_Takistan_U_Tehrik_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_Armored_Unarmed.jpg);
+};
+
+class CUP_O_Hilux_armored_BTR60_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_Armored_BTR60: CUP_O_Hilux_armored_BTR60_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux Armored (BTR-60)";
+    crew = "TACU_Takistan_U_Tehrik_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_Armored_BTR60.jpg);
+};
+
+class CUP_O_Hilux_armored_DSHKM_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_Armored_DSHKM: CUP_O_Hilux_armored_DSHKM_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux Armored (DShKM)";
+    crew = "TACU_Takistan_U_Tehrik_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_Armored_DSHKM.jpg);
+};
+
+class CUP_O_Hilux_armored_SPG9_TK_INS;
+class TACU_Takistan_V_Tehrik_Hilux_Armored_SPG9: CUP_O_Hilux_armored_SPG9_TK_INS {
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_Takistan_Tehrik";
+    side = 0;
+    displayName = "Hilux Armored (SPG-9)";
+    crew = "TACU_Takistan_U_Tehrik_Rifleman";
+    typicalCargo[] = {"TACU_Takistan_U_Tehrik_Rifleman"};
+    editorPreview = QPATHTOF(ui\Takistan_V_Tehrik_Hilux_Armored_SPG9.jpg);
+};
+
 // Vehicles - Turrets
 class CUP_O_DSHKM_ChDKZ;
 class TACU_Takistan_V_Tehrik_DSHKM: CUP_O_DSHKM_ChDKZ {

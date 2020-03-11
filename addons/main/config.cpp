@@ -78,6 +78,7 @@ class CfgPatches {
             "CUP_WheeledVehicles_BTR40",
             "CUP_WheeledVehicles_BTR60",
             "CUP_WheeledVehicles_Datsun",
+            "CUP_WheeledVehicles_Hilux",
             "CUP_WheeledVehicles_HMMWV",
             "CUP_WheeledVehicles_Kamaz",
             "CUP_WheeledVehicles_Lada",
