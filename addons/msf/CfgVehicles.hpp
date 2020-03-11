@@ -1,18 +1,4 @@
 class CfgVehicles {
-
-    // Ground Items (Helmets)
-    class Headgear_Base_F;
-    class TACU_MSF_Item_Helmet_LightCombat_DarkBlack: Headgear_Base_F {
-        author = "Kresky";
-        displayName = "Light Combat Helmet (Dark Black)";
-        scope = 2;
-        scopeCurator = 2;
-        vehicleClass = "ItemsHeadgear";
-        class TransportItems {
-            MACRO_ADDITEM(TACU_MSF_Helmet_LightCombat_DarkBlack,1);
-        };
-    };
-
     // Ground Items (Uniforms)
     class Item_Base_F;
     class TACU_MSF_Item_Uniform_CBRN_Black: Item_Base_F {

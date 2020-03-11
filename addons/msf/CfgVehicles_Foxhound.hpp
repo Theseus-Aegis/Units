@@ -16,8 +16,8 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     uniformClass = "U_O_R_Gorka_01_black_F";
     backpack = "";
     editorPreview = QPATHTOF(ui\MSF_U_I_Foxhound_Rifleman_01.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_MSF_Helmet_LightCombat_DarkBlack", "G_Balaclava_TI_blk_F", "V_PlateCarrier2_blk", "CUP_NVG_GPNVG_black"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_MSF_Helmet_LightCombat_DarkBlack", "G_Balaclava_TI_blk_F", "V_PlateCarrier2_blk", "CUP_NVG_GPNVG_black"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Light_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "V_PlateCarrier2_blk", "CUP_NVG_GPNVG_black"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Light_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "V_PlateCarrier2_blk", "CUP_NVG_GPNVG_black"};
     Items[] = {mag_8("ACE_fieldDressing")};
     respawnItems[] = {mag_8("ACE_fieldDressing")};
     weapons[] = {"TACU_MSF_W_CZ_BREN2_8in_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
@@ -25,7 +25,7 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     magazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
     respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
     headgearList[] = {
-        "TACU_MSF_Helmet_LightCombat_Foxhound", 1
+        "tacs_Helmet_Light_Ballistic_DarkBlack", 1
     };
     CBA_facewearList[] = {
         "G_Balaclava_TI_blk_F", 1,
