@@ -40,7 +40,7 @@ class TACU_Takistan_U_TNP_Rifleman_02: TACU_Takistan_U_TNP_Rifleman {
 };
 
 class TACU_Takistan_U_TNP_Autorifleman: TACU_Takistan_U_TNP_Rifleman_02 {
-    displayName = "Machine Gunner";
+    displayName = "Autorifleman";
     editorPreview = QPATHTOF(ui\Takistan_U_TNP_Autorifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_04", "CUP_H_TKI_SkullCap_05"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_04", "CUP_H_TKI_SkullCap_05"};

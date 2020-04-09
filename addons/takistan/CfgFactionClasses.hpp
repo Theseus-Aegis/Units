@@ -31,9 +31,6 @@ class CfgEditorSubcategories {
     class TACU_Takistan_EdSubCat_Commandos {
         displayName = "Men (Commandos)";
     };
-    class TACU_Takistan_EdSubCat_Police {
-        displayName = "Men (Officers)";
-    };
     class TACU_Takistan_EdSubCat_Veteran {
         displayName = "Men (Veterans)";
     };

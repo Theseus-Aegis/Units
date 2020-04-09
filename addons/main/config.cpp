@@ -96,9 +96,6 @@ class CfgPatches {
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_V3S",
             "CUP_WheeledVehicles_Volha",
-            // Military Gear Pack
-            "milgp_headgear_cfg",
-            "milgp_vests_cfg",
             // NIArms
             "hlcweapons_core",
             "hlcweapons_SG550",

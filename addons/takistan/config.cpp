@@ -4,7 +4,8 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "TACU_Takistan_U_TNA_Major", // TNA
+            // Takistan National Army
+            "TACU_Takistan_U_TNA_Major",
             "TACU_Takistan_U_TNA_Lieutenant",
             "TACU_Takistan_U_TNA_NCO",
             "TACU_Takistan_U_TNA_Rifleman",
@@ -18,16 +19,19 @@ class CfgPatches {
             "TACU_Takistan_U_TNA_Commandos_Autorifleman",
             "TACU_Takistan_U_TNA_Commandos_Medic",
             "TACU_Takistan_U_TNA_Commandos_Rifleman",
-            "TACU_Takistan_U_TNP_Officer", // TNP
+            // Takistan National Police
+            "TACU_Takistan_U_TNP_Officer",
             "TACU_Takistan_U_TNP_Rifleman",
             "TACU_Takistan_U_TNP_Rifleman_02",
             "TACU_Takistan_U_TNP_Autorifleman",
-            "TACU_Takistan_U_TSF_Grenadier", // TSF
+            // Takistan Special Forces
+            "TACU_Takistan_U_TSF_Grenadier",
             "TACU_Takistan_U_TSF_Rifleman_01",
             "TACU_Takistan_U_TSF_Rifleman_02",
             "TACU_Takistan_U_TSF_Rifleman_03",
             "TACU_Takistan_U_TSF_Sniper",
-            "TACU_Takistan_U_Tehrik_Leader", // Tehrik
+            // Tehrik-I-Taliban Takistan
+            "TACU_Takistan_U_Tehrik_Leader",
             "TACU_Takistan_U_Tehrik_Rifleman",
             "TACU_Takistan_U_Tehrik_Rifleman_02",
             "TACU_Takistan_U_Tehrik_Grenadier",
@@ -40,7 +44,8 @@ class CfgPatches {
             "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_04",
             "TACU_Takistan_U_Tehrik_Enlisted_Autorifleman",
             "TACU_Takistan_U_Tehrik_Enlisted_Rifleman_AT",
-            "TACU_Takistan_V_TNA_HMMWV_M2", // Vehicles - TNA
+            // Vehicles - Takistan National Army
+            "TACU_Takistan_V_TNA_HMMWV_M2",
             "TACU_Takistan_V_TNA_M1151_M2",
             "TACU_Takistan_V_TNA_M1151_M2_Deploy",
             "TACU_Takistan_V_TNA_HMMWV_Unarmed",
@@ -51,17 +56,19 @@ class CfgPatches {
             "TACU_Takistan_V_TNA_Kamaz_Fuel",
             "TACU_Takistan_V_TNA_M113_Med",
             "TACU_Takistan_V_TNA_Mi17",
-            "TACU_Takistan_V_TNP_Offroad_Police", // TNP
+            "TACU_Takistan_V_TNA_M2_Static",
+            "TACU_Takistan_V_TNA_M2_Mini_Static",
+            // Vehicles - Takistan National Police
+            "TACU_Takistan_V_TNP_Offroad_Police",
             "TACU_Takistan_V_TNP_Datsun",
             "TACU_Takistan_V_TNP_Datsun_PK",
-            "TACU_Takistan_V_Tehrik_Lada", // Tehrik
+            // Vehicles - Tehrik-I-Taliban Takistan
+            "TACU_Takistan_V_Tehrik_Lada",
             "TACU_Takistan_V_Tehrik_Lada_Green",
             "TACU_Takistan_V_Tehrik_V3S_Open",
             "TACU_Takistan_V_Tehrik_S1203",
             "TACU_Takistan_V_Tehrik_Volha_Blue",
-            "TACU_Takistan_V_TNA_M2_Static", // Turrets - TNA
-            "TACU_Takistan_V_TNA_M2_Mini_Static",
-            "TACU_Takistan_V_Tehrik_DSHKM", // Tehrik
+            "TACU_Takistan_V_Tehrik_DSHKM",
             "TACU_Takistan_V_Tehrik_DSHKM_Mini",
             "TACU_Takistan_V_Tehrik_ZU23",
             "TACU_Takistan_V_Tehrik_Metis",
