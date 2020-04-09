@@ -31,8 +31,8 @@ class TACU_Takistan_U_TNA_Lieutenant: TACU_Takistan_U_TNA_Major {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_RRV_TL", "CUP_H_TK_Beret"};
     weapons[] = {"CUP_arifle_M16A2", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_M16A2", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9")};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9")};
 };
 
 class TACU_Takistan_U_TNA_NCO: TACU_Takistan_U_TNA_Lieutenant {
@@ -42,8 +42,8 @@ class TACU_Takistan_U_TNA_NCO: TACU_Takistan_U_TNA_Lieutenant {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_PASGT_no_bags_OD", "CUP_H_Ger_M92_RGR"};
     weapons[] = {"CUP_arifle_M16A2", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_M16A2", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("SmokeShell")};
     editorSubcategory = "TACU_Takistan_EdSubCat_Regular";
 };
 
@@ -52,8 +52,8 @@ class TACU_Takistan_U_TNA_Rifleman: TACU_Takistan_U_TNA_NCO {
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Rifleman.jpg);
     weapons[] = {"CUP_arifle_M16A2", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_M16A2", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("SmokeShell")};
 };
 
 class TACU_Takistan_U_TNA_Rifleman_02: TACU_Takistan_U_TNA_Rifleman {
@@ -101,8 +101,8 @@ class TACU_Takistan_U_TNA_Commandos_NCO: TACU_Takistan_U_TNA_Major {
     backpack = "CUP_B_Kombat_Radio_Olive";
     weapons[] = {"TACU_Takistan_W_M4A3_Desert", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Takistan_W_M4A3_Desert", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
     editorSubcategory = "TACU_Takistan_EdSubCat_Commandos";
 };
 
@@ -113,8 +113,8 @@ class TACU_Takistan_U_TNA_Commandos_Breacher: TACU_Takistan_U_TNA_Commandos_NCO 
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive2", "CUP_H_OpsCore_Grey", "CUP_NVG_PVS15_black"};
     weapons[] = {"CUP_sgun_M1014_solidstock", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_M1014_solidstock", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_8Rnd_B_Beneli_74Pellets"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
-    respawnMagazines[] = {mag_8("CUP_8Rnd_B_Beneli_74Pellets"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
+    magazines[] = {mag_6("CUP_8Rnd_B_Beneli_74Pellets"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
+    respawnMagazines[] = {mag_6("CUP_8Rnd_B_Beneli_74Pellets"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("ACE_M84"), mag_4("SmokeShell")};
 };
 
 class TACU_Takistan_U_TNA_Commandos_Grenadier: TACU_Takistan_U_TNA_Commandos_NCO {
@@ -125,8 +125,8 @@ class TACU_Takistan_U_TNA_Commandos_Grenadier: TACU_Takistan_U_TNA_Commandos_NCO
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_PMC_CIRAS_Coyote_Grenadier", "CUP_H_OpsCore_Tan", "CUP_NVG_PVS15_black"};
     weapons[] = {"TACU_Takistan_W_M4A1_GL"};
     respawnWeapons[] = {"TACU_Takistan_W_M4A1_GL"};
-    magazines[] = {mag_8("CUP_1Rnd_HEDP_M203"), mag_8("CUP_30Rnd_556x45_Stanag")};
-    respawnMagazines[] = {mag_8("CUP_1Rnd_HEDP_M203"), mag_8("CUP_30Rnd_556x45_Stanag")};
+    magazines[] = {mag_6("CUP_1Rnd_HEDP_M203"), mag_8("CUP_30Rnd_556x45_Stanag")};
+    respawnMagazines[] = {mag_6("CUP_1Rnd_HEDP_M203"), mag_8("CUP_30Rnd_556x45_Stanag")};
 };
 
 class TACU_Takistan_U_TNA_Commandos_Autorifleman: TACU_Takistan_U_TNA_Commandos_NCO {
@@ -148,8 +148,8 @@ class TACU_Takistan_U_TNA_Commandos_Autorifleman: TACU_Takistan_U_TNA_Commandos_
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive4", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
     weapons[] = {"TACU_Takistan_W_M4A3", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Takistan_W_M4A3", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
 };
 
 class TACU_Takistan_U_TNA_Commandos_Rifleman: TACU_Takistan_U_TNA_Commandos_NCO {
@@ -160,8 +160,8 @@ class TACU_Takistan_U_TNA_Commandos_Rifleman: TACU_Takistan_U_TNA_Commandos_NCO 
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
     weapons[] = {"TACU_Takistan_W_M4A1", "CUP_hgun_M9", "CUP_launch_M136_Loaded", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Takistan_W_M4A1", "CUP_hgun_M9", "CUP_launch_M136_Loaded", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell"), "CUP_M136_M"};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_Stanag"), mag_3("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell"), "CUP_M136_M"};
+    magazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
 };
 
 // Vehicles - TNA

@@ -16,8 +16,8 @@ class TACU_Takistan_U_Tehrik_Leader: TACU_Main_U_OPFOR_Soldier_Base {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_06", "CUP_H_TK_Lungee"};
     weapons[] = {"CUP_arifle_AK47", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AK47", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
+    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
     editorSubcategory = "TACU_Takistan_EdSubCat_Veteran";
 };
 
@@ -28,8 +28,8 @@ class TACU_Takistan_U_Tehrik_Rifleman: TACU_Takistan_U_Tehrik_Leader {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_05", "CUP_H_TKI_Lungee_05"};
     weapons[] = {"CUP_arifle_AK47", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AK47", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
+    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), mag_5("CUP_HandGrenade_RGD5")};
 };
 
 class TACU_Takistan_U_Tehrik_Rifleman_02: TACU_Takistan_U_Tehrik_Rifleman {
@@ -39,8 +39,8 @@ class TACU_Takistan_U_Tehrik_Rifleman_02: TACU_Takistan_U_Tehrik_Rifleman {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_03", "CUP_H_TKI_Lungee_03"};
     weapons[] = {"CUP_arifle_AKMS", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKMS", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_5("CUP_HandGrenade_RGD5")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_5("CUP_HandGrenade_RGD5")};
+    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_5("CUP_HandGrenade_RGD5")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_5("CUP_HandGrenade_RGD5")};
 };
 
 class TACU_Takistan_U_Tehrik_Grenadier: TACU_Takistan_U_Tehrik_Rifleman_02 {
@@ -50,8 +50,8 @@ class TACU_Takistan_U_Tehrik_Grenadier: TACU_Takistan_U_Tehrik_Rifleman_02 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_01", "CUP_H_TKI_Lungee_06"};
     weapons[] = {"CUP_arifle_AKM_GL_Early", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKM_GL_Early", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_10("CUP_1Rnd_HE_GP25_M")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_10("CUP_1Rnd_HE_GP25_M")};
+    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_10("CUP_1Rnd_HE_GP25_M")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_bakelite_M"), mag_10("CUP_1Rnd_HE_GP25_M")};
 };
 
 class TACU_Takistan_U_Tehrik_Autorifleman: TACU_Takistan_U_Tehrik_Grenadier {
@@ -86,8 +86,8 @@ class TACU_Takistan_U_Tehrik_Enlisted_Squadleader: TACU_Takistan_U_Tehrik_Leader
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_03", "CUP_H_TKI_Lungee_Open_01"};
     weapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_545x39_AK74_plum_M")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_545x39_AK74_plum_M")};
+    magazines[] = {mag_6("CUP_30Rnd_545x39_AK74_plum_M")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_545x39_AK74_plum_M")};
     editorSubcategory = "TACU_Takistan_EdSubCat_Enlisted";
 };
 
@@ -99,8 +99,8 @@ class TACU_Takistan_U_Tehrik_Enlisted_Rifleman: TACU_Takistan_U_Tehrik_Enlisted_
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket5_05", "CUP_H_TKI_SkullCap_04"};
     weapons[] = {"CUP_arifle_AK74_Early", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AK74_Early", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_545x39_AK_M")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_545x39_AK_M")};
+    magazines[] = {mag_6("CUP_30Rnd_545x39_AK_M")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_545x39_AK_M")};
 };
 
 class TACU_Takistan_U_Tehrik_Enlisted_Rifleman_02: TACU_Takistan_U_Tehrik_Enlisted_Rifleman {
@@ -111,8 +111,8 @@ class TACU_Takistan_U_Tehrik_Enlisted_Rifleman_02: TACU_Takistan_U_Tehrik_Enlist
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket1_04", "CUP_H_TKI_Pakol_1_06"};
     weapons[] = {"CUP_arifle_AKMS", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKMS", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_30Rnd_762x39_AK47_bakelite_M")};
-    respawnMagazines[] = {mag_10("CUP_30Rnd_762x39_AK47_bakelite_M")};
+    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_bakelite_M")};
+    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_bakelite_M")};
 };
 
 class TACU_Takistan_U_Tehrik_Enlisted_Rifleman_03: TACU_Takistan_U_Tehrik_Enlisted_Rifleman_02 {

@@ -14,7 +14,14 @@ class TACU_Takistan_U_TNP_Officer: TACU_Main_U_INDEP_Soldier_Base {
     respawnWeapons[] = {"CUP_arifle_AKMS_Early", "Throw", "Put"};
     magazines[] = {mag_4("CUP_30Rnd_762x39_AK47_M")};
     respawnMagazines[] = {mag_4("CUP_30Rnd_762x39_AK47_M")};
-    editorSubcategory = "TACU_Takistan_EdSubCat_Police";
+    editorSubcategory = "TACU_Takistan_EdSubCat_Officer";
+    headgearList[] = {
+        "CUP_H_TKI_SkullCap_05", 0.20,
+        "CUP_H_TKI_Pakol_2_02", 0.20,
+        "CUP_H_TKI_SkullCap_02", 0.20,
+        "CUP_H_TKI_Pakol_1_01", 0.20,
+        "CUP_H_TKI_Pakol_1_03", 0.20
+    };
 };
 
 class TACU_Takistan_U_TNP_Rifleman: TACU_Takistan_U_TNP_Officer {
@@ -51,7 +58,11 @@ class TACU_Takistan_U_TNP_Autorifleman: TACU_Takistan_U_TNP_Rifleman_02 {
 };
 
 // Vehicles - TNP
-class Offroad_01_unarmed_base_F;
+class Offroad_01_base_F;
+class Offroad_01_unarmed_base_F: Offroad_01_base_F {
+    class EventHandlers;
+};
+
 class TACU_Takistan_V_TNP_Offroad_Police: Offroad_01_unarmed_base_F {
     MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
