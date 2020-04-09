@@ -106,13 +106,13 @@ class TACU_Takistan_TNA {
             faction = "TACU_Takistan_TNA";
             icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
             class unit0 {
-                vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman";
+                vehicle = "TACU_Takistan_U_TNA_Commandos_NCO";
                 side = 2;
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
             class unit1 {
-                vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman";
+                vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman_AT";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
@@ -180,13 +180,13 @@ class TACU_Takistan_TNA {
                 position[] = {10, -10, 0};
             };
             class unit4 {
-                vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman";
+                vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman_AT";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {-10, -10, 0};
             };
             class unit5 {
-                vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman";
+                vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman_AT";
                 side = 2;
                 rank = "PRIVATE";
                 position[] = {15, -15, 0};
