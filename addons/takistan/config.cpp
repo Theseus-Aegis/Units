@@ -18,7 +18,7 @@ class CfgPatches {
             "TACU_Takistan_U_TNA_Commandos_Grenadier",
             "TACU_Takistan_U_TNA_Commandos_Autorifleman",
             "TACU_Takistan_U_TNA_Commandos_Medic",
-            "TACU_Takistan_U_TNA_Commandos_Rifleman",
+            "TACU_Takistan_U_TNA_Commandos_Rifleman_AT",
             // Takistan National Police
             "TACU_Takistan_U_TNP_Officer",
             "TACU_Takistan_U_TNP_Rifleman",

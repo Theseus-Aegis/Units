@@ -152,9 +152,9 @@ class TACU_Takistan_U_TNA_Commandos_Autorifleman: TACU_Takistan_U_TNA_Commandos_
     respawnMagazines[] = {mag_6("CUP_30Rnd_556x45_Stanag"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("HandGrenade"), mag_2("SmokeShell")};
 };
 
-class TACU_Takistan_U_TNA_Commandos_Rifleman: TACU_Takistan_U_TNA_Commandos_NCO {
-    displayName = "Rifleman";
-    editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Rifleman.jpg);
+class TACU_Takistan_U_TNA_Commandos_Rifleman_AT: TACU_Takistan_U_TNA_Commandos_NCO {
+    displayName = "Rifleman (AT)";
+    editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Rifleman_AT.jpg);
     backpack = "CUP_B_Kombat_Olive";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
