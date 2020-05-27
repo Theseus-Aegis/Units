@@ -16,6 +16,8 @@ class CfgPatches {
             "TACU_MSF_Item_Vest_PlateCarrier_Coyote",
             "TACU_MSF_Item_Vest_PlateCarrier_Green",
             // Backpacks
+            "TACU_MSF_B_Poncho_Dry",
+            "TACU_MSF_B_Poncho_Wet",
             "TACU_MSF_B_AT_Black",
             "TACU_MSF_B_AT_Coyote",
             "TACU_MSF_B_AT_Green",

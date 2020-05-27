@@ -161,6 +161,26 @@ class CfgVehicles {
     };
 
     // Backpacks
+    class Bag_Base;
+    class TACU_MSF_B_Poncho_Wet: Bag_Base {
+        dlc = QUOTE(PREFIX);
+        scope = 2;
+        scopeCurator = 2;
+        author = "Rebel, Facel";
+        displayName = "Rain Poncho (Wet)";
+        model = QPATHTOF(msf_b_poncho.p3d);
+        picture = QPATHTOF(UI\msf_b_poncho_ca.paa);
+        maximumLoad = 60;
+        mass = 30;
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_b_poncho_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\msf_b_poncho.rvmat)};
+    };
+    class TACU_MSF_B_Poncho_Dry: TACU_MSF_B_Poncho_Wet {
+        displayName = "Rain Poncho (Dry)";
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\MSF_B_Poncho_dry.rvmat)};
+    };
+
     class B_FieldPack_blk;
     class TACU_MSF_B_AT_Black: B_FieldPack_blk {
         dlc = QUOTE(PREFIX);
