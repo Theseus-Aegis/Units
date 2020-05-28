@@ -67,6 +67,355 @@ class CfgWeapons {
         };
     };
 
+    // MGSR Uniforms
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Black: Uniform_Base {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSF Combat Fatigues (Black, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_black_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Black";
+            containerClass = "Supply100";
+            mass = 40;
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Black: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Black, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_black_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Black";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Citrullus: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Citrullus, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_citrullus_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Citrullus";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Citrullus: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Citrullus, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_citrullus_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Citrullus";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_DDPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DDPM, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_ddpm_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_DDPM";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_DDPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DDPM, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_ddpm_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_DDPM";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Fox: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Fox, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_desert_fox_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Fox";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Fox: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Fox, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_desert_fox_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Fox";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Tiger, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_desert_tiger_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Tiger";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Tiger, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_desert_tiger_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Tiger";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_DPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DPM, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_dpm_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_DPM";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_DPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DPM, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_dpm_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_DPM";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_German_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (German Flecktarn, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_german_flecktarn_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_German_Flecktarn";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_German_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (German Flecktarn, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_german_flecktarn_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_German_Flecktarn";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Horsky: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Horsky, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_horsky_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Horsky";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Horsky: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Horsky, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_horsky_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Horsky";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Jungle_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Jungle Tiger, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_jungle_tiger_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Jungle_Tiger";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Jungle_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Jungle Tiger, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_jungle_tiger_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Jungle_Tiger";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Khaki: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Khaki, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_khaki_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Khaki";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Khaki: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Khaki, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_khaki_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Khaki";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Letni: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Letni, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_letni_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Letni";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Letni: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Letni, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_letni_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Letni";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Multicam: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Multicam, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_multicam_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Multicam";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Multicam: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Multicam, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_multicam_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Multicam";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Olive: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Olive, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_olive_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Olive";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Olive: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Olive, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_olive_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Olive";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Rhodesian_Bushstroke: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Rhodesian Bushstroke, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_rhodesian_bushstroke_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Rhodesian_Bushstroke";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Rhodesian_Bushstroke: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Rhodesian Bushstroke, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_rhodesian_bushstroke_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Rhodesian_Bushstroke";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Type3_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Type3 Flecktarn, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_type3_flecktarn_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_type3_flecktarn";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Type3_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Type3 Flecktarn, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_type3_flecktarn_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Type3_Flecktarn";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Urban_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Urban Tiger, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_urban_tiger_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Urban_tiger";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Urban_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Urban Tiger, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_urban_tiger_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Urban_Tiger";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Wetworks: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Wetworks, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_wetworks_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Wetworks";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Wetworks: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Wetworks, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_wetworks_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Wetworks";
+        };
+    };
+
+    class TACU_MSF_Uniform_Combat_Fatigues_LS_Woodland: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Woodland, Long Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_woodland_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Woodland";
+        };
+    };
+    class TACU_MSF_Uniform_Combat_Fatigues_RS_Woodland: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Woodland, Rolled Sleeves)";
+        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_woodland_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Woodland";
+        };
+    };
+
     // Vests
     class V_PlateCarrierGL_rgr;
     class V_PlateCarrier1_blk;

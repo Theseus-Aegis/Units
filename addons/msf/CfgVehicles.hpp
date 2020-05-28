@@ -49,6 +49,421 @@ class CfgVehicles {
         };
     };
 
+    // MGSR Uniforms
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Black: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Black, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Black,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Black: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Black, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Black,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Citrullus: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Citrullus, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Citrullus,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Citrullus: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Citrullus, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Citrullus,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_DDPM: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DDPM, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_DDPM,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_DDPM: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DDPM, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_DDPM,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Desert_Fox: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Fox, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Fox,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Desert_Fox: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Fox, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Fox,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Desert_Tiger: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Tiger, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Desert_Tiger: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Desert Tiger, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_DPM: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DPM, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_DPM,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_DPM: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (DPM, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_DPM,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_German_Flecktarn: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (German Flecktarn, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_German_Flecktarn,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_German_Flecktarn: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (German Flecktarn, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_German_Flecktarn,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Horsky: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Horsky, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Horsky,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Horsky: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Horsky, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Horsky,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Jungle_Tiger: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Jungle Tiger, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Jungle_Tiger,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Jungle_Tiger: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Jungle Tiger, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Jungle_Tiger,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Khaki: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Khaki, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Khaki,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Khaki: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Khaki, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Khaki,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Letni: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Letni, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Letni,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Letni: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Letni, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Letni,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Multicam: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Multicam, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Multicam,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Multicam: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Multicam, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Multicam,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Olive: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Olive, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Olive,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Olive: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Olive, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Olive,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Rhodesian_Bushstroke: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Rhodesian Bushstroke, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Rhodesian_Bushstroke,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Rhodesian_Bushstroke: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Rhodesian Bushstroke, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Rhodesian_Bushstroke,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Type3_Flecktarn: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Type3 Flecktarn, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Type3_Flecktarn,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Type3_Flecktarn: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Type3 Flecktarn, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Type3_Flecktarn,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Urban_Tiger: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Urban Tiger, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Urban_Tiger,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Urban_Tiger: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Urban Tiger, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Urban_Tiger,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Wetworks: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Wetworks, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Wetworks,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Wetworks: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Wetworks, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Wetworks,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Woodland: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Woodland, Long Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_LS_Woodland,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Combat_Fatigues_RS_Woodland: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Combat Fatigues (Woodland, Rolled Sleeves)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Combat_Fatigues_RS_Woodland,1);
+        };
+    };
+
     // Ground Items (Vests)
     class Vest_Base_F;
     class TACU_MSF_Item_Vest_HeavyPlateCarrier_Black: Vest_Base_F {
@@ -160,6 +575,335 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerWood_co.paa)};
     };
 
+    // MGSR Uniforms
+    class I_Soldier_base_F;
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Black: I_Soldier_base_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Black";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_black_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\msf_uniform_combat_fatigues.rvmat)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Black: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Black";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_black_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Citrullus: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Citrullus";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_citrullus_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Citrullus: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Citrullus";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_citrullus_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_DDPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_DDPM";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_ddpm_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_DDPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_DDPM";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_ddpm_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Fox: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Fox";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_fox_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Fox: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Fox";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_fox_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_tiger_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_tiger_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_DPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_DPM";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_dpm_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_DPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_DPM";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_dpm_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_German_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_German_Flecktarn";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_german_flecktarn_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_German_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_German_Flecktarn";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_german_flecktarn_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Horsky: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Horsky";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_horsky_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Horsky: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Horsky";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_horsky_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Jungle_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Jungle_Tiger";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_jungle_tiger_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Jungle_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Jungle_Tiger";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_jungle_tiger_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Khaki: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Khaki";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_khaki_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Khaki: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Khaki";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_khaki_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Letni: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Letni";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_letni_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Letni: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Letni";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_letni_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Multicam: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Multicam";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_multicam_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Multicam: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Multicam";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_multicam_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Olive: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Olive";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_olive_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Olive: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Olive";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_olive_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Rhodesian_Bushstroke: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Rhodesian_Bushstroke";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_rhodesian_bushstroke_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Rhodesian_Bushstroke: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Rhodesian_Bushstroke";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_rhodesian_bushstroke_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Type3_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Type3_Flecktarn";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_type3_flecktarn_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Type3_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Type3_Flecktarn";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_type3_flecktarn_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Urban_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Urban_Tiger";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_urban_tiger_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Urban_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Urban_Tiger";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_urban_tiger_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Wetworks: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Wetworks";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_wetworks_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Wetworks: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Wetworks";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_wetworks_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_LS_Woodland: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Woodland";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_woodland_co.paa)};
+    };
+
+    class TACU_MSF_Unit_Combat_Fatigues_RS_Woodland: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
+        author = "Facel";
+        uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Woodland";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
+        hiddenSelections[] = {"camo", "insignia", "clan"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_woodland_co.paa)};
+    };
+
     // Backpacks
     class Bag_Base;
     class TACU_MSF_B_Poncho_Wet: Bag_Base {
@@ -169,7 +913,7 @@ class CfgVehicles {
         author = "Rebel, Facel";
         displayName = "Rain Poncho (Wet)";
         model = QPATHTOF(msf_b_poncho.p3d);
-        picture = QPATHTOF(UI\msf_b_poncho_ca.paa);
+        picture = QPATHTOF(ui\msf_b_poncho_ca.paa);
         maximumLoad = 60;
         mass = 30;
         hiddenSelections[] = {"camo"};
