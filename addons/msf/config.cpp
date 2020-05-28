@@ -384,6 +384,7 @@ class CfgPatches {
 };
 
 #include "CfgFactionClasses.hpp"
+#include "CfgGlasses.hpp"
 #include "CfgGroups.hpp"
 #include "CfgUnitInsignia.hpp"
 #include "CfgVehicles.hpp"
