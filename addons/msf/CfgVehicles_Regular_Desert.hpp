@@ -1,7 +1,7 @@
 // Units - Regulars
 class TACU_MSF_U_I_Regular_Desert_Rifleman_01: TACU_MSF_U_I_Regular_Black_Rifleman_01 {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Rifleman_01.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -14,7 +14,7 @@ class TACU_MSF_U_O_Regular_Desert_Rifleman_01: TACU_MSF_U_I_Regular_Desert_Rifle
 class TACU_MSF_U_I_Regular_Desert_Rifleman_AT: TACU_MSF_U_I_Regular_Black_Rifleman_AT {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_AT_Coyote";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Rifleman_AT.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Rifleman_AT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -26,7 +26,7 @@ class TACU_MSF_U_O_Regular_Desert_Rifleman_AT: TACU_MSF_U_I_Regular_Desert_Rifle
 
 class TACU_MSF_U_I_Regular_Desert_Autorifleman: TACU_MSF_U_I_Regular_Black_Autorifleman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Autorifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -38,7 +38,7 @@ class TACU_MSF_U_O_Regular_Desert_Autorifleman: TACU_MSF_U_I_Regular_Desert_Auto
 
 class TACU_MSF_U_I_Regular_Desert_TeamLeader: TACU_MSF_U_I_Regular_Black_TeamLeader {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_TeamLeader.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_TeamLeader.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -51,7 +51,7 @@ class TACU_MSF_U_O_Regular_Desert_TeamLeader: TACU_MSF_U_I_Regular_Desert_TeamLe
 class TACU_MSF_U_I_Regular_Desert_Engineer: TACU_MSF_U_I_Regular_Black_Engineer {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_Engineer_Coyote";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Engineer.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Engineer.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -63,7 +63,7 @@ class TACU_MSF_U_O_Regular_Desert_Engineer: TACU_MSF_U_I_Regular_Desert_Engineer
 
 class TACU_MSF_U_I_Regular_Desert_SMG: TACU_MSF_U_I_Regular_Black_SMG {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_SMG.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_SMG.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -76,7 +76,7 @@ class TACU_MSF_U_O_Regular_Desert_SMG: TACU_MSF_U_I_Regular_Desert_SMG {
 class TACU_MSF_U_I_Regular_Desert_Medic: TACU_MSF_U_I_Regular_Black_Medic {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_Medic_Coyote";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Medic.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Medic.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -88,7 +88,7 @@ class TACU_MSF_U_O_Regular_Desert_Medic: TACU_MSF_U_I_Regular_Desert_Medic {
 
 class TACU_MSF_U_I_Regular_Desert_Grenadier: TACU_MSF_U_I_Regular_Black_Grenadier {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Grenadier.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Grenadier.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -100,7 +100,7 @@ class TACU_MSF_U_O_Regular_Desert_Grenadier: TACU_MSF_U_I_Regular_Desert_Grenadi
 
 class TACU_MSF_U_I_Regular_Desert_Marksman: TACU_MSF_U_I_Regular_Black_Marksman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Marksman.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Marksman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -112,7 +112,7 @@ class TACU_MSF_U_O_Regular_Desert_Marksman: TACU_MSF_U_I_Regular_Desert_Marksman
 
 class TACU_MSF_U_I_Regular_Desert_Sniper: TACU_MSF_U_I_Regular_Black_Sniper {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_Sniper.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_Sniper.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -125,7 +125,7 @@ class TACU_MSF_U_O_Regular_Desert_Sniper: TACU_MSF_U_I_Regular_Desert_Sniper {
 class TACU_MSF_U_I_Regular_Desert_HAT: TACU_MSF_U_I_Regular_Black_HAT {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_HAT_Coyote";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_HAT.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_HAT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
@@ -138,7 +138,7 @@ class TACU_MSF_U_O_Regular_Desert_HAT: TACU_MSF_U_I_Regular_Desert_HAT {
 class TACU_MSF_U_I_Regular_Desert_MMG: TACU_MSF_U_I_Regular_Black_MMG {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
     backpack = "TACU_MSF_B_MMG_Coyote";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Desert_MMG.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Desert_MMG.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Coyote"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";

@@ -1,7 +1,7 @@
 // Units - Basic
 class TACU_MSF_U_I_Regular_Wood_Rifleman_01: TACU_MSF_U_I_Regular_Black_Rifleman_01 {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Rifleman_01.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -14,7 +14,7 @@ class TACU_MSF_U_O_Regular_Wood_Rifleman_01: TACU_MSF_U_I_Regular_Wood_Rifleman_
 class TACU_MSF_U_I_Regular_Wood_Rifleman_AT: TACU_MSF_U_I_Regular_Black_Rifleman_AT {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
     backpack = "TACU_MSF_B_AT_Green";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Rifleman_AT.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Rifleman_AT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -26,7 +26,7 @@ class TACU_MSF_U_O_Regular_Wood_Rifleman_AT: TACU_MSF_U_I_Regular_Wood_Rifleman_
 
 class TACU_MSF_U_I_Regular_Wood_Autorifleman: TACU_MSF_U_I_Regular_Black_Autorifleman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Autorifleman.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Autorifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -38,7 +38,7 @@ class TACU_MSF_U_O_Regular_Wood_Autorifleman: TACU_MSF_U_I_Regular_Wood_Autorifl
 
 class TACU_MSF_U_I_Regular_Wood_TeamLeader: TACU_MSF_U_I_Regular_Black_TeamLeader {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_TeamLeader.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_TeamLeader.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -51,7 +51,7 @@ class TACU_MSF_U_O_Regular_Wood_TeamLeader: TACU_MSF_U_I_Regular_Wood_TeamLeader
 class TACU_MSF_U_I_Regular_Wood_Engineer: TACU_MSF_U_I_Regular_Black_Engineer {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
     backpack = "TACU_MSF_B_Engineer_Green";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Engineer.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Engineer.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -63,7 +63,7 @@ class TACU_MSF_U_O_Regular_Wood_Engineer: TACU_MSF_U_I_Regular_Wood_Engineer {
 
 class TACU_MSF_U_I_Regular_Wood_SMG: TACU_MSF_U_I_Regular_Black_SMG {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_SMG.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_SMG.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -76,7 +76,7 @@ class TACU_MSF_U_O_Regular_Wood_SMG: TACU_MSF_U_I_Regular_Wood_SMG {
 class TACU_MSF_U_I_Regular_Wood_Medic: TACU_MSF_U_I_Regular_Black_Medic {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
     backpack = "TACU_MSF_B_Medic_Green";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Medic.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Medic.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -88,7 +88,7 @@ class TACU_MSF_U_O_Regular_Wood_Medic: TACU_MSF_U_I_Regular_Wood_Medic {
 
 class TACU_MSF_U_I_Regular_Wood_Grenadier: TACU_MSF_U_I_Regular_Black_Grenadier {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Grenadier.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Grenadier.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -100,7 +100,7 @@ class TACU_MSF_U_O_Regular_Wood_Grenadier: TACU_MSF_U_I_Regular_Wood_Grenadier {
 
 class TACU_MSF_U_I_Regular_Wood_Marksman: TACU_MSF_U_I_Regular_Black_Marksman {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Marksman.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Marksman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -112,7 +112,7 @@ class TACU_MSF_U_O_Regular_Wood_Marksman: TACU_MSF_U_I_Regular_Wood_Marksman {
 
 class TACU_MSF_U_I_Regular_Wood_Sniper: TACU_MSF_U_I_Regular_Black_Sniper {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_Sniper.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_Sniper.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -125,7 +125,7 @@ class TACU_MSF_U_O_Regular_Wood_Sniper: TACU_MSF_U_I_Regular_Wood_Sniper {
 class TACU_MSF_U_I_Regular_Wood_HAT: TACU_MSF_U_I_Regular_Black_HAT {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
     backpack = "TACU_MSF_B_Engineer_Green";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_HAT.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_HAT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";
@@ -138,7 +138,7 @@ class TACU_MSF_U_O_Regular_Wood_HAT: TACU_MSF_U_I_Regular_Wood_HAT {
 class TACU_MSF_U_I_Regular_Wood_MMG: TACU_MSF_U_I_Regular_Black_MMG {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
     backpack = "TACU_MSF_B_MMG_Green";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Regular_Wood_MMG.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_MMG.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_PlateCarrier_Green"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Wood";

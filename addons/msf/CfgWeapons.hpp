@@ -9,7 +9,7 @@ class CfgWeapons {
         scope = 2;
         scopeCurator = 2;
         displayName = "CBRN Suit (Black)";
-        picture = QPATHTOF(ui\MSF_Uniform_CBRN_Black_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_cbrn_black_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -25,7 +25,7 @@ class CfgWeapons {
         scope = 2;
         scopeCurator = 2;
         displayName = "Combat Uniform (Tiger Black)";
-        picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerBlack_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_tigerblack_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -41,7 +41,7 @@ class CfgWeapons {
         scope = 2;
         scopeCurator = 2;
         displayName = "Combat Uniform (Tiger Desert)";
-        picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerDesert_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_tigerdesert_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -57,7 +57,7 @@ class CfgWeapons {
         scope = 2;
         scopeCurator = 2;
         displayName = "Combat Uniform (Tiger Wood)";
-        picture = QPATHTOF(ui\MSF_Uniform_Combat_TigerWood_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_tigerwood_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -67,14 +67,14 @@ class CfgWeapons {
         };
     };
 
-    // MGSR Uniforms
+    // Uniforms - MGSR Combat Fatigues
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Black: Uniform_Base {
         dlc = QUOTE(PREFIX);
         author = "Facel";
         scope = 2;
         scopeCurator = 2;
         displayName = "MSF Combat Fatigues (Black, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_black_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_black_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: UniformItem {
             uniformModel = "-";
@@ -86,7 +86,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Black: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Black, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_black_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_black_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Black";
@@ -96,7 +96,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Citrullus: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Citrullus, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_citrullus_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_citrullus_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Citrullus";
@@ -105,7 +105,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Citrullus: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Citrullus, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_citrullus_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_citrullus_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Citrullus";
@@ -115,7 +115,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_DDPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (DDPM, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_ddpm_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_ddpm_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_DDPM";
@@ -124,7 +124,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_DDPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (DDPM, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_ddpm_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_ddpm_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_DDPM";
@@ -134,7 +134,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Fox: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Desert Fox, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_desert_fox_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_desert_fox_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Fox";
@@ -143,7 +143,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Fox: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Desert Fox, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_desert_fox_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_desert_fox_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Fox";
@@ -153,7 +153,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Desert Tiger, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_desert_tiger_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_desert_tiger_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Tiger";
@@ -162,7 +162,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Desert Tiger, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_desert_tiger_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_desert_tiger_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Tiger";
@@ -172,7 +172,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_DPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (DPM, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_dpm_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_dpm_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_DPM";
@@ -181,7 +181,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_DPM: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (DPM, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_dpm_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_dpm_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_DPM";
@@ -191,7 +191,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_German_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (German Flecktarn, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_german_flecktarn_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_german_flecktarn_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_German_Flecktarn";
@@ -200,7 +200,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_German_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (German Flecktarn, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_german_flecktarn_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_german_flecktarn_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_German_Flecktarn";
@@ -210,7 +210,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Horsky: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Horsky, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_horsky_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_horsky_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Horsky";
@@ -219,7 +219,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Horsky: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Horsky, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_horsky_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_horsky_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Horsky";
@@ -229,7 +229,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Jungle_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Jungle Tiger, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_jungle_tiger_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_jungle_tiger_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Jungle_Tiger";
@@ -238,7 +238,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Jungle_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Jungle Tiger, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_jungle_tiger_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_jungle_tiger_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Jungle_Tiger";
@@ -248,7 +248,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Khaki: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Khaki, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_khaki_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_khaki_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Khaki";
@@ -257,7 +257,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Khaki: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Khaki, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_khaki_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_khaki_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Khaki";
@@ -267,7 +267,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Letni: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Letni, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_letni_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_letni_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Letni";
@@ -276,7 +276,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Letni: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Letni, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_letni_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_letni_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Letni";
@@ -286,7 +286,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Multicam: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Multicam, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_multicam_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_multicam_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Multicam";
@@ -295,7 +295,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Multicam: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Multicam, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_multicam_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_multicam_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Multicam";
@@ -305,7 +305,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Olive: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Olive, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_olive_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_olive_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Olive";
@@ -314,7 +314,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Olive: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Olive, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_olive_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_olive_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Olive";
@@ -324,7 +324,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Rhodesian_Bushstroke: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Rhodesian Bushstroke, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_rhodesian_bushstroke_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_rhodesian_bushstroke_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Rhodesian_Bushstroke";
@@ -333,7 +333,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Rhodesian_Bushstroke: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Rhodesian Bushstroke, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_rhodesian_bushstroke_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_rhodesian_bushstroke_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Rhodesian_Bushstroke";
@@ -343,7 +343,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Type3_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Type3 Flecktarn, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_type3_flecktarn_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_type3_flecktarn_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_type3_flecktarn";
@@ -352,7 +352,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Type3_Flecktarn: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Type3 Flecktarn, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_type3_flecktarn_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_type3_flecktarn_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Type3_Flecktarn";
@@ -362,7 +362,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Urban_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Urban Tiger, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_urban_tiger_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_urban_tiger_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Urban_tiger";
@@ -371,7 +371,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Urban_Tiger: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Urban Tiger, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_urban_tiger_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_urban_tiger_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Urban_Tiger";
@@ -381,7 +381,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Wetworks: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Wetworks, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_wetworks_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_wetworks_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Wetworks";
@@ -390,7 +390,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Wetworks: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Wetworks, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_wetworks_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_wetworks_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Wetworks";
@@ -400,7 +400,7 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_LS_Woodland: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Woodland, Long Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_ls_woodland_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_ls_woodland_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_LS_Woodland";
@@ -409,10 +409,101 @@ class CfgWeapons {
     class TACU_MSF_Uniform_Combat_Fatigues_RS_Woodland: TACU_MSF_Uniform_Combat_Fatigues_LS_Black {
         author = "Facel";
         displayName = "MSF Combat Fatigues (Woodland, Rolled Sleeves)";
-        picture = QPATHTOF(ui\msf_uniform_combat_fatigues_rs_woodland_ca.paa);
+        picture = QPATHTOF(ui\fatigues\msf_uniform_combat_fatigues_rs_woodland_ca.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_MSF_Unit_Combat_Fatigues_RS_Woodland";
+        };
+    };
+
+    // Uniforms - MGSR Prisoner Outfits
+    class TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean: Uniform_Base {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Prisoner Outfit (Orange, Clean)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_orange_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: UniformItem {
+            uniformModel = "-";
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean";
+            containerClass = "Supply20";
+            mass = 40;
+        };
+    };
+    class TACU_MSF_Uniform_Prisoner_Outfit_Orange_Dirty: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Orange, Dirty)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_orange_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Orange_Dirty";
+        };
+    };
+    class TACU_MSF_Uniform_Prisoner_Outfit_Orange_Muddy: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Orange, Muddy)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_orange_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Orange_Muddy";
+        };
+    };
+
+    class TACU_MSF_Uniform_Prisoner_Outfit_Blue_Clean: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Blue, Clean)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_blue_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Blue_Clean";
+        };
+    };
+    class TACU_MSF_Uniform_Prisoner_Outfit_Blue_Dirty: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Blue, Dirty)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_blue_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Blue_Dirty";
+        };
+    };
+    class TACU_MSF_Uniform_Prisoner_Outfit_Blue_Muddy: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Blue, Muddy)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_blue_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Blue_Muddy";
+        };
+    };
+
+    class TACU_MSF_Uniform_Prisoner_Outfit_Olive_Clean: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Olive, Clean)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_olive_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Olive_Clean";
+        };
+    };
+    class TACU_MSF_Uniform_Prisoner_Outfit_Olive_Dirty: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Olive, Dirty)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_olive_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Olive_Dirty";
+        };
+    };
+    class TACU_MSF_Uniform_Prisoner_Outfit_Olive_Muddy: TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Olive, Muddy)";
+        picture = QPATHTOF(ui\prison\msf_uniform_prisoner_outfit_olive_ca.paa);
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+        class ItemInfo: ItemInfo {
+            uniformClass = "TACU_MSF_Unit_Prisoner_Outfit_Olive_Muddy";
         };
     };
 
@@ -424,9 +515,9 @@ class CfgWeapons {
         dlc = QUOTE(PREFIX);
         author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Black)";
-        picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Black_ca.paa);
+        picture = QPATHTOF(ui\vests\msf_vest_heavyplatecarrier_black_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Black_co.paa)
+            QPATHTOF(data\vests\msf_vest_heavyplatecarrier_black_co.paa)
         };
     };
 
@@ -434,9 +525,9 @@ class CfgWeapons {
         dlc = QUOTE(PREFIX);
         author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Coyote)";
-        picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Coyote_ca.paa);
+        picture = QPATHTOF(ui\vests\msf_vest_heavyplatecarrier_coyote_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Coyote_co.paa)
+            QPATHTOF(data\vests\msf_vest_heavyplatecarrier_coyote_co.paa)
         };
     };
 
@@ -444,9 +535,9 @@ class CfgWeapons {
         dlc = QUOTE(PREFIX);
         author = "Kresky";
         displayName = "Heavy Plate Carrier (MSF, Green)";
-        picture = QPATHTOF(ui\MSF_Vest_HeavyPlateCarrier_Green_ca.paa);
+        picture = QPATHTOF(ui\vests\msf_vest_heavyplatecarrier_green_ca.paa);
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MSF_Vest_HeavyPlateCarrier_Green_co.paa)
+            QPATHTOF(data\vests\msf_vest_heavyplatecarrier_green_co.paa)
         };
     };
 
@@ -455,7 +546,7 @@ class CfgWeapons {
         author = "Kresky";
         displayName = "Plate Carrier (MSF, Black)";
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MSF_Vest_PlateCarrier_Black_co.paa)
+            QPATHTOF(data\vests\msf_vest_platecarrier_black_co.paa)
         };
     };
 
@@ -464,7 +555,7 @@ class CfgWeapons {
         author = "Kresky";
         displayName = "Plate Carrier (MSF, Coyote)";
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MSF_Vest_PlateCarrier_Coyote_co.paa)
+            QPATHTOF(data\vests\msf_vest_platecarrier_coyote_co.paa)
         };
     };
 
@@ -473,7 +564,7 @@ class CfgWeapons {
         author = "Kresky";
         displayName = "Plate Carrier (MSF, Green)";
         hiddenSelectionsTextures[] = {
-            QPATHTOF(data\MSF_Vest_PlateCarrier_Green_co.paa)
+            QPATHTOF(data\vests\msf_vest_platecarrier_green_co.paa)
         };
     };
 

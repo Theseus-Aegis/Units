@@ -15,7 +15,7 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     role = "Rifleman";
     uniformClass = "U_O_R_Gorka_01_black_F";
     backpack = "";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Foxhound_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Foxhound_Rifleman_01.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Light_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "V_PlateCarrier2_blk", "CUP_NVG_GPNVG_black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Light_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "V_PlateCarrier2_blk", "CUP_NVG_GPNVG_black"};
     Items[] = {mag_8("ACE_fieldDressing")};
@@ -41,7 +41,7 @@ class TACU_MSF_U_I_Foxhound_Marksman: TACU_MSF_U_I_Foxhound_Rifleman_01 {
     displayName = "Marksman";
     icon = "iconMan";
     role = "Rifleman";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Foxhound_Marksman.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Foxhound_Marksman.jpg);
     weapons[] = {"TACU_MSF_W_M110_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_M110_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     magazines[] = {mag_6("CUP_20Rnd_762x51_B_M110"), mag_4("CUP_12Rnd_45ACP_mk23")};
@@ -56,7 +56,7 @@ class TACU_MSF_U_I_Foxhound_SMG_01: TACU_MSF_U_I_Foxhound_Rifleman_01 {
     displayName = "Sub Machine-Gunner";
     icon = "iconMan";
     role = "Rifleman";
-    editorPreview = QPATHTOF(ui\MSF_U_I_Foxhound_SMG_01.jpg);
+    editorPreview = QPATHTOF(ui\eden\MSF_U_I_Foxhound_SMG_01.jpg);
     weapons[] = {"TACU_MSF_W_MP7A1_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_MP7A1_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     magazines[] = {mag_10("CUP_40Rnd_46x30_MP7"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};

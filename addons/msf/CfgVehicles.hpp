@@ -49,7 +49,7 @@ class CfgVehicles {
         };
     };
 
-    // MGSR Uniforms
+    // Ground Items (MGSR Combat Fatigues)
     class TACU_MSF_Item_Uniform_Combat_Fatigues_LS_Black: Item_Base_F {
         dlc = QUOTE(PREFIX);
         author = "Facel";
@@ -464,6 +464,109 @@ class CfgVehicles {
         };
     };
 
+    // Ground Items (MGSR Prisoner Outfits)
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Orange_Clean: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Orange, Clean)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Orange_Dirty: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Orange, Dirty)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Orange_Dirty,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Orange_Muddy: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Orange, Muddy)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Orange_Muddy,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Blue_Clean: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Blue, Clean)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Blue_Clean,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Blue_Dirty: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Blue, Dirty)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Blue_Dirty,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Blue_Muddy: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Blue, Muddy)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Blue_Muddy,1);
+        };
+    };
+
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Olive_Clean: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Olive, Clean)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Olive_Clean,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Olive_Dirty: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Olive, Dirty)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Olive_Dirty,1);
+        };
+    };
+    class TACU_MSF_Item_Uniform_Prisoner_Outfit_Olive_Muddy: Item_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel, Rebel";
+        displayName = "Prisoner Outfit (Olive, Muddy)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsUniforms";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Uniform_Prisoner_Outfit_Olive_Muddy,1);
+        };
+    };
+
     // Ground Items (Vests)
     class Vest_Base_F;
     class TACU_MSF_Item_Vest_HeavyPlateCarrier_Black: Vest_Base_F {
@@ -546,7 +649,7 @@ class CfgVehicles {
         author = "Kresky, POLPOX";
         uniformClass = "TACU_MSF_Uniform_CBRN_Black";
         modelSides[] = {6};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_CBRN_Black_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_cbrn_black_co.paa)};
     };
 
     class tacs_Unit_Combat_LS_Base;
@@ -556,7 +659,7 @@ class CfgVehicles {
         author = "Pomigit, Kresky";
         uniformClass = "TACU_MSF_Uniform_Combat_TigerBlack";
         modelSides[] = {6};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerBlack_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_tigerblack_co.paa)};
     };
     class TACU_MSF_Unit_Combat_TigerDesert: TACU_MSF_Unit_Combat_TigerBlack {
         dlc = QUOTE(PREFIX);
@@ -564,7 +667,7 @@ class CfgVehicles {
         author = "Pomigit, Kresky";
         uniformClass = "TACU_MSF_Uniform_Combat_TigerDesert";
         modelSides[] = {6};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerDesert_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_tigerdesert_co.paa)};
     };
     class TACU_MSF_Unit_Combat_TigerWood: TACU_MSF_Unit_Combat_TigerBlack {
         dlc = QUOTE(PREFIX);
@@ -572,10 +675,10 @@ class CfgVehicles {
         author = "Pomigit, Kresky";
         uniformClass = "TACU_MSF_Uniform_Combat_TigerWood";
         modelSides[] = {6};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\MSF_Uniform_Combat_TigerWood_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_tigerwood_co.paa)};
     };
 
-    // MGSR Uniforms
+    // Uniforms (MGSR Combat Fatigues)
     class I_Soldier_base_F;
     class TACU_MSF_Unit_Combat_Fatigues_LS_Black: I_Soldier_base_F {
         dlc = QUOTE(PREFIX);
@@ -585,8 +688,8 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_black_co.paa)};
-        hiddenSelectionsMaterials[] = {QPATHTOF(data\msf_uniform_combat_fatigues.rvmat)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_black_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues.rvmat)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Black: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -595,7 +698,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_black_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_black_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Citrullus: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -604,7 +707,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_citrullus_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_citrullus_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Citrullus: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -613,7 +716,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_citrullus_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_citrullus_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_DDPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -622,7 +725,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_ddpm_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_ddpm_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_DDPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -631,7 +734,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_ddpm_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_ddpm_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Fox: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -640,7 +743,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_fox_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_desert_fox_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Fox: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -649,7 +752,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_fox_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_desert_fox_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Desert_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -658,7 +761,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_tiger_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_desert_tiger_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Desert_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -667,7 +770,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_desert_tiger_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_desert_tiger_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_DPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -676,7 +779,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_dpm_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_dpm_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_DPM: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -685,7 +788,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_dpm_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_dpm_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_German_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -694,7 +797,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_german_flecktarn_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_german_flecktarn_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_German_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -703,7 +806,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_german_flecktarn_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_german_flecktarn_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Horsky: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -712,7 +815,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_horsky_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_horsky_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Horsky: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -721,7 +824,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_horsky_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_horsky_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Jungle_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -730,7 +833,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_jungle_tiger_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_jungle_tiger_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Jungle_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -739,7 +842,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_jungle_tiger_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_jungle_tiger_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Khaki: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -748,7 +851,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_khaki_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_khaki_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Khaki: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -757,7 +860,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_khaki_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_khaki_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Letni: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -766,7 +869,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_letni_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_letni_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Letni: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -775,7 +878,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_letni_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_letni_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Multicam: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -784,7 +887,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_multicam_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_multicam_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Multicam: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -793,7 +896,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_multicam_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_multicam_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Olive: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -802,7 +905,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_olive_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_olive_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Olive: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -811,7 +914,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_olive_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_olive_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Rhodesian_Bushstroke: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -820,7 +923,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_rhodesian_bushstroke_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_rhodesian_bushstroke_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Rhodesian_Bushstroke: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -829,7 +932,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_rhodesian_bushstroke_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_rhodesian_bushstroke_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Type3_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -838,7 +941,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_type3_flecktarn_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_type3_flecktarn_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Type3_Flecktarn: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -847,7 +950,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_type3_flecktarn_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_type3_flecktarn_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Urban_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -856,7 +959,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_urban_tiger_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_urban_tiger_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Urban_Tiger: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -865,7 +968,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_urban_tiger_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_urban_tiger_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Wetworks: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -874,7 +977,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_wetworks_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_wetworks_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Wetworks: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -883,7 +986,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_wetworks_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_wetworks_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_LS_Woodland: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -892,7 +995,7 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_ls.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_woodland_co.paa)};
     };
 
     class TACU_MSF_Unit_Combat_Fatigues_RS_Woodland: TACU_MSF_Unit_Combat_Fatigues_LS_Black {
@@ -901,7 +1004,144 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_combat_fatigues_rs.p3d);
         hiddenSelections[] = {"camo", "insignia", "clan"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_uniform_combat_fatigues_woodland_co.paa)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\fatigues\msf_uniform_combat_fatigues_woodland_co.paa)};
+    };
+
+    // Uniforms (MGSR Prisoner Outfits)
+    class Civilian_F;
+    class C_man_1: Civilian_F {
+        class EventHandlers;
+    };
+
+    class TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean: C_man_1 {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Orange_Clean";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_clean_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange.rvmat)};
+        class EventHandlers: EventHandlers {
+            class tacu_msf_uniform_prisoner_outfit_init {
+                init = "_this execVM '\x\tacu\addons\msf\data\prison\ins\init.sqf'";
+            };
+        };
+        class Wounds {
+            tex[] = {};
+            mat[] = {
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_orange.rvmat",
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_orange_wound_01.rvmat",
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_orange_wound_02.rvmat",
+
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_blue.rvmat",
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_blue_wound_01.rvmat",
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_blue_wound_02.rvmat",
+
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_olive.rvmat",
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_olive_wound_01.rvmat",
+                "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_olive_wound_02.rvmat",
+
+                "A3\Characters_F\Common\Data\basicbody.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+
+                "A3\Characters_F\Heads\Data\hl_white_old.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+            };
+        };
+    };
+    class TACU_MSF_Unit_Prisoner_Outfit_Orange_Dirty: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Orange_Dirty";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_dirty_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange.rvmat)};
+    };
+    class TACU_MSF_Unit_Prisoner_Outfit_Orange_Muddy: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Orange_Muddy";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_muddy_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange.rvmat)};
+    };
+
+    class TACU_MSF_Unit_Prisoner_Outfit_Blue_Clean: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Blue_Clean";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_clean_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue.rvmat)};
+    };
+    class TACU_MSF_Unit_Prisoner_Outfit_Blue_Dirty: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Blue_Dirty";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_dirty_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue.rvmat)};
+    };
+    class TACU_MSF_Unit_Prisoner_Outfit_Blue_Muddy: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Blue_Muddy";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_muddy_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue.rvmat)};
+    };
+
+    class TACU_MSF_Unit_Prisoner_Outfit_Olive_Clean: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Olive_Clean";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_clean_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive.rvmat)};
+    };
+    class TACU_MSF_Unit_Prisoner_Outfit_Olive_Dirty: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Olive_Dirty";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_dirty_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive.rvmat)};
+    };
+    class TACU_MSF_Unit_Prisoner_Outfit_Olive_Muddy: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
+        author = "Facel, Rebel";
+        uniformClass = "TACU_MSF_Uniform_Prisoner_Outfit_Olive_Muddy";
+        modelSides[] = {6};
+        model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
+        hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_muddy_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive.rvmat)};
     };
 
     // Backpacks
@@ -913,16 +1153,16 @@ class CfgVehicles {
         author = "Rebel, Facel";
         displayName = "Rain Poncho (Wet)";
         model = QPATHTOF(msf_b_poncho.p3d);
-        picture = QPATHTOF(ui\msf_b_poncho_ca.paa);
+        picture = QPATHTOF(ui\poncho\msf_b_poncho_ca.paa);
         maximumLoad = 60;
         mass = 30;
         hiddenSelections[] = {"camo"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\msf_b_poncho_co.paa)};
-        hiddenSelectionsMaterials[] = {QPATHTOF(data\msf_b_poncho.rvmat)};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\poncho\msf_b_poncho_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\poncho\msf_b_poncho.rvmat)};
     };
     class TACU_MSF_B_Poncho_Dry: TACU_MSF_B_Poncho_Wet {
         displayName = "Rain Poncho (Dry)";
-        hiddenSelectionsMaterials[] = {QPATHTOF(data\MSF_B_Poncho_dry.rvmat)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\poncho\MSF_B_Poncho_dry.rvmat)};
     };
 
     class B_FieldPack_blk;
