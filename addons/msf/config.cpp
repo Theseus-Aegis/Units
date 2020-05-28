@@ -60,6 +60,9 @@ class CfgPatches {
             "TACU_MSF_Item_Vest_PlateCarrier_Black",
             "TACU_MSF_Item_Vest_PlateCarrier_Coyote",
             "TACU_MSF_Item_Vest_PlateCarrier_Green",
+            "TACU_MSF_Item_Vest_ChestRig_Green",
+            "TACU_MSF_Item_Vest_ChestRig_Black",
+            "TACU_MSF_Item_Vest_ChestRig_Khaki",
             // Backpacks
             "TACU_MSF_B_Poncho_Dry",
             "TACU_MSF_B_Poncho_Wet",
@@ -369,6 +372,9 @@ class CfgPatches {
             "TACU_MSF_Vest_PlateCarrier_Black",
             "TACU_MSF_Vest_PlateCarrier_Coyote",
             "TACU_MSF_Vest_PlateCarrier_Green",
+            "TACU_MSF_Vest_ChestRig_Green",
+            "TACU_MSF_Vest_ChestRig_Black",
+            "TACU_MSF_Vest_ChestRig_Khaki",
             // Weapons
             "TACU_MSF_W_CZ_BREN2_8in_Stealth",
             "TACU_MSF_W_CZ_BREN2_11in",

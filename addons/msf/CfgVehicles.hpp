@@ -641,6 +641,43 @@ class CfgVehicles {
         };
     };
 
+    // Ground Items (MGSR Vests)
+    class TACU_MSF_Item_Vest_ChestRig_Green: Vest_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Chest Rig (Green)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_ChestRig_Green,1);
+        };
+    };
+
+    class TACU_MSF_Item_Vest_ChestRig_Black: Vest_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Chest Rig (Black)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_ChestRig_Black,1);
+        };
+    };
+
+    class TACU_MSF_Item_Vest_ChestRig_Khaki: Vest_Base_F {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        displayName = "MSF Chest Rig (Khaki)";
+        scope = 2;
+        scopeCurator = 2;
+        vehicleClass = "ItemsVests";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Vest_ChestRig_Khaki,1);
+        };
+    };
+
     // Uniforms
     class B_CBRN_Man_Oversuit_01_MTP_F;
     class TACU_MSF_Unit_CBRN_Black: B_CBRN_Man_Oversuit_01_MTP_F {
@@ -1008,11 +1045,7 @@ class CfgVehicles {
     };
 
     // Uniforms (MGSR Prisoner Outfits)
-    class Civilian_F;
-    class C_man_1: Civilian_F {
-        class EventHandlers;
-    };
-
+    class C_man_1;
     class TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean: C_man_1 {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -1023,11 +1056,6 @@ class CfgVehicles {
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
         hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_clean_co.paa)};
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange.rvmat)};
-        class EventHandlers: EventHandlers {
-            class tacu_msf_uniform_prisoner_outfit_init {
-                init = "_this execVM '\x\tacu\addons\msf\data\prison\ins\init.sqf'";
-            };
-        };
         class Wounds {
             tex[] = {};
             mat[] = {

@@ -568,6 +568,125 @@ class CfgWeapons {
         };
     };
 
+    // Vests (MGSR Vests)
+    class Vest_Camo_Base;
+    class VestItem;
+
+    class TACU_MSF_Vest_ChestRig_Green: Vest_Camo_Base {
+        dlc = QUOTE(PREFIX);
+        author = "Facel";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MSF Chest Rig (Green)";
+        allowedSlots[] = {901};
+        weaponPoolAvailable = 1;
+        descriptionShort = "Medium Armor";
+        model = QPATHTOF(msf_vest_chestrig.p3d);
+        picture = QPATHTOF(ui\vests\msf_vest_chestrig_green_ca.paa);
+        hiddenSelections[] = {"Camo1", "Camo2"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt_co.paa), QPATHTOF(data\vests\msf_vest_chestrig_green_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt.rvmat), QPATHTOF(data\vests\msf_vest_chestrig.rvmat)};
+        class ItemInfo: VestItem {
+            uniformModel = QPATHTOF(msf_vest_chestrig.p3d);
+            containerClass = "Supply140";
+            mass = 25;
+            hiddenSelections[] = {"Camo1", "Camo2"};
+            hiddenSelectionsTextures[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt_co.paa), QPATHTOF(data\vests\msf_vest_chestrig_green_co.paa)};
+            hiddenSelectionsMaterials[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt.rvmat), QPATHTOF(data\vests\msf_vest_chestrig.rvmat)};
+            class HitpointsProtectionInfo {
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.2;
+                };
+            };
+        };
+    };
+    class TACU_MSF_Vest_ChestRig_Black: TACU_MSF_Vest_ChestRig_Green {
+        author = "Facel";
+        displayName = "MSF Chest Rig (Black)";
+        picture = QPATHTOF(ui\vests\msf_vest_chestrig_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt_co.paa), QPATHTOF(data\vests\msf_vest_chestrig_black_co.paa)};
+        class ItemInfo: VestItem {
+            uniformModel = QPATHTOF(msf_vest_chestrig.p3d);
+            containerClass = "Supply140";
+            mass = 25;
+            hiddenSelections[] = {"Camo1", "Camo2"};
+            hiddenSelectionsTextures[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt_co.paa), QPATHTOF(data\vests\msf_vest_chestrig_green_co.paa)};
+            hiddenSelectionsMaterials[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt.rvmat), QPATHTOF(data\vests\msf_vest_chestrig.rvmat)};
+            class HitpointsProtectionInfo {
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.2;
+                };
+            };
+        };
+    };
+    class TACU_MSF_Vest_ChestRig_Khaki: TACU_MSF_Vest_ChestRig_Green {
+        author = "Facel";
+        displayName = "MSF Chest Rig (Khaki)";
+        picture = QPATHTOF(ui\vests\msf_vest_chestrig_khaki_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt_co.paa), QPATHTOF(data\vests\msf_vest_chestrig_khaki_co.paa)};
+        class ItemInfo: VestItem {
+            uniformModel = QPATHTOF(msf_vest_chestrig.p3d);
+            containerClass = "Supply140";
+            mass = 25;
+            hiddenSelections[] = {"Camo1", "Camo2"};
+            hiddenSelectionsTextures[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt_co.paa), QPATHTOF(data\vests\msf_vest_chestrig_green_co.paa)};
+            hiddenSelectionsMaterials[] = {QPATHTOF(data\vests\msf_vest_chestrig_belt.rvmat), QPATHTOF(data\vests\msf_vest_chestrig.rvmat)};
+            class HitpointsProtectionInfo {
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 12;
+                    passThrough = 0.2;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    passThrough = 0.2;
+                };
+            };
+        };
+    };
+
     // Weapons - Regular Units
     class CUP_arifle_HK416_Black;
     class TACU_MSF_W_HK416_Black: CUP_arifle_HK416_Black {
