@@ -692,62 +692,62 @@ class CfgWeapons {
     class TACU_MSF_W_HK416_Black: CUP_arifle_HK416_Black {
         dlc = QUOTE(PREFIX);
         scope = 1;
-		scopeCurator = 1;
-		class LinkedItems {
+        scopeCurator = 1;
+        class LinkedItems {
             EQUIP_POINTER(cup_acc_flashlight);
-		};
+        };
     };
 
     class CUP_arifle_HK416_M203_Black;
     class TACU_MSF_W_HK416_GL_Black: CUP_arifle_HK416_M203_Black {
         dlc = QUOTE(PREFIX);
         scope = 1;
-		scopeCurator = 1;
-		class LinkedItems {
+        scopeCurator = 1;
+        class LinkedItems {
             EQUIP_POINTER(cup_acc_flashlight);
-		};
+        };
     };
 
     class CUP_arifle_HK416_CQB_Black;
     class TACU_MSF_W_HK416_CQC_Black: CUP_arifle_HK416_CQB_Black {
         dlc = QUOTE(PREFIX);
         scope = 1;
-		scopeCurator = 1;
-		class LinkedItems {
+        scopeCurator = 1;
+        class LinkedItems {
             EQUIP_POINTER(cup_acc_flashlight);
-		};
+        };
     };
 
     class CUP_arifle_HK416_CQB_M203_Black;
     class TACU_MSF_W_HK416_GL_CQC_Black: CUP_arifle_HK416_CQB_M203_Black {
         dlc = QUOTE(PREFIX);
         scope = 1;
-		scopeCurator = 1;
-		class LinkedItems {
+        scopeCurator = 1;
+        class LinkedItems {
             EQUIP_POINTER(cup_acc_flashlight);
-		};
+        };
     };
 
     class CUP_arifle_HK417_20;
     class TACU_MSF_W_HK417_DMR_Black: CUP_arifle_HK417_20 {
         dlc = QUOTE(PREFIX);
         scope = 1;
-		scopeCurator = 1;
-		class LinkedItems {
+        scopeCurator = 1;
+        class LinkedItems {
             EQUIP_OPTIC(optic_sos);
             EQUIP_POINTER(cup_acc_flashlight);
-		};
+        };
     };
 
     class CUP_arifle_HK_M27_VFG;
     class TACU_MSF_W_M27_Grip: CUP_arifle_HK_M27_VFG {
         dlc = QUOTE(PREFIX);
         scope = 1;
-		scopeCurator = 1;
-		class LinkedItems {
+        scopeCurator = 1;
+        class LinkedItems {
             EQUIP_POINTER(cup_acc_flashlight);
             EQUIP_BIPOD(bipod_01_f_blk);
-		};
+        };
     };
 
     class srifle_LRR_F;

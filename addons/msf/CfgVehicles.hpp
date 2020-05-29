@@ -1079,28 +1079,28 @@ class CfgVehicles {
                 "x\tacu\addons\msf\data\prison\msf_uniform_prisoner_outfit_olive_wound_02.rvmat",
 
                 "A3\Characters_F\Common\Data\basicbody.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
-				"A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+                "A3\Characters_F\Common\Data\basicbody_injury.rvmat",
+                "A3\Characters_F\Common\Data\basicbody_injury.rvmat",
 
                 "A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat",
 
                 "A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat",
 
                 "A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat",
 
                 "A3\Characters_F\Heads\Data\hl_white_old.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat",
 
                 "A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
-				"A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat",
+                "A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"
             };
         };
     };
