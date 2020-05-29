@@ -1054,7 +1054,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_clean_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_clean_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange.rvmat)};
         class Wounds {
             tex[] = {};
@@ -1103,7 +1110,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_dirty_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_dirty_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange.rvmat)};
     };
     class TACU_MSF_Unit_Prisoner_Outfit_Orange_Muddy: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
@@ -1112,7 +1126,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_muddy_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange_muddy_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_orange.rvmat)};
     };
 
@@ -1122,7 +1143,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_clean_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_clean_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue.rvmat)};
     };
     class TACU_MSF_Unit_Prisoner_Outfit_Blue_Dirty: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
@@ -1131,7 +1159,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_dirty_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_dirty_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue.rvmat)};
     };
     class TACU_MSF_Unit_Prisoner_Outfit_Blue_Muddy: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
@@ -1140,7 +1175,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_muddy_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue_muddy_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_blue.rvmat)};
     };
 
@@ -1150,7 +1192,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_clean_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_clean_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive.rvmat)};
     };
     class TACU_MSF_Unit_Prisoner_Outfit_Olive_Dirty: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
@@ -1159,7 +1208,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_dirty_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_dirty_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive.rvmat)};
     };
     class TACU_MSF_Unit_Prisoner_Outfit_Olive_Muddy: TACU_MSF_Unit_Prisoner_Outfit_Orange_Clean {
@@ -1168,7 +1224,14 @@ class CfgVehicles {
         modelSides[] = {6};
         model = QPATHTOF(msf_uniform_prisoner_outfit.p3d);
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
-        hiddenSelectionsTextures[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_muddy_co.paa)};
+        hiddenSelectionsTextures[] = {
+            QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive_muddy_co.paa),
+            QPATHTOF(data\prison\ins\9.paa),
+            QPATHTOF(data\prison\ins\4.paa),
+            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\2.paa)
+        };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\msf_uniform_prisoner_outfit_olive.rvmat)};
     };
 

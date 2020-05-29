@@ -1,3 +1,5 @@
+// run `this execVM "\x\tacu\addons\msf\data\prison\ins\init.sqf"` in unit init
+
 params ["_unit"];
 
 if (isServer) then {
