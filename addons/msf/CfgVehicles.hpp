@@ -1,4 +1,47 @@
 class CfgVehicles {
+    // Ground Items (Helmets)
+    class Headgear_Base_F;
+    class TACU_MSF_Item_Helmet_Scarf_Green: Headgear_Base_F {
+        author = "Facel";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Shoulder Scarf (Green)";
+        vehicleClass = "ItemsHeadgear";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Helmet_Scarf_Green,1);
+        };
+    };
+    class TACU_MSF_Item_Helmet_Scarf_Khaki: Headgear_Base_F {
+        author = "Facel";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Shoulder Scarf (Khaki)";
+        vehicleClass = "ItemsHeadgear";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Helmet_Scarf_Khaki,1);
+        };
+    };
+    class TACU_MSF_Item_Helmet_Scarf_Black: Headgear_Base_F {
+        author = "Facel";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Shoulder Scarf (Black)";
+        vehicleClass = "ItemsHeadgear";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Helmet_Scarf_Black,1);
+        };
+    };
+    class TACU_MSF_Item_Helmet_Scarf_Red: Headgear_Base_F {
+        author = "Facel";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Shoulder Scarf (Red)";
+        vehicleClass = "ItemsHeadgear";
+        class TransportItems {
+            MACRO_ADDITEM(TACU_MSF_Helmet_Scarf_Red,1);
+        };
+    };
+
     // Ground Items (Uniforms)
     class Item_Base_F;
     class TACU_MSF_Item_Uniform_CBRN_Black: Item_Base_F {

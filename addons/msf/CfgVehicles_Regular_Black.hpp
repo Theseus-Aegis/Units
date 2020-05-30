@@ -25,7 +25,8 @@ class TACU_MSF_U_I_Regular_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     magazines[] = {mag_10("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_10("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
-        "", 1
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Black", 0.2
     };
     CBA_facewearList[] = {
         "G_Balaclava_TI_blk_F", 1
@@ -79,6 +80,9 @@ class TACU_MSF_U_I_Regular_Black_TeamLeader: TACU_MSF_U_I_Regular_Black_Rifleman
     respawnWeapons[] = {"TACU_MSF_W_HK416_GL_CQC_Black", "CUP_hgun_Mk23", "Throw", "Put"};
     magazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_2("1Rnd_HE_Grenade_shell"), mag_2("1Rnd_Smoke_Grenade_shell"), mag_2("UGL_FlareWhite_F"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell")};
     respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_2("1Rnd_HE_Grenade_shell"), mag_2("1Rnd_Smoke_Grenade_shell"), mag_2("UGL_FlareWhite_F"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    headgearList[] = {
+        "TACU_MSF_Helmet_Scarf_Red", 1
+    };
 };
 class TACU_MSF_U_O_Regular_Black_TeamLeader: TACU_MSF_U_I_Regular_Black_TeamLeader {
     side = 0;

@@ -1,4 +1,45 @@
 class CfgWeapons {
+    // Helmets (Secret Scarves)
+    class ItemCore;
+    class HeadgearItem;
+
+    class TACU_MSF_Helmet_Scarf_Green: ItemCore {
+        author = "Facel";
+        scope = 2;
+        scopeCurator = 2;
+        weaponPoolAvailable = 1;
+        displayName = "Shoulder Scarf (Green)";
+        model = QPATHTOF(msf_glasses_scarf.p3d);
+        picture = QPATHTOF(ui\scarves\msf_glasses_scarf_green_ca.paa);
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {QPATHTOF(data\scarves\msf_glasses_scarf_green_co.paa)};
+        hiddenSelectionsMaterials[] = {QPATHTOF(data\scarves\msf_glasses_scarf.rvmat)};
+        class ItemInfo: HeadgearItem {
+            mass = 4;
+            uniformModel = QPATHTOF(msf_glasses_scarf.p3d);
+            modelSides[] = {6};
+            hiddenSelections[] = {"camo"};
+        };
+    };
+    class TACU_MSF_Helmet_Scarf_Khaki: TACU_MSF_Helmet_Scarf_Green {
+        author = "Facel";
+        displayName = "Shoulder Scarf (Khaki)";
+        picture = QPATHTOF(ui\scarves\msf_glasses_scarf_khaki_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\scarves\msf_glasses_scarf_khaki_co.paa)};
+    };
+    class TACU_MSF_Helmet_Scarf_Black: TACU_MSF_Helmet_Scarf_Green {
+        author = "Facel";
+        displayName = "Shoulder Scarf (Black)";
+        picture = QPATHTOF(ui\scarves\msf_glasses_scarf_black_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\scarves\msf_glasses_scarf_black_co.paa)};
+    };
+    class TACU_MSF_Helmet_Scarf_Red: TACU_MSF_Helmet_Scarf_Green {
+        author = "Facel";
+        displayName = "Shoulder Scarf (Red)";
+        picture = QPATHTOF(ui\scarves\msf_glasses_scarf_red_ca.paa);
+        hiddenSelectionsTextures[] = {QPATHTOF(data\scarves\msf_glasses_scarf_red_co.paa)};
+    };
+
     // Uniforms
     class Uniform_Base;
     class UniformItem;

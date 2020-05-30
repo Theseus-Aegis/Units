@@ -58,6 +58,63 @@ class TACU_MSF_V_O_Stryker_GL_Black: TACU_MSF_V_I_Stryker_GL_Black {
 };
 
 // Cars
+class CUP_B_HMMWV_Unarmed_USA;
+class TACU_MSF_V_I_HMMWV_Unarmed_Black: CUP_B_HMMWV_Unarmed_USA {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "HMMWV (Unarmed)";
+    crew = "TACU_MSF_U_I_Regular_Black_Rifleman_01";
+    typicalCargo[] = {"TACU_MSF_U_I_Regular_Black_Rifleman_01"};
+    editorPreview = QPATHTOF(ui\eden\MSF_V_I_HMMWV_Unarmed_Black.jpg);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vehicles\msf_v_hmmwv_body_black_co.paa)};
+};
+class TACU_MSF_V_O_HMMWV_Unarmed_Black: TACU_MSF_V_I_HMMWV_Unarmed_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Regular_Black_Rifleman_01";
+    typicalCargo[] = {"TACU_MSF_U_O_Regular_Black_Rifleman_01"};
+};
+
+class CUP_B_HMMWV_M2_USA;
+class TACU_MSF_V_I_HMMWV_M2_Black: CUP_B_HMMWV_M2_USA {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "HMMWV (M2)";
+    crew = "TACU_MSF_U_I_Regular_Black_Rifleman_01";
+    typicalCargo[] = {"TACU_MSF_U_I_Regular_Black_Rifleman_01"};
+    editorPreview = QPATHTOF(ui\eden\MSF_V_I_HMMWV_M2_Black.jpg);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vehicles\msf_v_hmmwv_body_black_co.paa)};
+};
+class TACU_MSF_V_O_HMMWV_M2_Black: TACU_MSF_V_I_HMMWV_M2_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Regular_Black_Rifleman_01";
+    typicalCargo[] = {"TACU_MSF_U_O_Regular_Black_Rifleman_01"};
+};
+
+class CUP_B_HMMWV_MK19_USA;
+class TACU_MSF_V_I_HMMWV_Mk19_Black: CUP_B_HMMWV_MK19_USA {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "HMMWV (Mk19)";
+    crew = "TACU_MSF_U_I_Regular_Black_Rifleman_01";
+    typicalCargo[] = {"TACU_MSF_U_I_Regular_Black_Rifleman_01"};
+    editorPreview = QPATHTOF(ui\eden\MSF_V_I_HMMWV_Mk19_Black.jpg);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vehicles\msf_v_hmmwv_body_black_co.paa)};
+};
+class TACU_MSF_V_O_HMMWV_Mk19_Black: TACU_MSF_V_I_HMMWV_Mk19_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Regular_Black_Rifleman_01";
+    typicalCargo[] = {"TACU_MSF_U_O_Regular_Black_Rifleman_01"};
+};
+
 class CUP_B_MTVR_USA;
 class TACU_MSF_V_I_MTVR_Transport_Black: CUP_B_MTVR_USA {
     dlc = QUOTE(PREFIX);
@@ -212,6 +269,75 @@ class TACU_MSF_V_O_Prowler_AT_Black: TACU_MSF_V_I_Prowler_AT_Black {
 };
 
 // Helicopters
+class MELB_AH6M_L;
+class TACU_MSF_V_I_AH6M_Black: MELB_AH6M_L {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    scope = 2;
+    scopeCurator = 2;
+    forceInGarage = 1;
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "MELB AH-6M";
+    crew = "TACU_MSF_U_I_Regular_Black_Pilot";
+    typicalCargo[] = {"TACU_MSF_U_I_Regular_Black_Pilot"};
+    editorPreview = QPATHTOF(ui\eden\MSF_V_I_AH6M_Black.jpg);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vehicles\msf_v_melb_black_ext_co.paa)};
+    hiddenSelectionsMaterials[] = {QPATHTOF(data\vehicles\msf_v_melb_black.rvmat)};
+};
+class TACU_MSF_V_O_AH6M_Black: TACU_MSF_V_I_AH6M_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Regular_Black_Pilot";
+    typicalCargo[] = {"TACU_MSF_U_O_Regular_Black_Pilot"};
+};
+
+class MELB_H6M;
+class TACU_MSF_V_I_OH6M_Black: MELB_H6M {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    scope = 2;
+    scopeCurator = 2;
+    forceInGarage = 1;
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "MELB OH-6M";
+    crew = "TACU_MSF_U_I_Regular_Black_Pilot";
+    typicalCargo[] = {"TACU_MSF_U_I_Regular_Black_Pilot"};
+    editorPreview = QPATHTOF(ui\eden\MSF_V_I_OH6M_Black.jpg);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vehicles\msf_v_melb_black_ext_co.paa)};
+    hiddenSelectionsMaterials[] = {QPATHTOF(data\vehicles\msf_v_melb_black.rvmat)};
+};
+class TACU_MSF_V_O_OH6M_Black: TACU_MSF_V_I_OH6M_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Regular_Black_Pilot";
+    typicalCargo[] = {"TACU_MSF_U_O_Regular_Black_Pilot"};
+};
+
+class MELB_MH6M;
+class TACU_MSF_V_I_MH6M_Black: MELB_MH6M {
+    dlc = QUOTE(PREFIX);
+    MACRO_CLEAR_VEHICLE_CARGO
+    scope = 2;
+    scopeCurator = 2;
+    forceInGarage = 1;
+    faction = "TACU_MSF_I";
+    side = 2;
+    displayName = "MELB MH-6M";
+    crew = "TACU_MSF_U_I_Regular_Black_Pilot";
+    typicalCargo[] = {"TACU_MSF_U_I_Regular_Black_Pilot"};
+    editorPreview = QPATHTOF(ui\eden\MSF_V_I_MH6M_Black.jpg);
+    hiddenSelectionsTextures[] = {QPATHTOF(data\vehicles\msf_v_melb_black_ext_co.paa)};
+    hiddenSelectionsMaterials[] = {QPATHTOF(data\vehicles\msf_v_melb_black.rvmat)};
+};
+class TACU_MSF_V_O_MH6M_Black: TACU_MSF_V_I_MH6M_Black {
+    faction = "TACU_MSF_O";
+    side = 0;
+    crew = "TACU_MSF_U_O_Regular_Black_Pilot";
+    typicalCargo[] = {"TACU_MSF_U_O_Regular_Black_Pilot"};
+};
+
 class CUP_I_Mi24_D_Dynamic_ION;
 class TACU_MSF_V_I_Mi24: CUP_I_Mi24_D_Dynamic_ION {
     dlc = QUOTE(PREFIX);

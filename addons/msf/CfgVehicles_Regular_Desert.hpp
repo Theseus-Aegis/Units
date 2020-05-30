@@ -5,13 +5,23 @@ class TACU_MSF_U_I_Regular_Desert_Rifleman_01: TACU_MSF_U_I_Regular_Black_Riflem
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Rifleman_01: TACU_MSF_U_I_Regular_Desert_Rifleman_01 {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Rifleman_01.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_Rifleman_AT: TACU_MSF_U_I_Regular_Black_Rifleman_AT {
@@ -21,13 +31,23 @@ class TACU_MSF_U_I_Regular_Desert_Rifleman_AT: TACU_MSF_U_I_Regular_Black_Riflem
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Rifleman_AT: TACU_MSF_U_I_Regular_Desert_Rifleman_AT {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Rifleman_AT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_Autorifleman: TACU_MSF_U_I_Regular_Black_Autorifleman {
@@ -36,13 +56,23 @@ class TACU_MSF_U_I_Regular_Desert_Autorifleman: TACU_MSF_U_I_Regular_Black_Autor
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Autorifleman: TACU_MSF_U_I_Regular_Desert_Autorifleman {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Autorifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_TeamLeader: TACU_MSF_U_I_Regular_Black_TeamLeader {
@@ -51,13 +81,21 @@ class TACU_MSF_U_I_Regular_Desert_TeamLeader: TACU_MSF_U_I_Regular_Black_TeamLea
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "TACU_MSF_Helmet_Scarf_Green", 0.5,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.5
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_TeamLeader: TACU_MSF_U_I_Regular_Desert_TeamLeader {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_TeamLeader.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "TACU_MSF_Helmet_Scarf_Khaki", 1
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_Engineer: TACU_MSF_U_I_Regular_Black_Engineer {
@@ -67,13 +105,23 @@ class TACU_MSF_U_I_Regular_Desert_Engineer: TACU_MSF_U_I_Regular_Black_Engineer 
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Engineer: TACU_MSF_U_I_Regular_Desert_Engineer {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Engineer.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_SMG: TACU_MSF_U_I_Regular_Black_SMG {
@@ -82,13 +130,23 @@ class TACU_MSF_U_I_Regular_Desert_SMG: TACU_MSF_U_I_Regular_Black_SMG {
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_SMG: TACU_MSF_U_I_Regular_Desert_SMG {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_SMG.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_Medic: TACU_MSF_U_I_Regular_Black_Medic {
@@ -98,13 +156,23 @@ class TACU_MSF_U_I_Regular_Desert_Medic: TACU_MSF_U_I_Regular_Black_Medic {
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Medic: TACU_MSF_U_I_Regular_Desert_Medic {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Medic.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_Grenadier: TACU_MSF_U_I_Regular_Black_Grenadier {
@@ -113,13 +181,23 @@ class TACU_MSF_U_I_Regular_Desert_Grenadier: TACU_MSF_U_I_Regular_Black_Grenadie
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Grenadier: TACU_MSF_U_I_Regular_Desert_Grenadier {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Grenadier.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_Marksman: TACU_MSF_U_I_Regular_Black_Marksman {
@@ -128,13 +206,23 @@ class TACU_MSF_U_I_Regular_Desert_Marksman: TACU_MSF_U_I_Regular_Black_Marksman 
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Marksman: TACU_MSF_U_I_Regular_Desert_Marksman {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Marksman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_Sniper: TACU_MSF_U_I_Regular_Black_Sniper {
@@ -143,13 +231,23 @@ class TACU_MSF_U_I_Regular_Desert_Sniper: TACU_MSF_U_I_Regular_Black_Sniper {
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_Sniper: TACU_MSF_U_I_Regular_Desert_Sniper {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_Sniper.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_HAT: TACU_MSF_U_I_Regular_Black_HAT {
@@ -159,13 +257,23 @@ class TACU_MSF_U_I_Regular_Desert_HAT: TACU_MSF_U_I_Regular_Black_HAT {
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_HAT: TACU_MSF_U_I_Regular_Desert_HAT {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_HAT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
 
 class TACU_MSF_U_I_Regular_Desert_MMG: TACU_MSF_U_I_Regular_Black_MMG {
@@ -175,11 +283,21 @@ class TACU_MSF_U_I_Regular_Desert_MMG: TACU_MSF_U_I_Regular_Black_MMG {
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     editorSubcategory = "TACU_MSF_EdSubCat_Regular_Desert";
+    headgearList[] = {
+        "", 0.7,
+        "TACU_MSF_Helmet_Scarf_Green", 0.15,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.15
+    };
 };
 class TACU_MSF_U_O_Regular_Desert_MMG: TACU_MSF_U_I_Regular_Desert_MMG {
     side = 0;
     faction = "TACU_MSF_O";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Desert_Tiger";
+    editorPreview = QPATHTOF(ui\eden\MSF_U_O_Regular_Desert_MMG.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Khaki"};
+    headgearList[] = {
+        "", 0.8,
+        "TACU_MSF_Helmet_Scarf_Khaki", 0.2
+    };
 };
