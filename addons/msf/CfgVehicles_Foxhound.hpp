@@ -20,8 +20,8 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Light_Ballistic_DarkBlack", "G_Balaclava_TI_blk_F", "V_PlateCarrier2_blk", "CUP_NVG_GPNVG_black"};
     Items[] = {mag_8("ACE_fieldDressing")};
     respawnItems[] = {mag_8("ACE_fieldDressing")};
-    weapons[] = {"TACU_MSF_W_CZ_BREN2_8in_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_CZ_BREN2_8in_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
+    weapons[] = {"TACU_MSF_W_ACRC_556_Black_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     magazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
     respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
     headgearList[] = {

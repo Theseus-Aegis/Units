@@ -20,8 +20,8 @@ class TACU_MSF_U_I_XOF_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_RegulatorMask_F", "TACU_MSF_Vest_PlateCarrier_Black"};
     Items[] = {mag_8("ACE_fieldDressing")};
     respawnItems[] = {mag_8("ACE_fieldDressing")};
-    weapons[] = {"TACU_MSF_W_CZ_BREN2_11in", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_CZ_BREN2_11in", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    weapons[] = {"TACU_MSF_W_ACRC_556_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
     magazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_6("SmokeShell"), mag_2("ACE_M84")};
     respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_6("SmokeShell"), mag_2("ACE_M84")};
     headgearList[] = {
@@ -40,8 +40,8 @@ class TACU_MSF_U_O_XOF_Rifleman_01: TACU_MSF_U_I_XOF_Rifleman_01 {
 class TACU_MSF_U_I_XOF_Grenadier: TACU_MSF_U_I_XOF_Rifleman_01 {
     displayName = "Grenadier";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_XOF_Grenadier.jpg);
-    weapons[] = {"TACU_MSF_W_CZ_BREN2_11in_GL", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_CZ_BREN2_11in_GL", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    weapons[] = {"TACU_MSF_W_ACRC_556_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_ACRC_556_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
     magazines[] = {mag_7("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_4("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell"), "HandGrenade", mag_4("SmokeShell"), mag_2("ACE_M84")};
     respawnMagazines[] = {mag_7("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_4("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell"), "HandGrenade", mag_4("SmokeShell"), mag_2("ACE_M84")};
 };

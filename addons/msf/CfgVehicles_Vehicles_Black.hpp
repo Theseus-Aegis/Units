@@ -218,7 +218,7 @@ class TACU_MSF_V_I_Prowler_Black: tacs_Polaris_B_Black {
     faction = "TACU_MSF_I";
     scope = 2;
     side = 2;
-    displayName = "Prowler";
+    displayName = "Prowler (Unarmed)";
     crew = "TACU_MSF_U_I_Regular_Black_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_I_Regular_Black_Rifleman_01"};
     editorPreview = QPATHTOF(ui\eden\MSF_V_I_Prowler_Black.jpg);

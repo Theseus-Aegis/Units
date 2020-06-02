@@ -138,7 +138,7 @@ class TACU_MSF_V_I_Prowler_Desert: tacs_Polaris_B_Tan {
     faction = "TACU_MSF_I";
     scope = 2;
     side = 2;
-    displayName = "Prowler";
+    displayName = "Prowler (Unarmed)";
     crew = "TACU_MSF_U_I_Regular_Desert_Rifleman_01";
     typicalCargo[] = {"TACU_MSF_U_I_Regular_Desert_Rifleman_01"};
     editorSubcategory = "TACU_MSF_EdSubCat_Cars_Desert";

@@ -42,8 +42,8 @@ class TACU_MSF_U_I_DDogs_Black_Rifleman_AT: TACU_MSF_U_I_DDogs_Black_Rifleman_01
     icon = "iconManAT";
     role = "MissileSpecialist";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Rifleman_AT.jpg);
-    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_M136", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_M136", "Throw", "Put"};
+    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_M136_Loaded", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_M136_Loaded", "Throw", "Put"};
     magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
 };
