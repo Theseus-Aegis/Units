@@ -11,6 +11,10 @@ modname = "tac_units"
 key_name = "{{prefix}}_{{version}}"
 authority = "{{prefix}}_{{version}}"
 
+check = [
+    "!binarizer_link"
+]
+
 releasebuild = [
     "@zip tac_units_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
 ]
