@@ -46,6 +46,7 @@ class CfgPatches {
             "CUP_TrackedVehicles_BMP",
             "CUP_TrackedVehicles_M113",
             "CUP_TrackedVehicles_M60",
+            "CUP_Weapons_ACR",
             "CUP_Weapons_AK",
             "CUP_Weapons_Ammunition",
             "CUP_Weapons_Backpacks",
