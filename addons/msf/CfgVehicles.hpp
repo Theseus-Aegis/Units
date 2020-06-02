@@ -1299,15 +1299,37 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {QPATHTOF(data\poncho\MSF_B_Poncho_dry.rvmat)};
     };
 
-    class B_FieldPack_blk;
-    class TACU_MSF_B_AT_Black: B_FieldPack_blk {
+    class tacs_Backpack_Kitbag_DarkBlack;
+    class TACU_MSF_B_AT_Black: tacs_Backpack_Kitbag_DarkBlack {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
+            MACRO_ADDMAGAZINE(CUP_SMAW_HEDP_M,3);
         };
     };
+
+    class B_Kitbag_cbr;
+    class TACU_MSF_B_AT_Coyote: B_Kitbag_cbr {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_SMAW_HEDP_M,3);
+        };
+    };
+
+    class B_Kitbag_rgr;
+    class TACU_MSF_B_AT_Green: B_Kitbag_rgr {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_SMAW_HEDP_M,3);
+        };
+    };
+
+    class B_FieldPack_blk;
     class TACU_MSF_B_MMG_Black: B_FieldPack_blk {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -1318,14 +1340,6 @@ class CfgVehicles {
     };
 
     class B_FieldPack_cbr;
-    class TACU_MSF_B_AT_Coyote: B_FieldPack_cbr {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
-        };
-    };
     class TACU_MSF_B_MMG_Coyote: B_FieldPack_cbr {
         dlc = QUOTE(PREFIX);
         scope = 1;
@@ -1336,14 +1350,6 @@ class CfgVehicles {
     };
 
     class B_FieldPack_green_F;
-    class TACU_MSF_B_AT_Green: B_FieldPack_green_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_PG7V_M,3);
-        };
-    };
     class TACU_MSF_B_MMG_Green: B_FieldPack_green_F {
         dlc = QUOTE(PREFIX);
         scope = 1;

@@ -45,8 +45,8 @@ class TACU_MSF_U_I_Regular_Black_Rifleman_AT: TACU_MSF_U_I_Regular_Black_Riflema
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Black";
     backpack = "TACU_MSF_B_AT_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Rifleman_AT.jpg);
-    weapons[] = {"TACU_MSF_W_ACRC_556_Black", "CUP_launch_RPG7V", "CUP_hgun_Mk23", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black", "CUP_launch_RPG7V", "CUP_hgun_Mk23", "Throw", "Put"};
+    weapons[] = {"TACU_MSF_W_ACRC_556_Black", "CUP_launch_Mk153Mod0_blk", "CUP_hgun_Mk23", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black", "CUP_launch_Mk153Mod0_blk", "CUP_hgun_Mk23", "Throw", "Put"};
     magazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
     respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
 };

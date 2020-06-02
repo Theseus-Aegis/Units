@@ -302,7 +302,7 @@ class TACU_MSF_U_O_Regular_Wood_Sniper: TACU_MSF_U_I_Regular_Wood_Sniper {
 
 class TACU_MSF_U_I_Regular_Wood_HAT: TACU_MSF_U_I_Regular_Black_HAT {
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Olive";
-    backpack = "TACU_MSF_B_Engineer_Green";
+    backpack = "TACU_MSF_B_HAT_Green";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Wood_HAT.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black"};

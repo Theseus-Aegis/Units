@@ -76,6 +76,7 @@ class CfgPatches {
             "CUP_Weapons_SA58",
             "CUP_Weapons_SA61",
             "CUP_Weapons_Scar",
+            "CUP_Weapons_SMAW",
             "CUP_Weapons_SVD",
             "CUP_Weapons_VSS",
             "CUP_Weapons_West_Attachments",
