@@ -83,7 +83,7 @@ class TACU_Revolutionaries_U_I_Russian_Marksman: TACU_Revolutionaries_U_I_Russia
 };
 
 class TACU_Revolutionaries_U_I_Russian_Pistoleer01: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
-    displayName = "Pistoleer (Garch)";
+    displayName = "Pistoleer (Grach)";
     uniformClass = "CUP_U_C_racketeer_03";
     backpack = "";
     weapons[] = {"hgun_Rook40_F", "Throw", "Put"};
