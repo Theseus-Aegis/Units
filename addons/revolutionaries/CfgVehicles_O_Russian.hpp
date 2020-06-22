@@ -224,7 +224,7 @@ class TACU_Revolutionaries_U_O_Russian_Saboteur: TACU_Revolutionaries_U_O_Russia
 };
 
 class TACU_Revolutionaries_U_O_Russian_Pistoleer01: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
-    displayName = "Pistoleer (Garch)";
+    displayName = "Pistoleer (Grach)";
     uniformClass = "CUP_U_C_racketeer_03";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
