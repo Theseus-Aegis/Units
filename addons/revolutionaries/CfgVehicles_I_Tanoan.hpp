@@ -83,7 +83,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Marksman: TACU_Revolutionaries_U_I_Tanoan_
 };
 
 class TACU_Revolutionaries_U_I_Tanoan_Pistoleer01: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
-    displayName = "Pistoleer (Garch)";
+    displayName = "Pistoleer (Grach)";
     uniformClass = "U_I_C_Soldier_Bandit_1_F";
     backpack = "";
     weapons[] = {"hgun_Rook40_F", "Throw", "Put"};
