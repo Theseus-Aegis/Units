@@ -45,8 +45,8 @@ class TACU_MSF_U_I_Regular_Black_Rifleman_AT: TACU_MSF_U_I_Regular_Black_Riflema
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Black";
     backpack = "TACU_MSF_B_AT_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Rifleman_AT.jpg);
-    weapons[] = {"TACU_MSF_W_ACRC_556_Black", "CUP_launch_Mk153Mod0_blk", "CUP_hgun_Mk23", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black", "CUP_launch_Mk153Mod0_blk", "CUP_hgun_Mk23", "Throw", "Put"};
+    weapons[] = {"TACU_MSF_W_ACRC_556_Black", "tacs_MRAWS_Black_Rail_F", "CUP_hgun_Mk23", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black", "tacs_MRAWS_Black_Rail_F", "CUP_hgun_Mk23", "Throw", "Put"};
     magazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
     respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell"};
 };
@@ -251,8 +251,8 @@ class TACU_MSF_U_I_Regular_Black_Pilot: TACU_MSF_U_I_Regular_Black_Rifleman_01 {
     engineer = 1;
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Olive";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Pilot.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "NVGogglesB_blk_F"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "NVGogglesB_blk_F"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "ACE_NVG_Wide"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "ACE_NVG_Wide"};
     weapons[] = {"CUP_hgun_Mk23", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_Mk23", "Throw", "Put"};
     magazines[] = {mag_4("CUP_12Rnd_45ACP_mk23"), mag_2("SmokeShell")};
@@ -270,8 +270,8 @@ class TACU_MSF_U_I_Regular_Black_Crewman: TACU_MSF_U_I_Regular_Black_Pilot {
     displayName = "Crewman";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Olive";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Crewman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "NVGogglesB_blk_F"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "NVGogglesB_blk_F"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "ACE_NVG_Wide"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetCrew_B", "G_Balaclava_TI_blk_F", "TACU_MSF_Vest_ChestRig_Black", "ACE_NVG_Wide"};
     headgearList[] = {
         "H_HelmetCrew_B", 1
     };

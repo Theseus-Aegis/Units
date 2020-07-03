@@ -16,8 +16,8 @@ class TACU_MSF_U_I_DDogs_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     uniformClass = "TACU_MSF_Uniform_Combat_TigerBlack";
     backpack = "";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Rifleman_01.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_G_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "CUP_NVG_PVS14"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_G_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "CUP_NVG_PVS14"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_G_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGoggles_OPFOR"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "G_Balaclava_TI_G_blk_F", "TACU_MSF_Vest_HeavyPlateCarrier_Black", "NVGoggles_OPFOR"};
     Items[] = {mag_8("ACE_fieldDressing")};
     respawnItems[] = {mag_8("ACE_fieldDressing")};
     weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
@@ -43,8 +43,8 @@ class TACU_MSF_U_I_DDogs_Black_Rifleman_AT: TACU_MSF_U_I_DDogs_Black_Rifleman_01
     role = "MissileSpecialist";
     backpack = "TACU_MSF_B_AT_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Rifleman_AT.jpg);
-    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_Mk153Mod0_blk", "Throw", "Put"};
-    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "CUP_launch_Mk153Mod0_blk", "Throw", "Put"};
+    weapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "tacs_MRAWS_Black_F", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_MSF_W_Promet_Black", "TACU_MSF_W_Mk23_SOCOM", "tacs_MRAWS_Black_F", "Throw", "Put"};
     magazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_6("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), "SmokeShell"};
 };
