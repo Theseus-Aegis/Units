@@ -1299,33 +1299,33 @@ class CfgVehicles {
         hiddenSelectionsMaterials[] = {QPATHTOF(data\poncho\MSF_B_Poncho_dry.rvmat)};
     };
 
-    class tacs_Backpack_Kitbag_DarkBlack;
-    class TACU_MSF_B_AT_Black: tacs_Backpack_Kitbag_DarkBlack {
+    class B_ViperLightHarness_blk_F;
+    class TACU_MSF_B_AT_Black: B_ViperLightHarness_blk_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_SMAW_HEDP_M,3);
+            MACRO_ADDMAGAZINE(MRAWS_HEAT_F,4);
         };
     };
 
-    class B_Kitbag_cbr;
-    class TACU_MSF_B_AT_Coyote: B_Kitbag_cbr {
+    class tacs_Backpack_ViperLightHarness_Coyote;
+    class TACU_MSF_B_AT_Coyote: tacs_Backpack_ViperLightHarness_Coyote {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_SMAW_HEDP_M,3);
+            MACRO_ADDMAGAZINE(MRAWS_HEAT_F,4);
         };
     };
 
-    class B_Kitbag_rgr;
-    class TACU_MSF_B_AT_Green: B_Kitbag_rgr {
+    class tacs_Backpack_ViperLightHarness_Green;
+    class TACU_MSF_B_AT_Green: tacs_Backpack_ViperLightHarness_Green {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_SMAW_HEDP_M,3);
+            MACRO_ADDMAGAZINE(MRAWS_HEAT_F,4);
         };
     };
 

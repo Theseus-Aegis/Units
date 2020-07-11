@@ -935,7 +935,7 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(cup_optic_acog2);
-            EQUIP_POINTER(cup_acc_anpeq_15_black);
+            EQUIP_POINTER(cup_acc_flashlight);
             EQUIP_BIPOD(cup_bipod_vltor_modpod_black);
         };
     };
