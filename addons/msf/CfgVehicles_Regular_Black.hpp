@@ -167,6 +167,7 @@ class TACU_MSF_U_O_Regular_Black_Medic: TACU_MSF_U_I_Regular_Black_Medic {
 
 class TACU_MSF_U_I_Regular_Black_Grenadier: TACU_MSF_U_I_Regular_Black_Rifleman_01 {
     displayName = "Grenadier";
+    role = "Grenadier";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Grenadier.jpg);
     weapons[] = {"TACU_MSF_W_ACR_556_GL_Black", "CUP_hgun_Mk23", "Throw", "Put"};
