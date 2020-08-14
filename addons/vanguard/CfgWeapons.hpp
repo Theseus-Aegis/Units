@@ -50,7 +50,6 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_Hamr);
-            EQUIP_MUZZLE(ACE_Muzzle_mzls_H);
             EQUIP_POINTER(ACE_acc_pointer_green);
         };
     };

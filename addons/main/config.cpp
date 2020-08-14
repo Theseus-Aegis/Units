@@ -89,6 +89,8 @@ class CfgPatches {
             "CUP_WheeledVehicles_Stryker",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",
+            // GT Armory
+            "tacgt_ammunition",
             // NIArms
             "hlcweapons_core",
             "hlcweapons_SG550",

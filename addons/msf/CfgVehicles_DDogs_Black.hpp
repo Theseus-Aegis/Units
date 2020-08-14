@@ -71,7 +71,7 @@ class TACU_MSF_U_O_DDogs_Black_Autorifleman: TACU_MSF_U_I_DDogs_Black_Autoriflem
 class TACU_MSF_U_I_DDogs_Black_Grenadier: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     displayName = "Grenadier";
     icon = "iconMan";
-    role = "Rifleman";
+    role = "Grenadier";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Grenadier.jpg);
     weapons[] = {"TACU_MSF_W_Promet_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_Promet_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};

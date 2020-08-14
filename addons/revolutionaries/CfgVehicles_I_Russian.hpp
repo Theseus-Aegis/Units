@@ -11,6 +11,7 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman01: TACU_Main_U_INDEP_Soldier_Bas
     genericNames = "CUP_Names_RussianMen";
     icon = "iconMan";
     role = "Rifleman";
+    sensitivity = 2;
     uniformClass = "CUP_U_C_Citizen_01";
     backpack = "B_FieldPack_blk";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
@@ -53,6 +54,9 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman03: TACU_Revolutionaries_U_I_Russ
 
 class TACU_Revolutionaries_U_I_Russian_Paramedic: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
     displayName = "Paramedic";
+    icon = "iconManMedic";
+    role = "CombatLifeSaver";
+    attendant = 1;
     uniformClass = "CUP_U_C_Rocker_02";
     weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
@@ -74,6 +78,8 @@ class TACU_Revolutionaries_U_I_Russian_Shotgunner: TACU_Revolutionaries_U_I_Russ
 
 class TACU_Revolutionaries_U_I_Russian_Marksman: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
     displayName = "Marksman";
+    role = "Marksman";
+    sensitivity = 2.25;
     uniformClass = "CUP_U_C_Woodlander_04";
     weapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
     respawnWeapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
@@ -106,6 +112,7 @@ class TACU_Revolutionaries_U_I_Russian_Pistoleer02: TACU_Revolutionaries_U_I_Rus
 
 class TACU_Revolutionaries_U_I_Russian_Head: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
     displayName = "Head";
+    icon = "iconManLeader";
     uniformClass = "CUP_U_C_Profiteer_04";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_C_Beret_04"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_C_Beret_04"};
@@ -144,6 +151,7 @@ class TACU_Revolutionaries_U_I_Russian_FigureHead: TACU_Revolutionaries_U_I_Russ
 
 class TACU_Revolutionaries_U_I_Russian_Leader: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
     displayName = "Leader";
+    icon = "iconManLeader";
     uniformClass = "CUP_U_I_GUE_Anorak_03";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_PMC_Cap_Grey"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_PMC_Cap_Grey"};

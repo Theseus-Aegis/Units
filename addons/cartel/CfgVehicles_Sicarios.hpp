@@ -11,6 +11,7 @@ class TACU_Cartel_U_O_Sicario_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     genericNames = "TanoanMen";
     icon = "iconMan";
     role = "Rifleman";
+    sensitivity = 2;
     uniformClass = "tacs_Suit_VIP";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Rangemaster_belt", "G_Aviator"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Rangemaster_belt", "G_Aviator"};
@@ -66,6 +67,8 @@ class TACU_Cartel_U_O_Sicario_Rifleman_04: TACU_Cartel_U_O_Sicario_Rifleman_01 {
 
 class TACU_Cartel_U_O_Sicario_Rifleman_AT: TACU_Cartel_U_O_Sicario_Rifleman_01 {
     displayName = "Sicario (AT)";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
     uniformClass = "tacs_Uniform_Combat_LS_BS_GP_TB";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};
@@ -78,6 +81,8 @@ class TACU_Cartel_U_O_Sicario_Rifleman_AT: TACU_Cartel_U_O_Sicario_Rifleman_01 {
 
 class TACU_Cartel_U_O_Sicario_Rifleman_MG: TACU_Cartel_U_O_Sicario_Rifleman_01 {
     displayName = "Sicario (SPW)";
+    icon = "iconManMG";
+    role = "MachineGunner";
     uniformClass = "tacs_Uniform_Combat_LS_BS_GP_TB";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};

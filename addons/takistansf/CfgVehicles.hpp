@@ -102,6 +102,7 @@ class CfgVehicles {
     class TACU_TakistanSF_U_B_Sniper: TACU_TakistanSF_U_B_Rifleman_01 {
         displayName = "Sniper";
         role = "Marksman";
+        sensitivity = 2.25;
         uniformClass = "CUP_U_B_BAF_MTP_UBACSTSHIRTKNEE";
         editorPreview = QPATHTOF(ui\TakistanSF_U_B_Sniper.jpg);
         linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_ShemagOpen_khk", "CUP_V_O_SLA_M23_1_BRN"};

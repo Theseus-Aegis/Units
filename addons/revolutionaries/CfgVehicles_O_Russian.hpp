@@ -11,6 +11,7 @@ class TACU_Revolutionaries_U_O_Russian_Rifleman01: TACU_Main_U_OPFOR_Soldier_Bas
     genericNames = "CUP_Names_RussianMen";
     icon = "iconMan";
     role = "Rifleman";
+    sensitivity = 2;
     uniformClass = "CUP_U_C_Citizen_01";
     backpack = "B_FieldPack_blk";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};
@@ -65,6 +66,9 @@ class TACU_Revolutionaries_U_O_Russian_Rifleman04: TACU_Revolutionaries_U_O_Russ
 
 class TACU_Revolutionaries_U_O_Russian_Paramedic: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Paramedic";
+    icon = "iconManMedic";
+    role = "CombatLifeSaver";
+    attendant = 1;
     uniformClass = "CUP_U_C_Rocker_02";
     weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
@@ -86,6 +90,8 @@ class TACU_Revolutionaries_U_O_Russian_Shotgunner: TACU_Revolutionaries_U_O_Russ
 
 class TACU_Revolutionaries_U_O_Russian_Marksman: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Marksman";
+    role = "Marksman";
+    sensitivity = 2.25;
     uniformClass = "CUP_U_C_Woodlander_04";
     weapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
     respawnWeapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
@@ -118,6 +124,7 @@ class TACU_Revolutionaries_U_O_Russian_SMG02: TACU_Revolutionaries_U_O_Russian_R
 
 class TACU_Revolutionaries_U_O_Russian_Grenadier: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Grenadier";
+    role = "Grenadier";
     uniformClass = "CUP_U_C_Woodlander_02";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
@@ -130,6 +137,8 @@ class TACU_Revolutionaries_U_O_Russian_Grenadier: TACU_Revolutionaries_U_O_Russi
 
 class TACU_Revolutionaries_U_O_Russian_Machinegunner: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Machinegunner";
+    icon = "iconManMG";
+    role = "MachineGunner";
     uniformClass = "CUP_U_C_Worker_02";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
@@ -143,6 +152,8 @@ class TACU_Revolutionaries_U_O_Russian_Machinegunner: TACU_Revolutionaries_U_O_R
 
 class TACU_Revolutionaries_U_O_Russian_Autorifleman: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Autorifleman";
+    icon = "iconManMG";
+    role = "MachineGunner";
     uniformClass = "CUP_U_C_Worker_03";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
@@ -184,6 +195,7 @@ class TACU_Revolutionaries_U_O_Russian_FigureHead: TACU_Revolutionaries_U_O_Russ
 
 class TACU_Revolutionaries_U_O_Russian_Leader: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Leader";
+    icon = "iconManLeader";
     uniformClass = "CUP_U_B_USMC_FROG1_WMARPAT";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_USMC_BOONIE_PRR_WDL", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_USMC_BOONIE_PRR_WDL", "G_Balaclava_blk"};
@@ -199,6 +211,8 @@ class TACU_Revolutionaries_U_O_Russian_Leader: TACU_Revolutionaries_U_O_Russian_
 
 class TACU_Revolutionaries_U_O_Russian_Rocketeer: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Rocketeer";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
     uniformClass = "CUP_U_C_racketeer_01";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
@@ -212,6 +226,9 @@ class TACU_Revolutionaries_U_O_Russian_Rocketeer: TACU_Revolutionaries_U_O_Russi
 
 class TACU_Revolutionaries_U_O_Russian_Saboteur: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
     displayName = "Saboteur";
+    icon = "iconManEngineer";
+    role = "Sapper";
+    engineer = true;
     uniformClass = "CUP_U_C_racketeer_02";
     Items[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
     respawnItems[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
