@@ -48,6 +48,10 @@ Temporary Items
 
 # Release
 releases/*
+hemtt
+hemtt.exe
+.hemtt/local
+x
 
 # Swap
 *.swp
@@ -59,3 +63,4 @@ releases/*
 *.pbo
 texHeaders.bin
 *.biprivatekey
+keys/*

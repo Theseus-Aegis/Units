@@ -4,6 +4,12 @@ class CfgFactionClasses {
         side = 2;
         priority = 2;
     };
+
+    class TACU_Vanguard_O {
+        displayName = "Vanguard PMC";
+        side = 0;
+        priority = 2;
+    };
 };
 
 class CfgEditorSubcategories {

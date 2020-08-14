@@ -11,6 +11,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Main_U_OPFOR_Soldier_Base
     genericNames = "TanoanMen";
     icon = "iconMan";
     role = "Rifleman";
+    sensitivity = 2;
     uniformClass = "U_C_MAN_casual_1_F";
     backpack = "B_FieldPack_green_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};
@@ -65,6 +66,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman04: TACU_Revolutionaries_U_O_Tanoa
 
 class TACU_Revolutionaries_U_O_Tanoan_Paramedic: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Paramedic";
+    icon = "iconManMedic";
+    role = "CombatLifeSaver";
+    attendant = 1;
     uniformClass = "U_C_Poloshirt_burgundy";
     weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
@@ -88,6 +92,8 @@ class TACU_Revolutionaries_U_O_Tanoan_Shotgunner: TACU_Revolutionaries_U_O_Tanoa
 
 class TACU_Revolutionaries_U_O_Tanoan_Marksman: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Marksman";
+    role = "Marksman";
+    sensitivity = 2.25;
     uniformClass = "U_C_MAN_casual_5_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
@@ -120,6 +126,7 @@ class TACU_Revolutionaries_U_O_Tanoan_SMG02: TACU_Revolutionaries_U_O_Tanoan_Rif
 
 class TACU_Revolutionaries_U_O_Tanoan_Grenadier: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Grenadier";
+    role = "Grenadier";
     uniformClass = "U_C_Poloshirt_blue";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
@@ -132,6 +139,8 @@ class TACU_Revolutionaries_U_O_Tanoan_Grenadier: TACU_Revolutionaries_U_O_Tanoan
 
 class TACU_Revolutionaries_U_O_Tanoan_Machinegunner: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Machinegunner";
+    icon = "iconManMG";
+    role = "MachineGunner";
     uniformClass = "U_C_Poloshirt_redwhite";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
@@ -145,6 +154,8 @@ class TACU_Revolutionaries_U_O_Tanoan_Machinegunner: TACU_Revolutionaries_U_O_Ta
 
 class TACU_Revolutionaries_U_O_Tanoan_Autorifleman: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Autorifleman";
+    icon = "iconManMG";
+    role = "MachineGunner";
     uniformClass = "U_C_Poloshirt_salmon";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
@@ -186,6 +197,7 @@ class TACU_Revolutionaries_U_O_Tanoan_FigureHead: TACU_Revolutionaries_U_O_Tanoa
 
 class TACU_Revolutionaries_U_O_Tanoan_Leader: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Leader";
+    icon = "iconManLeader";
     uniformClass = "U_I_C_Soldier_Para_4_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Booniehat_oil", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Booniehat_oil", "G_Balaclava_blk"};
@@ -201,6 +213,8 @@ class TACU_Revolutionaries_U_O_Tanoan_Leader: TACU_Revolutionaries_U_O_Tanoan_Ri
 
 class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Rocketeer";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
     uniformClass = "U_I_C_Soldier_Bandit_1_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
@@ -214,6 +228,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan
 
 class TACU_Revolutionaries_U_O_Tanoan_Saboteur: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Saboteur";
+    icon = "iconManEngineer";
+    role = "Sapper";
+    engineer = true;
     uniformClass = "U_I_C_Soldier_Bandit_5_F";
     Items[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
     respawnItems[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
@@ -226,7 +243,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Saboteur: TACU_Revolutionaries_U_O_Tanoan_
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Pistoleer01: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
-    displayName = "Pistoleer (Garch)";
+    displayName = "Pistoleer (Grach)";
     uniformClass = "U_I_C_Soldier_Bandit_4_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};

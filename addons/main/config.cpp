@@ -47,6 +47,7 @@ class CfgPatches {
             "CUP_TrackedVehicles_BMP",
             "CUP_TrackedVehicles_M113",
             "CUP_TrackedVehicles_M60",
+            "CUP_Weapons_ACR",
             "CUP_Weapons_AK",
             "CUP_Weapons_Ammunition",
             "CUP_Weapons_Backpacks",
@@ -76,6 +77,7 @@ class CfgPatches {
             "CUP_Weapons_SA58",
             "CUP_Weapons_SA61",
             "CUP_Weapons_Scar",
+            "CUP_Weapons_SMAW",
             "CUP_Weapons_SVD",
             "CUP_Weapons_VSS",
             "CUP_Weapons_West_Attachments",
@@ -96,6 +98,8 @@ class CfgPatches {
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_V3S",
             "CUP_WheeledVehicles_Volha",
+            // GT Armory
+            "tacgt_ammunition",
             // NIArms
             "hlcweapons_core",
             "hlcweapons_SG550",

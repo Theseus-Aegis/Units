@@ -5,6 +5,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             "TACU_Vanguard_U_Soldier_Base",
+            // Units - (Indep - Green)
             "TACU_Vanguard_U_Contractor_Green_Autorifleman",
             "TACU_Vanguard_U_Contractor_Green_Driver",
             "TACU_Vanguard_U_Contractor_Green_Engineer",
@@ -15,13 +16,33 @@ class CfgPatches {
             "TACU_Vanguard_U_Contractor_Green_Rifleman_02",
             "TACU_Vanguard_U_Contractor_Green_Rifleman_AT",
             "TACU_Vanguard_U_Contractor_Green_TeamLeader",
+            "TACU_Vanguard_U_Contractor_Pilot",
+            // Units - (Opfor - Green)
+            "TACU_Vanguard_U_O_Contractor_Green_Autorifleman",
+            "TACU_Vanguard_U_O_Contractor_Green_Driver",
+            "TACU_Vanguard_U_O_Contractor_Green_Engineer",
+            "TACU_Vanguard_U_O_Contractor_Green_Grenadier",
+            "TACU_Vanguard_U_O_Contractor_Green_Marksman",
+            "TACU_Vanguard_U_O_Contractor_Green_Medic",
+            "TACU_Vanguard_U_O_Contractor_Green_Rifleman_01",
+            "TACU_Vanguard_U_O_Contractor_Green_Rifleman_02",
+            "TACU_Vanguard_U_O_Contractor_Green_Rifleman_AT",
+            "TACU_Vanguard_U_O_Contractor_Green_TeamLeader",
+            // Units - (Indep - Guards)
             "TACU_Vanguard_U_Guard_Rifleman_01",
             "TACU_Vanguard_U_Guard_Rifleman_02",
             "TACU_Vanguard_U_Guard_Rifleman_03",
             "TACU_Vanguard_U_Guard_Rifleman_04",
             "TACU_Vanguard_U_Guard_Rifleman_05",
             "TACU_Vanguard_U_Guard_Rifleman_06",
-            "TACU_Vanguard_U_Contractor_Pilot",
+            // Units - (Opfor - Guards)
+            "TACU_Vanguard_U_O_Guard_Rifleman_01",
+            "TACU_Vanguard_U_O_Guard_Rifleman_02",
+            "TACU_Vanguard_U_O_Guard_Rifleman_03",
+            "TACU_Vanguard_U_O_Guard_Rifleman_04",
+            "TACU_Vanguard_U_O_Guard_Rifleman_05",
+            "TACU_Vanguard_U_O_Guard_Rifleman_06",
+            // Units - (Indep - Sand)
             "TACU_Vanguard_U_Contractor_Sand_Autorifleman",
             "TACU_Vanguard_U_Contractor_Sand_Driver",
             "TACU_Vanguard_U_Contractor_Sand_Engineer",
@@ -32,6 +53,18 @@ class CfgPatches {
             "TACU_Vanguard_U_Contractor_Sand_Rifleman_02",
             "TACU_Vanguard_U_Contractor_Sand_Rifleman_AT",
             "TACU_Vanguard_U_Contractor_Sand_TeamLeader",
+            // Units - (Opfor - Sand)
+            "TACU_Vanguard_U_O_Contractor_Sand_Autorifleman",
+            "TACU_Vanguard_U_O_Contractor_Sand_Driver",
+            "TACU_Vanguard_U_O_Contractor_Sand_Engineer",
+            "TACU_Vanguard_U_O_Contractor_Sand_Grenadier",
+            "TACU_Vanguard_U_O_Contractor_Sand_Marksman",
+            "TACU_Vanguard_U_O_Contractor_Sand_Medic",
+            "TACU_Vanguard_U_O_Contractor_Sand_Rifleman_01",
+            "TACU_Vanguard_U_O_Contractor_Sand_Rifleman_02",
+            "TACU_Vanguard_U_O_Contractor_Sand_Rifleman_AT",
+            "TACU_Vanguard_U_O_Contractor_Sand_TeamLeader",
+            // Units - (Indep - Winter)
             "TACU_Vanguard_U_Contractor_Winter_Autorifleman",
             "TACU_Vanguard_U_Contractor_Winter_Grenadier",
             "TACU_Vanguard_U_Contractor_Winter_Marksman",
@@ -40,6 +73,16 @@ class CfgPatches {
             "TACU_Vanguard_U_Contractor_Winter_Rifleman_02",
             "TACU_Vanguard_U_Contractor_Winter_Rifleman_AT",
             "TACU_Vanguard_U_Contractor_Winter_TeamLeader",
+            // Units - (Opfor - Winter)
+            "TACU_Vanguard_U_O_Contractor_Winter_Autorifleman",
+            "TACU_Vanguard_U_O_Contractor_Winter_Grenadier",
+            "TACU_Vanguard_U_O_Contractor_Winter_Marksman",
+            "TACU_Vanguard_U_O_Contractor_Winter_Medic",
+            "TACU_Vanguard_U_O_Contractor_Winter_Rifleman_01",
+            "TACU_Vanguard_U_O_Contractor_Winter_Rifleman_02",
+            "TACU_Vanguard_U_O_Contractor_Winter_Rifleman_AT",
+            "TACU_Vanguard_U_O_Contractor_Winter_TeamLeader",
+            // Units - (Indep - Specialists)
             "TACU_Vanguard_U_Specialist_Rifleman",
             "TACU_Vanguard_U_Specialist_Rifleman_AT",
             "TACU_Vanguard_U_Specialist_Grenadier",
@@ -48,6 +91,16 @@ class CfgPatches {
             "TACU_Vanguard_U_Specialist_TeamLeader",
             "TACU_Vanguard_U_Specialist_Autorifleman",
             "TACU_Vanguard_U_Specialist_Medic",
+            // Units - (Opfor - Specialists)
+            "TACU_Vanguard_U_O_Specialist_Rifleman",
+            "TACU_Vanguard_U_O_Specialist_Rifleman_AT",
+            "TACU_Vanguard_U_O_Specialist_Grenadier",
+            "TACU_Vanguard_U_O_Specialist_Marksman",
+            "TACU_Vanguard_U_O_Specialist_Driver",
+            "TACU_Vanguard_U_O_Specialist_TeamLeader",
+            "TACU_Vanguard_U_O_Specialist_Autorifleman",
+            "TACU_Vanguard_U_O_Specialist_Medic",
+            // Vehicles - (Indep)
             "TACU_Vanguard_V_UH80_Ghosthawk",
             "TACU_Vanguard_V_AH9_Pawnee",
             "TACU_Vanguard_V_Offroad_Armed",
@@ -55,7 +108,16 @@ class CfgPatches {
             "TACU_Vanguard_V_Strider",
             "TACU_Vanguard_V_AFV4_Gorgon",
             "TACU_Vanguard_V_Prowler",
-            "TACU_Vanguard_V_Qilin"
+            "TACU_Vanguard_V_Qilin",
+            // Vehicles - (Opfor)
+            "TACU_Vanguard_V_O_UH80_Ghosthawk",
+            "TACU_Vanguard_V_O_AH9_Pawnee",
+            "TACU_Vanguard_V_O_Offroad_Armed",
+            "TACU_Vanguard_V_O_Hunter",
+            "TACU_Vanguard_V_O_Strider",
+            "TACU_Vanguard_V_O_AFV4_Gorgon",
+            "TACU_Vanguard_V_O_Prowler",
+            "TACU_Vanguard_V_O_Qilin"
         };
         weapons[] = {
             "TACU_Vanguard_W_MXM_Black",

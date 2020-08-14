@@ -11,6 +11,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Main_U_INDEP_Soldier_Base
     genericNames = "TanoanMen";
     icon = "iconMan";
     role = "Rifleman";
+    sensitivity = 2;
     uniformClass = "U_C_MAN_casual_1_F";
     backpack = "B_FieldPack_green_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
@@ -53,6 +54,9 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman03: TACU_Revolutionaries_U_I_Tanoa
 
 class TACU_Revolutionaries_U_I_Tanoan_Paramedic: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Paramedic";
+    icon = "iconManMedic";
+    role = "CombatLifeSaver";
+    attendant = 1;
     uniformClass = "U_C_Poloshirt_burgundy";
     weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
@@ -74,6 +78,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Shotgunner: TACU_Revolutionaries_U_I_Tanoa
 
 class TACU_Revolutionaries_U_I_Tanoan_Marksman: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Marksman";
+    role = "Marksman";
+    sensitivity = 2.25;
     uniformClass = "U_C_MAN_casual_5_F";
     weapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
     respawnWeapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
@@ -83,7 +89,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Marksman: TACU_Revolutionaries_U_I_Tanoan_
 };
 
 class TACU_Revolutionaries_U_I_Tanoan_Pistoleer01: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
-    displayName = "Pistoleer (Garch)";
+    displayName = "Pistoleer (Grach)";
     uniformClass = "U_I_C_Soldier_Bandit_1_F";
     backpack = "";
     weapons[] = {"hgun_Rook40_F", "Throw", "Put"};
@@ -147,6 +153,7 @@ class TACU_Revolutionaries_U_I_Tanoan_FigureHead: TACU_Revolutionaries_U_I_Tanoa
 
 class TACU_Revolutionaries_U_I_Tanoan_Leader: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Leader";
+    icon = "iconManLeader";
     uniformClass = "U_BG_Guerilla3_1";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Booniehat_khk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Booniehat_khk"};

@@ -10,6 +10,7 @@ class TACU_Cartel_U_O_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     genericNames = "TanoanMen";
     icon = "iconMan";
     role = "Rifleman";
+    sensitivity = 2;
     uniformClass = "tacs_Uniform_Polo_TP_BS_LP_BB_NoLogo";
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
@@ -99,6 +100,8 @@ class TACU_Cartel_U_O_Soldado_Driver: TACU_Cartel_U_O_Soldado_Rifleman_01 {
 
 class TACU_Cartel_U_O_Soldado_Rifleman_AT: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     displayName = "Soldado (AT)";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
     uniformClass = "tacs_Uniform_Polo_TP_BS_TP_TB_NoLogo";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
@@ -111,6 +114,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_AT: TACU_Cartel_U_O_Soldado_Rifleman_01 {
 
 class TACU_Cartel_U_O_Soldado_Rifleman_MG: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     displayName = "Soldado (RPK)";
+    icon = "iconManMG";
+    role = "MachineGunner";
     uniformClass = "tacs_Uniform_Polo_TP_BS_TP_TB_NoLogo";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
