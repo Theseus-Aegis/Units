@@ -8,7 +8,7 @@ class EAST {
                 name = "Patrol";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Green_Rifleman_01";
                     side = 0;
@@ -27,7 +27,7 @@ class EAST {
                 name = "Fireteam";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Green_TeamLeader";
                     side = 0;
@@ -58,7 +58,7 @@ class EAST {
                 name = "Squad";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Green_TeamLeader";
                     side = 0;
@@ -104,7 +104,7 @@ class EAST {
                 name = "Patrol";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Sand_Rifleman_01";
                     side = 0;
@@ -123,7 +123,7 @@ class EAST {
                 name = "Fireteam";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Sand_TeamLeader";
                     side = 0;
@@ -154,7 +154,7 @@ class EAST {
                 name = "Squad";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Sand_TeamLeader";
                     side = 0;
@@ -200,7 +200,7 @@ class EAST {
                 name = "Patrol";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Winter_Rifleman_01";
                     side = 0;
@@ -219,7 +219,7 @@ class EAST {
                 name = "Fireteam";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Winter_TeamLeader";
                     side = 0;
@@ -250,7 +250,7 @@ class EAST {
                 name = "Squad";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Contractor_Winter_TeamLeader";
                     side = 0;
@@ -296,7 +296,7 @@ class EAST {
                 name = "Patrol";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Specialist_Rifleman";
                     side = 0;
@@ -315,7 +315,7 @@ class EAST {
                 name = "Fireteam";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Specialist_TeamLeader";
                     side = 0;
@@ -346,7 +346,7 @@ class EAST {
                 name = "Squad";
                 side = 0;
                 faction = "TACU_Vanguard_O";
-                icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+                icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
                 class unit0 {
                     vehicle = "TACU_Vanguard_U_O_Specialist_TeamLeader";
                     side = 0;
