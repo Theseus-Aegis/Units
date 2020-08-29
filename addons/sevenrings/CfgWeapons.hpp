@@ -1,0 +1,54 @@
+class CfgWeapons {
+class CUP_CZ_BREN2_556_14;
+class CUP_CZ_BREN2_556_14_GL;
+class CUP_arifle_ACRC_blk_556;
+class CUP_arifle_AK101_railed;
+class CUP_arifle_AK103_GL_railed;
+class CUP_arifle_AK103_railed;
+class CUP_arifle_AK104_railed;
+class CUP_arifle_AK107_railed;
+class CUP_arifle_AK108_railed;
+class CUP_arifle_AK109_railed;
+class CUP_arifle_AKMN_railed_afg;
+class CUP_arifle_AKS74U_railed;
+class CUP_arifle_AKS74_GL_top_rail;
+class CUP_arifle_AKS_top_rail;
+class CUP_arifle_DSA_SA58_OSW_M203;
+class CUP_arifle_DSA_SA58_OSW_VFG;
+class CUP_arifle_FNFAL5061_railed;
+class CUP_arifle_G36K_RIS;
+class CUP_arifle_G36K_RIS_AG36;
+class CUP_arifle_G3A3_ris_black;
+class CUP_arifle_HK416_Black;
+class CUP_arifle_M4A1_black;
+class CUP_arifle_Mk16_STD_AFG_black;
+class CUP_arifle_RPK74_top_rail;
+class CUP_arifle_SR3M_Vikhr_VFG_top_rail;
+class CUP_arifle_TYPE_56_2;
+class CUP_lmg_MG3_rail;
+class CUP_sgun_M1014;
+class CUP_sgun_Saiga12K_top_rail;
+class CUP_smg_EVO;
+class CUP_srifle_SVD;
+class LMG_03_F;
+class LMG_Mk200_F;
+class SMG_01_F;
+class arifle_AK12U_F;
+class arifle_AK12_F;
+class arifle_Katiba_F;
+class arifle_MX_SW_Black_F;
+class arifle_RPK12_F;
+class arifle_SPAR_03_blk_F;
+class hlc_rifle_SG551SB_TAC;
+class hlc_rifle_auga2_b;
+class hlc_rifle_auga3_b;
+class hlc_rifle_mk18mod0;
+class hlc_rifle_sg553RSB_TAC;
+class srifle_DMR_03_F;
+class srifle_DMR_05_blk_F;
+class srifle_DMR_07_blk_F;
+
+#include "CfgWeapons_Western.hpp"
+#include "CfgWeapons_Eastern.hpp"
+
+};
