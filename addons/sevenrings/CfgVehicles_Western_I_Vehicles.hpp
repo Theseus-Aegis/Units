@@ -33,10 +33,6 @@ class TACU_Seven_Rings_V_I_CH47_Chinook_Armed: B_Heli_Transport_03_F {
         "TACU_Seven_Rings_U_I_Western_Pilot_01",
         "TACU_Seven_Rings_U_I_Western_Engineer_02"
     };
-    hiddenSelectionsTextures[] = {
-        "\A3\Air_F_Heli\Heli_Transport_03\Data\Heli_Transport_03_ext01_black_CO.paa",
-        "\a3\air_f_heli\heli_transport_03\data\heli_transport_03_ext02_black_co.paa"
-    };
     editorPreview = QPATHTOF(ui\Seven_Rings_V_I_CH47_Chinook_Armed.jpg);
 };
 

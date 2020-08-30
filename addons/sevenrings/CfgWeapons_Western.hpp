@@ -232,7 +232,6 @@ class TACU_SR_W_West_QBU_88_DMR: srifle_DMR_07_blk_F {
     SR_SCOPE_MACRO
     class LinkedItems {
         EQUIP_OPTIC(optic_dms);
-        EQUIP_POINTER(tacgt_anpeq_15_light_black);
         EQUIP_MUZZLE(ace_muzzle_mzls_h);
         EQUIP_BIPOD(bipod_01_f_blk);
     };
