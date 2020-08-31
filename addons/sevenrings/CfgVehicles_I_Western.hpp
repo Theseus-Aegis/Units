@@ -32,35 +32,33 @@ class TACU_Seven_Rings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_PMAG"),
+        mag_9("tacgt_30Rnd_556x45_M995_PMAG"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_PMAG"),
+        mag_9("tacgt_30Rnd_556x45_M995_PMAG"),
         SR_WEST_MAGAZINE_MACRO
     };
     headgearList[] = {
-        "H_Watchcap_blk", 0.50,
-        "H_Cap_blk_CMMG", 0.50,
+        "H_Watchcap_blk", 0.25,
+        "H_Cap_blk_CMMG", 0.25,
         "H_HelmetB_black", 0.50,
         "H_HelmetB", 0.50,
         "H_HelmetSpecB", 0.50,
         "H_HelmetSpecB_blk", 0.50,
         "H_HelmetB_light", 0.50,
         "H_HelmetB_light_black", 0.50,
-        "H_Booniehat_khk", 0.50,
-        "", 0.50
+        "H_Booniehat_khk", 0.25
     };
     CBA_facewearList[] = {
         "G_Aviator", 0.50,
-        "G_Balaclava_blk", 0.50,
+        "G_Balaclava_blk", 0.10,
         "G_Bandanna_aviator", 0.50,
         "G_Spectacles", 0.50,
         "G_Shades_Black", 0.50,
-        "CUP_RUS_Balaclava_grn", 0.50,
+        "CUP_RUS_Balaclava_grn", 0.10,
         "CUP_FR_NeckScarf3", 0.50,
-        "CUP_FR_NeckScarf", 0.50,
-        "", 0.50
+        "CUP_FR_NeckScarf", 0.50
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Eastern_Rifleman_01.jpg);
 };
@@ -77,11 +75,11 @@ class TACU_Seven_Rings_U_I_Western_Rifleman_02: TACU_Seven_Rings_U_I_Western_Rif
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_6("tacgt_30Rnd_762x51_FAL_AP_Mag"),
+        mag_8("tacgt_30Rnd_762x51_FAL_AP_Mag"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_6("tacgt_30Rnd_762x51_FAL_AP_Mag"),
+        mag_8("tacgt_30Rnd_762x51_FAL_AP_Mag"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_Rifleman_02.jpg);
@@ -99,11 +97,11 @@ class TACU_Seven_Rings_U_I_Western_Rifleman_03: TACU_Seven_Rings_U_I_Western_Rif
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_G36"),
+        mag_8("tacgt_30Rnd_556x45_M995_G36"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_G36"),
+        mag_8("tacgt_30Rnd_556x45_M995_G36"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_Rifleman_03.jpg);
@@ -130,12 +128,12 @@ class TACU_Seven_Rings_U_I_Western_Grenadier_01: TACU_Seven_Rings_U_I_Western_Ri
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_EMAG"),
+        mag_8("tacgt_30Rnd_556x45_M995_EMAG"),
         mag_4("1Rnd_HE_Grenade_shell"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_EMAG"),
+        mag_8("tacgt_30Rnd_556x45_M995_EMAG"),
         mag_4("1Rnd_HE_Grenade_shell"),
         SR_WEST_MAGAZINE_MACRO
     };
@@ -154,12 +152,12 @@ class TACU_Seven_Rings_U_I_Western_Grenadier_02: TACU_Seven_Rings_U_I_Western_Gr
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_6("tacgt_30Rnd_762x51_FAL_AP_Mag"),
+        mag_8("tacgt_30Rnd_762x51_FAL_AP_Mag"),
         mag_4("1Rnd_HE_Grenade_shell"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_6("tacgt_30Rnd_762x51_FAL_AP_Mag"),
+        mag_8("tacgt_30Rnd_762x51_FAL_AP_Mag"),
         mag_4("1Rnd_HE_Grenade_shell"),
         SR_WEST_MAGAZINE_MACRO
     };
@@ -178,12 +176,12 @@ class TACU_Seven_Rings_U_I_Western_Grenadier_03: TACU_Seven_Rings_U_I_Western_Gr
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_G36"),
+        mag_8("tacgt_30Rnd_556x45_M995_G36"),
         mag_4("1Rnd_HE_Grenade_shell"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_G36"),
+        mag_8("tacgt_30Rnd_556x45_M995_G36"),
         mag_4("1Rnd_HE_Grenade_shell"),
         SR_WEST_MAGAZINE_MACRO
     };
@@ -216,12 +214,12 @@ class TACU_Seven_Rings_U_I_Western_AT_01: TACU_Seven_Rings_U_I_Western_Rifleman_
     };
     magazines[] = {
         "MRAWS_HEAT_F",
-        mag_6("tacgt_30Rnd_762x39_AK12_BP_Mag"),
+        mag_8("tacgt_30Rnd_762x39_AK12_BP_Mag"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
         "MRAWS_HEAT_F",
-        mag_6("tacgt_30Rnd_762x39_AK12_BP_Mag"),
+        mag_8("tacgt_30Rnd_762x39_AK12_BP_Mag"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_AT_01.jpg);
@@ -243,12 +241,12 @@ class TACU_Seven_Rings_U_I_Western_AT_02: TACU_Seven_Rings_U_I_Western_AT_01 {
     };
     magazines[] = {
         "RPG32_F",
-        mag_6("tacgt_30Rnd_556x45_M995_EMAG"),
+        mag_8("tacgt_30Rnd_556x45_M995_EMAG"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
         "RPG32_F",
-        mag_6("tacgt_30Rnd_556x45_M995_EMAG"),
+        mag_8("tacgt_30Rnd_556x45_M995_EMAG"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_AT_02.jpg);
@@ -269,11 +267,11 @@ class TACU_Seven_Rings_U_I_Western_AT_03: TACU_Seven_Rings_U_I_Western_AT_01 {
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_EMAG"),
+        mag_8("tacgt_30Rnd_556x45_M995_EMAG"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_6("tacgt_30Rnd_556x45_M995_EMAG"),
+        mag_8("tacgt_30Rnd_556x45_M995_EMAG"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_AT_03.jpg);
@@ -301,11 +299,11 @@ class TACU_Seven_Rings_U_I_Western_MG_01: TACU_Seven_Rings_U_I_Western_Rifleman_
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_3("200Rnd_65x39_cased_Box_Red"),
+        mag_4("200Rnd_65x39_cased_Box_Red"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_3("200Rnd_65x39_cased_Box_Red"),
+        mag_4("200Rnd_65x39_cased_Box_Red"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_MG_01.jpg);
@@ -323,11 +321,11 @@ class TACU_Seven_Rings_U_I_Western_MG_02: TACU_Seven_Rings_U_I_Western_MG_01 {
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_3("tacgt_200Rnd_556x45_M855A1_Box_Red"),
+        mag_4("tacgt_200Rnd_556x45_M855A1_Box_Red"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_3("tacgt_200Rnd_556x45_M855A1_Box_Red"),
+        mag_4("tacgt_200Rnd_556x45_M855A1_Box_Red"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_MG_02.jpg);
@@ -345,11 +343,11 @@ class TACU_Seven_Rings_U_I_Western_MG_03: TACU_Seven_Rings_U_I_Western_MG_01 {
         SR_WEST_WEAPON_MACRO
     };
     magazines[] = {
-        mag_4("100Rnd_65x39_caseless_black_mag"),
+        mag_5("100Rnd_65x39_caseless_black_mag"),
         SR_WEST_MAGAZINE_MACRO
     };
     respawnMagazines[] = {
-        mag_4("100Rnd_65x39_caseless_black_mag"),
+        mag_5("100Rnd_65x39_caseless_black_mag"),
         SR_WEST_MAGAZINE_MACRO
     };
     editorPreview = QPATHTOF(ui\Seven_Rings_U_I_Western_MG_03.jpg);
