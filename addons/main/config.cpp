@@ -74,9 +74,9 @@ class CfgPatches {
             "CUP_Weapons_M24",
             "CUP_Weapons_M60E4",
             "CUP_Weapons_M9",
+            "CUP_Weapons_MG3",
             "CUP_Weapons_MP5",
             "CUP_Weapons_MP7",
-            "CUP_Weapons_MG3",
             "CUP_Weapons_PK",
             "CUP_Weapons_RPG7",
             "CUP_Weapons_SA58",
@@ -105,15 +105,15 @@ class CfgPatches {
             "CUP_WheeledVehicles_UpHMMWV",
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_V3S",
-            "CUP_WheeledVehicles_Volha",
             "CUP_WheeledVehicles_Vodnik",
+            "CUP_WheeledVehicles_Volha",
             // GT Armory
             "tacgt_ammunition",
             "tacgt_flashlight",
             // NIArms
             "hlcweapons_core",
-            "hlcweapons_AUG",
             "hlcweapons_ar15",
+            "hlcweapons_AUG",
             "hlcweapons_SG550",
             // Military Gear Pack
             "milgp_headgear_cfg",

@@ -84,7 +84,7 @@ class TACU_SevenRings_G_O_Eastern {
             position[] = {-5, -5, 0};
         };
         class unit3 {
-            vehicle = "TACU_SevenRings_U_O_Eastern_MG_01";
+            vehicle = "TACU_SevenRings_U_O_Eastern_Autorifleman_01";
             side = 0;
             rank = "PRIVATE";
             position[] = {10, -10, 0};
@@ -115,7 +115,7 @@ class TACU_SevenRings_G_O_Eastern {
             position[] = {-5, -5, 0};
         };
         class unit3 {
-            vehicle = "TACU_SevenRings_U_O_Eastern_MG_02";
+            vehicle = "TACU_SevenRings_U_O_Eastern_Autorifleman_02";
             side = 0;
             rank = "PRIVATE";
             position[] = {10, -10, 0};
@@ -146,7 +146,7 @@ class TACU_SevenRings_G_O_Eastern {
             position[] = {-5, -5, 0};
         };
         class unit3 {
-            vehicle = "TACU_SevenRings_U_O_Eastern_MG_03";
+            vehicle = "TACU_SevenRings_U_O_Eastern_Autorifleman_03";
             side = 0;
             rank = "PRIVATE";
             position[] = {10, -10, 0};
@@ -196,7 +196,7 @@ class TACU_SevenRings_G_O_Eastern {
             position[] = {15, -15, 0};
         };
         class unit6 {
-            vehicle = "TACU_SevenRings_U_O_Eastern_MG_01";
+            vehicle = "TACU_SevenRings_U_O_Eastern_Autorifleman_01";
             side = 0;
             rank = "PRIVATE";
             position[] = {-15, -15, 0};
@@ -251,7 +251,7 @@ class TACU_SevenRings_G_O_Eastern {
             position[] = {15, -15, 0};
         };
         class unit6 {
-            vehicle = "TACU_SevenRings_U_O_Eastern_MG_02";
+            vehicle = "TACU_SevenRings_U_O_Eastern_Autorifleman_02";
             side = 0;
             rank = "PRIVATE";
             position[] = {-15, -15, 0};
@@ -306,7 +306,7 @@ class TACU_SevenRings_G_O_Eastern {
             position[] = {15, -15, 0};
         };
         class unit6 {
-            vehicle = "TACU_SevenRings_U_O_Eastern_MG_03";
+            vehicle = "TACU_SevenRings_U_O_Eastern_Autorifleman_03";
             side = 0;
             rank = "PRIVATE";
             position[] = {-15, -15, 0};

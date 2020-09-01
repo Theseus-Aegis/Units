@@ -3,7 +3,7 @@
 #include "\x\tacu\addons\main\script_mod.hpp"
 #include "\x\tacu\addons\main\script_macros.hpp"
 
-#define MACRO_SCOPE \
+#define MACRO_SCOPE_HIDE \
     scope = 1; \
     scopeCurator = 1;
 

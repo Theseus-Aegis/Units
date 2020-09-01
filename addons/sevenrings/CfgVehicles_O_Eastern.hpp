@@ -22,27 +22,27 @@ class TACU_SevenRings_U_O_Eastern_Grenadier_03: TACU_SevenRings_U_I_Eastern_Gren
     MACRO_OPFOR_EAST_SIDE
 };
 
-class TACU_SevenRings_U_O_Eastern_AT_01: TACU_SevenRings_U_I_Eastern_AT_01 {
+class TACU_SevenRings_U_O_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Rifleman_AT_01 {
     MACRO_OPFOR_EAST_SIDE
 };
 
-class TACU_SevenRings_U_O_Eastern_AT_02: TACU_SevenRings_U_I_Eastern_AT_02 {
+class TACU_SevenRings_U_O_Eastern_Rifleman_AT_02: TACU_SevenRings_U_I_Eastern_Rifleman_AT_02 {
     MACRO_OPFOR_EAST_SIDE
 };
 
-class TACU_SevenRings_U_O_Eastern_AT_03: TACU_SevenRings_U_I_Eastern_AT_03 {
+class TACU_SevenRings_U_O_Eastern_Rifleman_AT_03: TACU_SevenRings_U_I_Eastern_Rifleman_AT_03 {
     MACRO_OPFOR_EAST_SIDE
 };
 
-class TACU_SevenRings_U_O_Eastern_MG_01: TACU_SevenRings_U_I_Eastern_MG_01 {
+class TACU_SevenRings_U_O_Eastern_Autorifleman_01: TACU_SevenRings_U_I_Eastern_Autorifleman_01 {
     MACRO_OPFOR_EAST_SIDE
 };
 
-class TACU_SevenRings_U_O_Eastern_MG_02: TACU_SevenRings_U_I_Eastern_MG_02 {
+class TACU_SevenRings_U_O_Eastern_Autorifleman_02: TACU_SevenRings_U_I_Eastern_Autorifleman_02 {
     MACRO_OPFOR_EAST_SIDE
 };
 
-class TACU_SevenRings_U_O_Eastern_MG_03: TACU_SevenRings_U_I_Eastern_MG_03 {
+class TACU_SevenRings_U_O_Eastern_Autorifleman_03: TACU_SevenRings_U_I_Eastern_Autorifleman_03 {
     MACRO_OPFOR_EAST_SIDE
 };
 

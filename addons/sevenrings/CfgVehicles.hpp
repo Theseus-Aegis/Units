@@ -45,12 +45,12 @@ class CfgVehicles {
     class CUP_O_DSHKM_TK_INS;
 
     #include "CfgVehicles_Backpacks.hpp"
-    #include "CfgVehicles_I_Western.hpp"
-    #include "CfgVehicles_O_Western.hpp"
     #include "CfgVehicles_I_Eastern.hpp"
+    #include "CfgVehicles_I_Eastern_Vehicles.hpp"
+    #include "CfgVehicles_I_Western.hpp"
+    #include "CfgVehicles_I_Western_Vehicles.hpp"
     #include "CfgVehicles_O_Eastern.hpp"
-    #include "CfgVehicles_Western_I_Vehicles.hpp"
-    #include "CfgVehicles_Western_O_Vehicles.hpp"
-    #include "CfgVehicles_Eastern_I_Vehicles.hpp"
-    #include "CfgVehicles_Eastern_O_Vehicles.hpp"
+    #include "CfgVehicles_O_Eastern_Vehicles.hpp"
+    #include "CfgVehicles_O_Western.hpp"
+    #include "CfgVehicles_O_Western_Vehicles.hpp"
 };

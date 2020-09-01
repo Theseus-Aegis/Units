@@ -183,7 +183,7 @@ class TACU_SevenRings_U_I_Eastern_Grenadier_03: TACU_SevenRings_U_I_Eastern_Gren
     editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Grenadier_03.jpg);
 };
 
-class TACU_SevenRings_U_I_Eastern_AT_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
+class TACU_SevenRings_U_I_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Rifleman AT (M136)";
     icon = "iconManAT";
     role = "MissileSpecialist";
@@ -197,82 +197,82 @@ class TACU_SevenRings_U_I_Eastern_AT_01: TACU_SevenRings_U_I_Eastern_Rifleman_01
         "milgp_v_marciras_hgunner_cb"
     };
     weapons[] = {
-        "CUP_launch_M136",
         "TACU_SevenRings_W_East_AK101",
+        "CUP_launch_M136",
         MACRO_EAST_DEFAULT_WEAPON
     };
     respawnWeapons[] = {
-        "CUP_launch_M136",
         "TACU_SevenRings_W_East_AK101",
+        "CUP_launch_M136",
         MACRO_EAST_DEFAULT_WEAPON
     };
     magazines[] = {
-        "CUP_M136_M",
         mag_9("tacgt_30Rnd_556x45_M995_AK"),
+        "CUP_M136_M",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
     respawnMagazines[] = {
-        "CUP_M136_M",
         mag_9("tacgt_30Rnd_556x45_M995_AK"),
+        "CUP_M136_M",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_AT_01.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Rifleman_AT_01.jpg);
 };
 
-class TACU_SevenRings_U_I_Eastern_AT_02: TACU_SevenRings_U_I_Eastern_AT_01 {
+class TACU_SevenRings_U_I_Eastern_Rifleman_AT_02: TACU_SevenRings_U_I_Eastern_Rifleman_AT_01 {
     displayName = "Rifleman AT (RPG-18)";
     uniformClass = "CUP_U_C_racketeer_01";
     weapons[] = {
-        "CUP_launch_RPG18",
         "TACU_SevenRings_W_East_AK15K",
+        "CUP_launch_RPG18",
         MACRO_EAST_DEFAULT_WEAPON
     };
     respawnWeapons[] = {
-        "CUP_launch_RPG18",
         "TACU_SevenRings_W_East_AK15K",
+        "CUP_launch_RPG18",
         MACRO_EAST_DEFAULT_WEAPON
     };
     magazines[] = {
-        "CUP_RPG18_M",
         mag_9("tacgt_30Rnd_762x39_BP_Mag"),
+        "CUP_RPG18_M",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
     respawnMagazines[] = {
-        "CUP_RPG18_M",
         mag_9("tacgt_30Rnd_762x39_BP_Mag"),
+        "CUP_RPG18_M",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_AT_02.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Rifleman_AT_02.jpg);
 };
 
-class TACU_SevenRings_U_I_Eastern_AT_03: TACU_SevenRings_U_I_Eastern_AT_01 {
+class TACU_SevenRings_U_I_Eastern_Rifleman_AT_03: TACU_SevenRings_U_I_Eastern_Rifleman_AT_01 {
     displayName = "Rifleman AT (RPG-7)";
     uniformClass = "CUP_O_TKI_Khet_Partug_04";
     backpack = "TACU_SevenRings_B_AT_Fieldpack_RPG7";
     weapons[] = {
-        "launch_RPG7_F",
         "TACU_SevenRings_W_East_AKMN_AFG",
+        "launch_RPG7_F",
         MACRO_EAST_DEFAULT_WEAPON
     };
     respawnWeapons[] = {
-        "launch_RPG7_F",
         "TACU_SevenRings_W_East_AKMN_AFG",
+        "launch_RPG7_F",
         MACRO_EAST_DEFAULT_WEAPON
     };
     magazines[] = {
-        "RPG7_F",
         mag_9("tacgt_30Rnd_762x39_BP_Mag"),
+        "RPG7_F",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
     respawnMagazines[] = {
-        "RPG7_F",
         mag_9("tacgt_30Rnd_762x39_BP_Mag"),
+        "RPG7_F",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_AT_03.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Rifleman_AT_03.jpg);
 };
 
-class TACU_SevenRings_U_I_Eastern_MG_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
+class TACU_SevenRings_U_I_Eastern_Autorifleman_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Autorifleman (RPK-12)";
     icon = "iconManMG";
     role = "MachineGunner";
@@ -301,10 +301,10 @@ class TACU_SevenRings_U_I_Eastern_MG_01: TACU_SevenRings_U_I_Eastern_Rifleman_01
         mag_5("tacgt_75Rnd_762x39_RPK_BP_Mag"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_MG_01.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Autorifleman_01.jpg);
 };
 
-class TACU_SevenRings_U_I_Eastern_MG_02: TACU_SevenRings_U_I_Eastern_MG_01 {
+class TACU_SevenRings_U_I_Eastern_Autorifleman_02: TACU_SevenRings_U_I_Eastern_Autorifleman_01 {
     displayName = "Autorifleman (RPK-74)";
     uniformClass = "CUP_O_TKI_Khet_Partug_01";
     weapons[] = {
@@ -323,10 +323,10 @@ class TACU_SevenRings_U_I_Eastern_MG_02: TACU_SevenRings_U_I_Eastern_MG_01 {
         mag_5("tacgt_75Rnd_762x39_RPK_BP_Mag"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_MG_02.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Autorifleman_02.jpg);
 };
 
-class TACU_SevenRings_U_I_Eastern_MG_03: TACU_SevenRings_U_I_Eastern_MG_01 {
+class TACU_SevenRings_U_I_Eastern_Autorifleman_03: TACU_SevenRings_U_I_Eastern_Autorifleman_01 {
     displayName = "Autorifleman (MG3)";
     uniformClass = "CUP_O_TKI_Khet_Partug_01";
     weapons[] = {
@@ -345,7 +345,7 @@ class TACU_SevenRings_U_I_Eastern_MG_03: TACU_SevenRings_U_I_Eastern_MG_01 {
         mag_4("CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_MG_03.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Autorifleman_03.jpg);
 };
 
 class TACU_SevenRings_U_I_Eastern_Medic_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -739,7 +739,7 @@ class TACU_SevenRings_U_I_Eastern_Marksman_03: TACU_SevenRings_U_I_Eastern_Marks
 };
 
 class TACU_SevenRings_U_I_Eastern_AA_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
-    displayName = "Rifleman AA (Stinger)";
+    displayName = "AA Specialist (Stinger)";
     icon = "iconManAT";
     role = "MissileSpecialist";
     uniformClass = "CUP_O_TKI_Khet_Partug_04";
