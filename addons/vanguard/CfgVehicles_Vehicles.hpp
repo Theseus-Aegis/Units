@@ -104,7 +104,12 @@ class TACU_Vanguard_V_AFV4_Gorgon: I_APC_Wheeled_03_cannon_F {
     displayName = "AFV-4 Gorgon (Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
-    hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_V_AFV4_Gorgon_CO.paa), "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext2_co.paa", "A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa", "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"};
+    hiddenSelectionsTextures[] = {
+        "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_co.paa",
+        "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext2_co.paa",
+        "A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
+        "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"
+    };
     editorPreview = QPATHTOF(ui\Vanguard_V_AFV4_Gorgon.jpg);
 };
 
@@ -124,7 +129,10 @@ class TACU_Vanguard_V_Hunter: B_MRAP_01_F {
     displayName = "Hunter (Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
-    hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_V_Hunter_ext01_CO.paa), QPATHTOF(data\Vanguard_V_Hunter_ext02_CO.paa)};
+    hiddenSelectionsTextures[] = {
+        QPATHTOF(data\Vanguard_V_Hunter_ext01_CO.paa),
+        QPATHTOF(data\Vanguard_V_Hunter_ext02_CO.paa)
+    };
     editorPreview = QPATHTOF(ui\Vanguard_V_Hunter.jpg);
 };
 
