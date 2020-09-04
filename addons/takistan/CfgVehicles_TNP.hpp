@@ -12,8 +12,8 @@ class TACU_Takistan_U_TNP_Officer: TACU_Main_U_INDEP_Soldier_Base {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket1_03", "CUP_H_TKI_Pakol_2_02"};
     weapons[] = {"CUP_arifle_AKMS_Early", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKMS_Early", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_30Rnd_762x39_AK47_M")};
-    respawnMagazines[] = {mag_4("CUP_30Rnd_762x39_AK47_M")};
+    magazines[] = {mag_4("tacgt_30Rnd_762x39_BP_Mag")};
+    respawnMagazines[] = {mag_4("tacgt_30Rnd_762x39_BP_Mag")};
     editorSubcategory = "TACU_Takistan_EdSubCat_Officer";
     headgearList[] = {
         "CUP_H_TKI_SkullCap_05", 0.20,
@@ -31,8 +31,8 @@ class TACU_Takistan_U_TNP_Rifleman: TACU_Takistan_U_TNP_Officer {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_06", "CUP_H_TKI_SkullCap_02"};
     weapons[] = {"CUP_arifle_AKS74_Early", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74_Early", "Throw", "Put"};
-    magazines[] = {mag_7("CUP_30Rnd_545x39_AK74M_M")};
-    respawnMagazines[] = {mag_7("CUP_30Rnd_545x39_AK74M_M")};
+    magazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite")};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite")};
 };
 
 class TACU_Takistan_U_TNP_Rifleman_02: TACU_Takistan_U_TNP_Rifleman {
@@ -42,8 +42,8 @@ class TACU_Takistan_U_TNP_Rifleman_02: TACU_Takistan_U_TNP_Rifleman {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_01", "CUP_H_TKI_Pakol_1_01"};
     weapons[] = {"CUP_arifle_AKS74", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74", "Throw", "Put"};
-    magazines[] = {mag_7("CUP_30Rnd_545x39_AK_M")};
-    respawnMagazines[] = {mag_7("CUP_30Rnd_545x39_AK_M")};
+    magazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite")};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite")};
 };
 
 class TACU_Takistan_U_TNP_Autorifleman: TACU_Takistan_U_TNP_Rifleman_02 {
@@ -53,8 +53,8 @@ class TACU_Takistan_U_TNP_Autorifleman: TACU_Takistan_U_TNP_Rifleman_02 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_04", "CUP_H_TKI_SkullCap_05"};
     weapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_30Rnd_762x39_AK47_TK_M")};
-    respawnMagazines[] = {mag_4("CUP_30Rnd_762x39_AK47_TK_M")};
+    magazines[] = {mag_4("tacgt_75Rnd_762x39_RPK_BP_Mag")};
+    respawnMagazines[] = {mag_4("tacgt_75Rnd_762x39_RPK_BP_Mag")};
 };
 
 // Vehicles - TNP
