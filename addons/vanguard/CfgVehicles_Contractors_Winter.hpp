@@ -57,8 +57,8 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_AT: TACU_Vanguard_U_Contractor_
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     weapons[] = {"arifle_CTAR_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "launch_MRAWS_green_rail_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_CTAR_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "launch_MRAWS_green_rail_F", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_580x42_Mag_F"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_580x42_Mag_F"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_580x42_DBP88"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_580x42_DBP88"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Winter_Rifleman_AT.jpg);
 };
 
@@ -91,8 +91,8 @@ class TACU_Vanguard_U_Contractor_Winter_Marksman: TACU_Vanguard_U_Contractor_Win
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     weapons[] = {"arifle_SPAR_03_blk_MOS_Pointer_Bipod_F", "CUP_hgun_Phantom", "Throw", "Put"};
     respawnWeapons[] = {"arifle_SPAR_03_blk_MOS_Pointer_Bipod_F", "CUP_hgun_Phantom", "Throw", "Put"};
-    magazines[] = {mag_7("20Rnd_762x51_Mag"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("20Rnd_762x51_Mag"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("ACE_20Rnd_762x51_M993_AP_Mag"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("ACE_20Rnd_762x51_M993_AP_Mag"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Winter_Marksman.jpg);
 };
 
