@@ -63,8 +63,8 @@ class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_O_CT_Marksman.jpg);
     weapons[] = {"TACU_Police_W_Dragunov", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_Dragunov", "hgun_Rook40_F", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_10Rnd_762x54_SVD_M"), mag_3("16Rnd_9x21_Mag")};
-    respawnMagazines[] = {mag_6("CUP_10Rnd_762x54_SVD_M"), mag_3("16Rnd_9x21_Mag")};
+    magazines[] = {mag_6("tacgt_10Rnd_762x54_SVD_AP_Mag"), mag_3("16Rnd_9x21_Mag")};
+    respawnMagazines[] = {mag_6("tacgt_10Rnd_762x54_SVD_AP_Mag"), mag_3("16Rnd_9x21_Mag")};
 };
 
 // Units - Police (Enforcers)

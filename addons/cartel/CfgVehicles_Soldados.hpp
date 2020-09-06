@@ -45,8 +45,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_01: TACU_Cartel_U_O_Soldado_Rifleman {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_AKS_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
 
@@ -57,8 +57,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_02: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"arifle_AK12_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12_F", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_762x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_762x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_762x39_BP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_762x39_BP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_02.jpg);
 };
 
@@ -93,8 +93,8 @@ class TACU_Cartel_U_O_Soldado_Driver: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"arifle_AKS_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Driver.jpg);
 };
 
@@ -107,8 +107,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_AT: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"arifle_AKS_F", "CUP_launch_RPG7V", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "CUP_launch_RPG7V", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_545x39_Mag_F"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
     editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_AT.jpg);
 };
 
@@ -121,8 +121,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_MG: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_75Rnd_762x39_RPK_BP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_75Rnd_762x39_RPK_BP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_MG.jpg);
 };
 
@@ -133,8 +133,8 @@ class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"CUP_arifle_AKS74_GL_Early", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74_GL_Early", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_30Rnd_545x39_AK_M"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("CUP_30Rnd_545x39_AK_M"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_30Rnd_545x39_BT_Mag_Bakelite"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Grenadier.jpg);
 };
 

@@ -2,7 +2,7 @@ class TACU_Takistan_TNA {
     name = "Takistan National Army";
     class TACU_Takistan_G_TNA_Regular_Infantry {
         name = "Men (Regular)";
-        
+
         class TACU_Takistan_G_TNA_Regular_Patrol {
             name = "Patrol";
             side = 2;
@@ -52,7 +52,7 @@ class TACU_Takistan_TNA {
                 position[] = {10, -10, 0};
             };
         };
-        
+
         class TACU_Takistan_G_TNA_Regular_Squad {
             name = "Squad";
             side = 2;
@@ -96,7 +96,7 @@ class TACU_Takistan_TNA {
             };
         };
     };
-    
+
     class TACU_Takistan_G_TNA_Commandos_Infantry {
         name = "Men (Commandos)";
 

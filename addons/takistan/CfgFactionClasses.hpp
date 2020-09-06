@@ -10,7 +10,7 @@ class CfgFactionClasses {
         side = 2;
         priority = 4;
     };
-    
+
     class TACU_Takistan_Tehrik {
         displayName = "Tehrik-I-Taliban Takistan";
         side = 0;
