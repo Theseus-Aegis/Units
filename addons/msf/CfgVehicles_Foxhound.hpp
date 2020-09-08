@@ -8,7 +8,6 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     scope = 2;
     scopeCurator = 2;
     sensitivity = 2;
-    sensitivityEar = 0.15;
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "NoGlasses"};
     genericNames = "NATOMen";
     icon = "iconMan";
@@ -22,8 +21,8 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnItems[] = {mag_8("ACE_fieldDressing")};
     weapons[] = {"TACU_MSF_W_ACRC_556_Black_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
-    respawnMagazines[] = {mag_8("CUP_30Rnd_556x45_PMAG_QP"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
+    magazines[] = {mag_8("tacgt_30Rnd_556x45_M995_PMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
+    respawnMagazines[] = {mag_8("tacgt_30Rnd_556x45_M995_PMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
     headgearList[] = {
         "tacs_Helmet_Light_Ballistic_DarkBlack", 1
     };
@@ -39,8 +38,8 @@ class TACU_MSF_U_O_Foxhound_Rifleman_01: TACU_MSF_U_I_Foxhound_Rifleman_01 {
 
 class TACU_MSF_U_I_Foxhound_Marksman: TACU_MSF_U_I_Foxhound_Rifleman_01 {
     displayName = "Marksman";
-    icon = "iconMan";
-    role = "Rifleman";
+    sensitivity = 2.25;
+    role = "Marksman";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Foxhound_Marksman.jpg);
     weapons[] = {"TACU_MSF_W_M110_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_M110_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
@@ -54,8 +53,6 @@ class TACU_MSF_U_O_Foxhound_Marksman: TACU_MSF_U_I_Foxhound_Marksman {
 
 class TACU_MSF_U_I_Foxhound_SMG_01: TACU_MSF_U_I_Foxhound_Rifleman_01 {
     displayName = "Sub Machine-Gunner";
-    icon = "iconMan";
-    role = "Rifleman";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Foxhound_SMG_01.jpg);
     weapons[] = {"TACU_MSF_W_MP7A1_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_MP7A1_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
