@@ -60,7 +60,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         "CUP_FR_NeckScarf3", 0.50,
         "CUP_FR_NeckScarf", 0.50
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_01.jpg);
 };
 
 class TACU_SevenRings_U_I_Western_Rifleman_02: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -781,7 +781,7 @@ class TACU_SevenRings_U_I_Western_AA_01: TACU_SevenRings_U_I_Western_Rifleman_01
 };
 
 class TACU_SevenRings_U_I_Western_Pilot_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
-    displayName = "Pilot (P90";
+    displayName = "Pilot (P90)";
     role = "Crewman";
     uniformClass = "CUP_U_B_USMC_PilotOverall";
     backpack = "B_Parachute";
