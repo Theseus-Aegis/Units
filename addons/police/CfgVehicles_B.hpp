@@ -8,8 +8,8 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     uniformClass = "TACU_Police_Uniform_Combat_Blue";
     backpack = "";
     editorPreview = QPATHTOF(ui\Police_U_B_CT_Rifleman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "BWA3_OpsCore", "CUP_G_PMC_Facewrap_Black_Glasses_Dark", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "BWA3_OpsCore", "CUP_G_PMC_Facewrap_Black_Glasses_Dark", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_OpsCore_Black", "CUP_G_PMC_Facewrap_Black_Glasses_Dark", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_OpsCore_Black", "CUP_G_PMC_Facewrap_Black_Glasses_Dark", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"TACU_Police_W_HK416_CQB", "CUP_hgun_Glock17_blk", "Throw", "Put"};
@@ -17,8 +17,8 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_PMAG"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
     respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_PMAG"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
     headgearList[] = {
-        "BWA3_OpsCore", 0.50,
-        "BWA3_OpsCore_Camera", 0.50
+        "CUP_H_OpsCore_Black", 0.50,
+        "CUP_H_OpsCore_Black_NoHS", 0.50
     };
     CBA_facewearList[] = {
         "CUP_G_PMC_Facewrap_Black_Glasses_Dark", 0.30,
@@ -79,8 +79,8 @@ class TACU_Police_U_B_Enforcer_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "CUP_H_PMC_Beanie_Black", 0.30,
         "CUP_H_PMC_Beanie_Khaki", 0.30,
         "CUP_H_PMC_Cap_PRR_Grey", 0.40,
-        "BWA3_OpsCore", 0.25,
-        "BWA3_OpsCore_Camera", 0.25
+        "CUP_H_OpsCore_Black", 0.25,
+        "CUP_H_OpsCore_Black_NoHS", 0.25
     };
     CBA_facewearList[] = {
         "CUP_G_Oakleys_Drk", 0.20,
