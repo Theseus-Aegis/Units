@@ -381,7 +381,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_01: TACU_SevenRings_U_I_Eastern_Rifleman
         mag_2("SmokeShell"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Medic_01.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Medic_01.jpg);
 };
 
 class TACU_SevenRings_U_I_Eastern_Medic_02: TACU_SevenRings_U_I_Eastern_Medic_01 {
@@ -405,7 +405,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_02: TACU_SevenRings_U_I_Eastern_Medic_01
         mag_2("SmokeShell"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Medic_02.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Medic_02.jpg);
 };
 
 class TACU_SevenRings_U_I_Eastern_Medic_03: TACU_SevenRings_U_I_Eastern_Medic_01 {
@@ -429,7 +429,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_03: TACU_SevenRings_U_I_Eastern_Medic_01
         mag_2("SmokeShell"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Medic_03.jpg);
+    editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Medic_03.jpg);
 };
 
 class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
