@@ -8,7 +8,6 @@ class TACU_MSF_U_I_DDogs_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     scope = 2;
     scopeCurator = 2;
     sensitivity = 2;
-    sensitivityEar = 0.15;
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "NoGlasses"};
     genericNames = "NATOMen";
     icon = "iconMan";
@@ -85,8 +84,6 @@ class TACU_MSF_U_O_DDogs_Black_Grenadier: TACU_MSF_U_I_DDogs_Black_Grenadier {
 
 class TACU_MSF_U_I_DDogs_Black_Teamleader: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     displayName = "Team Leader";
-    sensitivity = 2;
-    sensitivityEar = 0.15;
     icon = "iconManLeader";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Teamleader.jpg);
     magazines[] = {mag_8("30Rnd_65x39_caseless_msbs_mag"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell")};
@@ -99,8 +96,7 @@ class TACU_MSF_U_O_DDogs_Black_Teamleader: TACU_MSF_U_I_DDogs_Black_Teamleader {
 
 class TACU_MSF_U_I_DDogs_Black_Marksman: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     displayName = "Marksman";
-    sensitivity = 2;
-    sensitivityEar = 0.15;
+    sensitivity = 2.25;
     role = "Marksman";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Marksman.jpg);
     weapons[] = {"TACU_MSF_W_Promet_DMR_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
