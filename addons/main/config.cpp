@@ -20,8 +20,6 @@ class CfgPatches {
             "ace_nightvision",
             "ace_realisticnames",
             "ace_scopes",
-            // BWA
-            "bwa3_headgear",
             // CBA
             "cba_main",
             // CUP
