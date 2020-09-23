@@ -112,7 +112,7 @@ class TACU_Revolutionaries_U_I_Russian_Pistoleer02: TACU_Revolutionaries_U_I_Rus
 
 class TACU_Revolutionaries_U_I_Russian_Head: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
     displayName = "Head";
-    icon = "iconManLeader";
+    icon = "iconManOfficer";
     uniformClass = "CUP_U_C_Profiteer_04";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_C_Beret_04"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_C_Beret_04"};

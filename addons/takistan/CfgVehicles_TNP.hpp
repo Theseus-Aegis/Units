@@ -6,6 +6,8 @@ class TACU_Takistan_U_TNP_Officer: TACU_Main_U_INDEP_Soldier_Base {
     scopeCurator = 2;
     genericNames = "TakistaniMen";
     identityTypes[] = {"LanguagePER_F", "Head_TK", "NoGlasses"};
+    icon = "iconManLeader";
+    role = "Rifleman";
     editorPreview = QPATHTOF(ui\Takistan_U_TNP_Officer.jpg);
     uniformClass = "U_B_GEN_Commander_F";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket1_03", "CUP_H_TKI_Pakol_2_02"};
@@ -26,6 +28,7 @@ class TACU_Takistan_U_TNP_Officer: TACU_Main_U_INDEP_Soldier_Base {
 
 class TACU_Takistan_U_TNP_Rifleman: TACU_Takistan_U_TNP_Officer {
     displayName = "Rifleman";
+    icon = "iconMan";
     editorPreview = QPATHTOF(ui\Takistan_U_TNP_Rifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_06", "CUP_H_TKI_SkullCap_02"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket2_06", "CUP_H_TKI_SkullCap_02"};
@@ -48,6 +51,8 @@ class TACU_Takistan_U_TNP_Rifleman_02: TACU_Takistan_U_TNP_Rifleman {
 
 class TACU_Takistan_U_TNP_Autorifleman: TACU_Takistan_U_TNP_Rifleman_02 {
     displayName = "Autorifleman";
+    icon = "iconManMG";
+    role = "MachineGunner";
     editorPreview = QPATHTOF(ui\Takistan_U_TNP_Autorifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_04", "CUP_H_TKI_SkullCap_05"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_04", "CUP_H_TKI_SkullCap_05"};

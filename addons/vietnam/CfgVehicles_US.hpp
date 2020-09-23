@@ -300,7 +300,7 @@ class TACU_Vietnam_U_US_TeamLeader: TACU_Vietnam_U_US_Rifleman_M16_Light {
 
 class TACU_Vietnam_U_US_Officer: TACU_Vietnam_U_US_TeamLeader {
     displayName = "Officer";
-    icon = "iconManLeader";
+    icon = "iconManOfficer";
     uniformClass = "CUP_U_B_BDUv2_OD";
     linkedItems[] = {DEFAULT_ITEMS, "H_Beret_Colonel", "CUP_V_B_ALICE"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "H_Beret_Colonel", "CUP_V_B_ALICE"};

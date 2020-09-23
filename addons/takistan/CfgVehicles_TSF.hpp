@@ -88,6 +88,7 @@ class TACU_Takistan_U_TSF_Rifleman_03: TACU_Takistan_U_TSF_Rifleman_01 {
 
 class TACU_Takistan_U_TSF_Grenadier: TACU_Takistan_U_TSF_Rifleman_01 {
     displayName = "Grenadier";
+    role = "Grenadier";
     uniformClass = "CUP_U_B_BAF_MTP_UBACSTSHIRTKNEE";
     editorPreview = QPATHTOF(ui\Takistan_U_TSF_Grenadier.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_TKI_Lungee_Open_01", "CUP_V_OI_TKI_Jacket1_01"};

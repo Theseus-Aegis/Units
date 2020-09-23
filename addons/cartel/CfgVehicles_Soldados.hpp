@@ -128,6 +128,7 @@ class TACU_Cartel_U_O_Soldado_Rifleman_MG: TACU_Cartel_U_O_Soldado_Rifleman_01 {
 
 class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     displayName = "Soldado (GL)";
+    role = "Grenadier";
     uniformClass = "tacs_Uniform_Polo_TP_LS_GP_BB_NoLogo";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};

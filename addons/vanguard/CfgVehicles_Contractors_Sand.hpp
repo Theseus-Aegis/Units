@@ -103,6 +103,7 @@ class TACU_Vanguard_U_O_Contractor_Sand_Marksman: TACU_Vanguard_U_Contractor_San
 
 class TACU_Vanguard_U_Contractor_Sand_Driver: TACU_Vanguard_U_Contractor_Sand_Rifleman_01 {
     displayName = "Driver";
+    role = "Crewman";
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};

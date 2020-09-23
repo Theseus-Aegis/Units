@@ -230,7 +230,7 @@ class TACU_Vietnam_U_PAVN_NVA_Sniper_Ghillie: TACU_Vietnam_U_PAVN_NVA_Rifleman_T
 
 class TACU_Vietnam_U_PAVN_NVA_Sapper: TACU_Vietnam_U_PAVN_NVA_Rifleman_Type56 {
     displayName = "Sapper";
-    icon = "iconManEngineer";
+    icon = "iconManExplosive";
     role = "Sapper";
     canDeactivateMines = 1;
     engineer = 1;
@@ -360,7 +360,7 @@ class TACU_Vietnam_U_PAVN_NLF_Autorifleman: TACU_Vietnam_U_PAVN_NLF_Rifleman_Typ
 
 class TACU_Vietnam_U_PAVN_NLF_Sapper: TACU_Vietnam_U_PAVN_NLF_Rifleman_Type56 {
     displayName = "Sapper";
-    icon = "iconManEngineer";
+    icon = "iconManExplosive";
     role = "Sapper";
     canDeactivateMines = 1;
     engineer = 1;

@@ -32,7 +32,6 @@ class TACU_PLR_U_O_Paramilitary_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
 
 class TACU_PLR_U_O_Paramilitary_Rifleman_02: TACU_PLR_U_O_Paramilitary_Rifleman_01 {
     displayName = "Rifleman (AK-105)";
-    icon = "iconMan";
     role = "Rifleman";
     weapons[] = {"TACU_PLR_W_AK105_railed_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AK105_railed_FL", "Throw", "Put"};
@@ -66,7 +65,6 @@ class TACU_PLR_U_O_Paramilitary_TeamLeader: TACU_PLR_U_O_Paramilitary_Rifleman_0
 
 class TACU_PLR_U_O_Paramilitary_Grenadier: TACU_PLR_U_O_Paramilitary_Rifleman_01 {
     displayName = "Grenadier";
-    icon = "iconMan";
     role = "Rifleman";
     weapons[] = {"TACU_PLR_W_AK74M_GL_Kobra_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AK74M_GL_Kobra_FL", "Throw", "Put"};

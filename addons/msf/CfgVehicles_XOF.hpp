@@ -38,6 +38,7 @@ class TACU_MSF_U_O_XOF_Rifleman_01: TACU_MSF_U_I_XOF_Rifleman_01 {
 
 class TACU_MSF_U_I_XOF_Grenadier: TACU_MSF_U_I_XOF_Rifleman_01 {
     displayName = "Grenadier";
+    role = "Grenadier";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_XOF_Grenadier.jpg);
     weapons[] = {"TACU_MSF_W_ACRC_556_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_ACRC_556_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};

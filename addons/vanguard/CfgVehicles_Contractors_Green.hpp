@@ -70,7 +70,6 @@ class TACU_Vanguard_U_O_Contractor_Green_Rifleman_AT: TACU_Vanguard_U_Contractor
 
 class TACU_Vanguard_U_Contractor_Green_Grenadier: TACU_Vanguard_U_Contractor_Green_Rifleman_01 {
     displayName = "Grenadier";
-    icon = "iconMan";
     role = "Grenadier";
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"TACU_Vanguard_W_HK416GL_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
@@ -104,6 +103,7 @@ class TACU_Vanguard_U_O_Contractor_Green_Marksman: TACU_Vanguard_U_Contractor_Gr
 
 class TACU_Vanguard_U_Contractor_Green_Driver: TACU_Vanguard_U_Contractor_Green_Rifleman_01 {
     displayName = "Driver";
+    role = "Crewman";
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
@@ -190,8 +190,7 @@ class TACU_Vanguard_U_O_Contractor_Green_Engineer: TACU_Vanguard_U_Contractor_Gr
 
 class TACU_Vanguard_U_Contractor_Pilot: TACU_Vanguard_U_Contractor_Green_Rifleman_01 {
     displayName = "Pilot";
-    icon = "iconManEngineer";
-    role = "Sapper";
+    role = "Crewman";
     engineer = 1;
     uniformClass = "tacs_Uniform_Garment_LS_TS_TP_TB";
     backpack = "B_Parachute";

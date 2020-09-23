@@ -38,7 +38,6 @@ class TACU_PLR_U_O_Insurgent_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
 
 class TACU_PLR_U_O_Insurgent_Rifleman_02: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     displayName = "Rifleman (AKM)";
-    icon = "iconMan";
     role = "Rifleman";
     uniformClass = "CUP_U_O_TK_Green";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Helmet_BLK", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Rifleman_Grey"};
@@ -64,7 +63,6 @@ class TACU_PLR_U_O_Insurgent_Rifleman_02: TACU_PLR_U_O_Insurgent_Rifleman_01 {
 
 class TACU_PLR_U_O_Insurgent_Rifleman_03: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     displayName = "Rifleman (AKS)";
-    icon = "iconMan";
     role = "Rifleman";
     uniformClass = "CUP_U_O_TK_Green";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_blk", "CUP_V_B_Interceptor_Rifleman_DCU"};
@@ -85,7 +83,6 @@ class TACU_PLR_U_O_Insurgent_Rifleman_03: TACU_PLR_U_O_Insurgent_Rifleman_01 {
 
 class TACU_PLR_U_O_Insurgent_Rifleman_04: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     displayName = "Rifleman (AK-74)";
-    icon = "iconMan";
     role = "Rifleman";
     uniformClass = "CUP_I_B_PMC_Unit_11";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_blk", "CUP_V_B_Interceptor_Rifleman_Coyote"};
@@ -106,7 +103,6 @@ class TACU_PLR_U_O_Insurgent_Rifleman_04: TACU_PLR_U_O_Insurgent_Rifleman_01 {
 
 class TACU_PLR_U_O_Insurgent_Rifleman_05: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     displayName = "Rifleman (FAL)";
-    icon = "iconMan";
     role = "Rifleman";
     uniformClass = "CUP_I_B_PMC_Unit_13";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_ShemagOpen_khk", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Rifleman_Grey"};
@@ -195,7 +191,6 @@ class TACU_PLR_U_O_Insurgent_Autorifleman: TACU_PLR_U_O_Insurgent_Rifleman_01 {
 
 class TACU_PLR_U_O_Insurgent_Sniper: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     displayName = "Sniper";
-    icon = "iconMan";
     role = "Marksman";
     uniformClass = "CUP_U_O_SLA_Green";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_ShemagOpen_khk", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Base_Grey"};
