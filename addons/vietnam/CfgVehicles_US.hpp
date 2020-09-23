@@ -318,7 +318,7 @@ class TACU_Vietnam_U_US_Officer: TACU_Vietnam_U_US_TeamLeader {
 
 class TACU_Vietnam_U_US_Crewman: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Crewman";
-    icon = "iconManEngineer";
+    icon = "iconMan";
     role = "Sapper";
     engineer = 1;
     uniformClass = "CUP_U_B_BDUv2_gloves_dirty_M81";
