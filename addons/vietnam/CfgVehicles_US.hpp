@@ -328,8 +328,8 @@ class TACU_Vietnam_U_US_Crewman: TACU_Vietnam_U_US_Rifleman_M16_Light {
     respawnItems[] = {mag_6("ACE_fieldDressing")};
     weapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_Colt1911", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_Colt1911", "Throw", "Put"};
-    magazines[] = {mag_5("CUP_smg_M3A1_blk"), mag_3("CUP_7Rnd_45ACP_1911")};
-    respawnMagazines[] = {mag_5("CUP_smg_M3A1_blk"), mag_3("CUP_7Rnd_45ACP_1911")};
+    magazines[] = {mag_5("CUP_30Rnd_45ACP_M3A1_BLK_M"), mag_3("CUP_7Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_5("CUP_30Rnd_45ACP_M3A1_BLK_M"), mag_3("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
         "CUP_H_USMC_Crew_Helmet", 1
     };
@@ -341,6 +341,10 @@ class TACU_Vietnam_U_US_Pilot_Helo: TACU_Vietnam_U_US_Crewman {
     uniformClass = "CUP_U_B_BDUv2_roll_gloves_OD";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "Aircrew_vest_2_NH"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "Aircrew_vest_2_NH"};
+    weapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
+    magazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
         "CUP_H_USMC_Helmet_Pilot", 1
     };
