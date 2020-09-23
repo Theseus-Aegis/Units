@@ -109,6 +109,7 @@ class TACU_MSF_U_I_Regular_Black_Engineer: TACU_MSF_U_I_Regular_Black_Rifleman_0
     icon = "iconManEngineer";
     role = "Sapper";
     engineer = 1;
+    canDeactivateMines = 1;
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Black";
     backpack = "TACU_MSF_B_Engineer_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Engineer.jpg);

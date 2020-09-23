@@ -441,8 +441,8 @@ class TACU_SevenRings_U_I_Western_Engineer_01: TACU_SevenRings_U_I_Western_Rifle
     displayName = "Engineer (AK-15)";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
-    canDeactivateMines = true;
+    engineer = 1;
+    canDeactivateMines = 1;
     uniformClass = "U_BG_Guerilla2_2";
     backpack = "TACU_SevenRings_B_Engineer_Kitbag_Black";
     Items[] = {"ACE_M26_Clacker"};

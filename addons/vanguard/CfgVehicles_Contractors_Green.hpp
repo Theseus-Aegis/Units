@@ -173,7 +173,7 @@ class TACU_Vanguard_U_Contractor_Green_Engineer: TACU_Vanguard_U_Contractor_Gree
     displayName = "Engineer";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
+    engineer = 1;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     backpack = "I_Fieldpack_oli_Repair";
     weapons[] = {"TACU_Vanguard_W_CTAR_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
@@ -192,7 +192,7 @@ class TACU_Vanguard_U_Contractor_Pilot: TACU_Vanguard_U_Contractor_Green_Riflema
     displayName = "Pilot";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
+    engineer = 1;
     uniformClass = "tacs_Uniform_Garment_LS_TS_TP_TB";
     backpack = "B_Parachute";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B"};

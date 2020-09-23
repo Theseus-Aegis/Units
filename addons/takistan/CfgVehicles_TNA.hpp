@@ -143,6 +143,8 @@ class TACU_Takistan_U_TNA_Commandos_Autorifleman: TACU_Takistan_U_TNA_Commandos_
     displayName = "Medic";
     editorPreview = QPATHTOF(ui\Takistan_U_TNA_Commandos_Medic.jpg);
     backpack = "tacs_Backpack_Kitbag_Medic_Sage";
+    icon = "iconManMedic";
+    role = "CombatLifeSaver";
     attendant = 1;
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive4", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_B_Ciras_Olive4", "CUP_H_OpsCore_Spray", "CUP_NVG_PVS15_black"};

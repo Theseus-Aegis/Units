@@ -1,5 +1,6 @@
 // Backpacks
 class TACU_Vietnam_B_US_Medic: CUP_B_AlicePack_OD {
+    dlc = QUOTE(PREFIX);
     scope = 1;
     scopeCurator = 1;
     class TransportItems {
@@ -14,6 +15,7 @@ class TACU_Vietnam_B_US_Medic: CUP_B_AlicePack_OD {
 };
 
 class TACU_Vietnam_B_US_MG: CUP_B_AlicePack_OD {
+    dlc = QUOTE(PREFIX);
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
@@ -21,8 +23,24 @@ class TACU_Vietnam_B_US_MG: CUP_B_AlicePack_OD {
     };
 };
 
+class TACU_Vietnam_B_US_Sapper: CUP_B_AlicePack_OD {
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    class TransportMagazines {
+        MACRO_ADDMAGAZINE(SatchelCharge_Remote_Mag,2);
+    };
+    class TransportItems {
+        MACRO_ADDITEM(ACE_DefusalKit,1);
+        MACRO_ADDITEM(ACE_M26_Clacker,1);
+        MACRO_ADDITEM(ACE_wirecutter,1);
+        MACRO_ADDITEM(ToolKit,1);
+    };
+};
+
 // Units
 class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
+    DLC = QUOTE(PREFIX);
     author = "Kresky";
     displayName = "Rifleman (M16 Light)";
     faction = "TACU_Vietnam_US";
@@ -30,7 +48,7 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
     scopeCurator = 2;
     icon = "iconMan";
     role = "Rifleman";
-    uniformClass = "CUP_U_B_US_BDU_OD";
+    uniformClass = "CUP_U_B_BDUv2_dirty_OD";
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_ALICE"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_ALICE"};
@@ -41,11 +59,17 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
     magazines[] = {mag_4("CUP_20Rnd_556x45_Stanag")};
     respawnMagazines[] = {mag_4("CUP_20Rnd_556x45_Stanag")};
     headgearList[] = {
-        "CUP_H_FR_BandanaGreen", 0.25,
-        "CUP_H_FR_BandanaWdl", 0.25,
-        "CUP_H_US_patrol_cap_OD", 0.25,
-        "CUP_H_US_patrol_cap_WDL", 0.25,
-        "", 0.25
+        "CUP_H_FR_BandanaGreen", 0.75,
+        "CUP_H_FR_BandanaWdl", 0.75,
+        "CUP_H_US_patrol_cap_OD", 0.75,
+        "CUP_H_US_patrol_cap_WDL", 0.75,
+        "CUP_H_USArmy_Helmet_M1_plain_Olive", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_Vine", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_M81", 0.50,
+        "CUP_H_USArmy_Helmet_M1_Vine", 0.10,
+        "CUP_H_USArmy_Helmet_M1_Olive", 0.10,
+        "CUP_H_USArmy_Helmet_M1_m81", 0.10,
+        "", 0.30
     };
     CBA_facewearList[] = {
         "", 0.88,
@@ -58,6 +82,7 @@ class TACU_Vietnam_U_US_Rifleman_M16_Light: TACU_Main_U_BLUFOR_Soldier_Base {
 
 class TACU_Vietnam_U_US_Rifleman_M14_Light: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Rifleman (M14 Light)";
+    uniformClass = "CUP_U_B_BDUv2_roll2_dirty_OD";
     weapons[] = {"CUP_srifle_M14", "Throw", "Put"};
     respawnWeapons[] = {"CUP_srifle_M14", "Throw", "Put"};
     magazines[] = {mag_4("20Rnd_762x51_Mag")};
@@ -67,8 +92,9 @@ class TACU_Vietnam_U_US_Rifleman_M14_Light: TACU_Vietnam_U_US_Rifleman_M16_Light
 
 class TACU_Vietnam_U_US_Rifleman_M16: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Rifleman (M16)";
-    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT_OD"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT_OD"};
+    uniformClass = "CUP_U_B_BDUv2_roll_dirty_OD";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT_no_bags_OD"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT_no_bags_OD"};
     Items[] = {mag_6("ACE_fieldDressing")};
     respawnItems[] = {mag_6("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "Throw", "Put"};
@@ -76,15 +102,19 @@ class TACU_Vietnam_U_US_Rifleman_M16: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     respawnMagazines[] = {mag_8("CUP_20Rnd_556x45_Stanag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     headgearList[] = {
-        "CUP_H_USArmy_Helmet_M1_Vine", 0.30,
-        "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
-        "CUP_H_USArmy_Helmet_M1_m81", 0.30
+        "CUP_H_USArmy_Helmet_M1_plain_Olive", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_Vine", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_M81", 0.50,
+        "CUP_H_USArmy_Helmet_M1_Vine", 0.10,
+        "CUP_H_USArmy_Helmet_M1_Olive", 0.10,
+        "CUP_H_USArmy_Helmet_M1_m81", 0.10
     };
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_M16.jpg);
 };
 
 class TACU_Vietnam_U_US_Rifleman_M14: TACU_Vietnam_U_US_Rifleman_M16 {
     displayName = "Rifleman (M14)";
+    uniformClass = "CUP_U_B_BDUv2_roll_dirty_OD";
     weapons[] = {"CUP_srifle_M14", "CUP_hgun_Colt1911", "Throw", "Put"};
     respawnWeapons[] = {"CUP_srifle_M14", "CUP_hgun_Colt1911", "Throw", "Put"};
     magazines[] = {mag_6("20Rnd_762x51_Mag"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
@@ -96,6 +126,7 @@ class TACU_Vietnam_U_US_Rifleman_AT: TACU_Vietnam_U_US_Rifleman_M16 {
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
+    uniformClass = "CUP_U_B_BDUv2_roll_dirty_OD";
     weapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "CUP_launch_M72A6", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_M16A1", "CUP_hgun_Colt1911", "CUP_launch_M72A6", "Throw", "Put"};
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Rifleman_AT.jpg);
@@ -103,6 +134,7 @@ class TACU_Vietnam_U_US_Rifleman_AT: TACU_Vietnam_U_US_Rifleman_M16 {
 
 class TACU_Vietnam_U_US_Rifleman_Wounded: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Rifleman (Wounded)";
+    uniformClass = "CUP_U_B_BDUv2_roll2_dirty_OD";
     linkedItems[] = {"H_HeadBandage_clean_F", "ItemWatch"};
     respawnLinkedItems[] = {"H_HeadBandage_clean_F", "ItemWatch"};
     Items[] = {"ACE_fieldDressing"};
@@ -123,6 +155,7 @@ class TACU_Vietnam_U_US_Machinegunner: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Machine Gunner";
     icon = "iconManMG";
     role = "MachineGunner";
+    uniformClass = "CUP_U_B_BDUv2_roll_dirty_OD";
     backpack = "TACU_Vietnam_B_US_MG";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
@@ -133,15 +166,19 @@ class TACU_Vietnam_U_US_Machinegunner: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {"CUP_100rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     respawnMagazines[] = {"CUP_100rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67"};
     headgearList[] = {
-        "CUP_H_USArmy_Helmet_M1_Vine", 0.30,
-        "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
-        "CUP_H_USArmy_Helmet_M1_m81", 0.30
+        "CUP_H_USArmy_Helmet_M1_plain_Olive", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_Vine", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_M81", 0.50,
+        "CUP_H_USArmy_Helmet_M1_Vine", 0.10,
+        "CUP_H_USArmy_Helmet_M1_Olive", 0.10,
+        "CUP_H_USArmy_Helmet_M1_m81", 0.10
     };
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Machinegunner.jpg);
 };
 
 class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Rifleman_M16 {
     displayName = "Grenadier (M79)";
+    uniformClass = "CUP_U_B_BDUv2_roll2_dirty_OD";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
     weapons[] = {"CUP_glaunch_M79", "CUP_hgun_Colt1911", "Throw", "Put"};
@@ -151,9 +188,37 @@ class TACU_Vietnam_U_US_Grenadier_M79: TACU_Vietnam_U_US_Rifleman_M16 {
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Grenadier_M79.jpg);
 };
 
+class TACU_Vietnam_U_US_Sapper: TACU_Vietnam_U_US_Rifleman_M16 {
+    displayName = "Sapper";
+    icon = "iconManEngineer";
+    role = "Sapper";
+    canDeactivateMines = 1;
+    engineer = 1;
+    uniformClass = "CUP_U_B_BDUv2_roll2_gloves_dirty_OD";
+    backpack = "TACU_Vietnam_B_US_Sapper";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT"};
+    Items[] = {mag_6("ACE_fieldDressing")};
+    respawnItems[] = {mag_6("ACE_fieldDressing")};
+    weapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_Colt1911", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_Colt1911", "Throw", "Put"};
+    magazines[] = {mag_8("CUP_30Rnd_45ACP_M3A1_BLK_M"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67", "SmokeShell"};
+    respawnMagazines[] = {mag_8("CUP_30Rnd_45ACP_M3A1_BLK_M"), mag_2("CUP_7Rnd_45ACP_1911"), "CUP_HandGrenade_M67", "SmokeShell"};
+    headgearList[] = {
+        "CUP_H_USArmy_Helmet_M1_plain_Olive", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_Vine", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_M81", 0.50,
+        "CUP_H_USArmy_Helmet_M1_Vine", 0.10,
+        "CUP_H_USArmy_Helmet_M1_Olive", 0.10,
+        "CUP_H_USArmy_Helmet_M1_m81", 0.10
+    };
+    editorPreview = QPATHTOF(ui\Vietnam_U_US_Sapper.jpg);
+};
+
 class TACU_Vietnam_U_US_Sniper: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Sniper";
     role = "Marksman";
+    uniformClass = "CUP_U_B_BDUv2_OD";
     linkedItems[] = {DEFAULT_ITEMS, "H_Booniehat_oli", "CUP_V_B_PASGT_no_bags_OD"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "H_Booniehat_oli", "CUP_V_B_PASGT_no_bags_OD"};
     Items[] = {mag_6("ACE_fieldDressing")};
@@ -189,9 +254,10 @@ class TACU_Vietnam_U_US_Sniper_Ghillie: TACU_Vietnam_U_US_Sniper {
 
 class TACU_Vietnam_U_US_Medic: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Medic";
-    attendant = 1;
     icon = "iconManMedic";
     role = "CombatLifeSaver";
+    attendant = 1;
+    uniformClass = "CUP_U_B_BDUv2_gloves_dirty_OD";
     backpack = "TACU_Vietnam_B_US_Medic";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT_OD"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USArmy_Helmet_M1_Olive", "CUP_V_B_PASGT_OD"};
@@ -202,9 +268,9 @@ class TACU_Vietnam_U_US_Medic: TACU_Vietnam_U_US_Rifleman_M16_Light {
     magazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
     respawnMagazines[] = {mag_5("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
-        "CUP_H_USArmy_Helmet_M1_Vine", 0.30,
-        "CUP_H_USArmy_Helmet_M1_Olive", 0.30,
-        "CUP_H_USArmy_Helmet_M1_m81", 0.30
+        "CUP_H_USArmy_Helmet_M1_plain_Olive", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_Vine", 0.50,
+        "CUP_H_USArmy_Helmet_M1_plain_M81", 0.50
     };
     editorPreview = QPATHTOF(ui\Vietnam_U_US_Medic.jpg);
 };
@@ -212,6 +278,7 @@ class TACU_Vietnam_U_US_Medic: TACU_Vietnam_U_US_Rifleman_M16_Light {
 class TACU_Vietnam_U_US_TeamLeader: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Team Leader";
     icon = "iconManLeader";
+    uniformClass = "CUP_U_B_BDUv2_roll2_dirty_OD";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_PASGT_no_bags"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_US_patrol_cap_OD", "CUP_V_B_PASGT_no_bags"};
     Items[] = {mag_5("ACE_fieldDressing")};
@@ -234,6 +301,7 @@ class TACU_Vietnam_U_US_TeamLeader: TACU_Vietnam_U_US_Rifleman_M16_Light {
 class TACU_Vietnam_U_US_Officer: TACU_Vietnam_U_US_TeamLeader {
     displayName = "Officer";
     icon = "iconManLeader";
+    uniformClass = "CUP_U_B_BDUv2_OD";
     linkedItems[] = {DEFAULT_ITEMS, "H_Beret_Colonel", "CUP_V_B_ALICE"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "H_Beret_Colonel", "CUP_V_B_ALICE"};
     Items[] = {mag_4("ACE_fieldDressing")};
@@ -252,15 +320,16 @@ class TACU_Vietnam_U_US_Crewman: TACU_Vietnam_U_US_Rifleman_M16_Light {
     displayName = "Crewman";
     icon = "iconManEngineer";
     role = "Sapper";
-    uniformClass = "CUP_U_B_US_BDU_roll2_glove";
+    engineer = 1;
+    uniformClass = "CUP_U_B_BDUv2_gloves_dirty_M81";
     linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Crew_Helmet", "CUP_V_B_ALICE"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Crew_Helmet", "CUP_V_B_ALICE"};
     Items[] = {mag_6("ACE_fieldDressing")};
     respawnItems[] = {mag_6("ACE_fieldDressing")};
-    weapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_hgun_Colt1911", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
-    respawnMagazines[] = {mag_4("CUP_7Rnd_45ACP_1911")};
+    weapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_Colt1911", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_smg_M3A1_blk", "CUP_hgun_Colt1911", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_smg_M3A1_blk"), mag_3("CUP_7Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_5("CUP_smg_M3A1_blk"), mag_3("CUP_7Rnd_45ACP_1911")};
     headgearList[] = {
         "CUP_H_USMC_Crew_Helmet", 1
     };
@@ -269,9 +338,9 @@ class TACU_Vietnam_U_US_Crewman: TACU_Vietnam_U_US_Rifleman_M16_Light {
 
 class TACU_Vietnam_U_US_Pilot_Helo: TACU_Vietnam_U_US_Crewman {
     displayName = "Pilot (Helicopter)";
-    uniformClass = "CUP_U_B_US_BDU_roll_glove";
-    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "CUP_V_B_ALICE"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "CUP_V_B_ALICE"};
+    uniformClass = "CUP_U_B_BDUv2_roll_gloves_OD";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "Aircrew_vest_2_NH"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_H_USMC_Helmet_Pilot", "Aircrew_vest_2_NH"};
     headgearList[] = {
         "CUP_H_USMC_Helmet_Pilot", 1
     };

@@ -436,8 +436,8 @@ class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifle
     displayName = "Engineer (Vikhr)";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
-    canDeactivateMines = true;
+    engineer = 1;
+    canDeactivateMines = 1;
     uniformClass = "CUP_U_C_racketeer_01";
     backpack = "TACU_SevenRings_B_Engineer_Kitbag_Tan";
     Items[] = {"ACE_M26_Clacker", "ACE_DeadManSwitch"};

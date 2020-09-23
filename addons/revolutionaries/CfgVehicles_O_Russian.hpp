@@ -228,7 +228,7 @@ class TACU_Revolutionaries_U_O_Russian_Saboteur: TACU_Revolutionaries_U_O_Russia
     displayName = "Saboteur";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
+    engineer = 1;
     uniformClass = "CUP_U_C_racketeer_02";
     Items[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
     respawnItems[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};

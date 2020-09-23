@@ -230,7 +230,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Saboteur: TACU_Revolutionaries_U_O_Tanoan_
     displayName = "Saboteur";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
+    engineer = 1;
     uniformClass = "U_I_C_Soldier_Bandit_5_F";
     Items[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
     respawnItems[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};

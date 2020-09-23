@@ -20,6 +20,9 @@ class CfgVehicles {
         genericNames = "NATOMen";
         icon = "iconMan";
         role = "Rifleman";
+        canDeactivateMines = 0; // Set ability to deactivate mines
+        engineer = 0; // Set ability to repair vehicles
+        attendant = 0; // Set ability to heal
         uniformClass = "";
         backpack = "";
         linkedItems[] = {DEFAULT_ITEMS_RADIO};
@@ -30,12 +33,12 @@ class CfgVehicles {
         respawnWeapons[] = {"Throw", "Put"};
         magazines[] = {};
         respawnMagazines[] = {};
-        headgearList[] = {
-            "", 1
-        };
-        CBA_facewearList[] = {
-            "", 1
-        };
+        //headgearList[] = {
+        //    "", 1
+        //};
+        //CBA_facewearList[] = {
+        //    "", 1
+        //};
     };
 
     // Base OPFOR Soldier
@@ -54,6 +57,9 @@ class CfgVehicles {
         genericNames = "TakistaniMen";
         icon = "iconMan";
         role = "Rifleman";
+        canDeactivateMines = 0; // Set ability to deactivate mines
+        engineer = 0; // Set ability to repair vehicles
+        attendant = 0; // Set ability to heal
         uniformClass = "";
         backpack = "";
         linkedItems[] = {DEFAULT_ITEMS_RADIO};
@@ -64,12 +70,12 @@ class CfgVehicles {
         respawnWeapons[] = {"Throw", "Put"};
         magazines[] = {};
         respawnMagazines[] = {};
-        headgearList[] = {
-            "", 1
-        };
-        CBA_facewearList[] = {
-            "", 1
-        };
+        //headgearList[] = {
+        //    "", 1
+        //};
+        //CBA_facewearList[] = {
+        //    "", 1
+        //};
     };
 
     // Base INDEP Soldier
@@ -88,6 +94,9 @@ class CfgVehicles {
         genericNames = "GreekMen";
         icon = "iconMan";
         role = "Rifleman";
+        canDeactivateMines = 0; // Set ability to deactivate mines
+        engineer = 0; // Set ability to repair vehicles
+        attendant = 0; // Set ability to heal
         uniformClass = "";
         backpack = "";
         linkedItems[] = {DEFAULT_ITEMS_RADIO};
@@ -98,12 +107,12 @@ class CfgVehicles {
         respawnWeapons[] = {"Throw", "Put"};
         magazines[] = {};
         respawnMagazines[] = {};
-        headgearList[] = {
-            "", 1
-        };
-        CBA_facewearList[] = {
-            "", 1
-        };
+        //headgearList[] = {
+        //    "", 1
+        //};
+        //CBA_facewearList[] = {
+        //    "", 1
+        //};
     };
 };
 

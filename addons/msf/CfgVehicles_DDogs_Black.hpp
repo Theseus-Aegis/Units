@@ -131,6 +131,7 @@ class TACU_MSF_U_I_DDogs_Black_Engineer: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     icon = "iconManEngineer";
     role = "Sapper";
     engineer = 1;
+    canDeactivateMines = 1;
     backpack = "TACU_MSF_B_Engineer_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Engineer.jpg);
     weapons[] = {"TACU_MSF_W_Promet_SG_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
