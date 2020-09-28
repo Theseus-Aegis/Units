@@ -16,7 +16,7 @@ class TACU_Takistan_U_TNP_Officer: TACU_Main_U_INDEP_Soldier_Base {
     respawnWeapons[] = {"CUP_arifle_AKMS_Early", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_30Rnd_762x39_BP_Mag")};
     respawnMagazines[] = {mag_4("tacgt_30Rnd_762x39_BP_Mag")};
-    editorSubcategory = "TACU_Takistan_EdSubCat_Officer";
+    editorSubcategory = "TACU_Takistan_EdSubCat_Regular";
     headgearList[] = {
         "CUP_H_TKI_SkullCap_05", 0.20,
         "CUP_H_TKI_Pakol_2_02", 0.20,
