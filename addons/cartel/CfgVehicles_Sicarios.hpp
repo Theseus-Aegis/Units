@@ -95,6 +95,7 @@ class TACU_Cartel_U_O_Sicario_Rifleman_MG: TACU_Cartel_U_O_Sicario_Rifleman_01 {
 
 class TACU_Cartel_U_O_Sicario_Grenadier: TACU_Cartel_U_O_Sicario_Rifleman_01 {
     displayName = "Sicario (GL)";
+    role = "Grenadier";
     uniformClass = "tacs_Uniform_Combat_LS_BS_GP_TB";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrierIA1_dgtl", "G_Aviator"};

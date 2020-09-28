@@ -22,9 +22,6 @@ class CfgEditorSubcategories {
     class TACU_Takistan_EdSubCat_TakistanSF {
         displayName = "Men (Takistani SF)";
     };
-    class TACU_Takistan_EdSubCat_Officer {
-        displayName = "Men (Officers)";
-    };
     class TACU_Takistan_EdSubCat_Regular {
         displayName = "Men (Regular)";
     };

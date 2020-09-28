@@ -112,6 +112,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Pistoleer02: TACU_Revolutionaries_U_I_Tano
 
 class TACU_Revolutionaries_U_I_Tanoan_Head: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Head";
+    icon = "iconManOfficer";
     uniformClass = "U_C_HunterBody_grn";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Cap_tan"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Cap_tan"};

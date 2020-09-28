@@ -228,9 +228,9 @@ class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan
 
 class TACU_Revolutionaries_U_O_Tanoan_Saboteur: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Saboteur";
-    icon = "iconManEngineer";
+    icon = "iconManExplosive";
     role = "Sapper";
-    engineer = true;
+    engineer = 1;
     uniformClass = "U_I_C_Soldier_Bandit_5_F";
     Items[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
     respawnItems[] = {mag_5("ACE_fieldDressing"), "ACE_Clacker"};
@@ -268,6 +268,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Pistoleer02: TACU_Revolutionaries_U_O_Tano
 
 class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Head";
+    icon = "iconManOfficer";
     uniformClass = "U_Marshal";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Hat_brown"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Hat_brown"};

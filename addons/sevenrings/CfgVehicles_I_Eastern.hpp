@@ -436,8 +436,8 @@ class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifle
     displayName = "Engineer (Vikhr)";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
-    canDeactivateMines = true;
+    engineer = 1;
+    canDeactivateMines = 1;
     uniformClass = "CUP_U_C_racketeer_01";
     backpack = "TACU_SevenRings_B_Engineer_Kitbag_Tan";
     Items[] = {"ACE_M26_Clacker", "ACE_DeadManSwitch"};
@@ -608,11 +608,11 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_01: TACU_SevenRings_U_I_Eastern_
         MACRO_EAST_DEFAULT_WEAPON
     };
     magazines[] = {
-        mag_8("CUP_20Rnd_B_Saiga12_74Pellets_M"),
+        mag_8("CUP_12Rnd_B_Saiga12_Buck_00"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
     respawnMagazines[] = {
-        mag_8("CUP_20Rnd_B_Saiga12_74Pellets_M"),
+        mag_8("CUP_12Rnd_B_Saiga12_Buck_00"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
     editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_CQBSpecialist_01.jpg);

@@ -103,6 +103,7 @@ class TACU_Vanguard_U_O_Contractor_Sand_Marksman: TACU_Vanguard_U_Contractor_San
 
 class TACU_Vanguard_U_Contractor_Sand_Driver: TACU_Vanguard_U_Contractor_Sand_Rifleman_01 {
     displayName = "Driver";
+    role = "Crewman";
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
@@ -172,7 +173,7 @@ class TACU_Vanguard_U_Contractor_Sand_Engineer: TACU_Vanguard_U_Contractor_Sand_
     displayName = "Engineer";
     icon = "iconManEngineer";
     role = "Sapper";
-    engineer = true;
+    engineer = 1;
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "B_Kitbag_mcamo_Eng";
     weapons[] = {"TACU_Vanguard_W_CTAR_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
