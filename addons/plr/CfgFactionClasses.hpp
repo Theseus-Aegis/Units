@@ -14,4 +14,12 @@ class CfgEditorSubcategories {
     class TACU_PLR_EdSubCat_Paramilitary {
         displayName = "Men (Paramilitary)";
     };
+
+    class TACU_PLR_EdSubCat_Artillery {
+        displayName = "Artillery";
+    };
+
+    class TACU_PLR_EdSubCat_AntiAir {
+        displayName = "Anti-Air";
+    };
 };

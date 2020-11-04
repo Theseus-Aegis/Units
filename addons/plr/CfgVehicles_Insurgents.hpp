@@ -107,8 +107,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_05: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     uniformClass = "CUP_I_B_PMC_Unit_13";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_ShemagOpen_khk", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Rifleman_Grey"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_ShemagOpen_khk", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Rifleman_Grey"};
-    weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
+    weapons[] = {"TACU_PLR_W_FNFAL_FL", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_PLR_W_FNFAL_FL", "Throw", "Put"};
     magazines[] = {mag_5("CUP_20Rnd_762x51_FNFAL_M"), "CUP_HandGrenade_RGD5"};
     respawnMagazines[] = {mag_5("CUP_20Rnd_762x51_FNFAL_M"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
@@ -211,4 +211,30 @@ class TACU_PLR_U_O_Insurgent_Sniper: TACU_PLR_U_O_Insurgent_Rifleman_01 {
         "CUP_FR_NeckScarf", 0.1
     };
     editorPreview = QPATHTOF(ui\PLR_U_O_Insurgent_Sniper.jpg);
+};
+
+class TACU_PLR_U_O_Insurgent_MMG: TACU_PLR_U_O_Insurgent_Rifleman_01 {
+    displayName = "Machinegunner";
+    icon = "iconManMG";
+    role = "MachineGunner";
+    uniformClass = "CUP_U_O_TK_MixedCamo";
+    backpack = "TACU_PLR_B_MMG";
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Helmet_BLK", "G_Balaclava_blk", "CUP_V_B_Interceptor_Grenadier_Grey"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Helmet_BLK", "G_Balaclava_blk", "CUP_V_B_Interceptor_Grenadier_Grey"};
+    weapons[] = {"TACU_PLR_W_PKM_FL", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_PLR_W_PKM_FL", "Throw", "Put"};
+    magazines[] = {mag_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M")};
+    respawnMagazines[] = {mag_3("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M")};
+    headgearList[] = {
+        "CUP_H_SLA_Helmet_BLK", 1
+    };
+    CBA_facewearList[] = {
+        "G_Balaclava_blk", 0.6,
+        "G_Balaclava_oli", 0.2,
+        "CUP_G_Scarf_Face_Red", 0.5,
+        "CUP_FR_NeckScarf5", 0.3,
+        "CUP_G_ESS_BLK_Scarf_Face_Red", 0.3,
+
+    };
+    editorPreview = QPATHTOF(ui\PLR_U_O_Insurgent_Autorifleman.jpg);
 };
