@@ -15,11 +15,13 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_rgr"
+        "milgp_v_marciras_assaulter_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_rgr"
+        "milgp_v_marciras_assaulter_rgr",
+        "G_Balaclava_blk"
     };
     Items[] = {};
     respawnItems[] = {};
@@ -49,16 +51,6 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         "H_HelmetB_light", 0.50,
         "H_HelmetB_light_black", 0.50,
         "H_Booniehat_khk", 0.25
-    };
-    CBA_facewearList[] = {
-        "G_Aviator", 0.50,
-        "G_Balaclava_blk", 0.10,
-        "G_Bandanna_aviator", 0.50,
-        "G_Spectacles", 0.50,
-        "G_Shades_Black", 0.50,
-        "CUP_RUS_Balaclava_grn", 0.10,
-        "CUP_FR_NeckScarf3", 0.50,
-        "CUP_FR_NeckScarf", 0.50
     };
     editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_01.jpg);
 };
@@ -113,11 +105,13 @@ class TACU_SevenRings_U_I_Western_Grenadier_01: TACU_SevenRings_U_I_Western_Rifl
     uniformClass = "CUP_I_B_PMC_Unit_41";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_grenadier_belt_rgr"
+        "milgp_v_marciras_grenadier_belt_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_grenadier_belt_rgr"
+        "milgp_v_marciras_grenadier_belt_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_BREN2_GL_14",
@@ -196,11 +190,13 @@ class TACU_SevenRings_U_I_Western_Rifleman_AT_01: TACU_SevenRings_U_I_Western_Ri
     backpack = "TACU_SevenRings_B_AT_Assault_Maaws";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_rgr"
+        "milgp_v_marciras_hgunner_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_rgr"
+        "milgp_v_marciras_hgunner_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_AK109_Zenitco",
@@ -284,11 +280,13 @@ class TACU_SevenRings_U_I_Western_Autorifleman_01: TACU_SevenRings_U_I_Western_R
     uniformClass = "tacs_Uniform_Polo_CP_BS_TP_BB_NoLogo";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_belt_rgr"
+        "milgp_v_marciras_hgunner_belt_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_belt_rgr"
+        "milgp_v_marciras_hgunner_belt_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_MK200",
@@ -362,11 +360,13 @@ class TACU_SevenRings_U_I_Western_Medic_01: TACU_SevenRings_U_I_Western_Rifleman
     backpack = "G_FieldPack_Medic";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_medic_belt_rgr"
+        "milgp_v_marciras_medic_belt_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_medic_belt_rgr"
+        "milgp_v_marciras_medic_belt_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_G3A3_RIS",
@@ -449,11 +449,13 @@ class TACU_SevenRings_U_I_Western_Engineer_01: TACU_SevenRings_U_I_Western_Rifle
     respawnItems[] = {"ACE_M26_Clacker"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_belt_rgr"
+        "milgp_v_marciras_assaulter_belt_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_belt_rgr"
+        "milgp_v_marciras_assaulter_belt_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_AK15",
@@ -524,11 +526,13 @@ class TACU_SevenRings_U_I_Western_Teamleader_01: TACU_SevenRings_U_I_Western_Rif
     uniformClass = "tacs_Uniform_Garment_LS_OS_EP_TB";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_teamleader_belt_RGR"
+        "milgp_v_marciras_teamleader_belt_RGR",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_teamleader_belt_RGR"
+        "milgp_v_marciras_teamleader_belt_RGR",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_SCAR_L_AFG",
@@ -598,11 +602,13 @@ class TACU_SevenRings_U_I_Western_CQBSpecialist_01: TACU_SevenRings_U_I_Western_
     uniformClass = "tacs_Uniform_Combat_RS_CLFS_GP_BB";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_light_rgr"
+        "milgp_v_marciras_light_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_light_rgr"
+        "milgp_v_marciras_light_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_SAIGA12K",
@@ -674,11 +680,13 @@ class TACU_SevenRings_U_I_Western_Marksman_01: TACU_SevenRings_U_I_Western_Rifle
     uniformClass = "U_I_C_Soldier_Bandit_3_F";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_marksman_rgr"
+        "milgp_v_marciras_marksman_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_marksman_rgr"
+        "milgp_v_marciras_marksman_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "TACU_SevenRings_W_West_SIG556_DMR",
@@ -751,11 +759,13 @@ class TACU_SevenRings_U_I_Western_AA_01: TACU_SevenRings_U_I_Western_Rifleman_01
     backpack = "TACU_SevenRings_B_AA_Kitbag_Black";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_rgr"
+        "milgp_v_marciras_hgunner_rgr",
+        "G_Balaclava_blk"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_rgr"
+        "milgp_v_marciras_hgunner_rgr",
+        "G_Balaclava_blk"
     };
     weapons[] = {
         "launch_B_Titan_olive_F",
