@@ -10,6 +10,16 @@ class CfgVehicles {
         };
     };
 
+    class CUP_B_AlicePack_OD;
+    class TACU_PLR_B_MMG: CUP_B_AlicePack_OD {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M,3);
+        };
+    };
+
     #include "CfgVehicles_Insurgents.hpp"
     #include "CfgVehicles_Paramilitary.hpp"
     #include "CfgVehicles_Vehicles.hpp"
