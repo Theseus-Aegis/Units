@@ -1,0 +1,33 @@
+name: Arma
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@master
+    - name: Validate Config
+      run: python3 tools/config_style_checker.py
+    - name: Check for BOM
+      uses: arma-actions/bom-check@master
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the source code
+      uses: actions/checkout@master
+    - name: Build using HEMTT
+      uses: arma-actions/hemtt@master
+      with:
+        command: build --release --ci
+    # https://github.com/actions/upload-artifact/issues/3#issuecomment-524442814
+    #- uses: actions/upload-artifact@master
+    #  with:
+    #    name: GT_Armory_VERSION
+    #    path: releases/VERSION
