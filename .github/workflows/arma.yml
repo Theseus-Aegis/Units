@@ -26,8 +26,10 @@ jobs:
       uses: arma-actions/hemtt@master
       with:
         command: build --release --ci
-    # https://github.com/actions/upload-artifact/issues/3#issuecomment-524442814
-    #- uses: actions/upload-artifact@master
-    #  with:
-    #    name: GT_Armory_VERSION
-    #    path: releases/VERSION
+    - name: Set short commit hash
+      run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: TACU-${{ env.SHA_SHORT }}-nobin
+        path: releases/*/*  # Upload folder to avoid double-zip artifacts
