@@ -1,4 +1,4 @@
-name = "TAC Units 1.7.3";
+name = "TAC Units 1.7.4";
 picture = "logo_tacu_ca.paa";
 actionName = "Website";
 action = "http://www.theseus-aegis.com/";
