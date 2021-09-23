@@ -9,7 +9,6 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     genericNames = "CUP_Names_CzechMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     sensitivityEar = 0.15;
     uniformClass = "CUP_I_B_PMC_Unit_40";
     backpack = "";
@@ -676,7 +675,6 @@ class TACU_SevenRings_U_I_Western_CQBSpecialist_03: TACU_SevenRings_U_I_Western_
 class TACU_SevenRings_U_I_Western_Marksman_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Marksman (SIG 556)";
     role = "Marksman";
-    sensitivity = 2.25;
     uniformClass = "U_I_C_Soldier_Bandit_3_F";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,

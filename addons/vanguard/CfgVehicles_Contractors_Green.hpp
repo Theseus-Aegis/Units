@@ -9,7 +9,6 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     genericNames = "NATOMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     sensitivityEar = 0.15;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     backpack = "";
@@ -87,7 +86,6 @@ class TACU_Vanguard_U_O_Contractor_Green_Grenadier: TACU_Vanguard_U_Contractor_G
 class TACU_Vanguard_U_Contractor_Green_Marksman: TACU_Vanguard_U_Contractor_Green_Rifleman_01 {
     displayName = "Marksman";
     role = "Marksman";
-    sensitivity = 2.25;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"TACU_Vanguard_W_SIG556_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_SIG556_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};

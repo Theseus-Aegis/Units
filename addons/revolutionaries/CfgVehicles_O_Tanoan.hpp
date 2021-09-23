@@ -11,7 +11,6 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Main_U_OPFOR_Soldier_Base
     genericNames = "TanoanMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "U_C_MAN_casual_1_F";
     backpack = "B_FieldPack_green_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};
@@ -93,7 +92,6 @@ class TACU_Revolutionaries_U_O_Tanoan_Shotgunner: TACU_Revolutionaries_U_O_Tanoa
 class TACU_Revolutionaries_U_O_Tanoan_Marksman: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Marksman";
     role = "Marksman";
-    sensitivity = 2.25;
     uniformClass = "U_C_MAN_casual_5_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_Pocketed_black_F", "G_Balaclava_blk"};

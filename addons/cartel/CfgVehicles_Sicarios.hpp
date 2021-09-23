@@ -11,7 +11,6 @@ class TACU_Cartel_U_O_Sicario_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     genericNames = "TanoanMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "tacs_Suit_VIP";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Rangemaster_belt", "G_Aviator"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Rangemaster_belt", "G_Aviator"};

@@ -9,7 +9,6 @@ class TACU_Vanguard_U_Guard_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     genericNames = "NATOMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Aviator", "V_BandollierB_blk"};

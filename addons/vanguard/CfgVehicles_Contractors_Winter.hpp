@@ -9,7 +9,6 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     genericNames = "NATOMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "CUP_FR_NeckScarf4", "CUP_V_PMC_CIRAS_Winter_TL"};
@@ -87,7 +86,6 @@ class TACU_Vanguard_U_O_Contractor_Winter_Grenadier: TACU_Vanguard_U_Contractor_
 class TACU_Vanguard_U_Contractor_Winter_Marksman: TACU_Vanguard_U_Contractor_Winter_Rifleman_01 {
     displayName = "Marksman";
     role = "Marksman";
-    sensitivity = 2.25;
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     weapons[] = {"arifle_SPAR_03_blk_MOS_Pointer_Bipod_F", "CUP_hgun_Phantom", "Throw", "Put"};
     respawnWeapons[] = {"arifle_SPAR_03_blk_MOS_Pointer_Bipod_F", "CUP_hgun_Phantom", "Throw", "Put"};

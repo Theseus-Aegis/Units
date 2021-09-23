@@ -9,7 +9,6 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     genericNames = "TakistaniMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     sensitivityEar = 0.15;
     uniformClass = "CUP_O_TKI_Khet_Partug_04";
     backpack = "";
@@ -665,7 +664,6 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_03: TACU_SevenRings_U_I_Eastern_
 class TACU_SevenRings_U_I_Eastern_Marksman_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Marksman (SVD)";
     role = "Marksman";
-    sensitivity = 2.25;
     uniformClass = "CUP_O_TKI_Khet_Partug_01";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
