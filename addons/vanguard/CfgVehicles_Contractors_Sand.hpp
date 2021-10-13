@@ -9,7 +9,6 @@ class TACU_Vanguard_U_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_Bas
     genericNames = "NATOMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "CUP_FR_NeckScarf2", "milgp_v_jpc_assaulter_belt_khk"};
@@ -87,7 +86,6 @@ class TACU_Vanguard_U_O_Contractor_Sand_Grenadier: TACU_Vanguard_U_Contractor_Sa
 class TACU_Vanguard_U_Contractor_Sand_Marksman: TACU_Vanguard_U_Contractor_Sand_Rifleman_01 {
     displayName = "Marksman";
     role = "Marksman";
-    sensitivity = 2.25;
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {"TACU_Vanguard_W_SIG556_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_SIG556_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};

@@ -7,7 +7,6 @@ class TACU_MSF_U_I_XOF_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     faction = "TACU_MSF_I";
     scope = 2;
     scopeCurator = 2;
-    sensitivity = 2;
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "NoGlasses"};
     genericNames = "NATOMen";
     icon = "iconMan";

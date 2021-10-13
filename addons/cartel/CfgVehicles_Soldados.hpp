@@ -10,7 +10,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     genericNames = "TanoanMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "tacs_Uniform_Polo_TP_BS_LP_BB_NoLogo";
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};

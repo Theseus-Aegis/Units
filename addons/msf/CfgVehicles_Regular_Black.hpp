@@ -7,7 +7,6 @@ class TACU_MSF_U_I_Regular_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     faction = "TACU_MSF_I";
     scope = 2;
     scopeCurator = 2;
-    sensitivity = 2;
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "NoGlasses"};
     genericNames = "NATOMen";
     icon = "iconMan";
@@ -182,7 +181,6 @@ class TACU_MSF_U_O_Regular_Black_Grenadier: TACU_MSF_U_I_Regular_Black_Grenadier
 
 class TACU_MSF_U_I_Regular_Black_Marksman: TACU_MSF_U_I_Regular_Black_Rifleman_01 {
     displayName = "Marksman";
-    sensitivity = 2.25;
     role = "Marksman";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_RS_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Marksman.jpg);
@@ -198,7 +196,6 @@ class TACU_MSF_U_O_Regular_Black_Marksman: TACU_MSF_U_I_Regular_Black_Marksman {
 
 class TACU_MSF_U_I_Regular_Black_Sniper: TACU_MSF_U_I_Regular_Black_Rifleman_01 {
     displayName = "Sniper";
-    sensitivity = 2.5;
     role = "Marksman";
     uniformClass = "TACU_MSF_Uniform_Combat_Fatigues_LS_Black";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Regular_Black_Sniper.jpg);

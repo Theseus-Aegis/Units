@@ -7,7 +7,6 @@ class TACU_MSF_U_I_DDogs_Black_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     faction = "TACU_MSF_I";
     scope = 2;
     scopeCurator = 2;
-    sensitivity = 2;
     identityTypes[] = {"LanguageENG_F", "Head_NATO", "NoGlasses"};
     genericNames = "NATOMen";
     icon = "iconMan";
@@ -96,7 +95,6 @@ class TACU_MSF_U_O_DDogs_Black_Teamleader: TACU_MSF_U_I_DDogs_Black_Teamleader {
 
 class TACU_MSF_U_I_DDogs_Black_Marksman: TACU_MSF_U_I_DDogs_Black_Rifleman_01 {
     displayName = "Marksman";
-    sensitivity = 2.25;
     role = "Marksman";
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_DDogs_Black_Marksman.jpg);
     weapons[] = {"TACU_MSF_W_Promet_DMR_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};

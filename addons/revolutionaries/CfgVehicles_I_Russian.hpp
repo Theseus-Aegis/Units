@@ -11,7 +11,6 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman01: TACU_Main_U_INDEP_Soldier_Bas
     genericNames = "CUP_Names_RussianMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "CUP_U_C_Citizen_01";
     backpack = "B_FieldPack_blk";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
@@ -79,7 +78,6 @@ class TACU_Revolutionaries_U_I_Russian_Shotgunner: TACU_Revolutionaries_U_I_Russ
 class TACU_Revolutionaries_U_I_Russian_Marksman: TACU_Revolutionaries_U_I_Russian_Rifleman01 {
     displayName = "Marksman";
     role = "Marksman";
-    sensitivity = 2.25;
     uniformClass = "CUP_U_C_Woodlander_04";
     weapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
     respawnWeapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};

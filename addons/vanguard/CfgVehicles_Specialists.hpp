@@ -9,7 +9,6 @@ class TACU_Vanguard_U_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     genericNames = "NATOMen";
     icon = "iconMan";
     role = "Rifleman";
-    sensitivity = 2;
     uniformClass = "tacs_Uniform_Garment_LS_BS_BP_BB";
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "V_PlateCarrier2_blk", "G_Balaclava_blk", "NVGogglesB_blk_F"};
@@ -70,7 +69,6 @@ class TACU_Vanguard_U_O_Specialist_Grenadier: TACU_Vanguard_U_Specialist_Grenadi
 class TACU_Vanguard_U_Specialist_Marksman: TACU_Vanguard_U_Specialist_Rifleman {
     displayName = "Marksman";
     role = "Marksman";
-    sensitivity = 2.25;
     weapons[] = {"TACU_Vanguard_W_MXM_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_MXM_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("30Rnd_65x39_caseless_black_mag"), mag_2("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
