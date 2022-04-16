@@ -106,13 +106,29 @@ class CfgVehicles {
         };
     };
     //Veterans
-    class TACU_Revolutionaries_B_Vet_Rocketeer_Black: B_FieldPack_blk {
+    class TACU_Revolutionaries_B_Vet_Rocketeer_Green: B_FieldPack_green_F {
         dlc = QUOTE(PREFIX);
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
             MACRO_ADDMAGAZINE(MRAWS_HE_F,2);
             MACRO_ADDMAGAZINE(MRAWS_HEAT55_F,2);
+        };
+
+    class TACU_Revolutionaries_B_Vet_M60_Green: B_FieldPack_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,5);
+        };
+
+    class TACU_Revolutionaries_B_Vet_MXLSW_Green: B_FieldPack_green_F {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(100Rnd_65x39_caseless_mag,5);
         };
 
     #include "CfgVehicles_I_Russian.hpp"
