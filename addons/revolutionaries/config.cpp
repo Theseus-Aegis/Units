@@ -14,6 +14,10 @@ class CfgPatches {
             "TACU_Revolutionaries_B_Rocketeer_Green",
             "TACU_Revolutionaries_B_Paramedic_Green",
             "TACU_Revolutionaries_B_Paramedic_Black",
+            //Backpacks - Veterans
+            "TACU_Revolutionaries_B_Vet_Rocketeer_Green",
+            "TACU_Revolutionaries_B_Vet_M60_Green",
+            "TACU_Revolutionaries_B_Vet_MXLSW_Green",
             // Units - Indep - Russian
             "TACU_Revolutionaries_U_I_Russian_Rifleman01",
             "TACU_Revolutionaries_U_I_Russian_Rifleman02",
@@ -82,6 +86,25 @@ class CfgPatches {
             "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02",
             "TACU_Revolutionaries_U_O_Tanoan_Head",
             "TACU_Revolutionaries_U_O_Tanoan_Paramedic",
+            // Units - Opfor - Tanoan Veterans
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman02",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman03",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman04",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Medic",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Shotgunner",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Marksman",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_SMG01",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_SMG02",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Grenadier",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Machinegunner",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Autorifleman",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Rocketeer",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Figure_Head",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Leader",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer01",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer02",
+            "TACU_Revolutionaries_U_O_Tanoan_Vet_Head",
             // Vehicles - Indep - Russian
             "TACU_Revolutionaries_V_I_Datsun_5Seat",
             "TACU_Revolutionaries_V_I_Golf_Black",
@@ -106,7 +129,8 @@ class CfgPatches {
             "TACU_Revolutionaries_W_CZ805A2",
             "TACU_Revolutionaries_W_FNMinimiSPW",
             "TACU_Revolutionaries_W_MP5K",
-            "TACU_Revolutionaries_W_CZ805_GL"
+            "TACU_Revolutionaries_W_CZ805_GL",
+            "TACU_Revolutionaries_W_M24"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
