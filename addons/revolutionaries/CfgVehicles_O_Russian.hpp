@@ -282,6 +282,38 @@ class TACU_Revolutionaries_U_O_Russian_Head: TACU_Revolutionaries_U_O_Russian_Ri
     };
 };
 
+//Veterans
+class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01: TACU_Main_U_OPFOR_Soldier_Base {
+    dlc = QUOTE(PREFIX);
+    author = "Jack";
+    displayName = "Rifleman (FAL)";
+    faction = "TACU_Revolutionaries_O";
+    scope = 2;
+    scopeCurator = 2;
+    identityTypes[] = {"CUP_D_Language_RU", "Head_Euro", "NoGlasses"};
+    genericNames = "CUP_Names_RussianMen";
+    icon = "iconMan";
+    role = "Rifleman";
+    uniformClass = "CUP_U_C_Citizen_01";
+    backpack = "B_FieldPack_blk";
+    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};
+    Items[] = {mag_5("ACE_fieldDressing")};
+    respawnItems[] = {mag_5("ACE_fieldDressing")};
+    weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
+    magazines[] = {mag_5("tacgt_20Rnd_762x51_FAL_AP_Mag"), "ACE_M84", "SmokeShell", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_5("tacgt_20Rnd_762x51_FAL_AP_Mag"), "ACE_M84", "SmokeShell", "SmokeShellPurple"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Russian";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rifleman01.jpg);
+    headgearList[] = {
+        "", 1
+    };
+    CBA_facewearList[] = {
+        "G_Balaclava_blk", 1
+    };
+};
+
 // Vehicles
 class CUP_C_Datsun_4seat;
 class TACU_Revolutionaries_V_O_Datsun_5Seat: CUP_C_Datsun_4seat {
