@@ -131,6 +131,31 @@ class CfgVehicles {
             MACRO_ADDMAGAZINE(100Rnd_65x39_caseless_mag,5);
         };
 
+    class TACU_Revolutionaries_B_Vet_Zafir_Black: B_FieldPack_blk {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(150Rnd_762x54_Box,5);
+        };
+
+    class TACU_Revolutionaries_B_Vet_Galil_Black: B_FieldPack_blk {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_50Rnd_556x45_Galil_Mag,5);
+        };
+
+    class TACU_Revolutionaries_B_Vet_SMAW_Black: B_FieldPack_blk {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class TransportMagazines {
+            MACRO_ADDMAGAZINE(CUP_SMAW_HEDP_M,2);
+            MACRO_ADDMAGAZINE(CUP_SMAW_HEAA_M,2);
+        };
+
     #include "CfgVehicles_I_Russian.hpp"
     #include "CfgVehicles_I_Tanoan.hpp"
     #include "CfgVehicles_O_Russian.hpp"
