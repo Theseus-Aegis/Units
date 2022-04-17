@@ -152,8 +152,8 @@ class CfgPatches {
             "TACU_Revolutionaries_W_FNMinimiSPW",
             "TACU_Revolutionaries_W_MP5K",
             "TACU_Revolutionaries_W_CZ805_GL",
-            "TACU_Revolutionaries_W_M24"
-            "TACU_Revolutionaries_W_CZ750",
+            "TACU_Revolutionaries_W_M24",
+            "TACU_Revolutionaries_W_CZ750"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
