@@ -287,8 +287,8 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01: TACU_Revolutionaries_U_O_
     displayName = "Rifleman (XM8)";
     uniformClass = "CUP_U_O_RUS_Commander";
     backpack = "B_FieldPack_blk";
-    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk","CUP_NVG_1PN138_Hide"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk","CUP_NVG_1PN138_Hide"};
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_RUS_6B3_Flora_4", "G_Balaclava_blk","CUP_NVG_1PN138_Hide"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_RUS_6B3_Flora_4", "G_Balaclava_blk","CUP_NVG_1PN138_Hide"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_XM8_Compact", "Throw", "Put"};
@@ -298,7 +298,12 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01: TACU_Revolutionaries_U_O_
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rifleman01.jpg);
     headgearList[] = {
-        "", 1
+        "CUP_H_SLA_Helmet_BLK_worn", 0.2,
+        "CUP_H_SLA_Helmet_OD_worn", 0.2,
+        "CUP_H_RUS_SSH68_cover_berezka", 0.2,
+        "CUP_H_RUS_SSH68_cover_vsr93", 0.2,
+        "CUP_H_RUS_SSH68_cover_vsr98",0.2,
+        "CUP_H_RUS_6B27_cover",0.2
     };
 };
 
@@ -316,7 +321,7 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman02: TACU_Revolutionaries_U_O_
 
 class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman03: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
     displayName = "Rifleman (AUG)";
-    uniformClass = "CUP_U_B_BDUv2_Alpenflage";
+    uniformClass = "CUP_U_I_GUE_Flecktarn2";
     backpack = "B_FieldPack_blk";
     weapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
@@ -328,7 +333,7 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman03: TACU_Revolutionaries_U_O_
 
 class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman04: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
     displayName = "Rifleman (MSBS Grot)";
-    uniformClass = "CUP_U_B_BDUv2_Alpenflage";
+    uniformClass = "CUP_U_O_SLA_Green";
     backpack = "B_FieldPack_blk";
     weapons[] = {"arifle_MSBS65_UBS_ico_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_MSBS65_UBS_ico_F", "Throw", "Put"};
@@ -499,8 +504,8 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Pistoleer01: TACU_Revolutionaries_U_O
 };
 
 class TACU_Revolutionaries_U_O_Russian_Vet_Pistoleer02: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
-    displayName = "Pistoleer (Mk23)";
-    uniformClass = "CUP_U_B_HIL_ACU_TTS";
+    displayName = "Pistoleer (TT-33)";
+    uniformClass = "CUP_U_O_RUS_Ratnik_Summer";
     backpack = "B_FieldPack_blk";
     weapons[] = {"CUP_hgun_TT", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_TT", "Throw", "Put"};
@@ -510,7 +515,7 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Pistoleer02: TACU_Revolutionaries_U_O
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rifleman01.jpg);
 };
 
-class TACU_Revolutionaries_U_O_Russian_Vet_Head: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
+class TACU_Revolutionaries_U_O_Russian_Vet_Head: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
     displayName = "Head";
     icon = "iconManOfficer";
     uniformClass = "U_B_ParadeUniform_01_US_decorated_F";

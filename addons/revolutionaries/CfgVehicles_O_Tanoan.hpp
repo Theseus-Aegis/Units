@@ -301,12 +301,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01: TACU_Revolutionaries_U_O_R
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_TanoanVet";
    // editorPreview = QPATHTOF(ui\);
     headgearList[] = {
-        "CUP_H_SLA_Helmet_BLK_worn", 1
-        "CUP_H_SLA_Helmet_OD_worn", 1
-        "CUP_H_RUS_SSH68_cover_berezka", 1
-        "CUP_H_RUS_SSH68_cover_vsr93", 1
-        "CUP_H_RUS_SSH68_cover_vsr98",1
-        "CUP_H_RUS_6B27_cover",1
+        "CUP_H_SLA_Helmet_BLK_worn", 0.2,
+        "CUP_H_SLA_Helmet_OD_worn", 0.2,
+        "CUP_H_RUS_SSH68_cover_berezka", 0.2,
+        "CUP_H_RUS_SSH68_cover_vsr93", 0.2,
+        "CUP_H_RUS_SSH68_cover_vsr98",0.2,
+        "CUP_H_RUS_6B27_cover",0.2
     };
 };
 
@@ -478,7 +478,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rocketeer: TACU_Revolutionaries_U_O_Ta
     icon = "iconManAT";
     role = "MissileSpecialist";
     uniformClass = "U_I_L_Uniform_01_tshirt_sport_F";
-    backpack = "TACU_Revolutionaries_B_Vet_Rocketeer_Black";
+    backpack = "TACU_Revolutionaries_B_Vet_Rocketeer_Green";
     weapons[] = {"SMG_03C_black", "tacs_MRAWS_Black_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_black", "tacs_MRAWS_Black_F", "Throw", "Put"};
     magazines[] = {mag_5("tacgt_50Rnd_57x28_SS190"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
@@ -500,7 +500,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer01: TACU_Revolutionaries_U_O_
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer02: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
     displayName = "Pistoleer (Uzi)";
-    uniformClass = "U_I_L_Uniform_01_tshirt_sport_F";
+    uniformClass = "U_I_L_Uniform_01_tshirt_olive_F";
     weapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
     magazines[] = {mag_5("CUP_72Rnd_9x19_UZI_M"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
@@ -509,7 +509,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer02: TACU_Revolutionaries_U_O_
    // editorPreview = QPATHTOF(ui\);
 };
 
-class TACU_Revolutionaries_U_O_Tanoan_Vet_Head: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
+class TACU_Revolutionaries_U_O_Tanoan_Vet_Head: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
     displayName = "Head";
     icon = "iconManOfficer";
     uniformClass = "U_B_ParadeUniform_01_US_decorated_F";
