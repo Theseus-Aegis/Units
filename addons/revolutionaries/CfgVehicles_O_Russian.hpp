@@ -448,7 +448,7 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Figure_Head: TACU_Revolutionaries_U_O
     respawnMagazines[] = {mag_5("CUP_30Rnd_45ACP_M3A1_BLK_M"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
     //editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rifleman01.jpg);
-            headgearList[] = {
+    headgearList[] = {
         "H_HelmetSpecO_blk", 1
     };
     CBA_facewearList[] = {
@@ -467,7 +467,7 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Leader: TACU_Revolutionaries_U_O_Russ
     respawnMagazines[] = {mag_5("tacgt_30Rnd_580x42_DBP88"), mag_5("1Rnd_HE_Grenade_shell"), "HandGrenade", "SmokeShell"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
    // editorPreview = QPATHTOF(ui\);
-        headgearList[] = {
+    headgearList[] = {
         "CUP_H_RUS_Altyn_Shield_Down_khaki", 1
     };
 };
