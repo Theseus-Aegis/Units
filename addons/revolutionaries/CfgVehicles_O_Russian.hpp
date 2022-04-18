@@ -296,7 +296,7 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01: TACU_Revolutionaries_U_O_
     magazines[] = {mag_5("tacgt_30Rnd_556x45_M995_CZ805"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
     respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_M995_CZ805"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
-    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman01);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman01.jpg);
     headgearList[] = {
         "CUP_H_SLA_Helmet_BLK_worn", 0.2,
         "CUP_H_SLA_Helmet_OD_worn", 0.2,
@@ -316,7 +316,7 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman02: TACU_Revolutionaries_U_O_
     magazines[] = {mag_5("tacgt_30Rnd_556x45_M995_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
     respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_M995_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
-    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman02);
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman02.jpg);
 };
 
 class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman03: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
