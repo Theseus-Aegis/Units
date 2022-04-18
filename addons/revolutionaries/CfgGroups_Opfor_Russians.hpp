@@ -363,7 +363,7 @@ class TACU_Revolutionaries_G_O_Veterans_Russians {
     };
 
     class TACU_Revolutionaries_G_O_Veterans_Russians_Squad {
-        name = "Squad (Heavy)";
+        name = "Squad";
         side = 0;
         faction = "TACU_Revolutionaries_O";
         icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
