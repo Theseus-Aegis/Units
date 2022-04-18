@@ -44,4 +44,32 @@ class CfgWeapons {
             };
         };
     };
+
+    class CUP_srifle_M24_wdl;
+    class TACU_Revolutionaries_W_M24: CUP_srifle_M24_wdl {
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            class LinkedItemSide {
+                slot = "CUP_PicatinnyTopMountM24";
+                item = "optic_lrps";
+            };
+        };
+    };
+
+    class CUP_srifle_CZ750;
+    class TACU_Revolutionaries_W_CZ750:CUP_srifle_CZ750{
+        dlc = QUOTE(PREFIX);
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            class LinkedItemSide {
+                slot = "CUP_PicatinnyTopMountCZ750";
+                item = "optic_lrps";
+            };
+        };
+    };
+
+
 };

@@ -282,6 +282,258 @@ class TACU_Revolutionaries_U_O_Russian_Head: TACU_Revolutionaries_U_O_Russian_Ri
     };
 };
 
+//Veterans
+class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
+    displayName = "Rifleman (XM8)";
+    uniformClass = "CUP_U_O_RUS_Commander";
+    backpack = "B_FieldPack_blk";
+    linkedItems[] = {DEFAULT_ITEMS, "CUP_V_RUS_6B3_Flora_4", "G_Balaclava_blk","CUP_NVG_1PN138_Hide"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_RUS_6B3_Flora_4", "G_Balaclava_blk","CUP_NVG_1PN138_Hide"};
+    Items[] = {mag_5("ACE_fieldDressing")};
+    respawnItems[] = {mag_5("ACE_fieldDressing")};
+    weapons[] = {"CUP_arifle_XM8_Compact", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_XM8_Compact", "Throw", "Put"};
+    magazines[] = {mag_5("tacgt_30Rnd_556x45_M995_CZ805"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_M995_CZ805"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman01.jpg);
+    headgearList[] = {
+        "CUP_H_SLA_Helmet_BLK_worn", 0.2,
+        "CUP_H_SLA_Helmet_OD_worn", 0.2,
+        "CUP_H_RUS_SSH68_cover_berezka", 0.2,
+        "CUP_H_RUS_SSH68_cover_vsr93", 0.2,
+        "CUP_H_RUS_SSH68_cover_vsr98",0.2,
+        "CUP_H_RUS_6B27_cover",0.2
+    };
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman02: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Rifleman (G36)";
+    uniformClass = "CUP_U_B_BDUv2_Alpenflage";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"CUP_arifle_G36C_wdl", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_G36C_wdl", "Throw", "Put"};
+    magazines[] = {mag_5("tacgt_30Rnd_556x45_M995_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_M995_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman02.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman03: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Rifleman (AUG)";
+    uniformClass = "CUP_U_I_GUE_Flecktarn2";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
+    magazines[] = {mag_5("tacgt_42Rnd_556x45_M995_AUG"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    respawnMagazines[] = {mag_5("tacgt_42Rnd_556x45_M995_AUG"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman03.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman04: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Rifleman (MSBS Grot)";
+    uniformClass = "CUP_U_O_SLA_Green";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"arifle_MSBS65_UBS_ico_F", "Throw", "Put"};
+    respawnWeapons[] = {"arifle_MSBS65_UBS_ico_F", "Throw", "Put"};
+    magazines[] = {mag_5("30Rnd_65x39_caseless_msbs_mag"), mag_5("tacgt_6Rnd_P_UGL"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    respawnMagazines[] = {mag_5("t30Rnd_65x39_caseless_msbs_mag"), mag_5("tacgt_6Rnd_P_UGL"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman04.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Medic: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Medic";
+    icon = "iconManMedic";
+    role = "CombatLifeSaver";
+    attendant = 1;
+    uniformClass = "CUP_U_B_BDUv2_DPM";
+    backpack = "TACU_Revolutionaries_B_Paramedic_Black";
+    weapons[] = {"CUP_smg_MP7_woodland", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_smg_MP7_woodland", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_40Rnd_46x30_MP7"), "HandGrenade", "SmokeShell", "SmokeShellOrange"};
+    respawnMagazines[] = {mag_5("CUP_40Rnd_46x30_MP7"), "HandGrenade", "SmokeShell", "SmokeShellOrange"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Medic.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Shotgunner: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Shotgunner";
+    uniformClass = "CUP_U_B_BDUv2_ERDL_highland";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"CUP_sgun_Saiga12K", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_sgun_Saiga12K", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_12Rnd_B_Saiga12_Buck_00"), mag_5("CUP_12Rnd_B_Saiga12_Slug"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_5("CUP_12Rnd_B_Saiga12_Buck_00"), mag_5("CUP_12Rnd_B_Saiga12_Slug"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Shotgunner.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Marksman: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Marksman";
+    uniformClass = "CUP_U_I_Ghillie_Top";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"TACU_Revolutionaries_W_CZ750", "Throw", "Put"};
+    respawnWeapons[] = {"TACU_Revolutionaries_W_CZ750", "Throw", "Put"};
+    magazines[] = {mag_8("CUP_10Rnd_762x51_CZ750"), "HandGrenade", "SmokeShell", "SmokeShellBlue"};
+    respawnMagazines[] = {mag_8("CUP_10Rnd_762x51_CZ750"), "HandGrenade", "SmokeShell", "SmokeShellBlue"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Marksman.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_SMG01: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "SMG (VSS)";
+    uniformClass = "CUP_U_B_BDUv2_OD";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"CUP_srifle_VSSVintorez_flash", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_srifle_VSSVintorez_flash", "Throw", "Put"};
+    magazines[] = {mag_8("CUP_30Rnd_9x39_SP5_VIKHR_M"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    respawnMagazines[] = {mag_8("CUP_30Rnd_9x39_SP5_VIKHR_M"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_SMG01.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_SMG02: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "SMG (Vector)";
+    uniformClass = "CUP_U_B_BDUv2_Tigerstripe";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"SMG_01_Holo_pointer_snds_F", "Throw", "Put"};
+    respawnWeapons[] = {"SMG_01_Holo_pointer_snds_F", "Throw", "Put"};
+    magazines[] = {mag_8("30Rnd_45ACP_Mag_SMG_01"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    respawnMagazines[] = {mag_8("30Rnd_45ACP_Mag_SMG_01"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_SMG02.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Grenadier: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Grenadier";
+    uniformClass = "CUP_U_B_BDUv2_M81";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"CUP_glaunch_6G30", "CUP_hgun_CZ75", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_glaunch_6G30", "CUP_hgun_CZ75", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_6Rnd_HE_GP25_M"), mag_2("CUP_16Rnd_9x19_cz75"), "HandGrenade", "SmokeShell", "SmokeShellOrange"};
+    respawnMagazines[] = {mag_5("CUP_6Rnd_HE_GP25_M"), mag_2("CUP_16Rnd_9x19_cz75"), "HandGrenade", "SmokeShell", "SmokeShellOrange"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Grenadier.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Machinegunner: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Machinegunner";
+    uniformClass = "CUP_U_I_GUE_Flecktarn2";
+    backpack = "TACU_Revolutionaries_B_Vet_Zafir_Black";
+    weapons[] = {"LMG_Zafir_ARCO_F", "Throw", "Put"};
+    respawnWeapons[] = {"LMG_Zafir_ARCO_F", "Throw", "Put"};
+    magazines[] = {mag_5("150Rnd_762x54_Box"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_5("150Rnd_762x54_Box"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Machinegunner.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Autorifleman: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Autorifleman";
+    uniformClass = "CUP_U_O_Partisan_TTsKO";
+    backpack = "TACU_Revolutionaries_B_Vet_Galil_Black";
+    weapons[] = {"CUP_arifle_Galil_556_black", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_Galil_556_black", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_50Rnd_556x45_Galil_Mag"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    respawnMagazines[] = {mag_5("CUP_50Rnd_556x45_Galil_Mag"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Autorifleman.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Figure_Head: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Figure Head";
+    icon = "iconManOfficer";
+    uniformClass = "U_C_FormalSuit_01_gray_F";
+    backpack = "";
+    weapons[] = {"CUP_smg_M3A1_blk", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_smg_M3A1_blk", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_30Rnd_45ACP_M3A1_BLK_M"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_5("CUP_30Rnd_45ACP_M3A1_BLK_M"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Figure_Head.jpg);
+    headgearList[] = {
+        "H_HelmetSpecO_blk", 1
+    };
+    CBA_facewearList[] = {
+        "", 1
+    };
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Leader: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Leader";
+    icon = "iconManOfficer";
+    uniformClass = "CUP_U_O_CHDKZ_Kam_04";
+    backpack = "";
+    weapons[] = {"arifle_CTAR_GL_blk_ACO_F", "Throw", "Put"};
+    respawnWeapons[] = {"arifle_CTAR_GL_blk_ACO_F", "Throw", "Put"};
+    magazines[] = {mag_5("tacgt_30Rnd_580x42_DBP88"), mag_5("1Rnd_HE_Grenade_shell"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_580x42_DBP88"), mag_5("1Rnd_HE_Grenade_shell"), "HandGrenade", "SmokeShell"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Leader.jpg);
+    headgearList[] = {
+        "CUP_H_RUS_Altyn_Shield_Down_khaki", 1
+    };
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Rocketeer: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Rocketeer";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
+    uniformClass = "CUP_U_B_HIL_ACU_CCE";
+    backpack = "TACU_Revolutionaries_B_Vet_SMAW_Black";
+    weapons[] = {"CUP_arifle_SR3M_Vikhr", "CUP_launch_Mk153Mod0_blk", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_arifle_SR3M_Vikhr", "CUP_launch_Mk153Mod0_blk", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_30Rnd_9x39_SP5_VIKHR_M"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    respawnMagazines[] = {mag_5("CUP_30Rnd_9x39_SP5_VIKHR_M"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rocketeer.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Pistoleer01: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Pistoleer (Mk23)";
+    uniformClass = "CUP_U_B_HIL_ACU_Kneepad_TTS";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"CUP_hgun_Mk23", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_hgun_Mk23", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    respawnMagazines[] = {mag_5("CUP_12Rnd_45ACP_mk23"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Pistoleer01.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Pistoleer02: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Pistoleer (TT-33)";
+    uniformClass = "CUP_U_O_RUS_Ratnik_Summer";
+    backpack = "B_FieldPack_blk";
+    weapons[] = {"CUP_hgun_TT", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_hgun_TT", "Throw", "Put"};
+    magazines[] = {mag_5("CUP_8Rnd_762x25_TT"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    respawnMagazines[] = {mag_5("CUP_8Rnd_762x25_TT"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Pistoleer02.jpg);
+};
+
+class TACU_Revolutionaries_U_O_Russian_Vet_Head: TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01 {
+    displayName = "Head";
+    icon = "iconManOfficer";
+    uniformClass = "U_B_ParadeUniform_01_US_decorated_F";
+    backpack = "";
+    weapons[] = {"srifle_DMR_04_F", "Throw", "Put"};
+    respawnWeapons[] = {"srifle_DMR_04_F", "Throw", "Put"};
+    magazines[] = {mag_8("10Rnd_127x54_Mag"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_8("10Rnd_127x54_Mag"), "HandGrenade", "SmokeShell"};
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
+    editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Head.jpg);
+    headgearList[] = {
+        "H_HelmetAggressor_F", 1
+    };
+    CBA_facewearList[] = {
+        "", 1
+    };
+};
+
 // Vehicles
 class CUP_C_Datsun_4seat;
 class TACU_Revolutionaries_V_O_Datsun_5Seat: CUP_C_Datsun_4seat {
