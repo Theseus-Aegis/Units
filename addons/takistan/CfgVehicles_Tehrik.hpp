@@ -1,6 +1,6 @@
 // Units - Tehrik-i-Taliban Takistan, Veterans.
 class TACU_Takistan_U_Tehrik_Leader: TACU_Main_U_OPFOR_Soldier_Base {
-    author = "TyroneMF";
+    author = "Mike";
     displayName = "Leader";
     faction = "TACU_Takistan_Tehrik";
     scope = 2;

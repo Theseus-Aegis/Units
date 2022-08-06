@@ -1,6 +1,6 @@
 // Units - Vanguard Contractors Winter
 class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
-    author = "Tyrone";
+    author = "Mike";
     displayName = "Rifleman (HK416)";
     faction = "TACU_Vanguard";
     scope = 2;

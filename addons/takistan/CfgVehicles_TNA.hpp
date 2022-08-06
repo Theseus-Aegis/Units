@@ -1,6 +1,6 @@
 // Units - Takistan National Army
 class TACU_Takistan_U_TNA_Major: TACU_Main_U_INDEP_Soldier_Base {
-    author = "TyroneMF";
+    author = "Mike";
     displayName = "Major";
     faction = "TACU_Takistan_TNA";
     scope = 2;

@@ -1,6 +1,6 @@
 // Units - Vanguard Contractors Green
 class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
-    author = "Tyrone";
+    author = "Mike";
     displayName = "Rifleman (F2000)";
     faction = "TACU_Vanguard";
     scope = 2;

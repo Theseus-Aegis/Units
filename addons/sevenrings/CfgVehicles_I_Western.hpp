@@ -1,5 +1,5 @@
 class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
-    author = "Tyrone";
+    author = "Mike";
     displayName = "Rifleman (CZ BREN)";
     faction = "TACU_SevenRings_I_Western";
     editorSubcategory = "TACU_SevenRings_EdSubCat_Western";

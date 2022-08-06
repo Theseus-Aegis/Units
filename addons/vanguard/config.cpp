@@ -140,7 +140,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
         author = ECSTRING(main,Author);
-        authors[] = {"Tyrone"};
+        authors[] = {"Mike"};
         VERSION_CONFIG;
     };
 };

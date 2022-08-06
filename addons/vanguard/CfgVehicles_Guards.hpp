@@ -1,6 +1,6 @@
 // Units - Vanguard Guarding Division
 class TACU_Vanguard_U_Guard_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
-    author = "Tyrone";
+    author = "Mike";
     displayName = "Guard (P90)";
     faction = "TACU_Vanguard";
     scope = 2;
