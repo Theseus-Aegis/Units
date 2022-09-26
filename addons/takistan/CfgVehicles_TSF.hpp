@@ -21,8 +21,8 @@ class TACU_Takistan_U_TSF_Rifleman_01: TACU_Main_U_BLUFOR_Soldier_Base {
     respawnItems[] = {mag_6("ACE_fieldDressing")};
     weapons[] = {"TACU_Takistan_W_M4SBR_Tan", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Takistan_W_M4SBR_Tan", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
     headgearList[] = {
         "CUP_H_TKI_Lungee_Open_01", 1,
         "CUP_H_TKI_Lungee_Open_02", 1,
@@ -50,8 +50,8 @@ class TACU_Takistan_U_TSF_Rifleman_02: TACU_Takistan_U_TSF_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_TKI_Lungee_Open_01", "CUP_V_OI_TKI_Jacket4_03"};
     weapons[] = {"TACU_Takistan_W_M4A3", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Takistan_W_M4A3", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
 };
 
 class TACU_Takistan_U_TSF_Rifleman_03: TACU_Takistan_U_TSF_Rifleman_01 {
@@ -62,8 +62,8 @@ class TACU_Takistan_U_TSF_Rifleman_03: TACU_Takistan_U_TSF_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_TK_Lungee", "CUP_FR_NeckScarf", "CUP_V_B_BAF_DDPM_Osprey_Mk3_Rifleman"};
     weapons[] = {"TACU_Takistan_W_M16A4", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Takistan_W_M16A4", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_15Rnd_9x19_M9"), "HandGrenade", "SmokeShell"};
     headgearList[] = {
         "CUP_H_TK_Lungee", 1,
         "CUP_H_TKI_Lungee_Open_01", 1,
@@ -95,8 +95,8 @@ class TACU_Takistan_U_TSF_Grenadier: TACU_Takistan_U_TSF_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_TKI_Lungee_Open_01", "CUP_V_OI_TKI_Jacket1_01"};
     weapons[] = {"TACU_Takistan_W_M4A1_GL", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Takistan_W_M4A1_GL", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("1Rnd_HE_Grenade_shell")};
-    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("1Rnd_HE_Grenade_shell")};
+    magazines[] = {mag_5("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("1Rnd_HE_Grenade_shell")};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_15Rnd_9x19_M9"), mag_3("1Rnd_HE_Grenade_shell")};
 };
 
 class TACU_Takistan_U_TSF_Sniper: TACU_Takistan_U_TSF_Rifleman_01 {

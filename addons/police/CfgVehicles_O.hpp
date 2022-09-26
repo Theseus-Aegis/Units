@@ -54,8 +54,8 @@ class TACU_Police_U_O_CT_Breacher: TACU_Police_U_O_CT_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_O_CT_Breacher.jpg);
     weapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
-    magazines[] = {mag_8("CUP_8Rnd_B_Saiga12_74Pellets_M"), mag_3("16Rnd_9x21_Mag"), mag_2("ACE_M84"), "CUP_HandGrenade_RGD5", "SmokeShell"};
-    respawnMagazines[] = {mag_8("CUP_8Rnd_B_Saiga12_74Pellets_M"), mag_3("16Rnd_9x21_Mag"), mag_2("ACE_M84"), "CUP_HandGrenade_RGD5", "SmokeShell"};
+    magazines[] = {mag_8("tacgt_20Rnd_Saiga_000"), mag_3("16Rnd_9x21_Mag"), mag_2("ACE_M84"), "CUP_HandGrenade_RGD5", "SmokeShell"};
+    respawnMagazines[] = {mag_8("tacgt_20Rnd_Saiga_000"), mag_3("16Rnd_9x21_Mag"), mag_2("ACE_M84"), "CUP_HandGrenade_RGD5", "SmokeShell"};
 };
 
 class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
@@ -63,8 +63,8 @@ class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_O_CT_Marksman.jpg);
     weapons[] = {"TACU_Police_W_Dragunov", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_Dragunov", "hgun_Rook40_F", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_10Rnd_762x54_SVD_AP_Mag"), mag_3("16Rnd_9x21_Mag")};
-    respawnMagazines[] = {mag_6("tacgt_10Rnd_762x54_SVD_AP_Mag"), mag_3("16Rnd_9x21_Mag")};
+    magazines[] = {mag_6("tacgt_10Rnd_762x54r_AP"), mag_3("16Rnd_9x21_Mag")};
+    respawnMagazines[] = {mag_6("tacgt_10Rnd_762x54r_AP"), mag_3("16Rnd_9x21_Mag")};
 };
 
 // Units - Police (Enforcers)
@@ -117,8 +117,8 @@ class TACU_Police_U_O_Enforcer_Breacher: TACU_Police_U_O_Enforcer_SMG_1 {
     editorPreview = QPATHTOF(ui\Police_U_O_Enforcer_Breacher.jpg);
     weapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_8Rnd_B_Saiga12_74Pellets_M"), mag_2("16Rnd_9x21_Mag")};
-    respawnMagazines[] = {mag_4("CUP_8Rnd_B_Saiga12_74Pellets_M"), mag_2("16Rnd_9x21_Mag")};
+    magazines[] = {mag_4("tacgt_20Rnd_Saiga_000"), mag_2("16Rnd_9x21_Mag")};
+    respawnMagazines[] = {mag_4("tacgt_20Rnd_Saiga_000"), mag_2("16Rnd_9x21_Mag")};
 };
 
 // Vehicles

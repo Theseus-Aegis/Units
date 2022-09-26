@@ -20,8 +20,8 @@ class TACU_MSF_U_I_XOF_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnItems[] = {mag_8("ACE_fieldDressing")};
     weapons[] = {"TACU_MSF_W_ACRC_556_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
-    magazines[] = {mag_8("tacgt_30Rnd_556x45_M995_PMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_6("SmokeShell"), mag_2("ACE_M84")};
-    respawnMagazines[] = {mag_8("tacgt_30Rnd_556x45_M995_PMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_6("SmokeShell"), mag_2("ACE_M84")};
+    magazines[] = {mag_8("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_6("SmokeShell"), mag_2("ACE_M84")};
+    respawnMagazines[] = {mag_8("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_6("SmokeShell"), mag_2("ACE_M84")};
     headgearList[] = {
         "", 1
     };
@@ -41,8 +41,8 @@ class TACU_MSF_U_I_XOF_Grenadier: TACU_MSF_U_I_XOF_Rifleman_01 {
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_XOF_Grenadier.jpg);
     weapons[] = {"TACU_MSF_W_ACRC_556_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_ACRC_556_GL_Black", "TACU_MSF_W_Mk23_SOCOM", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_556x45_M995_PMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_4("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell"), "HandGrenade", mag_4("SmokeShell"), mag_2("ACE_M84")};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_M995_PMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_4("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell"), "HandGrenade", mag_4("SmokeShell"), mag_2("ACE_M84")};
+    magazines[] = {mag_7("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_4("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell"), "HandGrenade", mag_4("SmokeShell"), mag_2("ACE_M84")};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_4("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell"), "HandGrenade", mag_4("SmokeShell"), mag_2("ACE_M84")};
 };
 class TACU_MSF_U_O_XOF_Grenadier: TACU_MSF_U_I_XOF_Grenadier {
     side = 0;
