@@ -18,8 +18,8 @@ class TACU_PLR_U_O_Paramilitary_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     respawnItems[] = {mag_8("ACE_fieldDressing")};
     weapons[] = {"TACU_PLR_W_AK74M_1P63_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AK74M_1P63_FL", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
+    magazines[] = {mag_6("tacgt_30Rnd_545x39_EPR_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_545x39_EPR_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\PLR_U_O_Paramilitary_Rifleman_01.jpg);
     editorSubcategory = "TACU_PLR_EdSubCat_Paramilitary";
 };
@@ -29,8 +29,8 @@ class TACU_PLR_U_O_Paramilitary_Rifleman_02: TACU_PLR_U_O_Paramilitary_Rifleman_
     role = "Rifleman";
     weapons[] = {"TACU_PLR_W_AK105_ZDDOT_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AK105_ZDDOT_FL", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
+    magazines[] = {mag_6("tacgt_30Rnd_545x39_EPR_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_545x39_EPR_Black"), mag_2("CUP_HandGrenade_RGD5"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\PLR_U_O_Paramilitary_Rifleman_02.jpg);
 };
 
@@ -41,8 +41,8 @@ class TACU_PLR_U_O_Paramilitary_Rifleman_AT: TACU_PLR_U_O_Paramilitary_Rifleman_
     backpack = "TACU_PLR_B_AT";
     weapons[] = {"TACU_PLR_W_AKS74U_railed_FL", "CUP_launch_RPG7V", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AKS74U_railed_FL", "CUP_launch_RPG7V", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_30Rnd_545x39_BP_Mag_Black")};
-    respawnMagazines[] = {mag_5("tacgt_30Rnd_545x39_BP_Mag_Black")};
+    magazines[] = {mag_5("tacgt_30Rnd_545x39_EPR_Black")};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_545x39_EPR_Black")};
     editorPreview = QPATHTOF(ui\PLR_U_O_Paramilitary_Rifleman_AT.jpg);
 };
 
@@ -52,8 +52,8 @@ class TACU_PLR_U_O_Paramilitary_TeamLeader: TACU_PLR_U_O_Paramilitary_Rifleman_0
     role = "Rifleman";
     weapons[] = {"TACU_PLR_W_AKS74U_railed_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AKS74U_railed_FL", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_2("CUP_HandGrenade_RGD5"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_2("CUP_HandGrenade_RGD5"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("tacgt_30Rnd_545x39_EPR_Black"), mag_2("CUP_HandGrenade_RGD5"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_545x39_EPR_Black"), mag_2("CUP_HandGrenade_RGD5"), mag_2("SmokeShell")};
     editorPreview = QPATHTOF(ui\PLR_U_O_Paramilitary_TeamLeader.jpg);
 };
 
@@ -62,8 +62,8 @@ class TACU_PLR_U_O_Paramilitary_Grenadier: TACU_PLR_U_O_Paramilitary_Rifleman_01
     role = "Rifleman";
     weapons[] = {"TACU_PLR_W_AK74M_GL_1P63_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AK74M_GL_1P63_FL", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_3("CUP_1Rnd_HE_GP25_M"), mag_2("CUP_1Rnd_SMOKE_GP25_M"), mag_2("CUP_IlumFlareWhite_GP25_M")};
-    respawnMagazines[] = {mag_5("tacgt_30Rnd_545x39_BP_Mag_Black"), mag_3("CUP_1Rnd_HE_GP25_M"), mag_2("CUP_1Rnd_SMOKE_GP25_M"), mag_2("CUP_IlumFlareWhite_GP25_M")};
+    magazines[] = {mag_5("tacgt_30Rnd_545x39_EPR_Black"), mag_3("CUP_1Rnd_HE_GP25_M"), mag_2("CUP_1Rnd_SMOKE_GP25_M"), mag_2("CUP_IlumFlareWhite_GP25_M")};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_545x39_EPR_Black"), mag_3("CUP_1Rnd_HE_GP25_M"), mag_2("CUP_1Rnd_SMOKE_GP25_M"), mag_2("CUP_IlumFlareWhite_GP25_M")};
     editorPreview = QPATHTOF(ui\PLR_U_O_Paramilitary_Grenadier.jpg);
 };
 

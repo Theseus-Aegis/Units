@@ -17,8 +17,8 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
     respawnWeapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
         "tacs_Helmet_Enc_Ballistic_White", 1
     };
@@ -39,8 +39,8 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_02: TACU_Vanguard_U_Contractor_
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     weapons[] = {"arifle_AK12_F", "CUP_hgun_Phantom", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12_F", "CUP_hgun_Phantom", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_762x39_AK12_BP_Mag"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_762x39_AK12_BP_Mag"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_762x39_AP_Metal"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_762x39_AP_Metal"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Winter_Rifleman_02.jpg);
 };
 
@@ -56,8 +56,8 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_AT: TACU_Vanguard_U_Contractor_
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     weapons[] = {"arifle_CTAR_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "launch_MRAWS_green_rail_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_CTAR_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "launch_MRAWS_green_rail_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_580x42_DBP88"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_580x42_DBP88"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_58x42_AP"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_58x42_AP"), mag_2("CUP_18Rnd_9x19_Phantom"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Winter_Rifleman_AT.jpg);
 };
 
@@ -73,8 +73,8 @@ class TACU_Vanguard_U_Contractor_Winter_Grenadier: TACU_Vanguard_U_Contractor_Wi
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     weapons[] = {"arifle_SPAR_01_GL_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
     respawnWeapons[] = {"arifle_SPAR_01_GL_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Winter_Grenadier.jpg);
 };
 
@@ -141,8 +141,8 @@ class TACU_Vanguard_U_Contractor_Winter_Medic: TACU_Vanguard_U_Contractor_Winter
     backpack = "tacs_Backpack_Kitbag_Medic_White";
     weapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
     respawnWeapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("tacgt_30Rnd_556x45_M855A1_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_18Rnd_9x19_Phantom"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Winter_Medic.jpg);
 };
 

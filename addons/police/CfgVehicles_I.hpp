@@ -16,8 +16,8 @@ class TACU_Police_U_I_CT_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"TACU_Police_W_SG551LB_TAC", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_SG551LB_TAC", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_SG550"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_SG550"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_AP_SG"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_AP_SG"), mag_3("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "MiniGrenade", "SmokeShell"};
     headgearList[] = {
         "TACU_Police_Helmet_PASGT_Neck_PoliceBlack", 1
     };
@@ -42,8 +42,8 @@ class TACU_Police_U_I_CT_Marksman: TACU_Police_U_I_CT_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_I_CT_Marksman.jpg);
     weapons[] = {"TACU_Police_W_SG5501_DMR_Rail", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_SG5501_DMR_Rail", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_SG550"), mag_3("CUP_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_SG550"), mag_3("CUP_15Rnd_9x19_M9")};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_AP_SG"), mag_3("CUP_15Rnd_9x19_M9")};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_AP_SG"), mag_3("CUP_15Rnd_9x19_M9")};
 };
 
 class TACU_Police_U_I_CT_RiotControl: TACU_Police_U_I_CT_Rifleman {
@@ -73,8 +73,8 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_G36C", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_G36C", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_G36"), mag_3("CUP_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_G36"), mag_3("CUP_15Rnd_9x19_M9")};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_AP_G36"), mag_3("CUP_15Rnd_9x19_M9")};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_AP_G36"), mag_3("CUP_15Rnd_9x19_M9")};
     headgearList[] = {
         "H_Cap_blk", 0.60,
         "CUP_H_PMC_Cap_Grey", 0.40,

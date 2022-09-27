@@ -19,8 +19,8 @@ class TACU_Revolutionaries_U_I_Russian_Rifleman01: TACU_Main_U_INDEP_Soldier_Bas
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_20Rnd_762x51_FAL_AP_Mag")};
-    respawnMagazines[] = {mag_5("tacgt_20Rnd_762x51_FAL_AP_Mag")};
+    magazines[] = {mag_5("tacgt_20Rnd_762x51_EPR_FAL")};
+    respawnMagazines[] = {mag_5("tacgt_20Rnd_762x51_EPR_FAL")};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Russian";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Russian_Rifleman01.jpg);
     headgearList[] = {

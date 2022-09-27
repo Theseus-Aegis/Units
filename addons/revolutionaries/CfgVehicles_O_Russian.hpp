@@ -19,8 +19,8 @@ class TACU_Revolutionaries_U_O_Russian_Rifleman01: TACU_Main_U_OPFOR_Soldier_Bas
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_20Rnd_762x51_FAL_AP_Mag"), "ACE_M84", "SmokeShell", "SmokeShellPurple"};
-    respawnMagazines[] = {mag_5("tacgt_20Rnd_762x51_FAL_AP_Mag"), "ACE_M84", "SmokeShell", "SmokeShellPurple"};
+    magazines[] = {mag_5("tacgt_20Rnd_762x51_EPR_FAL"), "ACE_M84", "SmokeShell", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_5("tacgt_20Rnd_762x51_EPR_FAL"), "ACE_M84", "SmokeShell", "SmokeShellPurple"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Russian";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rifleman01.jpg);
     headgearList[] = {
@@ -58,8 +58,8 @@ class TACU_Revolutionaries_U_O_Russian_Rifleman04: TACU_Revolutionaries_U_O_Russ
     respawnLinkedItems[] = {DEFAULT_ITEMS, "CUP_V_C_Police_Holster", "G_Balaclava_blk"};
     weapons[] = {"TACU_Revolutionaries_W_CZ805A2", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Revolutionaries_W_CZ805A2", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_G36"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_G36"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_G36"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_G36"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Rifleman04.jpg);
 };
 
@@ -158,8 +158,8 @@ class TACU_Revolutionaries_U_O_Russian_Autorifleman: TACU_Revolutionaries_U_O_Ru
     backpack = "TACU_Revolutionaries_B_LMG_Minimi_Black";
     weapons[] = {"TACU_Revolutionaries_W_FNMinimiSPW", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Revolutionaries_W_FNMinimiSPW", "Throw", "Put"};
-    magazines[] = {"tacgt_200Rnd_556x45_M855A1_Box_Red", "ACE_M84", "SmokeShellYellow", "SmokeShellRed"};
-    respawnMagazines[] = {"tacgt_200Rnd_556x45_M855A1_Box_Red", "ACE_M84", "SmokeShellYellow", "SmokeShellRed"};
+    magazines[] = {"tacgt_200Rnd_556x45_EPR_Belt", "ACE_M84", "SmokeShellYellow", "SmokeShellRed"};
+    respawnMagazines[] = {"tacgt_200Rnd_556x45_EPR_Belt", "ACE_M84", "SmokeShellYellow", "SmokeShellRed"};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Autorifleman.jpg);
 };
 
@@ -199,8 +199,8 @@ class TACU_Revolutionaries_U_O_Russian_Leader: TACU_Revolutionaries_U_O_Russian_
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "CUP_H_USMC_BOONIE_PRR_WDL", "G_Balaclava_blk"};
     weapons[] = {"TACU_Revolutionaries_W_CZ805_GL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Revolutionaries_W_CZ805_GL", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_G36"), mag_6("1Rnd_HE_Grenade_shell"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_M855A1_G36"), mag_6("1Rnd_HE_Grenade_shell"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
+    magazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_G36"), mag_6("1Rnd_HE_Grenade_shell"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_G36"), mag_6("1Rnd_HE_Grenade_shell"), "ACE_M84", "SmokeShellBlue", "SmokeShellPurple"};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Leader.jpg);
     headgearList[] = {
         "CUP_H_USMC_BOONIE_PRR_WDL", 1
@@ -293,8 +293,8 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01: TACU_Revolutionaries_U_O_
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_XM8_Compact", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_XM8_Compact", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_30Rnd_556x45_M995_CZ805"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
-    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_M995_CZ805"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    magazines[] = {mag_5("tacgt_30Rnd_556x45_EPR_G36"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_EPR_G36"), "HandGrenade", "SmokeShell", "SmokeShellPurple"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman01.jpg);
     headgearList[] = {
@@ -313,8 +313,8 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman02: TACU_Revolutionaries_U_O_
     backpack = "B_FieldPack_blk";
     weapons[] = {"CUP_arifle_G36C_wdl", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_G36C_wdl", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_30Rnd_556x45_M995_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
-    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_M995_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    magazines[] = {mag_5("tacgt_30Rnd_556x45_EPR_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_556x45_EPR_G36"), "HandGrenade", "SmokeShell", "SmokeShellGreen"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman02.jpg);
 };
@@ -325,8 +325,8 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Rifleman03: TACU_Revolutionaries_U_O_
     backpack = "B_FieldPack_blk";
     weapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AUG_A1", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_42Rnd_556x45_M995_AUG"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
-    respawnMagazines[] = {mag_5("tacgt_42Rnd_556x45_M995_AUG"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    magazines[] = {mag_5("tacgt_42Rnd_556x45_EPR_AUG"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    respawnMagazines[] = {mag_5("tacgt_42Rnd_556x45_EPR_AUG"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Rifleman03.jpg);
 };
@@ -468,8 +468,8 @@ class TACU_Revolutionaries_U_O_Russian_Vet_Leader: TACU_Revolutionaries_U_O_Russ
     backpack = "";
     weapons[] = {"arifle_CTAR_GL_blk_ACO_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_CTAR_GL_blk_ACO_F", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_30Rnd_580x42_DBP88"), mag_5("1Rnd_HE_Grenade_shell"), "HandGrenade", "SmokeShell"};
-    respawnMagazines[] = {mag_5("tacgt_30Rnd_580x42_DBP88"), mag_5("1Rnd_HE_Grenade_shell"), "HandGrenade", "SmokeShell"};
+    magazines[] = {mag_5("tacgt_30Rnd_58x42_EPR"), mag_5("1Rnd_HE_Grenade_shell"), "HandGrenade", "SmokeShell"};
+    respawnMagazines[] = {mag_5("tacgt_30Rnd_58x42_EPR"), mag_5("1Rnd_HE_Grenade_shell"), "HandGrenade", "SmokeShell"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_RussianVet";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Russian_Vet_Leader.jpg);
     headgearList[] = {
