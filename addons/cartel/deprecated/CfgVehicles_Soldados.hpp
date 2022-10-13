@@ -33,8 +33,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
 
 class TACU_Cartel_U_O_Soldado_Rifleman_01: TACU_Cartel_U_O_Soldado_Rifleman {
     displayName = "Soldado (AK)";
-    scope = 2;
-    scopeCurator = 2;
     uniformClass = "tacs_Uniform_Polo_TP_BS_LP_BB_NoLogo";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
@@ -132,6 +130,8 @@ class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
 
 class TACU_Cartel_V_O_Offroad_Jeep: I_C_Offroad_02_unarmed_F {
     MACRO_CLEAR_VEHICLE_CARGO
+    scope = 1;
+    scopeCurator = 1;
     faction = "TACU_Cartel_O";
     side = 0;
     displayName = "Jeep Wrangler";
@@ -141,6 +141,8 @@ class TACU_Cartel_V_O_Offroad_Jeep: I_C_Offroad_02_unarmed_F {
 
 class TACU_Cartel_V_O_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
     MACRO_CLEAR_VEHICLE_CARGO
+    scope = 1;
+    scopeCurator = 1;
     faction = "TACU_Cartel_O";
     side = 0;
     displayName = "Jeep Wrangler (LMG)";
@@ -150,6 +152,8 @@ class TACU_Cartel_V_O_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
 
 class TACU_Cartel_V_O_Van_Transport: C_Van_02_transport_F {
     MACRO_CLEAR_VEHICLE_CARGO
+    scope = 1;
+    scopeCurator = 1;
     faction = "TACU_Cartel_O";
     side = 0;
     displayName = "Cargo Van Transport";
