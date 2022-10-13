@@ -5,6 +5,17 @@ class CfgVehicles {
     class I_C_Offroad_02_LMG_F;
     class C_Van_02_transport_F;
 
-    #include "CfgVehicles_Sicarios.hpp"
-    #include "CfgVehicles_Soldados.hpp"
+    // Old units, kept for backwards compatibility.
+    #include "deprecated\CfgVehicles_Sicarios.hpp"
+    #include "deprecated\CfgVehicles_Soldados.hpp"
+
+    /*
+     * Old deprecated units classname format:
+     * TACU_Cartel_U_O_Soldado_Rifleman
+     *
+     * New format:
+     * TACU_Cartel2_U_O_Soldado_Rifleman
+     *
+     * Will avoid any conflicts.
+    */
 };

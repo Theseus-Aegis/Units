@@ -23,7 +23,7 @@ class CfgPatches {
             "TACU_Cartel_U_O_Sicario_Grenadier",
             "TACU_Cartel_V_O_Offroad_Jeep",
             "TACU_Cartel_V_O_Offroad_Jeep_Armed",
-            "TACU_Cartel_V_O_Van_Transport"
+            "TACU_Cartel_V_O_Van_Transport", // End of Deprecated Units.
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;

@@ -4,8 +4,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     author = "Mike";
     displayName = "Soldado (P99)";
     faction = "TACU_Cartel_O";
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     identityTypes[] = {"LanguageFRE_F", "Head_Tanoan", "NoGlasses"};
     genericNames = "TanoanMen";
     icon = "iconMan";
@@ -20,8 +20,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     respawnWeapons[] = {"hgun_P07_F", "Throw", "Put"};
     magazines[] = {mag_7("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    editorSubcategory = "TACU_Cartel_EdSubCat_O_Soldados";
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman.jpg);
     headgearList[] = {
         "H_Bandanna_gry", 0.30,
         "H_Bandanna_cbr", 0.30,
@@ -46,7 +44,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman_01: TACU_Cartel_U_O_Soldado_Rifleman {
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_01.jpg);
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_02: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -58,7 +55,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman_02: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnWeapons[] = {"arifle_AK12_F", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_30Rnd_762x39_EPR_Metal"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_30Rnd_762x39_EPR_Metal"), mag_2("HandGrenade"), "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_02.jpg);
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_03: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -70,7 +66,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman_03: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     magazines[] = {mag_7("30Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("30Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_03.jpg);
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_04: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -82,7 +77,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman_04: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnWeapons[] = {"CUP_smg_vityaz", "Throw", "Put"};
     magazines[] = {mag_7("CUP_30Rnd_9x19AP_Vityaz"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("CUP_30Rnd_9x19AP_Vityaz"), mag_2("HandGrenade"), "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_04.jpg);
 };
 
 class TACU_Cartel_U_O_Soldado_Driver: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -94,7 +88,6 @@ class TACU_Cartel_U_O_Soldado_Driver: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Driver.jpg);
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_AT: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -108,7 +101,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman_AT: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnWeapons[] = {"arifle_AKS_F", "CUP_launch_RPG7V", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_AT.jpg);
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_MG: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -122,7 +114,6 @@ class TACU_Cartel_U_O_Soldado_Rifleman_MG: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnWeapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_75Rnd_762x39_EPR_Drum"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_4("tacgt_75Rnd_762x39_EPR_Drum"), mag_2("HandGrenade"), "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Rifleman_MG.jpg);
 };
 
 class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -135,7 +126,6 @@ class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnWeapons[] = {"CUP_arifle_AKS74_GL_Early", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
     respawnMagazines[] = {mag_4("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
-    editorPreview = QPATHTOF(ui\Cartel_U_O_Soldado_Grenadier.jpg);
 };
 
 // Vehicles - Cartel
@@ -147,7 +137,6 @@ class TACU_Cartel_V_O_Offroad_Jeep: I_C_Offroad_02_unarmed_F {
     displayName = "Jeep Wrangler";
     crew = "TACU_Cartel_U_O_Soldado_Driver";
     typicalCargo[] = {"TACU_Cartel_U_O_Soldado_Rifleman_01"};
-    editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep.jpg);
 };
 
 class TACU_Cartel_V_O_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
@@ -157,7 +146,6 @@ class TACU_Cartel_V_O_Offroad_Jeep_Armed: I_C_Offroad_02_LMG_F {
     displayName = "Jeep Wrangler (LMG)";
     crew = "TACU_Cartel_U_O_Soldado_Driver";
     typicalCargo[] = {"TACU_Cartel_U_O_Soldado_Rifleman_02"};
-    editorPreview = QPATHTOF(ui\Cartel_V_O_Offroad_Jeep_Armed.jpg);
 };
 
 class TACU_Cartel_V_O_Van_Transport: C_Van_02_transport_F {
@@ -167,5 +155,4 @@ class TACU_Cartel_V_O_Van_Transport: C_Van_02_transport_F {
     displayName = "Cargo Van Transport";
     crew = "TACU_Cartel_U_O_Soldado_Driver";
     typicalCargo[] = {"TACU_Cartel_U_O_Soldado_Rifleman_03"};
-    editorPreview = QPATHTOF(ui\Cartel_V_O_Van_Transport.jpg);
 };
