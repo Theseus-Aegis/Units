@@ -7,10 +7,13 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_Cartel_EdSubCat_O_Soldados {
-        displayName = "Men (Soldados)";
+    class TACU_Cartel_EdSubCat_O_Grunts {
+        displayName = "Men (Grunts)";
     };
-    class TACU_Cartel_EdSubCat_O_Sicarios {
-        displayName = "Men (Sicarios)";
+    class TACU_Cartel_EdSubCat_O_Thugs {
+        displayName = "Men (Thugs)";
+    };
+    class TACU_Cartel_EdSubCat_O_Enforcers {
+        displayName = "Men (Enforcers)";
     };
 };
