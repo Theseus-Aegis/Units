@@ -14,8 +14,13 @@ class CfgVehicles {
      * TACU_Cartel_U_O_Soldado_Rifleman
      *
      * New format:
-     * TACU_Cartel2_U_O_Soldado_Rifleman
+     * TACU_Cartel2_U_O_Grunts_Rifleman
      *
      * Will avoid any conflicts.
     */
+
+    #include "CfgVehicles_Uniforms.hpp"
+    #include "CfgVehicles_Grunts.hpp"
+    //#include "CfgVehicles_Thugs.hpp"
+    //#include "CfgVehicles_Enforcers.hpp"
 };
