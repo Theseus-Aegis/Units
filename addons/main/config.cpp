@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             // Arma 3
-            "A3_Data_F_Enoch_Loadorder",
+            "A3_Data_F_AoW_Loadorder",
             "A3_Data_F_Mod_Loadorder",
             // ACE
             "ace_explosives",
@@ -24,12 +24,12 @@ class CfgPatches {
             "cba_main",
             // CUP
             "CUP_AirVehicles_LoadOrder",
+            "CUP_Creatures_People_LoadOrder",
             "CUP_TrackedVehicles_LoadOrder",
             "CUP_Vehicles_LoadOrder",
             "CUP_WaterVehicles_LoadOrder",
-            "CUP_WheeledVehicles_LoadOrder",
             "CUP_Weapons_LoadOrder",
-            "CUP_Creatures_People_LoadOrder",
+            "CUP_WheeledVehicles_LoadOrder",
             // GT Armory
             "tacgt_ammunition",
             "tacgt_flashlight",
