@@ -75,7 +75,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_05: TACU_Cartel2_U_O_Grunt_Rifleman_04 {
     weapons[] = {"CUP_hgun_Mac10", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_Mac10", "Throw", "Put"};
     magazines[] = {mag_7("CUP_30Rnd_45ACP_MAC10_M"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_7)("CUP_30Rnd_45ACP_MAC10_M"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_7("CUP_30Rnd_45ACP_MAC10_M"), mag_2("HandGrenade")};
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_05 {
