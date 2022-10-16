@@ -4,28 +4,33 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "TACU_Main_U_OPFOR_Soldier_Base",
-            "TACU_Cartel_U_O_Soldado_Rifleman",
-            "TACU_Cartel_U_O_Soldado_Rifleman_01",
-            "TACU_Cartel_U_O_Soldado_Rifleman_02",
-            "TACU_Cartel_U_O_Soldado_Rifleman_03",
-            "TACU_Cartel_U_O_Soldado_Rifleman_04",
-            "TACU_Cartel_U_O_Soldado_Driver",
-            "TACU_Cartel_U_O_Soldado_Rifleman_AT",
-            "TACU_Cartel_U_O_Soldado_Rifleman_MG",
-            "TACU_Cartel_U_O_Soldado_Grenadier",
-            "TACU_Cartel_U_O_Sicario_Rifleman_01",
-            "TACU_Cartel_U_O_Sicario_Rifleman_02",
-            "TACU_Cartel_U_O_Sicario_Rifleman_03",
-            "TACU_Cartel_U_O_Sicario_Rifleman_04",
-            "TACU_Cartel_U_O_Sicario_Rifleman_AT",
-            "TACU_Cartel_U_O_Sicario_Rifleman_MG",
-            "TACU_Cartel_U_O_Sicario_Grenadier",
-            "TACU_Cartel_V_O_Offroad_Jeep",
-            "TACU_Cartel_V_O_Offroad_Jeep_Armed",
-            "TACU_Cartel_V_O_Van_Transport", // End of Deprecated Units.
+            // Uniforms
+            "TACU_Uniform_O_V_Cartel_01",
+            "TACU_Uniform_O_V_Cartel_02",
+            "TACU_Uniform_O_V_Cartel_03",
+            "TACU_Uniform_O_V_Cartel_04",
+            "TACU_Uniform_O_V_Cartel_05",
+            "TACU_Uniform_O_V_Cartel_06",
+            // Units - Grunts
+            "TACU_Cartel2_U_O_Grunt_Rifleman_01",
+            "TACU_Cartel2_U_O_Grunt_Rifleman_02",
+            "TACU_Cartel2_U_O_Grunt_Rifleman_03",
+            "TACU_Cartel2_U_O_Grunt_Rifleman_04",
+            "TACU_Cartel2_U_O_Grunt_Rifleman_05",
+            "TACU_Cartel2_U_O_Grunt_Rifleman_06",
+            "TACU_Cartel2_U_O_Grunt_Rifleman_07",
+            "TACU_Cartel2_U_O_Grunt_Rifleman_08"
+            // Units - Thugs
+            // Units - Enforcers
         };
-        weapons[] = {};
+        weapons[] = {
+            "TACU_Uniform_O_W_Cartel_01",
+            "TACU_Uniform_O_W_Cartel_02",
+            "TACU_Uniform_O_W_Cartel_03",
+            "TACU_Uniform_O_W_Cartel_04",
+            "TACU_Uniform_O_W_Cartel_05",
+            "TACU_Uniform_O_W_Cartel_06"
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
         author = ECSTRING(main,Author);
@@ -34,6 +39,8 @@ class CfgPatches {
     };
 };
 
+#include "CfgWeapons.hpp"
+#include "CfgFaces.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgGroups.hpp"
 #include "CfgVehicles.hpp"
