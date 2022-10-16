@@ -397,8 +397,8 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_SMG02: TACU_Revolutionaries_U_O_Tanoan
     uniformClass = "U_I_L_Uniform_01_tshirt_sport_F";
     weapons[] = {"CUP_smg_PS90_olive", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_PS90_olive", "Throw", "Put"};
-    magazines[] = {mag_8("tacgt_50Rnd_57x28_EPR"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
-    respawnMagazines[] = {mag_8("tacgt_50Rnd_57x28_EPR"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    magazines[] = {mag_8("tacgt_50Rnd_57x28_Ball"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
+    respawnMagazines[] = {mag_8("tacgt_50Rnd_57x28_Ball"), "HandGrenade", "SmokeShell", "SmokeShellRed"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_TanoanVet";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Vet_SMG02.jpg);
 };
@@ -481,8 +481,8 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rocketeer: TACU_Revolutionaries_U_O_Ta
     backpack = "TACU_Revolutionaries_B_Vet_Rocketeer_Green";
     weapons[] = {"SMG_03C_black", "tacs_MRAWS_Black_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_black", "tacs_MRAWS_Black_F", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_50Rnd_57x28_EPR"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
-    respawnMagazines[] = {mag_5("tacgt_50Rnd_57x28_EPR"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    magazines[] = {mag_5("tacgt_50Rnd_57x28_Ball"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
+    respawnMagazines[] = {mag_5("tacgt_50Rnd_57x28_Ball"), "HandGrenade", "SmokeShell", "SmokeShellYellow"};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_TanoanVet";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_Vet_Rocketeer.jpg);
 };
