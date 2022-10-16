@@ -22,5 +22,5 @@ class CfgVehicles {
     #include "CfgVehicles_Uniforms.hpp"
     #include "CfgVehicles_Grunts.hpp"
     #include "CfgVehicles_Thugs.hpp"
-    //#include "CfgVehicles_Enforcers.hpp"
+    #include "CfgVehicles_Enforcers.hpp"
 };
