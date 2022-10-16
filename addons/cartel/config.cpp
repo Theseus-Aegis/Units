@@ -19,9 +19,25 @@ class CfgPatches {
             "TACU_Cartel2_U_O_Grunt_Rifleman_05",
             "TACU_Cartel2_U_O_Grunt_Rifleman_06",
             "TACU_Cartel2_U_O_Grunt_Rifleman_07",
-            "TACU_Cartel2_U_O_Grunt_Rifleman_08"
+            "TACU_Cartel2_U_O_Grunt_Rifleman_08",
             // Units - Thugs
+            "TACU_Cartel2_U_O_Thug_Rifleman_01",
+            "TACU_Cartel2_U_O_Thug_Rifleman_02",
+            "TACU_Cartel2_U_O_Thug_Rifleman_03",
+            "TACU_Cartel2_U_O_Thug_Rifleman_04",
+            "TACU_Cartel2_U_O_Thug_Rifleman_05",
+            "TACU_Cartel2_U_O_Thug_Rifleman_06",
+            "TACU_Cartel2_U_O_Thug_Rifleman_07",
+            "TACU_Cartel2_U_O_Thug_Rifleman_08",
             // Units - Enforcers
+            // Vehicles - Grunts
+            "TACU_Cartel_V_O_Grunt_Offroad",
+            "TACU_Cartel_V_O_Grunt_Van_Transport",
+            // Vehicles - Thugs
+            "TACS_Cartel_V_O_Thug_Offroad",
+            "TACU_Cartel_V_O_Thug_Offroad_Armed",
+            "TACU_Cartel_V_O_Thug_Van_Transport"
+            // Vehicles - Enforcers
         };
         weapons[] = {
             "TACU_Uniform_O_W_Cartel_01",

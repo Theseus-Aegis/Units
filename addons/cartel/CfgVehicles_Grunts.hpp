@@ -122,21 +122,18 @@ class TACU_Cartel_V_O_Grunt_Offroad: C_Offroad_01_F {
     //editorPreview = QPATHTOF(ui\TACU_Cartel_V_O_Grunt_Offroad.jpg);
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then {
-            [_this select 0,
-                ['Bluecustom',1],
-                ['HideDoor1',0,'HideDoor2',0,'HideDoor3',0,'HideBackpacks',1,'HideBumper1',1,'HideBumper2',1,'HideConstruction',0,'hidePolice',1,'HideServices',1,'BeaconsStart',0,'BeaconsServicesStart',0]
-            ] call BIS_fnc_initVehicle;
-        };";
+        init = "if (local (_this select 0)) then {[_this select 0,['Bluecustom',1],['HideDoor1',0,'HideDoor2',0,'HideDoor3',0,'HideBackpacks',1,'HideBumper1',1,'HideBumper2',1,'HideConstruction',0,'hidePolice',1,'HideServices',1,'BeaconsStart',0,'BeaconsServicesStart',0]] call BIS_fnc_initVehicle;};";
     };
 };
 
-class Van_02_transport_base_F;
-class C_Van_02_transport_F: Van_02_transport_base_F {
+class Van_02_transport_base_F ;
+class TACS_Van_Transport_Base: Van_02_transport_base_F  {
     class EventHandlers;
 };
-class TACU_Cartel_V_O_Grunt_Van_Transport: C_Van_02_transport_F {
+class TACU_Cartel_V_O_Grunt_Van_Transport: TACS_Van_Transport_Base {
     MACRO_CLEAR_VEHICLE_CARGO
+    scope = 2;
+    scopeCurator = 2;
     faction = "TACU_Cartel_O";
     side = 0;
     crew = "TACU_Cartel2_U_O_Grunt_Rifleman_01";
@@ -144,12 +141,6 @@ class TACU_Cartel_V_O_Grunt_Van_Transport: C_Van_02_transport_F {
     //editorPreview = QPATHTOF(ui\TACU_Cartel_V_O_Grunt_Van_Transport.jpg);
 
     class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then {
-            [
-                _this select 0,
-                ['Black',1],
-                ['Door_1_source',0,'Door_2_source',0,'Door_3_source',0,'Door_4_source',0,'Hide_Door_1_source',0,'Hide_Door_2_source',0,'Hide_Door_3_source',0,'Hide_Door_4_source',0,'lights_em_hide',0,'ladder_hide',0,'spare_tyre_holder_hide',0,'spare_tyre_hide',0,'reflective_tape_hide',1,'roof_rack_hide',1,'LED_lights_hide',1,'sidesteps_hide',1,'rearsteps_hide',0,'side_protective_frame_hide',0,'front_protective_frame_hide',1,'beacon_front_hide',1,'beacon_rear_hide',1]
-            ] call BIS_fnc_initVehicle;
-        };";
+        init = "if (local (_this select 0)) then {[_this select 0,['Black',1],['Door_1_source',0,'Door_2_source',0,'Door_3_source',0,'Door_4_source',0,'Hide_Door_1_source',0,'Hide_Door_2_source',0,'Hide_Door_3_source',0,'Hide_Door_4_source',0,'lights_em_hide',0,'ladder_hide',0,'spare_tyre_holder_hide',0,'spare_tyre_hide',0,'reflective_tape_hide',1,'roof_rack_hide',1,'LED_lights_hide',1,'sidesteps_hide',1,'rearsteps_hide',0,'side_protective_frame_hide',0,'front_protective_frame_hide',1,'beacon_front_hide',1,'beacon_rear_hide',1]] call BIS_fnc_initVehicle;};";
     };
 };
