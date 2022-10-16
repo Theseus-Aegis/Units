@@ -3,7 +3,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     displayName = "Thug (P90)";
     faction = "TACU_Cartel_O";
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_01.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_01.jpg);
     scope = 2;
     scopeCurator = 2;
     identityTypes[] = {"LanguageGRE_F", "Head_Cartel", "NoGlasses"};
@@ -37,7 +37,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_02: TACU_Cartel2_U_O_Thug_Rifleman_01 {
     displayName = "Thug (MP5)";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_02.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_02.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Thug_02";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
@@ -48,7 +48,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_02: TACU_Cartel2_U_O_Thug_Rifleman_01 {
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_03: TACU_Cartel2_U_O_Thug_Rifleman_02 {
     displayName = "Thug (AKS-74U)";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_03.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_03.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Thug_03";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
@@ -59,7 +59,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_03: TACU_Cartel2_U_O_Thug_Rifleman_02 {
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_04: TACU_Cartel2_U_O_Thug_Rifleman_03 {
     displayName = "Thug (M79/MAC-10)";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_04.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_04.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Thug_04";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
@@ -70,7 +70,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_04: TACU_Cartel2_U_O_Thug_Rifleman_03 {
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_05: TACU_Cartel2_U_O_Thug_Rifleman_04 {
     displayName = "Thug (M1014)";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_05.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_05.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Thug_05";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
@@ -81,7 +81,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_05: TACU_Cartel2_U_O_Thug_Rifleman_04 {
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_06: TACU_Cartel2_U_O_Thug_Rifleman_05 {
     displayName = "Thug (MP7)";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_06.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_06.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Thug_06";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
@@ -92,7 +92,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_06: TACU_Cartel2_U_O_Thug_Rifleman_05 {
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_07: TACU_Cartel2_U_O_Thug_Rifleman_06 {
     displayName = "Thug (Vikhr)";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_07.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_07.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Thug_03";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
@@ -103,7 +103,7 @@ class TACU_Cartel2_U_O_Thug_Rifleman_07: TACU_Cartel2_U_O_Thug_Rifleman_06 {
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_08: TACU_Cartel2_U_O_Thug_Rifleman_07 {
     displayName = "Thug (Scorpion Evo)";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel2_U_O_Thug_Rifleman_08.jpg);
+    editorPreview = QPATHTOF(ui\Cartel2_U_O_Thug_Rifleman_08.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Thug_01";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
@@ -124,7 +124,7 @@ class TACS_Cartel_V_O_Thug_Offroad: TACS_Offroad_I_Black {
     side = 0;
     crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
-    //editorPreview = QPATHTOF(ui\TACS_Cartel_V_O_Thug_Offroad.jpg);
+    editorPreview = QPATHTOF(ui\TACS_Cartel_V_O_Thug_Offroad.jpg);
 
     class PlateInfos {
         color[] = {0, 0, 0, 0.75};
@@ -146,7 +146,7 @@ class TACU_Cartel_V_O_Thug_Offroad_Armed: TACS_Offroad_I_Armed_Black {
     side = 0;
     crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
-    //editorPreview = QPATHTOF(ui\TACU_Cartel_V_O_Thug_Offroad_Armed.jpg);
+    editorPreview = QPATHTOF(ui\Cartel_V_O_Thug_Offroad_Armed.jpg);
 
     class PlateInfos {
         color[] = {0, 0, 0, 0.75};
