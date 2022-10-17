@@ -7,10 +7,22 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
-    class TACU_Cartel_EdSubCat_O_Soldados {
-        displayName = "Men (Soldados)";
+    class TACU_Cartel_EdSubCat_O_Grunts {
+        displayName = "Men (Grunts)";
     };
-    class TACU_Cartel_EdSubCat_O_Sicarios {
-        displayName = "Men (Sicarios)";
+    class TACU_Cartel_EdSubCat_O_Grunts_Vehicles {
+        displayName = "Cars (Grunts)";
+    };
+    class TACU_Cartel_EdSubCat_O_Thugs {
+        displayName = "Men (Thugs)";
+    };
+    class TACU_Cartel_EdSubCat_O_Thugs_Vehicles {
+        displayName = "Cars (Thugs)";
+    };
+    class TACU_Cartel_EdSubCat_O_Enforcers {
+        displayName = "Men (Enforcers)";
+    };
+    class TACU_Cartel_EdSubCat_O_Enforcers_Vehicles {
+        displayName = "Cars (Enforcers)";
     };
 };
