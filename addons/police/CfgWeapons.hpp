@@ -8,8 +8,7 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Helmet_PASGT_Neck_PoliceBlack_co.paa)};
     };
 
-    class TACU_Police_Helmet_PASGT_Neck_PoliceGreen: H_PASGT_neckprot_blue_press_F {
-        author = "Kresky";
+    class TACU_Police_Helmet_PASGT_Neck_PoliceGreen: TACU_Police_Helmet_PASGT_Neck_PoliceBlack {
         displayName = "Police Helmet (Neck Protection, Green)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Helmet_PASGT_Neck_PoliceGreen_co.paa)};
     };
@@ -33,45 +32,28 @@ class CfgWeapons {
         };
     };
 
-    class TACU_Police_Uniform_Combat_Blue: Uniform_Base {
-        author = "Kresky";
-        scope = 2;
+    class TACU_Police_Uniform_Combat_Blue: TACU_Police_Uniform_Combat_Black {
         displayName = "Police Combat Uniform (Blue)";
         picture = QPATHTOF(ui\Police_Uniform_Combat_Blue.paa);
         model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-        class ItemInfo: UniformItem {
-            uniformModel = "-";
+        class ItemInfo: ItemInfo {
             uniformClass = "TACU_Police_Unit_Combat_Blue";
-            containerClass = "Supply40";
-            mass = 40;
         };
     };
 
-    class TACU_Police_Uniform_Combat_Brown: Uniform_Base {
-        author = "Kresky";
-        scope = 2;
+    class TACU_Police_Uniform_Combat_Brown: TACU_Police_Uniform_Combat_Blue {
         displayName = "Police Combat Uniform (Brown)";
         picture = QPATHTOF(ui\Police_Uniform_Combat_Brown.paa);
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-        class ItemInfo: UniformItem {
-            uniformModel = "-";
+        class ItemInfo: ItemInfo {
             uniformClass = "TACU_Police_Unit_Combat_Brown";
-            containerClass = "Supply40";
-            mass = 40;
         };
     };
 
-    class TACU_Police_Uniform_Combat_Green: Uniform_Base {
-        author = "Kresky";
-        scope = 2;
+    class TACU_Police_Uniform_Combat_Green: TACU_Police_Uniform_Combat_Brown {
         displayName = "Police Combat Uniform (Green)";
         picture = QPATHTOF(ui\Police_Uniform_Combat_Green.paa);
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
         class ItemInfo: UniformItem {
-            uniformModel = "-";
             uniformClass = "TACU_Police_Unit_Combat_Green";
-            containerClass = "Supply40";
-            mass = 40;
         };
     };
 
@@ -85,14 +67,12 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlack_co.paa), QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlack_Parts_co.paa)};
     };
 
-    class TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue: V_PlateCarrierIAGL_oli {
-        author = "Kresky";
+    class TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue: TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack {
         displayName = "Heavy Plate Carrier (Police, Blue)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlue_co.paa), QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceBlue_Parts_co.paa)};
     };
 
-    class TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen: V_PlateCarrierIAGL_oli {
-        author = "Kresky";
+    class TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen: TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue {
         displayName = "Heavy Plate Carrier (Police, Green)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceGreen_co.paa), QPATHTOF(data\Police_Vest_HeavyPlateCarrier_PoliceGreen_Parts_co.paa)};
     };
@@ -103,14 +83,12 @@ class CfgWeapons {
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceBlack_co.paa)};
     };
 
-    class TACU_Police_Vest_PlateCarrier_PoliceBlue: V_PlateCarrier1_blk {
-        author = "Kresky";
+    class TACU_Police_Vest_PlateCarrier_PoliceBlue: TACU_Police_Vest_PlateCarrier_PoliceBlack {
         displayName = "Plate Carrier (Police, Blue)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceBlue_co.paa)};
     };
 
-    class TACU_Police_Vest_PlateCarrier_PoliceGreen: V_PlateCarrier1_blk {
-        author = "Kresky";
+    class TACU_Police_Vest_PlateCarrier_PoliceGreen: TACU_Police_Vest_PlateCarrier_PoliceBlue {
         displayName = "Plate Carrier (Police, Green)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\Police_Vest_PlateCarrier_PoliceGreen_co.paa)};
     };
