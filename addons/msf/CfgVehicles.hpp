@@ -44,7 +44,7 @@ class CfgVehicles {
         };
     };
 
-    class TACU_MSF_Item_Uniform_Combat_TigerBlack: TACU_MSF_Item_Uniform_CBRN_Black
+    class TACU_MSF_Item_Uniform_Combat_TigerBlack: TACU_MSF_Item_Uniform_CBRN_Black {
         displayName = "Combat Uniform (Tiger Black)";
         class TransportItems {
             MACRO_ADDITEM(TACU_MSF_Uniform_Combat_TigerBlack,1);
@@ -1073,8 +1073,8 @@ class CfgVehicles {
             MACRO_ADDITEM(ACE_packingBandage,10);
         };
     };
-
     // Units and Vehicles
+
     #include "CfgVehicles_DDogs_Black.hpp"
     #include "CfgVehicles_DDogs_Desert.hpp"
     #include "CfgVehicles_DDogs_Wood.hpp"
