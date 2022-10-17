@@ -27,10 +27,6 @@ class TACU_Takistan_U_Tehrik_Rifleman: TACU_Takistan_U_Tehrik_Leader {
     editorPreview = QPATHTOF(ui\Takistan_U_Tehrik_Rifleman.jpg);
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_05", "CUP_H_TKI_Lungee_05"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_V_OI_TKI_Jacket4_05", "CUP_H_TKI_Lungee_05"};
-    weapons[] = {"CUP_arifle_AK47", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_arifle_AK47", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_762x39_EPR_Metal"), mag_5("CUP_HandGrenade_RGD5")};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_762x39_EPR_Metal"), mag_5("CUP_HandGrenade_RGD5")};
 };
 
 class TACU_Takistan_U_Tehrik_Rifleman_02: TACU_Takistan_U_Tehrik_Rifleman {
