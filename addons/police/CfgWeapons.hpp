@@ -52,7 +52,7 @@ class CfgWeapons {
     class TACU_Police_Uniform_Combat_Green: TACU_Police_Uniform_Combat_Brown {
         displayName = "Police Combat Uniform (Green)";
         picture = QPATHTOF(ui\Police_Uniform_Combat_Green.paa);
-        class ItemInfo: UniformItem {
+        class ItemInfo: ItemInfo {
             uniformClass = "TACU_Police_Unit_Combat_Green";
         };
     };
