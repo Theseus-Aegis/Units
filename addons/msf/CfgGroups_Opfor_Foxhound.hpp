@@ -13,109 +13,82 @@ class TACU_MSF_G_O_Infantry_Foxhound {
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_MSF_U_O_Foxhound_Rifleman_01";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_MSF_G_O_Infantry_Foxhound_PatrolLight {
+    class TACU_MSF_G_O_Infantry_Foxhound_PatrolLight: TACU_MSF_G_O_Infantry_Foxhound_Patrol {
         name = "Patrol (Light)";
-        side = 0;
-        faction = "TACU_MSF_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_MSF_U_O_Foxhound_SMG_01";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_MSF_U_O_Foxhound_SMG_01";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_MSF_G_O_Infantry_Foxhound_Fireteam {
+    class TACU_MSF_G_O_Infantry_Foxhound_Fireteam: TACU_MSF_G_O_Infantry_Foxhound_PatrolLight {
         name = "Fireteam";
-        side = 0;
-        faction = "TACU_MSF_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_MSF_U_O_Foxhound_Rifleman_01";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_MSF_U_O_Foxhound_Rifleman_01";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_MSF_U_O_Foxhound_Marksman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_MSF_U_O_Foxhound_Rifleman_01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
     };
 
-    class TACU_MSF_G_O_Infantry_Foxhound_Squad {
+    class TACU_MSF_G_O_Infantry_Foxhound_Squad: TACU_MSF_G_O_Infantry_Foxhound_Fireteam {
         name = "Squad";
-        side = 0;
-        faction = "TACU_MSF_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_MSF_U_O_Foxhound_Rifleman_01";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_MSF_U_O_Foxhound_Rifleman_01";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_MSF_U_O_Foxhound_SMG_01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_MSF_U_O_Foxhound_Marksman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
-        class unit4 {
+        class unit4: unit3 {
             vehicle = "TACU_MSF_U_O_Foxhound_SMG_01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-10, -10, 0};
         };
-        class unit5 {
+        class unit5: unit4 {
             vehicle = "TACU_MSF_U_O_Foxhound_SMG_01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {15, -15, 0};
         };
-        class unit6 {
+        class unit6: unit5 {
             vehicle = "TACU_MSF_U_O_Foxhound_Rifleman_01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-15, -15, 0};
         };
     };

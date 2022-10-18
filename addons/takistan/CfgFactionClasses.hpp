@@ -5,16 +5,13 @@ class CfgFactionClasses {
         priority = 4;
     };
 
-    class TACU_Takistan_TNP {
+    class TACU_Takistan_TNP: TACU_Takistan_TNA {
         displayName = "Takistan National Police";
-        side = 2;
-        priority = 4;
     };
 
-    class TACU_Takistan_Tehrik {
+    class TACU_Takistan_Tehrik: TACU_Takistan_TNP {
         displayName = "Tehrik-I-Taliban Takistan";
         side = 0;
-        priority = 4;
     };
 };
 

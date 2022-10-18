@@ -5,10 +5,8 @@ class CfgFactionClasses {
         priority = 2;
     };
 
-    class TACU_Vanguard_O {
-        displayName = "Vanguard PMC";
+    class TACU_Vanguard_O: TACU_Vanguard {
         side = 0;
-        priority = 2;
     };
 };
 
