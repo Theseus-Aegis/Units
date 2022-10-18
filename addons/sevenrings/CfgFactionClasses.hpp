@@ -11,16 +11,12 @@ class CfgFactionClasses {
         priority = 2;
     };
 
-    class TACU_SevenRings_O_Western {
-        displayName = "Seven Rings (West)";
+    class TACU_SevenRings_O_Western: TACU_SevenRings_I_Western {
         side = 0;
-        priority = 2;
     };
 
-    class TACU_SevenRings_O_Eastern {
-        displayName = "Seven Rings (East)";
+    class TACU_SevenRings_O_Eastern: TACU_SevenRings_I_Eastern {
         side = 0;
-        priority = 2;
     };
 };
 
@@ -29,7 +25,5 @@ class CfgEditorSubcategories {
         displayName = "Men";
     };
 
-    class TACU_SevenRings_EdSubCat_Western {
-        displayName = "Men";
-    };
+    class TACU_SevenRings_EdSubCat_Western: TACU_SevenRings_EdSubCat_Eastern {};
 };

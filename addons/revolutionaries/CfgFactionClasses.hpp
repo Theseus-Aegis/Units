@@ -5,10 +5,9 @@ class CfgFactionClasses {
         priority = 2;
     };
 
-    class TACU_Revolutionaries_O {
+    class TACU_Revolutionaries_O: TACU_Revolutionaries_I {
         displayName = "Revolutionaries";
         side = 0;
-        priority = 2;
     };
 };
 

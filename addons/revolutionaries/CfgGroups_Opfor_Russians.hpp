@@ -13,258 +13,193 @@ class TACU_Revolutionaries_G_O_Infantry_Russians {
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Shotgunner";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_GuardsHeavy {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_GuardsHeavy: TACU_Revolutionaries_G_O_Infantry_Russians_GuardsLight {
         name = "Guards (Heavy)";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman01";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman02";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_SniperTeam {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_SniperTeam: TACU_Revolutionaries_G_O_Infantry_Russians_GuardsHeavy {
         name = "Sniper Team";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Marksman";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman03";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_FireteamLight {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_FireteamLight: TACU_Revolutionaries_G_O_Infantry_Russians_SniperTeam {
         name = "Fireteam (Light)";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman03";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Paramedic";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman02";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Marksman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_FireteamHeavy {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_FireteamHeavy: TACU_Revolutionaries_G_O_Infantry_Russians_FireteamLight {
         name = "Fireteam (Heavy)";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_SMG02";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Autorifleman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_SquadLight {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_SquadLight: TACU_Revolutionaries_G_O_Infantry_Russians_FireteamHeavy {
         name = "Squad (Light)";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman03";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Paramedic";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman02";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Marksman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
-        class unit4 {
+        class unit4: unit3 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Machinegunner";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-10, -10, 0};
         };
-        class unit5 {
+        class unit5: unit4 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {15, -15, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_SquadHeavy {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_SquadHeavy: TACU_Revolutionaries_G_O_Infantry_Russians_SquadLight {
         name = "Squad (Heavy)";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_SMG02";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman02";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Autorifleman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
-        class unit4 {
+        class unit4: unit3 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-10, -10, 0};
         };
-        class unit5 {
+        class unit5: unit4 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman04";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {15, -15, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_SupportLight {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_SupportLight: TACU_Revolutionaries_G_O_Infantry_Russians_SquadHeavy {
         name = "Support (Light)";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman03";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_SMG01";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Machinegunner";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Grenadier";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Infantry_Russians_SupportHeavy {
+    class TACU_Revolutionaries_G_O_Infantry_Russians_SupportHeavy: TACU_Revolutionaries_G_O_Infantry_Russians_SupportLight {
         name = "Support (Heavy)";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Autorifleman";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Rifleman04";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Grenadier";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
     };
@@ -285,155 +220,117 @@ class TACU_Revolutionaries_G_O_Veterans_Russians {
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rifleman02";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Veterans_Russians_Scout {
+    class TACU_Revolutionaries_G_O_Veterans_Russians_Scout: TACU_Revolutionaries_G_O_Veterans_Russians_Patrol {
         name = "Scouts";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_SMG01";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_SMG02";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Veterans_Russians_SniperTeam {
+    class TACU_Revolutionaries_G_O_Veterans_Russians_SniperTeam: TACU_Revolutionaries_G_O_Veterans_Russians_Scout {
         name = "Sniper Team";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Marksman";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rifleman04";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Veterans_Russians_Fireteam {
+    class TACU_Revolutionaries_G_O_Veterans_Russians_Fireteam: TACU_Revolutionaries_G_O_Veterans_Russians_SniperTeam {
         name = "Fireteam";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Medic";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rifleman03";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Autorifleman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Veterans_Russians_Squad {
+    class TACU_Revolutionaries_G_O_Veterans_Russians_Squad: TACU_Revolutionaries_G_O_Veterans_Russians_Fireteam {
         name = "Squad";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Leader";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rifleman02";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rifleman03";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rifleman04";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
-        class unit4 {
+        class unit4: unit3 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Autorifleman";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-10, -10, 0};
         };
-        class unit5 {
+        class unit5: unit4 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Medic";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {15, -15, 0};
         };
     };
 
-    class TACU_Revolutionaries_G_O_Veterans_Russians_Support {
+    class TACU_Revolutionaries_G_O_Veterans_Russians_Support: TACU_Revolutionaries_G_O_Veterans_Russians_Squad {
         name = "Support";
-        side = 0;
-        faction = "TACU_Revolutionaries_O";
-        icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
         class unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Shotgunner";
             side = 0;
             rank = "SERGEANT";
             position[] = {0, 0, 0};
         };
-        class unit1 {
+        class unit1: unit0 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Machinegunner";
-            side = 0;
             rank = "PRIVATE";
             position[] = {5, -5, 0};
         };
-        class unit2 {
+        class unit2: unit1 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rocketeer";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {-5, -5, 0};
         };
-        class unit3 {
+        class unit3: unit2 {
             vehicle = "TACU_Revolutionaries_U_O_Russian_Vet_Rifleman01";
-            side = 0;
-            rank = "PRIVATE";
             position[] = {10, -10, 0};
         };
     };
-
 };

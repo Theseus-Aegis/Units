@@ -14,7 +14,7 @@ class TACU_Police_B {
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Police_U_B_CT_Rifleman";
                 side = 1;
                 rank = "PRIVATE";
@@ -22,33 +22,25 @@ class TACU_Police_B {
             };
         };
 
-        class TACU_Police_G_B_CT_Fireteam {
+        class TACU_Police_G_B_CT_Fireteam: TACU_Police_G_B_CT_Guards {
             name = "Fireteam";
-            side = 1;
-            faction = "TACU_Police_B";
-            icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
             class unit0 {
                 vehicle = "TACU_Police_U_B_CT_Rifleman";
                 side = 1;
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Police_U_B_CT_Breacher";
-                side = 1;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-            class unit2 {
+            class unit2: unit1 {
                 vehicle = "TACU_Police_U_B_CT_Rifleman";
-                side = 1;
-                rank = "PRIVATE";
                 position[] = {-5, -5, 0};
             };
-            class unit3 {
+            class unit3: unit2 {
                 vehicle = "TACU_Police_U_B_CT_Rifleman";
-                side = 1;
-                rank = "PRIVATE";
                 position[] = {10, -10, 0};
             };
         };
@@ -68,41 +60,32 @@ class TACU_Police_B {
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Police_U_B_Enforcer_SMG_2";
-                side = 1;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
         };
 
-        class TACU_Police_G_B_Enforcer_Fireteam {
+        class TACU_Police_G_B_Enforcer_Fireteam: TACU_Police_G_B_Enforcer_Guards {
             name = "Fireteam";
-            side = 1;
-            faction = "TACU_Police_B";
-            icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
             class unit0 {
                 vehicle = "TACU_Police_U_B_Enforcer_Rifleman";
                 side = 1;
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Police_U_B_Enforcer_Breacher";
-                side = 1;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-            class unit2 {
+            class unit2: unit1 {
                 vehicle = "TACU_Police_U_B_Enforcer_SMG_1";
-                side = 1;
-                rank = "PRIVATE";
                 position[] = {-5, -5, 0};
             };
-            class unit3 {
+            class unit3: unit2 {
                 vehicle = "TACU_Police_U_B_Enforcer_SMG_2";
-                side = 1;
-                rank = "PRIVATE";
                 position[] = {10, -10, 0};
             };
         };

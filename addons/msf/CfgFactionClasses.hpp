@@ -5,10 +5,8 @@ class CfgFactionClasses {
         priority = 2;
     };
 
-    class TACU_MSF_O {
-        displayName = "Militaires Sans Frontières";
+    class TACU_MSF_O: TACU_MSF_I {
         side = 0;
-        priority = 2;
     };
 };
 

@@ -14,84 +14,63 @@ class TACU_Takistan_TNA {
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Autorifleman";
-                side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
         };
 
-        class TACU_Takistan_G_TNA_Regular_Fireteam {
+        class TACU_Takistan_G_TNA_Regular_Fireteam: TACU_Takistan_G_TNA_Regular_Patrol {
             name = "Fireteam";
-            side = 2;
-            faction = "TACU_Takistan_TNA";
-            icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
             class unit0 {
                 vehicle = "TACU_Takistan_U_TNA_NCO";
                 side = 2;
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Rifleman";
-                side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-            class unit2 {
+            class unit2: unit1 {
                 vehicle = "TACU_Takistan_U_TNA_Rifleman_02";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {-5, -5, 0};
             };
-            class unit3 {
+            class unit3: unit2 {
                 vehicle = "TACU_Takistan_U_TNA_Autorifleman";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {10, -10, 0};
             };
         };
 
-        class TACU_Takistan_G_TNA_Regular_Squad {
+        class TACU_Takistan_G_TNA_Regular_Squad: TACU_Takistan_G_TNA_Regular_Fireteam {
             name = "Squad";
-            side = 2;
-            faction = "TACU_Takistan_TNA";
-            icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
             class unit0 {
                 vehicle = "TACU_Takistan_U_TNA_NCO";
                 side = 2;
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Rifleman";
-                side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-            class unit2 {
+            class unit2: unit1 {
                 vehicle = "TACU_Takistan_U_TNA_Rifleman_02";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {-5, -5, 0};
             };
-            class unit3 {
+            class unit3: unit2 {
                 vehicle = "TACU_Takistan_U_TNA_Rifleman_03";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {10, -10, 0};
             };
-            class unit4 {
+            class unit4: unit3 {
                 vehicle = "TACU_Takistan_U_TNA_Autorifleman";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {-10, -10, 0};
             };
-            class unit5 {
+            class unit5: unit4 {
                 vehicle = "TACU_Takistan_U_TNA_Rifleman_02";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {15, -15, 0};
             };
         };
@@ -111,84 +90,63 @@ class TACU_Takistan_TNA {
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman_AT";
-                side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
         };
 
-        class TACU_Takistan_G_TNA_Commandos_Fireteam {
+        class TACU_Takistan_G_TNA_Commandos_Fireteam: TACU_Takistan_G_TNA_Commandos_Patrol {
             name = "Fireteam";
-            side = 2;
-            faction = "TACU_Takistan_TNA";
-            icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
             class unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_NCO";
                 side = 2;
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Grenadier";
-                side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-            class unit2 {
+            class unit2: unit1 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Medic";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {-5, -5, 0};
             };
-            class unit3 {
+            class unit3: unit2 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Autorifleman";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {10, -10, 0};
             };
         };
 
-        class TACU_Takistan_G_TNA_Commandos_Squad {
+        class TACU_Takistan_G_TNA_Commandos_Squad: TACU_Takistan_G_TNA_Commandos_Fireteam {
             name = "Squad";
-            side = 2;
-            faction = "TACU_Takistan_TNA";
-            icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
             class unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_NCO";
                 side = 2;
                 rank = "SERGEANT";
                 position[] = {0, 0, 0};
             };
-            class unit1 {
+            class unit1: unit0 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Grenadier";
-                side = 2;
                 rank = "PRIVATE";
                 position[] = {5, -5, 0};
             };
-            class unit2 {
+            class unit2: unit1 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Medic";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {-5, -5, 0};
             };
-            class unit3 {
+            class unit3: unit2 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Autorifleman";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {10, -10, 0};
             };
-            class unit4 {
+            class unit4: unit3 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman_AT";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {-10, -10, 0};
             };
-            class unit5 {
+            class unit5: unit4 {
                 vehicle = "TACU_Takistan_U_TNA_Commandos_Rifleman_AT";
-                side = 2;
-                rank = "PRIVATE";
                 position[] = {15, -15, 0};
             };
         };
