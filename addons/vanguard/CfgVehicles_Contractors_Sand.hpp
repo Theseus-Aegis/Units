@@ -157,8 +157,8 @@ class TACU_Vanguard_U_Contractor_Sand_Medic: TACU_Vanguard_U_Contractor_Sand_Rif
     backpack = "tacs_Backpack_Kitbag_Medic_Tan";
     weapons[] = {"TACU_Vanguard_W_F2000_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_F2000_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG_Tan"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG_Tan"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Sand_Medic.jpg);
 };
 
