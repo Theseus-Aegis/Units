@@ -174,7 +174,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Ri
     displayName = "Rifleman AT (M136)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    uniformClass = "U_lxWS_C_Djella_05";
+    uniformClass = "U_lxWS_Tak_03_C";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_hgunner_cb"

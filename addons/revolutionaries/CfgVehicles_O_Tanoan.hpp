@@ -107,8 +107,8 @@ class TACU_Revolutionaries_U_O_Tanoan_SMG01: TACU_Revolutionaries_U_O_Tanoan_Rif
     uniformClass = "U_C_MAN_casual_4_F";
     weapons[] = {"TACU_Revolutionaries_W_MP5K", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Revolutionaries_W_MP5K", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_AI_30Rnd_9x19_SMG_02"), "ACE_M84", "SmokeShellGreen", "SmokeShellYellow"};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19_SMG_02"), "ACE_M84", "SmokeShellGreen", "SmokeShellYellow"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_9x19"), "ACE_M84", "SmokeShellGreen", "SmokeShellYellow"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19"), "ACE_M84", "SmokeShellGreen", "SmokeShellYellow"};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_O_Tanoan_SMG01.jpg);
 };
 

@@ -105,8 +105,8 @@ class TACU_Vanguard_U_Contractor_Green_Driver: TACU_Vanguard_U_Contractor_Green_
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_AI_30Rnd_9x19_SMG_02"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_9x19_SMG_02"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_9x19"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_9x19"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Driver.jpg);
 };
 
@@ -196,8 +196,8 @@ class TACU_Vanguard_U_Contractor_Pilot: TACU_Vanguard_U_Contractor_Green_Riflema
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B"};
     weapons[] = {"SMG_02_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_02_F", "Throw", "Put"};
-    magazines[] = {mag_2("tacgt_AI_30Rnd_9x19_SMG_02"), "SmokeShell"};
-    respawnMagazines[] = {mag_2("tacgt_AI_30Rnd_9x19_SMG_02"), "SmokeShell"};
+    magazines[] = {mag_2("tacgt_AI_30Rnd_9x19"), "SmokeShell"};
+    respawnMagazines[] = {mag_2("tacgt_AI_30Rnd_9x19"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Pilot.jpg);
 };
 

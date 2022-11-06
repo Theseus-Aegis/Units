@@ -296,11 +296,11 @@ class TACU_SevenRings_U_I_Western_Autorifleman_01: TACU_SevenRings_U_I_Western_R
         MACRO_WEST_DEFAULT_WEAPON
     };
     magazines[] = {
-        mag_4("tacgt_AI_200Rnd_65x39_Belt_Red"),
+        mag_4("tacgt_AI_200Rnd_65x39_Belt"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
     respawnMagazines[] = {
-        mag_4("tacgt_AI_200Rnd_65x39_Belt_Red"),
+        mag_4("tacgt_AI_200Rnd_65x39_Belt"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
     editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Autorifleman_01.jpg);
