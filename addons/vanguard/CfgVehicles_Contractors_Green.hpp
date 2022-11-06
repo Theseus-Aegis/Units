@@ -18,8 +18,8 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_Mk20_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
         "H_HelmetSpecB", 1
     };
@@ -40,8 +40,8 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_02: TACU_Vanguard_U_Contractor_G
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"arifle_AK12_lush_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12_lush_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_762x39_AP_Metal"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_762x39_AP_Metal"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Rifleman_02.jpg);
 };
 
@@ -57,8 +57,8 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_AT: TACU_Vanguard_U_Contractor_G
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"TACU_Vanguard_W_CTAR_Green", "hgun_Pistol_heavy_01_green_F", "launch_MRAWS_green_rail_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_CTAR_Green", "hgun_Pistol_heavy_01_green_F", "launch_MRAWS_green_rail_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_58x42_AP"), mag_2("11Rnd_45ACP_Mag"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_58x42_AP"), mag_2("11Rnd_45ACP_Mag"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_58x42"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_58x42"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "MRAWS_HEAT_F", mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Rifleman_AT.jpg);
 };
 
@@ -73,8 +73,8 @@ class TACU_Vanguard_U_Contractor_Green_Grenadier: TACU_Vanguard_U_Contractor_Gre
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"TACU_Vanguard_W_HK416GL_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_HK416GL_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("1Rnd_HE_Grenade_shell"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Grenadier.jpg);
 };
 
@@ -89,8 +89,8 @@ class TACU_Vanguard_U_Contractor_Green_Marksman: TACU_Vanguard_U_Contractor_Gree
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"TACU_Vanguard_W_SIG556_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_SIG556_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_7("ACE_20Rnd_762x51_M993_AP_Mag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("ACE_20Rnd_762x51_M993_AP_Mag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_20Rnd_762x51"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_20Rnd_762x51"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Marksman.jpg);
 };
 
@@ -105,8 +105,8 @@ class TACU_Vanguard_U_Contractor_Green_Driver: TACU_Vanguard_U_Contractor_Green_
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_02_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_4("30Rnd_9x21_Mag_SMG_02"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("30Rnd_9x21_Mag_SMG_02"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_9x19_SMG_02"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_9x19_SMG_02"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Driver.jpg);
 };
 
@@ -121,8 +121,8 @@ class TACU_Vanguard_U_Contractor_Green_TeamLeader: TACU_Vanguard_U_Contractor_Gr
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"TACU_Vanguard_W_MX_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_MX_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_65x39_caseless_khaki_mag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_65x39_caseless_khaki_mag"), mag_2("11Rnd_45ACP_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("30Rnd_65x39_caseless_khaki_mag"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("30Rnd_65x39_caseless_khaki_mag"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_TeamLeader.jpg);
 };
 
@@ -138,8 +138,8 @@ class TACU_Vanguard_U_Contractor_Green_Autorifleman: TACU_Vanguard_U_Contractor_
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     weapons[] = {"TACU_Vanguard_W_Stoner_Black", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_Stoner_Black", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_2("200Rnd_65x39_cased_Box"), mag_2("11Rnd_45ACP_Mag")};
-    respawnMagazines[] = {mag_2("200Rnd_65x39_cased_Box"), mag_2("11Rnd_45ACP_Mag")};
+    magazines[] = {mag_2("tacgt_AI_200Rnd_65x39_Belt"), mag_2("tacgt_AI_11Rnd_45ACP_FNX")};
+    respawnMagazines[] = {mag_2("tacgt_AI_200Rnd_65x39_Belt"), mag_2("tacgt_AI_11Rnd_45ACP_FNX")};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Autorifleman.jpg);
 };
 
@@ -157,8 +157,8 @@ class TACU_Vanguard_U_Contractor_Green_Medic: TACU_Vanguard_U_Contractor_Green_R
     backpack = "tacs_Backpack_Kitbag_Medic_Sage";
     weapons[] = {"arifle_Mk20C_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20C_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Medic.jpg);
 };
 
@@ -176,8 +176,8 @@ class TACU_Vanguard_U_Contractor_Green_Engineer: TACU_Vanguard_U_Contractor_Gree
     backpack = "I_Fieldpack_oli_Repair";
     weapons[] = {"TACU_Vanguard_W_CTAR_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_CTAR_Green", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_30Rnd_58x42_AP"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("tacgt_30Rnd_58x42_AP"), mag_2("11Rnd_45ACP_Mag"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_58x42"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_58x42"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Engineer.jpg);
 };
 
@@ -196,8 +196,8 @@ class TACU_Vanguard_U_Contractor_Pilot: TACU_Vanguard_U_Contractor_Green_Riflema
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_PilotHelmetHeli_B"};
     weapons[] = {"SMG_02_F", "Throw", "Put"};
     respawnWeapons[] = {"SMG_02_F", "Throw", "Put"};
-    magazines[] = {mag_2("30Rnd_9x21_Mag_SMG_02"), "SmokeShell"};
-    respawnMagazines[] = {mag_2("30Rnd_9x21_Mag_SMG_02"), "SmokeShell"};
+    magazines[] = {mag_2("tacgt_AI_30Rnd_9x19_SMG_02"), "SmokeShell"};
+    respawnMagazines[] = {mag_2("tacgt_AI_30Rnd_9x19_SMG_02"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Pilot.jpg);
 };
 

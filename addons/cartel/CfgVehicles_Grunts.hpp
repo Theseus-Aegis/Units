@@ -16,8 +16,8 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO};
     weapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
-    magazines[] = {mag_7("CUP_32Rnd_9x19_UZI_M"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_7("CUP_32Rnd_9x19_UZI_M"), mag_2("HandGrenade")};
+    magazines[] = {mag_7("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_7("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
     headgearList[] = {
         "H_Cap_blk", 0.33,
         "H_Cap_oli", 0.33,
@@ -43,8 +43,8 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_02: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_02";
     weapons[] = {"CUP_hgun_TEC9_FA", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_TEC9_FA", "Throw", "Put"};
-    magazines[] = {mag_7("CUP_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_7("CUP_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
+    magazines[] = {mag_7("tacgt_AI_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_7("tacgt_AI_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_03: TACU_Cartel2_U_O_Grunt_Rifleman_02 {
@@ -53,8 +53,8 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_03: TACU_Cartel2_U_O_Grunt_Rifleman_02 {
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_03";
     weapons[] = {"tacgt_hgun_Glock18_Black", "Throw", "Put"};
     respawnWeapons[] = {"tacgt_hgun_Glock18_Black", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_17Rnd_9x19_Glock_Ball"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_7("tacgt_17Rnd_9x19_Glock_Ball"), mag_2("HandGrenade")};
+    magazines[] = {mag_7("tacgt_AI_17Rnd_9x19_Glock"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_7("tacgt_AI_17Rnd_9x19_Glock"), mag_2("HandGrenade")};
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_04: TACU_Cartel2_U_O_Grunt_Rifleman_03 {
@@ -71,10 +71,10 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_05: TACU_Cartel2_U_O_Grunt_Rifleman_04 {
     displayName = "Rifleman (MAC-10)";
     editorPreview = QPATHTOF(ui\Cartel2_U_O_Grunt_Rifleman_05.jpg);
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_05";
-    weapons[] = {"CUP_hgun_Mac10", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_hgun_Mac10", "Throw", "Put"};
-    magazines[] = {mag_7("CUP_30Rnd_45ACP_MAC10_M"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_7("CUP_30Rnd_45ACP_MAC10_M"), mag_2("HandGrenade")};
+    weapons[] = {"CUP_smg_Mac10", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_smg_Mac10", "Throw", "Put"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_05 {
@@ -83,8 +83,8 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_05 {
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_06";
     weapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_30Rnd_9x19_Ball"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_4("tacgt_30Rnd_9x19_Ball"), mag_2("HandGrenade")};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_9x19"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_9x19"), mag_2("HandGrenade")};
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_07: TACU_Cartel2_U_O_Grunt_Rifleman_06 {
@@ -103,8 +103,8 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_08: TACU_Cartel2_U_O_Grunt_Rifleman_07 {
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_06";
     weapons[] = {"CUP_hgun_MicroUzi", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_MicroUzi", "Throw", "Put"};
-    magazines[] = {mag_5("CUP_30Rnd_9x19_UZI"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_5("CUP_30Rnd_9x19_UZI"), mag_2("HandGrenade")};
+    magazines[] = {mag_5("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_5("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
 };
 
 // Vehicles

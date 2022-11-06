@@ -20,8 +20,8 @@ class TACU_MSF_U_I_Foxhound_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnItems[] = {mag_8("ACE_fieldDressing")};
     weapons[] = {"TACU_MSF_W_ACRC_556_Black_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_ACRC_556_Black_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
-    magazines[] = {mag_8("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
-    respawnMagazines[] = {mag_8("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
+    magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_12Rnd_45ACP_MK23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
+    respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_12Rnd_45ACP_MK23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
     headgearList[] = {
         "tacs_Helmet_Light_Ballistic_DarkBlack", 1
     };
@@ -41,8 +41,8 @@ class TACU_MSF_U_I_Foxhound_Marksman: TACU_MSF_U_I_Foxhound_Rifleman_01 {
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Foxhound_Marksman.jpg);
     weapons[] = {"TACU_MSF_W_M110_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_M110_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_20Rnd_762x51_B_M110"), mag_4("CUP_12Rnd_45ACP_mk23")};
-    respawnMagazines[] = {mag_6("CUP_20Rnd_762x51_B_M110"), mag_4("CUP_12Rnd_45ACP_mk23")};
+    magazines[] = {mag_6("tacgt_AI_20Rnd_762x51"), mag_4("tacgt_AI_12Rnd_45ACP_MK23")};
+    respawnMagazines[] = {mag_6("tacgt_AI_20Rnd_762x51"), mag_4("tacgt_AI_12Rnd_45ACP_MK23")};
 };
 class TACU_MSF_U_O_Foxhound_Marksman: TACU_MSF_U_I_Foxhound_Marksman {
     side = 0;
@@ -54,8 +54,8 @@ class TACU_MSF_U_I_Foxhound_SMG_01: TACU_MSF_U_I_Foxhound_Rifleman_01 {
     editorPreview = QPATHTOF(ui\eden\MSF_U_I_Foxhound_SMG_01.jpg);
     weapons[] = {"TACU_MSF_W_MP7A1_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
     respawnWeapons[] = {"TACU_MSF_W_MP7A1_Stealth", "TACU_MSF_W_Mk23_SOCOM_Stealth", "Throw", "Put"};
-    magazines[] = {mag_10("CUP_40Rnd_46x30_MP7"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
-    respawnMagazines[] = {mag_10("CUP_40Rnd_46x30_MP7"), mag_3("CUP_12Rnd_45ACP_mk23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
+    magazines[] = {mag_10("tacgt_AI_40Rnd_46x30_MP7"), mag_3("tacgt_AI_12Rnd_45ACP_MK23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
+    respawnMagazines[] = {mag_10("tacgt_AI_40Rnd_46x30_MP7"), mag_3("tacgt_AI_12Rnd_45ACP_MK23"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_4("ACE_M84")};
 };
 class TACU_MSF_U_O_Foxhound_SMG_01: TACU_MSF_U_I_Foxhound_SMG_01 {
     side = 0;

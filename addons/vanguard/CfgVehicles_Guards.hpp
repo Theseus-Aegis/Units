@@ -17,8 +17,8 @@ class TACU_Vanguard_U_Guard_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"SMG_03C_black", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_black", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("50Rnd_570x28_SMG_03"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("50Rnd_570x28_SMG_03"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_3("tacgt_AI_50Rnd_57x28"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("tacgt_AI_50Rnd_57x28"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
         "None", 1
     };
@@ -39,8 +39,8 @@ class TACU_Vanguard_U_Guard_Rifleman_02: TACU_Vanguard_U_Guard_Rifleman_01 {
     uniformClass = "tacs_Uniform_Combat_LS_CPS_BP_BB";
     weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("CUP_30Rnd_9x19_MP5"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("CUP_30Rnd_9x19_MP5"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_3("tacgt_AI_30Rnd_9x19_MP5"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("tacgt_AI_30Rnd_9x19_MP5"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Guard_Rifleman_02.jpg);
 };
 
@@ -54,8 +54,8 @@ class TACU_Vanguard_U_Guard_Rifleman_03: TACU_Vanguard_U_Guard_Rifleman_01 {
     uniformClass = "tacs_Uniform_Combat_LS_CLBS_GP_BB";
     weapons[] = {"hgun_PDW2000_F", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"hgun_PDW2000_F", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("30Rnd_9x21_Mag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("30Rnd_9x21_Mag"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_3("tacgt_AI_30Rnd_9x19"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("tacgt_AI_30Rnd_9x19"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Guard_Rifleman_03.jpg);
 };
 
@@ -69,8 +69,8 @@ class TACU_Vanguard_U_Guard_Rifleman_04: TACU_Vanguard_U_Guard_Rifleman_01 {
     uniformClass = "tacs_Uniform_Combat_RS_CDBS_GP_TB";
     weapons[] = {"CUP_sgun_Saiga12K", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_Saiga12K", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("tacgt_20Rnd_Saiga_000"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("tacgt_20Rnd_Saiga_000"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_3("tacgt_20Rnd_Saiga_000"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("tacgt_20Rnd_Saiga_000"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Guard_Rifleman_04.jpg);
 };
 
@@ -84,8 +84,8 @@ class TACU_Vanguard_U_Guard_Rifleman_05: TACU_Vanguard_U_Guard_Rifleman_01 {
     uniformClass = "tacs_Uniform_Combat_RS_CDFS_GP_TB";
     weapons[] = {"CUP_arifle_HK416_CQB_Black", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_HK416_CQB_Black", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("tacgt_30Rnd_556x45_EPR_EMAG"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_3("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Guard_Rifleman_05.jpg);
 };
 
@@ -99,8 +99,8 @@ class TACU_Vanguard_U_Guard_Rifleman_06: TACU_Vanguard_U_Guard_Rifleman_01 {
     uniformClass = "tacs_Uniform_Combat_RS_CPS_BP_BB";
     weapons[] = {"arifle_AKS_F", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "CUP_hgun_M9", "Throw", "Put"};
-    magazines[] = {mag_3("tacgt_30Rnd_545x39_AP_Black"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_3("tacgt_30Rnd_545x39_AP_Black"), mag_2("CUP_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_3("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_3("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};
     editorPreview = QPATHTOF(ui\Vanguard_U_Guard_Rifleman_06.jpg);
 };
 

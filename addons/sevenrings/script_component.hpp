@@ -18,7 +18,7 @@
     "Put"
 
 #define MACRO_WEST_DEFAULT_MAGAZINE \
-    mag_2("CUP_15Rnd_9x19_M9"), \
+    mag_2("tacgt_AI_15Rnd_9x19_M9"), \
     mag_2("HandGrenade"), \
     mag_2("MiniGrenade")
 

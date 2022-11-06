@@ -122,7 +122,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,5);
+            MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_762x51_Belt,5);
         };
     };
 
@@ -131,7 +131,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 1;
         class TransportMagazines {
-            MACRO_ADDMAGAZINE(100Rnd_65x39_caseless_mag,5);
+            MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_65x39_MX_Black,5);
         };
     };
 
