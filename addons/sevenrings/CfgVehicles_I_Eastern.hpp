@@ -10,7 +10,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     sensitivityEar = 0.15;
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_Djella_02_Brown";
     backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -39,27 +39,15 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         MACRO_EAST_DEFAULT_MAGAZINE
     };
     headgearList[] = {
-        "CUP_H_TKI_Lungee_Open_01", 0.25,
-        "CUP_H_TKI_Pakol_1_03", 0.25,
-        "H_PASGT_basic_black_F", 0.50,
-        "H_PASGT_basic_olive_F", 0.50,
-        "CUP_H_Ger_M92", 0.50,
-        "CUP_H_RUS_K6_3_Shield_Down_khaki", 0.10
+        "H_turban_02_mask_black_lxws", 1
     };
-    CBA_facewearList[] = {
-        "CUP_G_Scarf_Face_White", 0.5,
-        "CUP_G_Scarf_Face_Red", 0.5,
-        "CUP_G_Scarf_Face_Tan", 0.5,
-        "CUP_G_Scarf_Face_Blk", 0.5,
-        "CUP_G_Scarf_Face_Grn", 0.5,
-        "", 0.15
-    };
+    CBA_facewearList[] = {"", 1};
     editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Rifleman_01.jpg);
 };
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_02: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Rifleman (AK-103)";
-    uniformClass = "CUP_U_C_racketeer_01";
+    uniformClass = "U_lxWS_Djella_02_Grey";
     weapons[] = {
         "TACU_SevenRings_W_East_AK103",
         MACRO_EAST_DEFAULT_WEAPON
@@ -81,7 +69,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_02: TACU_SevenRings_U_I_Eastern_Rifle
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_03: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Rifleman (AK-104)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_01";
+    uniformClass = "U_lxWS_Djella_03_Green";
     weapons[] = {
         "TACU_SevenRings_W_East_AK104",
         MACRO_EAST_DEFAULT_WEAPON
@@ -104,7 +92,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_03: TACU_SevenRings_U_I_Eastern_Rifle
 class TACU_SevenRings_U_I_Eastern_Grenadier_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Grenadier (AK-103)";
     role = "Grenadier";
-    uniformClass = "CUP_U_C_racketeer_01";
+    uniformClass = "U_lxWS_Djella_02_Sand";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_grenadier_belt_cb"
@@ -136,7 +124,7 @@ class TACU_SevenRings_U_I_Eastern_Grenadier_01: TACU_SevenRings_U_I_Eastern_Rifl
 
 class TACU_SevenRings_U_I_Eastern_Grenadier_02: TACU_SevenRings_U_I_Eastern_Grenadier_01 {
     displayName = "Grenadier (SA-58)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_02";
+    uniformClass = "U_lxWS_C_Djella_03";
     weapons[] = {
         "TACU_SevenRings_W_East_SA58_GL",
         MACRO_EAST_DEFAULT_WEAPON
@@ -160,7 +148,7 @@ class TACU_SevenRings_U_I_Eastern_Grenadier_02: TACU_SevenRings_U_I_Eastern_Gren
 
 class TACU_SevenRings_U_I_Eastern_Grenadier_03: TACU_SevenRings_U_I_Eastern_Grenadier_01 {
     displayName = "Grenadier (AKS-74N)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_C_Djella_07";
     weapons[] = {
         "TACU_SevenRings_W_East_AKS74_GL",
         MACRO_EAST_DEFAULT_WEAPON
@@ -186,7 +174,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Ri
     displayName = "Rifleman AT (M136)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    uniformClass = "CUP_O_TKI_Khet_Partug_01";
+    uniformClass = "U_lxWS_C_Djella_05";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_hgunner_cb"
@@ -220,7 +208,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Ri
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_AT_02: TACU_SevenRings_U_I_Eastern_Rifleman_AT_01 {
     displayName = "Rifleman AT (RPG-18)";
-    uniformClass = "CUP_U_C_racketeer_01";
+    uniformClass = "U_lxWS_Tak_02_B";
     weapons[] = {
         "TACU_SevenRings_W_East_AK15K",
         "CUP_launch_RPG18",
@@ -246,7 +234,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_02: TACU_SevenRings_U_I_Eastern_Ri
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_AT_03: TACU_SevenRings_U_I_Eastern_Rifleman_AT_01 {
     displayName = "Rifleman AT (RPG-7)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_Tak_02_A";
     backpack = "TACU_SevenRings_B_AT_Fieldpack_RPG7";
     weapons[] = {
         "TACU_SevenRings_W_East_AKMN_AFG",
@@ -275,7 +263,7 @@ class TACU_SevenRings_U_I_Eastern_Autorifleman_01: TACU_SevenRings_U_I_Eastern_R
     displayName = "Autorifleman (RPK-12)";
     icon = "iconManMG";
     role = "MachineGunner";
-    uniformClass = "CUP_O_TKI_Khet_Partug_02";
+    uniformClass = "U_lxWS_Djella_02_Brown";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_hgunner_belt_cb"
@@ -305,7 +293,7 @@ class TACU_SevenRings_U_I_Eastern_Autorifleman_01: TACU_SevenRings_U_I_Eastern_R
 
 class TACU_SevenRings_U_I_Eastern_Autorifleman_02: TACU_SevenRings_U_I_Eastern_Autorifleman_01 {
     displayName = "Autorifleman (RPK-74)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_01";
+    uniformClass = "U_lxWS_Djella_02_Grey";
     weapons[] = {
         "TACU_SevenRings_W_East_RPK",
         MACRO_EAST_DEFAULT_WEAPON
@@ -327,7 +315,7 @@ class TACU_SevenRings_U_I_Eastern_Autorifleman_02: TACU_SevenRings_U_I_Eastern_A
 
 class TACU_SevenRings_U_I_Eastern_Autorifleman_03: TACU_SevenRings_U_I_Eastern_Autorifleman_01 {
     displayName = "Autorifleman (MG3)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_01";
+    uniformClass = "U_lxWS_Djella_03_Green";
     weapons[] = {
         "TACU_SevenRings_W_East_MG3",
         MACRO_EAST_DEFAULT_WEAPON
@@ -352,7 +340,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_01: TACU_SevenRings_U_I_Eastern_Rifleman
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_Djella_02_Sand";
     backpack = "B_Patrol_Medic_bag_F";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -385,7 +373,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_01: TACU_SevenRings_U_I_Eastern_Rifleman
 
 class TACU_SevenRings_U_I_Eastern_Medic_02: TACU_SevenRings_U_I_Eastern_Medic_01 {
     displayName = "Medic (AKS-74U)";
-    uniformClass = "CUP_U_C_racketeer_01";
+    uniformClass = "U_lxWS_C_Djella_02";
     weapons[] = {
         "TACU_SevenRings_W_East_AKS_74U",
         MACRO_EAST_DEFAULT_WEAPON
@@ -409,7 +397,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_02: TACU_SevenRings_U_I_Eastern_Medic_01
 
 class TACU_SevenRings_U_I_Eastern_Medic_03: TACU_SevenRings_U_I_Eastern_Medic_01 {
     displayName = "Medic (AKS)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_02";
+    uniformClass = "U_lxWS_C_Djella_07";
     weapons[] = {
         "TACU_SevenRings_W_East_AKS",
         MACRO_EAST_DEFAULT_WEAPON
@@ -437,7 +425,7 @@ class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifle
     role = "Sapper";
     engineer = 1;
     canDeactivateMines = 1;
-    uniformClass = "CUP_U_C_racketeer_01";
+    uniformClass = "U_lxWS_Tak_02_B";
     backpack = "TACU_SevenRings_B_Engineer_Kitbag_Tan";
     Items[] = {"ACE_M26_Clacker", "ACE_DeadManSwitch"};
     respawnItems[] = {"ACE_M26_Clacker", "ACE_DeadManSwitch"};
@@ -470,7 +458,7 @@ class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifle
 
 class TACU_SevenRings_U_I_Eastern_Engineer_02: TACU_SevenRings_U_I_Eastern_Engineer_01 {
     displayName = "Engineer (Type 56)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_Tak_02_A";
     weapons[] = {
         "TACU_SevenRings_W_East_Type_56",
         MACRO_EAST_DEFAULT_WEAPON
@@ -492,7 +480,7 @@ class TACU_SevenRings_U_I_Eastern_Engineer_02: TACU_SevenRings_U_I_Eastern_Engin
 
 class TACU_SevenRings_U_I_Eastern_Engineer_03: TACU_SevenRings_U_I_Eastern_Engineer_01 {
     displayName = "Engineer (M4)";
-    uniformClass = "CUP_U_C_racketeer_01";
+    uniformClass = "U_lxWS_Djella_02_Brown";
     weapons[] = {
         "TACU_SevenRings_W_East_M4",
         MACRO_EAST_DEFAULT_WEAPON
@@ -515,7 +503,7 @@ class TACU_SevenRings_U_I_Eastern_Engineer_03: TACU_SevenRings_U_I_Eastern_Engin
 class TACU_SevenRings_U_I_Eastern_Teamleader_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Team Leader (AK-107)";
     icon = "iconManLeader";
-    uniformClass = "CUP_O_TKI_Khet_Partug_01";
+    uniformClass = "U_lxWS_Djella_03_Green";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_teamleader_belt_cb"
@@ -545,7 +533,7 @@ class TACU_SevenRings_U_I_Eastern_Teamleader_01: TACU_SevenRings_U_I_Eastern_Rif
 
 class TACU_SevenRings_U_I_Eastern_Teamleader_02: TACU_SevenRings_U_I_Eastern_Teamleader_01 {
     displayName = "Team Leader (AK-15K)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_02";
+    uniformClass = "U_lxWS_Djella_02_Sand";
     weapons[] = {
         "TACU_SevenRings_W_East_AK15K",
         MACRO_EAST_DEFAULT_WEAPON
@@ -567,7 +555,7 @@ class TACU_SevenRings_U_I_Eastern_Teamleader_02: TACU_SevenRings_U_I_Eastern_Tea
 
 class TACU_SevenRings_U_I_Eastern_Teamleader_03: TACU_SevenRings_U_I_Eastern_Teamleader_01 {
     displayName = "Team Leader (AK-108)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_C_Djella_02";
     weapons[] = {
         "TACU_SevenRings_W_East_AK108",
         MACRO_EAST_DEFAULT_WEAPON
@@ -589,7 +577,7 @@ class TACU_SevenRings_U_I_Eastern_Teamleader_03: TACU_SevenRings_U_I_Eastern_Tea
 
 class TACU_SevenRings_U_I_Eastern_CQBSpecialist_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "CQB Specialist (SAIGA-12)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_02";
+    uniformClass = "U_lxWS_C_Djella_07";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_light_cb"
@@ -619,7 +607,7 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_01: TACU_SevenRings_U_I_Eastern_
 
 class TACU_SevenRings_U_I_Eastern_CQBSpecialist_02: TACU_SevenRings_U_I_Eastern_CQBSpecialist_01 {
     displayName = "CQB Specialist (Groza)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_Tak_02_B";
     weapons[] = {
         "CUP_arifle_OTS14_GROZA_Grip",
         MACRO_EAST_DEFAULT_WEAPON
@@ -641,7 +629,7 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_02: TACU_SevenRings_U_I_Eastern_
 
 class TACU_SevenRings_U_I_Eastern_CQBSpecialist_03: TACU_SevenRings_U_I_Eastern_CQBSpecialist_01 {
     displayName = "CQB Specialist (Scorpion EVO)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_01";
+    uniformClass = "U_lxWS_Tak_02_C";
     weapons[] = {
         "TACU_SevenRings_W_East_Scorpion_Evo",
         MACRO_EAST_DEFAULT_WEAPON
@@ -664,7 +652,7 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_03: TACU_SevenRings_U_I_Eastern_
 class TACU_SevenRings_U_I_Eastern_Marksman_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
     displayName = "Marksman (SVD)";
     role = "Marksman";
-    uniformClass = "CUP_O_TKI_Khet_Partug_01";
+    uniformClass = "U_lxWS_Djella_02_Sand";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_marksman_cb"
@@ -694,7 +682,7 @@ class TACU_SevenRings_U_I_Eastern_Marksman_01: TACU_SevenRings_U_I_Eastern_Rifle
 
 class TACU_SevenRings_U_I_Eastern_Marksman_02: TACU_SevenRings_U_I_Eastern_Marksman_01 {
     displayName = "Marksman (Cyrus)";
-    uniformClass = "CUP_U_C_racketeer_01";
+    uniformClass = "U_lxWS_Djella_03_Green";
     weapons[] = {
         "TACU_SevenRings_W_East_Cyrus",
         MACRO_EAST_DEFAULT_WEAPON
@@ -716,7 +704,7 @@ class TACU_SevenRings_U_I_Eastern_Marksman_02: TACU_SevenRings_U_I_Eastern_Marks
 
 class TACU_SevenRings_U_I_Eastern_Marksman_03: TACU_SevenRings_U_I_Eastern_Marksman_01 {
     displayName = "Marksman (FN FAL)";
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_Djella_02_Grey";
     weapons[] = {
         "TACU_SevenRings_W_East_FNFAL_5061",
         MACRO_EAST_DEFAULT_WEAPON
@@ -740,7 +728,7 @@ class TACU_SevenRings_U_I_Eastern_AA_01: TACU_SevenRings_U_I_Eastern_Rifleman_01
     displayName = "AA Specialist (Stinger)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    uniformClass = "CUP_O_TKI_Khet_Partug_04";
+    uniformClass = "U_lxWS_Djella_02_Brown";
     backpack = "TACU_SevenRings_B_AA_Kitbag_Tan";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,

@@ -49,7 +49,9 @@ class CfgPatches {
             "tacs_headgear",
             "tacs_units",
             "tacs_vehicles",
-            "tacs_vests"
+            "tacs_vests",
+            // Western Sahara
+            "data_f_lxWS_Loadorder"
         };
         author = CSTRING(Author);
         authors[] = {CSTRING(author)};
