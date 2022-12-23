@@ -18,8 +18,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"TACU_PLR_W_AK47_Early_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AK47_Early_FL", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
-    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), "CUP_HandGrenade_RGD5"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
         "H_ShemagOpen_khk", 1,
         "H_ShemagOpen_tan", 0.1,
@@ -44,8 +44,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_02: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Helmet_BLK", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Rifleman_Grey"};
     weapons[] = {"TACU_PLR_W_AKM_Early_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AKM_Early_FL", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
-    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), "CUP_HandGrenade_RGD5"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
         "H_ShemagOpen_khk", 0.8,
         "H_ShemagOpen_tan", 0.1,
@@ -69,8 +69,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_03: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_blk", "CUP_V_B_Interceptor_Rifleman_DCU"};
     weapons[] = {"TACU_PLR_W_AKS_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AKS_FL", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
-    respawnMagazines[] = {mag_6("CUP_30Rnd_762x39_AK47_M"), "CUP_HandGrenade_RGD5"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), "CUP_HandGrenade_RGD5"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
         "", 1
     };
@@ -89,8 +89,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_04: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_blk", "CUP_V_B_Interceptor_Rifleman_Coyote"};
     weapons[] = {"TACU_PLR_W_AK74_Early_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_AK74_Early_FL", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_30Rnd_545x39_AK74M_M"), "CUP_HandGrenade_RGD5"};
-    respawnMagazines[] = {mag_6("CUP_30Rnd_545x39_AK74M_M"), "CUP_HandGrenade_RGD5"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), "CUP_HandGrenade_RGD5"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
         "", 1
     };
@@ -109,8 +109,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_05: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_ShemagOpen_khk", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Rifleman_Grey"};
     weapons[] = {"TACU_PLR_W_FNFAL_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_FNFAL_FL", "Throw", "Put"};
-    magazines[] = {mag_5("CUP_20Rnd_762x51_FNFAL_M"), "CUP_HandGrenade_RGD5"};
-    respawnMagazines[] = {mag_5("CUP_20Rnd_762x51_FNFAL_M"), "CUP_HandGrenade_RGD5"};
+    magazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL"), "CUP_HandGrenade_RGD5"};
+    respawnMagazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL"), "CUP_HandGrenade_RGD5"};
     headgearList[] = {
         "H_ShemagOpen_khk", 1,
         "H_ShemagOpen_tan", 0.1,
@@ -136,8 +136,8 @@ class TACU_PLR_U_O_Insurgent_Rifleman_AT: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_blk", "CUP_V_B_Interceptor_Base_DCU"};
     weapons[] = {"CUP_arifle_AKS74U", "CUP_launch_RPG7V", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74U", "CUP_launch_RPG7V", "Throw", "Put"};
-    magazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M")};
-    respawnMagazines[] = {mag_5("CUP_30Rnd_545x39_AK74_plum_M")};
+    magazines[] = {mag_5("tacgt_AI_30Rnd_545x39_AK")};
+    respawnMagazines[] = {mag_5("tacgt_AI_30Rnd_545x39_AK")};
     headgearList[] = {
         "", 1
     };
@@ -157,8 +157,8 @@ class TACU_PLR_U_O_Insurgent_TeamLeader: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_BeretRed", "CUP_FR_NeckScarf5", "CUP_V_B_Interceptor_Base_Grey"};
     weapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74U", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_30Rnd_545x39_AK74_plum_M"), "CUP_HandGrenade_RGD5", "SmokeShell"};
-    respawnMagazines[] = {mag_4("CUP_30Rnd_545x39_AK74_plum_M"), "CUP_HandGrenade_RGD5", "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), "CUP_HandGrenade_RGD5", "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), "CUP_HandGrenade_RGD5", "SmokeShell"};
     headgearList[] = {
         "CUP_H_SLA_BeretRed", 1
     };
@@ -177,8 +177,8 @@ class TACU_PLR_U_O_Insurgent_Autorifleman: TACU_PLR_U_O_Insurgent_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Balaclava_blk", "CUP_V_B_Interceptor_Grenadier_Coyote"};
     weapons[] = {"TACU_PLR_W_RPK74_FL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_PLR_W_RPK74_FL", "Throw", "Put"};
-    magazines[] = {mag_4("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")};
-    respawnMagazines[] = {mag_4("CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M")};
+    magazines[] = {mag_4("tacgt_AI_75Rnd_762x39_Drum")};
+    respawnMagazines[] = {mag_4("tacgt_AI_75Rnd_762x39_Drum")};
     headgearList[] = {
         "", 1
     };

@@ -19,8 +19,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Main_U_INDEP_Soldier_Base
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_20Rnd_762x51_EPR_FAL")};
-    respawnMagazines[] = {mag_5("tacgt_20Rnd_762x51_EPR_FAL")};
+    magazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL")};
+    respawnMagazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL")};
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Tanoan";
     editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Rifleman01.jpg);
     headgearList[] = {
@@ -92,8 +92,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Pistoleer01: TACU_Revolutionaries_U_I_Tano
     backpack = "";
     weapons[] = {"hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_Rook40_F", "Throw", "Put"};
-    magazines[] = {mag_6("16Rnd_9x21_Mag")};
-    respawnMagazines[] = {mag_6("16Rnd_9x21_Mag")};
+    magazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
+    respawnMagazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Pistoleer01.jpg);
 };
 
@@ -103,8 +103,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Pistoleer02: TACU_Revolutionaries_U_I_Tano
     backpack = "";
     weapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
-    magazines[] = {mag_6("11Rnd_45ACP_Mag")};
-    respawnMagazines[] = {mag_6("11Rnd_45ACP_Mag")};
+    magazines[] = {mag_6("tacgt_AI_11Rnd_45ACP_FNX")};
+    respawnMagazines[] = {mag_6("tacgt_AI_11Rnd_45ACP_FNX")};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Pistoleer02.jpg);
 };
 
@@ -117,8 +117,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Head: TACU_Revolutionaries_U_I_Tanoan_Rifl
     backpack = "";
     weapons[] = {"hgun_P07_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_P07_F", "Throw", "Put"};
-    magazines[] = {mag_6("16Rnd_9x21_Mag")};
-    respawnMagazines[] = {mag_6("16Rnd_9x21_Mag")};
+    magazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
+    respawnMagazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
     editorPreview = QPATHTOF(ui\Revolutionaries_U_I_Tanoan_Head.jpg);
     headgearList[] = {
         "H_Cap_tan", 1

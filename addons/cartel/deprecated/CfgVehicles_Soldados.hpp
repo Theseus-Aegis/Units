@@ -18,8 +18,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"hgun_P07_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_P07_F", "Throw", "Put"};
-    magazines[] = {mag_7("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("16Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
         "H_Bandanna_gry", 0.30,
         "H_Bandanna_cbr", 0.30,
@@ -40,8 +40,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_01: TACU_Cartel_U_O_Soldado_Rifleman {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_AKS_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), "SmokeShell"};
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_02: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -51,8 +51,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_02: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"arifle_AK12_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_762x39_EPR_Metal"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_762x39_EPR_Metal"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade"), "SmokeShell"};
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_03: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -62,8 +62,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_03: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
-    magazines[] = {mag_7("30Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("30Rnd_9x21_Mag"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_9x19"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_9x19"), mag_2("HandGrenade"), "SmokeShell"};
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_04: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -73,8 +73,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_04: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"CUP_smg_vityaz", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_vityaz", "Throw", "Put"};
-    magazines[] = {mag_7("CUP_30Rnd_9x19AP_Vityaz"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("CUP_30Rnd_9x19AP_Vityaz"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_9x19_Vityaz"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_9x19_Vityaz"), mag_2("HandGrenade"), "SmokeShell"};
 };
 
 class TACU_Cartel_U_O_Soldado_Driver: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -84,8 +84,8 @@ class TACU_Cartel_U_O_Soldado_Driver: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"arifle_AKS_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), "SmokeShell"};
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_AT: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -97,8 +97,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_AT: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"arifle_AKS_F", "CUP_launch_RPG7V", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AKS_F", "CUP_launch_RPG7V", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
-    respawnMagazines[] = {mag_7("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
+    magazines[] = {mag_7("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
+    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), "RPG7_F", "SmokeShell"};
 };
 
 class TACU_Cartel_U_O_Soldado_Rifleman_MG: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -110,8 +110,8 @@ class TACU_Cartel_U_O_Soldado_Rifleman_MG: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_RPK74", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_75Rnd_762x39_EPR_Drum"), mag_2("HandGrenade"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("tacgt_75Rnd_762x39_EPR_Drum"), mag_2("HandGrenade"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_75Rnd_762x39_Drum"), mag_2("HandGrenade"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_75Rnd_762x39_Drum"), mag_2("HandGrenade"), "SmokeShell"};
 };
 
 class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
@@ -122,8 +122,8 @@ class TACU_Cartel_U_O_Soldado_Grenadier: TACU_Cartel_U_O_Soldado_Rifleman_01 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Bandanna_gry", "V_BandollierB_blk"};
     weapons[] = {"CUP_arifle_AKS74_GL_Early", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AKS74_GL_Early", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
-    respawnMagazines[] = {mag_4("tacgt_30Rnd_545x39_EPR_Black"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_3("CUP_1Rnd_HE_GP25_M"), "SmokeShell"};
 };
 
 // Vehicles - Cartel

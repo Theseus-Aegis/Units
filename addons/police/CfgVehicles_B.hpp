@@ -14,8 +14,8 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"TACU_Police_W_HK416_CQB", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_HK416_CQB", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
-    respawnMagazines[] = {mag_6("tacgt_30Rnd_556x45_EPR_EMAG"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_17Rnd_9x19_Glock"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_17Rnd_9x19_Glock"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
     headgearList[] = {
         "CUP_H_OpsCore_Black", 0.50,
         "CUP_H_OpsCore_Black_NoHS", 0.50
@@ -33,8 +33,8 @@ class TACU_Police_U_B_CT_Breacher: TACU_Police_U_B_CT_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_B_CT_Breacher.jpg);
     weapons[] = {"CUP_sgun_M1014", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_M1014", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_8("tacgt_8Rnd_P_000"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
-    respawnMagazines[] = {mag_8("tacgt_8Rnd_P_000"), mag_3("CUP_17Rnd_9x19_glock17"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
+    magazines[] = {mag_8("tacgt_8Rnd_P_000"), mag_3("tacgt_AI_17Rnd_9x19_Glock"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
+    respawnMagazines[] = {mag_8("tacgt_8Rnd_P_000"), mag_3("tacgt_AI_17Rnd_9x19_Glock"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
 };
 
 class TACU_Police_U_B_CT_Marksman: TACU_Police_U_B_CT_Rifleman {
@@ -42,8 +42,8 @@ class TACU_Police_U_B_CT_Marksman: TACU_Police_U_B_CT_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_B_CT_Marksman.jpg);
     weapons[] = {"TACU_Police_W_HK417_DMR", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_HK417_DMR", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_6("ACE_20Rnd_762x51_M993_AP_Mag"), mag_3("CUP_17Rnd_9x19_glock17")};
-    respawnMagazines[] = {mag_6("ACE_20Rnd_762x51_M993_AP_Mag"), mag_3("CUP_17Rnd_9x19_glock17")};
+    magazines[] = {mag_6("tacgt_AI_20Rnd_762x51"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
+    respawnMagazines[] = {mag_6("tacgt_AI_20Rnd_762x51"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
 };
 
 class TACU_Police_U_B_CT_RiotControl: TACU_Police_U_B_CT_Rifleman {
@@ -51,8 +51,8 @@ class TACU_Police_U_B_CT_RiotControl: TACU_Police_U_B_CT_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_B_CT_RiotControl.jpg);
     weapons[] = {"CUP_hgun_BallisticShield_Armed", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_BallisticShield_Armed", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
-    respawnMagazines[] = {mag_6("CUP_15Rnd_9x19_M9"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
+    magazines[] = {mag_6("tacgt_AI_15Rnd_9x19_M9"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
+    respawnMagazines[] = {mag_6("tacgt_AI_15Rnd_9x19_M9"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
 };
 
 // Units - Police (Enforcers)
@@ -71,8 +71,8 @@ class TACU_Police_U_B_Enforcer_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_M4A3_black", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_M4A3_black", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_4("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_17Rnd_9x19_glock17")};
-    respawnMagazines[] = {mag_4("tacgt_30Rnd_556x45_AP_EMAG"), mag_3("CUP_17Rnd_9x19_glock17")};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
     headgearList[] = {
         "H_Cap_police", 0.60,
         "H_MilCap_blue", 0.50,
@@ -95,8 +95,8 @@ class TACU_Police_U_B_Enforcer_SMG_1: TACU_Police_U_B_Enforcer_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_B_Enforcer_SMG_1.jpg);
     weapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_MP5A5", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_6("CUP_30Rnd_9x19_MP5"), mag_3("CUP_17Rnd_9x19_glock17")};
-    respawnMagazines[] = {mag_6("CUP_30Rnd_9x19_MP5"), mag_3("CUP_17Rnd_9x19_glock17")};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
 };
 
 class TACU_Police_U_B_Enforcer_SMG_2: TACU_Police_U_B_Enforcer_Rifleman {
@@ -104,8 +104,8 @@ class TACU_Police_U_B_Enforcer_SMG_2: TACU_Police_U_B_Enforcer_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_B_Enforcer_SMG_2.jpg);
     weapons[] = {"SMG_01_F", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"SMG_01_F", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_6("30Rnd_45ACP_Mag_SMG_01"), mag_3("CUP_17Rnd_9x19_glock17")};
-    respawnMagazines[] = {mag_6("30Rnd_45ACP_Mag_SMG_01"), mag_3("CUP_17Rnd_9x19_glock17")};
+    magazines[] = {mag_6("tacgt_AI_25Rnd_45ACP_Vector"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
+    respawnMagazines[] = {mag_6("tacgt_AI_25Rnd_45ACP_Vector"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
 };
 
 class TACU_Police_U_B_Enforcer_Breacher: TACU_Police_U_B_Enforcer_Rifleman {
@@ -113,8 +113,8 @@ class TACU_Police_U_B_Enforcer_Breacher: TACU_Police_U_B_Enforcer_Rifleman {
     editorPreview = QPATHTOF(ui\Police_U_B_Enforcer_Breacher.jpg);
     weapons[] = {"CUP_sgun_M1014", "CUP_hgun_Glock17_blk", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_M1014", "CUP_hgun_Glock17_blk", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_8Rnd_P_000"), mag_3("CUP_17Rnd_9x19_glock17")};
-    respawnMagazines[] = {mag_6("tacgt_8Rnd_P_000"), mag_3("CUP_17Rnd_9x19_glock17")};
+    magazines[] = {mag_6("tacgt_8Rnd_P_000"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
+    respawnMagazines[] = {mag_6("tacgt_8Rnd_P_000"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
 };
 
 // Vehicles
