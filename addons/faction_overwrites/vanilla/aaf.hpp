@@ -80,8 +80,8 @@ class I_helicrew_F: I_helipilot_F {
     respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("SmokeShellGreen")};
 };
 class I_officer_F: I_Soldier_base_F {
-    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG", mag_3("tacgt_AI_8Rnd_45ACP_1911")};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG", mag_3("tacgt_AI_8Rnd_45ACP_1911")};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
 };
 class I_soldier_UAV_F: I_Soldier_base_F {};
 
