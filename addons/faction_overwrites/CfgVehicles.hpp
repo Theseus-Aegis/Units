@@ -30,6 +30,8 @@ class CfgVehicles {
     class B_FieldPack_blk;
     class B_ViperHarness_hex_F;
     class B_FieldPack_cbr_Ammo;
+    class B_FieldPack_cbr;
+    class B_FieldPack_oli;
 
     // Backpacks
     #include "CfgVehicles_Backpacks.hpp"
