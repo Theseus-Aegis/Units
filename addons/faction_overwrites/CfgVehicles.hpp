@@ -1,6 +1,7 @@
 class CfgVehicles {
     // Base classes - Vanilla
     class SoldierGB;
+    class B_Soldier_F;
     class I_Soldier_base_F;
     class I_Soldier_diver_base_F;
     class I_Soldier_sniper_base_F;
@@ -32,6 +33,7 @@ class CfgVehicles {
     #include "vanilla\aaf.hpp"
     #include "vanilla\fia.hpp"
     #include "vanilla\syndikat.hpp"
+    #include "vanilla\tura.hpp"
 
     // Missing Units
     #include "missing_units\green_daggers.hpp"

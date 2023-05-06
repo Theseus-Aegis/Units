@@ -127,3 +127,24 @@ class B_FieldPack_blk_Bandit_8_F: B_FieldPack_blk {
         MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,4);
     };
 };
+
+class B_Kitbag_cbr_Hireling_1_lxWS: B_Kitbag_rgr {
+    class TransportMagazines {
+        delete _xx_30Rnd_9x21_Mag;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_9x19,4);
+    };
+};
+
+class B_FieldPack_oli_Medic_1_lxWS: B_FieldPack_oli {
+    class TransportMagazines {
+        delete _xx_30Rnd_762x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,4);
+    };
+};
+
+class B_FieldPack_khk_Bandit_2_lxWS: B_FieldPack_oli {
+    class TransportMagazines {
+        delete _xx_30Rnd_762x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,4);
+    };
+};
