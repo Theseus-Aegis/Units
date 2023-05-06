@@ -148,3 +148,89 @@ class B_FieldPack_khk_Bandit_2_lxWS: B_FieldPack_oli {
         MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,4);
     };
 };
+
+class B_FieldPack_cbr_Ammo: B_Carryall_ocamo {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,6);
+    };
+};
+
+class B_FieldPack_oucamo_Ammo: B_Carryall_oucamo {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,6);
+    };
+};
+
+class B_ViperHarness_hex_M_F: B_ViperHarness_hex_F {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        delete _xx_16Rnd_9x21_Mag;
+        delete _xx_SmokeShellRed;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,7);
+        MACRO_ADDMAGAZINE(tacgt_AI_17Rnd_9x19_Walther,2);
+    };
+};
+
+class B_ViperHarness_hex_Exp_F: B_ViperHarness_hex_F {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        delete _xx_16Rnd_9x21_Mag;
+        delete _xx_SmokeShellRed;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,7);
+        MACRO_ADDMAGAZINE(tacgt_AI_17Rnd_9x19_Walther,2);
+    };
+};
+
+class B_ViperHarness_hex_Medic_F: B_ViperHarness_hex_F {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        delete _xx_16Rnd_9x21_Mag;
+        delete _xx_SmokeShellRed;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,7);
+        MACRO_ADDMAGAZINE(tacgt_AI_17Rnd_9x19_Walther,2);
+    };
+};
+
+class B_ViperHarness_hex_LAT_F: B_ViperHarness_hex_F {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        delete _xx_16Rnd_9x21_Mag;
+        delete _xx_SmokeShellRed;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,7);
+        MACRO_ADDMAGAZINE(tacgt_AI_17Rnd_9x19_Walther,2);
+    };
+};
+
+class B_ViperHarness_hex_JTAC_F: B_ViperHarness_hex_F {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        delete _xx_16Rnd_9x21_Mag;
+        delete _xx_SmokeShellRed;
+        delete _xx_SmokeShellYellow;
+        delete _xx_SmokeShellOrange;
+        delete _xx_O_IR_Grenade;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,7);
+        MACRO_ADDMAGAZINE(tacgt_AI_17Rnd_9x19_Walther,2);
+    };
+};
+
+class B_FieldPack_cbr_Ammo_F: B_FieldPack_cbr_Ammo {
+    class TransportMagazines {
+        delete _xx_30Rnd_580x42_Mag_F;
+        delete _xx_100Rnd_580x42_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_58x42,12);
+        MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_58x42,4);
+    };
+};
+
+class B_ViperHarness_hex_LAT_lxWS: B_ViperHarness_hex_F {
+    class TransportMagazines {
+        delete _xx_30Rnd_65x39_caseless_green;
+        delete _xx_16Rnd_9x21_Mag;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_65x39_Katiba,3);
+        MACRO_ADDMAGAZINE(tacgt_AI_17Rnd_9x19_Walther,1);
+    };
+};
+
