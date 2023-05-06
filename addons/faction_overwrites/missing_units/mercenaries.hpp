@@ -1,3 +1,4 @@
+// Units - Mercenaries
 class I_MU_mercs_R1_F: I_MU_mercs_base_F {
   magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("SmokeShell"), mag_2("HandGrenade")};
   respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("SmokeShell"), mag_2("HandGrenade")};

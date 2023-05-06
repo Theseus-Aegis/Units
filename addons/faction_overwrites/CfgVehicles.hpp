@@ -7,6 +7,7 @@ class CfgVehicles {
     class I_Soldier_02_F;
     class I_Soldier_03_F;
     class I_Soldier_04_F;
+    class I_G_Soldier_base_F;
 
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
@@ -24,6 +25,7 @@ class CfgVehicles {
 
     // Vanilla
     #include "vanilla\aaf.hpp"
+    #include "vanilla\fia.hpp"
 
     // Missing Units
     #include "missing_units\green_daggers.hpp"

@@ -64,3 +64,17 @@ class I_Fieldpack_oli_Ammo: B_Carryall_oli {
         MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_65x39_Belt,2);
     };
 };
+
+class G_Carryall_Ammo: B_Carryall_oli {
+    class TransportMagazines {
+        delete _xx_30Rnd_556x45_Stanag;
+        delete _xx_200Rnd_65x39_cased_Box;
+        delete _xx_20Rnd_762x51_Mag;
+        delete _xx_SmokeShellGreen;
+        delete _xx_SmokeShellRed;
+        delete _xx_SmokeShellBlue;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_556x45_STANAG,8);
+        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_65x39_Belt,1);
+        MACRO_ADDMAGAZINE(tacgt_AI_20Rnd_762x51,3);
+    };
+};
