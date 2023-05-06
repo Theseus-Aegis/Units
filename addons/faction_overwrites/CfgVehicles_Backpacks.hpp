@@ -78,3 +78,52 @@ class G_Carryall_Ammo: B_Carryall_oli {
         MACRO_ADDMAGAZINE(tacgt_AI_20Rnd_762x51,3);
     };
 };
+
+class B_Kitbag_rgr_Para_3_F: B_Kitbag_rgr {
+    class TransportMagazines {
+        delete _xx_30Rnd_762x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,4);
+    };
+};
+
+class B_Kitbag_cbr_Para_5_F: B_Kitbag_cbr {
+    class TransportMagazines {
+        delete _xx_30Rnd_545x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,4);
+    };
+};
+
+class B_Kitbag_rgr_Para_8_F: B_Kitbag_rgr {
+    class TransportMagazines {
+        delete _xx_30Rnd_762x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,4);
+    };
+};
+
+class B_FieldPack_khk_Bandit_1_F: B_FieldPack_khk {
+    class TransportMagazines {
+        delete _xx_30Rnd_545x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,4);
+    };
+};
+
+class B_Kitbag_cbr_Bandit_2_F: B_Kitbag_cbr {
+    class TransportMagazines {
+        delete _xx_30Rnd_545x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,4);
+    };
+};
+
+class B_FieldPack_cb_Bandit_3_F: B_FieldPack_cbr {
+    class TransportMagazines {
+        delete _xx_200Rnd_556x45_Box_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_556x45_Box,2);
+    };
+};
+
+class B_FieldPack_blk_Bandit_8_F: B_FieldPack_blk {
+    class TransportMagazines {
+        delete _xx_30Rnd_545x39_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,4);
+    };
+};

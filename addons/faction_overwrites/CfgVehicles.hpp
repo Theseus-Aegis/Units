@@ -8,6 +8,7 @@ class CfgVehicles {
     class I_Soldier_03_F;
     class I_Soldier_04_F;
     class I_G_Soldier_base_F;
+    class I_C_Soldier_base_F;
 
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
@@ -19,6 +20,10 @@ class CfgVehicles {
     class B_AssaultPack_dgtl;
     class B_Carryall_oli;
     class B_TacticalPack_blk;
+    class B_Kitbag_rgr;
+    class B_Kitbag_cbr;
+    class B_FieldPack_khk;
+    class B_FieldPack_blk;
 
     // Backpacks
     #include "CfgVehicles_Backpacks.hpp"
@@ -26,6 +31,7 @@ class CfgVehicles {
     // Vanilla
     #include "vanilla\aaf.hpp"
     #include "vanilla\fia.hpp"
+    #include "vanilla\syndikat.hpp"
 
     // Missing Units
     #include "missing_units\green_daggers.hpp"
