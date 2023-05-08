@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout the source code
-      uses: actions/checkout@master
+      uses: actions/checkout@v3
     - name: Validate Config
       run: python3 tools/config_style_checker.py
     - name: Check for BOM
@@ -21,15 +21,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout the source code
-      uses: actions/checkout@master
-    - name: Build using HEMTT
-      uses: arma-actions/hemtt@master
-      with:
-        command: build --release --ci
-    - name: Set short commit hash
-      run: echo "SHA_SHORT=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      uses: actions/checkout@v3
+    - name: Setup HEMTT
+      uses: arma-actions/hemtt@v1
+    - name: Run HEMTT build
+      run: hemtt build
+    - name: Rename build folder
+      run: mv .hemttout/build .hemttout/@tac_units
     - name: Upload Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
-        name: TACU-${{ env.SHA_SHORT }}-nobin
-        path: releases/*/*  # Upload folder to avoid double-zip artifacts
+        name: tac_units_${{ github.sha }}-nobin
+        path: .hemttout/@*
