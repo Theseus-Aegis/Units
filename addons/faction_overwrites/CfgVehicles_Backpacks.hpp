@@ -281,3 +281,12 @@ class B_Patrol_Carryall_green_Ammo_F: B_Carryall_green_F {
         MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,3);
     };
 };
+
+class B_MU_IS_Carryall_cbr_A: B_Carryall_cbr {
+    class TransportMagazines {
+        delete _xx_30Rnd_762x39_Mag_F;
+        delete _xx_200Rnd_556x45_Box_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,10);
+        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_556x45_Box,2);
+    };
+};

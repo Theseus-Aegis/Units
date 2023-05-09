@@ -21,10 +21,12 @@ class CfgVehicles {
     class I_MU_mercs_base_F;
     class I_MU_mercs_base_2_F;
     class O_MU_LIVP_soldier_base;
+    class O_MU_islam_base_F;
 
     // Base classes - Backpacks
     class B_AssaultPack_rgr;
     class B_AssaultPack_dgtl;
+    class B_Carryall_cbr;
     class B_Carryall_oli;
     class B_Carryall_green_F;
     class B_Carryall_ocamo;
@@ -60,6 +62,7 @@ class CfgVehicles {
     // Missing Units
     #include "missing_units\combat_divers.hpp"
     #include "missing_units\green_daggers.hpp"
+    #include "missing_units\isas.hpp"
     #include "missing_units\livonian_partisans.hpp"
     #include "missing_units\mercenaries.hpp"
     #include "missing_units\russia.hpp"
