@@ -272,3 +272,12 @@ class B_MU_LIVP_Carryall_oli_A: B_Carryall_oli {
         MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,2);
     };
 };
+
+class B_Patrol_Carryall_green_Ammo_F: B_Carryall_green_F {
+    class TransportMagazines {
+        delete _xx_30rnd_762x39_AK12_Lush_Mag_F;
+        delete _xx_75rnd_762x39_AK12_Lush_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,8);
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,3);
+    };
+};

@@ -12,6 +12,7 @@ class CfgVehicles {
     class I_L_Soldier_Base_F;
     class I_G_Soldier_base_F;
     class I_C_Soldier_base_F;
+    class O_R_Soldier_Base_F;
 
     // Base classes - CUP
 
@@ -25,6 +26,7 @@ class CfgVehicles {
     class B_AssaultPack_rgr;
     class B_AssaultPack_dgtl;
     class B_Carryall_oli;
+    class B_Carryall_green_F;
     class B_Carryall_ocamo;
     class B_Carryall_oucamo;
     class B_Carryall_ghex_F;
