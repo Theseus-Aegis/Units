@@ -13,6 +13,8 @@ class CfgVehicles {
     class I_G_Soldier_base_F;
     class I_C_Soldier_base_F;
     class O_R_Soldier_Base_F;
+    class O_SFIA_soldier_lxWS;
+    class O_SFIA_Soldier_AR_lxWS;
 
     // Base classes - CUP
     class CUP_O_TK_Soldier_01;
@@ -82,6 +84,7 @@ class CfgVehicles {
     #include "vanilla\fia.hpp"
     #include "vanilla\gendarmerie.hpp"
     #include "vanilla\looters.hpp"
+    #include "vanilla\sfia.hpp"
     #include "vanilla\syndikat.hpp"
     #include "vanilla\tura.hpp"
 

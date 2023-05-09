@@ -333,7 +333,7 @@ class CUP_B_TKI_CivPack_WDL_RPK_45: CUP_B_CivPack_WDL {
 class CUP_B_TKI_AlicePack_Khaki_AmmoAK74: CUP_B_AlicePack_Khaki {
     class TransportMagazines {
         delete _xx_CUP_30Rnd_545x39_AK_M;
-        delete _xx_SmokeShellRed
+        delete _xx_SmokeShellRed;
         MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
     };
 };
