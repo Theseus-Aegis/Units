@@ -15,6 +15,11 @@ class CfgVehicles {
     class O_R_Soldier_Base_F;
 
     // Base classes - CUP
+    class CUP_O_TK_Soldier_01;
+    class CUP_O_TK_Soldier_02;
+    class CUP_O_TK_Soldier_03;
+    class CUP_O_TK_Soldier_04;
+    class CUP_O_TK_Soldier_05;
 
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
@@ -45,6 +50,7 @@ class CfgVehicles {
     class B_FieldPack_cbr;
     class B_FieldPack_oli;
     class B_FieldPack_green_F;
+    class CUP_B_CivPack_WDL;
 
     // Backpacks
     #include "CfgVehicles_Backpacks.hpp"
@@ -60,6 +66,7 @@ class CfgVehicles {
     #include "vanilla\tura.hpp"
 
     // CUP
+    #include "cup\takistani_army.hpp"
 
     // Missing Units
     #include "missing_units\combat_divers.hpp"

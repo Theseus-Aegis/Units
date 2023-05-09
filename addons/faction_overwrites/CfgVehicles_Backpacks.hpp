@@ -306,3 +306,19 @@ class B_MU_Mil_Carryall_cbr_ammo: B_Carryall_cbr {
         MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_556x45_STANAG,6);
     };
 };
+
+class CUP_B_TK_CivPack_WDL_Ammo: CUP_B_CivPack_WDL {
+    class TransportMagazines {
+        delete _xx_CUP_20Rnd_762x51_FNFAL_M;
+        delete _xx_CUP_1Rnd_HEDP_M203;
+        MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell,2);
+        MACRO_ADDMAGAZINE(tacgt_AI_20Rnd_762x51_FAL,2);
+    };
+};
+
+class CUP_B_TK_CivPack_WDL_RPK: CUP_B_CivPack_WDL {
+    class TransportMagazines {
+        delete _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,3);
+    };
+};
