@@ -9,6 +9,7 @@ class CfgVehicles {
     class I_Soldier_02_F;
     class I_Soldier_03_F;
     class I_Soldier_04_F;
+    class I_L_Soldier_Base_F;
     class I_G_Soldier_base_F;
     class I_C_Soldier_base_F;
 
@@ -46,6 +47,7 @@ class CfgVehicles {
     #include "vanilla\csat_pacific.hpp"
     #include "vanilla\fia.hpp"
     #include "vanilla\gendarmerie.hpp"
+    #include "vanilla\looters.hpp"
     #include "vanilla\syndikat.hpp"
     #include "vanilla\tura.hpp"
 
