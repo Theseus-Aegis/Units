@@ -290,3 +290,19 @@ class B_MU_IS_Carryall_cbr_A: B_Carryall_cbr {
         MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_556x45_Box,2);
     };
 };
+
+class B_MU_Mil_AssaultPack_cbr_AR: B_AssaultPack_cbr {
+    class TransportMagazines {
+        delete _xx_100Rnd_580x42_Mag_Tracer_F;
+        delete _xx_100Rnd_580x42_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_58x42,3);
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_58x42,3);
+    };
+};
+
+class B_MU_Mil_Carryall_cbr_ammo: B_Carryall_cbr {
+    class TransportMagazines {
+        delete _xx_30Rnd_556x45_Stanag;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_556x45_STANAG,6);
+    };
+};
