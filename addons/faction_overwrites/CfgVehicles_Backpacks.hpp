@@ -367,3 +367,23 @@ class CUP_B_PMC_Backpack_GL: B_AssaultPack_rgr {
         MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell,7);
     };
 };
+
+class CUP_I_HikingPack_RPK: CUP_B_HikingPack_Civ {
+    class TransportMagazines {
+        delete _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,5);
+    };
+};
+
+class CUP_I_HikingPack_Ammo: CUP_B_HikingPack_Civ {
+    class TransportMagazines {
+        delete _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M;
+        delete _xx_CUP_30Rnd_762x39_AK47_M;
+        delete _xx_CUP_30Rnd_545x39_AK_M;
+        delete _xx_CUP_HandGrenade_RGD5;
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,1);
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,6);
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
+        MACRO_ADDMAGAZINE(HandGrenade,2);
+    };
+};

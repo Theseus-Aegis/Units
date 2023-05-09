@@ -61,8 +61,8 @@ class CfgVehicles {
     class CUP_I_PMC_Soldier_41;
     class CUP_I_PMC_Soldier_42;
     class CUP_I_PMC_Soldier_43;
-
-
+    class CUP_Creatures_Military_NAPA_Soldier_Base;
+    class CUP_Creatures_Military_NAPA_Civilian_Base;
 
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
@@ -95,6 +95,7 @@ class CfgVehicles {
     class B_FieldPack_green_F;
     class CUP_B_CivPack_WDL;
     class CUP_B_AlicePack_Khaki;
+    class CUP_B_HikingPack_Civ
 
     // Backpacks
     #include "CfgVehicles_Backpacks.hpp"
@@ -112,6 +113,7 @@ class CfgVehicles {
 
     // CUP
     #include "cup\ion_pmc.hpp"
+    #include "cup\national_party_of_chernarus.hpp"
     #include "cup\sahrani_liberation_army.hpp"
     #include "cup\takistani_army.hpp"
     #include "cup\takistani_locals.hpp"
