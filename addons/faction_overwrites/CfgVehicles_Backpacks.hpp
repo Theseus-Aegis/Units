@@ -404,3 +404,17 @@ class CUP_B_INS_Backpack_AR: CUP_B_AlicePack_Khaki {
         MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,6);
     };
 };
+
+class CUP_B_RACS_Backpack_AR: CUP_B_AssaultPack_Coyote {
+    class TransportMagazines {
+        delete _xx_CUP_200Rnd_TE4_Red_Tracer_556x45_M249;
+        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_556x45_Pouch,2);
+    };
+};
+
+class CUP_B_USArmy_MG: CUP_B_USPack_Coyote {
+    class TransportMagazines {
+        delete _xx_CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_762x51_Belt,4);
+    };
+};
