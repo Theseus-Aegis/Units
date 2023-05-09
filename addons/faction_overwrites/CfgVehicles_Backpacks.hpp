@@ -353,3 +353,17 @@ class CUP_B_TKI_CivPack_WDL_RPK_762: CUP_B_CivPack_WDL {
         MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,5);
     };
 };
+
+class CUP_B_PMC_AlicePack_XM8Auto: CUP_B_AlicePack_Khaki {
+    class TransportMagazines {
+        delete _xx_CUP_100Rnd_556x45_BetaCMag;
+        MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_556x45_BetaC,4);
+    };
+};
+
+class CUP_B_PMC_Backpack_GL: B_AssaultPack_rgr {
+    class TransportMagazines {
+        delete _xx_CUP_1Rnd_HEDP_M203;
+        MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell,7);
+    };
+};

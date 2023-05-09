@@ -48,6 +48,20 @@ class CfgVehicles {
     class CUP_O_SLA_Soldier_09;
     class CUP_O_SLA_Soldier_Overalls_Tank;
     class CUP_O_SLA_Soldier_Overalls_Pilot;
+    class CUP_I_PMC_Soldier_01;
+    class CUP_I_PMC_Soldier_05;
+    class CUP_I_PMC_Soldier_18;
+    class CUP_I_PMC_Soldier_19;
+    class CUP_I_PMC_Soldier_26;
+    class CUP_I_PMC_Soldier_27;
+    class CUP_I_PMC_Soldier_28;
+    class CUP_I_PMC_Soldier_36;
+    class CUP_I_PMC_Soldier_38;
+    class CUP_I_PMC_Soldier_40;
+    class CUP_I_PMC_Soldier_41;
+    class CUP_I_PMC_Soldier_42;
+    class CUP_I_PMC_Soldier_43;
+
 
 
     // Base classes - Missing Units
@@ -97,6 +111,7 @@ class CfgVehicles {
     #include "vanilla\tura.hpp"
 
     // CUP
+    #include "cup\ion_pmc.hpp"
     #include "cup\sahrani_liberation_army.hpp"
     #include "cup\takistani_army.hpp"
     #include "cup\takistani_locals.hpp"
