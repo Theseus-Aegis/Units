@@ -254,3 +254,21 @@ class B_ViperHarness_ghex_M_F: B_ViperHarness_ghex_F {
         MACRO_ADDMAGAZINE(tacgt_AI_17Rnd_9x19_Walther,2);
     };
 };
+
+class B_MU_LIVP_FieldPack_green_AR: B_FieldPack_green_F {
+    class TransportMagazines {
+        delete _xx_75rnd_762x39_AK12_Mag_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,5);
+    };
+};
+
+class B_MU_LIVP_Carryall_oli_A: B_Carryall_oli {
+    class TransportMagazines {
+        delete _xx_75rnd_762x39_AK12_Mag_F;
+        delete _xx_30Rnd_545x39_Mag_Green_F;
+        delete _xx_30Rnd_762x39_Mag_Green_F;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,6);
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,2);
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,2);
+    };
+};
