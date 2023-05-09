@@ -31,6 +31,13 @@ class CfgVehicles {
     class CUP_I_TKG_Man_10;
     class CUP_I_TKG_Man_11;
     class CUP_I_TKG_Man_12;
+    class CUP_O_TKI_Man_01;
+    class CUP_O_TKI_Man_02;
+    class CUP_O_TKI_Man_03;
+    class CUP_O_TKI_Man_04;
+    class CUP_O_TKI_Man_05;
+    class CUP_O_TKI_Man_06;
+    class CUP_O_TKI_Man_08;
 
 
     // Base classes - Missing Units
@@ -63,6 +70,7 @@ class CfgVehicles {
     class B_FieldPack_oli;
     class B_FieldPack_green_F;
     class CUP_B_CivPack_WDL;
+    class CUP_B_AlicePack_Khaki;
 
     // Backpacks
     #include "CfgVehicles_Backpacks.hpp"
@@ -80,6 +88,7 @@ class CfgVehicles {
     // CUP
     #include "cup\takistani_army.hpp"
     #include "cup\takistani_locals.hpp"
+    #include "cup\takistani_militia.hpp"
 
     // Missing Units
     #include "missing_units\combat_divers.hpp"

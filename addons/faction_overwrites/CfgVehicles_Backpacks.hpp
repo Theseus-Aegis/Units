@@ -329,3 +329,27 @@ class CUP_B_TKI_CivPack_WDL_RPK_45: CUP_B_CivPack_WDL {
         MACRO_ADDMAGAZINE(tacgt_AI_60Rnd_545x39_AK,9);
     };
 };
+
+class CUP_B_TKI_AlicePack_Khaki_AmmoAK74: CUP_B_AlicePack_Khaki {
+    class TransportMagazines {
+        delete _xx_CUP_30Rnd_545x39_AK_M;
+        delete _xx_SmokeShellRed
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
+    };
+};
+
+class CUP_B_TIK_CivPack_WDL_Ammo: CUP_B_CivPack_WDL {
+    class TransportMagazines {
+        delete _xx_CUP_20Rnd_762x51_FNFAL_M;
+        delete _xx_CUP_1Rnd_HEDP_M203;
+        MACRO_ADDMAGAZINE(tacgt_AI_20Rnd_762x51_FAL,2);
+        MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell,2);
+    };
+};
+
+class CUP_B_TKI_CivPack_WDL_RPK_762: CUP_B_CivPack_WDL {
+    class TransportMagazines {
+        delete _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,5);
+    };
+};
