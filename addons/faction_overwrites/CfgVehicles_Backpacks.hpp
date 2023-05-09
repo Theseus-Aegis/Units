@@ -387,3 +387,20 @@ class CUP_I_HikingPack_Ammo: CUP_B_HikingPack_Civ {
         MACRO_ADDMAGAZINE(HandGrenade,2);
     };
 };
+
+class CUP_B_INS_AlicePack_Ammo: CUP_B_AlicePack_Bedroll {
+    class TransportMagazines {
+        delete _xx_CUP_30Rnd_762x39_AK47_M;
+        delete _xx_CUP_30Rnd_545x39_AK_M;
+        delete _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,4);
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_762x39_AK,4);
+    };
+};
+
+class CUP_B_INS_Backpack_AR: CUP_B_AlicePack_Khaki {
+    class TransportMagazines {
+        delete _xx_CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,6);
+    };
+};

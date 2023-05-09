@@ -63,6 +63,21 @@ class CfgVehicles {
     class CUP_I_PMC_Soldier_43;
     class CUP_Creatures_Military_NAPA_Soldier_Base;
     class CUP_Creatures_Military_NAPA_Civilian_Base;
+    class CUP_Creatures_Military_CHDKZ_Soldier_02;
+    class CUP_Creatures_Military_CHDKZ_Soldier_04;
+    class CUP_Creatures_Military_CHDKZ_Soldier_05;
+    class CUP_Creatures_Military_CHDKZ_Soldier_06;
+    class CUP_Creatures_Military_CHDKZ_Soldier_07;
+    class CUP_Creatures_Military_CHDKZ_Soldier_08;
+    class CUP_Creatures_Military_CHDKZ_Soldier_09;
+    class CUP_Creatures_Military_CHDKZ_Soldier_10;
+    class CUP_Creatures_Military_CHDKZ_Soldier_12;
+    class CUP_Creatures_Military_CHDKZ_Soldier_13;
+    class CUP_Creatures_Military_CHDKZ_Soldier_14;
+    class CUP_Creatures_Military_CHDKZ_Soldier_15;
+    class CUP_Creatures_Military_CHDKZ_Soldier_16;
+    class CUP_Creatures_Military_CHDKZ_Soldier_17;
+    class CUP_Creatures_Military_CHDKZ_Soldier_18;
 
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
@@ -95,7 +110,8 @@ class CfgVehicles {
     class B_FieldPack_green_F;
     class CUP_B_CivPack_WDL;
     class CUP_B_AlicePack_Khaki;
-    class CUP_B_HikingPack_Civ
+    class CUP_B_HikingPack_Civ;
+    class CUP_B_AlicePack_Bedroll;
 
     // Backpacks
     #include "CfgVehicles_Backpacks.hpp"
@@ -112,6 +128,7 @@ class CfgVehicles {
     #include "vanilla\tura.hpp"
 
     // CUP
+    #include "cup\chernarussian_movement_of_the_red_star.hpp"
     #include "cup\ion_pmc.hpp"
     #include "cup\national_party_of_chernarus.hpp"
     #include "cup\sahrani_liberation_army.hpp"
