@@ -12,6 +12,8 @@ class CfgVehicles {
     class I_G_Soldier_base_F;
     class I_C_Soldier_base_F;
 
+    // Base classes - CUP
+
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
     class I_MU_mercs_base_F;
@@ -23,12 +25,14 @@ class CfgVehicles {
     class B_Carryall_oli;
     class B_Carryall_ocamo;
     class B_Carryall_oucamo;
+    class B_Carryall_ghex_F;
     class B_TacticalPack_blk;
     class B_Kitbag_rgr;
     class B_Kitbag_cbr;
     class B_FieldPack_khk;
     class B_FieldPack_blk;
     class B_ViperHarness_hex_F;
+    class B_ViperHarness_ghex_F;
     class B_FieldPack_cbr_Ammo;
     class B_FieldPack_cbr;
     class B_FieldPack_oli;
@@ -39,10 +43,13 @@ class CfgVehicles {
     // Vanilla
     #include "vanilla\aaf.hpp"
     #include "vanilla\csat.hpp"
+    #include "vanilla\csat_pacific.hpp"
     #include "vanilla\fia.hpp"
     #include "vanilla\gendarmerie.hpp"
     #include "vanilla\syndikat.hpp"
     #include "vanilla\tura.hpp"
+
+    // CUP
 
     // Missing Units
     #include "missing_units\combat_divers.hpp"
