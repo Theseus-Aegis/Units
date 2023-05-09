@@ -342,8 +342,8 @@ class O_A_Soldier_lxWS: O_Soldier_F {
     respawnMagazines[] = {mag_7("30Rnd_762x51_slr_reload_tracer_green_lxWS"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class O_A_Soldier_GL_lxWS: O_Soldier_GL_F {
-    magazines[] = {mag_6("20Rnd_762x51_slr_reload_tracer_green_lxWS"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_3("1Rnd_40mm_HE_lxWS"), mag_2("1Rnd_58mm_AT_lxWS", "1Rnd_58mm_AT_lxWS")};
-    respawnMagazines[] = {mag_6("20Rnd_762x51_slr_reload_tracer_green_lxWS"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_3("1Rnd_40mm_HE_lxWS"), mag_2("1Rnd_58mm_AT_lxWS", "1Rnd_58mm_AT_lxWS")};
+    magazines[] = {mag_6("20Rnd_762x51_slr_reload_tracer_green_lxWS"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_3("1Rnd_40mm_HE_lxWS"), mag_2("1Rnd_58mm_AT_lxWS")};
+    respawnMagazines[] = {mag_6("20Rnd_762x51_slr_reload_tracer_green_lxWS"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_3("1Rnd_40mm_HE_lxWS"), mag_2("1Rnd_58mm_AT_lxWS")};
 };
 class O_A_medic_lxWS: O_medic_F {
     magazines[] = {mag_6("tacgt_AI_35Rnd_556x45_R4"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("SmokeShell")};
