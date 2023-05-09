@@ -42,7 +42,7 @@ class CUP_I_TK_GUE_Soldier_TL: CUP_I_TKG_Man_07 {
     respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_762x39_AK"), mag_2("SmokeShell")};
 };
 class CUP_I_TK_GUE_Sniper: CUP_I_TKG_Man_11 {
-    magazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M"), mag_2("SmokeShell")};;
+    magazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M"), mag_2("SmokeShell")};
     respawnMagazines[] = {mag_5("CUP_10Rnd_762x54_SVD_M"), mag_2("SmokeShell")};
 };
 class CUP_I_TK_GUE_Soldier_AR: CUP_I_TKG_Man_03 {
