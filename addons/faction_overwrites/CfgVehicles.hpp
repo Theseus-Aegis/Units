@@ -20,6 +20,18 @@ class CfgVehicles {
     class CUP_O_TK_Soldier_03;
     class CUP_O_TK_Soldier_04;
     class CUP_O_TK_Soldier_05;
+    class CUP_I_TKG_Man_01;
+    class CUP_I_TKG_Man_02;
+    class CUP_I_TKG_Man_03;
+    class CUP_I_TKG_Man_05;
+    class CUP_I_TKG_Man_06;
+    class CUP_I_TKG_Man_07;
+    class CUP_I_TKG_Man_08;
+    class CUP_I_TKG_Man_09;
+    class CUP_I_TKG_Man_10;
+    class CUP_I_TKG_Man_11;
+    class CUP_I_TKG_Man_12;
+
 
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
@@ -67,6 +79,7 @@ class CfgVehicles {
 
     // CUP
     #include "cup\takistani_army.hpp"
+    #include "cup\takistani_locals.hpp"
 
     // Missing Units
     #include "missing_units\combat_divers.hpp"

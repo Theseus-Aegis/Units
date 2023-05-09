@@ -322,3 +322,10 @@ class CUP_B_TK_CivPack_WDL_RPK: CUP_B_CivPack_WDL {
         MACRO_ADDMAGAZINE(tacgt_AI_75Rnd_762x39_Drum,3);
     };
 };
+
+class CUP_B_TKI_CivPack_WDL_RPK_45: CUP_B_CivPack_WDL {
+    class TransportMagazines {
+        delete _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_60Rnd_545x39_AK,9);
+    };
+};
