@@ -51,7 +51,7 @@ releases/*
 hemtt
 hemtt.exe
 .hemtt/local
-x
+.hemttout
 
 # Swap
 *.swp
@@ -64,3 +64,4 @@ x
 texHeaders.bin
 *.biprivatekey
 keys/*
+*.zip

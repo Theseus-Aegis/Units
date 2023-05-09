@@ -65,8 +65,8 @@ class TACU_Cartel2_U_O_Thug_Rifleman_04: TACU_Cartel2_U_O_Thug_Rifleman_03 {
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk"};
     weapons[] = {"CUP_glaunch_M79", "CUP_hgun_Mac10", "Throw", "Put"};
     respawnWeapons[] = {"CUP_glaunch_M79", "CUP_hgun_Mac10", "Throw", "Put"};
-    magazines[] = {mag_7("1Rnd_HE_Grenade_shell"), mag_6(tacgt_AI_30Rnd_45ACP_MAC10), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_7("1Rnd_HE_Grenade_shell"), mag_6(tacgt_AI_30Rnd_45ACP_MAC10), mag_2("HandGrenade")};
+    magazines[] = {mag_7("1Rnd_HE_Grenade_shell"), mag_6("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_7("1Rnd_HE_Grenade_shell"), mag_6("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
 };
 class TACU_Cartel2_U_O_Thug_Rifleman_05: TACU_Cartel2_U_O_Thug_Rifleman_04 {
     displayName = "Thug (M1014)";
