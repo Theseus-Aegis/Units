@@ -28,8 +28,8 @@ class I_SFIA_crew_lxWS: I_crew_F {
     respawnMagazines[] = {mag_6("tacgt_AI_35Rnd_556x45_R4"), mag_2("MiniGrenade"), mag_2("SmokeShell")};
 };
 class I_SFIA_pilot_lxWS: I_pilot_F {
-    magazines[] = {mag_2("tacgt_AI_30Rnd_9x19"};
-    respawnMagazines[] = {mag_2("tacgt_AI_30Rnd_9x19"};
+    magazines[] = {mag_2("tacgt_AI_30Rnd_9x19")};
+    respawnMagazines[] = {mag_2("tacgt_AI_30Rnd_9x19")};
 };
 class I_SFIA_soldier_at_lxWS: I_Soldier_AT_F {
     magazines[] = {mag_5("tacgt_AI_30Rnd_762x39_AK"), "RPG32_F", mag_2("SmokeShell")};
