@@ -52,13 +52,13 @@ class I_MU_mercs_helipilot_F: I_MU_mercs_base_F {
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class I_MU_mercs_R2_F: I_MU_mercs_base_2_F {
-    magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 
 class I_MU_mercs_R3_F: I_MU_mercs_base_2_F {
-    magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 
 class I_MU_mercs_R4_F: I_MU_mercs_base_2_F {
@@ -67,8 +67,8 @@ class I_MU_mercs_R4_F: I_MU_mercs_base_2_F {
 };
 
 class I_MU_mercs_TL2_F: I_MU_mercs_base_2_F {
-    magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 
 class I_MU_mercs_GL2_F: I_MU_mercs_base_2_F {

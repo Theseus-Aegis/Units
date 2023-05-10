@@ -41,8 +41,8 @@ class CUP_O_TK_INS_Soldier_MG: CUP_O_TKI_Man_05 {};
 class CUP_O_TK_INS_Guerilla_Medic: CUP_O_TKI_Man_02 {};
 
 class CUP_O_TK_INS_Commander: CUP_O_TKI_Man_06 {
-    magazines[] = {mag_4("tacgt_AI_30Rnd_762x39_AK")};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_762x39_AK")};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK")};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK")};
 };
 class CUP_O_TK_INS_Mechanic: CUP_O_TKI_Man_03 {
     magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK")};

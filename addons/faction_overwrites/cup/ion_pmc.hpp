@@ -60,12 +60,12 @@ class CUP_I_PMC_Bodyguard_AA12: CUP_I_PMC_Bodyguard_M4 {
     respawnMagazines[] = {mag_6("CUP_20Rnd_B_AA12_Pellets"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_PMC_Soldier_AA: CUP_I_PMC_Soldier_01 {
-    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG") mag_2("HandGrenade"), "CUP_Stinger_M"};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG") mag_2("HandGrenade"), "CUP_Stinger_M"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), "CUP_Stinger_M"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), "CUP_Stinger_M"};
 };
 class CUP_I_PMC_Soldier_AT: CUP_I_PMC_Soldier_40 {
-    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG") mag_2("HandGrenade"), "CUP_RPG18_M"};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG") mag_2("HandGrenade"), "CUP_RPG18_M"};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), "CUP_RPG18_M"};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), "CUP_RPG18_M"};
 };
 class CUP_I_PMC_Contractor1: CUP_I_PMC_Soldier_36 {
     magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Glock"), mag_2("SmokeShell")};

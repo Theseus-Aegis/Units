@@ -12,8 +12,8 @@ class I_SFIA_Soldier_GL_lxWS: I_Soldier_GL_F {
     respawnMagazines[] = {mag_6("20Rnd_762x51_slr_reload_tracer_green_lxWS"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("MiniGrenade"), mag_2("SmokeShell"), mag_3("1Rnd_40mm_HE_lxWS"), mag_2("1Rnd_58mm_AT_lxWS"), "1Rnd_50mm_Smoke_lxWS"};
 };
 class I_SFIA_Soldier_AR_lxWS: I_Soldier_AR_F {
-    magazines[] = {mag_5("tacgt_AI_75Rnd_762x39_Drum"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_5("tacgt_AI_75Rnd_762x39_Drum"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_5("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_5("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class I_SFIA_officer_lxWS: I_officer_F {
     magazines[] = {mag_6("20Rnd_762x51_slr_reload_tracer_green_lxWS"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("MiniGrenade"), mag_2("SmokeShell")};

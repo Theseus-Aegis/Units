@@ -130,6 +130,7 @@ class CfgVehicles {
     class B_Carryall_oucamo;
     class B_Carryall_ghex_F;
     class B_TacticalPack_blk;
+    class B_TacticalPack_oli;
     class B_Kitbag_rgr;
     class B_Kitbag_cbr;
     class B_FieldPack_khk;
@@ -162,6 +163,7 @@ class CfgVehicles {
     #include "vanilla\gendarmerie.hpp"
     #include "vanilla\looters.hpp"
     #include "vanilla\sfia.hpp"
+    #include "vanilla\spetznaz.hpp"
     #include "vanilla\syndikat.hpp"
     #include "vanilla\tura.hpp"
 

@@ -65,6 +65,14 @@ class I_Fieldpack_oli_Ammo: B_Carryall_oli {
     };
 };
 
+class B_TacticalPack_oli_AAR: B_TacticalPack_oli {
+    class TransportMagazines {
+        delete _xx_200Rnd_65x39_cased_Box;
+        delete _xx_200Rnd_65x39_cased_Box_Tracer;
+        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_65x39_Belt,4);
+    };
+};
+
 class G_Carryall_Ammo: B_Carryall_oli {
     class TransportMagazines {
         delete _xx_30Rnd_556x45_Stanag;
@@ -330,6 +338,17 @@ class CUP_B_TKI_CivPack_WDL_RPK_45: CUP_B_CivPack_WDL {
     };
 };
 
+class CUP_B_TK_AlicePack_Khaki_Ammo: CUP_B_AlicePack_Khaki {
+    class TransportMagazines {
+        delete _xx_CUP_30Rnd_556x45_Stanag;
+        delete _xx_CUP_1Rnd_HEDP_M203;
+        delete _xx_smokeshellOrange;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_556x45_STANAG,6);
+        MACRO_ADDMAGAZINE(1Rnd_HE_Grenade_shell,4);
+        MACRO_ADDMAGAZINE(SmokeShell,2);
+    };
+};
+
 class CUP_B_TKI_AlicePack_Khaki_AmmoAK74: CUP_B_AlicePack_Khaki {
     class TransportMagazines {
         delete _xx_CUP_30Rnd_545x39_AK_M;
@@ -459,5 +478,15 @@ class CUP_O_RUS_Patrol_bag_Desert_Ammo: CUP_O_RUS_Patrol_bag_Desert {
         delete _xx_CUP_HandGrenade_RGD5;
         MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
         MACRO_ADDMAGAZINE(HandGrenade,2);
+    };
+};
+
+class B_MU_Mil_FieldPack_cbr_GL: B_FieldPack_cbr {
+    class TransportItems {
+        delete _xx_1Rnd_SmokePurple_Grenade_shell;
+        delete _xx_UGL_FlareWhite_F;
+        delete _xx_30Rnd_556x45_Stanag;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_556x45_STANAG,5);
+        MACRO_ADDMAGAZINE(1Rnd_Smoke_Grenade_shell,5);
     };
 };

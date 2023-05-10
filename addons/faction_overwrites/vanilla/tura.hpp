@@ -12,8 +12,8 @@ class I_SFIA_watcher_lxWS: I_C_Soldier_Bandit_4_F {
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), mag_2("MiniGrenade")};
 };
 class I_SFIA_enforcer_lxWS: I_C_Soldier_Para_2_F {
-    magazines[] = {mag_4("tacgt_AI_75Rnd_762x39_Drum"), mag_2("MiniGrenade")};
-    respawnMagazines[] = {mag_4("tacgt_AI_75Rnd_762x39_Drum"), mag_2("MiniGrenade")};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_762x39_AK"), mag_2("MiniGrenade")};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_762x39_AK"), mag_2("MiniGrenade")};
 };
 class I_SFIA_hireling_lxWS: I_C_Soldier_Bandit_2_F {
     magazines[] = {mag_2("tacgt_AI_30Rnd_9x19"), "RPG32_F"};
