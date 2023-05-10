@@ -146,6 +146,10 @@ class CfgVehicles {
     class CUP_B_AlicePack_Bedroll;
     class CUP_B_AssaultPack_Coyote;
     class CUP_B_USPack_Coyote;
+    class CUP_O_RUS_Patrol_bag_Summer;
+    class CUP_O_RUS_Patrol_bag_Winter;
+    class CUP_O_RUS_Patrol_bag_BeigeDigital;
+    class CUP_O_RUS_Patrol_bag_Desert;
 
     // Backpacks
     #include "CfgVehicles_Backpacks.hpp"

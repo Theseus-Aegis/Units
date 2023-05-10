@@ -425,3 +425,39 @@ class CUP_B_RUS_Pack_AR: CUP_B_HikingPack_Civ {
         MACRO_ADDMAGAZINE(tacgt_AI_60Rnd_545x39_AK,4);
     };
 };
+
+class CUP_O_RUS_Patrol_bag_Summer_Ammo: CUP_O_RUS_Patrol_bag_Summer {
+    class TransportMagazines {
+        delete _xx_CUP_30Rnd_545x39_AK74M_M;
+        delete _xx_CUP_HandGrenade_RGD5;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
+        MACRO_ADDMAGAZINE(HandGrenade,2);
+    };
+};
+
+class CUP_O_RUS_Patrol_bag_Winter_Ammo: CUP_O_RUS_Patrol_bag_Winter {
+    class TransportMagazines {
+        delete _xx_CUP_30Rnd_545x39_AK74M_M;
+        delete _xx_CUP_HandGrenade_RGD5;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
+        MACRO_ADDMAGAZINE(HandGrenade,2);
+    };
+};
+
+class CUP_O_RUS_Patrol_bag_BeigeDigital_Ammo: CUP_O_RUS_Patrol_bag_BeigeDigital {
+    class TransportMagazines {
+        delete _xx_CUP_30Rnd_545x39_AK74M_M;
+        delete _xx_CUP_HandGrenade_RGD5;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
+        MACRO_ADDMAGAZINE(HandGrenade,2);
+    };
+};
+
+class CUP_O_RUS_Patrol_bag_Desert_Ammo: CUP_O_RUS_Patrol_bag_Desert {
+    class TransportMagazines {
+        delete _xx_CUP_30Rnd_545x39_AK74M_M;
+        delete _xx_CUP_HandGrenade_RGD5;
+        MACRO_ADDMAGAZINE(tacgt_AI_30Rnd_545x39_AK,6);
+        MACRO_ADDMAGAZINE(HandGrenade,2);
+    };
+};
