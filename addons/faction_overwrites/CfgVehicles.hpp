@@ -82,6 +82,34 @@ class CfgVehicles {
     class CUP_I_RACS_Desert_Soldier_02;
     class CUP_I_RACS_Desert_Soldier_03;
     class CUP_I_RACS_Soldier_03;
+    class CUP_O_RUS_Soldier;
+    class CUP_O_RUS_Soldier_Autumn;
+    class CUP_O_MVD_Soldier_Base;
+    class CUP_O_RUS_Soldier_01;
+    class CUP_O_RUS_Soldier_02;
+    class CUP_O_RUS_Soldier_03;
+    class CUP_O_RUS_Soldier_04;
+    class CUP_O_RUS_Soldier_05;
+    class CUP_O_RUS_Soldier_09;
+    class CUP_O_RUS_Soldier_01_VDV;
+    class CUP_O_RUS_Soldier_02_VDV;
+    class CUP_O_RUS_Soldier_03_VDV;
+    class CUP_O_RUS_Soldier_04_VDV;
+    class CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_gloves_pads;
+    class CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads;
+    class CUP_O_RUS_Soldier_VKPO_VDV_EMR_rolled_up_gloves_pads;
+    class CUP_O_RUS_Soldier_VKPO_VDV_EMR_gloves_pads;
+    class CUP_O_RUS_Soldier_VKPO_MSV_BeigeDigital_gloves_pads;
+    class CUP_O_RUS_Soldier_VKPO_MSV_BeigeDigital_rolled_up_gloves_pads;
+    class CUP_O_RUS_Ratnik_Summer;
+    class CUP_O_RUS_Ratnik_Winter;
+    class CUP_O_RUS_Ratnik_Autumn;
+    class CUP_O_RUS_Ratnik_BeigeDigital;
+    class CUP_O_RUS_Ratnik_Desert;
+    class CUP_O_RUS_Soldier_VSR93_MSV;
+    class CUP_O_RUS_Soldier_VSR93_worn_MSV_rolled_up;
+    class CUP_O_RUS_Soldier_VSR93_MSV_rolled_up;
+    class CUP_O_RUS_Soldier_VSR93_worn_MSV;
 
     // Base classes - Missing Units
     class I_MU_GrDa_base_F;
@@ -134,6 +162,7 @@ class CfgVehicles {
     #include "vanilla\tura.hpp"
 
     // CUP
+    #include "cup\armed_forces_of_the_russian_federation.hpp"
     #include "cup\chernarussian_movement_of_the_red_star.hpp"
     #include "cup\ion_pmc.hpp"
     #include "cup\national_party_of_chernarus.hpp"

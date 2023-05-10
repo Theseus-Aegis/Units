@@ -418,3 +418,10 @@ class CUP_B_USArmy_MG: CUP_B_USPack_Coyote {
         MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_762x51_Belt,4);
     };
 };
+
+class CUP_B_RUS_Pack_AR: CUP_B_HikingPack_Civ {
+    class TransportMagazines {
+        delete _xx_CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M;
+        MACRO_ADDMAGAZINE(tacgt_AI_60Rnd_545x39_AK,4);
+    };
+};
