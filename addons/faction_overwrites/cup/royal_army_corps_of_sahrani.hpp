@@ -83,6 +83,7 @@ class CUP_I_RACS_RoyalMarksman: CUP_I_RACS_Desert_Soldier_03 {
     magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_G36"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
     respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_G36"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
+
 class CUP_I_RACS_Soldier_Urban: CUP_I_RACS_Soldier {};
 class CUP_I_RACS_Soldier_LAT_Urban: CUP_I_RACS_Soldier_LAT {};
 class CUP_I_RACS_Soldier_Light_Urban: CUP_I_RACS_Soldier_Light {};

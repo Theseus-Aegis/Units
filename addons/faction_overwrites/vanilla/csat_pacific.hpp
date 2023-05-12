@@ -168,4 +168,6 @@ class O_T_Soldier_HAT_F: O_Soldier_HAT_F {
     magazines[] = {mag_6("tacgt_AI_30Rnd_58x42"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("SmokeShell"), "Vorona_HEAT"};
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_58x42"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("SmokeShell"), "Vorona_HEAT"};
 };
-class O_T_Soldier_AHAT_F: O_Soldier_AHAT_F {};
+class O_T_Soldier_AHAT_F: O_Soldier_AHAT_F {
+    magazines[] = {mag_8("tacgt_AI_30Rnd_58x42"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+};

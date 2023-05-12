@@ -207,8 +207,8 @@ class O_engineer_U_F: O_Soldier_Urban_base {
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_65x39_Katiba"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class O_soldierU_M_F: O_Soldier_Urban_base {
-    magazines[] = {mag_10("10Rnd_762x54_Mag") mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_10("10Rnd_762x54_Mag") mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_10("10Rnd_762x54_Mag"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_10("10Rnd_762x54_Mag"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class O_soldierU_A_F: O_Soldier_Urban_base {
     magazines[] = {mag_10("tacgt_AI_30Rnd_65x39_Katiba"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
@@ -258,7 +258,10 @@ class O_V_Soldier_TL_hex_F: O_V_Soldier_base_F {};
 class O_V_Soldier_Exp_hex_F: O_V_Soldier_base_F {};
 class O_V_Soldier_Medic_hex_F: O_V_Soldier_base_F {};
 class O_V_Soldier_M_hex_F: O_V_Soldier_base_F {};
-class O_V_Soldier_LAT_hex_F: O_V_Soldier_base_F {};
+class O_V_Soldier_LAT_hex_F: O_V_Soldier_base_F {
+    magazines[] = {"tacgt_AI_30Rnd_65x39_Katiba", "10Rnd_50BW_Mag_F", "tacgt_AI_17Rnd_9x19_Walther", "RPG32_F"};
+    respawnMagazines[] = {"tacgt_AI_30Rnd_65x39_Katiba", "10Rnd_50BW_Mag_F", "tacgt_AI_17Rnd_9x19_Walther", "RPG32_F"};
+};
 class O_V_Soldier_JTAC_hex_F: O_V_Soldier_base_F {
     magazines[] = {"tacgt_AI_30Rnd_65x39_Katiba", "10Rnd_50BW_Mag_F", "tacgt_AI_17Rnd_9x19_Walther", "Laserbatteries"};
     respawnMagazines[] = {"tacgt_AI_30Rnd_65x39_Katiba", "10Rnd_50BW_Mag_F", "tacgt_AI_17Rnd_9x19_Walther", "Laserbatteries"};

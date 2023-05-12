@@ -141,6 +141,7 @@ class CfgVehicles {
     class B_FieldPack_cbr;
     class B_FieldPack_oli;
     class B_FieldPack_green_F;
+    class B_MU_Carryall_blk;
     class CUP_B_CivPack_WDL;
     class CUP_B_AlicePack_Khaki;
     class CUP_B_HikingPack_Civ;

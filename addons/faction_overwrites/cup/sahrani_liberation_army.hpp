@@ -31,11 +31,14 @@ class CUP_O_sla_Engineer: CUP_O_SLA_Soldier_02 {
     magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade")};
 };
-class CUP_O_sla_Soldier_MG: CUP_O_SLA_Soldier_02 {};
+class CUP_O_sla_Soldier_MG: CUP_O_SLA_Soldier_02 {
+    magazines[] = {mag_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"), mag_2("HandGrenade")};
+    RespawnMagazines[] = {mag_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"), mag_2("HandGrenade")};
+};
 
 class CUP_O_sla_Soldier_AR: CUP_O_SLA_Soldier_02 {
-    magazines[] = {mag_3("tacgt_AI_75Rnd_762x39_Drum"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_3("tacgt_AI_75Rnd_762x39_Drum"), mag_2("HandGrenade")};
+    magazines[] = {mag_7("tacgt_AI_60Rnd_545x39_AK"), mag_2("HandGrenade")};
+    respawnMagazines[] = {mag_7("tacgt_AI_60Rnd_545x39_AK"), mag_2("HandGrenade")};
 };
 class CUP_O_sla_Medic: CUP_O_SLA_Soldier_02 {
     magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade")};
@@ -177,7 +180,10 @@ class CUP_O_Partisans_Soldier_AT: CUP_O_SLA_Soldier_08 {
     magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), "CUP_PG7VL_M"};
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), "CUP_PG7VL_M"};
 };
-class CUP_O_Partisans_Soldier_MG: CUP_O_SLA_Soldier_09 {};
+class CUP_O_Partisans_Soldier_MG: CUP_O_SLA_Soldier_09 {
+    magazines[] = {mag_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"), mag_2("HandGrenade")};
+    RespawnMagazines[] = {mag_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"), mag_2("HandGrenade")};
+};
 
 class CUP_O_Partisans_Medic: CUP_O_SLA_Soldier_08 {
     magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade")};

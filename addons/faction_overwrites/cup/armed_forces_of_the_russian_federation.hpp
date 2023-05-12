@@ -479,24 +479,24 @@ class CUP_O_RU_Soldier_TL_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_glo
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_4("CUP_1Rnd_HE_GP25_M"), mag_2("SmokeShell"), mag_4("CUP_1Rnd_SMOKE_GP25_M")};
 };
 class CUP_O_RU_Soldier_SL_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_gloves_pads {
-    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_O_RU_Officer_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads {
-    magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_O_RU_Soldier_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads {
-    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_O_RU_Soldier_Lite_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads {
-    magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_O_RU_Soldier_GL_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads {
-    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_4("CUP_1Rnd_HE_GP25_M"), mag_2("SmokeShell"), mag_4("CUP_1Rnd_SMOKE_GP25_M")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK") mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_4("CUP_1Rnd_HE_GP25_M"), mag_2("SmokeShell"), mag_4("CUP_1Rnd_SMOKE_GP25_M")};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_4("CUP_1Rnd_HE_GP25_M"), mag_2("SmokeShell"), mag_4("CUP_1Rnd_SMOKE_GP25_M")};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_4("CUP_1Rnd_HE_GP25_M"), mag_2("SmokeShell"), mag_4("CUP_1Rnd_SMOKE_GP25_M")};
 };
 class CUP_O_RU_Soldier_AR_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_gloves_pads {
     magazines[] = {mag_6("tacgt_AI_60Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
@@ -519,8 +519,8 @@ class CUP_O_RU_Soldier_Medic_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_O_RU_Soldier_Repair_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_gloves_pads {
-    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_O_RU_Soldier_Exp_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads {
     magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
@@ -531,8 +531,8 @@ class CUP_O_RU_Soldier_Engineer_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_O_RU_Soldier_LAT_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_gloves_pads {
-    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_RPG26_M"};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_RPG26_M"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_RPG26_M"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_RPG26_M"};
 };
 class CUP_O_RU_Soldier_AT_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads {
     magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_PG7VL_M"};
@@ -543,8 +543,8 @@ class CUP_O_RU_Soldier_HAT_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_gloves_pads 
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_AT13_M"};
 };
 class CUP_O_RU_Soldier_AA_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_gloves_pads {
-    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Igla_M"};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Igla_M"};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Igla_M"};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Igla_M"};
 };
 class CUP_O_RU_Soldier_A_M_EMR_V2: CUP_O_RUS_Soldier_VKPO_MSV_EMR_rolled_up_gloves_pads {
     magazines[] = {mag_6("tacgt_AI_30Rnd_545x39_AK"), mag_2("HandGrenade"), mag_2("SmokeShell")};
