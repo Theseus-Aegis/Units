@@ -8,7 +8,14 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacu_main",
-            "tacgt_ammunitionai"
+            "tacgt_ammunitionai",
+            "MU_divers",
+            "MU_greendagers",
+            "MU_MILITIA",
+            "MU_islam",
+            "MU_LIV",
+            "MU_mercs",
+            "MU_RU"
         };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
