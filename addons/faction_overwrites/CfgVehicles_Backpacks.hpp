@@ -40,7 +40,6 @@ class B_MU_GrDa_AssaultPack_dgtl_GL: B_AssaultPack_dgtl {
 };
 
 class B_MU_GrDa_Carryall_oli_A: B_Carryall_oli {
-    class TransportItems {};
     class TransportMagazines {
         delete _xx_30Rnd_556x45_Stanag;
         delete _xx_30Rnd_556x45_Stanag_Tracer_Yellow;
@@ -592,7 +591,7 @@ class B_MU_Mil_Carryall_cbr_ammo: B_Carryall_cbr {
 };
 
 class B_MU_Mil_FieldPack_cbr_GL: B_FieldPack_cbr {
-    class TransportItems {
+    class TransportMagazines {
         delete _xx_1Rnd_SmokePurple_Grenade_shell;
         delete _xx_UGL_FlareWhite_F;
         delete _xx_30Rnd_556x45_Stanag;
