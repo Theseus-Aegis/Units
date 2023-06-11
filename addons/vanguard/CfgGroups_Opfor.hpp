@@ -153,6 +153,7 @@ class EAST {
                 };
             };
         };
+/*
         class TACU_Vanguard_G_O_Contractors_Winter {
             name = "Contractors (Winter)";
 
@@ -231,6 +232,7 @@ class EAST {
                 };
             };
         };
+*/
         class TACU_Vanguard_G_O_Specialists {
             name = "Specialists";
 

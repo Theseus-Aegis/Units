@@ -12,8 +12,8 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     sensitivityEar = 0.15;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     backpack = "";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "CUP_FR_NeckScarf", "V_PlateCarrier2_rgr_noflag_F"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "CUP_FR_NeckScarf", "V_PlateCarrier2_rgr_noflag_F"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "V_PlateCarrier2_rgr_noflag_F"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "V_PlateCarrier2_rgr_noflag_F"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_Mk20_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
@@ -22,9 +22,6 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
         "H_HelmetSpecB", 1
-    };
-    CBA_facewearList[] = {
-        "CUP_FR_NeckScarf", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Green";
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Green_Rifleman_01.jpg);
