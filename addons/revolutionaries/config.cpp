@@ -1,8 +1,10 @@
+// Needs CUP Removals.
 #include "script_component.hpp"
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            /*
             // Backpacks
             "TACU_Revolutionaries_B_MMG_UK59_Black",
             "TACU_Revolutionaries_B_LMG_Minimi_Black",
@@ -146,14 +148,17 @@ class CfgPatches {
             "TACU_Revolutionaries_V_O_Offroad",
             "TACU_Revolutionaries_V_O_Van",
             "TACU_Revolutionaries_V_O_Jeep_LMG"
+            */
         };
         weapons[] = {
+            /*
             "TACU_Revolutionaries_W_CZ805A2",
             "TACU_Revolutionaries_W_FNMinimiSPW",
             "TACU_Revolutionaries_W_MP5K",
             "TACU_Revolutionaries_W_CZ805_GL",
             "TACU_Revolutionaries_W_M24",
             "TACU_Revolutionaries_W_CZ750"
+            */
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
@@ -162,7 +167,7 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
-#include "CfgFactionClasses.hpp"
-#include "CfgGroups.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"
+//#include "CfgFactionClasses.hpp"
+//#include "CfgGroups.hpp"
+//#include "CfgVehicles.hpp"
+//#include "CfgWeapons.hpp"

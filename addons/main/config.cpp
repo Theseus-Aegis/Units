@@ -23,13 +23,7 @@ class CfgPatches {
             // CBA
             "cba_main",
             // CUP
-            "CUP_AirVehicles_LoadOrder",
-            "CUP_Creatures_People_LoadOrder",
-            "CUP_TrackedVehicles_LoadOrder",
-            "CUP_Vehicles_LoadOrder",
-            "CUP_WaterVehicles_LoadOrder",
             "CUP_Weapons_LoadOrder",
-            "CUP_WheeledVehicles_LoadOrder",
             // GT Armory
             "tacgt_ammunition",
             "tacgt_flashlight",

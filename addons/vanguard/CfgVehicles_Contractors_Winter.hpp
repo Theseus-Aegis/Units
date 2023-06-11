@@ -1,3 +1,5 @@
+// Needs replacement white vest.
+
 // Units - Vanguard Contractors Winter
 class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     author = "Mike";
@@ -11,8 +13,8 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     backpack = "";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "CUP_FR_NeckScarf4", "CUP_V_PMC_CIRAS_Winter_TL"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "CUP_FR_NeckScarf4", "CUP_V_PMC_CIRAS_Winter_TL"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "CUP_V_PMC_CIRAS_Winter_TL"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "CUP_V_PMC_CIRAS_Winter_TL"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
@@ -21,9 +23,6 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
     headgearList[] = {
         "tacs_Helmet_Enc_Ballistic_White", 1
-    };
-    CBA_facewearList[] = {
-        "CUP_FR_NeckScarf4", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Winter";
     editorPreview = QPATHTOF(ui\Vanguard_U_Contractor_Winter_Rifleman_01.jpg);

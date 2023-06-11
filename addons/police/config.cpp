@@ -1,9 +1,11 @@
+// Needs CUP Removals.
 #include "script_component.hpp"
 
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            /*
             "TACU_Police_Item_Helmet_PASGT_Neck_PoliceBlack",
             "TACU_Police_Item_Helmet_PASGT_Neck_PoliceGreen",
             "TACU_Police_Item_Uniform_Combat_Black",
@@ -51,8 +53,10 @@ class CfgPatches {
             "TACU_Police_V_O_Offroad_Black",
             "TACU_Police_V_O_Van_Cargo_Black",
             "TACU_Police_V_O_Van_Transport_Black"
+            */
         };
         weapons[] = {
+            /*
             "TACU_Police_Helmet_PASGT_Neck_PoliceBlack",
             "TACU_Police_Helmet_PASGT_Neck_PoliceGreen",
             "TACU_Police_Uniform_Combat_Black",
@@ -72,6 +76,7 @@ class CfgPatches {
             "TACU_Police_W_SG551LB_TAC",
             "TACU_Police_W_Vikhr_Grip",
             "TACU_Police_W_Vityaz_Grip"
+            */
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
@@ -81,7 +86,7 @@ class CfgPatches {
     };
 };
 
-#include "CfgFactionClasses.hpp"
-#include "CfgGroups.hpp"
-#include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"
+//#include "CfgFactionClasses.hpp"
+//#include "CfgGroups.hpp"
+//#include "CfgVehicles.hpp"
+//#include "CfgWeapons.hpp"
