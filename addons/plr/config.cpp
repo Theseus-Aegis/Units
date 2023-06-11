@@ -1,11 +1,9 @@
-// Needs CUP Removals.
 #include "script_component.hpp"
 
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            /*
             // Backpacks
             "TACU_PLR_B_AT",
             "TACU_PLR_B_MMG",
@@ -64,10 +62,8 @@ class CfgPatches {
             // Vehicles (Helicopters)
             "TACU_PLR_V_O_Mi171Sh",
             "TACU_PLR_V_O_Mi171Sh_Armed"
-            */
         };
         weapons[] = {
-            /*
             "TACU_PLR_W_AK105_ZDDOT_FL",
             "TACU_PLR_W_AK47_Early_FL",
             "TACU_PLR_W_AK74_Early_FL",
@@ -81,7 +77,6 @@ class CfgPatches {
             "TACU_PLR_W_RPK74_FL",
             "TACU_PLR_W_RPK74M_1P63_FL",
             "TACU_PLR_W_SVD"
-            */
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
@@ -91,7 +86,7 @@ class CfgPatches {
     };
 };
 
-//#include "CfgFactionClasses.hpp"
-//#include "CfgGroups.hpp"
-//#include "CfgVehicles.hpp"
-//#include "CfgWeapons.hpp"
+#include "CfgFactionClasses.hpp"
+#include "CfgGroups.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

@@ -1,11 +1,9 @@
-// Needs CUP Removals.
 #include "script_component.hpp"
 
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            /*
             // Takistan National Army
             "TACU_Takistan_U_TNA_Major",
             "TACU_Takistan_U_TNA_Lieutenant",
@@ -75,10 +73,8 @@ class CfgPatches {
             "TACU_Takistan_V_Tehrik_ZU23",
             "TACU_Takistan_V_Tehrik_Metis",
             "TACU_Takistan_V_Tehrik_SPG9"
-            */
         };
         weapons[] = {
-            /*
             "TACU_Takistan_W_M4A1",
             "TACU_Takistan_W_M4A1_GL",
             "TACU_Takistan_W_M4A3",
@@ -86,7 +82,6 @@ class CfgPatches {
             "TACU_Takistan_W_M4SBR_Tan",
             "TACU_Takistan_W_M16A4",
             "TACU_Takistan_W_M110"
-            */
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
@@ -96,7 +91,7 @@ class CfgPatches {
     };
 };
 
-//#include "CfgFactionClasses.hpp"
-//#include "CfgGroups.hpp"
-//#include "CfgVehicles.hpp"
-//#include "CfgWeapons.hpp"
+#include "CfgFactionClasses.hpp"
+#include "CfgGroups.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

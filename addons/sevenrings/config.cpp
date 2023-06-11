@@ -1,11 +1,9 @@
-// Needs CUP Removals.
 #include "script_component.hpp"
 
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            /*
             // Backpacks
             "TACU_SevenRings_B_AT_Assault_Maaws",
             "TACU_SevenRings_B_AT_Assault_RPG32",
@@ -216,10 +214,8 @@ class CfgPatches {
             "TACU_SevenRings_V_O_D30",
             "TACU_SevenRings_V_O_ZU23",
             "TACU_SevenRings_V_O_DSHKM"
-            */
         };
         weapons[] = {
-            /*
             // Western Weapons
             "TACU_SevenRings_W_West_BREN2_14",
             "TACU_SevenRings_W_West_BREN2_GL_14",
@@ -272,7 +268,6 @@ class CfgPatches {
             "TACU_SevenRings_W_East_SVD",
             "TACU_SevenRings_W_East_Cyrus",
             "TACU_SevenRings_W_East_FNFAL_5061"
-            */
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
@@ -282,7 +277,7 @@ class CfgPatches {
     };
 };
 
-//#include "CfgFactionClasses.hpp"
-//#include "CfgGroups.hpp"
-//#include "CfgVehicles.hpp"
-//#include "CfgWeapons.hpp"
+#include "CfgFactionClasses.hpp"
+#include "CfgGroups.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
