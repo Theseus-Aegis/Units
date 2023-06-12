@@ -71,4 +71,7 @@ class CfgFactionClasses {
     class CUP_B_HIL {
         displayName = "DEPRECATED";
     };
+    class CUP_Static_Ships {
+        displayName = "DEPRECATED";
+    };
 };
