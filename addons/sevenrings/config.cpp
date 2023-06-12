@@ -1,11 +1,9 @@
-// Needs CUP Removals.
 #include "script_component.hpp"
 
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            /*
             // Backpacks
             "TACU_SevenRings_B_AT_Assault_Maaws",
             "TACU_SevenRings_B_AT_Assault_RPG32",
@@ -169,24 +167,11 @@ class CfgPatches {
             // Eastern Independent - Vehicles
             "TACU_SevenRings_V_I_Kamaz",
             "TACU_SevenRings_V_I_Kamaz_Covered",
-            "TACU_SevenRings_V_I_Ural",
-            "TACU_SevenRings_V_I_Ural_Covered",
             "TACU_SevenRings_V_I_Ural_ZU23",
-            "TACU_SevenRings_V_I_UAZ",
-            "TACU_SevenRings_V_I_UAZ_DSHKM",
-            "TACU_SevenRings_V_I_UAZ_SPG9",
-            "TACU_SevenRings_V_I_Hilux",
-            "TACU_SevenRings_V_I_Hilux_Armored",
-            "TACU_SevenRings_V_I_Hilux_M2",
-            "TACU_SevenRings_V_I_Hilux_Armored_M2",
-            "TACU_SevenRings_V_I_Hilux_Armored_AGS30",
-            "TACU_SevenRings_V_I_Vodnik_PKM",
-            "TACU_SevenRings_V_I_Vodnik_AGS_PKM",
-            "TACU_SevenRings_V_I_BRDM2",
-            "TACU_SevenRings_V_I_BMP2",
-            "TACU_SevenRings_V_I_BTR80",
-            "TACU_SevenRings_V_I_BTR80A",
-            "TACU_SevenRings_V_I_BTR90",
+            "TACU_SevenRings_V_I_Offroad",
+            "TACU_SevenRings_V_I_Offroad_Armored",
+            "TACU_SevenRings_V_I_Offroad_M2",
+            "TACU_SevenRings_V_I_Offroad_Armored_M2",
             "TACU_SevenRings_V_I_AGS30",
             "TACU_SevenRings_V_I_D30",
             "TACU_SevenRings_V_I_ZU23",
@@ -194,32 +179,17 @@ class CfgPatches {
             // Eastern Opfor - Vehicles
             "TACU_SevenRings_V_O_Kamaz",
             "TACU_SevenRings_V_O_Kamaz_Covered",
-            "TACU_SevenRings_V_O_Ural",
-            "TACU_SevenRings_V_O_Ural_Covered",
-            "TACU_SevenRings_V_O_Ural_ZU23",
-            "TACU_SevenRings_V_O_UAZ",
-            "TACU_SevenRings_V_O_UAZ_DSHKM",
-            "TACU_SevenRings_V_O_UAZ_SPG9",
-            "TACU_SevenRings_V_O_Hilux",
-            "TACU_SevenRings_V_O_Hilux_Armored",
-            "TACU_SevenRings_V_O_Hilux_M2",
-            "TACU_SevenRings_V_O_Hilux_Armored_M2",
-            "TACU_SevenRings_V_O_Hilux_Armored_AGS30",
-            "TACU_SevenRings_V_O_Vodnik_PKM",
-            "TACU_SevenRings_V_O_Vodnik_AGS_PKM",
-            "TACU_SevenRings_V_O_BRDM2",
-            "TACU_SevenRings_V_O_BMP2",
-            "TACU_SevenRings_V_O_BTR80",
-            "TACU_SevenRings_V_O_BTR80A",
-            "TACU_SevenRings_V_O_BTR90",
+            "TACU_SevenRings_V_O_Kamaz_ZU23",
+            "TACU_SevenRings_V_O_Offroad",
+            "TACU_SevenRings_V_O_Offroad_Armored",
+            "TACU_SevenRings_V_O_Offroad_M2",
+            "TACU_SevenRings_V_O_Offroad_Armored_M2",
             "TACU_SevenRings_V_O_AGS30",
             "TACU_SevenRings_V_O_D30",
             "TACU_SevenRings_V_O_ZU23",
             "TACU_SevenRings_V_O_DSHKM"
-            */
         };
         weapons[] = {
-            /*
             // Western Weapons
             "TACU_SevenRings_W_West_BREN2_14",
             "TACU_SevenRings_W_West_BREN2_GL_14",
@@ -272,17 +242,16 @@ class CfgPatches {
             "TACU_SevenRings_W_East_SVD",
             "TACU_SevenRings_W_East_Cyrus",
             "TACU_SevenRings_W_East_FNFAL_5061"
-            */
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main"};
+        requiredAddons[] = {"tacu_main", "tacu_cup_turrets"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
     };
 };
 
-//#include "CfgFactionClasses.hpp"
-//#include "CfgGroups.hpp"
-//#include "CfgVehicles.hpp"
-//#include "CfgWeapons.hpp"
+#include "CfgFactionClasses.hpp"
+#include "CfgGroups.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

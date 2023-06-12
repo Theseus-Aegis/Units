@@ -5,12 +5,12 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     editorSubcategory = "TACU_SevenRings_EdSubCat_Western";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"CUP_D_Language_CZ_ACR", "Head_Euro", "Head_Enoch"};
-    genericNames = "CUP_Names_CzechMen";
+    identityTypes[] = {"LanguageRUS_F", "Head_Euro", "Head_Enoch"};
+    genericNames = "EnochMen";
     icon = "iconMan";
     role = "Rifleman";
     sensitivityEar = 0.15;
-    uniformClass = "CUP_I_B_PMC_Unit_40";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -56,7 +56,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
 
 class TACU_SevenRings_U_I_Western_Rifleman_02: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Rifleman (SA58)";
-    uniformClass = "CUP_I_B_PMC_Unit_38";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_SA58_Grip",
         MACRO_WEST_DEFAULT_WEAPON
@@ -78,7 +78,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_02: TACU_SevenRings_U_I_Western_Rifle
 
 class TACU_SevenRings_U_I_Western_Rifleman_03: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Rifleman (G36K)";
-    uniformClass = "CUP_I_B_PMC_Unit_42";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_G36K_Grip",
         MACRO_WEST_DEFAULT_WEAPON
@@ -101,7 +101,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_03: TACU_SevenRings_U_I_Western_Rifle
 class TACU_SevenRings_U_I_Western_Grenadier_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Grenadier (CZ BREN)";
     role = "Grenadier";
-    uniformClass = "CUP_I_B_PMC_Unit_41";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_grenadier_belt_rgr",
@@ -135,7 +135,7 @@ class TACU_SevenRings_U_I_Western_Grenadier_01: TACU_SevenRings_U_I_Western_Rifl
 
 class TACU_SevenRings_U_I_Western_Grenadier_02: TACU_SevenRings_U_I_Western_Grenadier_01 {
     displayName = "Grenadier (SA58)";
-    uniformClass = "CUP_I_B_PMC_Unit_43";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_SA58_GL",
         MACRO_WEST_DEFAULT_WEAPON
@@ -159,7 +159,7 @@ class TACU_SevenRings_U_I_Western_Grenadier_02: TACU_SevenRings_U_I_Western_Gren
 
 class TACU_SevenRings_U_I_Western_Grenadier_03: TACU_SevenRings_U_I_Western_Grenadier_01 {
     displayName = "Grenadier (G36K)";
-    uniformClass = "CUP_I_B_PMC_Unit_39";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_G36K_GL",
         MACRO_WEST_DEFAULT_WEAPON
@@ -185,7 +185,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_AT_01: TACU_SevenRings_U_I_Western_Ri
     displayName = "Rifleman AT (MAAWS)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    uniformClass = "CUP_I_B_PMC_Unit_36";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "TACU_SevenRings_B_AT_Assault_Maaws";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -222,7 +222,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_AT_01: TACU_SevenRings_U_I_Western_Ri
 
 class TACU_SevenRings_U_I_Western_Rifleman_AT_02: TACU_SevenRings_U_I_Western_Rifleman_AT_01 {
     displayName = "Rifleman AT (RPG-32)";
-    uniformClass = "CUP_I_B_PMC_Unit_5";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "TACU_SevenRings_B_AT_Assault_RPG32";
     weapons[] = {
         "TACU_SevenRings_W_West_MK18_Black",
@@ -249,7 +249,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_AT_02: TACU_SevenRings_U_I_Western_Ri
 
 class TACU_SevenRings_U_I_Western_Rifleman_AT_03: TACU_SevenRings_U_I_Western_Rifleman_AT_01 {
     displayName = "Rifleman AT (NLAW)";
-    uniformClass = "CUP_I_B_PMC_Unit_38";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "";
     weapons[] = {
         "TACU_SevenRings_W_West_ACR556_AFG",
@@ -707,7 +707,7 @@ class TACU_SevenRings_U_I_Western_Marksman_01: TACU_SevenRings_U_I_Western_Rifle
 
 class TACU_SevenRings_U_I_Western_Marksman_02: TACU_SevenRings_U_I_Western_Marksman_01 {
     displayName = "Marksman (HK417)";
-    uniformClass = "CUP_I_B_PARA_Unit_1";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_HK417_DMR",
         MACRO_WEST_DEFAULT_WEAPON
@@ -791,7 +791,7 @@ class TACU_SevenRings_U_I_Western_AA_01: TACU_SevenRings_U_I_Western_Rifleman_01
 class TACU_SevenRings_U_I_Western_Pilot_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Pilot (P90)";
     role = "Crewman";
-    uniformClass = "CUP_U_B_USMC_PilotOverall";
+    uniformClass = "U_B_HeliPilotCoveralls";
     backpack = "B_Parachute";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
