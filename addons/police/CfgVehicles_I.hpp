@@ -67,8 +67,8 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     uniformClass = "TACU_Police_Uniform_Combat_Black";
     backpack = "";
     editorPreview = QPATHTOF(ui\Police_U_I_Enforcer_Rifleman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceBlack"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_G36C", "CUP_hgun_M9", "Throw", "Put"};
@@ -77,16 +77,10 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_556x45_G36"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
     headgearList[] = {
         "H_Cap_blk", 0.60,
-        "CUP_H_PMC_Cap_Grey", 0.40,
-        "CUP_H_USArmy_Helmet_Pro", 0.10,
-        "CUP_H_USArmy_Helmet_Pro_gog", 0.10
+        "H_HelmetB_black", 0.40
     };
     CBA_facewearList[] = {
-        "CUP_G_Oakleys_Drk", 0.20,
-        "CUP_G_Oakleys_Embr", 0.20,
-        "CUP_G_Oakleys_Clr", 0.20,
-        "G_Shades_Black", 0.20,
-        "G_Aviator", 0.20
+        "G_Aviator", 1
     };
     editorSubcategory = "TACU_Police_EdSubCat_I_Enforcer";
 };
@@ -178,6 +172,8 @@ class TACU_Police_V_I_Van_Cargo_Black: Van_02_vehicle_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
+    textureList[] = {};
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
     };
@@ -210,6 +206,8 @@ class TACU_Police_V_I_Van_Transport_Black: Van_02_transport_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
+    textureList[] = {};
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
     };

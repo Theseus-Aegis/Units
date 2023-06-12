@@ -8,8 +8,8 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     uniformClass = "TACU_Police_Uniform_Combat_Blue";
     backpack = "";
     editorPreview = QPATHTOF(ui\Police_U_B_CT_Rifleman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_OpsCore_Black", "CUP_G_PMC_Facewrap_Black_Glasses_Dark", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_OpsCore_Black", "CUP_G_PMC_Facewrap_Black_Glasses_Dark", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceBlack", "milgp_f_face_shield_shades_shemagh_BLK", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceBlack", "milgp_f_face_shield_shades_shemagh_BLK", "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"TACU_Police_W_HK416_CQB", "CUP_hgun_Glock17_blk", "Throw", "Put"};
@@ -17,13 +17,10 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     magazines[] = {mag_6("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_17Rnd_9x19_Glock"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_17Rnd_9x19_Glock"), mag_2("ACE_M84"), "CUP_HandGrenade_M67", "SmokeShell"};
     headgearList[] = {
-        "CUP_H_OpsCore_Black", 0.50,
-        "CUP_H_OpsCore_Black_NoHS", 0.50
+        "TACU_Police_Helmet_PASGT_Neck_PoliceBlack", 1
     };
     CBA_facewearList[] = {
-        "CUP_G_PMC_Facewrap_Black_Glasses_Dark", 0.30,
-        "CUP_G_PMC_Facewrap_Black_Glasses_Dark_Headset", 0.30,
-        "CUP_G_PMC_Facewrap_Black_Glasses_Ember", 0.30
+        "milgp_f_face_shield_shades_shemagh_BLK", 1
     };
     editorSubcategory = "TACU_Police_EdSubCat_B_CT";
 };
@@ -65,8 +62,8 @@ class TACU_Police_U_B_Enforcer_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     uniformClass = "TACU_Police_Uniform_Combat_Blue";
     backpack = "";
     editorPreview = QPATHTOF(ui\Police_U_B_Enforcer_Rifleman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_police", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlue"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_police", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceBlue"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_police", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceBlue"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_police", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceBlue"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_M4A3_black", "CUP_hgun_Glock17_blk", "Throw", "Put"};
@@ -75,17 +72,10 @@ class TACU_Police_U_B_Enforcer_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_17Rnd_9x19_Glock")};
     headgearList[] = {
         "H_Cap_police", 0.60,
-        "H_MilCap_blue", 0.50,
-        "CUP_H_PMC_Beanie_Black", 0.30,
-        "CUP_H_PMC_Beanie_Khaki", 0.30,
-        "CUP_H_PMC_Cap_PRR_Grey", 0.40,
-        "CUP_H_OpsCore_Black", 0.25,
-        "CUP_H_OpsCore_Black_NoHS", 0.25
+        "H_MilCap_blue", 0.50
     };
     CBA_facewearList[] = {
-        "CUP_G_Oakleys_Drk", 0.20,
-        "CUP_G_Oakleys_Embr", 0.20,
-        "CUP_G_Oakleys_Clr", 0.20
+        "G_Aviator", 1
     };
     editorSubcategory = "TACU_Police_EdSubCat_B_Enforcer";
 };
@@ -177,6 +167,8 @@ class TACU_Police_V_B_Van_Cargo_Blue: Van_02_vehicle_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
+    textureList[] = {};
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
     };
@@ -209,6 +201,7 @@ class TACU_Police_V_B_Van_Transport_Blue: Van_02_transport_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
+    textureList[] = {};
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
     };

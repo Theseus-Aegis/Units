@@ -12,8 +12,8 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     uniformClass = "TACU_Police_Uniform_Combat_Green";
     backpack = "";
     editorPreview = QPATHTOF(ui\Police_U_O_CT_Rifleman.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", "CUP_RUS_Balaclava_grn", "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", "CUP_RUS_Balaclava_grn", "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", "G_Balaclava_oli", "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", "G_Balaclava_oli", "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_AS_VAL", "hgun_Rook40_F", "Throw", "Put"};
@@ -24,9 +24,8 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", 1
     };
     CBA_facewearList[] = {
-        "CUP_RUS_Balaclava_grn", 0.30,
-        "CUP_RUS_Balaclava_blk", 0.30,
-        "G_Balaclava_TI_G_blk_F", 0.30
+        "G_Balaclava_oli", 0.50,
+        "G_Balaclava_blk", 0.50
     };
     editorSubcategory = "TACU_Police_EdSubCat_O_CT";
 };
@@ -71,25 +70,17 @@ class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
 class TACU_Police_U_O_Enforcer_SMG_1: TACU_Police_U_O_CT_Rifleman {
     displayName = "SMG (Vityaz)";
     editorPreview = QPATHTOF(ui\Police_U_O_Enforcer_SMG_1.jpg);
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Beret", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_SLA_Beret", "CUP_G_Oakleys_Drk", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Beret_blk", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Beret_blk", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
     weapons[] = {"CUP_smg_vityaz", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_vityaz", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_AI_30Rnd_9x19_Vityaz"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
     respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_9x19_Vityaz"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
     headgearList[] = {
-        "CUP_H_SLA_Beret", 0.80,
-        "CUP_H_PMC_Cap_Tan", 0.50,
-        "CUP_H_PMC_Cap_PRR_Grey", 0.50,
-        "CUP_H_PMC_Beanie_Khaki", 0.20,
-        "CUP_H_SLA_BeanieGreen", 0.20,
-        "CUP_H_PMC_Beanie_Black", 0.20,
+        "H_Beret_blk", 1
     };
     CBA_facewearList[] = {
-        "CUP_G_Oakleys_Drk", 0.25,
-        "CUP_G_Oakleys_Embr", 0.25,
-        "CUP_G_Oakleys_Clr", 0.25,
-        "G_Shades_Black", 0.25
+        "G_Aviator", 1
     };
     editorSubcategory = "TACU_Police_EdSubCat_O_Enforcer";
 };
@@ -122,20 +113,6 @@ class TACU_Police_U_O_Enforcer_Breacher: TACU_Police_U_O_Enforcer_SMG_1 {
 };
 
 // Vehicles
-class TACU_Police_V_O_BRDM2_BlackRus: CUP_O_BRDM2_RUS {
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Police_O";
-    side = 0;
-    displayName = "BRDM-2 (Police, Black)";
-    crew = "TACU_Police_U_O_CT_Rifleman";
-    typicalCargo[] = {"TACU_Police_U_O_CT_Rifleman"};
-    editorPreview = QPATHTOF(ui\Police_V_O_BRDM2_BlackRus.jpg);
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\Police_V_BRDM2_BlackRus_co.paa),
-        "\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"
-    };
-};
-
 class TACU_Police_V_O_Offroad_Black: Offroad_01_unarmed_base_F {
     MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
@@ -195,6 +172,8 @@ class TACU_Police_V_O_Van_Cargo_Black: Van_02_vehicle_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
+    textureList[] = {};
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
     };
@@ -227,6 +206,8 @@ class TACU_Police_V_O_Van_Transport_Black: Van_02_transport_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
+    textureList[] = {};
+
     class EventHandlers: EventHandlers {
         init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
     };
