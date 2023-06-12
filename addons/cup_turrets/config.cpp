@@ -7,6 +7,8 @@ class CfgPatches {
             "TACU_CUP_Turrets_AGS_O",
             "TACU_CUP_Turrets_D30_O",
             "TACU_CUP_Turrets_D30AT_O",
+            "TACU_CUP_Turrets_DSHKM_O",
+            "TACU_CUP_Turrets_DSHKM_Mini_O",
             "TACU_CUP_Turrets_IGLA_O",
             "TACU_CUP_Turrets_KORD_O",
             "TACU_CUP_Turrets_KORD_Mini_O",

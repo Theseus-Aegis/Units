@@ -4,6 +4,8 @@ class CfgVehicles {
     class CUP_AGS_base;
     class CUP_D30_AT_base;
     class CUP_D30_base;
+    class CUP_DSHKM_base;
+    class CUP_DSHKM_MiniTripod_base;
     class CUP_Igla_AA_pod_Base;
     class CUP_KORD_High_Base;
     class CUP_KORD_MiniTripod_Base;
@@ -22,6 +24,14 @@ class CfgVehicles {
         MACRO_EMPTYTURRETS
     };
     class TACU_CUP_Turrets_D30AT_O: CUP_D30_AT_base {
+        MACRO_EMPTYTURRETS
+    };
+
+    // DSHKM & DSHKM MiniTripod
+    class TACU_CUP_Turrets_DSHKM_O: CUP_DSHKM_base {
+        MACRO_EMPTYTURRETS
+    };
+    class TACU_CUP_Turrets_DSHKM_Mini_O: CUP_DSHKM_MiniTripod_base {
         MACRO_EMPTYTURRETS
     };
 
@@ -57,4 +67,10 @@ class CfgVehicles {
     class TACU_CUP_Turrets_ZU23_O: CUP_ZU23_base {
         MACRO_EMPTYTURRETS
     };
+
+    // Remove broken turrets
+    delete CUP_B_M134_A_USMC;
+    delete CUP_B_M134_A_US_ARMY;
+    delete CUP_B_M134_A_GER;
+    delete CUP_B_M134_A_GB;
 };
