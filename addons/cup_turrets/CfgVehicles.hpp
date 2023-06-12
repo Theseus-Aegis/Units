@@ -1,6 +1,5 @@
 class CfgVehicles {
     // Base classes
-    class CUP_2b14_82mm_Base;
     class CUP_AGS_base;
     class CUP_D30_AT_base;
     class CUP_D30_base;
@@ -50,11 +49,6 @@ class CfgVehicles {
 
     // Metis AT-13
     class TACU_CUP_Turrets_Metis_O: CUP_Metis_Base {
-        MACRO_EMPTYTURRETS
-    };
-
-    // Podnos 2B14 Mortar
-    class TACU_CUP_Turrets_Podnos_O: CUP_2b14_82mm_Base {
         MACRO_EMPTYTURRETS
     };
 
