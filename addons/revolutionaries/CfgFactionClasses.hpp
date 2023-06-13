@@ -15,19 +15,10 @@ class CfgEditorSubcategories {
     class TACU_Revolutionaries_EdSubCat_Tanoan {
         displayName = "Men (Tanoans)";
     };
-    class TACU_Revolutionaries_EdSubCat_Russian {
-        displayName = "Men (Russians)";
-    };
     class TACU_Revolutionaries_EdSubCat_TanoanVet {
         displayName = "Veterans (Tanoans)";
     };
-    class TACU_Revolutionaries_EdSubCat_RussianVet {
-        displayName = "Veterans (Russians)";
-    };
     class TACU_Revolutionaries_EdSubCat_Cars_Tanoa {
         displayName = "Cars (Tanoans)";
-    };
-    class TACU_Revolutionaries_EdSubCat_Cars_Russian {
-        displayName = "Cars (Russians)";
     };
 };

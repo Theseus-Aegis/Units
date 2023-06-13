@@ -163,8 +163,6 @@ class CfgVehicles {
         };
     };
 
-    #include "CfgVehicles_I_Russian.hpp"
     #include "CfgVehicles_I_Tanoan.hpp"
-    #include "CfgVehicles_O_Russian.hpp"
     #include "CfgVehicles_O_Tanoan.hpp"
 };
