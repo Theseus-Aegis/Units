@@ -11,8 +11,8 @@ class TACU_Vanguard_U_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_Bas
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "milgp_v_jpc_assaulter_belt_khk"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "milgp_v_jpc_assaulter_belt_khk"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "TACU_Vanguard_V_PlateCarrier_Earth"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "TACU_Vanguard_V_PlateCarrier_Earth"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"TACU_Vanguard_W_F2000_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};

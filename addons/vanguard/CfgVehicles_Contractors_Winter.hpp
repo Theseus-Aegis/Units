@@ -13,8 +13,8 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
     backpack = "";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "CUP_V_PMC_CIRAS_Winter_TL"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "CUP_V_PMC_CIRAS_Winter_TL"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "TACU_Vanguard_V_PlateCarrier_Snow"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "TACU_Vanguard_V_PlateCarrier_Snow"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};

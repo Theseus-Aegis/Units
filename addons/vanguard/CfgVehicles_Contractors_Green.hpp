@@ -12,8 +12,8 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     sensitivityEar = 0.15;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
     backpack = "";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "V_PlateCarrier2_rgr_noflag_F"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "V_PlateCarrier2_rgr_noflag_F"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "TACU_Vanguard_V_PlateCarrier_Foliage"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "TACU_Vanguard_V_PlateCarrier_Foliage"};
     Items[] = {mag_5("ACE_fieldDressing")};
     respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"arifle_Mk20_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
