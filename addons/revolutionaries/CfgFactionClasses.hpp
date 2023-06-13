@@ -1,12 +1,14 @@
 class CfgFactionClasses {
     class TACU_Revolutionaries_I {
-        displayName = "Civil Defense";
+        //displayName = "Civil Defense";
+        displayName = "DEPRECATED";
         side = 2;
         priority = 2;
     };
 
     class TACU_Revolutionaries_O: TACU_Revolutionaries_I {
-        displayName = "Revolutionaries";
+        //displayName = "Revolutionaries";
+        displayName = "DEPRECATED";
         side = 0;
     };
 };

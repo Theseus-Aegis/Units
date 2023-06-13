@@ -1,12 +1,14 @@
 class CfgFactionClasses {
     class TACU_SevenRings_I_Western {
-        displayName = "Seven Rings (West)";
+        //displayName = "Seven Rings (West)";
+        displayName = "DEPRECATED";
         side = 2;
         priority = 2;
     };
 
     class TACU_SevenRings_I_Eastern {
-        displayName = "Seven Rings (East)";
+        //displayName = "Seven Rings (East)";
+        displayName = "DEPRECATED";
         side = 2;
         priority = 2;
     };
