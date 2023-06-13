@@ -84,7 +84,6 @@ class CfgPatches {
             "TACU_Revolutionaries_V_O_Offroad",
             "TACU_Revolutionaries_V_O_Van",
             "TACU_Revolutionaries_V_O_Jeep_LMG"
-            */
         };
         weapons[] = {
             "TACU_Revolutionaries_W_CZ805A2",
