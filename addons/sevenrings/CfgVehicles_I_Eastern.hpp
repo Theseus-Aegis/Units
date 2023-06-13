@@ -14,11 +14,13 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_cb"
+        "milgp_v_marciras_assaulter_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_cb"
+        "milgp_v_marciras_assaulter_cb",
+        "H_turban_02_mask_black_lxws"
     };
     Items[] = {};
     respawnItems[] = {};
@@ -37,9 +39,6 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     respawnMagazines[] = {
         mag_9("tacgt_AI_30Rnd_556x45_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
-    };
-    headgearList[] = {
-        "H_turban_02_mask_black_lxws", 1
     };
     CBA_facewearList[] = {"", 1};
     editorPreview = QPATHTOF(ui\SevenRings_U_I_Eastern_Rifleman_01.jpg);

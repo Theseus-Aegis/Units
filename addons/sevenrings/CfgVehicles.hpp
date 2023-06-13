@@ -25,6 +25,7 @@ class CfgVehicles {
     class I_G_Offroad_01_armor_base_lxWS;
     class I_G_Offroad_01_armed_F;
     class I_G_Offroad_01_armor_armed_lxWS;
+    class O_APC_Wheeled_02_hmg_lxWS;
     // Eastern - Turrets
     class TACU_CUP_Turrets_AGS_O;
     class TACU_CUP_Turrets_D30_O;

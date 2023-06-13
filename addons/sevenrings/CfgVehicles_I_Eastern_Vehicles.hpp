@@ -75,6 +75,17 @@ class TACU_SevenRings_V_I_Offroad_Armored_M2: I_G_Offroad_01_armor_armed_lxWS {
     editorPreview = QPATHTOF(ui\SevenRings_V_I_Hilux_Armored_M2.jpg);
 };
 
+class TACU_SevenRings_V_I_Marid_M2: O_APC_Wheeled_02_hmg_lxWS {
+    MACRO_EASTERN_VEHICLE
+    displayName = "MSE-3 Marid (HMG)";
+    crew = "TACU_SevenRings_U_I_Eastern_Rifleman_01";
+    typicalCargo[] = {
+        "TACU_SevenRings_U_I_Eastern_Engineer_01",
+        "TACU_SevenRings_U_I_Eastern_Rifleman_02"
+    };
+    editorPreview = QPATHTOF(ui\SevenRings_V_I_Hilux_M2.jpg);
+};
+
 // Turrets
 class TACU_SevenRings_V_I_AGS30: TACU_CUP_Turrets_AGS_O {
     MACRO_EASTERN_VEHICLE

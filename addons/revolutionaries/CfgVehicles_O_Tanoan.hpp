@@ -2,6 +2,7 @@
 class TACU_Main_U_OPFOR_Soldier_Base;
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     faction = "TACU_Revolutionaries_O";
+    side = 0;
     scope = 2;
     scopeCurator = 2;
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "G_Balaclava_blk"};

@@ -15,12 +15,14 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_assaulter_rgr",
-        "G_Balaclava_blk"
+        "G_Balaclava_blk",
+        "H_HelmetSpecB"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_assaulter_rgr",
-        "G_Balaclava_blk"
+        "G_Balaclava_blk",
+        "H_HelmetSpecB"
     };
     Items[] = {};
     respawnItems[] = {};

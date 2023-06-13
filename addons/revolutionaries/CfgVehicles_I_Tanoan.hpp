@@ -174,8 +174,8 @@ class TACU_Revolutionaries_V_I_Offroad: C_Offroad_01_F {
     faction = "TACU_Revolutionaries_I";
     side = 2;
     displayName = "Offroad";
-    crew = "TACU_Revolutionaries_U_I_Pistoleer01";
-    typicalCargo[] = {"TACU_Revolutionaries_U_I_Pistoleer01"};
+    crew = "TACU_Revolutionaries_U_I_Tanoan_Pistoleer01";
+    typicalCargo[] = {"TACU_Revolutionaries_U_I_Tanoan_Pistoleer01"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_I_Offroad.jpg);
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
 };
@@ -187,8 +187,8 @@ class TACU_Revolutionaries_V_I_Hatchback: C_Hatchback_01_F {
     faction = "TACU_Revolutionaries_I";
     side = 2;
     displayName = "Hatchback";
-    crew = "TACU_Revolutionaries_U_I_Pistoleer02";
-    typicalCargo[] = {"TACU_Revolutionaries_U_I_Pistoleer02"};
+    crew = "TACU_Revolutionaries_U_I_Tanoan_Pistoleer02";
+    typicalCargo[] = {"TACU_Revolutionaries_U_I_Tanoan_Pistoleer02"};
     editorPreview = QPATHTOF(ui\Revolutionaries_V_I_Hatchback.jpg);
     editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
 };
