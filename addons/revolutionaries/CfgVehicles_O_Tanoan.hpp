@@ -273,7 +273,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifl
 };
 
 // Veterans
-class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01: TACU_Revolutionaries_U_O_Russian_Rifleman01 {
+class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
     displayName = "Rifleman (FAMAS)";
     uniformClass = "U_BG_Guerrilla_6_1";
     backpack = "B_FieldPack_green_F";
