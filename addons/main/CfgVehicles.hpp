@@ -13,6 +13,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 1;
         side = 1;
+        sensitivity = 5;
         sensitivityEar = 0.125;
         model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
         identityTypes[] = {"LanguageENG_F", "Head_NATO", "NoGlasses"};
@@ -49,6 +50,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 1;
         side = 0;
+        sensitivity = 5;
         sensitivityEar = 0.125;
         model = "\A3\characters_F\OPFOR\o_soldier_01.p3d";
         identityTypes[] = {"LanguagePER_F", "Head_TK", "NoGlasses"};
@@ -85,6 +87,7 @@ class CfgVehicles {
         scope = 1;
         scopeCurator = 1;
         side = 2;
+        sensitivity = 5;
         sensitivityEar = 0.125;
         model = "\A3\Characters_F_Beta\INDEP\ia_soldier_01.p3d";
         identityTypes[] = {"LanguageGRE_F", "Head_Greek", "NoGlasses"};

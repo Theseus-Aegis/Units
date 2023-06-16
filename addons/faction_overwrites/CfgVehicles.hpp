@@ -1,4 +1,6 @@
 class CfgVehicles {
+    #include "CfgVehicles_Sensitivity.hpp"
+
     // Base classes - Vanilla
     class B_Soldier_F;
     class I_C_Soldier_base_F;
