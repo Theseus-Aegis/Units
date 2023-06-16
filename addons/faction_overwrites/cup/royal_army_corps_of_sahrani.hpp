@@ -4,6 +4,18 @@ class CUP_I_RACS_Soldier: CUP_I_RACS_Desert_Soldier_02 {
     //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
     //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
+class CUP_I_RACS_Soldier_Unarmed: CUP_I_RACS_Soldier {
+    scope = 1;
+};
+class CUP_I_RACS_Soldier_Unarmed_Mech: CUP_I_RACS_Soldier_Unarmed {
+    scope = 1;
+};
+class CUP_I_RACS_Soldier_Unarmed_Urban: CUP_I_RACS_Soldier_Unarmed {
+    scope = 1;
+};
+class CUP_I_RACS_Soldier_Unarmed_wdl: CUP_I_RACS_Soldier_Unarmed {
+    scope = 1;
+};
 class CUP_I_RACS_Soldier_LAT: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_M72A6_M"};

@@ -139,3 +139,6 @@ class CUP_O_TK_SpecOps_MG: CUP_O_TK_SpecOps {
     //magazines[] = {mag_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"), mag_2("CUP_HandGrenade_RGD5"), mag_2("SmokeShell"), mag_4("CUP_8Rnd_9x18_Makarov_M")};
     //respawnMagazines[] = {mag_4("CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"), mag_2("CUP_HandGrenade_RGD5"), mag_2("SmokeShell"), mag_4("CUP_8Rnd_9x18_Makarov_M")};
 };
+class CUP_O_TK_Story_Aziz: CUP_O_TK_Commander {
+    scope = 1;
+};
