@@ -20,7 +20,8 @@ class CfgFactionClasses {
 
 class CfgEditorSubcategories {
     class TACU_Takistan_EdSubCat_TakistanSF {
-        displayName = "Men (Takistani SF)";
+        //displayName = "Men (Takistani SF)";
+        displayName = "DEPRECATED";
     };
     class TACU_Takistan_EdSubCat_Regular {
         displayName = "Men (Regular)";
