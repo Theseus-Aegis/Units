@@ -9,6 +9,10 @@ class CfgPatches {
         requiredAddons[] = {
             "tacu_main",
             "tacgt_ammunitionai",
+            "A3_athena_Data_F_athena",
+            "A3_Atlas_Data_F_Atlas",
+            "A3_Aegis_Data_F_Aegis",
+            "A3_Revolucion_Data_F_Revolucion",
             "MU_divers",
             "MU_greendagers",
             "MU_MILITIA",
@@ -24,3 +28,4 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgFactionClasses.hpp"

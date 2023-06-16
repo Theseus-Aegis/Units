@@ -18,7 +18,8 @@ class CfgEditorSubcategories {
         displayName = "Men (Contractors - Sand)";
     };
     class TACU_Vanguard_EdSubCat_Contractors_Winter {
-        displayName = "Men (Contractors - Winter)";
+        //displayName = "Men (Contractors - Winter)";
+        displayName = "DEPRECATED";
     };
     class TACU_Vanguard_EdSubCat_Guards {
         displayName = "Men (Guards)";

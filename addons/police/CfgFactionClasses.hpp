@@ -1,6 +1,7 @@
 class CfgFactionClasses {
     class TACU_Police_B {
-        displayName = "Law Enforcement";
+        //displayName = "Law Enforcement";
+        displayName = "DEPRECATED";
         side = 1;
         priority = 2;
     };
