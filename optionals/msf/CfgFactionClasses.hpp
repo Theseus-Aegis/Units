@@ -1,7 +1,6 @@
 class CfgFactionClasses {
     class TACU_MSF_I {
-        //displayName = "Militaires Sans Frontières";
-        displayName = "DEPRECATED";
+        displayName = "Militaires Sans Frontières";
         side = 2;
         priority = 2;
     };

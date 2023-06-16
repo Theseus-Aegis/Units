@@ -1,7 +1,6 @@
 class CfgFactionClasses {
     class TACU_PLR_O {
-        //displayName = "People's Liberation and Resistance";
-        displayName = "DEPRECATED";
+        displayName = "People's Liberation and Resistance";
         side = 0;
         priority = 2;
     };
