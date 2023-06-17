@@ -476,3 +476,15 @@ class CUP_I_KORD_UN: CUP_KORD_MiniTripod_Base {
 class CUP_I_SearchLight_static_UN: CUP_SearchLight_static_base {
     scope = 1;
 };
+class CUP_B_M134_A_USMC: CUP_M134_A_base {
+    scope = 1;
+};
+class CUP_B_M134_A_US_ARMY: CUP_B_M134_A_USMC {
+    scope = 1;
+};
+class CUP_B_M134_A_GER: CUP_B_M134_A_USMC {
+    scope = 1;
+};
+class CUP_B_M134_A_GB: CUP_B_M134_A_USMC {
+    scope = 1;
+};

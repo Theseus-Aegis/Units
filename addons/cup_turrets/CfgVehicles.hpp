@@ -61,23 +61,4 @@ class CfgVehicles {
     class TACU_CUP_Turrets_ZU23_O: CUP_ZU23_base {
         MACRO_EMPTYTURRETS
     };
-
-    // Remove broken turrets (delete doesn't work for some reason)
-    class CUP_M134_A_base;
-    class CUP_B_M134_A_USMC: CUP_M134_A_base {
-        faction = "";
-        scope = 1;
-    };
-    class CUP_B_M134_A_US_ARMY: CUP_B_M134_A_USMC {
-        faction = "";
-        scope = 1;
-    };
-    class CUP_B_M134_A_GER: CUP_B_M134_A_USMC {
-        faction = "";
-        scope = 1;
-    };
-    class CUP_B_M134_A_GB: CUP_B_M134_A_USMC {
-        faction = "";
-        scope = 1;
-    };
 };

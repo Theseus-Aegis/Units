@@ -248,6 +248,7 @@ class CUP_L111A1_MiniTripod_base;
 class CUP_L134A1_TriPod_base;
 class CUP_L16A2_base;
 class CUP_M119_base;
+class CUP_M134_A_base;
 class CUP_M252_base;
 class CUP_M2StaticMG_base;
 class CUP_M2StaticMG_MiniTripod_base;
