@@ -68,7 +68,6 @@ class CfgPatches {
             "TACU_Vanguard_U_O_Contractor_Sand_Rifleman_02",
             "TACU_Vanguard_U_O_Contractor_Sand_Rifleman_AT",
             "TACU_Vanguard_U_O_Contractor_Sand_TeamLeader",
-            /*
             // Units - (Indep - Winter)
             "TACU_Vanguard_U_Contractor_Winter_Autorifleman",
             "TACU_Vanguard_U_Contractor_Winter_Grenadier",
@@ -87,7 +86,6 @@ class CfgPatches {
             "TACU_Vanguard_U_O_Contractor_Winter_Rifleman_02",
             "TACU_Vanguard_U_O_Contractor_Winter_Rifleman_AT",
             "TACU_Vanguard_U_O_Contractor_Winter_TeamLeader",
-            */
             // Units - (Indep - Specialists)
             "TACU_Vanguard_U_Specialist_Rifleman",
             "TACU_Vanguard_U_Specialist_Rifleman_AT",

@@ -11,7 +11,7 @@ class TACU_SevenRings_V_I_AH6_Little_Bird: B_Heli_Light_01_dynamicLoadout_F {
         "A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_ION_CO.paa",
         "a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_AH6_Little_Bird.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_AH6_Little_Bird)
 };
 
 class TACU_SevenRings_V_I_CH47_Chinook_Unarmed: B_Heli_Transport_03_unarmed_F {
@@ -22,7 +22,7 @@ class TACU_SevenRings_V_I_CH47_Chinook_Unarmed: B_Heli_Transport_03_unarmed_F {
         "TACU_SevenRings_U_I_Western_Pilot_01",
         "TACU_SevenRings_U_I_Western_Engineer_03"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_CH47_Chinook_Unarmed.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_CH47_Chinook_Unarmed)
 };
 
 class TACU_SevenRings_V_I_CH47_Chinook_Armed: B_Heli_Transport_03_F {
@@ -33,7 +33,7 @@ class TACU_SevenRings_V_I_CH47_Chinook_Armed: B_Heli_Transport_03_F {
         "TACU_SevenRings_U_I_Western_Pilot_01",
         "TACU_SevenRings_U_I_Western_Engineer_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_CH47_Chinook_Armed.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_CH47_Chinook_Armed)
 };
 
 class TACU_SevenRings_V_I_UH80_Ghost_Hawk: B_Heli_Transport_01_F {
@@ -44,7 +44,7 @@ class TACU_SevenRings_V_I_UH80_Ghost_Hawk: B_Heli_Transport_01_F {
         "TACU_SevenRings_U_I_Western_Pilot_01",
         "TACU_SevenRings_U_I_Western_Engineer_01"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_UH80_Ghost_Hawk.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_UH80_Ghost_Hawk)
 };
 // Boats
 class TACU_SevenRings_V_I_Assault_Boat: B_Boat_Transport_01_F {
@@ -55,7 +55,7 @@ class TACU_SevenRings_V_I_Assault_Boat: B_Boat_Transport_01_F {
         "TACU_SevenRings_U_I_Western_Engineer_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_Assault_Boat.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_Assault_Boat)
 };
 // Cars
 class TACU_SevenRings_V_I_Offroad_Covered: C_Offroad_01_covered_F {
@@ -66,7 +66,7 @@ class TACU_SevenRings_V_I_Offroad_Covered: C_Offroad_01_covered_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_Offroad_Covered.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_Offroad_Covered)
 };
 
 class TACU_SevenRings_V_I_MATV: B_MRAP_01_F {
@@ -77,7 +77,7 @@ class TACU_SevenRings_V_I_MATV: B_MRAP_01_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Engineer_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_MATV.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_MATV)
 };
 
 class TACU_SevenRings_V_I_MATV_HMG: B_MRAP_01_hmg_F {
@@ -88,7 +88,7 @@ class TACU_SevenRings_V_I_MATV_HMG: B_MRAP_01_hmg_F {
         "TACU_SevenRings_U_I_Western_Engineer_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_MATV_HMG.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_MATV_HMG)
 };
 
 class TACU_SevenRings_V_I_Fennek: I_MRAP_03_F {
@@ -103,7 +103,7 @@ class TACU_SevenRings_V_I_Fennek: I_MRAP_03_F {
         "\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa",
         "\a3\data_f\vehicles\turret_co.paa"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_Fennek.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_Fennek)
 };
 
 class TACU_SevenRings_V_I_Fennek_HMG: I_MRAP_03_hmg_F {
@@ -118,7 +118,7 @@ class TACU_SevenRings_V_I_Fennek_HMG: I_MRAP_03_hmg_F {
         "\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa",
         "\a3\data_f\vehicles\turret_co.paa"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_Fennek_HMG.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_Fennek_HMG)
 };
 
 class TACU_SevenRings_V_I_Polaris_Dagor: B_LSV_01_unarmed_F {
@@ -129,7 +129,7 @@ class TACU_SevenRings_V_I_Polaris_Dagor: B_LSV_01_unarmed_F {
         "TACU_SevenRings_U_I_Western_Engineer_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_Polaris_Dagor.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_Polaris_Dagor)
 };
 
 class TACU_SevenRings_V_I_Polaris_Dagor_XM312: B_LSV_01_armed_F {
@@ -140,7 +140,7 @@ class TACU_SevenRings_V_I_Polaris_Dagor_XM312: B_LSV_01_armed_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_Polaris_Dagor_XM312.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_Polaris_Dagor_XM312)
 };
 
 class TACU_SevenRings_V_I_HEMTT_Transport: B_Truck_01_transport_F {
@@ -151,7 +151,7 @@ class TACU_SevenRings_V_I_HEMTT_Transport: B_Truck_01_transport_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Engineer_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_HEMTT_Transport.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_HEMTT_Transport)
 };
 
 class TACU_SevenRings_V_I_HEMTT_Transport_Covered: B_Truck_01_covered_F {
@@ -162,7 +162,7 @@ class TACU_SevenRings_V_I_HEMTT_Transport_Covered: B_Truck_01_covered_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Engineer_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_HEMTT_Transport_Covered.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_HEMTT_Transport_Covered)
 };
 
 // APCs
@@ -180,7 +180,7 @@ class TACU_SevenRings_V_I_PANDUR_II: I_APC_Wheeled_03_cannon_F {
         "A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
         "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_PANDUR_II.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_PANDUR_II)
 };
 
 class TACU_SevenRings_V_I_Badger_IFV: B_APC_Wheeled_01_cannon_F {
@@ -191,5 +191,5 @@ class TACU_SevenRings_V_I_Badger_IFV: B_APC_Wheeled_01_cannon_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    editorPreview = QPATHTOF(ui\SevenRings_V_I_Badger_IFV.jpg);
+    //EDITORPREVIEW(SevenRings_V_I_Badger_IFV)
 };

@@ -8,7 +8,7 @@ class TACU_Vanguard_V_UH80_Ghosthawk: B_Heli_Transport_01_F {
     crew = "TACU_Vanguard_U_Contractor_Pilot";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_V_UH80_Ghosthawk_ext01_CO.paa), QPATHTOF(data\Vanguard_V_UH80_Ghosthawk_ext02_CO.paa)};
-    editorPreview = QPATHTOF(ui\Vanguard_V_UH80_Ghosthawk.jpg);
+    //EDITORPREVIEW(Vanguard_V_UH80_Ghosthawk)
 };
 
 class TACU_Vanguard_V_O_UH80_Ghosthawk: TACU_Vanguard_V_UH80_Ghosthawk {
@@ -28,7 +28,7 @@ class TACU_Vanguard_V_AH9_Pawnee: B_Heli_Light_01_dynamicLoadout_F {
     crew = "TACU_Vanguard_U_Contractor_Pilot";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_V_AH9_Pawnee_CO.paa)};
-    editorPreview = QPATHTOF(ui\Vanguard_V_AH9_Pawnee.jpg);
+    //EDITORPREVIEW(Vanguard_V_AH9_Pawnee)
 };
 
 class TACU_Vanguard_V_O_AH9_Pawnee: TACU_Vanguard_V_AH9_Pawnee {
@@ -47,7 +47,7 @@ class TACU_Vanguard_V_Offroad_Armed: tacs_Offroad_B_Armed_Black {
     displayName = "Offroad (Armed)";
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Offroad_Armed.jpg);
+    //EDITORPREVIEW(Vanguard_V_Offroad_Armed)
 };
 
 class TACU_Vanguard_V_O_Offroad_Armed: TACU_Vanguard_V_Offroad_Armed {
@@ -66,7 +66,7 @@ class TACU_Vanguard_V_Dagor_Green: tacs_Polaris_B_Green {
     displayName = "Polaris Dagor (Green)";
     crew = "TACU_Vanguard_U_Contractor_Green_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Dagor_Green.jpg);
+    //EDITORPREVIEW(Vanguard_V_Dagor_Green)
 };
 
 class TACU_Vanguard_V_O_Dagor_Green: TACU_Vanguard_V_Dagor_Green {
@@ -85,7 +85,7 @@ class TACU_Vanguard_V_Dagor_Armed_Green: tacs_Polaris_B_Armed_Green {
     displayName = "Polaris Dagor (XM312) Green";
     crew = "TACU_Vanguard_U_Contractor_Green_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Dagor_Armed_Green.jpg);
+    //EDITORPREVIEW(Vanguard_V_Dagor_Armed_Green)
 };
 
 class TACU_Vanguard_V_O_Dagor_Armed_Green: TACU_Vanguard_V_Dagor_Armed_Green {
@@ -110,7 +110,7 @@ class TACU_Vanguard_V_AFV4_Gorgon: I_APC_Wheeled_03_cannon_F {
         "A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
         "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"
     };
-    editorPreview = QPATHTOF(ui\Vanguard_V_AFV4_Gorgon.jpg);
+    //EDITORPREVIEW(Vanguard_V_AFV4_Gorgon)
 };
 
 class TACU_Vanguard_V_O_AFV4_Gorgon: TACU_Vanguard_V_AFV4_Gorgon {
@@ -133,7 +133,7 @@ class TACU_Vanguard_V_Hunter: B_MRAP_01_F {
         QPATHTOF(data\Vanguard_V_Hunter_ext01_CO.paa),
         QPATHTOF(data\Vanguard_V_Hunter_ext02_CO.paa)
     };
-    editorPreview = QPATHTOF(ui\Vanguard_V_Hunter.jpg);
+    //EDITORPREVIEW(Vanguard_V_Hunter)
 };
 
 class TACU_Vanguard_V_O_Hunter: TACU_Vanguard_V_Hunter {
@@ -152,7 +152,7 @@ class TACU_Vanguard_V_Dagor_Tan: tacs_Polaris_B_Tan {
     displayName = "Polaris Dagor Sand";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Dagor_Tan.jpg);
+    //EDITORPREVIEW(Vanguard_V_Dagor_Tan)
 };
 
 class TACU_Vanguard_V_O_Dagor_Tan: TACU_Vanguard_V_Dagor_Tan {
@@ -171,7 +171,7 @@ class TACU_Vanguard_V_Dagor_Armed_Tan: tacs_Polaris_B_Armed_Tan {
     displayName = "Polaris Dagor (XM312) Sand";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Dagor_Armed_Tan.jpg);
+    //EDITORPREVIEW(Vanguard_V_Dagor_Armed_Tan)
 };
 
 class TACU_Vanguard_V_O_Dagor_Armed_Tan: TACU_Vanguard_V_Dagor_Armed_Tan {
@@ -191,7 +191,7 @@ class TACU_Vanguard_V_Strider: I_MRAP_03_F {
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
     hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_V_Strider_CO.paa)};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Strider.jpg);
+    //EDITORPREVIEW(Vanguard_V_Strider)
 };
 
 class TACU_Vanguard_V_O_Strider: TACU_Vanguard_V_Strider {
@@ -210,7 +210,7 @@ class TACU_Vanguard_V_Armed_Qilin: O_T_LSV_02_armed_black_F {
     displayName = "Qilin (Armed)";
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Armed_Qilin.jpg);
+    //EDITORPREVIEW(Vanguard_V_Armed_Qilin)
 };
 
 class TACU_Vanguard_V_O_Armed_Qilin: TACU_Vanguard_V_Armed_Qilin {
@@ -229,7 +229,7 @@ class TACU_Vanguard_V_Qilin: O_T_LSV_02_unarmed_black_F {
     displayName = "Qilin";
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
-    editorPreview = QPATHTOF(ui\Vanguard_V_Qilin.jpg);
+    //EDITORPREVIEW(Vanguard_V_Qilin)
 };
 
 class TACU_Vanguard_V_O_Qilin: TACU_Vanguard_V_Qilin {

@@ -9,5 +9,5 @@
     side = 0; \
     faction = "TACU_CUP_Turrets_O"; \
     editorSubcategory = "TACU_CUP_Turrets_EdSubCat_O_Turrets"; \
-    crew = ""; \
+    crew = "O_Survivor_F"; \
     typicalCargo[] = {};

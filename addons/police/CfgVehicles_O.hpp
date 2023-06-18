@@ -11,7 +11,7 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     role = "Rifleman";
     uniformClass = "TACU_Police_Uniform_Combat_Green";
     backpack = "";
-    editorPreview = QPATHTOF(ui\Police_U_O_CT_Rifleman.jpg);
+    //EDITORPREVIEW(Police_U_O_CT_Rifleman)
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", "G_Balaclava_oli", "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "TACU_Police_Helmet_PASGT_Neck_PoliceGreen", "G_Balaclava_oli", "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen"};
     Items[] = {mag_5("ACE_fieldDressing")};
@@ -32,7 +32,7 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
 
 class TACU_Police_U_O_CT_SMG_1: TACU_Police_U_O_CT_Rifleman {
     displayName = "SMG (Vityaz)";
-    editorPreview = QPATHTOF(ui\Police_U_O_CT_SMG_1.jpg);
+    //EDITORPREVIEW(Police_U_O_CT_SMG_1)
     weapons[] = {"TACU_Police_W_Vityaz_Grip", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_Vityaz_Grip", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_6("tacgt_AI_30Rnd_9x19_Vityaz"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("ACE_M84"), "CUP_HandGrenade_RGD5", "SmokeShell"};
@@ -41,7 +41,7 @@ class TACU_Police_U_O_CT_SMG_1: TACU_Police_U_O_CT_Rifleman {
 
 class TACU_Police_U_O_CT_SMG_2: TACU_Police_U_O_CT_Rifleman {
     displayName = "SMG (Vikhr)";
-    editorPreview = QPATHTOF(ui\Police_U_O_CT_SMG_2.jpg);
+    //EDITORPREVIEW(Police_U_O_CT_SMG_2)
     weapons[] = {"TACU_Police_W_Vikhr_Grip", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_Vikhr_Grip", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_6("CUP_30Rnd_9x39_SP5_VIKHR_M"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("ACE_M84"), "CUP_HandGrenade_RGD5", "SmokeShell"};
@@ -50,7 +50,7 @@ class TACU_Police_U_O_CT_SMG_2: TACU_Police_U_O_CT_Rifleman {
 
 class TACU_Police_U_O_CT_Breacher: TACU_Police_U_O_CT_Rifleman {
     displayName = "Breacher";
-    editorPreview = QPATHTOF(ui\Police_U_O_CT_Breacher.jpg);
+    //EDITORPREVIEW(Police_U_O_CT_Breacher)
     weapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_8("tacgt_20Rnd_Saiga_000"), mag_3("tacgt_AI_17Rnd_9x19_Walther"), mag_2("ACE_M84"), "CUP_HandGrenade_RGD5", "SmokeShell"};
@@ -59,7 +59,7 @@ class TACU_Police_U_O_CT_Breacher: TACU_Police_U_O_CT_Rifleman {
 
 class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
     displayName = "Marksman";
-    editorPreview = QPATHTOF(ui\Police_U_O_CT_Marksman.jpg);
+    //EDITORPREVIEW(Police_U_O_CT_Marksman)
     weapons[] = {"TACU_Police_W_Dragunov", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Police_W_Dragunov", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_6("tacgt_10Rnd_762x54r_AP"), mag_3("tacgt_AI_17Rnd_9x19_Walther")};
@@ -69,7 +69,7 @@ class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
 // Units - Police (Enforcers)
 class TACU_Police_U_O_Enforcer_SMG_1: TACU_Police_U_O_CT_Rifleman {
     displayName = "SMG (Vityaz)";
-    editorPreview = QPATHTOF(ui\Police_U_O_Enforcer_SMG_1.jpg);
+    //EDITORPREVIEW(Police_U_O_Enforcer_SMG_1)
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Beret_blk", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Beret_blk", "G_Aviator", "TACU_Police_Vest_PlateCarrier_PoliceGreen"};
     weapons[] = {"CUP_smg_vityaz", "hgun_Rook40_F", "Throw", "Put"};
@@ -87,7 +87,7 @@ class TACU_Police_U_O_Enforcer_SMG_1: TACU_Police_U_O_CT_Rifleman {
 
 class TACU_Police_U_O_Enforcer_SMG_2: TACU_Police_U_O_Enforcer_SMG_1 {
     displayName = "SMG (Bizon)";
-    editorPreview = QPATHTOF(ui\Police_U_O_Enforcer_SMG_2.jpg);
+    //EDITORPREVIEW(Police_U_O_Enforcer_SMG_2)
     weapons[] = {"CUP_smg_bizon", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_smg_bizon", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_AI_64Rnd_9x19_Bizon"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
@@ -96,7 +96,7 @@ class TACU_Police_U_O_Enforcer_SMG_2: TACU_Police_U_O_Enforcer_SMG_1 {
 
 class TACU_Police_U_O_Enforcer_SMG_3: TACU_Police_U_O_Enforcer_SMG_1 {
     displayName = "SMG (Vikhr)";
-    editorPreview = QPATHTOF(ui\Police_U_O_Enforcer_SMG_3.jpg);
+    //EDITORPREVIEW(Police_U_O_Enforcer_SMG_3)
     weapons[] = {"CUP_arifle_SR3M_Vikhr", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_SR3M_Vikhr", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_4("CUP_30Rnd_9x39_SP5_VIKHR_M"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
@@ -105,7 +105,7 @@ class TACU_Police_U_O_Enforcer_SMG_3: TACU_Police_U_O_Enforcer_SMG_1 {
 
 class TACU_Police_U_O_Enforcer_Breacher: TACU_Police_U_O_Enforcer_SMG_1 {
     displayName = "Breacher";
-    editorPreview = QPATHTOF(ui\Police_U_O_Enforcer_Breacher.jpg);
+    //EDITORPREVIEW(Police_U_O_Enforcer_Breacher)
     weapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"CUP_sgun_Saiga12K", "hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_20Rnd_Saiga_000"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
@@ -124,7 +124,7 @@ class TACU_Police_V_O_Offroad_Black: Offroad_01_unarmed_base_F {
     displayName = "Offroad (Police, Black)";
     crew = "TACU_Police_U_O_Enforcer_SMG_1";
     typicalCargo[] = {"TACU_Police_U_O_Enforcer_SMG_2"};
-    editorPreview = QPATHTOF(ui\Police_V_O_Offroad_Black.jpg);
+    //EDITORPREVIEW(Police_V_O_Offroad_Black)
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\Police_V_Offroad_BlackRus_co.paa),
         QPATHTOF(data\Police_V_Offroad_BlackRus_co.paa)
@@ -156,7 +156,7 @@ class TACU_Police_V_O_Van_Cargo_Black: Van_02_vehicle_base_F {
     displayName = "Van (Cargo, Police, Black)";
     crew = "TACU_Police_U_O_Enforcer_SMG_2";
     typicalCargo[] = {"TACU_Police_U_O_Enforcer_SMG_3"};
-    editorPreview = QPATHTOF(ui\Police_V_O_Van_Cargo_Black.jpg);
+    //EDITORPREVIEW(Police_V_O_Van_Cargo_Black)
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\Police_V_Van_BlackRus_co.paa),
         "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
@@ -190,7 +190,7 @@ class TACU_Police_V_O_Van_Transport_Black: Van_02_transport_base_F {
     displayName = "Van (Transport, Police, Black)";
     crew = "TACU_Police_U_O_Enforcer_SMG_3";
     typicalCargo[] = {"TACU_Police_U_O_Enforcer_SMG_1"};
-    editorPreview = QPATHTOF(ui\Police_V_O_Van_Transport_Black.jpg);
+    //EDITORPREVIEW(Police_V_O_Van_Transport_Black)
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\Police_V_Van_BlackRus_co.paa),
         "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
