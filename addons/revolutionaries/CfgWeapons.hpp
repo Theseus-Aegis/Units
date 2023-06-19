@@ -57,19 +57,4 @@ class CfgWeapons {
             };
         };
     };
-
-    class CUP_srifle_CZ750;
-    class TACU_Revolutionaries_W_CZ750:CUP_srifle_CZ750{
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            class LinkedItemSide {
-                slot = "CUP_PicatinnyTopMountCZ750";
-                item = "optic_lrps";
-            };
-        };
-    };
-
-
 };

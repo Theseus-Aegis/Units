@@ -18,31 +18,19 @@ class CfgVehicles {
     class I_APC_Wheeled_03_cannon_F;
     class B_APC_Wheeled_01_cannon_F;
     // Eastern Base Classes
-    class CUP_O_Kamaz_Open_RU;
-    class CUP_O_Kamaz_RU;
-    class CUP_O_Ural_Open_RU;
-    class CUP_O_Ural_RU;
-    class CUP_O_Ural_ZU23_RU;
-    class CUP_O_UAZ_Unarmed_RU;
-    class CUP_O_UAZ_MG_RU;
-    class CUP_O_UAZ_SPG9_RU;
-    class CUP_O_Hilux_unarmed_TK_INS;
-    class CUP_O_Hilux_armored_unarmed_TK_INS;
-    class CUP_O_Hilux_M2_TK_INS;
-    class CUP_O_Hilux_armored_M2_TK_INS;
-    class CUP_O_Hilux_armored_AGS30_TK_INS;
-    class CUP_O_GAZ_Vodnik_PK_RU;
-    class CUP_O_GAZ_Vodnik_AGS_RU;
-    class CUP_O_BRDM2_RUS;
-    class CUP_O_BMP2_RU;
-    class CUP_O_BTR80_SLA;
-    class CUP_O_BTR80A_SLA;
-    class CUP_O_BTR90_RU;
+    class O_SFIA_Truck_02_transport_lxWS;
+    class O_SFIA_Truck_02_covered_lxWS;
+    class O_SFIA_Truck_02_aa_lxWS;
+    class I_G_Offroad_01_F;
+    class I_G_Offroad_01_armor_base_lxWS;
+    class I_G_Offroad_01_armed_F;
+    class I_G_Offroad_01_armor_armed_lxWS;
+    class O_APC_Wheeled_02_hmg_lxWS;
     // Eastern - Turrets
-    class CUP_O_AGS_RU;
-    class CUP_O_D30_RU;
-    class CUP_O_ZU23_RU;
-    class CUP_O_DSHKM_TK_INS;
+    class TACU_CUP_Turrets_AGS_O;
+    class TACU_CUP_Turrets_D30_O;
+    class TACU_CUP_Turrets_ZU23_O;
+    class TACU_CUP_Turrets_DSHKM_O;
 
     #include "CfgVehicles_Backpacks.hpp"
     #include "CfgVehicles_I_Eastern.hpp"

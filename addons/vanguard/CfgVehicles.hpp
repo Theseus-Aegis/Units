@@ -13,7 +13,9 @@ class CfgVehicles {
     class I_MRAP_03_F;
     class O_T_LSV_02_armed_black_F;
     class O_T_LSV_02_unarmed_black_F;
+    class Vest_Base_F;
 
+    #include "CfgVehicles_Vests.hpp"
     #include "CfgVehicles_Contractors_Green.hpp"
     #include "CfgVehicles_Contractors_Sand.hpp"
     #include "CfgVehicles_Contractors_Winter.hpp"

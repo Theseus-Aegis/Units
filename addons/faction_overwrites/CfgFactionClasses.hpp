@@ -21,6 +21,7 @@ class CfgFactionClasses {
     class CUP_B_RNZN {
         displayName = "DEPRECATED";
     };
+    /*
     class CUP_C_CHERNARUS {
         displayName = "DEPRECATED";
     };
@@ -30,16 +31,17 @@ class CfgFactionClasses {
     class CUP_C_SAHRANI {
         displayName = "DEPRECATED";
     };
-    class CUP_O_TK {
-        displayName = "DEPRECATED";
-    };
-    class CUP_O_TK_MILITIA {
-        displayName = "DEPRECATED";
-    };
     class CUP_C_TK {
         displayName = "DEPRECATED";
     };
     class CUP_C_Special {
+        displayName = "DEPRECATED";
+    };
+    */
+    class CUP_O_TK {
+        displayName = "DEPRECATED";
+    };
+    class CUP_O_TK_MILITIA {
         displayName = "DEPRECATED";
     };
     class CUP_B_US {

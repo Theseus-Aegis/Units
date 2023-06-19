@@ -1,3 +1,4 @@
+// Needs CUP Removals.
 #include "script_component.hpp"
 
 class CfgPatches {
@@ -47,7 +48,6 @@ class CfgPatches {
             "TACU_Police_V_I_Offroad_Black",
             "TACU_Police_V_I_Van_Cargo_Black",
             "TACU_Police_V_I_Van_Transport_Black",
-            "TACU_Police_V_O_BRDM2_BlackRus",
             "TACU_Police_V_O_Offroad_Black",
             "TACU_Police_V_O_Van_Cargo_Black",
             "TACU_Police_V_O_Van_Transport_Black"

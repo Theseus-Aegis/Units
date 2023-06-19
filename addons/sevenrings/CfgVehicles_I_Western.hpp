@@ -5,22 +5,24 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     editorSubcategory = "TACU_SevenRings_EdSubCat_Western";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"CUP_D_Language_CZ_ACR", "Head_Euro", "Head_Enoch"};
-    genericNames = "CUP_Names_CzechMen";
+    identityTypes[] = {"LanguageRUS_F", "Head_Euro", "Head_Enoch"};
+    genericNames = "EnochMen";
     icon = "iconMan";
     role = "Rifleman";
     sensitivityEar = 0.15;
-    uniformClass = "CUP_I_B_PMC_Unit_40";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_assaulter_rgr",
-        "G_Balaclava_blk"
+        "G_Balaclava_blk",
+        "H_HelmetSpecB"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_assaulter_rgr",
-        "G_Balaclava_blk"
+        "G_Balaclava_blk",
+        "H_HelmetSpecB"
     };
     Items[] = {};
     respawnItems[] = {};
@@ -51,12 +53,12 @@ class TACU_SevenRings_U_I_Western_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         "H_HelmetB_light_black", 0.50,
         "H_Booniehat_khk", 0.25
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Rifleman_01)
 };
 
 class TACU_SevenRings_U_I_Western_Rifleman_02: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Rifleman (SA58)";
-    uniformClass = "CUP_I_B_PMC_Unit_38";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_SA58_Grip",
         MACRO_WEST_DEFAULT_WEAPON
@@ -73,12 +75,12 @@ class TACU_SevenRings_U_I_Western_Rifleman_02: TACU_SevenRings_U_I_Western_Rifle
         mag_8("tacgt_AI_20Rnd_762x51_FAL"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Rifleman_02)
 };
 
 class TACU_SevenRings_U_I_Western_Rifleman_03: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Rifleman (G36K)";
-    uniformClass = "CUP_I_B_PMC_Unit_42";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_G36K_Grip",
         MACRO_WEST_DEFAULT_WEAPON
@@ -95,13 +97,13 @@ class TACU_SevenRings_U_I_Western_Rifleman_03: TACU_SevenRings_U_I_Western_Rifle
         mag_8("tacgt_AI_30Rnd_556x45_G36"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Rifleman_03)
 };
 
 class TACU_SevenRings_U_I_Western_Grenadier_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Grenadier (CZ BREN)";
     role = "Grenadier";
-    uniformClass = "CUP_I_B_PMC_Unit_41";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "milgp_v_marciras_grenadier_belt_rgr",
@@ -130,12 +132,12 @@ class TACU_SevenRings_U_I_Western_Grenadier_01: TACU_SevenRings_U_I_Western_Rifl
         mag_4("1Rnd_HE_Grenade_shell"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Grenadier_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Grenadier_01)
 };
 
 class TACU_SevenRings_U_I_Western_Grenadier_02: TACU_SevenRings_U_I_Western_Grenadier_01 {
     displayName = "Grenadier (SA58)";
-    uniformClass = "CUP_I_B_PMC_Unit_43";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_SA58_GL",
         MACRO_WEST_DEFAULT_WEAPON
@@ -154,12 +156,12 @@ class TACU_SevenRings_U_I_Western_Grenadier_02: TACU_SevenRings_U_I_Western_Gren
         mag_4("1Rnd_HE_Grenade_shell"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Grenadier_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Grenadier_02)
 };
 
 class TACU_SevenRings_U_I_Western_Grenadier_03: TACU_SevenRings_U_I_Western_Grenadier_01 {
     displayName = "Grenadier (G36K)";
-    uniformClass = "CUP_I_B_PMC_Unit_39";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_G36K_GL",
         MACRO_WEST_DEFAULT_WEAPON
@@ -178,14 +180,14 @@ class TACU_SevenRings_U_I_Western_Grenadier_03: TACU_SevenRings_U_I_Western_Gren
         mag_4("1Rnd_HE_Grenade_shell"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Grenadier_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Grenadier_03)
 };
 
 class TACU_SevenRings_U_I_Western_Rifleman_AT_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Rifleman AT (MAAWS)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    uniformClass = "CUP_I_B_PMC_Unit_36";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "TACU_SevenRings_B_AT_Assault_Maaws";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -217,12 +219,12 @@ class TACU_SevenRings_U_I_Western_Rifleman_AT_01: TACU_SevenRings_U_I_Western_Ri
         "MRAWS_HEAT_F",
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_AT_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Rifleman_AT_01)
 };
 
 class TACU_SevenRings_U_I_Western_Rifleman_AT_02: TACU_SevenRings_U_I_Western_Rifleman_AT_01 {
     displayName = "Rifleman AT (RPG-32)";
-    uniformClass = "CUP_I_B_PMC_Unit_5";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "TACU_SevenRings_B_AT_Assault_RPG32";
     weapons[] = {
         "TACU_SevenRings_W_West_MK18_Black",
@@ -244,12 +246,12 @@ class TACU_SevenRings_U_I_Western_Rifleman_AT_02: TACU_SevenRings_U_I_Western_Ri
         "RPG32_F",
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_AT_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Rifleman_AT_02)
 };
 
 class TACU_SevenRings_U_I_Western_Rifleman_AT_03: TACU_SevenRings_U_I_Western_Rifleman_AT_01 {
     displayName = "Rifleman AT (NLAW)";
-    uniformClass = "CUP_I_B_PMC_Unit_38";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     backpack = "";
     weapons[] = {
         "TACU_SevenRings_W_West_ACR556_AFG",
@@ -269,7 +271,7 @@ class TACU_SevenRings_U_I_Western_Rifleman_AT_03: TACU_SevenRings_U_I_Western_Ri
         mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Rifleman_AT_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Rifleman_AT_03)
 };
 
 class TACU_SevenRings_U_I_Western_Autorifleman_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -303,7 +305,7 @@ class TACU_SevenRings_U_I_Western_Autorifleman_01: TACU_SevenRings_U_I_Western_R
         mag_4("tacgt_AI_200Rnd_65x39_Belt"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Autorifleman_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Autorifleman_01)
 };
 
 class TACU_SevenRings_U_I_Western_Autorifleman_02: TACU_SevenRings_U_I_Western_Autorifleman_01 {
@@ -325,7 +327,7 @@ class TACU_SevenRings_U_I_Western_Autorifleman_02: TACU_SevenRings_U_I_Western_A
         mag_4("tacgt_AI_200Rnd_556x45_Box"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Autorifleman_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Autorifleman_02)
 };
 
 class TACU_SevenRings_U_I_Western_Autorifleman_03: TACU_SevenRings_U_I_Western_Autorifleman_01 {
@@ -347,7 +349,7 @@ class TACU_SevenRings_U_I_Western_Autorifleman_03: TACU_SevenRings_U_I_Western_A
         mag_5("tacgt_AI_100Rnd_65x39_MX_Black"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Autorifleman_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Autorifleman_03)
 };
 
 class TACU_SevenRings_U_I_Western_Medic_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -385,7 +387,7 @@ class TACU_SevenRings_U_I_Western_Medic_01: TACU_SevenRings_U_I_Western_Rifleman
         mag_2("SmokeShell"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Medic_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Medic_01)
 };
 
 class TACU_SevenRings_U_I_Western_Medic_02: TACU_SevenRings_U_I_Western_Medic_01 {
@@ -409,7 +411,7 @@ class TACU_SevenRings_U_I_Western_Medic_02: TACU_SevenRings_U_I_Western_Medic_01
         mag_2("SmokeShell"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Medic_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Medic_02)
 };
 
 class TACU_SevenRings_U_I_Western_Medic_03: TACU_SevenRings_U_I_Western_Medic_01 {
@@ -433,7 +435,7 @@ class TACU_SevenRings_U_I_Western_Medic_03: TACU_SevenRings_U_I_Western_Medic_01
         mag_2("SmokeShell"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Medic_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Medic_03)
 };
 
 class TACU_SevenRings_U_I_Western_Engineer_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -472,7 +474,7 @@ class TACU_SevenRings_U_I_Western_Engineer_01: TACU_SevenRings_U_I_Western_Rifle
         mag_8("tacgt_AI_30Rnd_762x39_AK"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Engineer_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Engineer_01)
 };
 
 class TACU_SevenRings_U_I_Western_Engineer_02: TACU_SevenRings_U_I_Western_Engineer_01 {
@@ -494,7 +496,7 @@ class TACU_SevenRings_U_I_Western_Engineer_02: TACU_SevenRings_U_I_Western_Engin
         mag_10("tacgt_8Rnd_P_000"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Engineer_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Engineer_02)
 };
 
 class TACU_SevenRings_U_I_Western_Engineer_03: TACU_SevenRings_U_I_Western_Engineer_01 {
@@ -516,7 +518,7 @@ class TACU_SevenRings_U_I_Western_Engineer_03: TACU_SevenRings_U_I_Western_Engin
         mag_8("tacgt_AI_30Rnd_65x39_Katiba"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Engineer_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Engineer_03)
 };
 
 class TACU_SevenRings_U_I_Western_Teamleader_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -549,7 +551,7 @@ class TACU_SevenRings_U_I_Western_Teamleader_01: TACU_SevenRings_U_I_Western_Rif
         mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Teamleader_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Teamleader_01)
 };
 
 class TACU_SevenRings_U_I_Western_Teamleader_02: TACU_SevenRings_U_I_Western_Teamleader_01 {
@@ -571,7 +573,7 @@ class TACU_SevenRings_U_I_Western_Teamleader_02: TACU_SevenRings_U_I_Western_Tea
         mag_8("tacgt_AI_30Rnd_762x39_AK"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Teamleader_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Teamleader_02)
 };
 
 class TACU_SevenRings_U_I_Western_Teamleader_03: TACU_SevenRings_U_I_Western_Teamleader_01 {
@@ -593,7 +595,7 @@ class TACU_SevenRings_U_I_Western_Teamleader_03: TACU_SevenRings_U_I_Western_Tea
         mag_8("tacgt_AI_30Rnd_556x45_AUG"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Teamleader_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Teamleader_03)
 };
 
 class TACU_SevenRings_U_I_Western_CQBSpecialist_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -625,7 +627,7 @@ class TACU_SevenRings_U_I_Western_CQBSpecialist_01: TACU_SevenRings_U_I_Western_
         mag_8("CUP_12Rnd_B_Saiga12_Buck_00"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_CQBSpecialist_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_CQBSpecialist_01)
 };
 
 class TACU_SevenRings_U_I_Western_CQBSpecialist_02: TACU_SevenRings_U_I_Western_CQBSpecialist_01 {
@@ -647,7 +649,7 @@ class TACU_SevenRings_U_I_Western_CQBSpecialist_02: TACU_SevenRings_U_I_Western_
         mag_8("tacgt_AI_50Rnd_57x28"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_CQBSpecialist_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_CQBSpecialist_02)
 };
 
 class TACU_SevenRings_U_I_Western_CQBSpecialist_03: TACU_SevenRings_U_I_Western_CQBSpecialist_01 {
@@ -669,7 +671,7 @@ class TACU_SevenRings_U_I_Western_CQBSpecialist_03: TACU_SevenRings_U_I_Western_
         mag_8("tacgt_AI_25Rnd_45ACP_Vector"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_CQBSpecialist_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_CQBSpecialist_03)
 };
 
 class TACU_SevenRings_U_I_Western_Marksman_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -702,12 +704,12 @@ class TACU_SevenRings_U_I_Western_Marksman_01: TACU_SevenRings_U_I_Western_Rifle
         mag_8("tacgt_AI_20Rnd_762x51"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Marksman_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Marksman_01)
 };
 
 class TACU_SevenRings_U_I_Western_Marksman_02: TACU_SevenRings_U_I_Western_Marksman_01 {
     displayName = "Marksman (HK417)";
-    uniformClass = "CUP_I_B_PARA_Unit_1";
+    uniformClass = "U_lxWS_SFIA_Tanker_O";
     weapons[] = {
         "TACU_SevenRings_W_West_HK417_DMR",
         MACRO_WEST_DEFAULT_WEAPON
@@ -724,7 +726,7 @@ class TACU_SevenRings_U_I_Western_Marksman_02: TACU_SevenRings_U_I_Western_Marks
         mag_8("tacgt_AI_20Rnd_762x51"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Marksman_02.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Marksman_02)
 };
 
 class TACU_SevenRings_U_I_Western_Marksman_03: TACU_SevenRings_U_I_Western_Marksman_01 {
@@ -746,7 +748,7 @@ class TACU_SevenRings_U_I_Western_Marksman_03: TACU_SevenRings_U_I_Western_Marks
         mag_8("tacgt_AI_20Rnd_65x39"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Marksman_03.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Marksman_03)
 };
 
 class TACU_SevenRings_U_I_Western_AA_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
@@ -785,13 +787,13 @@ class TACU_SevenRings_U_I_Western_AA_01: TACU_SevenRings_U_I_Western_Rifleman_01
         mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
         MACRO_WEST_DEFAULT_MAGAZINE
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_AA_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_AA_01)
 };
 
 class TACU_SevenRings_U_I_Western_Pilot_01: TACU_SevenRings_U_I_Western_Rifleman_01 {
     displayName = "Pilot (P90)";
     role = "Crewman";
-    uniformClass = "CUP_U_B_USMC_PilotOverall";
+    uniformClass = "U_B_HeliPilotCoveralls";
     backpack = "B_Parachute";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -822,5 +824,5 @@ class TACU_SevenRings_U_I_Western_Pilot_01: TACU_SevenRings_U_I_Western_Rifleman
     headgearList[] = {
         "H_PilotHelmetHeli_O", 1
     };
-    editorPreview = QPATHTOF(ui\SevenRings_U_I_Western_Pilot_01.jpg);
+    //EDITORPREVIEW(SevenRings_U_I_Western_Pilot_01)
 };

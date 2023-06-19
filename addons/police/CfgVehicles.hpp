@@ -6,7 +6,6 @@ class CfgVehicles {
     class Vest_Base_F;
     class Offroad_01_base_F;
     class Van_02_base_F;
-    class CUP_O_BRDM2_RUS;
     class I_G_Soldier_LAT_F;
     class TACU_Main_U_BLUFOR_Soldier_Base;
     class TACU_Main_U_OPFOR_Soldier_Base;
