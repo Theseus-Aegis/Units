@@ -99,5 +99,5 @@ class TACU_Pandur_Base: APC_Wheeled_03_base_F {
         "Vanguard", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

@@ -16,5 +16,5 @@ class TACU_Merlin_Base: Heli_Transport_02_base_F {
 
     textureList[] = {"BAF", 1};
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

@@ -28,5 +28,5 @@ class TACU_Offroad_Covered_Base: Offroad_01_military_covered_base_F {
         "Black", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

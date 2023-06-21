@@ -16,5 +16,5 @@ class TACU_Bardelas_Base: APC_Tracked_01_base_F {
 
     textureList[] = {"Blufor", 1};
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

@@ -133,5 +133,5 @@ class TACU_Offroad_Unarmed_Base: Offroad_01_unarmed_base_F {
         "HideBumper2", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

@@ -110,5 +110,5 @@ class TACU_Jeep_Wrangler_Unarmed_Base: Offroad_02_base_F {
         "Olive", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

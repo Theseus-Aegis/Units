@@ -104,5 +104,5 @@ class TACU_Offroad_Armed_AT_Base: Offroad_01_AT_base_F {
         "Black", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

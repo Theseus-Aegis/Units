@@ -110,5 +110,5 @@ class TACU_Jeep_Wrangler_LMG_Base: Offroad_02_LMG_base_F {
         "Olive", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

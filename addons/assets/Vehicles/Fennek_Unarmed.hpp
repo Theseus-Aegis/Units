@@ -27,5 +27,5 @@ class TACU_Fennek_Unarmed_Base: MRAP_03_base_F {
         "Vanguard", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

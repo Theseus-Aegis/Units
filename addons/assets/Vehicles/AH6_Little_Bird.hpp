@@ -11,5 +11,5 @@ class TACU_AH6_LittleBird_Base: Heli_Light_01_dynamicLoadout_base_F {
     };
     textureList[] = {"Vanguard", 1};
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

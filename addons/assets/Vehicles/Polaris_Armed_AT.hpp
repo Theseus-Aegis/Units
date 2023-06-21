@@ -90,5 +90,5 @@ class TACU_Polaris_Armed_AT_Base: LSV_01_AT_base_F {
         "Green", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

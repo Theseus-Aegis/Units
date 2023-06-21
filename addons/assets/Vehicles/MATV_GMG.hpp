@@ -38,5 +38,5 @@ class TACU_MATV_GMG_Base: MRAP_01_gmg_base_F {
         "Vanguard", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

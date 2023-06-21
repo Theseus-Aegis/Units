@@ -30,7 +30,7 @@ class TACU_HEMTT_Base: Truck_01_base_F {
         "Olive", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };
 
 // HEMTT Transport (Covered)

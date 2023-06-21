@@ -28,5 +28,5 @@ class TACU_Karatel_Unarmed_Base: MRAP_02_base_F {
         "GreenHex", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

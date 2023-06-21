@@ -38,5 +38,5 @@ class TACU_MATV_Unarmed_Base: MRAP_01_base_F {
         "Vanguard", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

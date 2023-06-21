@@ -32,5 +32,5 @@ class TACU_Badger_IFV_Base: APC_Wheeled_01_Base_F {
         "Olive", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

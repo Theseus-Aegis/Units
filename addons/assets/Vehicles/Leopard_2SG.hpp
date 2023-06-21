@@ -30,5 +30,5 @@ class TACU_Leopard_2SG_Base: MBT_03_base_F {
         "Indep_03", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

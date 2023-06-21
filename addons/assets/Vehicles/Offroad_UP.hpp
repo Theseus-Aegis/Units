@@ -270,5 +270,5 @@ class TACU_Offroad_Unarmed_UP_Base: Offroad_01_armor_base_lxWS {
         "Guerilla_12", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

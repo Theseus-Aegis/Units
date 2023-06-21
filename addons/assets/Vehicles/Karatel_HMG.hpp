@@ -28,5 +28,5 @@ class TACU_Karatel_HMG_Base: MRAP_02_hmg_base_F {
         "GreenHex", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

@@ -90,5 +90,5 @@ class TACU_Polaris_Unarmed_Base: LSV_01_unarmed_base_F {
         "Green", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };

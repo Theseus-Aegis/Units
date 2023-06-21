@@ -20,5 +20,5 @@ class TACU_GhostHawk_Base: Heli_Transport_01_base_F {
         "Vanguard", 1
     };
 
-    MACRO_EVENTHANDLERS
+    MACRO_EVENTHANDLERS;
 };
