@@ -83,7 +83,6 @@ class CfgPatches {
 };
 
 #include "CfgWeapons.hpp"
-#include "CfgFaces.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgGroups.hpp"
 #include "CfgVehicles.hpp"
