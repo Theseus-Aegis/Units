@@ -1,5 +1,4 @@
 // Grunt Uniforms
-class C_Uniform_ArtTShirt_01_v1_F;
 class TACU_Uniform_O_V_Cartel_Grunt_01: C_Uniform_ArtTShirt_01_v1_F {
     scope = 1;
     author = "GilleeDoo, Mike";
@@ -38,7 +37,6 @@ class TACU_Uniform_O_V_Cartel_Grunt_06: C_Uniform_ArtTShirt_01_v1_F {
 };
 
 // Thug Uniforms
-class I_C_Soldier_Bandit_2_F;
 class TACU_Uniform_O_V_Cartel_Thug_01: I_C_Soldier_Bandit_2_F {
     scope = 1;
     author = "GilleeDoo, Mike";

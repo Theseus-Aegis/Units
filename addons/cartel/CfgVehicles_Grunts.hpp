@@ -108,29 +108,30 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_08: TACU_Cartel2_U_O_Grunt_Rifleman_07 {
 };
 
 // Vehicles
-class Offroad_01_civil_base_F;
-class C_Offroad_01_F: Offroad_01_civil_base_F {
-    class EventHandlers;
-};
-
-class TACU_Cartel_V_O_Grunt_Offroad: C_Offroad_01_F {
+class TACU_Cartel_V_O_Grunt_Offroad: TACU_Offroad_Unarmed_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Cartel_O";
     side = 0;
     crew = "TACU_Cartel2_U_O_Grunt_Rifleman_01";
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Grunts_Vehicles";
-    //EDITORPREVIEW(Cartel_V_O_Grunt_Offroad)
 
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then {[_this select 0,['Bluecustom',1],['HideDoor1',0,'HideDoor2',0,'HideDoor3',0,'HideBackpacks',1,'HideBumper1',1,'HideBumper2',1,'HideConstruction',0,'hidePolice',1,'HideServices',1,'BeaconsStart',0,'BeaconsServicesStart',0]] call BIS_fnc_initVehicle;};";
+    textureList[] = {"Bluecustom", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 1,
+        "HideConstruction", 0,
+        "hidePolice", 1,
+        "HideServices", 1,
+        "BeaconsStart", 0,
+        "BeaconsServicesStart", 0
     };
 };
 
-class Van_02_transport_base_F ;
-class TACS_Van_Transport_Base: Van_02_transport_base_F  {
-    class EventHandlers;
-};
-class TACU_Cartel_V_O_Grunt_Van_Transport: TACS_Van_Transport_Base {
+class TACU_Cartel_V_O_Grunt_Van_Transport: TACU_Transport_Van_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     scope = 2;
     scopeCurator = 2;
@@ -138,9 +139,29 @@ class TACU_Cartel_V_O_Grunt_Van_Transport: TACS_Van_Transport_Base {
     side = 0;
     crew = "TACU_Cartel2_U_O_Grunt_Rifleman_01";
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Grunts_Vehicles";
-    //EDITORPREVIEW(Cartel_V_O_Grunt_Van_Transport)
 
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then {[_this select 0,['Black',1],['Door_1_source',0,'Door_2_source',0,'Door_3_source',0,'Door_4_source',0,'Hide_Door_1_source',0,'Hide_Door_2_source',0,'Hide_Door_3_source',0,'Hide_Door_4_source',0,'lights_em_hide',0,'ladder_hide',0,'spare_tyre_holder_hide',0,'spare_tyre_hide',0,'reflective_tape_hide',1,'roof_rack_hide',1,'LED_lights_hide',1,'sidesteps_hide',1,'rearsteps_hide',0,'side_protective_frame_hide',0,'front_protective_frame_hide',1,'beacon_front_hide',1,'beacon_rear_hide',1]] call BIS_fnc_initVehicle;};";
+    textureList[] = {"Black", 1};
+    animationList[] = {
+        "Door_1_source", 0,
+        "Door_2_source", 0,
+        "Door_3_source", 0,
+        "Door_4_source", 0,
+        "Hide_Door_1_source", 0,
+        "Hide_Door_2_source", 0,
+        "Hide_Door_3_source", 0,
+        "Hide_Door_4_source", 0,
+        "lights_em_hide", 0,
+        "ladder_hide", 0,
+        "spare_tyre_holder_hide", 0,
+        "spare_tyre_hide", 0,
+        "reflective_tape_hide", 1,
+        "roof_rack_hide", 1,
+        "LED_lights_hide", 1,
+        "sidesteps_hide", 1,
+        "rearsteps_hide", 0,
+        "side_protective_frame_hide", 0,
+        "front_protective_frame_hide", 1,
+        "beacon_front_hide", 1,
+        "beacon_rear_hide", 1
     };
 };

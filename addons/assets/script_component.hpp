@@ -37,3 +37,8 @@
     "\a3\soft_f_gamma\van_01\data\van_01_ext.rvmat", \
     "\a3\soft_f_gamma\van_01\data\van_01_adds.rvmat", \
     "\a3\soft_f_gamma\van_01\data\van_01_int_base.rvmat"
+
+// Identity Macros
+#define MACRO_FACES_CARTEL \
+    identityTypes[] = {"Head_Cartel"}; \
+    disabled = 1;

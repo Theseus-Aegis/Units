@@ -5,6 +5,8 @@ class Vest_Base_F;
 
 // Uniform Base
 class I_G_Soldier_LAT_F;
+class I_C_Soldier_Bandit_2_F;
+class C_Uniform_ArtTShirt_01_v1_F;
 
 // Vehicles
 class APC_Wheeled_02_base_F;

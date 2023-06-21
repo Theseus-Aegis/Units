@@ -114,47 +114,47 @@ class TACU_Cartel2_U_O_Thug_Rifleman_08: TACU_Cartel2_U_O_Thug_Rifleman_07 {
 };
 
 // Vehicles
-class TACS_Offroad_Base;
-class TACS_Offroad_I_Black: TACS_Offroad_Base {
-    class EventHandlers;
-};
-class TACS_Cartel_V_O_Thug_Offroad: TACS_Offroad_I_Black {
+class TACS_Cartel_V_O_Thug_Offroad: TACU_Offroad_Unarmed_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Cartel_O";
     side = 0;
     crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
-    //EDITORPREVIEW(TACS_Cartel_V_O_Thug_Offroad)
 
-    class PlateInfos {
-        color[] = {0, 0, 0, 0.75};
-        name = "spz";
-    };
-
-    class EventHandlers: EventHandlers {
-        init = "if  (local (_this select 0)) then {[_this select 0,['Black',1],['HideDoor1',0,'HideDoor2',0,'HideDoor3',0,'HideBackpacks',1,'HideBumper1',1,'HideBumper2',1,'HideConstruction',0,'hidePolice',1,'HideServices',1,'BeaconsStart',0,'BeaconsServicesStart',0]] call BIS_fnc_initVehicle;};";
+    textureList[] = {"Black", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 1,
+        "HideConstruction", 0,
+        "hidePolice", 1,
+        "HideServices", 1,
+        "BeaconsStart", 0,
+        "BeaconsServicesStart", 0
     };
 };
 
-class TACS_Offroad_Armed_Base;
-class TACS_Offroad_I_Armed_Black: TACS_Offroad_Armed_Base {
-    class EventHandlers;
-};
-class TACU_Cartel_V_O_Thug_Offroad_Armed: TACS_Offroad_I_Armed_Black {
+class TACU_Cartel_V_O_Thug_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Cartel_O";
     side = 0;
     crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
-    //EDITORPREVIEW(Cartel_V_O_Thug_Offroad_Armed)
 
-    class PlateInfos {
-        color[] = {0, 0, 0, 0.75};
-        name = "spz";
-    };
-
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then {[_this select 0,['Black',1],['Hide_Shield',0,'Hide_Rail',1,'HideDoor1',0,'HideDoor2',0,'HideDoor3',0,'HideBackpacks',1,'HideBumper1',1,'HideBumper2',0,'HideConstruction',0]] call BIS_fnc_initVehicle;};";
+    textureList[] = {"Black", 1};
+    animationList[] = {
+        "Hide_Shield", 0,
+        "Hide_Rail", 1,
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 0,
+        "HideConstruction", 0
     };
 };
 
