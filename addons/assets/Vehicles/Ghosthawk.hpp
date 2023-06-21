@@ -20,7 +20,5 @@ class TACU_GhostHawk_Base: Heli_Transport_01_base_F {
         "Vanguard", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

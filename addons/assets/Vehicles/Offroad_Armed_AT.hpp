@@ -1,5 +1,5 @@
-// Offroad M2
-class TACU_Offroad_Armed_M2_Base: Offroad_01_armed_base_F {
+// Offroad Armed (SPG9)
+class TACU_Offroad_Armed_AT_Base: Offroad_01_AT_base_F {
     class TextureSources {
         class Guerilla_01 {
             displayName = "Guerrilla 01";
@@ -77,7 +77,7 @@ class TACU_Offroad_Armed_M2_Base: Offroad_01_armed_base_F {
             displayName = "Green";
             author = "Bohemia Interactive";
             textures[] = {"\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa", "\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa"};
-            faction[] = {"IND_E_F"};
+            faction[] = {};
         };
         class Black {
             displayName = "Black";
@@ -104,7 +104,5 @@ class TACU_Offroad_Armed_M2_Base: Offroad_01_armed_base_F {
         "Black", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

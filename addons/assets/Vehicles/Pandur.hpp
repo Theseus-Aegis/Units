@@ -99,7 +99,5 @@ class TACU_Pandur_Base: APC_Wheeled_03_base_F {
         "Vanguard", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

@@ -1,5 +1,5 @@
-// Fennek (Strider)
-class TACU_Fennek_Unarmed_Base: MRAP_03_base_F {
+// Fennek (GMG)
+class TACU_Fennek_GMG_Base: MRAP_03_gmg_base_F {
     class TextureSources {
         class Blufor {
             displayName = "BLUFOR";
@@ -25,9 +25,5 @@ class TACU_Fennek_Unarmed_Base: MRAP_03_base_F {
         "Blufor", 1,
         "Indep", 1,
         "Vanguard", 1
-    };
-
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
     };
 };

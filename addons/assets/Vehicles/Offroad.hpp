@@ -133,7 +133,5 @@ class TACU_Offroad_Unarmed_Base: Offroad_01_unarmed_base_F {
         "HideBumper2", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

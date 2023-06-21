@@ -11,7 +11,5 @@ class TACU_AH6_LittleBird_Base: Heli_Light_01_dynamicLoadout_base_F {
     };
     textureList[] = {"Vanguard", 1};
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

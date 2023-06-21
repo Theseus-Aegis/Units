@@ -1,12 +1,12 @@
 class CfgWeapons {
-    #include "CfgWeapons\Baseclasses.hpp"
+    #include "Weapons\Base.hpp"
 
     // Wearables
-    #include "CfgWeapons\BAF_Helmets.hpp"
-    #include "CfgWeapons\BAF_Vests.hpp"
-    #include "CfgWeapons\Police_Helmets.hpp"
-    #include "CfgWeapons\Police_Uniforms.hpp"
-    #include "CfgWeapons\Police_Vests.hpp"
-    #include "CfgWeapons\Prisoner_Uniforms.hpp"
-    #include "CfgWeapons\Vanguard_Vests.hpp"
+    #include "Weapons\BAF_Helmets.hpp"
+    #include "Weapons\BAF_Vests.hpp"
+    #include "Weapons\Police_Helmets.hpp"
+    #include "Weapons\Police_Uniforms.hpp"
+    #include "Weapons\Police_Vests.hpp"
+    #include "Weapons\Prisoner_Uniforms.hpp"
+    #include "Weapons\Vanguard_Vests.hpp"
 };

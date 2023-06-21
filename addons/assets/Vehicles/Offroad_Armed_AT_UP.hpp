@@ -270,7 +270,5 @@ class TACU_Offroad_Armed_AT_UP_Base: Offroad_01_armor_AT_lxWS {
         "Guerilla_12", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

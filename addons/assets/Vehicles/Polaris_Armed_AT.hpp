@@ -90,7 +90,5 @@ class TACU_Polaris_Armed_AT_Base: LSV_01_AT_base_F {
         "Green", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

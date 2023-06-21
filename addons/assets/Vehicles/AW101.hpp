@@ -16,7 +16,5 @@ class TACU_Merlin_Base: Heli_Transport_02_base_F {
 
     textureList[] = {"BAF", 1};
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

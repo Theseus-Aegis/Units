@@ -1,5 +1,5 @@
-// Polaris Unarmed
-class TACU_Polaris_Unarmed_Base: LSV_01_unarmed_base_F {
+// Polaris Armed
+class TACU_Polaris_Armed_Base: LSV_01_armed_base_F {
     class TextureSources {
         class Arid {
             displayName = "Arid";
@@ -90,7 +90,5 @@ class TACU_Polaris_Unarmed_Base: LSV_01_unarmed_base_F {
         "Green", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

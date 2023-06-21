@@ -1,5 +1,5 @@
-// M-ATV
-class TACU_MATV_Unarmed_Base: MRAP_01_base_F {
+// M-ATV (HMG)
+class TACU_MATV_HMG_Base: MRAP_01_hmg_base_F {
     class TextureSources {
         class Blufor {
             displayName = "Sand";
@@ -38,7 +38,5 @@ class TACU_MATV_Unarmed_Base: MRAP_01_base_F {
         "Vanguard", 1
     };
 
-    class EventHandlers: EventHandlers {
-        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
-    };
+    MACRO_EVENTHANDLERS
 };

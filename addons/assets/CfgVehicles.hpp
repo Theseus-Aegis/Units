@@ -1,30 +1,12 @@
 class CfgVehicles {
-    #include "CfgVehicles\baseclasses.hpp"
+    #include "Vehicles\Base.hpp"
 
     /* ToDo: (Vehicle Class : Realistic Name) Get base classes of these, inherit from there. (Check for textureSources from main classes.)
-        * B_G_Van_01_transport_F | Truck
-        * B_APC_Tracked_01_AA_F | Bardelas
-        * B_APC_Wheeled_01_cannon_F | Badger IFV
         * B_Heli_Transport_03_unarmed_F | CH-47l Chinook (Unarmed)
         * B_Heli_Transport_03_F | CH-47l Chinook (Armed)
-        * B_Truck_01_transport_F | HEMTT Transport
-        * B_Truck_01_covered_F | HEMTT Transport (Covered)
-        * I_APC_tracked_03_cannon_F | FV510 Warrior
-        * I_MRAP_03_hmg_F | Fennek (HMG)
-        * I_MRAP_03_gmg_F | Fennek (GMG)
-        * B_MRAP_01_hmg_F | M-ATV (HMG)
-        * B_MRAP_01_gmg_F | M-ATV (GMG)
-        * I_C_Offroad_02_unarmed_F | Jeep Wrangler
-        * I_C_Offroad_02_LMG_F | Jeep Wrangler (LMG)
-        * I_C_Offroad_02_AT_F | Jeep Wrangler (SPG-9)
-        * O_MRAP_02_F | Karatel
-        * O_MRAP_02_hmg_F | Karatel (HMG)
-        * O_MRAP_02_gmg_F | Karatel (GMG)
-        * I_MBT_03_cannon_F | Leopard 2SG (Tank)
         * O_LSV_02_unarmed_F | LSV Mk. II
         * O_LSV_02_armed_F | LSV Mk. II (M134)
         * O_LSV_02_AT_F | LSV Mk. II (Metis-M)
-        * I_E_Offroad_01_covered_F | Offroad (Covered)
         * B_APC_Tracked_01_rcws_F | Namer
         * B_APC_Tracked_01_CRV_F | Nemmera
         * B_Heli_Attack_01_dynamicLoadout_F | RAH-66 Comanche
@@ -43,31 +25,47 @@ class CfgVehicles {
         * I_Heli_light_03_dynamicLoadout_F | Wildcat (Armed)
     */
 
-
     // Vehicles - Using ACE Realistic names
-    #include "CfgVehicles\AH6_Little_Bird.hpp"
-    //#include "CfgVehicles\AW101.hpp"
-    #include "CfgVehicles\Fennek_Unarmed.hpp"
-    #include "CfgVehicles\Ghosthawk.hpp"
-    #include "CfgVehicles\MATV_Unarmed.hpp"
-    #include "CfgVehicles\Offroad_Armed_AT_UP.hpp"
-    #include "CfgVehicles\Offroad_Armed_AT.hpp"
-    #include "CfgVehicles\Offroad_Armed_UP.hpp"
-    #include "CfgVehicles\Offroad_Armed.hpp"
-    #include "CfgVehicles\Offroad.hpp"
-    #include "CfgVehicles\Pandur.hpp"
-    #include "CfgVehicles\Polaris_Armed_AT.hpp"
-    #include "CfgVehicles\Polaris_Armed.hpp"
-    #include "CfgVehicles\Polaris_Unarmed.hpp"
-    #include "CfgVehicles\Van_Cargo.hpp"
-    #include "CfgVehicles\Van_Transport.hpp"
+    #include "Vehicles\AH6_Little_Bird.hpp"
+    //#include "Vehicles\AW101.hpp"
+    #include "Vehicles\Badger_IFV.hpp"
+    #include "Vehicles\Bardelas.hpp"
+    #include "Vehicles\Fennek_Unarmed.hpp"
+    #include "Vehicles\Fennek_HMG.hpp"
+    #include "Vehicles\Fennek_GMG.hpp"
+    #include "Vehicles\FV510_Warrior.hpp"
+    #include "Vehicles\Ghosthawk.hpp"
+    #include "Vehicles\HEMTT.hpp"
+    #include "Vehicles\Jeep_Wrangler_Unarmed.hpp"
+    #include "Vehicles\Jeep_Wrangler_LMG.hpp"
+    #include "Vehicles\Jeep_Wrangler_AT.hpp"
+    #include "Vehicles\Karatel_Unarmed.hpp"
+    #include "Vehicles\Karatel_HMG.hpp"
+    #include "Vehicles\Karatel_GMG.hpp"
+    #include "Vehicles\Leopard_2SG.hpp"
+    #include "Vehicles\MATV_GMG.hpp"
+    #include "Vehicles\MATV_HMG.hpp"
+    #include "Vehicles\MATV_Unarmed.hpp"
+    #include "Vehicles\Offroad_Armed_AT_UP.hpp"
+    #include "Vehicles\Offroad_Armed_AT.hpp"
+    #include "Vehicles\Offroad_Armed_UP.hpp"
+    #include "Vehicles\Offroad_Armed.hpp"
+    #include "Vehicles\Offroad_Covered.hpp"
+    #include "Vehicles\Offroad.hpp"
+    #include "Vehicles\Pandur.hpp"
+    #include "Vehicles\Polaris_Armed_AT.hpp"
+    #include "Vehicles\Polaris_Armed.hpp"
+    #include "Vehicles\Polaris_Unarmed.hpp"
+    #include "Vehicles\Truck.hpp"
+    #include "Vehicles\Van_Cargo.hpp"
+    #include "Vehicles\Van_Transport.hpp"
 
     // Wearables
-    #include "CfgVehicles\Wearables\BAF_Helmets.hpp"
-    #include "CfgVehicles\Wearables\BAF_Vests.hpp"
-    #include "CfgVehicles\Wearables\Police_Helmets.hpp"
-    #include "CfgVehicles\Wearables\Police_Uniforms.hpp"
-    #include "CfgVehicles\Wearables\Police_Vests.hpp"
-    #include "CfgVehicles\Wearables\Prisoner_Uniforms.hpp"
-    #include "CfgVehicles\Wearables\Vanguard_Vests.hpp"
+    #include "Vehicles\Wearables\BAF_Helmets.hpp"
+    #include "Vehicles\Wearables\BAF_Vests.hpp"
+    #include "Vehicles\Wearables\Police_Helmets.hpp"
+    #include "Vehicles\Wearables\Police_Uniforms.hpp"
+    #include "Vehicles\Wearables\Police_Vests.hpp"
+    #include "Vehicles\Wearables\Prisoner_Uniforms.hpp"
+    #include "Vehicles\Wearables\Vanguard_Vests.hpp"
 };

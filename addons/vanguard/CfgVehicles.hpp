@@ -1,5 +1,5 @@
 class CfgVehicles {
-    MACRO_BASECLASSES
+    #include "\x\tacu\addons\assets\script_classes_vehicles.hpp"
 
     // Base Classes
     class TACU_Main_U_INDEP_Soldier_Base;

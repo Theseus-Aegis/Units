@@ -17,7 +17,10 @@ class Offroad_01_base_lxWS;
 class Offroad_01_armed_lxWS;
 class Offroad_01_AT_lxWS;
 class Wheeled_APC_F;
+class Van_01_base_F;
 class Van_02_base_F;
+class Tank_F;
+class Truck_F;
 
 // AH-6
 class Heli_Light_01_dynamicLoadout_base_F: Heli_Light_01_armed_base_F {
@@ -29,12 +32,22 @@ class MRAP_03_base_F: Car_F {
     class EventHandlers;
 };
 
+// Fennek HMG
+class MRAP_03_hmg_base_F: MRAP_03_base_F {
+    class EventHandlers;
+};
+
+// Fennek GMG
+class MRAP_03_gmg_base_F: MRAP_03_hmg_base_F {
+    class EventHandlers;
+};
+
 // Ghost Hawk
 class Heli_Transport_01_base_F: Helicopter_Base_H {
     class EventHandlers;
 };
 
-// Gorgon
+// Pandur
 class APC_Wheeled_03_base_F: Wheeled_APC_F {
     class EventHandlers;
 };
@@ -44,7 +57,17 @@ class MRAP_01_base_F: Car_F {
     class EventHandlers;
 };
 
-// Merlin (AW-101)
+// M-ATV (GMG)
+class MRAP_01_gmg_base_F: MRAP_01_base_F {
+    class EventHandlers;
+};
+
+// M-ATV (HMG)
+class MRAP_01_hmg_base_F: MRAP_01_gmg_base_F {
+    class EventHandlers;
+};
+
+// AW-101 (Merlin)
 class Heli_Transport_02_base_F: Helicopter_Base_H {
     class EventHandlers;
 };
@@ -61,6 +84,11 @@ class Offroad_01_armed_base_F: Offroad_01_military_base_F {
 
 // Offroad AT
 class Offroad_01_AT_base_F: Offroad_01_military_base_F {
+    class EventHandlers;
+};
+
+// Offroad Covered
+class Offroad_01_military_covered_base_F: Offroad_01_military_base_F {
     class EventHandlers;
 };
 
@@ -101,5 +129,65 @@ class Van_02_vehicle_base_F: Van_02_base_F {
 
 // Van (Transport)
 class Van_02_transport_base_F: Van_02_base_F {
+    class EventHandlers;
+};
+
+// Truck
+class Van_01_transport_base_F: Van_01_base_F {
+    class EventHandlers;
+};
+
+// Badger IFV
+class APC_Wheeled_01_base_F: Wheeled_APC_F {
+    class EventHandlers;
+};
+
+// Warrior IFV
+class APC_Tracked_03_base_F: Tank_F {
+    class EventHandlers;
+};
+
+// HEMTT
+class Truck_01_base_F: Truck_F {
+    class EventHandlers;
+};
+
+// Karatel
+class MRAP_02_base_F: Car_F {
+    class EventHandlers;
+};
+
+// Karatel HMG
+class MRAP_02_hmg_base_F: MRAP_02_base_F {
+    class EventHandlers;
+};
+
+// Karatel GMG
+class MRAP_02_gmg_base_F: MRAP_02_hmg_base_F {
+    class EventHandlers;
+};
+
+// Leopard 2SG
+class MBT_03_base_F: Tank_F {
+    class EventHandlers;
+};
+
+// Bardelas
+class APC_Tracked_01_base_F: Tank_F {
+    class EventHandlers;
+};
+
+// Jeep Wrangler
+class Offroad_02_base_F: Car_F {
+    class EventHandlers;
+};
+
+// Jeep Wrangler (LMG)
+class Offroad_02_LMG_base_F: Offroad_02_base_F {
+    class EventHandlers;
+};
+
+// Jeep Wrangler
+class Offroad_02_AT_base_F: Offroad_02_base_F {
     class EventHandlers;
 };

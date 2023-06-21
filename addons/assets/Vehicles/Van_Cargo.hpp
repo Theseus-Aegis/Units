@@ -1,8 +1,3 @@
-#define MACRO_CARGO_MATERIALS "\a3\soft_f_orange\van_02\data\van_body.rvmat", \
-    "\a3\soft_f_orange\van_02\data\van_wheel.rvmat", \
-    "", \
-    "\a3\data_f\lights\car_beacon_orange_emit.rvmat"
-
 class TACU_Cargo_Van_Base: Van_02_vehicle_base_F {
     class TextureSources {
         class Syndikat {
