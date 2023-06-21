@@ -30,5 +30,5 @@ class TACU_FV510_Warrior_Base: APC_Tracked_03_base_F {
         "Indep_03", 1
     };
 
-    MACRO_EVENTHANDLERS;;
+    MACRO_EVENTHANDLERS;
 };
