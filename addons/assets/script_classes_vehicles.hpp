@@ -11,6 +11,7 @@ class TACU_Fennek_Unarmed_Base;
 class TACU_FV510_Warrior_Base;
 class TACU_GhostHawk_Base;
 class TACU_HEMTT_Base;
+class TACU_HEMTT_Covered_Base;
 class TACU_Jeep_Wrangler_AT_Base;
 class TACU_Jeep_Wrangler_LMG_Base;
 class TACU_Jeep_Wrangler_Unarmed_Base;

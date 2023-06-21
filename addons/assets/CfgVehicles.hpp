@@ -38,6 +38,7 @@ class CfgVehicles {
     #include "Vehicles\Offroad_Armed_UP.hpp"
     #include "Vehicles\Offroad_Armed.hpp"
     #include "Vehicles\Offroad_Covered.hpp"
+    #include "Vehicles\Offroad_UP.hpp"
     #include "Vehicles\Offroad.hpp"
     #include "Vehicles\Otokar_ARMA_Armed.hpp"
     #include "Vehicles\Otokar_ARMA_HMG.hpp"

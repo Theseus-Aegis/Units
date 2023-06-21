@@ -161,7 +161,7 @@ class TACU_Police_V_I_Van_Cargo_Black: TACU_Cargo_Van_Base {
     textureList[] = {"Police_Black", 1};
 };
 
-class TACU_Police_V_I_Van_Transport_Black: Van_02_transport_base_F {
+class TACU_Police_V_I_Van_Transport_Black: TACU_Transport_Van_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_I";

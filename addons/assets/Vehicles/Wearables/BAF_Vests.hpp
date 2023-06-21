@@ -4,6 +4,7 @@ class TACU_BAF_Item_Vest_LightPlateCarrier_Arid: Vest_Base_F {
     displayName = "BAF Light Plate Carrier Rig Mk.1 (Arid)";
     scope = 2;
     scopeCurator = 2;
+    scopeArsenal = 0;
     vehicleClass = "ItemsVests";
     class TransportItems {
         MACRO_ADDITEM(TACU_BAF_Vest_LightPlateCarrier_Arid,1);
