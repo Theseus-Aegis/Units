@@ -36,7 +36,7 @@ class TACU_SevenRings_V_I_CH47_Chinook_Armed: B_Heli_Transport_03_F {
     //EDITORPREVIEW(SevenRings_V_I_CH47_Chinook_Armed)
 };
 
-class TACU_SevenRings_V_I_UH80_Ghost_Hawk: B_Heli_Transport_01_F {
+class TACU_SevenRings_V_I_UH80_Ghost_Hawk: TACU_GhostHawk_Base {
     MACRO_WESTERN_VEHICLE
     displayName = "UH-80 Ghost Hawk (Armed)";
     crew = "TACU_SevenRings_U_I_Western_Pilot_01";
@@ -44,7 +44,7 @@ class TACU_SevenRings_V_I_UH80_Ghost_Hawk: B_Heli_Transport_01_F {
         "TACU_SevenRings_U_I_Western_Pilot_01",
         "TACU_SevenRings_U_I_Western_Engineer_01"
     };
-    //EDITORPREVIEW(SevenRings_V_I_UH80_Ghost_Hawk)
+    textureList[] = {"Black", 1};
 };
 // Boats
 class TACU_SevenRings_V_I_Assault_Boat: B_Boat_Transport_01_F {
@@ -69,7 +69,7 @@ class TACU_SevenRings_V_I_Offroad_Covered: C_Offroad_01_covered_F {
     //EDITORPREVIEW(SevenRings_V_I_Offroad_Covered)
 };
 
-class TACU_SevenRings_V_I_MATV: B_MRAP_01_F {
+class TACU_SevenRings_V_I_MATV: TACU_MATV_Unarmed_Base {
     MACRO_WESTERN_VEHICLE
     displayName = "M-ATV";
     crew = "TACU_SevenRings_U_I_Western_Rifleman_02";
@@ -77,7 +77,7 @@ class TACU_SevenRings_V_I_MATV: B_MRAP_01_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Engineer_02"
     };
-    //EDITORPREVIEW(SevenRings_V_I_MATV)
+    textureList[] = {"Blufor", 1};
 };
 
 class TACU_SevenRings_V_I_MATV_HMG: B_MRAP_01_hmg_F {
@@ -91,7 +91,7 @@ class TACU_SevenRings_V_I_MATV_HMG: B_MRAP_01_hmg_F {
     //EDITORPREVIEW(SevenRings_V_I_MATV_HMG)
 };
 
-class TACU_SevenRings_V_I_Fennek: I_MRAP_03_F {
+class TACU_SevenRings_V_I_Fennek: TACU_Fennek_Unarmed_Base {
     MACRO_WESTERN_VEHICLE
     displayName = "Fennek";
     crew = "TACU_SevenRings_U_I_Western_Rifleman_03";
@@ -99,11 +99,7 @@ class TACU_SevenRings_V_I_Fennek: I_MRAP_03_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    hiddenSelectionsTextures[] = {
-        "\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa",
-        "\a3\data_f\vehicles\turret_co.paa"
-    };
-    //EDITORPREVIEW(SevenRings_V_I_Fennek)
+    textureList[] = {"Blufor", 1};
 };
 
 class TACU_SevenRings_V_I_Fennek_HMG: I_MRAP_03_hmg_F {
@@ -121,7 +117,7 @@ class TACU_SevenRings_V_I_Fennek_HMG: I_MRAP_03_hmg_F {
     //EDITORPREVIEW(SevenRings_V_I_Fennek_HMG)
 };
 
-class TACU_SevenRings_V_I_Polaris_Dagor: B_LSV_01_unarmed_F {
+class TACU_SevenRings_V_I_Polaris_Dagor: TACU_Polaris_Unarmed_Base {
     MACRO_WESTERN_VEHICLE
     displayName = "Polaris DAGOR";
     crew = "TACU_SevenRings_U_I_Western_Rifleman_01";
@@ -129,10 +125,10 @@ class TACU_SevenRings_V_I_Polaris_Dagor: B_LSV_01_unarmed_F {
         "TACU_SevenRings_U_I_Western_Engineer_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    //EDITORPREVIEW(SevenRings_V_I_Polaris_Dagor)
+    textureList[] = {"Black", 1};
 };
 
-class TACU_SevenRings_V_I_Polaris_Dagor_XM312: B_LSV_01_armed_F {
+class TACU_SevenRings_V_I_Polaris_Dagor_XM312: TACU_Polaris_Armed_Base {
     MACRO_WESTERN_VEHICLE
     displayName = "Polaris DAGOR (XM312)";
     crew = "TACU_SevenRings_U_I_Western_Rifleman_03";
@@ -140,7 +136,7 @@ class TACU_SevenRings_V_I_Polaris_Dagor_XM312: B_LSV_01_armed_F {
         "TACU_SevenRings_U_I_Western_Rifleman_01",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    //EDITORPREVIEW(SevenRings_V_I_Polaris_Dagor_XM312)
+    textureList[] = {"Black", 1};
 };
 
 class TACU_SevenRings_V_I_HEMTT_Transport: B_Truck_01_transport_F {
@@ -166,7 +162,7 @@ class TACU_SevenRings_V_I_HEMTT_Transport_Covered: B_Truck_01_covered_F {
 };
 
 // APCs
-class TACU_SevenRings_V_I_PANDUR_II: I_APC_Wheeled_03_cannon_F {
+class TACU_SevenRings_V_I_PANDUR_II: TACU_Pandur_Base {
     MACRO_WESTERN_VEHICLE
     displayName = "Pandur II";
     crew = "TACU_SevenRings_U_I_Western_Rifleman_01";
@@ -174,13 +170,7 @@ class TACU_SevenRings_V_I_PANDUR_II: I_APC_Wheeled_03_cannon_F {
         "TACU_SevenRings_U_I_Western_Engineer_02",
         "TACU_SevenRings_U_I_Western_Rifleman_02"
     };
-    hiddenSelectionsTextures[] = {
-        "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_co.paa",
-        "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext2_co.paa",
-        "A3\armor_f_gamma\APC_Wheeled_03\data\rcws30_co.paa",
-        "A3\armor_f_gamma\APC_Wheeled_03\data\apc_wheeled_03_ext_alpha_co.paa"
-    };
-    //EDITORPREVIEW(SevenRings_V_I_PANDUR_II)
+    textureList[] = {"Blufor", 1};
 };
 
 class TACU_SevenRings_V_I_Badger_IFV: B_APC_Wheeled_01_cannon_F {

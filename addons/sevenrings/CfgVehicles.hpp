@@ -1,4 +1,6 @@
 class CfgVehicles {
+    MACRO_BASECLASSES
+
     class TACU_Main_U_INDEP_Soldier_Base;
     // Western Base Classes
     class B_Heli_Light_01_dynamicLoadout_F;

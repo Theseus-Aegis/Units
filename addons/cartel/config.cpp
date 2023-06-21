@@ -75,7 +75,7 @@ class CfgPatches {
             "TACU_Cartel_W_hgun_MP7"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main"};
+        requiredAddons[] = {"tacu_main", "tacu_cup_turrets", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;

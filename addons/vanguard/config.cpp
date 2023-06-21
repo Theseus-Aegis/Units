@@ -5,10 +5,6 @@ class CfgPatches {
         name = COMPONENT_NAME;
         units[] = {
             "TACU_Vanguard_U_Soldier_Base",
-            // Vests
-            "TACU_Vanguard_Item_Vest_PlateCarrier_Earth",
-            "TACU_Vanguard_Item_Vest_PlateCarrier_Foliage",
-            "TACU_Vanguard_Item_Vest_PlateCarrier_Snow",
             // Units - (Indep - Green)
             "TACU_Vanguard_U_Contractor_Green_Autorifleman",
             "TACU_Vanguard_U_Contractor_Green_Driver",
@@ -124,9 +120,6 @@ class CfgPatches {
             "TACU_Vanguard_V_O_Qilin"
         };
         weapons[] = {
-            "TACU_Vanguard_V_PlateCarrier_Earth",
-            "TACU_Vanguard_V_PlateCarrier_Foliage",
-            "TACU_Vanguard_V_PlateCarrier_Snow",
             "TACU_Vanguard_W_MXM_Black",
             "TACU_Vanguard_W_ARX_Black",
             "TACU_Vanguard_W_MX_Black",
@@ -145,7 +138,7 @@ class CfgPatches {
             "TACU_Vanguard_W_SIG556_Sand"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main"};
+        requiredAddons[] = {"tacu_main", "tacu_cup_turrets", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;

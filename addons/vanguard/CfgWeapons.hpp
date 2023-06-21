@@ -1,41 +1,4 @@
 class CfgWeapons {
-    #define FIX_CAMO_HIDDENSELECTIONS \
-        hiddenSelections[] = {"camo"}; \
-        class ItemInfo: ItemInfo { \
-            hiddenSelections[] = {"camo"}; \
-        };
-
-    // Vests
-    class V_PlateCarrier1_rgr;
-    class V_PlateCarrier1_rgr_noflag_F: V_PlateCarrier1_rgr {
-        class ItemInfo;
-    };
-    class TACU_Vanguard_V_PlateCarrier_Earth: V_PlateCarrier1_rgr_noflag_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        author = "GilleeDoo";
-        displayName = "Vanguard Plate Carrier (Earth)";
-        FIX_CAMO_HIDDENSELECTIONS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_platecarrier_earth_co.paa)};
-    };
-    class TACU_Vanguard_V_PlateCarrier_Foliage: V_PlateCarrier1_rgr_noflag_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        author = "GilleeDoo";
-        displayName = "Vanguard Plate Carrier (Foliage)";
-        FIX_CAMO_HIDDENSELECTIONS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_platecarrier_foliage_co.paa)};
-    };
-    class TACU_Vanguard_V_PlateCarrier_Snow: V_PlateCarrier1_rgr_noflag_F {
-        dlc = QUOTE(PREFIX);
-        scope = 1;
-        author = "GilleeDoo";
-        displayName = "Vanguard Plate Carrier (Foliage)";
-        FIX_CAMO_HIDDENSELECTIONS
-        hiddenSelectionsTextures[] = {QPATHTOF(data\Vanguard_platecarrier_snow_co.paa)};
-    };
-
-    // Weapons
     class arifle_MXM_Black_F;
     class TACU_Vanguard_W_MXM_Black: arifle_MXM_Black_F {
         scope = 1;

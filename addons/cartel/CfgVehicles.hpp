@@ -1,4 +1,5 @@
 class CfgVehicles {
+    MACRO_BASECLASSES
     // Base Classes
     class TACU_Main_U_OPFOR_Soldier_Base;
     class I_C_Offroad_02_unarmed_F;

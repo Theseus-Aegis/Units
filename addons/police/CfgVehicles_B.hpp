@@ -108,7 +108,7 @@ class TACU_Police_U_B_Enforcer_Breacher: TACU_Police_U_B_Enforcer_Rifleman {
 };
 
 // Vehicles
-class TACU_Police_V_B_Offroad_Blue: Offroad_01_unarmed_base_F {
+class TACU_Police_V_B_Offroad_Blue: TACU_Offroad_Unarmed_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_B";
@@ -116,14 +116,9 @@ class TACU_Police_V_B_Offroad_Blue: Offroad_01_unarmed_base_F {
     scopeCurator = 2;
     forceInGarage = 1;
     side = 1;
-    displayName = "Offroad (Police, Blue)";
+    displayName = "Offroad Police (Blue)";
     crew = "TACU_Police_U_B_Enforcer_SMG_1";
     typicalCargo[] = {"TACU_Police_U_B_Enforcer_SMG_2"};
-    //EDITORPREVIEW(Police_V_B_Offroad_Blue)
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\Police_V_Offroad_Blue_co.paa),
-        QPATHTOF(data\Police_V_Offroad_Blue_co.paa)
-    };
     transportMaxBackpacks = 6;
     animationList[] = {
         "HideDoor1", 0,
@@ -135,12 +130,10 @@ class TACU_Police_V_B_Offroad_Blue: Offroad_01_unarmed_base_F {
         "HideBackpacks", 1,
         "HidePolice", 0
     };
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-    };
+    textureList[] = {"Police_Blue", 1};
 };
 
-class TACU_Police_V_B_Van_Cargo_Blue: Van_02_vehicle_base_F {
+class TACU_Police_V_B_Van_Cargo_Blue: TACU_Cargo_Van_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_B";
@@ -148,16 +141,9 @@ class TACU_Police_V_B_Van_Cargo_Blue: Van_02_vehicle_base_F {
     scopeCurator = 2;
     forceInGarage = 1;
     side = 1;
-    displayName = "Van (Cargo, Police, Blue)";
+    displayName = "Van Cargo Police (Blue)";
     crew = "TACU_Police_U_B_Enforcer_SMG_2";
     typicalCargo[] = {"TACU_Police_U_B_Enforcer_SMG_1"};
-    //EDITORPREVIEW(Police_V_B_Van_Cargo_Blue)
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\Police_V_Van_Blue_co.paa),
-        "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
-        "\a3\soft_f_orange\van_02\data\van_glass_gen_CA.paa",
-        QPATHTOF(data\Police_V_Van_Blue_co.paa)
-    };
     transportMaxBackpacks = 64;
     animationList[] = {
         "beacon_front_hide", 0,
@@ -167,14 +153,10 @@ class TACU_Police_V_B_Van_Cargo_Blue: Van_02_vehicle_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
-    textureList[] = {};
-
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-    };
+    textureList[] = {"Police_Blue", 1};
 };
 
-class TACU_Police_V_B_Van_Transport_Blue: Van_02_transport_base_F {
+class TACU_Police_V_B_Van_Transport_Blue: TACU_Transport_Van_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     author = "Kresky";
     faction = "TACU_Police_B";
@@ -182,16 +164,9 @@ class TACU_Police_V_B_Van_Transport_Blue: Van_02_transport_base_F {
     scopeCurator = 2;
     forceInGarage = 1;
     side = 1;
-    displayName = "Van (Transport, Police, Blue)";
+    displayName = "Van Transport Police (Blue)";
     crew = "TACU_Police_U_B_Enforcer_SMG_2";
     typicalCargo[] = {"TACU_Police_U_B_Enforcer_SMG_2"};
-    //EDITORPREVIEW(Police_V_B_Van_Transport_Blue)
-    hiddenSelectionsTextures[] = {
-        QPATHTOF(data\Police_V_Van_Blue_co.paa),
-        "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
-        "\a3\soft_f_orange\van_02\data\van_glass_gen_CA.paa",
-        QPATHTOF(data\Police_V_Van_Blue_co.paa)
-    };
     transportMaxBackpacks = 64;
     animationList[] = {
         "beacon_front_hide", 0,
@@ -201,8 +176,5 @@ class TACU_Police_V_B_Van_Transport_Blue: Van_02_transport_base_F {
         "side_protective_frame_hide", 0,
         "front_protective_frame_hide", 0
     };
-    textureList[] = {};
-    class EventHandlers: EventHandlers {
-        init = "if (local (_this select 0)) then { [_this select 0, [], []] call BIS_fnc_initVehicle; };";
-    };
+    textureList[] = {"Police_Blue", 1};
 };

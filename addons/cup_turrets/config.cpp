@@ -28,10 +28,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "CUP_Weapons_StaticWeapons"
-        };
+        requiredAddons[] = {"tacu_main", "CUP_Weapons_StaticWeapons"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
