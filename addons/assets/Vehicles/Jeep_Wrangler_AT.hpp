@@ -1,5 +1,7 @@
 // Jeep Wrangler (SPG-9)
 class TACU_Jeep_Wrangler_AT_Base: Offroad_02_AT_base_F {
+    editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\I_C_Offroad_02_AT_F.jpg";
+
     class TextureSources {
         class Black {
             displayName = "Black";

@@ -9,7 +9,6 @@
         postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };"; \
     }
 
-
 #define MACRO_WRANGLER_MATERIALS \
     "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_metal.rvmat", \
     "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_chrome.rvmat", \
@@ -33,3 +32,8 @@
     "\A3\Soft_F_Orange\Van_02\Data\van_wheel_transport.rvmat", \
     "", \
     "\a3\Data_f\Lights\Car_Beacon_Orange_emit.rvmat"
+
+#define MACRO_TRUCK_MATERIALS \
+    "\a3\soft_f_gamma\van_01\data\van_01_ext.rvmat", \
+    "\a3\soft_f_gamma\van_01\data\van_01_adds.rvmat", \
+    "\a3\soft_f_gamma\van_01\data\van_01_int_base.rvmat"

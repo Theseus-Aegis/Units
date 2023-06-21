@@ -1,5 +1,7 @@
 // Offroad (Covered)
 class TACU_Offroad_Covered_Base: Offroad_01_military_covered_base_F {
+    editorPreview = "\A3\EditorPreviews_F_Enoch\Data\CfgVehicles\I_E_Offroad_01_covered_F.jpg";
+
     class TextureSources {
         class Green {
             displayName = "Green";

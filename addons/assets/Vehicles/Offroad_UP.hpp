@@ -1,5 +1,7 @@
 // Offroad Unarmed (Armoured)
 class TACU_Offroad_Unarmed_UP_Base: Offroad_01_armor_base_lxWS {
+    editorPreview = "\lxws\editorpreviews_f_lxws\Data\CfgVehicles\O_G_Offroad_01_armor_base_lxWS.jpg";
+
     class TextureSources {
         class Black {
             displayName = "Black";

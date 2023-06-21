@@ -1,5 +1,7 @@
 // Offroad Armed (SPG9)
 class TACU_Offroad_Armed_AT_Base: Offroad_01_AT_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\O_G_Offroad_01_AT_F.jpg";
+
     class TextureSources {
         class Guerilla_01 {
             displayName = "Guerrilla 01";

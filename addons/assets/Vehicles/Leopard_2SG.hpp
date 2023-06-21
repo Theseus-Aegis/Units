@@ -1,5 +1,7 @@
 // Leopard 2SG
 class TACU_Leopard_2SG_Base: MBT_03_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_MBT_03_cannon_F.jpg";
+
     class TextureSources {
         class Indep_02 {
             displayName = "AAF (Jungle Camo Net)";

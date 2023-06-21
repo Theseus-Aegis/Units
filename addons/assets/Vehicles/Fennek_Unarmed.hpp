@@ -1,5 +1,7 @@
 // Fennek (Strider)
 class TACU_Fennek_Unarmed_Base: MRAP_03_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_MRAP_03_F.jpg";
+
     class TextureSources {
         class Blufor {
             displayName = "BLUFOR";

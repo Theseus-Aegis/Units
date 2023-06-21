@@ -1,5 +1,7 @@
 // Karatel (HMG)
 class TACU_Karatel_HMG_Base: MRAP_02_hmg_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\O_MRAP_02_hmg_F.jpg";
+
     class TextureSources {
         class Hex {
             displayName = "Hex";

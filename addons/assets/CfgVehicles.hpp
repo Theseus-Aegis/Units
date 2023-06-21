@@ -1,35 +1,13 @@
 class CfgVehicles {
     #include "Vehicles\Base.hpp"
 
-    /* ToDo: (Vehicle Class : Realistic Name) Get base classes of these, inherit from there. (Check for textureSources from main classes.)
-        * B_Heli_Transport_03_unarmed_F | CH-47l Chinook (Unarmed)
-        * B_Heli_Transport_03_F | CH-47l Chinook (Armed)
-        * O_LSV_02_unarmed_F | LSV Mk. II
-        * O_LSV_02_armed_F | LSV Mk. II (M134)
-        * O_LSV_02_AT_F | LSV Mk. II (Metis-M)
-        * B_APC_Tracked_01_rcws_F | Namer
-        * B_APC_Tracked_01_CRV_F | Nemmera
-        * B_Heli_Attack_01_dynamicLoadout_F | RAH-66 Comanche
-        * B_GEN_APC_Wheeled_02_hmg_lxWS | Otokar ARMA (M2)
-        * O_APC_Wheeled_02_rcws_v2_F | Otokar ARMA (HMG)
-        * B_UNA_APC_Wheeled_02_unarmed_lxWS | Otokar ARMA (Unarmed)
-        * O_Truck_03_transport_F | Typhoon Transport
-        * O_Truck_03_covered_F | Typhoon Transport (Covered)
-        * O_Truck_02_transport_F | Kamaz Transport
-        * O_Truck_02_covered_F | Kamaz Transport (Covered)
-        * I_Truck_02_MRL_F | Kamaz MRL (Artillery)
-        * B_Tura_Truck_02_aa_lxWS | Kamaz (Zu-23-2)
-        * I_Heli_light_03_unarmed_F | Wildcat (Unarmed)
-        * I_LT_01_cannon_F | Wiesel 2 (MK20)
-        * I_LT_01_AT_F | Wiesel 2 (ATGM)
-        * I_Heli_light_03_dynamicLoadout_F | Wildcat (Armed)
-    */
-
     // Vehicles - Using ACE Realistic names
     #include "Vehicles\AH6_Little_Bird.hpp"
     //#include "Vehicles\AW101.hpp"
     #include "Vehicles\Badger_IFV.hpp"
     #include "Vehicles\Bardelas.hpp"
+    #include "Vehicles\Chinook_Unarmed.hpp"
+    #include "Vehicles\Chinook_Armed.hpp"
     #include "Vehicles\Fennek_Unarmed.hpp"
     #include "Vehicles\Fennek_HMG.hpp"
     #include "Vehicles\Fennek_GMG.hpp"
@@ -39,26 +17,44 @@ class CfgVehicles {
     #include "Vehicles\Jeep_Wrangler_Unarmed.hpp"
     #include "Vehicles\Jeep_Wrangler_LMG.hpp"
     #include "Vehicles\Jeep_Wrangler_AT.hpp"
+    #include "Vehicles\Kamaz.hpp"
+    #include "Vehicles\Kamaz_Covered.hpp"
+    #include "Vehicles\Kamaz_MRL.hpp"
+    #include "Vehicles\Kamaz_ZU23.hpp"
     #include "Vehicles\Karatel_Unarmed.hpp"
     #include "Vehicles\Karatel_HMG.hpp"
     #include "Vehicles\Karatel_GMG.hpp"
     #include "Vehicles\Leopard_2SG.hpp"
+    #include "Vehicles\LSV_MKII_Unarmed.hpp"
+    #include "Vehicles\LSV_MKII_Armed.hpp"
+    #include "Vehicles\LSV_MKII_Armed_AT.hpp"
     #include "Vehicles\MATV_GMG.hpp"
     #include "Vehicles\MATV_HMG.hpp"
     #include "Vehicles\MATV_Unarmed.hpp"
+    #include "Vehicles\Namer.hpp"
+    #include "Vehicles\Nemmera.hpp"
     #include "Vehicles\Offroad_Armed_AT_UP.hpp"
     #include "Vehicles\Offroad_Armed_AT.hpp"
     #include "Vehicles\Offroad_Armed_UP.hpp"
     #include "Vehicles\Offroad_Armed.hpp"
     #include "Vehicles\Offroad_Covered.hpp"
     #include "Vehicles\Offroad.hpp"
+    #include "Vehicles\Otokar_ARMA_Armed.hpp"
+    #include "Vehicles\Otokar_ARMA_HMG.hpp"
+    #include "Vehicles\Otokar_ARMA_Unarmed.hpp"
     #include "Vehicles\Pandur.hpp"
     #include "Vehicles\Polaris_Armed_AT.hpp"
     #include "Vehicles\Polaris_Armed.hpp"
     #include "Vehicles\Polaris_Unarmed.hpp"
+    #include "Vehicles\RAH66_Comanche.hpp"
     #include "Vehicles\Truck.hpp"
+    #include "Vehicles\Typhoon.hpp"
     #include "Vehicles\Van_Cargo.hpp"
     #include "Vehicles\Van_Transport.hpp"
+    #include "Vehicles\Wiesel_Armed_AT.hpp"
+    #include "Vehicles\Wiesel_Armed.hpp"
+    #include "Vehicles\Wildcat_Armed.hpp"
+    #include "Vehicles\Wildcat_Unarmed.hpp"
 
     // Wearables
     #include "Vehicles\Wearables\BAF_Helmets.hpp"

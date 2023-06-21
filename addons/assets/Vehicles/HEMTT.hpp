@@ -1,5 +1,7 @@
 // HEMTT Transport
 class TACU_HEMTT_Base: Truck_01_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Truck_01_transport_F.jpg";
+
     class TextureSources {
         class Blufor {
             displayName = "Sand";
@@ -35,5 +37,7 @@ class TACU_HEMTT_Base: Truck_01_base_F {
 
 // HEMTT Transport (Covered)
 class TACU_HEMTT_Covered_Base: TACU_HEMTT_Base {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Truck_01_covered_F.jpg";
+
     hiddenSelections[] = {"Camo1", "Camo2", "Camo3", "Camo4"};
 };

@@ -1,9 +1,7 @@
-#define MACRO_TRUCK_MATERIALS "\a3\soft_f_gamma\van_01\data\van_01_ext.rvmat", \
-    "\a3\soft_f_gamma\van_01\data\van_01_adds.rvmat", \
-    "\a3\soft_f_gamma\van_01\data\van_01_int_base.rvmat"
-
 // Truck
 class TACU_Truck_Base: van_01_transport_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_G_Van_01_transport_F.jpg";
+
     class TextureSources {
         class Black {
             displayName = "Black";

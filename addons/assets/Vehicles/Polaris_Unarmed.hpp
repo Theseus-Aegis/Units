@@ -1,5 +1,7 @@
 // Polaris Unarmed
 class TACU_Polaris_Unarmed_Base: LSV_01_unarmed_base_F {
+    editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_LSV_01_unarmed_F.jpg";
+
     class TextureSources {
         class Arid {
             displayName = "Arid";

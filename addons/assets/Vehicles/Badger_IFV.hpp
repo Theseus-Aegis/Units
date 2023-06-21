@@ -1,5 +1,7 @@
 // Badger IFV
 class TACU_Badger_IFV_Base: APC_Wheeled_01_Base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_APC_Wheeled_01_cannon_F.jpg";
+
     class TextureSources {
         class Sand {
             displayName = "Sand";

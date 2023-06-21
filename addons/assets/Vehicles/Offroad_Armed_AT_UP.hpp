@@ -1,5 +1,7 @@
 // Offroad SPG-9 (Armoured)
 class TACU_Offroad_Armed_AT_UP_Base: Offroad_01_armor_AT_lxWS {
+    editorPreview = "\lxws\editorpreviews_f_lxws\Data\CfgVehicles\O_G_Offroad_01_armor_AT_lxWS.jpg";
+
     class TextureSources {
         class Black {
             displayName = "Black";

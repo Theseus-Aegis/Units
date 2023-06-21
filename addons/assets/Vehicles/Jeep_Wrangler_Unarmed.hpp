@@ -1,5 +1,7 @@
 // Jeep Wrangler Unarmed
 class TACU_Jeep_Wrangler_Unarmed_Base: Offroad_02_base_F {
+    editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\I_C_Offroad_02_unarmed_F.jpg";
+
     class TextureSources {
         class Black {
             displayName = "Black";

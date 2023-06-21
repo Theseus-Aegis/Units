@@ -1,5 +1,7 @@
 // Karatel
 class TACU_Karatel_Unarmed_Base: MRAP_02_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\O_MRAP_02_F.jpg";
+
     class TextureSources {
         class Hex {
             displayName = "Hex";

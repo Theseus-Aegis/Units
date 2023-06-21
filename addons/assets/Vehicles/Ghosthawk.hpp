@@ -1,6 +1,7 @@
 // UH-80 Ghost Hawk
 class TACU_GhostHawk_Base: Heli_Transport_01_base_F {
-    scope = 1;
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Heli_Transport_01_F.jpg";
+
     class TextureSources {
         class Black {
             displayName = "Black";

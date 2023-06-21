@@ -1,5 +1,7 @@
 // Offroad
 class TACU_Offroad_Unarmed_Base: Offroad_01_unarmed_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\O_G_Offroad_01_F.jpg";
+
     class TextureSources {
         class Guerilla_01 {
             displayName = "Guerrilla 01";

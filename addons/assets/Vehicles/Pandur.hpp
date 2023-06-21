@@ -1,4 +1,6 @@
 class TACU_Pandur_Base: APC_Wheeled_03_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_APC_Wheeled_03_cannon_F.jpg";
+
     class TextureSources {
         class Indep {
             displayName = "AAF";

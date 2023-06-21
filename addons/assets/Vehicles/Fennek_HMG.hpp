@@ -1,5 +1,7 @@
 // Fennek (HMG)
 class TACU_Fennek_HMG_Base: MRAP_03_hmg_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_MRAP_03_hmg_F.jpg";
+
     class TextureSources {
         class Blufor {
             displayName = "BLUFOR";

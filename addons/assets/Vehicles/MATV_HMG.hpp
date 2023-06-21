@@ -1,5 +1,7 @@
 // M-ATV (HMG)
 class TACU_MATV_HMG_Base: MRAP_01_hmg_base_F {
+    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_MRAP_01_hmg_F.jpg";
+
     class TextureSources {
         class Blufor {
             displayName = "Sand";
