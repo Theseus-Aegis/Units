@@ -59,7 +59,7 @@ class CfgVehicles {
     // Wearables
     #include "Vehicles\Wearables\BAF_Helmets.hpp"
     #include "Vehicles\Wearables\BAF_Vests.hpp"
-    #include "Vehicles\Cartel_Uniforms.hpp"
+    #include "Vehicles\Wearables\Cartel_Uniforms.hpp"
     #include "Vehicles\Wearables\Police_Helmets.hpp"
     #include "Vehicles\Wearables\Police_Uniforms.hpp"
     #include "Vehicles\Wearables\Police_Vests.hpp"
