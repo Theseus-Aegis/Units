@@ -188,7 +188,7 @@ class TACU_Vanguard_V_O_Strider: TACU_Vanguard_V_Strider {
     typicalCargo[] = {"TACU_Vanguard_U_O_Specialist_Grenadier"};
 };
 
-class TACU_Vanguard_V_Armed_Qilin: O_T_LSV_02_armed_black_F {
+class TACU_Vanguard_V_Armed_Qilin: TACU_LSV_MKII_Armed_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
@@ -197,6 +197,7 @@ class TACU_Vanguard_V_Armed_Qilin: O_T_LSV_02_armed_black_F {
     displayName = "Qilin (Armed)";
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
+    textureList[] = {"Black", 1};
 };
 
 class TACU_Vanguard_V_O_Armed_Qilin: TACU_Vanguard_V_Armed_Qilin {
@@ -206,7 +207,7 @@ class TACU_Vanguard_V_O_Armed_Qilin: TACU_Vanguard_V_Armed_Qilin {
     typicalCargo[] = {"TACU_Vanguard_U_O_Specialist_Grenadier"};
 };
 
-class TACU_Vanguard_V_Qilin: O_T_LSV_02_unarmed_black_F {
+class TACU_Vanguard_V_Qilin: TACU_LSV_MKII_Base {
     MACRO_CLEAR_VEHICLE_CARGO
     faction = "TACU_Vanguard";
     side = 2;
@@ -215,6 +216,7 @@ class TACU_Vanguard_V_Qilin: O_T_LSV_02_unarmed_black_F {
     displayName = "Qilin";
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
+    textureList[] = {"Black", 1};
 };
 
 class TACU_Vanguard_V_O_Qilin: TACU_Vanguard_V_Qilin {
