@@ -6,7 +6,7 @@
 // Vehicle Macros
 #define MACRO_EVENTHANDLERS class EventHandlers: EventHandlers { \
     postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };"; \
-}
+};
 
 
 #define MACRO_WRANGLER_MATERIALS "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_metal.rvmat", \
