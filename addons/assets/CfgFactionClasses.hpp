@@ -1,0 +1,7 @@
+class CfgFactionClasses {
+    class TACU_Assets_Testing {
+        displayName = "TACU - Vehicle Testing";
+        side = 1;
+        priority = 1;
+    };
+};

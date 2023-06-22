@@ -1,9 +1,12 @@
 class CfgVehicles {
     #include "Vehicles\Base.hpp"
 
+    // Test Unit - Comment out on live build.
+    #include "Vehicles\Test_Unit.hpp"
+
     // Vehicles - Using ACE Realistic names
     #include "Vehicles\AH6_Little_Bird.hpp"
-    //#include "Vehicles\AW101.hpp"
+    #include "Vehicles\AW101.hpp"
     #include "Vehicles\Badger_IFV.hpp"
     #include "Vehicles\Bardelas.hpp"
     #include "Vehicles\Chinook_Unarmed.hpp"
@@ -13,6 +16,7 @@ class CfgVehicles {
     #include "Vehicles\Fennek_GMG.hpp"
     #include "Vehicles\FV510_Warrior.hpp"
     #include "Vehicles\Ghosthawk.hpp"
+    #include "Vehicles\HEMTT_Covered.hpp"
     #include "Vehicles\HEMTT.hpp"
     #include "Vehicles\Jeep_Wrangler_Unarmed.hpp"
     #include "Vehicles\Jeep_Wrangler_LMG.hpp"
@@ -49,6 +53,7 @@ class CfgVehicles {
     #include "Vehicles\Polaris_Unarmed.hpp"
     #include "Vehicles\RAH66_Comanche.hpp"
     #include "Vehicles\Truck.hpp"
+    #include "Vehicles\Typhoon_Covered.hpp"
     #include "Vehicles\Typhoon.hpp"
     #include "Vehicles\Van_Cargo.hpp"
     #include "Vehicles\Van_Transport.hpp"

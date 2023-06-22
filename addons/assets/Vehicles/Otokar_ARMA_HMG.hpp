@@ -1,7 +1,10 @@
 // Otokar ARMA (HMG)
-class TACU_Otokar_ARMA_HMG_Base: APC_Wheeled_02_base_v2_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\O_APC_Wheeled_02_rcws_v2_F.jpg";
+class O_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F {
+    class EventHandlers;
+};
 
+class TACU_Otokar_ARMA_HMG_Base: O_APC_Wheeled_02_rcws_v2_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Hex {
             displayName = "Hex";

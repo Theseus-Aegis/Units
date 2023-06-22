@@ -1,7 +1,10 @@
 // Polaris Armed AT
-class TACU_Polaris_Armed_AT_Base: LSV_01_AT_base_F {
-    editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\B_LSV_01_AT_F.jpg";
+class B_LSV_01_AT_F: LSV_01_AT_base_F {
+    class EventHandlers;
+};
 
+class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Arid {
             displayName = "Arid";

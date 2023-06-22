@@ -1,7 +1,10 @@
 // Kamaz ZU-23-2
-class TACU_Kamaz_ZU23_Base: Truck_02_aa_base_lxWS {
-    editorPreview = "\lxws\editorpreviews_f_lxws\Data\CfgVehicles\I_A_Truck_02_aa_lxWS.jpg";
+class I_A_Truck_02_aa_lxWS: Truck_02_aa_base_lxWS {
+    class EventHandlers;
+};
 
+class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Opfor {
             displayName = "Hex";

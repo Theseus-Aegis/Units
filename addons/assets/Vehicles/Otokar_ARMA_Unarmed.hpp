@@ -1,7 +1,10 @@
 // Otokar ARMA (Unarmed)
-class TACU_Otokar_ARMA_Unarmed_Base: APC_Wheeled_02_unarmed_base_lxws {
-    editorPreview = "\lxws\editorpreviews_f_lxws\Data\CfgVehicles\O_APC_Wheeled_02_unarmed_lxWS.jpg";
+class O_APC_Wheeled_02_unarmed_lxWS: APC_Wheeled_02_unarmed_base_lxws {
+    class EventHandlers;
+};
 
+class TACU_Otokar_ARMA_Unarmed_Base: O_APC_Wheeled_02_unarmed_lxWS {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class SFIA {
             displayName = "SFIA";

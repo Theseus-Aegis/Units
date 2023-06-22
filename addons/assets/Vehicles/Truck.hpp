@@ -1,7 +1,10 @@
 // Truck
-class TACU_Truck_Base: van_01_transport_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_G_Van_01_transport_F.jpg";
+class B_G_Van_01_transport_F: I_G_Van_01_transport_F {
+    class EventHandlers;
+};
 
+class TACU_Truck_Base: B_G_Van_01_transport_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

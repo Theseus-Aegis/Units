@@ -1,7 +1,10 @@
 // Nemmera
-class TACU_Nemmera_Base: APC_Tracked_01_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_APC_Tracked_01_CRV_F.jpg";
+class B_APC_Tracked_01_CRV_F: B_APC_Tracked_01_base_F {
+    class EventHandlers;
+};
 
+class TACU_Nemmera_Base: B_APC_Tracked_01_CRV_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Blufor {
             displayName = "NATO";

@@ -1,7 +1,10 @@
 // AH-6 Little Bird
-class TACU_AH6_LittleBird_Base: Heli_Light_01_armed_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Heli_Light_01_dynamicLoadout_F.jpg";
+class B_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F {
+    class EventHandlers;
+};
 
+class TACU_AH6_LittleBird_Base: B_Heli_Light_01_dynamicLoadout_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Vanguard {
             author = "GilleeDoo, Mike";

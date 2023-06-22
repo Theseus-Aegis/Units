@@ -1,9 +1,9 @@
-// HEMTT Transport
-class B_Truck_01_transport_F: Truck_01_base_F {
+// HEMTT Transport (Covered)
+class B_Truck_01_covered_F: B_Truck_01_transport_F {
     class EventHandlers;
 };
 
-class TACU_HEMTT_Base: B_Truck_01_transport_F {
+class TACU_HEMTT_Covered_Base: B_Truck_01_covered_F {
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Blufor {

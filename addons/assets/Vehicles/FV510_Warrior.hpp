@@ -1,7 +1,10 @@
 // FV510 Warrior
-class TACU_FV510_Warrior_Base: APC_Tracked_03_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_APC_tracked_03_cannon_F.jpg";
+class I_APC_tracked_03_cannon_F: I_APC_tracked_03_base_F {
+    class EventHandlers;
+};
 
+class TACU_FV510_Warrior_Base: I_APC_tracked_03_cannon_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Indep_02 {
             displayName = "AAF (Jungle Camo Net)";

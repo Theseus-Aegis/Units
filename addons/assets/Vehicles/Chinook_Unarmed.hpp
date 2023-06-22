@@ -1,7 +1,10 @@
 // CH-47L Chinook Unarmed
-class TACU_Chinook_Unarmed_Base: Heli_Transport_03_unarmed_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Heli_Transport_03_unarmed_F.jpg";
+class B_Heli_Transport_03_unarmed_F: Heli_Transport_03_unarmed_base_F {
+    class EventHandlers;
+};
 
+class TACU_Chinook_Unarmed_Base: B_Heli_Transport_03_unarmed_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Green {
             displayName = "Green";

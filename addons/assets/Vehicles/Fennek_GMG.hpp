@@ -1,7 +1,10 @@
 // Fennek (GMG)
-class TACU_Fennek_GMG_Base: MRAP_03_gmg_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_MRAP_03_gmg_F.jpg";
+class I_MRAP_03_gmg_F: MRAP_03_gmg_base_F {
+    class EventHandlers;
+};
 
+class TACU_Fennek_GMG_Base: I_MRAP_03_gmg_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Blufor {
             displayName = "BLUFOR";

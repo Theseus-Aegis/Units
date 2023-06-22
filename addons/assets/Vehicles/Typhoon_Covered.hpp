@@ -1,9 +1,9 @@
-// Typhoon Transport
-class O_Truck_03_transport_F: Truck_03_base_F {
+// Typhoon Transport (Covered)
+class O_Truck_03_covered_F: Truck_03_base_F {
     class EventHandlers;
 };
 
-class TACU_Typhoon_Base: O_Truck_03_transport_F {
+class TACU_Typhoon_Covered_Base: O_Truck_03_covered_F {
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Hex {

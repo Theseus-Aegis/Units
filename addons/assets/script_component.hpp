@@ -3,6 +3,17 @@
 #include "\x\tacu\addons\main\script_mod.hpp"
 #include "\x\tacu\addons\main\script_macros.hpp"
 
+// Default vehicle properties
+#define MACRO_DEFAULT_VEHICLE \
+    scope = 2; \
+    scopeCurator = 2; \
+    forceInGarage = 1; \
+    side = 1; \
+    faction = "TACU_Assets_Testing"; \
+    crew = "TACU_Assets_TestUnit"; \
+    typicalCargo[] = {"TACU_Assets_TestUnit"}; \
+}
+
 // Vehicle Macros
 #define MACRO_EVENTHANDLERS \
     class EventHandlers: EventHandlers { \

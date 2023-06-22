@@ -1,7 +1,10 @@
 // LSV Mk. II (Unarmed)
-class TACU_LSV_MKII_Base: LSV_02_unarmed_base_F {
-    editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\O_LSV_02_unarmed_F.jpg";
+class O_LSV_02_unarmed_F: LSV_02_unarmed_base_F {
+    class EventHandlers;
+};
 
+class TACU_LSV_MKII_Base: O_LSV_02_unarmed_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

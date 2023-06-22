@@ -1,7 +1,10 @@
 // RAH-66 Comanche
-class TACU_RAH66_Comanche_Base: Heli_Attack_01_dynamicLoadout_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Heli_Attack_01_dynamicLoadout_F.jpg";
+class B_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F {
+    class EventHandlers;
+};
 
+class TACU_RAH66_Comanche_Base: B_Heli_Attack_01_dynamicLoadout_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Sand {
             displayName = "Sand";

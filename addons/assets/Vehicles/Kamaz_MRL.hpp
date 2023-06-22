@@ -1,7 +1,10 @@
 // Kamaz MRL (Artillery)
-class TACU_Kamaz_MRL_Base: Truck_02_MRL_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_Truck_02_MRL_F.jpg";
+class I_Truck_02_MRL_F: Truck_02_MRL_base_F {
+    class EventHandlers;
+};
 
+class TACU_Kamaz_MRL_Base: I_Truck_02_MRL_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Opfor {
             displayName = "OPFOR";

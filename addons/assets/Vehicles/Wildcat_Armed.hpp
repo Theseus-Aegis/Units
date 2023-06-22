@@ -1,7 +1,10 @@
 // Wildcat (Armed)
-class TACU_Wildcat_Armed_Base: Heli_light_03_dynamicLoadout_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_Heli_light_03_dynamicLoadout_F.jpg";
+class I_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F {
+    class EventHandlers;
+};
 
+class TACU_Wildcat_Armed_Base: I_Heli_light_03_dynamicLoadout_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

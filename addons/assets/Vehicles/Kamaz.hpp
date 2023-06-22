@@ -1,7 +1,10 @@
 // Kamaz Transport
-class TACU_Kamaz_Base: Truck_02_transport_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\C_Truck_02_transport_F.jpg";
+class I_Truck_02_transport_F: Truck_02_transport_base_F {
+    class EventHandlers;
+};
 
+class TACU_Kamaz_Base: I_Truck_02_transport_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Opfor {
             displayName = "OPFOR";

@@ -1,7 +1,10 @@
 // Bardelas AA
-class TACU_Bardelas_Base: APC_Tracked_01_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_APC_Tracked_01_AA_F.jpg";
+class B_APC_Tracked_01_AA_F: B_APC_Tracked_01_base_F {
+    class EventHandlers;
+};
 
+class TACU_Bardelas_Base: B_APC_Tracked_01_AA_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Blufor {
             displayName = "NATO";

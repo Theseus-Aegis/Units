@@ -1,7 +1,10 @@
 // Jeep Wrangler (LMG)
-class TACU_Jeep_Wrangler_LMG_Base: Offroad_02_LMG_base_F {
-    editorPreview = "\A3\EditorPreviews_F_Exp\Data\CfgVehicles\I_C_Offroad_02_LMG_F.jpg";
+class I_C_Offroad_02_LMG_F: Offroad_02_LMG_base_F {
+    class EventHandlers;
+};
 
+class TACU_Jeep_Wrangler_LMG_Base: I_C_Offroad_02_LMG_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

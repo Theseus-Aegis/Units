@@ -1,6 +1,10 @@
-class TACU_Cargo_Van_Base: Van_02_vehicle_base_F {
-    editorPreview = "\A3\EditorPreviews_F_Orange\Data\CfgVehicles\I_G_Van_02_vehicle_F.jpg";
+// Van - Cargo
+class B_G_Van_02_vehicle_F: Van_02_vehicle_base_F {
+    class EventHandlers;
+};
 
+class TACU_Cargo_Van_Base: B_G_Van_02_vehicle_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Syndikat {
             displayName = "Brown (Syndikat)";

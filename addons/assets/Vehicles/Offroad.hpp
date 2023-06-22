@@ -1,7 +1,10 @@
 // Offroad
-class TACU_Offroad_Unarmed_Base: Offroad_01_unarmed_base_F {
-    editorPreview = "\a3\EditorPreviews_F\data\CfgVehicles\O_G_Offroad_01_F.jpg";
+class B_G_Offroad_01_F: I_G_Offroad_01_F {
+    class EventHandlers;
+};
 
+class TACU_Offroad_Unarmed_Base: B_G_Offroad_01_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Red {
             displayName = "Red";

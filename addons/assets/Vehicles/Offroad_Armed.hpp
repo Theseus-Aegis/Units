@@ -1,7 +1,10 @@
 // Offroad M2
-class TACU_Offroad_Armed_M2_Base: Offroad_01_armed_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\O_G_Offroad_01_armed_F.jpg";
+class B_G_Offroad_01_armed_F: I_G_Offroad_01_armed_F {
+    class EventHandlers;
+};
 
+class TACU_Offroad_Armed_M2_Base: B_G_Offroad_01_armed_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Guerilla_01 {
             displayName = "Guerrilla 01";

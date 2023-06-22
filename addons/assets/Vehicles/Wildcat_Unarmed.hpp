@@ -1,7 +1,10 @@
 // Wildcat (Unarmed)
-class TACU_Wildcat_Base: Heli_light_03_unarmed_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\I_Heli_light_03_unarmed_F.jpg";
+class I_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F {
+    class EventHandlers;
+};
 
+class TACU_Wildcat_Base: I_Heli_light_03_unarmed_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

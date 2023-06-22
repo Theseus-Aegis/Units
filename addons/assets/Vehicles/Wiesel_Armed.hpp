@@ -1,7 +1,10 @@
 // Wiesel (MK20)
-class TACU_Wiesel_Armed_Base: LT_01_cannon_base_F {
-    editorPreview = "\A3\EditorPreviews_F_Tank\Data\CfgVehicles\I_LT_01_cannon_F.jpg";
+class I_LT_01_cannon_F: LT_01_cannon_base_F {
+    class EventHandlers;
+};
 
+class TACU_Wiesel_Armed_Base: I_LT_01_cannon_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Olive_Jungle {
             displayName = "Olive (Jungle Camo Net)";

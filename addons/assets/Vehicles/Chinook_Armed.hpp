@@ -1,7 +1,10 @@
 // CH-47L Chinook (Armed)
-class TACU_Chinook_Armed_Base: Heli_Transport_03_base_F {
-    editorPreview = "\A3\EditorPreviews_F\Data\CfgVehicles\B_Heli_Transport_03_F.jpg";
+class B_Heli_Transport_03_F: Heli_Transport_03_base_F {
+    class EventHandlers;
+};
 
+class TACU_Chinook_Armed_Base: B_Heli_Transport_03_F {
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Green {
             displayName = "Green";
