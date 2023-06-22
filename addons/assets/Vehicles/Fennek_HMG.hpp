@@ -29,6 +29,6 @@ class TACU_Fennek_HMG_Base: I_MRAP_03_hmg_F {
     textureList[] = {
         "Blufor", 1,
         "Indep", 1,
-        "Vanguard", 1
+        "Vanguard", 0
     };
 };

@@ -29,7 +29,7 @@ class TACU_Fennek_Unarmed_Base: I_MRAP_03_F {
     textureList[] = {
         "Blufor", 1,
         "Indep", 1,
-        "Vanguard", 1
+        "Vanguard", 0
     };
 
     MACRO_EVENTHANDLERS;

@@ -102,7 +102,7 @@ class TACU_Pandur_Base: I_APC_Wheeled_03_cannon_F {
         "Guerilla_01", 1,
         "Guerilla_02", 1,
         "Guerilla_03", 1,
-        "Vanguard", 1
+        "Vanguard", 0
     };
 
     MACRO_EVENTHANDLERS;
