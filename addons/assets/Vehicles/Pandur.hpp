@@ -4,7 +4,8 @@ class I_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_base_F {
 };
 
 class TACU_Pandur_Base: I_APC_Wheeled_03_cannon_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Indep {
             displayName = "AAF";

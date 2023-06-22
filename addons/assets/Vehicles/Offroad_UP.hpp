@@ -4,7 +4,8 @@ class B_G_Offroad_01_armor_base_lxWS: I_G_Offroad_01_armor_base_lxWS {
 };
 
 class TACU_Offroad_Unarmed_UP_Base: B_G_Offroad_01_armor_base_lxWS {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

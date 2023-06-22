@@ -4,7 +4,8 @@ class I_E_Offroad_01_covered_F: Offroad_01_military_covered_base_F {
 };
 
 class TACU_Offroad_Covered_Base: I_E_Offroad_01_covered_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Green {
             displayName = "Green";

@@ -4,7 +4,8 @@ class I_Heli_light_03_unarmed_F: Heli_light_03_unarmed_base_F {
 };
 
 class TACU_Wildcat_Base: I_Heli_light_03_unarmed_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

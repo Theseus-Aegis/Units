@@ -87,14 +87,3 @@ class TACU_Cartel2_U_O_Enforcer_Rifleman_08: TACU_Cartel2_U_O_Enforcer_Rifleman_
     respawnMagazines[] = {mag_6("CUP_6Rnd_HE_M203"), mag_4("tacgt_AI_40Rnd_46x30_MP7"), mag_2("HandGrenade")};
     //EDITORPREVIEW(Cartel2_U_O_Enforcer_Rifleman_08)
 };
-
-// Vehicles
-class TACS_Cartel_V_O_Enforcer_Offroad: TACS_Cartel_V_O_Thug_Offroad {
-    crew = "TACU_Cartel2_U_O_Enforcer_Rifleman_01";
-    editorSubcategory = "TACU_Cartel_EdSubCat_O_Enforcers_Vehicles";
-};
-
-class TACU_Cartel_V_O_Enforcer_Offroad_Armed: TACU_Cartel_V_O_Thug_Offroad_Armed {
-    crew = "TACU_Cartel2_U_O_Enforcer_Rifleman_01";
-    editorSubcategory = "TACU_Cartel_EdSubCat_O_Enforcers_Vehicles";
-};

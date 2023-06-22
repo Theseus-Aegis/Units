@@ -100,11 +100,12 @@ class TACU_Cartel2_U_O_Thug_Rifleman_08: TACU_Cartel2_U_O_Thug_Rifleman_01 {
 };
 
 // Vehicles
-class TACS_Cartel_V_O_Thug_Offroad: TACU_Offroad_Unarmed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+class TACU_Cartel_V_O_Thug_Offroad: TACU_Offroad_Unarmed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Cartel_O";
     side = 0;
     crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
+    typicalCargo[] = {"TACU_Cartel2_U_O_Thug_Rifleman_01"};
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
 
     textureList[] = {"Black", 1};
@@ -121,31 +122,5 @@ class TACS_Cartel_V_O_Thug_Offroad: TACU_Offroad_Unarmed_Base {
         "BeaconsStart", 0,
         "BeaconsServicesStart", 0
     };
-};
-
-class TACU_Cartel_V_O_Thug_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Cartel_O";
-    side = 0;
-    crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
-    editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
-
-    textureList[] = {"Black", 1};
-    animationList[] = {
-        "Hide_Shield", 0,
-        "Hide_Rail", 1,
-        "HideDoor1", 0,
-        "HideDoor2", 0,
-        "HideDoor3", 0,
-        "HideBackpacks", 1,
-        "HideBumper1", 1,
-        "HideBumper2", 0,
-        "HideConstruction", 0
-    };
-};
-
-class TACU_Cartel_V_O_Thug_Van_Transport: TACU_Cartel_V_O_Grunt_Van_Transport {
-    crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
-    editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
 };
 

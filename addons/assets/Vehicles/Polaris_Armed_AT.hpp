@@ -4,7 +4,8 @@ class B_LSV_01_AT_F: LSV_01_AT_base_F {
 };
 
 class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Arid {
             displayName = "Arid";

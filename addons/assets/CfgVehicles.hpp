@@ -1,8 +1,9 @@
 class CfgVehicles {
     #include "Vehicles\Base.hpp"
 
-    // Test Unit - Comment out on live build.
-    #include "Vehicles\Test_Unit.hpp"
+    #ifdef DEBUG_MODE_FULL
+        #include "Vehicles\Test_Unit.hpp"
+    #endif
 
     // Vehicles - Using ACE Realistic names
     #include "Vehicles\AH6_Little_Bird.hpp"

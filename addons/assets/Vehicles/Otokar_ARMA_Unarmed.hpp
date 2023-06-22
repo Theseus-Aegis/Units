@@ -5,7 +5,8 @@ class O_APC_Wheeled_02_unarmed_lxWS: APC_Wheeled_02_unarmed_base_lxws {
 
 class TACU_Otokar_ARMA_Unarmed_Base: O_APC_Wheeled_02_unarmed_lxWS {
     displayName = "Otokar ARMA (Unarmed)";
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class SFIA {
             displayName = "SFIA";

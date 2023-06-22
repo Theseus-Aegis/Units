@@ -4,7 +4,8 @@ class B_G_Offroad_01_armed_F: I_G_Offroad_01_armed_F {
 };
 
 class TACU_Offroad_Armed_M2_Base: B_G_Offroad_01_armed_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Guerilla_01 {
             displayName = "Guerrilla 01";

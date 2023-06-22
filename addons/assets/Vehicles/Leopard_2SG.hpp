@@ -4,7 +4,8 @@ class I_MBT_03_cannon_F: I_MBT_03_base_F {
 };
 
 class TACU_Leopard_2SG_Base: I_MBT_03_cannon_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Indep_02 {
             displayName = "AAF (Jungle Camo Net)";

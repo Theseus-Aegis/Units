@@ -4,7 +4,8 @@ class B_APC_Tracked_01_rcws_F: B_APC_Tracked_01_base_F {
 };
 
 class TACU_Namer_Base: B_APC_Tracked_01_rcws_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Sand {
             displayName = "Sand";

@@ -42,11 +42,11 @@ class CfgPatches {
             "TACU_Cartel_V_O_Grunt_Offroad",
             "TACU_Cartel_V_O_Grunt_Van_Transport",
             // Vehicles - Thugs
-            "TACS_Cartel_V_O_Thug_Offroad",
+            "TACU_Cartel_V_O_Thug_Offroad",
             "TACU_Cartel_V_O_Thug_Offroad_Armed",
             "TACU_Cartel_V_O_Thug_Van_Transport",
             // Vehicles - Enforcers
-            "TACS_Cartel_V_O_Enforcer_Offroad",
+            "TACU_Cartel_V_O_Enforcer_Offroad",
             "TACU_Cartel_V_O_Enforcer_Offroad_Armed"
         };
         weapons[] = {

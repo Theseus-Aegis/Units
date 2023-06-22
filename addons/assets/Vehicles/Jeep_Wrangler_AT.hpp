@@ -4,7 +4,8 @@ class I_C_Offroad_02_AT_F: Offroad_02_AT_base_F {
 };
 
 class TACU_Jeep_Wrangler_AT_Base: I_C_Offroad_02_AT_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Black {
             displayName = "Black";

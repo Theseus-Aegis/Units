@@ -4,7 +4,8 @@ class I_Truck_02_covered_F: Truck_02_base_F {
 };
 
 class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Opfor {
             displayName = "OPFOR";

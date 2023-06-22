@@ -4,7 +4,8 @@ class B_G_Offroad_01_F: I_G_Offroad_01_F {
 };
 
 class TACU_Offroad_Unarmed_Base: B_G_Offroad_01_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Red {
             displayName = "Red";

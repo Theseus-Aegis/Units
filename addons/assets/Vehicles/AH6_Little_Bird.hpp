@@ -4,7 +4,8 @@ class B_Heli_Light_01_dynamicLoadout_F: Heli_Light_01_dynamicLoadout_base_F {
 };
 
 class TACU_AH6_LittleBird_Base: B_Heli_Light_01_dynamicLoadout_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Vanguard {
             author = "GilleeDoo, Mike";

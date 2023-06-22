@@ -1,9 +1,7 @@
 class TACU_Vanguard_V_UH80_Ghosthawk: TACU_GhostHawk_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     crew = "TACU_Vanguard_U_Contractor_Pilot";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
     textureList[] = {"Vanguard", 1};
@@ -17,11 +15,9 @@ class TACU_Vanguard_V_O_UH80_Ghosthawk: TACU_Vanguard_V_UH80_Ghosthawk {
 };
 
 class TACU_Vanguard_V_AH9_Pawnee: TACU_AH6_LittleBird_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     crew = "TACU_Vanguard_U_Contractor_Pilot";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
     textureList[] = {"Vanguard", 1};
@@ -35,11 +31,9 @@ class TACU_Vanguard_V_O_AH9_Pawnee: TACU_Vanguard_V_AH9_Pawnee {
 };
 
 class TACU_Vanguard_V_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
     textureList[] = {"Black", 1};
@@ -53,11 +47,9 @@ class TACU_Vanguard_V_O_Offroad_Armed: TACU_Vanguard_V_Offroad_Armed {
 };
 
 class TACU_Vanguard_V_Dagor_Green: TACU_Polaris_Unarmed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     displayName = "Polaris Dagor (Green)";
     crew = "TACU_Vanguard_U_Contractor_Green_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -72,11 +64,9 @@ class TACU_Vanguard_V_O_Dagor_Green: TACU_Vanguard_V_Dagor_Green {
 };
 
 class TACU_Vanguard_V_Dagor_Armed_Green: TACU_Polaris_Armed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     displayName = "Polaris Dagor (XM312, Green)";
     crew = "TACU_Vanguard_U_Contractor_Green_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -91,11 +81,9 @@ class TACU_Vanguard_V_O_Dagor_Armed_Green: TACU_Vanguard_V_Dagor_Armed_Green {
 };
 
 class TACU_Vanguard_V_AFV4_Gorgon: TACU_Pandur_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     displayName = "Pandur II (Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -110,11 +98,9 @@ class TACU_Vanguard_V_O_AFV4_Gorgon: TACU_Vanguard_V_AFV4_Gorgon {
 };
 
 class TACU_Vanguard_V_Hunter: TACU_MATV_Unarmed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     displayName = "M-ATV (Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -129,11 +115,9 @@ class TACU_Vanguard_V_O_Hunter: TACU_Vanguard_V_Hunter {
 };
 
 class TACU_Vanguard_V_Dagor_Tan: TACU_Polaris_Unarmed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     displayName = "Polaris Dagor (Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -148,11 +132,9 @@ class TACU_Vanguard_V_O_Dagor_Tan: TACU_Vanguard_V_Dagor_Tan {
 };
 
 class TACU_Vanguard_V_Dagor_Armed_Tan: TACU_Polaris_Armed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     displayName = "Polaris Dagor (XM312, Sand)";
     crew = "TACU_Vanguard_U_Contractor_Sand_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Contractor_Green_Engineer"};
@@ -167,11 +149,9 @@ class TACU_Vanguard_V_O_Dagor_Armed_Tan: TACU_Vanguard_V_Dagor_Armed_Tan {
 };
 
 class TACU_Vanguard_V_Strider: TACU_Fennek_Unarmed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
     textureList[] = {"Vanguard", 1};
@@ -185,11 +165,9 @@ class TACU_Vanguard_V_O_Strider: TACU_Vanguard_V_Strider {
 };
 
 class TACU_Vanguard_V_Armed_Qilin: TACU_LSV_MKII_Armed_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
     textureList[] = {"Black", 1};
@@ -203,11 +181,9 @@ class TACU_Vanguard_V_O_Armed_Qilin: TACU_Vanguard_V_Armed_Qilin {
 };
 
 class TACU_Vanguard_V_Qilin: TACU_LSV_MKII_Base {
-    MACRO_CLEAR_VEHICLE_CARGO
+    MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Vanguard";
     side = 2;
-    scope = 2;
-    scopeCurator = 2;
     crew = "TACU_Vanguard_U_Specialist_Driver";
     typicalCargo[] = {"TACU_Vanguard_U_Specialist_Grenadier"};
     textureList[] = {"Black", 1};

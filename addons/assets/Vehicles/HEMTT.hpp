@@ -8,7 +8,8 @@ class B_Truck_01_covered_F: B_Truck_01_transport_F {
 };
 
 class TACU_HEMTT_Base: B_Truck_01_transport_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Blufor {
             displayName = "Sand";
@@ -44,7 +45,8 @@ class TACU_HEMTT_Base: B_Truck_01_transport_F {
 
 // HEMTT Transport (Covered)
 class TACU_HEMTT_Covered_Base: B_Truck_01_covered_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Blufor {
             displayName = "Sand";

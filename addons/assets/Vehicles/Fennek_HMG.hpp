@@ -4,7 +4,8 @@ class I_MRAP_03_hmg_F: MRAP_03_hmg_base_F {
 };
 
 class TACU_Fennek_HMG_Base: I_MRAP_03_hmg_F {
-    MACRO_DEFAULT_VEHICLE
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Blufor {
             displayName = "BLUFOR";

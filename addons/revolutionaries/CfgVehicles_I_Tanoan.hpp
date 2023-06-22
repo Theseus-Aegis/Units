@@ -164,31 +164,3 @@ class TACU_Revolutionaries_U_I_Tanoan_Leader: TACU_Revolutionaries_U_I_Tanoan_Ri
         "H_Booniehat_khk", 1
     };
 };
-
-// Vehicles
-class TACU_Revolutionaries_V_I_Offroad: TACU_Offroad_Unarmed_Base {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_I";
-    side = 2;
-    displayName = "Offroad";
-    crew = "TACU_Revolutionaries_U_I_Tanoan_Pistoleer01";
-    typicalCargo[] = {"TACU_Revolutionaries_U_I_Tanoan_Pistoleer01"};
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-    textureList[] = {
-        "Red", 0.33,
-        "Blue", 0.33,
-        "Black", 0.33
-    };
-};
-
-class TACU_Revolutionaries_V_I_Hatchback: C_Hatchback_01_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_I";
-    side = 2;
-    displayName = "Hatchback";
-    crew = "TACU_Revolutionaries_U_I_Tanoan_Pistoleer02";
-    typicalCargo[] = {"TACU_Revolutionaries_U_I_Tanoan_Pistoleer02"};
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-};
