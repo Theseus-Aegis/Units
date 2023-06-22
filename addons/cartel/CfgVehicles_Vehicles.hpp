@@ -6,8 +6,6 @@ class TACU_Cartel_V_O_Grunt_Offroad: TACU_Offroad_Unarmed_Base {
     crew = "TACU_Cartel2_U_O_Grunt_Rifleman_01";
     typicalCargo[] = {"TACU_Cartel2_U_O_Grunt_Rifleman_01"};
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Grunts_Vehicles";
-
-    textureList[] = {"Bluecustom", 1};
     animationList[] = {
         "HideDoor1", 0,
         "HideDoor2", 0,
@@ -21,6 +19,7 @@ class TACU_Cartel_V_O_Grunt_Offroad: TACU_Offroad_Unarmed_Base {
         "BeaconsStart", 0,
         "BeaconsServicesStart", 0
     };
+    textureList[] = {"Bluecustom", 1};
 };
 
 class TACU_Cartel_V_O_Grunt_Van_Transport: TACU_Transport_Van_Base {
@@ -58,10 +57,27 @@ class TACU_Cartel_V_O_Grunt_Van_Transport: TACU_Transport_Van_Base {
 };
 
 // Thug Vehicles
-class TACU_Cartel_V_O_Thug_Offroad: TACU_Cartel_V_O_Grunt_Offroad {
+class TACU_Cartel_V_O_Thug_Offroad: TACU_Offroad_Unarmed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Cartel_O";
+    side = 0;
     crew = "TACU_Cartel2_U_O_Thug_Rifleman_01";
     typicalCargo[] = {"TACU_Cartel2_U_O_Thug_Rifleman_01"};
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Thugs_Vehicles";
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 1,
+        "HideConstruction", 0,
+        "hidePolice", 1,
+        "HideServices", 1,
+        "BeaconsStart", 0,
+        "BeaconsServicesStart", 0
+    };
+    textureList[] = {"Bluecustom", 1};
 };
 
 class TACU_Cartel_V_O_Thug_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
@@ -93,7 +109,7 @@ class TACU_Cartel_V_O_Thug_Van_Transport: TACU_Cartel_V_O_Grunt_Van_Transport {
 };
 
 // Enforcer Vehicles
-class TACU_Cartel_V_O_Enforcer_Offroad: TACU_Cartel_V_O_Thug_Offroad {
+class TACU_Cartel_V_O_Enforcer_Offroad: TACU_Cartel_V_O_Grunt_Offroad {
     crew = "TACU_Cartel2_U_O_Enforcer_Rifleman_01";
     typicalCargo[] = {"TACU_Cartel2_U_O_Enforcer_Rifleman_01"};
     editorSubcategory = "TACU_Cartel_EdSubCat_O_Enforcers_Vehicles";
