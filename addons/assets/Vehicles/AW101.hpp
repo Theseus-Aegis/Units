@@ -4,7 +4,7 @@ class I_Heli_Transport_02_F: Heli_Transport_02_base_F {
 };
 
 class TACU_Merlin_Base: I_Heli_Transport_02_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Arid {
             author = "GilleeDoo, Mike";

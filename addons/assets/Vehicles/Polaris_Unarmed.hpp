@@ -4,7 +4,7 @@ class B_LSV_01_unarmed_F: LSV_01_unarmed_base_F {
 };
 
 class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Arid {
             displayName = "Arid";

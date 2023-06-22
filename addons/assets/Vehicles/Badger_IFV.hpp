@@ -4,7 +4,7 @@ class B_APC_Wheeled_01_cannon_F: B_APC_Wheeled_01_base_F {
 };
 
 class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Sand {
             displayName = "Sand";

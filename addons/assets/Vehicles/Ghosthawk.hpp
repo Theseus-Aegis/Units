@@ -4,7 +4,7 @@ class B_Heli_Transport_01_F: Heli_Transport_01_base_F {
 };
 
 class TACU_GhostHawk_Base: B_Heli_Transport_01_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Black {
             displayName = "Black";

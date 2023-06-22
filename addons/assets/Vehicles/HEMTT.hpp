@@ -4,7 +4,7 @@ class B_Truck_01_transport_F: Truck_01_base_F {
 };
 
 class TACU_HEMTT_Base: B_Truck_01_transport_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Blufor {
             displayName = "Sand";

@@ -4,7 +4,7 @@ class B_G_Van_02_vehicle_F: Van_02_vehicle_base_F {
 };
 
 class TACU_Cargo_Van_Base: B_G_Van_02_vehicle_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Syndikat {
             displayName = "Brown (Syndikat)";

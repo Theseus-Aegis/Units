@@ -1,10 +1,11 @@
 // HEMTT Transport (Covered)
+class B_Truck_01_transport_F;
 class B_Truck_01_covered_F: B_Truck_01_transport_F {
     class EventHandlers;
 };
 
 class TACU_HEMTT_Covered_Base: B_Truck_01_covered_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Blufor {
             displayName = "Sand";

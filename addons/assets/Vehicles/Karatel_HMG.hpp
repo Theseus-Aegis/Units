@@ -4,7 +4,7 @@ class O_MRAP_02_hmg_F: MRAP_02_hmg_base_F {
 };
 
 class TACU_Karatel_HMG_Base: O_MRAP_02_hmg_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Hex {
             displayName = "Hex";

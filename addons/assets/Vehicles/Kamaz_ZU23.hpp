@@ -4,7 +4,7 @@ class I_A_Truck_02_aa_lxWS: Truck_02_aa_base_lxWS {
 };
 
 class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Opfor {
             displayName = "Hex";

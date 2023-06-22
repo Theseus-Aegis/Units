@@ -4,7 +4,7 @@ class O_Truck_03_transport_F: Truck_03_base_F {
 };
 
 class TACU_Typhoon_Base: O_Truck_03_transport_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Hex {
             author = "Bohemia Interactive";

@@ -4,7 +4,7 @@ class O_APC_Wheeled_02_hmg_lxWS: APC_Wheeled_02_hmg_base_lxws {
 };
 
 class TACU_Otokar_ARMA_Armed_Base: O_APC_Wheeled_02_hmg_lxWS {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class SFIA {
             displayName = "SFIA";

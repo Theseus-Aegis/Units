@@ -4,7 +4,7 @@ class I_Heli_light_03_dynamicLoadout_F: Heli_light_03_dynamicLoadout_base_F {
 };
 
 class TACU_Wildcat_Armed_Base: I_Heli_light_03_dynamicLoadout_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Black {
             displayName = "Black";

@@ -4,16 +4,16 @@ class B_APC_Tracked_01_AA_F: B_APC_Tracked_01_base_F {
 };
 
 class TACU_Bardelas_Base: B_APC_Tracked_01_AA_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Blufor {
             displayName = "NATO";
             author = "Bohemia Interactive";
             textures[] = {
-                "a3\armor_f_beta\apc_tracked_01\data\apc_tracked_01_body_co.paa",
+                "a3\armor_f_beta\apc_tracked_01\data\apc_tracked_01_aa_body_co.paa",
                 "a3\armor_f_beta\apc_tracked_01\data\mbt_01_body_co.paa",
-                "a3\data_f\vehicles\turret_co.paa",
-                "a3\armor_F\data\camonet_nato_desert_co.paa"
+                "a3\armor_f_beta\apc_tracked_01\data\apc_tracked_01_aa_tower_co.paa",
+                "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
             };
             factions[] = {};
         };

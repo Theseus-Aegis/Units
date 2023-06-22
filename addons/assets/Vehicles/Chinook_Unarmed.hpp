@@ -4,7 +4,7 @@ class B_Heli_Transport_03_unarmed_F: Heli_Transport_03_unarmed_base_F {
 };
 
 class TACU_Chinook_Unarmed_Base: B_Heli_Transport_03_unarmed_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Green {
             displayName = "Green";

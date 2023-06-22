@@ -4,7 +4,7 @@ class I_LT_01_AT_F: LT_01_AT_base_F {
 };
 
 class TACU_Wiesel_Armed_AT_Base: I_LT_01_AT_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Olive_Jungle {
             displayName = "Olive (Jungle Camo Net)";

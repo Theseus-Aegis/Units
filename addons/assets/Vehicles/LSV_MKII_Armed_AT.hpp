@@ -4,7 +4,7 @@ class O_LSV_02_AT_F: LSV_02_AT_base_F {
 };
 
 class TACU_LSV_MKII_Armed_AT_Base: O_LSV_02_AT_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Black {
             displayName = "Black";

@@ -4,7 +4,7 @@ class B_MRAP_01_hmg_F: MRAP_01_hmg_base_F {
 };
 
 class TACU_MATV_HMG_Base: B_MRAP_01_hmg_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Blufor {
             displayName = "Sand";

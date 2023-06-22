@@ -4,7 +4,7 @@ class B_Heli_Attack_01_dynamicLoadout_F: Heli_Attack_01_dynamicLoadout_base_F {
 };
 
 class TACU_RAH66_Comanche_Base: B_Heli_Attack_01_dynamicLoadout_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Sand {
             displayName = "Sand";

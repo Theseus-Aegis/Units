@@ -4,7 +4,7 @@ class O_APC_Wheeled_02_rcws_v2_F: APC_Wheeled_02_base_v2_F {
 };
 
 class TACU_Otokar_ARMA_HMG_Base: O_APC_Wheeled_02_rcws_v2_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Hex {
             displayName = "Hex";

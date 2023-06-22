@@ -11,8 +11,7 @@
     side = 1; \
     faction = "TACU_Assets_Testing"; \
     crew = "TACU_Assets_TestUnit"; \
-    typicalCargo[] = {"TACU_Assets_TestUnit"}; \
-}
+    typicalCargo[] = {"TACU_Assets_TestUnit"};
 
 // Vehicle Macros
 #define MACRO_EVENTHANDLERS \

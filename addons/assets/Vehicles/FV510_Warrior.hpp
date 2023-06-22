@@ -4,7 +4,7 @@ class I_APC_tracked_03_cannon_F: I_APC_tracked_03_base_F {
 };
 
 class TACU_FV510_Warrior_Base: I_APC_tracked_03_cannon_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Indep_02 {
             displayName = "AAF (Jungle Camo Net)";

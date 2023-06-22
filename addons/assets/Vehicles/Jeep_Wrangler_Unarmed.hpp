@@ -4,7 +4,7 @@ class I_C_Offroad_02_unarmed_F: Offroad_02_unarmed_base_F {
 };
 
 class TACU_Jeep_Wrangler_Unarmed_Base: I_C_Offroad_02_unarmed_F {
-    MACRO_DEFAULT_VEHICLE;
+    MACRO_DEFAULT_VEHICLE
     class TextureSources {
         class Black {
             displayName = "Black";
