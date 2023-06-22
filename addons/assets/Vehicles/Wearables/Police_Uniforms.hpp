@@ -36,21 +36,21 @@ class TACU_Police_Unit_Combat_Black: I_G_Soldier_LAT_F {
     author = "Kresky";
     scope = 1;
     uniformClass = "TACU_Police_Uniform_Combat_Black";
-    hiddenSelectionsTextures[] = {QPATHTOF(data\police_uniforms\Police_Uniform_Combat_Black_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniforms\police_uniform_combat_black_co.paa)};
     modelSides[] = {6};
 };
 
 class TACU_Police_Unit_Combat_Blue: TACU_Police_Unit_Combat_Black {
     uniformClass = "TACU_Police_Uniform_Combat_Blue";
-    hiddenSelectionsTextures[] = {QPATHTOF(data\police_uniforms\Police_Uniform_Combat_Blue_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniforms\police_uniform_combat_blue_co.paa)};
 };
 
 class TACU_Police_Unit_Combat_Brown: TACU_Police_Unit_Combat_Black {
     uniformClass = "TACU_Police_Uniform_Combat_Brown";
-    hiddenSelectionsTextures[] = {QPATHTOF(data\police_uniforms\Police_Uniform_Combat_Brown_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniforms\police_uniform_combat_brown_co.paa)};
 };
 
 class TACU_Police_Unit_Combat_Green: TACU_Police_Unit_Combat_Black {
     uniformClass = "TACU_Police_Uniform_Combat_Green";
-    hiddenSelectionsTextures[] = {QPATHTOF(data\police_uniforms\Police_Uniform_Combat_Green_co.paa)};
+    hiddenSelectionsTextures[] = {QPATHTOF(data\uniforms\police_uniform_combat_green_co.paa)};
 };

@@ -40,7 +40,7 @@ class TACU_MATV_HMG_Base: B_MRAP_01_hmg_F {
     textureList[] = {
         "Blufor", 1,
         "Olive", 1,
-        "Vanguard", 1
+        "Vanguard", 0
     };
 
     MACRO_EVENTHANDLERS;

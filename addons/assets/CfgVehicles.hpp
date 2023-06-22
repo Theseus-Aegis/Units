@@ -16,7 +16,6 @@ class CfgVehicles {
     #include "Vehicles\Fennek_GMG.hpp"
     #include "Vehicles\FV510_Warrior.hpp"
     #include "Vehicles\Ghosthawk.hpp"
-    #include "Vehicles\HEMTT_Covered.hpp"
     #include "Vehicles\HEMTT.hpp"
     #include "Vehicles\Jeep_Wrangler_Unarmed.hpp"
     #include "Vehicles\Jeep_Wrangler_LMG.hpp"

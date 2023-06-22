@@ -129,19 +129,19 @@ class TACU_Offroad_Unarmed_Base: B_G_Offroad_01_F {
         class Police_Blue {
             displayName = "Police (Blue)";
             author = "Kresky";
-            textures[] = {QPATHTOF(data\offroad_unarmed\police_v_offroad_blue_co.paa), QPATHTOF(data\offroad_unarmed\police_v_offroad_blue_co.paa)};
+            textures[] = {QPATHTOF(data\offroad\police_v_offroad_blue_co.paa), QPATHTOF(data\offroad\police_v_offroad_blue_co.paa)};
             factions[] = {"TACU_Police_B"};
         };
         class Police_Russian {
             displayName = "Police (Russian)";
             author = "Kresky";
-            textures[] = {QPATHTOF(data\offroad_unarmed\police_v_offroad_blackrus_co.paa), QPATHTOF(data\offroad_unarmed\police_v_offroad_blackrus_co.paa)};
+            textures[] = {QPATHTOF(data\offroad\police_v_offroad_blackrus_co.paa), QPATHTOF(data\offroad\police_v_offroad_blackrus_co.paa)};
             factions[] = {"TACU_Police_O"};
         };
         class Police_Black {
             displayName = "Police (Black)";
             author = "Kresky";
-            textures[] = {QPATHTOF(data\offroad_unarmed\police_v_offroad_black_co.paa), QPATHTOF(data\offroad_unarmed\police_v_offroad_black_co.paa)};
+            textures[] = {QPATHTOF(data\offroad\police_v_offroad_black_co.paa), QPATHTOF(data\offroad\police_v_offroad_black_co.paa)};
             factions[] = {"TACU_Police_I"};
         };
     };

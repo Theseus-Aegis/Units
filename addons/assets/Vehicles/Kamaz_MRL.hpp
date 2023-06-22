@@ -22,7 +22,7 @@ class TACU_Kamaz_MRL_Base: I_Truck_02_MRL_F {
             textures[] = {
                 "\A3\soft_f_exp\Truck_02\Data\Truck_02_kab_GHEX_co.paa",
                 "\A3\soft_f_beta\Truck_02\Data\Truck_02_int_co.paa",
-                "\A3\Soft_F_Gamma\Truck_02\Data\Truck_02_MRL_OPFOR_CO.paa",
+                "\A3\soft_f_Enoch\Truck_02\Data\Truck_02_mrl_EAF_co.paa",
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_chassis_OPFOR_CO.paa"
             };
             factions[] = {};

@@ -20,7 +20,7 @@ class TACU_AH6_LittleBird_Base: B_Heli_Light_01_dynamicLoadout_F {
         };
     };
     textureList[] = {
-        "Vanguard", 1,
+        "Vanguard", 0,
         "Blufor", 1
     };
 

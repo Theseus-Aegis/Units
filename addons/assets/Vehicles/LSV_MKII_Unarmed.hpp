@@ -30,8 +30,8 @@ class TACU_LSV_MKII_Base: O_LSV_02_unarmed_F {
             };
             factions[] = {};
         };
-        class Arid {
-            displayName = "Arid";
+        class Hex {
+            displayName = "Hex";
             author = "Bohemia Interactive";
             textures[] = {
                 "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_arid_CO.paa",
@@ -47,7 +47,7 @@ class TACU_LSV_MKII_Base: O_LSV_02_unarmed_F {
     textureList[] = {
         "Black", 1,
         "GreenHex", 1,
-        "Arid", 1
+        "Hex", 1
     };
 
     MACRO_EVENTHANDLERS;

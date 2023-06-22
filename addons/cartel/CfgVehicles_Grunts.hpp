@@ -11,8 +11,8 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_01";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_Cap_blk"};
     weapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
     respawnWeapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
@@ -47,7 +47,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_02: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_02)
 };
 
-class TACU_Cartel2_U_O_Grunt_Rifleman_03: TACU_Cartel2_U_O_Grunt_Rifleman_02 {
+class TACU_Cartel2_U_O_Grunt_Rifleman_03: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     displayName = "Grunt (Glock 18)";
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_03";
     weapons[] = {"tacgt_hgun_Glock18_Black", "Throw", "Put"};
@@ -57,7 +57,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_03: TACU_Cartel2_U_O_Grunt_Rifleman_02 {
     //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_03)
 };
 
-class TACU_Cartel2_U_O_Grunt_Rifleman_04: TACU_Cartel2_U_O_Grunt_Rifleman_03 {
+class TACU_Cartel2_U_O_Grunt_Rifleman_04: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     displayName = "Grunt (Sa. VZ 61)";
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_04";
     weapons[] = {"CUP_hgun_SA61", "Throw", "Put"};
@@ -67,7 +67,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_04: TACU_Cartel2_U_O_Grunt_Rifleman_03 {
     //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_04)
 };
 
-class TACU_Cartel2_U_O_Grunt_Rifleman_05: TACU_Cartel2_U_O_Grunt_Rifleman_04 {
+class TACU_Cartel2_U_O_Grunt_Rifleman_05: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     displayName = "Rifleman (MAC-10)";
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_05";
     weapons[] = {"CUP_smg_Mac10", "Throw", "Put"};
@@ -77,7 +77,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_05: TACU_Cartel2_U_O_Grunt_Rifleman_04 {
     //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_05)
 };
 
-class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_05 {
+class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     displayName = "Rifleman (CPW)";
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_06";
     weapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
@@ -87,7 +87,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_05 {
     //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_06)
 };
 
-class TACU_Cartel2_U_O_Grunt_Rifleman_07: TACU_Cartel2_U_O_Grunt_Rifleman_06 {
+class TACU_Cartel2_U_O_Grunt_Rifleman_07: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     displayName = "Rifleman (Sawed-Off)";
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_03";
     weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
@@ -97,7 +97,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_07: TACU_Cartel2_U_O_Grunt_Rifleman_06 {
     //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_07)
 };
 
-class TACU_Cartel2_U_O_Grunt_Rifleman_08: TACU_Cartel2_U_O_Grunt_Rifleman_07 {
+class TACU_Cartel2_U_O_Grunt_Rifleman_08: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     displayName = "Rifleman (Micro-UZI)";
     uniformClass = "TACU_Uniform_O_W_Cartel_Grunt_06";
     weapons[] = {"CUP_hgun_MicroUzi", "Throw", "Put"};
