@@ -5,3 +5,9 @@ class CfgFactionClasses {
         priority = 1;
     };
 };
+
+class CfgEditorSubcategories {
+    class TACU_Assets_EdSubCat_Turrets {
+        displayName = "Turrets";
+    };
+};
