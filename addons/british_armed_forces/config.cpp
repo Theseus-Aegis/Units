@@ -1,0 +1,20 @@
+// Needs CUP Removals.
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ADDON {
+        name = COMPONENT_NAME;
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        author = ECSTRING(main,Author);
+        authors[] = {"GilleeDoo, Mike"};
+        VERSION_CONFIG;
+    };
+};
+
+#include "CfgFactionClasses.hpp"
+#include "CfgGroups.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"
