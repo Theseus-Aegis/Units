@@ -61,3 +61,26 @@ class Truck_02_transport_base_F;
 class Truck_03_base_F;
 class Van_02_transport_base_F;
 class Van_02_vehicle_base_F;
+
+// Turrets
+class CUP_AGS_base;
+class CUP_D30_AT_base;
+class CUP_D30_base;
+class CUP_DSHKM_base;
+class CUP_DSHKM_MiniTripod_base;
+class CUP_Igla_AA_pod_Base;
+class CUP_KORD_High_Base;
+class CUP_KORD_MiniTripod_Base;
+class CUP_Kornet_Base;
+class CUP_L111A1_base;
+class CUP_L111A1_MiniTripod_base;
+class CUP_L134A1_TriPod_base;
+class CUP_M119_base;
+class CUP_MK19_TriPod_base;
+class CUP_M2StaticMG_base;
+class CUP_Metis_Base;
+class CUP_RBS70_Base;
+class CUP_SearchLight_static_base;
+class CUP_Stinger_AA_pod_Base;
+class CUP_TOW_TriPod_base;
+class CUP_ZU23_base;

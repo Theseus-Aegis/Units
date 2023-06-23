@@ -93,7 +93,7 @@ class CfgPatches {
             "TACU_Revolutionaries_W_M24"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_cup_turrets", "tacu_assets"};
+        requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"Jack"};
         VERSION_CONFIG;

@@ -95,7 +95,7 @@ class TACU_SevenRings_V_I_Marid_M2: TACU_Otokar_ARMA_Armed_Base {
 };
 
 // Turrets
-class TACU_SevenRings_V_I_AGS30: TACU_CUP_Turrets_AGS_O {
+class TACU_SevenRings_V_I_AGS30: TACU_Assets_AGS_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_EASTERN_VEHICLE;
     displayName = "AGS-30";
@@ -103,7 +103,7 @@ class TACU_SevenRings_V_I_AGS30: TACU_CUP_Turrets_AGS_O {
     typicalCargo[] = {"TACU_SevenRings_U_I_Eastern_Rifleman_01"};
 };
 
-class TACU_SevenRings_V_I_D30: TACU_CUP_Turrets_D30_O {
+class TACU_SevenRings_V_I_D30: TACU_Assets_D30_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_EASTERN_VEHICLE;
     displayName = "D-30";
@@ -111,7 +111,7 @@ class TACU_SevenRings_V_I_D30: TACU_CUP_Turrets_D30_O {
     typicalCargo[] = {"TACU_SevenRings_U_I_Eastern_Rifleman_02"};
 };
 
-class TACU_SevenRings_V_I_ZU23: TACU_CUP_Turrets_ZU23_O {
+class TACU_SevenRings_V_I_ZU23: TACU_Assets_ZU23_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_EASTERN_VEHICLE;
     displayName = "ZU-23";
@@ -119,7 +119,7 @@ class TACU_SevenRings_V_I_ZU23: TACU_CUP_Turrets_ZU23_O {
     typicalCargo[] = {"TACU_SevenRings_U_I_Eastern_Rifleman_03"};
 };
 
-class TACU_SevenRings_V_I_DSHKM: TACU_CUP_Turrets_DSHKM_O {
+class TACU_SevenRings_V_I_DSHKM: TACU_Assets_DSHKM_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_EASTERN_VEHICLE;
     displayName = "DShKM";

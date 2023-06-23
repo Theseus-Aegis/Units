@@ -4,6 +4,7 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            // Uniforms
             "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Clean",
             "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Dirty",
             "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Muddy",
@@ -25,9 +26,13 @@ class CfgPatches {
             "TACU_Uniform_O_V_Cartel_Thug_04",
             "TACU_Uniform_O_V_Cartel_Thug_05",
             "TACU_Uniform_O_V_Cartel_Thug_06",
+            // Helmets
             "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Arid",
             "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Tropic",
             "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Urban",
+            "TACU_Police_Item_Helmet_PASGT_Neck_PoliceBlack",
+            "TACU_Police_Item_Helmet_PASGT_Neck_PoliceGreen",
+            // Vests
             "TACU_BAF_Item_Vest_LightPlateCarrier_Arid",
             "TACU_BAF_Item_Vest_LightPlateCarrier_Tropic",
             "TACU_BAF_Item_Vest_LightPlateCarrier_Urban",
@@ -44,6 +49,7 @@ class CfgPatches {
             "TACU_Vanguard_Item_Vest_PlateCarrier_Foliage",
             "TACU_Vanguard_Item_Vest_PlateCarrier_Snow",
             "TACU_Assets_TestUnit",
+            // Vehicles
             "TACU_AH6_LittleBird_Base",
             "TACU_Badger_IFV_Base",
             "TACU_Bardelas_Base",
@@ -98,9 +104,32 @@ class CfgPatches {
             "TACU_Wiesel_Armed_AT_Base",
             "TACU_Wiesel_Armed_Base",
             "TACU_Wildcat_Armed_Base",
-            "TACU_Wildcat_Base"
+            "TACU_Wildcat_Base",
+            // Turrets
+            "TACU_Assets_AGS_base",
+            "TACU_Assets_D30_base",
+            "TACU_Assets_D30AT_base",
+            "TACU_Assets_DSHKM_base",
+            "TACU_Assets_DSHKM_Mini_base",
+            "TACU_Assets_FIM92_base",
+            "TACU_Assets_IGLA_base",
+            "TACU_Assets_KORD_base",
+            "TACU_Assets_KORD_Mini_base",
+            "TACU_Assets_KORNET_AT4_base",
+            "TACU_Assets_L11A1_base",
+            "TACU_Assets_L11A1_MiniTripod_base",
+            "TACU_Assets_L134A1_base",
+            "TACU_Assets_M119_base",
+            "TACU_Assets_M2_base",
+            "TACU_Assets_M220_TOW_base",
+            "TACU_Assets_Metis_base",
+            "TACU_Assets_MK19_base",
+            "TACU_Assets_RBS70_base",
+            "TACU_Assets_SearchLight_base",
+            "TACU_Assets_ZU23_base"
         };
         weapons[] = {
+            // Uniforms
             "TACU_Assets_Uniform_Prisoner_Outfit_Orange_Clean",
             "TACU_Assets_Uniform_Prisoner_Outfit_Orange_Dirty",
             "TACU_Assets_Uniform_Prisoner_Outfit_Orange_Muddy",
@@ -110,30 +139,10 @@ class CfgPatches {
             "TACU_Assets_Uniform_Prisoner_Outfit_Olive_Clean",
             "TACU_Assets_Uniform_Prisoner_Outfit_Olive_Dirty",
             "TACU_Assets_Uniform_Prisoner_Outfit_Olive_Muddy",
-            "TACU_BAF_Helmet_EnhancedCombatHelmet_Arid",
-            "TACU_BAF_Helmet_EnhancedCombatHelmet_Tropic",
-            "TACU_BAF_Helmet_EnhancedCombatHelmet_Urban",
-            "TACU_BAF_Vest_LightPlateCarrier_Arid",
-            "TACU_BAF_Vest_LightPlateCarrier_Tropic",
-            "TACU_BAF_Vest_LightPlateCarrier_Urban",
-            "TACU_BAF_Vest_HeavyPlateCarrier_Arid",
-            "TACU_BAF_Vest_HeavyPlateCarrier_Tropic",
-            "TACU_BAF_Vest_HeavyPlateCarrier_Urban",
-            "TACU_Police_Helmet_PASGT_Neck_PoliceBlack",
-            "TACU_Police_Helmet_PASGT_Neck_PoliceGreen",
             "TACU_Police_Uniform_Combat_Black",
             "TACU_Police_Uniform_Combat_Blue",
             "TACU_Police_Uniform_Combat_Brown",
             "TACU_Police_Uniform_Combat_Green",
-            "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack",
-            "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue",
-            "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen",
-            "TACU_Police_Vest_PlateCarrier_PoliceBlack",
-            "TACU_Police_Vest_PlateCarrier_PoliceBlue",
-            "TACU_Police_Vest_PlateCarrier_PoliceGreen",
-            "TACU_Vanguard_V_PlateCarrier_Earth",
-            "TACU_Vanguard_V_PlateCarrier_Foliage",
-            "TACU_Vanguard_V_PlateCarrier_Snow",
             "TACU_Uniform_O_W_Cartel_Grunt_01",
             "TACU_Uniform_O_W_Cartel_Grunt_02",
             "TACU_Uniform_O_W_Cartel_Grunt_03",
@@ -145,7 +154,29 @@ class CfgPatches {
             "TACU_Uniform_O_W_Cartel_Thug_03",
             "TACU_Uniform_O_W_Cartel_Thug_04",
             "TACU_Uniform_O_W_Cartel_Thug_05",
-            "TACU_Uniform_O_W_Cartel_Thug_06"
+            "TACU_Uniform_O_W_Cartel_Thug_06",
+            // Helmets
+            "TACU_BAF_Helmet_EnhancedCombatHelmet_Arid",
+            "TACU_BAF_Helmet_EnhancedCombatHelmet_Tropic",
+            "TACU_BAF_Helmet_EnhancedCombatHelmet_Urban",
+            "TACU_Police_Helmet_PASGT_Neck_PoliceBlack",
+            "TACU_Police_Helmet_PASGT_Neck_PoliceGreen",
+            // Vests
+            "TACU_BAF_Vest_LightPlateCarrier_Arid",
+            "TACU_BAF_Vest_LightPlateCarrier_Tropic",
+            "TACU_BAF_Vest_LightPlateCarrier_Urban",
+            "TACU_BAF_Vest_HeavyPlateCarrier_Arid",
+            "TACU_BAF_Vest_HeavyPlateCarrier_Tropic",
+            "TACU_BAF_Vest_HeavyPlateCarrier_Urban",
+            "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack",
+            "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue",
+            "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen",
+            "TACU_Police_Vest_PlateCarrier_PoliceBlack",
+            "TACU_Police_Vest_PlateCarrier_PoliceBlue",
+            "TACU_Police_Vest_PlateCarrier_PoliceGreen",
+            "TACU_Vanguard_V_PlateCarrier_Earth",
+            "TACU_Vanguard_V_PlateCarrier_Foliage",
+            "TACU_Vanguard_V_PlateCarrier_Snow"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};

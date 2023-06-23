@@ -74,7 +74,7 @@ class CfgPatches {
             "TACU_Police_W_Vityaz_Grip"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_cup_turrets", "tacu_assets"};
+        requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"Kresky"};
         VERSION_CONFIG;

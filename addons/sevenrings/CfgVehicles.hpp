@@ -5,12 +5,6 @@ class CfgVehicles {
     // Western Base Classes
     class B_Boat_Transport_01_F;
 
-    // Eastern - Turrets
-    class TACU_CUP_Turrets_AGS_O;
-    class TACU_CUP_Turrets_D30_O;
-    class TACU_CUP_Turrets_ZU23_O;
-    class TACU_CUP_Turrets_DSHKM_O;
-
     #include "CfgVehicles_Backpacks.hpp"
     #include "CfgVehicles_I_Eastern.hpp"
     #include "CfgVehicles_I_Eastern_Vehicles.hpp"

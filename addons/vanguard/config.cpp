@@ -138,7 +138,7 @@ class CfgPatches {
             "TACU_Vanguard_W_SIG556_Sand"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_cup_turrets", "tacu_assets"};
+        requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
