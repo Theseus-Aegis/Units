@@ -5,12 +5,23 @@
 
 #define DEBUG_MODE_FULL
 
-#define MACRO_DEFAULT_VEHICLE \
-    forceInGarage = 1; \
-    side = 1; \
-    faction = "TACU_Assets_Testing"; \
-    crew = "TACU_Assets_TestUnit"; \
-    typicalCargo[] = {"TACU_Assets_TestUnit"}
+#ifdef DEBUG_MODE_FULL
+    #define MACRO_DEFAULT_VEHICLE \
+        forceInGarage = 1; \
+        side = 1; \
+        faction = "TACU_Assets_Testing"; \
+        crew = "TACU_Assets_TestUnit"; \
+        typicalCargo[] = {"TACU_Assets_TestUnit"}
+#else
+    #define MACRO_DEFAULT_VEHICLE \
+        scope = 1; \
+        scopeCurator = 1; \
+        forceInGarage = 1; \
+        side = 1; \
+        faction = "TACU_Assets_Testing"; \
+        crew = "TACU_Assets_TestUnit"; \
+        typicalCargo[] = {"TACU_Assets_TestUnit"}
+#endif
 
 // Vehicle Macros
 #define MACRO_EVENTHANDLERS \
