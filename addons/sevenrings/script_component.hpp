@@ -5,7 +5,7 @@
 
 #define MACRO_SCOPE_HIDE \
     scope = 1; \
-    scopeCurator = 1;
+    scopeCurator = 1
 
 #define MACRO_WEST_DEFAULT_WEAPON \
     "CUP_hgun_M9", \
@@ -29,22 +29,17 @@
 
 #define MACRO_OPFOR_EAST_SIDE \
     side = 0; \
-    faction = "TACU_SevenRings_O_Eastern";
+    faction = "TACU_SevenRings_O_Eastern"
 
 #define MACRO_OPFOR_WEST_SIDE \
     side = 0; \
-    faction = "TACU_SevenRings_O_Western";
+    faction = "TACU_SevenRings_O_Western"
 
 #define MACRO_EASTERN_VEHICLE \
-    MACRO_CLEAR_VEHICLE_CARGO \
     faction = "TACU_SevenRings_I_Eastern"; \
     side = 2; \
-    scope = 2; \
-    scopeCurator = 2;
+    scope = 2
 
 #define MACRO_WESTERN_VEHICLE \
-    MACRO_CLEAR_VEHICLE_CARGO \
     faction = "TACU_SevenRings_I_Western"; \
-    side = 2; \
-    scope = 2; \
-    scopeCurator = 2;
+    side = 2

@@ -1,5 +1,4 @@
 // Units - Revolutionaries
-class TACU_Main_U_OPFOR_Soldier_Base;
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     faction = "TACU_Revolutionaries_O";
     side = 0;
@@ -509,70 +508,4 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Head: TACU_Revolutionaries_U_O_Tanoan_
     CBA_facewearList[] = {
         "", 1
     };
-};
-
-// Vehicles
-class C_Hatchback_01_F;
-class TACU_Revolutionaries_V_O_Hatchback: C_Hatchback_01_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-    side = 0;
-    displayName = "Hatchback";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer01";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer01"};
-    //EDITORPREVIEW(Revolutionaries_V_O_Hatchback)
-};
-
-class C_Truck_02_transport_F;
-class TACU_Revolutionaries_V_O_KamAZ: C_Truck_02_transport_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-    side = 0;
-    displayName = "KamAZ Transport";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer02"};
-    //EDITORPREVIEW(Revolutionaries_V_O_KamAZ)
-};
-
-class C_Offroad_01_covered_F;
-class TACU_Revolutionaries_V_O_Offroad: C_Offroad_01_covered_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-    side = 0;
-    displayName = "Offroad";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer01";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer01"};
-    //EDITORPREVIEW(Revolutionaries_V_O_Offroad)
-};
-
-class C_Van_02_vehicle_F;
-class TACU_Revolutionaries_V_O_Van: C_Van_02_vehicle_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-    side = 0;
-    displayName = "Van";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer01"};
-    //EDITORPREVIEW(Revolutionaries_V_O_Van)
-};
-
-class I_C_Offroad_02_LMG_F;
-class TACU_Revolutionaries_V_O_Jeep_LMG: I_C_Offroad_02_LMG_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_O";
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-    side = 0;
-    displayName = "Jeep (LMG)";
-    crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02";
-    typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer02"};
-    //EDITORPREVIEW(Revolutionaries_V_O_Jeep_LMG)
 };

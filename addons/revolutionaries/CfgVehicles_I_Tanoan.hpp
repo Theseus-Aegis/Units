@@ -1,5 +1,4 @@
 // Civil Defense
-class TACU_Main_U_INDEP_Soldier_Base;
 class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Main_U_INDEP_Soldier_Base {
     dlc = QUOTE(PREFIX);
     author = "Jack";
@@ -164,31 +163,4 @@ class TACU_Revolutionaries_U_I_Tanoan_Leader: TACU_Revolutionaries_U_I_Tanoan_Ri
     headgearList[] = {
         "H_Booniehat_khk", 1
     };
-};
-
-// Vehicles
-class C_Offroad_01_F;
-class TACU_Revolutionaries_V_I_Offroad: C_Offroad_01_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_I";
-    side = 2;
-    displayName = "Offroad";
-    crew = "TACU_Revolutionaries_U_I_Tanoan_Pistoleer01";
-    typicalCargo[] = {"TACU_Revolutionaries_U_I_Tanoan_Pistoleer01"};
-    //EDITORPREVIEW(Revolutionaries_V_I_Offroad)
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
-};
-
-class C_Hatchback_01_F;
-class TACU_Revolutionaries_V_I_Hatchback: C_Hatchback_01_F {
-    dlc = QUOTE(PREFIX);
-    MACRO_CLEAR_VEHICLE_CARGO
-    faction = "TACU_Revolutionaries_I";
-    side = 2;
-    displayName = "Hatchback";
-    crew = "TACU_Revolutionaries_U_I_Tanoan_Pistoleer02";
-    typicalCargo[] = {"TACU_Revolutionaries_U_I_Tanoan_Pistoleer02"};
-    //EDITORPREVIEW(Revolutionaries_V_I_Hatchback)
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Cars_Tanoa";
 };

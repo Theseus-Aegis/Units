@@ -42,11 +42,11 @@ class CfgPatches {
             "TACU_Cartel_V_O_Grunt_Offroad",
             "TACU_Cartel_V_O_Grunt_Van_Transport",
             // Vehicles - Thugs
-            "TACS_Cartel_V_O_Thug_Offroad",
+            "TACU_Cartel_V_O_Thug_Offroad",
             "TACU_Cartel_V_O_Thug_Offroad_Armed",
             "TACU_Cartel_V_O_Thug_Van_Transport",
             // Vehicles - Enforcers
-            "TACS_Cartel_V_O_Enforcer_Offroad",
+            "TACU_Cartel_V_O_Enforcer_Offroad",
             "TACU_Cartel_V_O_Enforcer_Offroad_Armed"
         };
         weapons[] = {
@@ -75,7 +75,7 @@ class CfgPatches {
             "TACU_Cartel_W_hgun_MP7"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main"};
+        requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
@@ -83,7 +83,6 @@ class CfgPatches {
 };
 
 #include "CfgWeapons.hpp"
-#include "CfgFaces.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgGroups.hpp"
 #include "CfgVehicles.hpp"

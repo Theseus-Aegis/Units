@@ -246,7 +246,7 @@ class CfgPatches {
             "TACU_SevenRings_W_East_FNFAL_5061"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_cup_turrets"};
+        requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;

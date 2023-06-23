@@ -42,6 +42,13 @@
 #define DEFAULT_ITEMS "ItemMap", "ItemCompass", "ItemWatch"
 #define DEFAULT_ITEMS_RADIO "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"
 
+// Vehicle defaults for factions
+#define MACRO_FACTION_VEHICLE_DEFAULTS \
+    dlc = QUOTE(PREFIX); \
+    scope = 2; \
+    scopeCurator = 2; \
+    forceInGarage = 1
+
 // Add Weapon, Item, Magazine to transport cargo (Vehicle, backpack etc.)
 #define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON { \
     weapon = #WEAPON; \
@@ -68,7 +75,7 @@
     class TransportBackpacks {}; \
     class TransportItems {}; \
     class TransportMagazines {}; \
-    class TransportWeapons {};
+    class TransportWeapons {}
 
 // Add Attachments to Weapons (Optics, Pointer, Muzzle, Bipod)
 #define EQUIP_OPTIC(OPTIC) class LinkedItemsOptic { \
