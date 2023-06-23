@@ -1,5 +1,10 @@
 // Base classes - Vanilla
+class B_CTRG_Soldier_3_F;
+class B_CTRG_Soldier_F;
+class B_ION_Soldier_SG_lxWS;
 class B_Soldier_F;
+class B_soldier_UAV_F;
+class Heli_Transport_01_base_F;
 class I_C_Soldier_base_F;
 class I_G_Soldier_base_F;
 class I_L_Soldier_Base_F;
@@ -9,6 +14,7 @@ class I_Soldier_04_F;
 class I_Soldier_base_F;
 class I_Soldier_diver_base_F;
 class I_Soldier_sniper_base_F;
+class LSV_01_light_base_F;
 class O_R_Soldier_Base_F;
 class O_SFIA_Soldier_AR_lxWS;
 class O_SFIA_soldier_lxWS;
