@@ -54,7 +54,7 @@ class TACU_BAF_U_B_Tropic_Demolitions: TACU_BAF_U_B_Tropic_Scout {
     role = "Sapper";
     engineer = 1;
     canDeactivateMines = 1;
-    backpack = "";
+    backpack = "TACU_BAF_B_Demolitions_Fieldpack_Tropic";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_HeavyPlateCarrier_Tropic",
@@ -225,7 +225,7 @@ class TACU_BAF_U_B_Tropic_Medic: TACU_BAF_U_B_Tropic_Scout {
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    backpack = "";
+    backpack = "TACU_BAF_B_Medic_Fieldpack_Tropic";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_LightPlateCarrier_Tropic",
@@ -268,7 +268,7 @@ class TACU_BAF_U_B_Tropic_LAT: TACU_BAF_U_B_Tropic_Scout {
     displayName = "Rifleman (Light AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    backpack = "";
+    backpack = "TACU_BAF_B_LAT_Fieldpack_Tropic";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_HeavyPlateCarrier_Tropic",

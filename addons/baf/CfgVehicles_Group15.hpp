@@ -54,7 +54,7 @@ class TACU_BAF_U_B_Urban_Demolitions: TACU_BAF_U_B_Urban_Scout {
     role = "Sapper";
     engineer = 1;
     canDeactivateMines = 1;
-    backpack = "";
+    backpack = "TACU_BAF_B_Demolitions_Fieldpack_Urban";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_HeavyPlateCarrier_Urban",
@@ -225,7 +225,7 @@ class TACU_BAF_U_B_Urban_Medic: TACU_BAF_U_B_Urban_Scout {
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    backpack = "";
+    backpack = "TACU_BAF_B_Medic_Fieldpack_Urban";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_LightPlateCarrier_Urban",
@@ -268,7 +268,7 @@ class TACU_BAF_U_B_Urban_LAT: TACU_BAF_U_B_Urban_Scout {
     displayName = "Rifleman (Light AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    backpack = "";
+    backpack = "TACU_BAF_B_LAT_Fieldpack_Urban";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_HeavyPlateCarrier_Urban",

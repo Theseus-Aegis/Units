@@ -4,6 +4,10 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            // Backpacks
+            "TACU_Assets_Fieldpack_Arid",
+            "TACU_Assets_Fieldpack_Tropic",
+            "TACU_Assets_Fieldpack_Urban",
             // Uniforms
             "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Clean",
             "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Dirty",

@@ -3,6 +3,9 @@ class Headgear_Base_F;
 class Item_Base_F;
 class Vest_Base_F;
 
+// Backpacks
+class B_FieldPack_Base;
+
 // Uniform Base
 class I_G_Soldier_LAT_F;
 class I_C_Soldier_Bandit_2_F;

@@ -65,7 +65,7 @@ class TACU_BAF_U_B_Arid_Demolitions: TACU_BAF_U_B_Arid_Scout {
     role = "Sapper";
     engineer = 1;
     canDeactivateMines = 1;
-    backpack = "";
+    backpack = "TACU_BAF_B_Demolitions_Fieldpack_Arid";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_HeavyPlateCarrier_Arid",
@@ -236,7 +236,7 @@ class TACU_BAF_U_B_Arid_Medic: TACU_BAF_U_B_Arid_Scout {
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    backpack = "";
+    backpack = "TACU_BAF_B_Medic_Fieldpack_Arid";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_LightPlateCarrier_Arid",
@@ -279,7 +279,7 @@ class TACU_BAF_U_B_Arid_LAT: TACU_BAF_U_B_Arid_Scout {
     displayName = "Rifleman (Light AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    backpack = "";
+    backpack = "TACU_BAF_B_LAT_Fieldpack_Arid";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_HeavyPlateCarrier_Arid",

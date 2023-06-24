@@ -4,6 +4,16 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            // Backpacks
+            "TACU_BAF_B_Demolitions_Fieldpack_Arid",
+            "TACU_BAF_B_LAT_Fieldpack_Arid",
+            "TACU_BAF_B_Medic_Fieldpack_Arid",
+            "TACU_BAF_B_Demolitions_Fieldpack_Tropic",
+            "TACU_BAF_B_LAT_Fieldpack_Tropic",
+            "TACU_BAF_B_Medic_Fieldpack_Tropic",
+            "TACU_BAF_B_Demolitions_Fieldpack_Urban",
+            "TACU_BAF_B_LAT_Fieldpack_Urban",
+            "TACU_BAF_B_Medic_Fieldpack_Urban",
             // Desert Units
             "TACU_BAF_U_B_Desert_Scout",
             "TACU_BAF_U_B_Desert_Demolitions",
