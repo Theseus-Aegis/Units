@@ -139,7 +139,7 @@ class TACU_BAF_V_B_Urban_L11A1: TACU_Assets_L11A1_base {
     typicalCargo[] = {"TACU_BAF_U_B_Urban_Scout"};
 };
 
-class TACU_BAF_V_B_Arid_L134A1: CUP_L134A1_TriPod_base {
+class TACU_BAF_V_B_Arid_L134A1: TACU_Assets_L134A1_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     displayName = "L134A1 (Arid)";
     faction = "TACU_BAF_B";
@@ -148,7 +148,7 @@ class TACU_BAF_V_B_Arid_L134A1: CUP_L134A1_TriPod_base {
     typicalCargo[] = {"TACU_BAF_U_B_Arid_Scout"};
 };
 
-class TACU_BAF_V_B_Tropic_L134A1: CUP_L134A1_TriPod_base {
+class TACU_BAF_V_B_Tropic_L134A1: TACU_Assets_L134A1_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     displayName = "L134A1 (Tropic)";
     faction = "TACU_BAF_B";
@@ -157,7 +157,7 @@ class TACU_BAF_V_B_Tropic_L134A1: CUP_L134A1_TriPod_base {
     typicalCargo[] = {"TACU_BAF_U_B_Tropic_Scout"};
 };
 
-class TACU_BAF_V_B_Urban_L134A1: CUP_L134A1_TriPod_base {
+class TACU_BAF_V_B_Urban_L134A1: TACU_Assets_L134A1_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     displayName = "L134A1 (Urban)";
     faction = "TACU_BAF_B";
