@@ -37,6 +37,7 @@ class TACU_BAF_U_B_Desert_Medic: B_D_CTRG_Soldier_Medic_lxWS {
     respawnMagazines[] = {mag_6("tacgt_AI_35Rnd_556x45_R4"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class TACU_BAF_U_B_Desert_LAT: B_D_CTRG_Soldier_LAT2_lxWS {
+    displayName = "Rifleman (AT)";
     MACRO_GROUP_12_DEFAULT;
     magazines[] = {mag_6("tacgt_AI_35Rnd_556x45_R4"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell"), "MRAWS_HEAT_F"};
     respawnMagazines[] = {mag_6("tacgt_AI_35Rnd_556x45_R4"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell"), "MRAWS_HEAT_F"};

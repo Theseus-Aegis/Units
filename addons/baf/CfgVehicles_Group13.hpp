@@ -276,7 +276,7 @@ class TACU_BAF_U_B_Arid_Medic: TACU_BAF_U_B_Arid_Scout {
     //EDITORPREVIEW();
 };
 class TACU_BAF_U_B_Arid_LAT: TACU_BAF_U_B_Arid_Scout {
-    displayName = "Rifleman (Light AT)";
+    displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
     backpack = "TACU_BAF_B_LAT_Fieldpack_Arid";

@@ -265,7 +265,7 @@ class TACU_BAF_U_B_Tropic_Medic: TACU_BAF_U_B_Tropic_Scout {
     //EDITORPREVIEW();
 };
 class TACU_BAF_U_B_Tropic_LAT: TACU_BAF_U_B_Tropic_Scout {
-    displayName = "Rifleman (Light AT)";
+    displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
     backpack = "TACU_BAF_B_LAT_Fieldpack_Tropic";
