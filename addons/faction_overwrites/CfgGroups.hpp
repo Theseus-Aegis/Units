@@ -5,5 +5,7 @@ class CfgGroups {
     class East {
         #include "CfgGroups_East.hpp"
     };
-    #include "CfgGroups_Indep.hpp"
+    class Indep {
+        #include "CfgGroups_Indep.hpp"
+    };
 };
