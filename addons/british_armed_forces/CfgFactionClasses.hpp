@@ -7,6 +7,9 @@ class CfgFactionClasses {
 };
 
 class CfgEditorSubcategories {
+    class TACU_BAF_EdSubCat_B_Group_12 {
+        displayName = "Group 12 (Sahara Desert)";
+    };
     class TACU_BAF_EdSubCat_B_Group_13 {
         displayName = "Group 13 (Arid)";
     };
