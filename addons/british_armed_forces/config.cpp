@@ -5,6 +5,7 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            // Desert Units
             "TACU_BAF_U_B_Desert_Scout",
             "TACU_BAF_U_B_Desert_Demolitions",
             "TACU_BAF_U_B_Desert_HeavyGunner",
@@ -13,9 +14,78 @@ class CfgPatches {
             "TACU_BAF_U_B_Desert_Medic",
             "TACU_BAF_U_B_Desert_LAT",
             "TACU_BAF_U_B_Desert_Shotgun",
-            "TACU_BAF_U_B_Desert_TL"
+            "TACU_BAF_U_B_Desert_TL",
+            // Arid Units
+            "TACU_BAF_U_B_Arid_Scout",
+            "TACU_BAF_U_B_Arid_Demolitions",
+            "TACU_BAF_U_B_Arid_HeavyGunner",
+            "TACU_BAF_U_B_Arid_JTAC",
+            "TACU_BAF_U_B_Arid_Marksman",
+            "TACU_BAF_U_B_Arid_Medic",
+            "TACU_BAF_U_B_Arid_LAT",
+            "TACU_BAF_U_B_Arid_Shotgun",
+            "TACU_BAF_U_B_Arid_TL",
+            "TACU_BAF_U_B_Arid_Grenadier",
+            // Arid Vehicles
+            "TACU_BAF_V_B_Arid_Polaris_Unarmed",
+            "TACU_BAF_V_B_Arid_Polaris_Armed",
+            "TACU_BAF_V_B_Arid_Polaris_AT",
+            "TACU_BAF_V_B_Arid_AW101",
+            // Tropic Units
+            "TACU_BAF_U_B_Tropic_Scout",
+            "TACU_BAF_U_B_Tropic_Demolitions",
+            "TACU_BAF_U_B_Tropic_HeavyGunner",
+            "TACU_BAF_U_B_Tropic_JTAC",
+            "TACU_BAF_U_B_Tropic_Marksman",
+            "TACU_BAF_U_B_Tropic_Medic",
+            "TACU_BAF_U_B_Tropic_LAT",
+            "TACU_BAF_U_B_Tropic_Shotgun",
+            "TACU_BAF_U_B_Tropic_TL",
+            "TACU_BAF_U_B_Tropic_Grenadier",
+            // Tropic Vehicles
+            "TACU_BAF_V_B_Tropic_Polaris_Unarmed",
+            "TACU_BAF_V_B_Tropic_Polaris_Armed",
+            "TACU_BAF_V_B_Tropic_Polaris_AT",
+            "TACU_BAF_V_B_Tropic_AW101",
+            // Urban Units
+            "TACU_BAF_U_B_Urban_Scout",
+            "TACU_BAF_U_B_Urban_Demolitions",
+            "TACU_BAF_U_B_Urban_HeavyGunner",
+            "TACU_BAF_U_B_Urban_JTAC",
+            "TACU_BAF_U_B_Urban_Marksman",
+            "TACU_BAF_U_B_Urban_Medic",
+            "TACU_BAF_U_B_Urban_LAT",
+            "TACU_BAF_U_B_Urban_Shotgun",
+            "TACU_BAF_U_B_Urban_TL",
+            "TACU_BAF_U_B_Urban_Grenadier",
+            // Urban Vehicles
+            "TACU_BAF_V_B_Urban_Polaris_Unarmed",
+            "TACU_BAF_V_B_Urban_Polaris_Armed",
+            "TACU_BAF_V_B_Urban_Polaris_AT",
+            // Pilot Unit
+            "TACU_BAF_U_B_Pilot"
         };
-        weapons[] = {};
+        weapons[] = {
+            "TACU_BAF_W_Arid_HK416A5",
+            "TACU_BAF_W_Arid_HK416A5_GL",
+            "TACU_BAF_W_Arid_HK417A2",
+            "TACU_BAF_W_Arid_P99",
+            "TACU_BAF_W_Arid_Stoner99",
+            "TACU_BAF_W_Arid_AA40",
+            "TACU_BAF_W_Tropic_HK416A5",
+            "TACU_BAF_W_Tropic_HK416A5_GL",
+            "TACU_BAF_W_Tropic_HK417A2",
+            "TACU_BAF_W_Tropic_P99",
+            "TACU_BAF_W_Tropic_Stoner99",
+            "TACU_BAF_W_Tropic_AA40",
+            "TACU_BAF_W_Urban_HK416A5",
+            "TACU_BAF_W_Urban_HK416A5_GL",
+            "TACU_BAF_W_Urban_HK417A2",
+            "TACU_BAF_W_Urban_P99",
+            "TACU_BAF_W_Urban_Stoner99",
+            "TACU_BAF_W_Urban_AA40",
+            "TACU_BAF_W_MP5SD"
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
