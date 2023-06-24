@@ -1,9 +1,6 @@
 class CfgWeapons {
     class arifle_SPAR_01_GL_blk_F;
-    class arifle_SPAR_01_GL_snd_F;
-    class arifle_SPAR_02_snd_F;
     class arifle_SPAR_02_blk_F;
-    class arifle_SPAR_03_snd_F;
     class arifle_SPAR_03_blk_F;
     class LMG_Mk200_F;
     class LMG_Mk200_black_F;
@@ -15,9 +12,12 @@ class CfgWeapons {
     class CUP_smg_MP5SD6;
     class srifle_DMR_02_sniper_F;
     class srifle_DMR_02_F;
+    class TACU_Assets_W_HK416A5_Arid;
+    class TACU_Assets_W_HK416A5_GL_Arid;
+    class TACU_Assets_W_HK417A2_Arid;
 
     // Arid Weapons
-    class TACU_BAF_W_Arid_HK416A5: arifle_SPAR_02_snd_F {
+    class TACU_BAF_W_Arid_HK416A5: TACU_Assets_W_HK416A5_Arid {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -27,7 +27,7 @@ class CfgWeapons {
         };
     };
 
-    class TACU_BAF_W_Arid_HK416A5_GL: arifle_SPAR_01_GL_snd_F {
+    class TACU_BAF_W_Arid_HK416A5_GL: TACU_Assets_W_HK416A5_GL_Arid {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
@@ -37,7 +37,7 @@ class CfgWeapons {
         };
     };
 
-    class TACU_BAF_W_Arid_HK417A2: arifle_SPAR_03_snd_F {
+    class TACU_BAF_W_Arid_HK417A2: TACU_Assets_W_HK417A2_Arid {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {

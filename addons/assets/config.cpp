@@ -186,6 +186,7 @@ class CfgPatches {
             "TACU_Vanguard_V_PlateCarrier_Snow",
             // Weapons
             "TACU_Assets_W_HK416A5_Arid",
+            "TACU_Assets_W_HK416A5_GL_Arid",
             "TACU_Assets_W_HK417A2_Arid"
         };
         requiredVersion = REQUIRED_VERSION;
