@@ -1,4 +1,3 @@
-// Needs CUP Removals.
 #include "script_component.hpp"
 
 class CfgPatches {
@@ -26,6 +25,12 @@ class CfgPatches {
             "TACU_BAF_U_B_Arid_Shotgun",
             "TACU_BAF_U_B_Arid_TL",
             "TACU_BAF_U_B_Arid_Grenadier",
+            "TACU_BAF_U_B_Arid_Sniper",
+            "TACU_BAF_U_B_Arid_Spotter",
+            // Arid Turrets
+            "TACU_BAF_V_B_Arid_L11A1",
+            "TACU_BAF_V_B_Arid_L134A1",
+            "TACU_BAF_V_B_Arid_RBS70",
             // Arid Vehicles
             "TACU_BAF_V_B_Arid_Polaris_Unarmed",
             "TACU_BAF_V_B_Arid_Polaris_Armed",
@@ -42,6 +47,12 @@ class CfgPatches {
             "TACU_BAF_U_B_Tropic_Shotgun",
             "TACU_BAF_U_B_Tropic_TL",
             "TACU_BAF_U_B_Tropic_Grenadier",
+            "TACU_BAF_U_B_Tropic_Sniper",
+            "TACU_BAF_U_B_Tropic_Spotter",
+            // Tropic Turrets
+            "TACU_BAF_V_B_Tropic_L11A1",
+            "TACU_BAF_V_B_Tropic_L134A1",
+            "TACU_BAF_V_B_Tropic_RBS70",
             // Tropic Vehicles
             "TACU_BAF_V_B_Tropic_Polaris_Unarmed",
             "TACU_BAF_V_B_Tropic_Polaris_Armed",
@@ -58,6 +69,10 @@ class CfgPatches {
             "TACU_BAF_U_B_Urban_Shotgun",
             "TACU_BAF_U_B_Urban_TL",
             "TACU_BAF_U_B_Urban_Grenadier",
+            // Urban Turrets
+            "TACU_BAF_V_B_Urban_L11A1",
+            "TACU_BAF_V_B_Urban_L134A1",
+            "TACU_BAF_V_B_Urban_RBS70",
             // Urban Vehicles
             "TACU_BAF_V_B_Urban_Polaris_Unarmed",
             "TACU_BAF_V_B_Urban_Polaris_Armed",
@@ -69,19 +84,21 @@ class CfgPatches {
             "TACU_BAF_W_Arid_HK416A5",
             "TACU_BAF_W_Arid_HK416A5_GL",
             "TACU_BAF_W_Arid_HK417A2",
-            "TACU_BAF_W_Arid_P99",
+            "TACU_BAF_W_Arid_Glock",
             "TACU_BAF_W_Arid_Stoner99",
             "TACU_BAF_W_Arid_AA40",
+            "TACU_BAF_W_Arid_Noreen",
             "TACU_BAF_W_Tropic_HK416A5",
             "TACU_BAF_W_Tropic_HK416A5_GL",
             "TACU_BAF_W_Tropic_HK417A2",
-            "TACU_BAF_W_Tropic_P99",
+            "TACU_BAF_W_Tropic_Glock",
             "TACU_BAF_W_Tropic_Stoner99",
             "TACU_BAF_W_Tropic_AA40",
+            "TACU_BAF_W_Tropic_Noreen",
             "TACU_BAF_W_Urban_HK416A5",
             "TACU_BAF_W_Urban_HK416A5_GL",
             "TACU_BAF_W_Urban_HK417A2",
-            "TACU_BAF_W_Urban_P99",
+            "TACU_BAF_W_Urban_Glock",
             "TACU_BAF_W_Urban_Stoner99",
             "TACU_BAF_W_Urban_AA40",
             "TACU_BAF_W_MP5SD"
