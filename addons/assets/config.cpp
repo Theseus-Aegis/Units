@@ -105,6 +105,9 @@ class CfgPatches {
             "TACU_Wiesel_Armed_Base",
             "TACU_Wildcat_Armed_Base",
             "TACU_Wildcat_Base",
+            // Weapons
+            "TACU_Assets_W_Item_HK416A5_Arid",
+            "TACU_Assets_W_Item_HK417A2_Arid",
             // Turrets
             "TACU_Assets_AGS_base",
             "TACU_Assets_D30_base",
@@ -176,7 +179,10 @@ class CfgPatches {
             "TACU_Police_Vest_PlateCarrier_PoliceGreen",
             "TACU_Vanguard_V_PlateCarrier_Earth",
             "TACU_Vanguard_V_PlateCarrier_Foliage",
-            "TACU_Vanguard_V_PlateCarrier_Snow"
+            "TACU_Vanguard_V_PlateCarrier_Snow",
+            // Weapons
+            "TACU_Assets_W_HK416A5_Arid",
+            "TACU_Assets_W_HK417A2_Arid"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main"};
@@ -191,3 +197,4 @@ class CfgPatches {
 #include "CfgGlasses.hpp"
 #include "CfgFaces.hpp"
 #include "CfgFactionClasses.hpp"
+#include "CfgWorlds.hpp"

@@ -62,6 +62,9 @@ class Truck_03_base_F;
 class Van_02_transport_base_F;
 class Van_02_vehicle_base_F;
 
+// Weapons
+class Weapon_Base_F;
+
 // Turrets
 class CUP_AGS_base;
 class CUP_D30_AT_base;
