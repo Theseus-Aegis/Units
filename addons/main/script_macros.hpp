@@ -23,7 +23,7 @@
 #define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
 
 // Editor Preview
-#define EDITORPREVIEW(IMG) editorPreview = QPATHTOF(ui\IMG.jpg);
+#define EDITORPREVIEW(IMG) editorPreview = QPATHTOF(ui\IMG.jpg)
 
 // Magazines
 #define mag_2(a) a, a
