@@ -25,3 +25,4 @@ class CfgPatches {
 
 #include "CfgVehicles.hpp"
 #include "CfgFactionClasses.hpp"
+#include "CfgGroups.hpp"
