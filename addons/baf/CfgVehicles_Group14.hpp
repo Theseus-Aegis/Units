@@ -437,7 +437,7 @@ class TACU_BAF_U_B_Tropic_Grenadier: TACU_BAF_U_B_Tropic_Scout {
     //EDITORPREVIEW();
 };
 
-class TACU_BAF_U_B_Tropic_Sniper: TACU_BAF_U_B_Arid_Scout {
+class TACU_BAF_U_B_Tropic_Sniper: TACU_BAF_U_B_Tropic_Scout {
     displayName = "Sniper";
     uniformClass = "U_B_FullGhillie_lsh";
     CBA_facewearList[] = {

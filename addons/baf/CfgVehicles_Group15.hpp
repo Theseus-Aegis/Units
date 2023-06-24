@@ -1,6 +1,6 @@
 // Group 15 (Urban)
 class TACU_BAF_U_B_Urban_Scout: TACU_BAF_U_B_Arid_Scout {
-    editorSubcategory = "TACU_BAF_EdSubCat_B_Group_14";
+    editorSubcategory = "TACU_BAF_EdSubCat_B_Group_15";
     uniformClass = "U_B_CTRG_Soldier_urb_1_F";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
