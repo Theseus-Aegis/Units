@@ -17,7 +17,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     respawnWeapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_01)
+    //EDITORPREVIEW();
     headgearList[] = {
         "H_Cap_blk", 0.33,
         "H_Cap_oli", 0.33,
@@ -44,7 +44,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_02: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     respawnWeapons[] = {"CUP_hgun_TEC9_FA", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("tacgt_AI_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_02)
+    //EDITORPREVIEW();
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_03: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
@@ -54,7 +54,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_03: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     respawnWeapons[] = {"tacgt_hgun_Glock18_Black", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_17Rnd_9x19_Glock"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("tacgt_AI_17Rnd_9x19_Glock"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_03)
+    //EDITORPREVIEW();
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_04: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
@@ -64,7 +64,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_04: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     respawnWeapons[] = {"CUP_hgun_SA61", "Throw", "Put"};
     magazines[] = {mag_7("CUP_20Rnd_B_765x17_Ball_M"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("CUP_20Rnd_B_765x17_Ball_M"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_04)
+    //EDITORPREVIEW();
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_05: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
@@ -74,7 +74,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_05: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     respawnWeapons[] = {"CUP_smg_Mac10", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_05)
+    //EDITORPREVIEW();
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
@@ -84,7 +84,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_06: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_AI_30Rnd_9x19"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_9x19"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_06)
+    //EDITORPREVIEW();
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_07: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
@@ -94,7 +94,7 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_07: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     magazines[] = {mag_9("tacgt_2Rnd_P_000"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_9("tacgt_2Rnd_P_000"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_07)
+    //EDITORPREVIEW();
 };
 
 class TACU_Cartel2_U_O_Grunt_Rifleman_08: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
@@ -104,5 +104,5 @@ class TACU_Cartel2_U_O_Grunt_Rifleman_08: TACU_Cartel2_U_O_Grunt_Rifleman_01 {
     respawnWeapons[] = {"CUP_hgun_MicroUzi", "Throw", "Put"};
     magazines[] = {mag_5("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_5("tacgt_AI_32Rnd_9x19_UZI"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(Cartel2_U_O_Grunt_Rifleman_08)
+    //EDITORPREVIEW();
 };
