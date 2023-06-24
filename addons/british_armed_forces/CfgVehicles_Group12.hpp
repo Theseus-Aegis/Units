@@ -2,6 +2,7 @@
 #define MACRO_GROUP_12_DEFAULT \
     faction = "TACU_BAF_B"; \
     editorSubcategory = "TACU_BAF_EdSubCat_B_Group_12"; \
+    genericNames = "TACU_BritishNames"; \
     scope = 2; \
     scopeCurator = 2
 
