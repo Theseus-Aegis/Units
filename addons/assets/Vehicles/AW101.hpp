@@ -16,9 +16,7 @@ class TACU_Merlin_Base: I_Heli_Transport_02_F {
                 QPATHTOF(data\aw101\heli_transport_02_3_baf_arid_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_int_02_co.paa)
             };
-            factions[] = {
-                // BAF
-            };
+            factions[] = {"TACU_BAF_B"};
         };
         class Tropic {
             author = "GilleeDoo, Mike";
@@ -29,16 +27,11 @@ class TACU_Merlin_Base: I_Heli_Transport_02_F {
                 QPATHTOF(data\aw101\heli_transport_02_3_baf_wld_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_int_02_co.paa)
             };
-            factions[] = {
-                // BAF
-            };
+            factions[] = {"TACU_BAF_B"};
         };
     };
 
-    textureList[] = {
-        "Arid", 0,
-        "Tropic", 0
-    };
+    textureList[] = {};
 
     MACRO_EVENTHANDLERS;
 };
