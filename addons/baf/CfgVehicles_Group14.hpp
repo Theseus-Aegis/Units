@@ -45,7 +45,7 @@ class TACU_BAF_U_B_Tropic_Scout: TACU_BAF_U_B_Arid_Scout {
         "G_Bandanna_oli", 0.25,
         "G_Combat_Goggles_tna_F", 0.25
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Scout);
 };
 
 class TACU_BAF_U_B_Tropic_Demolitions: TACU_BAF_U_B_Tropic_Scout {
@@ -91,7 +91,7 @@ class TACU_BAF_U_B_Tropic_Demolitions: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Demolitions);
 };
 
 class TACU_BAF_U_B_Tropic_HeavyGunner: TACU_BAF_U_B_Tropic_Scout {
@@ -134,7 +134,7 @@ class TACU_BAF_U_B_Tropic_HeavyGunner: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_HeavyGunner);
 };
 class TACU_BAF_U_B_Tropic_JTAC: TACU_BAF_U_B_Tropic_Scout {
     displayName = "JTAC";
@@ -177,7 +177,7 @@ class TACU_BAF_U_B_Tropic_JTAC: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_JTAC);
 };
 class TACU_BAF_U_B_Tropic_Marksman: TACU_BAF_U_B_Tropic_Scout {
     displayName = "Marksman";
@@ -218,7 +218,7 @@ class TACU_BAF_U_B_Tropic_Marksman: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Marksman);
 };
 class TACU_BAF_U_B_Tropic_Medic: TACU_BAF_U_B_Tropic_Scout {
     displayName = "Paramedic";
@@ -262,7 +262,7 @@ class TACU_BAF_U_B_Tropic_Medic: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Medic);
 };
 class TACU_BAF_U_B_Tropic_LAT: TACU_BAF_U_B_Tropic_Scout {
     displayName = "Rifleman (AT)";
@@ -309,7 +309,7 @@ class TACU_BAF_U_B_Tropic_LAT: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_LAT);
 };
 class TACU_BAF_U_B_Tropic_Shotgun: TACU_BAF_U_B_Tropic_Scout {
     displayName = "Rifleman (Shotgun)";
@@ -349,7 +349,7 @@ class TACU_BAF_U_B_Tropic_Shotgun: TACU_BAF_U_B_Tropic_Scout {
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Shotgun);
 };
 class TACU_BAF_U_B_Tropic_TL: TACU_BAF_U_B_Tropic_Scout {
     displayName = "Team Leader";
@@ -390,7 +390,7 @@ class TACU_BAF_U_B_Tropic_TL: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_TL);
 };
 
 class TACU_BAF_U_B_Tropic_Grenadier: TACU_BAF_U_B_Tropic_Scout {
@@ -434,7 +434,7 @@ class TACU_BAF_U_B_Tropic_Grenadier: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Grenadier);
 };
 
 class TACU_BAF_U_B_Tropic_Sniper: TACU_BAF_U_B_Tropic_Scout {
@@ -480,7 +480,7 @@ class TACU_BAF_U_B_Tropic_Sniper: TACU_BAF_U_B_Tropic_Scout {
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Sniper);
 };
 
 class TACU_BAF_U_B_Tropic_Spotter: TACU_BAF_U_B_Tropic_Sniper {
@@ -511,5 +511,5 @@ class TACU_BAF_U_B_Tropic_Spotter: TACU_BAF_U_B_Tropic_Sniper {
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
-    //EDITORPREVIEW();
+    //EDITORPREVIEW(TACU_BAF_U_B_Tropic_Spotter);
 };
