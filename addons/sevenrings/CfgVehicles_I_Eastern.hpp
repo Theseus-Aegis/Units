@@ -41,7 +41,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         MACRO_EAST_DEFAULT_MAGAZINE
     };
     CBA_facewearList[] = {"", 1};
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Rifleman_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_02: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -63,7 +63,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_02: TACU_SevenRings_U_I_Eastern_Rifle
         mag_9("tacgt_AI_30Rnd_762x39_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Rifleman_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_03: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -85,7 +85,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_03: TACU_SevenRings_U_I_Eastern_Rifle
         mag_9("tacgt_AI_30Rnd_762x39_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Rifleman_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_Grenadier_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -94,11 +94,13 @@ class TACU_SevenRings_U_I_Eastern_Grenadier_01: TACU_SevenRings_U_I_Eastern_Rifl
     uniformClass = "U_lxWS_Djella_02_Sand";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_grenadier_belt_cb"
+        "milgp_v_marciras_grenadier_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_grenadier_belt_cb"
+        "milgp_v_marciras_grenadier_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_AK103_GL",
@@ -118,7 +120,7 @@ class TACU_SevenRings_U_I_Eastern_Grenadier_01: TACU_SevenRings_U_I_Eastern_Rifl
         mag_4("CUP_1Rnd_HE_GP25_M"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Grenadier_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Grenadier_02: TACU_SevenRings_U_I_Eastern_Grenadier_01 {
@@ -142,7 +144,7 @@ class TACU_SevenRings_U_I_Eastern_Grenadier_02: TACU_SevenRings_U_I_Eastern_Gren
         mag_4("1Rnd_HE_Grenade_shell"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Grenadier_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Grenadier_03: TACU_SevenRings_U_I_Eastern_Grenadier_01 {
@@ -166,7 +168,7 @@ class TACU_SevenRings_U_I_Eastern_Grenadier_03: TACU_SevenRings_U_I_Eastern_Gren
         mag_4("CUP_1Rnd_HE_GP25_M"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Grenadier_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -176,11 +178,13 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Ri
     uniformClass = "U_lxWS_Tak_03_C";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_cb"
+        "milgp_v_marciras_hgunner_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_cb"
+        "milgp_v_marciras_hgunner_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_AK101",
@@ -202,7 +206,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_01: TACU_SevenRings_U_I_Eastern_Ri
         "CUP_M136_M",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Rifleman_AT_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_AT_02: TACU_SevenRings_U_I_Eastern_Rifleman_AT_01 {
@@ -228,7 +232,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_02: TACU_SevenRings_U_I_Eastern_Ri
         "CUP_RPG18_M",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Rifleman_AT_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Rifleman_AT_03: TACU_SevenRings_U_I_Eastern_Rifleman_AT_01 {
@@ -255,7 +259,7 @@ class TACU_SevenRings_U_I_Eastern_Rifleman_AT_03: TACU_SevenRings_U_I_Eastern_Ri
         "RPG7_F",
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Rifleman_AT_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_Autorifleman_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -265,11 +269,13 @@ class TACU_SevenRings_U_I_Eastern_Autorifleman_01: TACU_SevenRings_U_I_Eastern_R
     uniformClass = "U_lxWS_Djella_02_Brown";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_belt_cb"
+        "milgp_v_marciras_hgunner_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_belt_cb"
+        "milgp_v_marciras_hgunner_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_RPK12",
@@ -287,7 +293,7 @@ class TACU_SevenRings_U_I_Eastern_Autorifleman_01: TACU_SevenRings_U_I_Eastern_R
         mag_5("tacgt_AI_75Rnd_762x39_Drum"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Autorifleman_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Autorifleman_02: TACU_SevenRings_U_I_Eastern_Autorifleman_01 {
@@ -309,7 +315,7 @@ class TACU_SevenRings_U_I_Eastern_Autorifleman_02: TACU_SevenRings_U_I_Eastern_A
         mag_5("tacgt_AI_75Rnd_762x39_Drum"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Autorifleman_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Autorifleman_03: TACU_SevenRings_U_I_Eastern_Autorifleman_01 {
@@ -331,7 +337,7 @@ class TACU_SevenRings_U_I_Eastern_Autorifleman_03: TACU_SevenRings_U_I_Eastern_A
         mag_4("CUP_120Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Autorifleman_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_Medic_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -343,11 +349,13 @@ class TACU_SevenRings_U_I_Eastern_Medic_01: TACU_SevenRings_U_I_Eastern_Rifleman
     backpack = "B_Patrol_Medic_bag_F";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_medic_belt_cb"
+        "milgp_v_marciras_medic_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_medic_belt_cb"
+        "milgp_v_marciras_medic_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_AK107",
@@ -367,7 +375,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_01: TACU_SevenRings_U_I_Eastern_Rifleman
         mag_2("SmokeShell"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Medic_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Medic_02: TACU_SevenRings_U_I_Eastern_Medic_01 {
@@ -391,7 +399,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_02: TACU_SevenRings_U_I_Eastern_Medic_01
         mag_2("SmokeShell"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Medic_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Medic_03: TACU_SevenRings_U_I_Eastern_Medic_01 {
@@ -415,7 +423,7 @@ class TACU_SevenRings_U_I_Eastern_Medic_03: TACU_SevenRings_U_I_Eastern_Medic_01
         mag_2("SmokeShell"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Medic_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -430,11 +438,13 @@ class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifle
     respawnItems[] = {"ACE_M26_Clacker", "ACE_DeadManSwitch"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_belt_cb"
+        "milgp_v_marciras_assaulter_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_assaulter_belt_cb"
+        "milgp_v_marciras_assaulter_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_VIKHR",
@@ -452,7 +462,7 @@ class TACU_SevenRings_U_I_Eastern_Engineer_01: TACU_SevenRings_U_I_Eastern_Rifle
         mag_8("CUP_30Rnd_9x39_SP5_VIKHR_M"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Engineer_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Engineer_02: TACU_SevenRings_U_I_Eastern_Engineer_01 {
@@ -474,7 +484,7 @@ class TACU_SevenRings_U_I_Eastern_Engineer_02: TACU_SevenRings_U_I_Eastern_Engin
         mag_8("tacgt_AI_30Rnd_762x39_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Engineer_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Engineer_03: TACU_SevenRings_U_I_Eastern_Engineer_01 {
@@ -496,7 +506,7 @@ class TACU_SevenRings_U_I_Eastern_Engineer_03: TACU_SevenRings_U_I_Eastern_Engin
         mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Engineer_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_Teamleader_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -505,11 +515,13 @@ class TACU_SevenRings_U_I_Eastern_Teamleader_01: TACU_SevenRings_U_I_Eastern_Rif
     uniformClass = "U_lxWS_Djella_03_Green";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_teamleader_belt_cb"
+        "milgp_v_marciras_teamleader_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_teamleader_belt_cb"
+        "milgp_v_marciras_teamleader_belt_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_AK107",
@@ -527,7 +539,7 @@ class TACU_SevenRings_U_I_Eastern_Teamleader_01: TACU_SevenRings_U_I_Eastern_Rif
         mag_8("tacgt_AI_30Rnd_545x39_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Teamleader_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Teamleader_02: TACU_SevenRings_U_I_Eastern_Teamleader_01 {
@@ -549,7 +561,7 @@ class TACU_SevenRings_U_I_Eastern_Teamleader_02: TACU_SevenRings_U_I_Eastern_Tea
         mag_8("tacgt_AI_30Rnd_762x39_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Teamleader_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Teamleader_03: TACU_SevenRings_U_I_Eastern_Teamleader_01 {
@@ -571,7 +583,7 @@ class TACU_SevenRings_U_I_Eastern_Teamleader_03: TACU_SevenRings_U_I_Eastern_Tea
         mag_8("tacgt_AI_30Rnd_556x45_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Teamleader_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_CQBSpecialist_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -579,11 +591,13 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_01: TACU_SevenRings_U_I_Eastern_
     uniformClass = "U_lxWS_C_Djella_07";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_light_cb"
+        "milgp_v_marciras_light_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_light_cb"
+        "milgp_v_marciras_light_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_SAIGA12K",
@@ -601,7 +615,7 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_01: TACU_SevenRings_U_I_Eastern_
         mag_8("CUP_12Rnd_B_Saiga12_Buck_00"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_CQBSpecialist_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_CQBSpecialist_02: TACU_SevenRings_U_I_Eastern_CQBSpecialist_01 {
@@ -623,7 +637,7 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_02: TACU_SevenRings_U_I_Eastern_
         mag_8("CUP_20Rnd_9x39_SP5_GROZA_M"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_CQBSpecialist_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_CQBSpecialist_03: TACU_SevenRings_U_I_Eastern_CQBSpecialist_01 {
@@ -645,7 +659,7 @@ class TACU_SevenRings_U_I_Eastern_CQBSpecialist_03: TACU_SevenRings_U_I_Eastern_
         mag_8("CUP_30Rnd_9x19_EVO"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_CQBSpecialist_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_Marksman_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -654,11 +668,13 @@ class TACU_SevenRings_U_I_Eastern_Marksman_01: TACU_SevenRings_U_I_Eastern_Rifle
     uniformClass = "U_lxWS_Djella_02_Sand";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_marksman_cb"
+        "milgp_v_marciras_marksman_cb",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_marksman_cb"
+        "milgp_v_marciras_marksman_cb",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "TACU_SevenRings_W_East_SVD",
@@ -676,7 +692,7 @@ class TACU_SevenRings_U_I_Eastern_Marksman_01: TACU_SevenRings_U_I_Eastern_Rifle
         mag_8("tacgt_10Rnd_762x54r_AP"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Marksman_01);
 };
 
 class TACU_SevenRings_U_I_Eastern_Marksman_02: TACU_SevenRings_U_I_Eastern_Marksman_01 {
@@ -698,7 +714,7 @@ class TACU_SevenRings_U_I_Eastern_Marksman_02: TACU_SevenRings_U_I_Eastern_Marks
         mag_8("10Rnd_93x64_DMR_05_Mag"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Marksman_02);
 };
 
 class TACU_SevenRings_U_I_Eastern_Marksman_03: TACU_SevenRings_U_I_Eastern_Marksman_01 {
@@ -720,7 +736,7 @@ class TACU_SevenRings_U_I_Eastern_Marksman_03: TACU_SevenRings_U_I_Eastern_Marks
         mag_8("tacgt_AI_20Rnd_762x51_FAL"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_Marksman_03);
 };
 
 class TACU_SevenRings_U_I_Eastern_AA_01: TACU_SevenRings_U_I_Eastern_Rifleman_01 {
@@ -731,11 +747,13 @@ class TACU_SevenRings_U_I_Eastern_AA_01: TACU_SevenRings_U_I_Eastern_Rifleman_01
     backpack = "TACU_SevenRings_B_AA_Kitbag_Tan";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_rgr"
+        "milgp_v_marciras_hgunner_rgr",
+        "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "milgp_v_marciras_hgunner_rgr"
+        "milgp_v_marciras_hgunner_rgr",
+        "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
         "CUP_launch_FIM92Stinger",
@@ -757,5 +775,5 @@ class TACU_SevenRings_U_I_Eastern_AA_01: TACU_SevenRings_U_I_Eastern_Rifleman_01
         mag_8("tacgt_AI_30Rnd_556x45_AK"),
         MACRO_EAST_DEFAULT_MAGAZINE
     };
-    //EDITORPREVIEW();
+    EDITORPREVIEW(TACU_SevenRings_U_I_Eastern_AA_01);
 };
