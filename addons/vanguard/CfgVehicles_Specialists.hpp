@@ -26,7 +26,7 @@ class TACU_Vanguard_U_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
         "G_Balaclava_blk", 1
     };
     editorSubcategory = "TACU_Vanguard_EdSubCat_Specialists";
-    //EDITORPREVIEW(Vanguard_U_Specialist_Rifleman)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_Rifleman);
 };
 
 class TACU_Vanguard_U_O_Specialist_Rifleman: TACU_Vanguard_U_Specialist_Rifleman {
@@ -42,7 +42,7 @@ class TACU_Vanguard_U_Specialist_Rifleman_AT: TACU_Vanguard_U_Specialist_Riflema
     respawnWeapons[] = {"TACU_Vanguard_W_MX_Black", "launch_NLAW_F", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
-    //EDITORPREVIEW(Vanguard_U_Specialist_Rifleman_AT)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_Rifleman_AT);
 };
 
 class TACU_Vanguard_U_O_Specialist_Rifleman_AT: TACU_Vanguard_U_Specialist_Rifleman_AT {
@@ -58,7 +58,7 @@ class TACU_Vanguard_U_Specialist_Grenadier: TACU_Vanguard_U_Specialist_Rifleman 
     respawnWeapons[] = {"TACU_Vanguard_W_MX_GL_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_3("1Rnd_HE_Grenade_shell"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_3("1Rnd_HE_Grenade_shell"), "SmokeShell"};
-    //EDITORPREVIEW(Vanguard_U_Specialist_Grenadier)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_Grenadier);
 };
 
 class TACU_Vanguard_U_O_Specialist_Grenadier: TACU_Vanguard_U_Specialist_Grenadier {
@@ -73,7 +73,7 @@ class TACU_Vanguard_U_Specialist_Marksman: TACU_Vanguard_U_Specialist_Rifleman {
     respawnWeapons[] = {"TACU_Vanguard_W_MXM_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
-    //EDITORPREVIEW(Vanguard_U_Specialist_Marksman)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_Marksman);
 };
 
 class TACU_Vanguard_U_O_Specialist_Marksman: TACU_Vanguard_U_Specialist_Marksman {
@@ -88,7 +88,7 @@ class TACU_Vanguard_U_Specialist_Driver: TACU_Vanguard_U_Specialist_Rifleman {
     respawnWeapons[] = {"TACU_Vanguard_W_MXC_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
-    //EDITORPREVIEW(Vanguard_U_Specialist_Driver)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_Driver);
 };
 
 class TACU_Vanguard_U_O_Specialist_Driver: TACU_Vanguard_U_Specialist_Driver {
@@ -103,7 +103,7 @@ class TACU_Vanguard_U_Specialist_TeamLeader: TACU_Vanguard_U_Specialist_Rifleman
     respawnWeapons[] = {"TACU_Vanguard_W_ARX_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_65x39_Katiba"), "10Rnd_50BW_Mag_F", mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_65x39_Katiba"), "10Rnd_50BW_Mag_F", mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
-    //EDITORPREVIEW(Vanguard_U_Specialist_TeamLeader)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_TeamLeader);
 };
 
 class TACU_Vanguard_U_O_Specialist_TeamLeader: TACU_Vanguard_U_Specialist_TeamLeader {
@@ -119,7 +119,7 @@ class TACU_Vanguard_U_Specialist_Autorifleman: TACU_Vanguard_U_Specialist_Riflem
     respawnWeapons[] = {"TACU_Vanguard_W_MX_SW_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_4("tacgt_AI_100Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
     respawnMagazines[] = {mag_4("tacgt_AI_100Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
-    //EDITORPREVIEW(Vanguard_U_Specialist_Autorifleman)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_Autorifleman);
 };
 
 class TACU_Vanguard_U_O_Specialist_Autorifleman: TACU_Vanguard_U_Specialist_Autorifleman {
@@ -137,7 +137,7 @@ class TACU_Vanguard_U_Specialist_Medic: TACU_Vanguard_U_Specialist_Rifleman {
     respawnWeapons[] = {"TACU_Vanguard_W_MXC_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("SmokeShell"), "HandGrenade"};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("SmokeShell"), "HandGrenade"};
-    //EDITORPREVIEW(Vanguard_U_Specialist_Medic)
+    EDITORPREVIEW(TACU_Vanguard_U_Specialist_Medic);
 };
 
 class TACU_Vanguard_U_O_Specialist_Medic: TACU_Vanguard_U_Specialist_Medic {
