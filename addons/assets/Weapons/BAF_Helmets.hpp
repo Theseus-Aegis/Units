@@ -1,5 +1,6 @@
 // ToDo: Fix Textures, broke for some reason.
 class TACU_BAF_Helmet_EnhancedCombatHelmet_Arid: H_HelmetSpecB {
+    scope = 1;
     author = "GilleeDoo, Mike";
     displayName = "Enhanced Combat Helmet (Arid)";
     hiddenSelectionsTextures[] = {QPATHTOF(data\helmets\equip1_baf_arid_co.paa)};
