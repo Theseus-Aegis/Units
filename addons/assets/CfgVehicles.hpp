@@ -8,6 +8,7 @@ class CfgVehicles {
     // Vehicles - Using ACE Realistic names
     #include "Vehicles\AH6_Little_Bird.hpp"
     #include "Vehicles\AW101.hpp"
+    #include "Vehicles\Backpacks.hpp"
     #include "Vehicles\Badger_IFV.hpp"
     #include "Vehicles\Bardelas.hpp"
     #include "Vehicles\Chinook_Unarmed.hpp"
@@ -71,6 +72,9 @@ class CfgVehicles {
     #include "Vehicles\Wearables\Police_Vests.hpp"
     #include "Vehicles\Wearables\Prisoner_Uniforms.hpp"
     #include "Vehicles\Wearables\Vanguard_Vests.hpp"
+
+    // Weapons
+    #include "Vehicles\Rifles.hpp"
 
     // Turrets
     #include "Vehicles\CUP_Turrets.hpp"

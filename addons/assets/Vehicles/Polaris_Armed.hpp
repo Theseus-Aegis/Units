@@ -18,9 +18,7 @@ class TACU_Polaris_Armed_Base: B_LSV_01_armed_F {
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
-            factions[] = {
-                // BAF
-            };
+            factions[] = {"TACU_BAF_B"};
         };
         class Tropic {
             displayName = "Tropic";
@@ -33,9 +31,7 @@ class TACU_Polaris_Armed_Base: B_LSV_01_armed_F {
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
-            factions[] = {
-                // BAF
-            };
+            factions[] = {"TACU_BAF_B"};
         };
         class Urban {
             displayName = "Urban";
@@ -48,9 +44,7 @@ class TACU_Polaris_Armed_Base: B_LSV_01_armed_F {
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
-            factions[] = {
-                // BAF
-            };
+            factions[] = {"TACU_BAF_B"};
         };
         class Black {
             displayName = "Black";
@@ -94,9 +88,6 @@ class TACU_Polaris_Armed_Base: B_LSV_01_armed_F {
     };
 
     textureList[] = {
-        "Arid", 0,
-        "Tropic", 0,
-        "Urban", 0,
         "Black", 1,
         "Tan", 1,
         "Green", 1

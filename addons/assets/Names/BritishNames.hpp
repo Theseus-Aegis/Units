@@ -1,0 +1,46 @@
+class TACU_BritishNames {
+    class FirstNames {
+        oliver = "Oliver";
+        george = "George";
+        arthur = "Arthur";
+        harry = "Harry";
+        jack = "Jack";
+        charlie = "Charlie";
+        jacob = "Jacob";
+        henry = "Henry";
+        thomas = "Thomas";
+        will = "Will";
+        joshua = "Joshua";
+        alex = "Alex";
+        max = "Max";
+        ethan = "Ethan";
+        hunter = "Hunter";
+        david = "David";
+        elliot = "Elliot";
+        rowan = "Rowan";
+        felix = "Felix";
+        ryan = "Ryan";
+    };
+    class LastNames {
+        brown = "Brown";
+        johnson = "Johnson";
+        robinson = "Robinson";
+        harris = "Harris";
+        edwards = "Edwards";
+        turner = "Turner";
+        carter = "Carter";
+        moore = "Moore";
+        jones = "Jones";
+        evans = "Evans";
+        wilson = "Wilson";
+        hughes = "Hughes";
+        allen = "Allen";
+        wright = "Wright";
+        bell = "Bell";
+        morgan = "Morgan";
+        morris = "Morris";
+        campbell = "Campbell";
+        williams = "Williams";
+        bailey = "Bailey";
+    };
+};

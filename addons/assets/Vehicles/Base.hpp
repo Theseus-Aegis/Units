@@ -3,6 +3,9 @@ class Headgear_Base_F;
 class Item_Base_F;
 class Vest_Base_F;
 
+// Backpacks
+class B_FieldPack_Base;
+
 // Uniform Base
 class I_G_Soldier_LAT_F;
 class I_C_Soldier_Bandit_2_F;
@@ -61,6 +64,9 @@ class Truck_02_transport_base_F;
 class Truck_03_base_F;
 class Van_02_transport_base_F;
 class Van_02_vehicle_base_F;
+
+// Weapons
+class Weapon_Base_F;
 
 // Turrets
 class CUP_AGS_base;

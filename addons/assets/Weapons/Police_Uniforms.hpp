@@ -1,7 +1,7 @@
 class TACU_Police_Uniform_Combat_Black: Uniform_Base {
     author = "Kresky";
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     displayName = "Police Combat Uniform (Black)";
     picture = QPATHTOF(ui\uniforms\Police_Uniform_Combat_Black.paa);
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";

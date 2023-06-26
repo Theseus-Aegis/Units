@@ -9,5 +9,6 @@ class CfgWeapons {
     #include "Weapons\Police_Uniforms.hpp"
     #include "Weapons\Police_Vests.hpp"
     #include "Weapons\Prisoner_Uniforms.hpp"
+    #include "Weapons\Rifles.hpp"
     #include "Weapons\Vanguard_Vests.hpp"
 };

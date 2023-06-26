@@ -15,3 +15,8 @@ class U_C_ArtTShirt_01_v1_F: Uniform_Base {
 class U_I_C_Soldier_Bandit_2_F: Uniform_Base {
     class ItemInfo;
 };
+
+// Rifles
+class arifle_SPAR_02_blk_F;
+class arifle_SPAR_01_GL_blk_F;
+class arifle_SPAR_03_blk_F;

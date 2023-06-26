@@ -152,7 +152,7 @@ class INDEP {
                 };
             };
         };
-        /*
+
         class TACU_Vanguard_G_Contractors_Winter {
             name = "Contractors (Winter)";
 
@@ -231,7 +231,7 @@ class INDEP {
                 };
             };
         };
-        */
+
         class TACU_Vanguard_G_Specialists {
             name = "Specialists";
 

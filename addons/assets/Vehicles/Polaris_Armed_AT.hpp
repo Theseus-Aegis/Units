@@ -18,9 +18,7 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
-            factions[] = {
-                // BAF.
-            };
+            factions[] = {"TACU_BAF_B"};
         };
         class Tropic {
             displayName = "Tropic";
@@ -30,12 +28,10 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
                 QPATHTOF(data\polaris\baf_lsv_02_tropic_co.paa),
                 QPATHTOF(data\polaris\baf_lsv_03_tropic_co.paa),
                 QPATHTOF(data\polaris\baf_lsv_adds_tropic_co.paa),
-                "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
-                "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
             };
-            factions[] = {
-                // BAF
-            };
+            factions[] = {"TACU_BAF_B"};
         };
         class Urban {
             displayName = "Urban";
@@ -45,12 +41,10 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
                 QPATHTOF(data\polaris\baf_lsv_02_urban_co.paa),
                 QPATHTOF(data\polaris\baf_lsv_03_urban_co.paa),
                 QPATHTOF(data\polaris\baf_lsv_adds_urban_co.paa),
-                "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
-                "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
             };
-            factions[] = {
-                // BAF
-            };
+            factions[] = {"TACU_BAF_B"};
         };
         class Black {
             displayName = "Black";
@@ -94,9 +88,6 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
     };
 
     textureList[] = {
-        "Arid", 0,
-        "Tropic", 0,
-        "Urban", 0,
         "Black", 1,
         "Tan", 1,
         "Green", 1

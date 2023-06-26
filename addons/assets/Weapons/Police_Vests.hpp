@@ -1,4 +1,5 @@
 class TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack: V_PlateCarrierIAGL_oli {
+    scope = 1;
     author = "Kresky";
     displayName = "Heavy Plate Carrier (Police, Black)";
     hiddenSelectionsTextures[] = {

@@ -1,4 +1,10 @@
 // Included all in all faction CfgVehicles as a baseclass list.
+//Backpacks
+class TACU_Assets_Fieldpack_Arid;
+class TACU_Assets_Fieldpack_Tropic;
+class TACU_Assets_Fieldpack_Urban;
+
+// Vehicles
 class TACU_AH6_LittleBird_Base;
 class TACU_Badger_IFV_Base;
 class TACU_Bardelas_Base;

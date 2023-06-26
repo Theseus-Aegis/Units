@@ -9,6 +9,7 @@ class CfgVehicles {
     #include "vanilla\aaf.hpp"
     #include "vanilla\csat.hpp"
     #include "vanilla\csat_pacific.hpp"
+    #include "vanilla\ctrg.hpp"
     #include "vanilla\fia.hpp"
     #include "vanilla\gendarmerie.hpp"
     #include "vanilla\looters.hpp"
