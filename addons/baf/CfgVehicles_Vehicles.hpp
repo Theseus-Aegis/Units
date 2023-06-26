@@ -39,6 +39,25 @@ class TACU_BAF_V_B_Arid_AW101: TACU_Merlin_Base {
     textureList[] = {"Arid", 1};
 };
 
+class TACU_BAF_V_B_Arid_FV510_Warrior: TACU_FV510_Warrior_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    displayName = "FV510 Warrior (Arid)";
+    faction = "TACU_BAF_B";
+    side = 1;
+    crew = "TACU_BAF_U_B_Arid_Demolitions";
+    typicalCargo[] = {"TACU_BAF_U_B_Arid_Demolitions"};
+    textureList[] = {"Arid", 1};
+};
+
+class TACU_BAF_V_Arid_FV510_Warrior_SLAT: TACU_BAF_V_B_Arid_FV510_Warrior {
+    displayName = "FV510 Warrior SLAT (Arid)";
+    animationList[] = {
+        "showBags2", 1,
+        "showSLATHull", 1,
+        "showSLATTurret", 1
+    };
+};
+
 // Tropic Vehicles
 class TACU_BAF_V_B_Tropic_Polaris_Unarmed: TACU_Polaris_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -78,6 +97,25 @@ class TACU_BAF_V_B_Tropic_AW101: TACU_Merlin_Base {
     crew = "TACU_BAF_U_B_Pilot";
     typicalCargo[] = {"TACU_BAF_U_B_Pilot"};
     textureList[] = {"Tropic", 1};
+};
+
+class TACU_BAF_V_B_Tropic_FV510_Warrior: TACU_FV510_Warrior_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    displayName = "FV510 Warrior (Tropic)";
+    faction = "TACU_BAF_B";
+    side = 1;
+    crew = "TACU_BAF_U_B_Tropic_Demolitions";
+    typicalCargo[] = {"TACU_BAF_U_B_Tropic_Demolitions"};
+    textureList[] = {"Tropic", 1};
+};
+
+class TACU_BAF_V_Tropic_FV510_Warrior_SLAT: TACU_BAF_V_B_Tropic_FV510_Warrior {
+    displayName = "FV510 Warrior SLAT (Tropic)";
+    animationList[] = {
+        "showBags2", 1,
+        "showSLATHull", 1,
+        "showSLATTurret", 1
+    };
 };
 
 // Urban Vehicles

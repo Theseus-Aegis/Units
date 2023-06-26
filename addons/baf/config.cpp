@@ -46,6 +46,8 @@ class CfgPatches {
             "TACU_BAF_V_B_Arid_Polaris_Armed",
             "TACU_BAF_V_B_Arid_Polaris_AT",
             "TACU_BAF_V_B_Arid_AW101",
+            "TACU_BAF_V_B_Arid_FV510_Warrior",
+            "TACU_BAF_V_Arid_FV510_Warrior_SLAT",
             // Tropic Units
             "TACU_BAF_U_B_Tropic_Scout",
             "TACU_BAF_U_B_Tropic_Demolitions",
@@ -68,6 +70,8 @@ class CfgPatches {
             "TACU_BAF_V_B_Tropic_Polaris_Armed",
             "TACU_BAF_V_B_Tropic_Polaris_AT",
             "TACU_BAF_V_B_Tropic_AW101",
+            "TACU_BAF_V_B_Tropic_FV510_Warrior",
+            "TACU_BAF_V_B_Tropic_FV510_Warrior_SLAT",
             // Urban Units
             "TACU_BAF_U_B_Urban_Scout",
             "TACU_BAF_U_B_Urban_Demolitions",

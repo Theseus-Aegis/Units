@@ -7,33 +7,43 @@ class TACU_FV510_Warrior_Base: I_APC_tracked_03_cannon_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
-        class Indep_02 {
-            displayName = "AAF (Jungle Camo Net)";
-            author = "Bohemia Interactive";
+        class Arid {
+            displayName = "Arid";
+            author = "GilleeDoo";
             textures[] = {
-                "A3\armor_f_epb\apc_tracked_03\data\apc_tracked_03_ext_indp_co.paa",
-                "A3\armor_f_epb\apc_tracked_03\data\apc_tracked_03_ext2_indp_co.paa",
-                "A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-                "A3\armor_f\data\cage_G1_co.paa"
+                QPATHTOF(data\warrior\apc_tracked_03_ext_baf_arid_co.paa),
+                QPATHTOF(data\warrior\apc_tracked_03_ext2_baf_arid_co.paa),
+                "a3\armor_f\data\camonet_aaf_digi_desert_co.paa",
+                QPATHTOF(data\warrior\cage_g1_baf_arid_co.paa)
             };
             factions[] = {};
         };
-        class Indep_03 {
-            displayName = "AAF (Desert Camo Net)";
-            author = "Bohemia Interactive";
+        class Tropic {
+            displayName = "Tropic";
+            author = "GilleeDoo";
             textures[] = {
-                "A3\armor_f_epb\apc_tracked_03\data\apc_tracked_03_ext_indp_co.paa",
-                "A3\armor_f_epb\apc_tracked_03\data\apc_tracked_03_ext2_indp_co.paa",
-                "A3\Armor_F\Data\camonet_AAF_Digi_Desert_CO.paa",
-                "A3\armor_f\data\cage_G3_co.paa"
+                QPATHTOF(data\warrior\apc_tracked_03_ext_baf_tropic_co.paa),
+                QPATHTOF(data\warrior\apc_tracked_03_ext2_baf_tropic_co.paa),
+                "a3\armor_f\data\camonet_aaf_digi_jungle_co.paa",
+                QPATHTOF(data\warrior\cage_g1_baf_tropic_co.paa)
             };
             factions[] = {};
         };
     };
 
     textureList[] = {
-        "Indep_02", 1,
-        "Indep_03", 1
+        "Arid", 1,
+        "Tropic", 1
+    };
+
+    animationList[] = {
+        "showBags", 0,
+        "showBags2", 1,
+        "showCamonetHull", 0,
+        "showCamonetTurret", 0,
+        "showTools", 0,
+        "showSLATHull", 0,
+        "showSLATTurret", 0
     };
 
     MACRO_EVENTHANDLERS;
