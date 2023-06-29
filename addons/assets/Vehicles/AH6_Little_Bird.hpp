@@ -19,10 +19,16 @@ class TACU_AH6_LittleBird_Base: B_Heli_Light_01_dynamicLoadout_F {
             textures[] = {"A3\Air_F\Heli_Light_01\Data\Heli_Light_01_ext_Blufor_CO.paa", "a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"};
             factions[] = {};
         };
+        class Desert {
+            author = "Rotators Collective";
+            displayName = "Desert";
+            textures[] = {"\lxWS\air_f_lxWS\Data\NATO\lxWS_Heli_Light_01_ext_sand_CO.paa", "a3\air_f\heli_light_01\data\heli_light_01_dot_ca.paa"};
+            factions[] = {};
+        };
     };
     textureList[] = {
-        "Vanguard", 0,
-        "Blufor", 1
+        "Blufor", 1,
+        "Desert", 1
     };
 
     MACRO_EVENTHANDLERS;
