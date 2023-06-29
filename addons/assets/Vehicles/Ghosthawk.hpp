@@ -13,6 +13,12 @@ class TACU_GhostHawk_Base: B_Heli_Transport_01_F {
             textures[] = {"\a3\air_f_beta\heli_transport_01\data\heli_transport_01_ext01_co.paa", "\a3\air_f_beta\heli_transport_01\data\heli_transport_01_ext02_co.paa"};
             factions[] = {};
         };
+        class Desert {
+            displayName = "Desert";
+            author = "Rotators Collective";
+            textures[] = {"\lxws\air_f_lxws\data\nato\lxws_heli_transport_01_ext01_sand_co.paa", "\lxws\air_f_lxws\data\nato\lxws_heli_transport_01_ext02_sand_co.paa"};
+            factions[] = {};
+        };
         class Vanguard {
             displayName = "Vanguard PMC";
             author = "GilleeDoo, Mike";
@@ -22,7 +28,7 @@ class TACU_GhostHawk_Base: B_Heli_Transport_01_F {
     };
     textureList[] = {
         "Black", 1,
-        "Vanguard", 1
+        "Desert", 1
     };
 
     MACRO_EVENTHANDLERS;
