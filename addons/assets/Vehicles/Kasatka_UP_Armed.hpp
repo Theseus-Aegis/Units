@@ -38,20 +38,28 @@ class TACU_Kasatka_Armed_Armoured_Base: B_ION_Heli_Light_02_dynamicLoadout_lxWS 
                 "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
         };
-        class Green {
+        class North_African_Green {
             author = "GilleeDoo";
             displayName = "Green";
-            factions[] = {};
+            factions[] = {
+                "TACU_African_North_B",
+                "TACU_African_North_O",
+                "TACU_African_North_I"
+            };
             textures[] = {
                 QPATHTOF(data\kasatka\heli_light_02_na_grn_ext_co.paa),
                 "\a3\air_f\data\rockets_co.paa",
                 "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
         };
-        class Yellow {
+        class North_African_Yellow {
             author = "GilleeDoo";
             displayName = "Yellow";
-            factions[] = {};
+            factions[] = {
+                "TACU_African_North_B",
+                "TACU_African_North_O",
+                "TACU_African_North_I"
+            };
             textures[] = {
                 QPATHTOF(data\kasatka\heli_light_02_na_ylw_ext_co.paa),
                 "\a3\air_f\data\rockets_co.paa",

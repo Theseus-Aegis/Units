@@ -21,6 +21,67 @@ class TACU_African_North_V_B_Otokar_Armed: O_SFIA_APC_Wheeled_02_hmg_lxWS {
     typicalCargo[] = {"TACU_African_North_U_B_Crewman"};
 };
 
+// Helicopters
+class TACU_African_North_V_B_Kasatka_Unarmed: TACU_Kasatka_Unarmed_Base {
+    displayName = "Ka-60 Kasatka (Yellow)";
+    faction = "TACU_African_North_B";
+    side = 1;
+    scope = 2;
+    scopeCurator = 2;
+    crew = "TACU_African_North_U_B_Pilot";
+    typicalCargo[] = {"TACU_African_North_U_B_Pilot"};
+    textureList[] = {"North_African_Yellow", 1};
+};
+class TACU_African_North_V_B_Kasatka_Unarmed_Green: TACU_African_North_V_B_Kasatka_Unarmed {
+    displayName = "Ka-60 Kasatka (Green)";
+    textureList[] = {"North_African_Green", 1};
+};
+
+class TACU_African_North_V_B_Kasatka_Armed: TACU_Kasatka_Armed_Base {
+    displayName = "Ka-60 Kasatka Armed (Yellow)";
+    faction = "TACU_African_North_B";
+    side = 1;
+    scope = 2;
+    scopeCurator = 2;
+    crew = "TACU_African_North_U_B_Pilot";
+    typicalCargo[] = {"TACU_African_North_U_B_Pilot"};
+    textureList[] = {"North_African_Yellow", 1};
+};
+class TACU_African_North_V_B_Kasatka_Armed_Green: TACU_African_North_V_B_Kasatka_Armed {
+    displayName = "Ka-60 Kasatka Armed (Green)";
+    textureList[] = {"North_African_Green", 1};
+};
+
+class TACU_African_North_V_B_Kasatka_Unarmed_UP: TACU_Kasatka_Unarmed_Armoured_Base {
+    displayName = "Ka-60 Kasatka (UP, Yellow)";
+    faction = "TACU_African_North_B";
+    side = 1;
+    scope = 2;
+    scopeCurator = 2;
+    crew = "TACU_African_North_U_B_Pilot";
+    typicalCargo[] = {"TACU_African_North_U_B_Pilot"};
+    textureList[] = {"North_African_Yellow", 1};
+};
+class TACU_African_North_V_B_Kasatka_Unarmed_UP_Green: TACU_African_North_V_B_Kasatka_Unarmed_UP {
+    displayName = "Ka-60 Kasatka Armed (UP, Green)";
+    textureList[] = {"North_African_Green", 1};
+};
+
+class TACU_African_North_V_B_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base {
+    displayName = "Ka-60 Kasatka Armed (UP, Yellow)";
+    faction = "TACU_African_North_B";
+    side = 1;
+    scope = 2;
+    scopeCurator = 2;
+    crew = "TACU_African_North_U_B_Pilot";
+    typicalCargo[] = {"TACU_African_North_U_B_Pilot"};
+    textureList[] = {"North_African_Yellow", 1};
+};
+class TACU_African_North_V_B_Kasatka_Armed_UP_Green: TACU_African_North_V_B_Kasatka_Armed_UP {
+    displayName = "Ka-60 Kasatka Armed (UP, Green)";
+    textureList[] = {"North_African_Green", 1};
+};
+
 // Zamaks
 class TACU_African_North_V_B_Zamak_AA : O_SFIA_Truck_02_aa_lxWS {
     MACRO_CLEAR_VEHICLE_CARGO;
