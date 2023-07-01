@@ -17,7 +17,7 @@ class TACU_African_North_V_I_Otokar_Armed: TACU_African_North_V_B_Otokar_Armed {
 class TACU_African_North_V_I_Kasatka_Unarmed: TACU_Kasatka_Unarmed_Base {
     displayName = "Ka-60 Kasatka (Yellow)";
     faction = "TACU_African_North_I";
-    side = 1;
+    side = 2;
     scope = 2;
     scopeCurator = 2;
     crew = "TACU_African_North_U_I_Pilot";
@@ -32,7 +32,7 @@ class TACU_African_North_V_I_Kasatka_Unarmed_Green: TACU_African_North_V_I_Kasat
 class TACU_African_North_V_I_Kasatka_Armed: TACU_Kasatka_Armed_Base {
     displayName = "Ka-60 Kasatka Armed (Yellow)";
     faction = "TACU_African_North_I";
-    side = 1;
+    side = 2;
     scope = 2;
     scopeCurator = 2;
     crew = "TACU_African_North_U_I_Pilot";
@@ -47,7 +47,7 @@ class TACU_African_North_V_I_Kasatka_Armed_Green: TACU_African_North_V_I_Kasatka
 class TACU_African_North_V_I_Kasatka_Unarmed_UP: TACU_Kasatka_Unarmed_Armoured_Base {
     displayName = "Ka-60 Kasatka (UP, Yellow)";
     faction = "TACU_African_North_I";
-    side = 1;
+    side = 2;
     scope = 2;
     scopeCurator = 2;
     crew = "TACU_African_North_U_I_Pilot";
@@ -62,7 +62,7 @@ class TACU_African_North_V_I_Kasatka_Unarmed_UP_Green: TACU_African_North_V_I_Ka
 class TACU_African_North_V_I_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base {
     displayName = "Ka-60 Kasatka Armed (UP, Yellow)";
     faction = "TACU_African_North_I";
-    side = 1;
+    side = 2;
     scope = 2;
     scopeCurator = 2;
     crew = "TACU_African_North_U_I_Pilot";
