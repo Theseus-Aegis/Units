@@ -1,4 +1,20 @@
 // APCs
+class TACU_African_North_V_I_Namer_Sand: TACU_Namer_Base {
+    displayName = "Namer (Yellow)";
+    faction = "TACU_African_North_I";
+    side = 2;
+    scope = 2;
+    scopeCurator = 2;
+    crew = "TACU_African_North_U_I_Crewman";
+    typicalCargo[] = {"TACU_African_North_U_I_Crewman"};
+    textureList[] = {"North_African_Yellow", 1};
+};
+
+class TACU_African_North_V_I_Namer_Green: TACU_African_North_V_I_Namer_Sand {
+    displayName = "Namer (Green)";
+    textureList[] = {"Olive", 1};
+};
+
 class TACU_African_North_V_I_Otokar_Unarmed: TACU_African_North_V_B_Otokar_Unarmed {
     faction = "TACU_African_North_I";
     side = 2;

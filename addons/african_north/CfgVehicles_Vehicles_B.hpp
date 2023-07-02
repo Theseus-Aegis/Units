@@ -1,4 +1,20 @@
 // APCs
+class TACU_African_North_V_B_Namer_Sand: TACU_Namer_Base {
+    displayName = "Namer (Yellow)";
+    faction = "TACU_African_North_B";
+    side = 1;
+    scope = 2;
+    scopeCurator = 2;
+    crew = "TACU_African_North_U_B_Crewman";
+    typicalCargo[] = {"TACU_African_North_U_B_Crewman"};
+    textureList[] = {"North_African_Yellow", 1};
+};
+
+class TACU_African_North_V_B_Namer_Green: TACU_African_North_V_B_Namer_Sand {
+    displayName = "Namer (Green)";
+    textureList[] = {"Olive", 1};
+};
+
 class TACU_African_North_V_B_Otokar_Unarmed: O_SFIA_APC_Wheeled_02_unarmed_lxWS {
     displayName = "Otokar ARMA (Unarmed)";
     MACRO_CLEAR_VEHICLE_CARGO;

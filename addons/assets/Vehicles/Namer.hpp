@@ -29,6 +29,21 @@ class TACU_Namer_Base: B_APC_Tracked_01_rcws_F {
             };
             factions[] = {};
         };
+        class North_African_Yellow {
+            displayName = "Yellow";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\namer\nemmera_01_body_na_ylw_co.paa),
+                QPATHTOF(data\namer\nemmera_02_body_na_ylw_co.paa),
+                "a3\data_f\vehicles\turret_co.paa",
+                "a3\armor_f\data\camonet_nato_desert_co.paa"
+            };
+            factions[] = {
+                "TACU_African_North_B",
+                "TACU_African_North_O",
+                "TACU_African_North_I"
+            };
+        };
     };
 
     textureList[] = {
