@@ -7,6 +7,8 @@
 
 #ifdef DEBUG_MODE_FULL
     #define MACRO_DEFAULT_VEHICLE \
+        scope = 2; \
+        scopeCurator = 2; \
         forceInGarage = 1; \
         side = 1; \
         faction = "TACU_Assets_Testing"; \
