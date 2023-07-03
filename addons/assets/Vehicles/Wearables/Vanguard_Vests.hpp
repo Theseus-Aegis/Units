@@ -1,6 +1,6 @@
 class TACU_Vanguard_Item_Vest_PlateCarrier_Earth: Vest_Base_F {
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     vehicleClass = "ItemsVests";
     author = "Mike";
     displayName = "Vanguard Plate Carrier (Earth)";
