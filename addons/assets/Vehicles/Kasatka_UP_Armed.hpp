@@ -51,7 +51,6 @@ class TACU_Kasatka_Armed_Armoured_Base: B_ION_Heli_Light_02_dynamicLoadout_lxWS 
                 "\a3\air_f\data\rockets_co.paa",
                 "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
-            };
         };
         class North_African_Yellow {
             author = "GilleeDoo";
@@ -65,7 +64,6 @@ class TACU_Kasatka_Armed_Armoured_Base: B_ION_Heli_Light_02_dynamicLoadout_lxWS 
                 QPATHTOF(data\kasatka\heli_light_02_na_ylw_ext_co.paa),
                 "\a3\air_f\data\rockets_co.paa",
                 "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
-            };
             };
         };
     };
