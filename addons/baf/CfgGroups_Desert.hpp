@@ -32,7 +32,7 @@ class TACU_BAF_G_Desert {
             position[] = {5, -5, 0};
         };
         class unit2: unit1 {
-            vehicle = "TACU_BAF_U_B_Desert_Grenadier";
+            vehicle = "TACU_BAF_U_B_Desert_Scout";
             position[] = {-5, -5, 0};
         };
         class unit3: unit1 {
@@ -54,7 +54,7 @@ class TACU_BAF_G_Desert {
             position[] = {5, -5, 0};
         };
         class unit2: unit1 {
-            vehicle = "TACU_BAF_U_B_Desert_Grenadier";
+            vehicle = "TACU_BAF_U_B_Desert_Scout";
             position[] = {-5, -5, 0};
         };
         class unit3: unit1 {
