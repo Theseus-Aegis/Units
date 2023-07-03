@@ -58,6 +58,16 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
             };
             factions[] = {};
         };
+        class Brown {
+            displayName = "Brown";
+            author = "Rotators Collective";
+            textures[] = {
+                "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
+                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_olive_co.paa",
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
+            };
+            factions[] = {};
+        };
     };
 
     textureList[] = {
@@ -65,7 +75,8 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
         "Orange", 1,
         "Blue", 1,
         "GreenHex", 1,
-        "Black", 1
+        "Black", 1,
+        "Brown", 1
     };
 
     MACRO_EVENTHANDLERS;

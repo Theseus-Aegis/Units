@@ -3,7 +3,7 @@
 #include "\x\tacu\addons\main\script_mod.hpp"
 #include "\x\tacu\addons\main\script_macros.hpp"
 
-//#define DEBUG_MODE_FULL
+#define DEBUG_MODE_FULL
 
 #ifdef DEBUG_MODE_FULL
     #define MACRO_DEFAULT_VEHICLE \
