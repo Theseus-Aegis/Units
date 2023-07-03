@@ -36,16 +36,14 @@ class TACU_Somali_Pirates_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         "lxWS_H_turban_03_gray", 0.1
     };
     CBA_facewearList[] = {
-        "G_Balaclava_blk", 0.1,
-        "G_Balaclava_oli", 0.1,
-        "G_Bandanna_blk", 0.1,
-        "G_Bandanna_khk", 0.1,
-        "G_Bandanna_tan", 0.1,
-        "G_Shades_Black", 0.1,
-        "G_Shades_Blue", 0.1,
-        "G_Shades_Green", 0.1,
-        "G_Shades_Red", 0.1,
-        "G_Sport_Red", 0.1
+        "G_Bandanna_blk", 0.12,
+        "G_Bandanna_khk", 0.12,
+        "G_Bandanna_tan", 0.12,
+        "G_Shades_Black", 0.12,
+        "G_Shades_Blue", 0.12,
+        "G_Shades_Green", 0.12,
+        "G_Shades_Red", 0.12,
+        "G_Sport_Red", 0.12
     };
     EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_01);
 };
