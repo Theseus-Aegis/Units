@@ -54,7 +54,7 @@ class TACU_African_North_V_B_Kasatka_Unarmed_Green: TACU_African_North_V_B_Kasat
 };
 
 class TACU_African_North_V_B_Kasatka_Armed: TACU_Kasatka_Armed_Base {
-    displayName = "Ka-60 Kasatka Armed (Yellow)";
+    displayName = "Ka-60-A Kasatka (Yellow)";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -64,7 +64,7 @@ class TACU_African_North_V_B_Kasatka_Armed: TACU_Kasatka_Armed_Base {
     textureList[] = {"North_African_Yellow", 1};
 };
 class TACU_African_North_V_B_Kasatka_Armed_Green: TACU_African_North_V_B_Kasatka_Armed {
-    displayName = "Ka-60 Kasatka Armed (Green)";
+    displayName = "Ka-60-A Kasatka (Green)";
     textureList[] = {"North_African_Green", 1};
 };
 
@@ -79,12 +79,12 @@ class TACU_African_North_V_B_Kasatka_Unarmed_UP: TACU_Kasatka_Unarmed_Armoured_B
     textureList[] = {"North_African_Yellow", 1};
 };
 class TACU_African_North_V_B_Kasatka_Unarmed_UP_Green: TACU_African_North_V_B_Kasatka_Unarmed_UP {
-    displayName = "Ka-60 Kasatka Armed (UP, Green)";
+    displayName = "Ka-60 Kasatka (UP, Green)";
     textureList[] = {"North_African_Green", 1};
 };
 
 class TACU_African_North_V_B_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base {
-    displayName = "Ka-60 Kasatka Armed (UP, Yellow)";
+    displayName = "Ka-60-A Kasatka (UP, Yellow)";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -94,7 +94,7 @@ class TACU_African_North_V_B_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base 
     textureList[] = {"North_African_Yellow", 1};
 };
 class TACU_African_North_V_B_Kasatka_Armed_UP_Green: TACU_African_North_V_B_Kasatka_Armed_UP {
-    displayName = "Ka-60 Kasatka Armed (UP, Green)";
+    displayName = "Ka-60-A Kasatka (UP, Green)";
     textureList[] = {"North_African_Green", 1};
 };
 
@@ -151,6 +151,7 @@ class TACU_African_North_V_B_Zamak_Transport_Covered: O_SFIA_Truck_02_covered_lx
 
 class TACU_African_North_V_B_Zamak_Ammo: O_SFIA_Truck_02_Ammo_lxWS {
     MACRO_CLEAR_VEHICLE_CARGO;
+    displayName = "KamAZ Ammo";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -161,6 +162,7 @@ class TACU_African_North_V_B_Zamak_Ammo: O_SFIA_Truck_02_Ammo_lxWS {
 
 class TACU_African_North_V_B_Zamak_Cargo: O_SFIA_Truck_02_cargo_lxWS {
     MACRO_CLEAR_VEHICLE_CARGO;
+    displayName = "KamAZ Cargo";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -171,6 +173,7 @@ class TACU_African_North_V_B_Zamak_Cargo: O_SFIA_Truck_02_cargo_lxWS {
 
 class TACU_African_North_V_B_Zamak_Flatbed: O_SFIA_Truck_02_flatbed_lxWS {
     MACRO_CLEAR_VEHICLE_CARGO;
+    displayName = "KamAZ Flatbed";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -181,6 +184,7 @@ class TACU_African_North_V_B_Zamak_Flatbed: O_SFIA_Truck_02_flatbed_lxWS {
 
 class TACU_African_North_V_B_Zamak_Repair: O_SFIA_Truck_02_box_lxWS {
     MACRO_CLEAR_VEHICLE_CARGO;
+    displayName = "KamAZ Repair";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
