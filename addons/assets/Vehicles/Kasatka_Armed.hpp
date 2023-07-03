@@ -6,6 +6,10 @@ class O_Heli_Light_02_dynamicLoadout_F: Heli_Light_02_dynamicLoadout_base_F {
 class TACU_Kasatka_Armed_Base: O_Heli_Light_02_dynamicLoadout_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
+
+    // This property has to be set otherwise textureSources fail.
+    hiddenSelectionsTextures[] = {"\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"};
+
     class TextureSources {
         class Black {
             author = "Bohemia Interactive";

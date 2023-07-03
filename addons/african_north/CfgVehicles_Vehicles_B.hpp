@@ -39,7 +39,7 @@ class TACU_African_North_V_B_Otokar_Armed: O_SFIA_APC_Wheeled_02_hmg_lxWS {
 
 // Helicopters
 class TACU_African_North_V_B_Kasatka_Unarmed: TACU_Kasatka_Unarmed_Base {
-    displayName = "Ka-60 Kasatka (Yellow)";
+    displayName = "Ka-60 Kasatka Unarmed (Yellow)";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -49,12 +49,12 @@ class TACU_African_North_V_B_Kasatka_Unarmed: TACU_Kasatka_Unarmed_Base {
     textureList[] = {"North_African_Yellow", 1};
 };
 class TACU_African_North_V_B_Kasatka_Unarmed_Green: TACU_African_North_V_B_Kasatka_Unarmed {
-    displayName = "Ka-60 Kasatka (Green)";
+    displayName = "Ka-60 Kasatka Unarmed (Green)";
     textureList[] = {"North_African_Green", 1};
 };
 
 class TACU_African_North_V_B_Kasatka_Armed: TACU_Kasatka_Armed_Base {
-    displayName = "Ka-60-A Kasatka (Yellow)";
+    displayName = "Ka-60 Kasatka (Yellow)";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -64,12 +64,12 @@ class TACU_African_North_V_B_Kasatka_Armed: TACU_Kasatka_Armed_Base {
     textureList[] = {"North_African_Yellow", 1};
 };
 class TACU_African_North_V_B_Kasatka_Armed_Green: TACU_African_North_V_B_Kasatka_Armed {
-    displayName = "Ka-60-A Kasatka (Green)";
+    displayName = "Ka-60 Kasatka (Green)";
     textureList[] = {"North_African_Green", 1};
 };
 
 class TACU_African_North_V_B_Kasatka_Unarmed_UP: TACU_Kasatka_Unarmed_Armoured_Base {
-    displayName = "Ka-60 Kasatka (UP, Yellow)";
+    displayName = "Ka-60 Kasatka Unarmed (UP, Yellow)";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -79,12 +79,12 @@ class TACU_African_North_V_B_Kasatka_Unarmed_UP: TACU_Kasatka_Unarmed_Armoured_B
     textureList[] = {"North_African_Yellow", 1};
 };
 class TACU_African_North_V_B_Kasatka_Unarmed_UP_Green: TACU_African_North_V_B_Kasatka_Unarmed_UP {
-    displayName = "Ka-60 Kasatka (UP, Green)";
+    displayName = "Ka-60 Kasatka Unarmed (UP, Green)";
     textureList[] = {"North_African_Green", 1};
 };
 
 class TACU_African_North_V_B_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base {
-    displayName = "Ka-60-A Kasatka (UP, Yellow)";
+    displayName = "Ka-60 Kasatka (UP, Yellow)";
     faction = "TACU_African_North_B";
     side = 1;
     scope = 2;
@@ -94,7 +94,7 @@ class TACU_African_North_V_B_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base 
     textureList[] = {"North_African_Yellow", 1};
 };
 class TACU_African_North_V_B_Kasatka_Armed_UP_Green: TACU_African_North_V_B_Kasatka_Armed_UP {
-    displayName = "Ka-60-A Kasatka (UP, Green)";
+    displayName = "Ka-60 Kasatka (UP, Green)";
     textureList[] = {"North_African_Green", 1};
 };
 
