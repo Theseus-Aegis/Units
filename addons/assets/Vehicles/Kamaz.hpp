@@ -11,8 +11,8 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
             displayName = "OPFOR";
             author = "Bohemia Interactive";
             textures[] = {
-                "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                "\A3\soft_f_beta\Truck_02\Data\Truck_02_kuz_OPFOR_co.paa",
+                "\a3\soft_f_beta\truck_02\Data\truck_02_kab_opfor_co.paa",
+                "\a3\soft_f_beta\truck_02\Data\truck_02_kuz_opfor_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
             factions[] = {};
@@ -21,8 +21,8 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
             displayName = "Orange";
             author = "Bohemia Interactive";
             textures[] = {
-                "\a3\soft_f_beta\Truck_02\data\truck_02_kab_co.paa",
-                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa",
+                "\a3\soft_f_beta\truck_02\data\truck_02_kab_co.paa",
+                "\a3\soft_f_beta\truck_02\data\truck_02_kuz_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
             factions[] = {};
@@ -31,8 +31,8 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
             displayName = "Blue";
             author = "Bohemia Interactive";
             textures[] = {
-                "\a3\soft_f_beta\Truck_02\data\truck_02_kab_blue_CO.paa",
-                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa",
+                "\a3\soft_f_beta\truck_02\data\truck_02_kab_blue_co.paa",
+                "\a3\soft_f_beta\truck_02\data\truck_02_kuz_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
             factions[] = {};
@@ -41,10 +41,10 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
             displayName = "Green Hex";
             author = "Bohemia Interactive";
             textures[] = {
-                "\A3\soft_f_exp\Truck_02\Data\Truck_02_kab_GHEX_co.paa",
-                "\A3\soft_f_exp\Truck_02\Data\Truck_02_kuz_GHEX_co.paa",
-                "\A3\soft_f_beta\Truck_02\Data\Truck_02_int_co.paa",
-                "\A3\Soft_F_Beta\Truck_02\data\truck_02_chassis_OPFOR_CO.paa"
+                "\a3\soft_f_exp\truck_02\Data\truck_02_kab_GHEX_co.paa",
+                "\a3\soft_f_exp\truck_02\Data\truck_02_kuz_GHEX_co.paa",
+                "\a3\soft_f_beta\truck_02\Data\truck_02_int_co.paa",
+                "\a3\Soft_F_Beta\truck_02\data\truck_02_chassis_opfor_co.paa"
             };
             factions[] = {};
         };
@@ -52,8 +52,18 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
             displayName = "Black";
             author = "Rotators Collective";
             textures[] = {
-                "\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_black_CO.paa",
-                "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_olive_co.paa",
+                "\lxws\vehicles_f_lxws\data\truck_02\truck_02_kab_black_co.paa",
+                "\a3\soft_f_beta\truck_02\data\truck_02_kuz_olive_co.paa",
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
+            };
+            factions[] = {};
+        };
+        class Brown {
+            displayName = "Brown";
+            author = "Rotators Collective";
+            textures[] = {
+                "lxws\vehicles_f_lxws\data\truck_02\truck_02_kab_brown_co.paa",
+                "lxws\vehicles_f_lxws\data\truck_02\truck_02_kuz_africa_brown_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
             factions[] = {};
@@ -65,7 +75,8 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
         "Orange", 1,
         "Blue", 1,
         "GreenHex", 1,
-        "Black", 1
+        "Black", 1,
+        "Brown", 1
     };
 
     MACRO_EVENTHANDLERS;

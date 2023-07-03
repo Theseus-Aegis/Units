@@ -174,11 +174,10 @@ class TACU_Offroad_Unarmed_Base: B_G_Offroad_01_F {
     };
 
     animationList[] = {
-        "HideDoor1", 1,
-        "HideDoor2", 1,
-        "HideDoor3", 1,
+        "HideBackpacks", 1,
         "HideBumper1", 1,
-        "HideBumper2", 1
+        "hidePolice", 1,
+        "HideServices", 1
     };
 
     MACRO_EVENTHANDLERS;
