@@ -79,6 +79,7 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_aco);
+            EQUIP_POINTER(acc_pointer_ir);
         };
     };
 
@@ -88,6 +89,7 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_aco);
+            EQUIP_POINTER(ace_acc_pointer_green);
         };
     };
 
@@ -97,6 +99,7 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_aco);
+            EQUIP_POINTER(acc_pointer_ir);
         };
     };
 
@@ -115,6 +118,7 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_mrco);
+            EQUIP_POINTER(acc_pointer_ir);
         };
     };
 
@@ -124,6 +128,7 @@ class CfgWeapons {
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_aco);
+            EQUIP_POINTER(ace_acc_pointer_green);
         };
     };
 

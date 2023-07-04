@@ -14,8 +14,8 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "TACU_Vanguard_V_PlateCarrier_Foliage"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB", "TACU_Vanguard_V_PlateCarrier_Foliage"};
-    Items[] = {mag_5("ACE_fieldDressing")};
-    respawnItems[] = {mag_5("ACE_fieldDressing")};
+    items[] = {"ACE_NVG_Gen4_Green"};
+    respawnItems[] = {"ACE_NVG_Gen4_Green"};
     weapons[] = {"arifle_Mk20_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_Mk20_ACO_F", "hgun_Pistol_heavy_01_green_F", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};

@@ -13,8 +13,8 @@ class TACU_Vanguard_U_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_Bas
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "TACU_Vanguard_V_PlateCarrier_Earth"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "H_HelmetSpecB_sand", "TACU_Vanguard_V_PlateCarrier_Earth"};
-    Items[] = {mag_5("ACE_fieldDressing")};
-    respawnItems[] = {mag_5("ACE_fieldDressing")};
+    items[] = {"ACE_NVG_Gen4"};
+    respawnItems[] = {"ACE_NVG_Gen4"};
     weapons[] = {"TACU_Vanguard_W_F2000_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_F2000_Sand", "hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_11Rnd_45ACP_FNX"), mag_2("HandGrenade"), "SmokeShell"};

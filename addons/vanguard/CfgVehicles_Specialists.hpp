@@ -11,10 +11,10 @@ class TACU_Vanguard_U_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Garment_LS_BS_BP_BB";
     backpack = "";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "V_PlateCarrier2_blk", "G_Balaclava_blk", "NVGogglesB_blk_F"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "V_PlateCarrier2_blk", "G_Balaclava_blk", "NVGogglesB_blk_F"};
-    Items[] = {mag_5("ACE_fieldDressing")};
-    respawnItems[] = {mag_5("ACE_fieldDressing")};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "V_PlateCarrier2_blk", "G_Balaclava_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_DarkBlack", "V_PlateCarrier2_blk", "G_Balaclava_blk"};
+    items[] = {"NVGogglesB_blk_F"};
+    respawnItems[] = {"NVGogglesB_blk_F"};
     weapons[] = {"TACU_Vanguard_W_MX_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Vanguard_W_MX_Black", "TACU_Vanguard_W_Rook40", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_65x39_MX_Black"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), "SmokeShell"};
