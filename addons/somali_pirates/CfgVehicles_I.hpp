@@ -4,7 +4,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     faction = "TACU_Somali_I";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"LanguageFRE_F", "Head_African", "lxWS_Head_African"};
+    identityTypes[] = {"LanguageFRE_F", "Head_African", "Head_Tanoan"};
     genericNames = "TACU_SomaliNames";
     icon = "iconMan";
     role = "Rifleman";

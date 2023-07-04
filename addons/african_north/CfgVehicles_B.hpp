@@ -5,7 +5,7 @@ class TACU_African_North_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     faction = "TACU_African_North_B";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"LanguageFRE_F", "Head_African", "lxWS_Head_African"};
+    identityTypes[] = {"LanguageFRE_F", "Head_African", "Head_Tanoan"};
     genericNames = "TACU_AfricanNames";
     icon = "iconMan";
     role = "Rifleman";
