@@ -35,7 +35,7 @@ class TACU_Namer_Base: B_APC_Tracked_01_rcws_F {
             textures[] = {
                 QPATHTOF(data\namer\nemmera_01_body_na_ylw_co.paa),
                 QPATHTOF(data\namer\nemmera_02_body_na_ylw_co.paa),
-                "a3\data_f\vehicles\turret_co.paa",
+                QPATHTOF(data\turrets\turret_gry_co.paa),
                 "a3\armor_f\data\camonet_nato_desert_co.paa"
             };
             factions[] = {
