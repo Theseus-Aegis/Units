@@ -11,8 +11,10 @@ class TACU_Cartel2_U_O_Enforcer_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "U_O_R_Gorka_01_black_F";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrier1_blk", "H_PASGT_basic_black_F", "NVGogglesB_blk_F"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrier1_blk", "H_PASGT_basic_black_F", "NVGogglesB_blk_F"};
+    items[] = {"NVGogglesB_blk_F"};
+    respawnItems[] = {"NVGogglesB_blk_F"};
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrier1_blk", "H_PASGT_basic_black_F"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_PlateCarrier1_blk", "H_PASGT_basic_black_F"};
     weapons[] = {"TACU_Cartel_W_G36A_RIS", "TACU_Cartel_W_M9_Laser", "Throw", "Put"};
     respawnWeapons[] = {"TACU_Cartel_W_G36A_RIS", "TACU_Cartel_W_M9_Laser", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_556x45_G36"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade")};
