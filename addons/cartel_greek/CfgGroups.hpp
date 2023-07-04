@@ -1,6 +1,6 @@
 class CfgGroups {
     class EAST {
-        class TACU_Cartel_O {
+        class TACU_Cartel_Greek_O {
             name = "Cartel";
             #include "CfgGroups_Grunts.hpp"
             #include "CfgGroups_Thugs.hpp"
