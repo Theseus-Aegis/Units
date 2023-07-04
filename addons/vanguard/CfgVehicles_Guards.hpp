@@ -13,8 +13,8 @@ class TACU_Vanguard_U_Guard_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Aviator", "V_BandollierB_blk"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "G_Aviator", "V_BandollierB_blk"};
-    Items[] = {mag_5("ACE_fieldDressing")};
-    respawnItems[] = {mag_5("ACE_fieldDressing")};
+    items[] = {"ACE_NVG_Gen4_Black"};
+    respawnItems[] = {"ACE_NVG_Gen4_Black"};
     weapons[] = {"SMG_03C_black", "CUP_hgun_M9", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_black", "CUP_hgun_M9", "Throw", "Put"};
     magazines[] = {mag_3("tacgt_AI_50Rnd_57x28"), mag_2("tacgt_AI_15Rnd_9x19_M9"), mag_2("HandGrenade"), "SmokeShell"};

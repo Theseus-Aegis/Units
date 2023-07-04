@@ -13,8 +13,8 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     backpack = "";
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "TACU_Vanguard_V_PlateCarrier_Snow"};
     respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "tacs_Helmet_Enc_Ballistic_White", "TACU_Vanguard_V_PlateCarrier_Snow"};
-    Items[] = {mag_5("ACE_fieldDressing")};
-    respawnItems[] = {mag_5("ACE_fieldDressing")};
+    items[] = {"ACE_NVG_Gen4_Black"};
+    respawnItems[] = {"ACE_NVG_Gen4_Black"};
     weapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
     respawnWeapons[] = {"arifle_SPAR_01_blk_ACO_Pointer_F", "CUP_hgun_Phantom", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("CUP_18Rnd_9x19_Phantom"), mag_2("HandGrenade"), "SmokeShell"};
