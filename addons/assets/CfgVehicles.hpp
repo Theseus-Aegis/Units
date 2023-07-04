@@ -57,6 +57,7 @@ class CfgVehicles {
     #include "Vehicles\Polaris_Armed_AT.hpp"
     #include "Vehicles\Polaris_Unarmed.hpp"
     #include "Vehicles\RAH66_Comanche.hpp"
+    #include "Vehicles\Speedboat_Minigun.hpp"
     #include "Vehicles\Truck.hpp"
     #include "Vehicles\Typhoon.hpp"
     #include "Vehicles\Typhoon_Covered.hpp"
