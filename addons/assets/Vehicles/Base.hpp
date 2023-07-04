@@ -55,8 +55,6 @@ class MRAP_02_hmg_base_F;
 class MRAP_03_base_F;
 class MRAP_03_gmg_base_F;
 class MRAP_03_hmg_base_F;
-class O_Heli_Light_02_dynamicLoadout_F;
-class O_Heli_Light_02_unarmed_F;
 class Offroad_01_military_covered_base_F;
 class Offroad_02_AT_base_F;
 class Offroad_02_LMG_base_F;
