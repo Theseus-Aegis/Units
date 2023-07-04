@@ -53,6 +53,21 @@ class TACU_Taliban_Militia_V_O_Kamaz_Covered_Transport: TACU_Taliban_Militia_V_I
     typicalCargo[] = {"TACU_Taliban_Militia_U_O_Driver"};
 };
 
+class TACU_Taliban_Militia_V_I_Truck: TACU_Truck_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Taliban_Militia_I";
+    side = 2;
+    crew = "TACU_Taliban_Militia_U_I_Driver";
+    typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    textureList[] = {"Guerilla_03", 1};
+};
+class TACU_Taliban_Militia_V_O_Truck: TACU_Taliban_Militia_V_I_Truck {
+    faction = "TACU_Taliban_Militia_O";
+    side = 0;
+    crew = "TACU_Taliban_Militia_U_O_Driver";
+    typicalCargo[] = {"TACU_Taliban_Militia_U_O_Driver"};
+};
+
 // Offroads
 class TACU_Taliban_Militia_V_I_Offroad_Unarmed: TACU_Offroad_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
