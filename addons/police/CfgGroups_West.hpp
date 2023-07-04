@@ -8,41 +8,16 @@ class TACU_Police_B {
             side = 1;
             faction = "TACU_Police_B";
             icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
-            class unit0 {
-                vehicle = "TACU_Police_U_B_CT_Rifleman";
-                side = 1;
-                rank = "SERGEANT";
-                position[] = {0, 0, 0};
-            };
-            class unit1: unit0 {
-                vehicle = "TACU_Police_U_B_CT_Rifleman";
-                side = 1;
-                rank = "PRIVATE";
-                position[] = {5, -5, 0};
-            };
+            MACRO_UNIT0(TACU_Police_U_B_CT_Rifleman,1);
+            MACRO_UNIT1(TACU_Police_U_B_CT_Rifleman,1);
         };
 
         class TACU_Police_G_B_CT_Fireteam: TACU_Police_G_B_CT_Guards {
             name = "Fireteam";
-            class unit0 {
-                vehicle = "TACU_Police_U_B_CT_Rifleman";
-                side = 1;
-                rank = "SERGEANT";
-                position[] = {0, 0, 0};
-            };
-            class unit1: unit0 {
-                vehicle = "TACU_Police_U_B_CT_Breacher";
-                rank = "PRIVATE";
-                position[] = {5, -5, 0};
-            };
-            class unit2: unit1 {
-                vehicle = "TACU_Police_U_B_CT_Rifleman";
-                position[] = {-5, -5, 0};
-            };
-            class unit3: unit2 {
-                vehicle = "TACU_Police_U_B_CT_Rifleman";
-                position[] = {10, -10, 0};
-            };
+            MACRO_UNIT0(TACU_Police_U_B_CT_Rifleman,1);
+            MACRO_UNIT1(TACU_Police_U_B_CT_Breacher,1);
+            MACRO_UNIT2(TACU_Police_U_B_CT_Rifleman,1);
+            MACRO_UNIT3(TACU_Police_U_B_CT_Rifleman,1);
         };
     };
 
@@ -54,40 +29,16 @@ class TACU_Police_B {
             side = 1;
             faction = "TACU_Police_B";
             icon = "\a3\ui_f\data\map\markers\nato\b_inf.paa";
-            class unit0 {
-                vehicle = "TACU_Police_U_B_Enforcer_SMG_1";
-                side = 1;
-                rank = "SERGEANT";
-                position[] = {0, 0, 0};
-            };
-            class unit1: unit0 {
-                vehicle = "TACU_Police_U_B_Enforcer_SMG_2";
-                rank = "PRIVATE";
-                position[] = {5, -5, 0};
-            };
+            MACRO_UNIT0(TACU_Police_U_B_Enforcer_SMG_1,1);
+            MACRO_UNIT1(TACU_Police_U_B_Enforcer_SMG_2,1);
         };
 
         class TACU_Police_G_B_Enforcer_Fireteam: TACU_Police_G_B_Enforcer_Guards {
             name = "Fireteam";
-            class unit0 {
-                vehicle = "TACU_Police_U_B_Enforcer_Rifleman";
-                side = 1;
-                rank = "SERGEANT";
-                position[] = {0, 0, 0};
-            };
-            class unit1: unit0 {
-                vehicle = "TACU_Police_U_B_Enforcer_Breacher";
-                rank = "PRIVATE";
-                position[] = {5, -5, 0};
-            };
-            class unit2: unit1 {
-                vehicle = "TACU_Police_U_B_Enforcer_SMG_1";
-                position[] = {-5, -5, 0};
-            };
-            class unit3: unit2 {
-                vehicle = "TACU_Police_U_B_Enforcer_SMG_2";
-                position[] = {10, -10, 0};
-            };
+            MACRO_UNIT0(TACU_Police_U_B_Enforcer_Rifleman,1);
+            MACRO_UNIT1(TACU_Police_U_B_Enforcer_Breacher,1);
+            MACRO_UNIT2(TACU_Police_U_B_Enforcer_SMG_1,1);
+            MACRO_UNIT3(TACU_Police_U_B_Enforcer_SMG_2,1);
         };
     };
 };
