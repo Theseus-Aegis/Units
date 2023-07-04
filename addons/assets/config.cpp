@@ -105,6 +105,8 @@ class CfgPatches {
             "TACU_Polaris_Armed_Base",
             "TACU_Polaris_Unarmed_Base",
             "TACU_RAH66_Comanche_Base",
+            "TACU_Speedboat_Minigun_Base",
+            "TACU_Transport_Van_Base",
             "TACU_Truck_Base",
             "TACU_Typhoon_Covered_Base",
             "TACU_Typhoon_Base",

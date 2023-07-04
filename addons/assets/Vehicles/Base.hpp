@@ -17,6 +17,7 @@ class APC_Wheeled_02_hmg_base_lxws;
 class APC_Wheeled_02_unarmed_base_lxws;
 class B_APC_Tracked_01_base_F;
 class B_APC_Wheeled_01_base_F;
+class Boat_Armed_01_base_F;
 class Heli_Attack_01_dynamicLoadout_base_F;
 class Heli_Light_01_dynamicLoadout_base_F;
 class Heli_Light_02_dynamicLoadout_base_F;
