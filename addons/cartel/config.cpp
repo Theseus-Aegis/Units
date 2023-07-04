@@ -4,13 +4,6 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            // Uniforms
-            "TACU_Uniform_O_V_Cartel_01",
-            "TACU_Uniform_O_V_Cartel_02",
-            "TACU_Uniform_O_V_Cartel_03",
-            "TACU_Uniform_O_V_Cartel_04",
-            "TACU_Uniform_O_V_Cartel_05",
-            "TACU_Uniform_O_V_Cartel_06",
             // Units - Grunts
             "TACU_Cartel2_U_O_Grunt_Rifleman_01",
             "TACU_Cartel2_U_O_Grunt_Rifleman_02",
@@ -50,20 +43,6 @@ class CfgPatches {
             "TACU_Cartel_V_O_Enforcer_Offroad_Armed"
         };
         weapons[] = {
-            // Uniforms
-            "TACU_Uniform_O_W_Cartel_Grunt_01",
-            "TACU_Uniform_O_W_Cartel_Grunt_02",
-            "TACU_Uniform_O_W_Cartel_Grunt_03",
-            "TACU_Uniform_O_W_Cartel_Grunt_04",
-            "TACU_Uniform_O_W_Cartel_Grunt_05",
-            "TACU_Uniform_O_W_Cartel_Grunt_06",
-            "TACU_Uniform_O_W_Cartel_Thug_01",
-            "TACU_Uniform_O_W_Cartel_Thug_02",
-            "TACU_Uniform_O_W_Cartel_Thug_03",
-            "TACU_Uniform_O_W_Cartel_Thug_04",
-            "TACU_Uniform_O_W_Cartel_Thug_05",
-            "TACU_Uniform_O_W_Cartel_Thug_06",
-            // Weapons
             "TACU_Cartel_W_M9_Laser",
             "TACU_Cartel_W_G36A_RIS",
             "TACU_Cartel_W_G36A_AG36",
