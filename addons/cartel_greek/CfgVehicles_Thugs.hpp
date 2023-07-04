@@ -99,28 +99,3 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_08: TACU_Cartel_Greek_U_O_Thug_Riflema
     EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_08);
 };
 
-// Vehicles
-class TACU_Cartel_V_O_Thug_Offroad: TACU_Offroad_Unarmed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
-    faction = "TACU_Cartel_Greek_O";
-    side = 0;
-    crew = "TACU_Cartel_Greek_U_O_Thug_Rifleman_01";
-    typicalCargo[] = {"TACU_Cartel_Greek_U_O_Thug_Rifleman_01"};
-    editorSubcategory = "TACU_Cartel_Greek_EdSubCat_O_Thugs_Vehicles";
-
-    textureList[] = {"Black", 1};
-    animationList[] = {
-        "HideDoor1", 0,
-        "HideDoor2", 0,
-        "HideDoor3", 0,
-        "HideBackpacks", 1,
-        "HideBumper1", 1,
-        "HideBumper2", 1,
-        "HideConstruction", 0,
-        "hidePolice", 1,
-        "HideServices", 1,
-        "BeaconsStart", 0,
-        "BeaconsServicesStart", 0
-    };
-};
-
