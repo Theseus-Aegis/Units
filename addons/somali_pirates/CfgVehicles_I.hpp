@@ -9,32 +9,13 @@ class TACU_Somali_Pirates_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "U_I_C_Soldier_Bandit_4_F";
-    linkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "H_Cap_blk",
-        "V_Chestrig_khk"
-    };
-    respawnLinkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "H_Cap_blk",
-        "V_Chestrig_khk"
-    };
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Chestrig_khk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Chestrig_khk"};
     weapons[] = {"arifle_AK12_arid_F","Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12_arid_F","Throw", "Put"};
     magazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade")};
-    headgearList[] = {
-        "H_Bandanna_gry", 0.1,
-        "H_Bandanna_cbr", 0.1,
-        "H_Booniehat_khk", 0.1,
-        "H_Cap_blk", 0.1,
-        "H_Cap_tan", 0.1,
-        "lxWS_H_turban_03_black", 0.1,
-        "lxWS_H_turban_03_blue", 0.1,
-        "lxWS_H_turban_03_green", 0.1,
-        "lxWS_H_turban_03_sand", 0.1,
-        "lxWS_H_turban_03_gray", 0.1
-    };
+    headgearList[] = {};
     CBA_facewearList[] = {
         "G_Bandanna_blk", 0.12,
         "G_Bandanna_khk", 0.12,
