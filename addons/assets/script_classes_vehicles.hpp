@@ -57,6 +57,8 @@ class TACU_Polaris_Armed_AT_Base;
 class TACU_Polaris_Armed_Base;
 class TACU_Polaris_Unarmed_Base;
 class TACU_RAH66_Comanche_Base;
+class TACU_Rooikat_Base;
+class TACU_Rooikat_UP_Base;
 class TACU_Speedboat_Minigun_Base;
 class TACU_Transport_Van_Base;
 class TACU_Truck_Base;

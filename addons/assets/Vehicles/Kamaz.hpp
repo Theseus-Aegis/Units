@@ -68,6 +68,26 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
             };
             factions[] = {};
         };
+        class South_African_Green {
+            displayName = "Green";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_sa_grn_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_sa_grn_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
+            };
+            factions[] = {};
+        };
+        class South_African_Tan {
+            displayName = "Tan";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_sa_tan_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_sa_tan_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
+            };
+            factions[] = {};
+        };
     };
 
     textureList[] = {
