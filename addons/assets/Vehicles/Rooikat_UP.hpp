@@ -42,10 +42,10 @@ class TACU_Rooikat_UP_Base: B_afv_wheeled_01_up_cannon_F {
                 QPATHTOF(data\rooikat\afv_wheeled_01_ext1_sa_grn_co.paa),
                 QPATHTOF(data\rooikat\afv_wheeled_01_ext2_sa_grn_co.paa),
                 "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_wheel_green_co.paa",
-                "A3\armor_f_tank\afv_wheeled_01\Data\afv_wheeled_01_EXT3_co.paa",
-                "a3\armor_f_tank\afv_wheeled_01\data\afv_commander_tow_co.paa",
+                QPATHTOF(data\rooikat\afv_wheeled_01_ext3_sa_grn_co.paa),
+                QPATHTOF(data\rooikat\afv_commander_tow_sa_grn_co.paa),
                 "a3\armor_f\data\camonet_nato_green_co.paa",
-                "a3\armor_f_tank\afv_wheeled_01\Data\afv_wheeled_01_EXT3_co.paa"
+                QPATHTOF(data\rooikat\afv_wheeled_01_ext3_sa_grn_co.paa)
             };
             factions[] = {};
         };
