@@ -183,7 +183,31 @@ class CfgPatches {
             "TACU_SevenRings_V_O_AGS30",
             "TACU_SevenRings_V_O_D30",
             "TACU_SevenRings_V_O_ZU23",
-            "TACU_SevenRings_V_O_DSHKM"
+            "TACU_SevenRings_V_O_DSHKM",
+            // Eastern Units (Opfor)
+            "TACU_Seven_Rings_Eastern_U_O_Rifleman_01",
+            "TACU_Seven_Rings_Eastern_U_O_Rifleman_02",
+            "TACU_Seven_Rings_Eastern_U_O_Leader",
+            "TACU_Seven_Rings_Eastern_U_O_Marksman",
+            "TACU_Seven_Rings_Eastern_U_O_Sharpshooter",
+            "TACU_Seven_Rings_Eastern_U_O_Sniper",
+            "TACU_Seven_Rings_Eastern_U_O_AT",
+            "TACU_Seven_Rings_Eastern_U_O_AP",
+            "TACU_Seven_Rings_Eastern_U_O_Grenadier",
+            "TACU_Seven_Rings_Eastern_U_O_Autorifleman",
+            "TACU_Seven_Rings_Eastern_U_O_Heavygunner",
+            "TACU_Seven_Rings_Eastern_U_O_Demolitions",
+            "TACU_Seven_Rings_Eastern_U_O_Medic",
+            "TACU_Seven_Rings_Eastern_U_O_Engineer",
+            "TACU_Seven_Rings_Eastern_U_O_Ambusher",
+            "TACU_Seven_Rings_Eastern_U_O_Driver",
+            // Eastern Backpacks
+            "TACU_Seven_Rings_Eastern_B_AT",
+            "TACU_Seven_Rings_Eastern_B_AP",
+            "TACU_Seven_Rings_Eastern_B_Demo",
+            "TACU_Seven_Rings_Eastern_B_Medic",
+            "TACU_Seven_Rings_Eastern_B_Engineer",
+            "TACU_Seven_Rings_Eastern_B_Heavygunner"
         };
         weapons[] = {
             "TACU_Seven_Rings_Eastern_W_Katiba",

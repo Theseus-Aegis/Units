@@ -8,6 +8,7 @@ class CfgVehicles {
     #include "Deprecated\units.hpp"
     #include "Deprecated\vehicles.hpp"
 
+    #include "CfgVehicles_Eastern_Backpacks.hpp"
     #include "CfgVehicles_Eastern.hpp"
     #include "CfgVehicles_Western.hpp"
 };

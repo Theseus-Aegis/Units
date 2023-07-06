@@ -9,16 +9,26 @@ class TACU_Seven_Rings_Western_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     genericNames = "TACU_PolishNames";
     icon = "iconMan";
     role = "Rifleman";
-    uniformClass = "";
+    uniformClass = "U_O_R_Gorka_01_F";
     items[] = {"ACE_NVG_Gen4_Green"};
     respawnItems[] = {"ACE_NVG_Gen4_Green"};
-    linkedItems[] = {DEFAULT_ITEMS_RADIO};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO};
+    linkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_CarrierRigKBT_01_light_Olive_F",
+        "H_HelmetHBK_F",
+        "G_Balaclava_oli"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_CarrierRigKBT_01_light_Olive_F",
+        "H_HelmetHBK_F",
+        "G_Balaclava_oli"
+    };
     weapons[] = {};
     respawnWeapons[] = {};
     magazines[] = {};
     respawnMagazines[] = {};
-    headgearList[] = {};
-    CBA_facewearList[] = {};
+    headgearList[] = {"H_HelmetHBK_F", 1};
+    CBA_facewearList[] = {"G_Balaclava_oli", 1};
     //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Rifleman_01);
 };
