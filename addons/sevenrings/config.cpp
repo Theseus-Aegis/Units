@@ -185,7 +185,28 @@ class CfgPatches {
             "TACU_SevenRings_V_O_ZU23",
             "TACU_SevenRings_V_O_DSHKM"
         };
-        weapons[] = {};
+        weapons[] = {
+            "TACU_Seven_Rings_Eastern_W_Katiba",
+            "TACU_Seven_Rings_Eastern_W_Katiba_Carbine",
+            "TACU_Seven_Rings_Eastern_W_Katiba_GL",
+            "TACU_Seven_Rings_Eastern_W_VS121",
+            "TACU_Seven_Rings_Eastern_W_QBU88",
+            "TACU_Seven_Rings_Eastern_W_QBZ95",
+            "TACU_Seven_Rings_Eastern_W_QBZ95_GL",
+            "TACU_Seven_Rings_Eastern_W_QBZ95_LSW",
+            "TACU_Seven_Rings_Eastern_W_Type115",
+            "TACU_Seven_Rings_Eastern_W_Cyrus",
+            "TACU_Seven_Rings_Eastern_W_HK121",
+            "TACU_Seven_Rings_Western_W_MSBS",
+            "TACU_Seven_Rings_Western_W_MSBS_GL",
+            "TACU_Seven_Rings_Western_W_MSBS_MR",
+            "TACU_Seven_Rings_Western_W_MSBS_SG",
+            "TACU_Seven_Rings_Western_W_Stoner99",
+            "TACU_Seven_Rings_Western_W_AK15K",
+            "TACU_Seven_Rings_Western_W_AK15",
+            "TACU_Seven_Rings_Western_W_LWMMG",
+            "TACU_Seven_Rings_Western_W_Noreen"
+        };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
