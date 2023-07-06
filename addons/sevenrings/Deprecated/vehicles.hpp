@@ -307,6 +307,7 @@ class TACU_SevenRings_V_I_UH80_Ghost_Hawk: TACU_GhostHawk_Base {
     textureList[] = {"Black", 1};
 };
 // Boats
+class B_Boat_Transport_01_F;
 class TACU_SevenRings_V_I_Assault_Boat: B_Boat_Transport_01_F {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_SevenRings_I_Western";
