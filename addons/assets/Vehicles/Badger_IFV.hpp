@@ -31,6 +31,29 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
             };
             factions[] = {};
         };
+        class South_African_Green {
+            displayName = "SA - Green";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\badger\apc_wheeled_01_base_sa_grn_co.paa),
+                QPATHTOF(data\badger\apc_wheeled_01_adds_sa_grn_co.paa),
+                QPATHTOF(data\badger\apc_wheeled_01_tows_sa_grn_co.paa),
+                "a3\armor_f\data\camonet_nato_green_co.paa",
+                "a3\armor_f\data\cage_olive_co.paa"
+            };
+            factions[] = {};
+        };
+        class South_African_Tan {
+            displayName = "SA - Tan";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\badger\apc_wheeled_01_base_sa_tan_co.paa),
+                QPATHTOF(data\badger\apc_wheeled_01_adds_sa_tan_co.paa),
+                QPATHTOF(data\badger\apc_wheeled_01_tows_sa_tan_co.paa),
+                "a3\armor_f\data\camonet_nato_desert_co.paa",
+                "a3\armor_f\data\cage_sand_co.paa"
+            };
+        };
     };
 
     textureList[] = {
