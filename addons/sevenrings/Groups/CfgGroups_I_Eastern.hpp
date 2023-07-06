@@ -1,3 +1,4 @@
+// REPLACE UNITS!
 class TACU_SevenRings_G_I_Eastern {
     name = "Seven Rings (Eastern)";
 
