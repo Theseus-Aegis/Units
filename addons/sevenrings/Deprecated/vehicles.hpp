@@ -1,6 +1,9 @@
 // Independent, Eastern vehicles.
 class TACU_SevenRings_V_I_Kamaz: TACU_Kamaz_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -14,7 +17,10 @@ class TACU_SevenRings_V_I_Kamaz: TACU_Kamaz_Base {
 };
 
 class TACU_SevenRings_V_I_Kamaz_Covered: TACU_Kamaz_Covered_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -28,7 +34,10 @@ class TACU_SevenRings_V_I_Kamaz_Covered: TACU_Kamaz_Covered_Base {
 };
 
 class TACU_SevenRings_V_I_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -42,7 +51,10 @@ class TACU_SevenRings_V_I_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
 };
 
 class TACU_SevenRings_V_I_Offroad: TACU_Offroad_Unarmed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -56,7 +68,10 @@ class TACU_SevenRings_V_I_Offroad: TACU_Offroad_Unarmed_Base {
 };
 
 class TACU_SevenRings_V_I_Offroad_Armored: TACU_Offroad_Unarmed_UP_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -70,7 +85,10 @@ class TACU_SevenRings_V_I_Offroad_Armored: TACU_Offroad_Unarmed_UP_Base {
 };
 
 class TACU_SevenRings_V_I_Offroad_M2: TACU_Offroad_Armed_M2_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -84,7 +102,10 @@ class TACU_SevenRings_V_I_Offroad_M2: TACU_Offroad_Armed_M2_Base {
 };
 
 class TACU_SevenRings_V_I_Offroad_Armored_M2: TACU_Offroad_Armed_M2_UP_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -98,7 +119,10 @@ class TACU_SevenRings_V_I_Offroad_Armored_M2: TACU_Offroad_Armed_M2_UP_Base {
 };
 
 class TACU_SevenRings_V_I_Marid_M2: TACU_Otokar_ARMA_Armed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -113,7 +137,10 @@ class TACU_SevenRings_V_I_Marid_M2: TACU_Otokar_ARMA_Armed_Base {
 
 // Turrets
 class TACU_SevenRings_V_I_AGS30: TACU_Assets_AGS_base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -123,7 +150,10 @@ class TACU_SevenRings_V_I_AGS30: TACU_Assets_AGS_base {
 };
 
 class TACU_SevenRings_V_I_D30: TACU_Assets_D30_base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -133,7 +163,10 @@ class TACU_SevenRings_V_I_D30: TACU_Assets_D30_base {
 };
 
 class TACU_SevenRings_V_I_ZU23: TACU_Assets_ZU23_base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -143,7 +176,10 @@ class TACU_SevenRings_V_I_ZU23: TACU_Assets_ZU23_base {
 };
 
 class TACU_SevenRings_V_I_DSHKM: TACU_Assets_DSHKM_base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
     scope = 1;
@@ -154,7 +190,8 @@ class TACU_SevenRings_V_I_DSHKM: TACU_Assets_DSHKM_base {
 
 // Opfor, Eastern Vehicles
 class TACU_SevenRings_V_O_Kamaz: TACU_SevenRings_V_I_Kamaz {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Engineer_01",
@@ -163,7 +200,8 @@ class TACU_SevenRings_V_O_Kamaz: TACU_SevenRings_V_I_Kamaz {
 };
 
 class TACU_SevenRings_V_O_Kamaz_Covered: TACU_SevenRings_V_I_Kamaz_Covered {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Rifleman_01",
@@ -172,7 +210,8 @@ class TACU_SevenRings_V_O_Kamaz_Covered: TACU_SevenRings_V_I_Kamaz_Covered {
 };
 
 class TACU_SevenRings_V_O_Kamaz_ZU23: TACU_SevenRings_V_I_Kamaz_ZU23 {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Rifleman_01",
@@ -181,7 +220,8 @@ class TACU_SevenRings_V_O_Kamaz_ZU23: TACU_SevenRings_V_I_Kamaz_ZU23 {
 };
 
 class TACU_SevenRings_V_O_Offroad: TACU_SevenRings_V_I_Offroad {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Rifleman_01",
@@ -190,7 +230,8 @@ class TACU_SevenRings_V_O_Offroad: TACU_SevenRings_V_I_Offroad {
 };
 
 class TACU_SevenRings_V_O_Offroad_Armored: TACU_SevenRings_V_I_Offroad_Armored {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_02";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Rifleman_01",
@@ -199,7 +240,8 @@ class TACU_SevenRings_V_O_Offroad_Armored: TACU_SevenRings_V_I_Offroad_Armored {
 };
 
 class TACU_SevenRings_V_O_Offroad_M2: TACU_SevenRings_V_I_Offroad_M2 {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Engineer_01",
@@ -208,7 +250,8 @@ class TACU_SevenRings_V_O_Offroad_M2: TACU_SevenRings_V_I_Offroad_M2 {
 };
 
 class TACU_SevenRings_V_O_Offroad_Armored_M2: TACU_SevenRings_V_I_Offroad_Armored_M2 {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Rifleman_01",
@@ -217,7 +260,8 @@ class TACU_SevenRings_V_O_Offroad_Armored_M2: TACU_SevenRings_V_I_Offroad_Armore
 };
 
 class TACU_SevenRings_V_O_Marid_M2: TACU_SevenRings_V_I_Marid_M2 {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Eastern_Engineer_01",
@@ -226,25 +270,29 @@ class TACU_SevenRings_V_O_Marid_M2: TACU_SevenRings_V_I_Marid_M2 {
 };
 
 class TACU_SevenRings_V_O_AGS30: TACU_SevenRings_V_I_AGS30 {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_01";
     typicalCargo[] = {"TACU_SevenRings_U_O_Eastern_Rifleman_01"};
 };
 
 class TACU_SevenRings_V_O_D30: TACU_SevenRings_V_I_D30 {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_02";
     typicalCargo[] = {"TACU_SevenRings_U_O_Eastern_Rifleman_02"};
 };
 
 class TACU_SevenRings_V_O_ZU23: TACU_SevenRings_V_I_ZU23 {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_03";
     typicalCargo[] = {"TACU_SevenRings_U_O_Eastern_Rifleman_03"};
 };
 
 class TACU_SevenRings_V_O_DSHKM: TACU_SevenRings_V_I_DSHKM {
-    MACRO_OPFOR_EAST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Eastern";
     crew = "TACU_SevenRings_U_O_Eastern_Rifleman_02";
     typicalCargo[] = {"TACU_SevenRings_U_O_Eastern_Rifleman_02"};
 };
@@ -252,7 +300,10 @@ class TACU_SevenRings_V_O_DSHKM: TACU_SevenRings_V_I_DSHKM {
 // Independent, Western vehicles
 // Helicopters
 class TACU_SevenRings_V_I_AH6_Little_Bird: TACU_AH6_LittleBird_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "AH-6 Little Bird";
@@ -269,7 +320,10 @@ class TACU_SevenRings_V_I_AH6_Little_Bird: TACU_AH6_LittleBird_Base {
 };
 
 class TACU_SevenRings_V_I_CH47_Chinook_Unarmed: TACU_Chinook_Unarmed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "CH-47 Chinook (Unarmed)";
@@ -282,7 +336,10 @@ class TACU_SevenRings_V_I_CH47_Chinook_Unarmed: TACU_Chinook_Unarmed_Base {
 };
 
 class TACU_SevenRings_V_I_CH47_Chinook_Armed: TACU_Chinook_Armed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "CH-47 Chinook (Armed)";
@@ -295,7 +352,10 @@ class TACU_SevenRings_V_I_CH47_Chinook_Armed: TACU_Chinook_Armed_Base {
 };
 
 class TACU_SevenRings_V_I_UH80_Ghost_Hawk: TACU_GhostHawk_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "UH-80 Ghost Hawk (Armed)";
@@ -309,7 +369,10 @@ class TACU_SevenRings_V_I_UH80_Ghost_Hawk: TACU_GhostHawk_Base {
 // Boats
 class B_Boat_Transport_01_F;
 class TACU_SevenRings_V_I_Assault_Boat: B_Boat_Transport_01_F {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Assault Boat";
@@ -321,7 +384,10 @@ class TACU_SevenRings_V_I_Assault_Boat: B_Boat_Transport_01_F {
 };
 // Cars
 class TACU_SevenRings_V_I_Offroad_Covered: TACU_Offroad_Covered_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Offroad (Covered)";
@@ -334,7 +400,10 @@ class TACU_SevenRings_V_I_Offroad_Covered: TACU_Offroad_Covered_Base {
 };
 
 class TACU_SevenRings_V_I_MATV: TACU_MATV_Unarmed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "M-ATV";
@@ -347,7 +416,10 @@ class TACU_SevenRings_V_I_MATV: TACU_MATV_Unarmed_Base {
 };
 
 class TACU_SevenRings_V_I_MATV_HMG: TACU_MATV_HMG_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "M-ATV (HMG)";
@@ -360,7 +432,10 @@ class TACU_SevenRings_V_I_MATV_HMG: TACU_MATV_HMG_Base {
 };
 
 class TACU_SevenRings_V_I_Fennek: TACU_Fennek_Unarmed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Fennek";
@@ -373,7 +448,10 @@ class TACU_SevenRings_V_I_Fennek: TACU_Fennek_Unarmed_Base {
 };
 
 class TACU_SevenRings_V_I_Fennek_HMG: TACU_Fennek_HMG_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Fennek (HMG)";
@@ -390,7 +468,10 @@ class TACU_SevenRings_V_I_Fennek_HMG: TACU_Fennek_HMG_Base {
 };
 
 class TACU_SevenRings_V_I_Polaris_Dagor: TACU_Polaris_Unarmed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Polaris DAGOR";
@@ -403,7 +484,10 @@ class TACU_SevenRings_V_I_Polaris_Dagor: TACU_Polaris_Unarmed_Base {
 };
 
 class TACU_SevenRings_V_I_Polaris_Dagor_XM312: TACU_Polaris_Armed_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Polaris DAGOR (XM312)";
@@ -416,7 +500,10 @@ class TACU_SevenRings_V_I_Polaris_Dagor_XM312: TACU_Polaris_Armed_Base {
 };
 
 class TACU_SevenRings_V_I_HEMTT_Transport: TACU_HEMTT_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "HEMTT Transport";
@@ -429,7 +516,10 @@ class TACU_SevenRings_V_I_HEMTT_Transport: TACU_HEMTT_Base {
 };
 
 class TACU_SevenRings_V_I_HEMTT_Transport_Covered: TACU_HEMTT_Covered_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "HEMTT Transport (Covered)";
@@ -443,7 +533,10 @@ class TACU_SevenRings_V_I_HEMTT_Transport_Covered: TACU_HEMTT_Covered_Base {
 
 // APCs
 class TACU_SevenRings_V_I_PANDUR_II: TACU_Pandur_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Pandur II";
@@ -456,7 +549,10 @@ class TACU_SevenRings_V_I_PANDUR_II: TACU_Pandur_Base {
 };
 
 class TACU_SevenRings_V_I_Badger_IFV: TACU_Badger_IFV_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
+    dlc = QUOTE(PREFIX);
+    scope = 1;
+    scopeCurator = 1;
+    forceInGarage = 1;
     faction = "TACU_SevenRings_I_Western";
     side = 2;
     displayName = "Badger IFV";
@@ -470,7 +566,8 @@ class TACU_SevenRings_V_I_Badger_IFV: TACU_Badger_IFV_Base {
 
 // Opfor, Western vehicles
 class TACU_SevenRings_V_O_AH6_Little_Bird: TACU_SevenRings_V_I_AH6_Little_Bird {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Pilot_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Pilot_01",
@@ -479,7 +576,8 @@ class TACU_SevenRings_V_O_AH6_Little_Bird: TACU_SevenRings_V_I_AH6_Little_Bird {
 };
 
 class TACU_SevenRings_V_O_CH47_Chinook_Unarmed: TACU_SevenRings_V_I_CH47_Chinook_Unarmed {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Pilot_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Pilot_01",
@@ -488,7 +586,8 @@ class TACU_SevenRings_V_O_CH47_Chinook_Unarmed: TACU_SevenRings_V_I_CH47_Chinook
 };
 
 class TACU_SevenRings_V_O_CH47_Chinook_Armed: TACU_SevenRings_V_I_CH47_Chinook_Armed {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Pilot_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Pilot_01",
@@ -497,7 +596,8 @@ class TACU_SevenRings_V_O_CH47_Chinook_Armed: TACU_SevenRings_V_I_CH47_Chinook_A
 };
 
 class TACU_SevenRings_V_O_UH80_Ghost_Hawk: TACU_SevenRings_V_I_UH80_Ghost_Hawk {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Pilot_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Pilot_01",
@@ -506,7 +606,8 @@ class TACU_SevenRings_V_O_UH80_Ghost_Hawk: TACU_SevenRings_V_I_UH80_Ghost_Hawk {
 };
 
 class TACU_SevenRings_V_O_Assault_Boat: TACU_SevenRings_V_I_Assault_Boat {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Engineer_01",
@@ -515,7 +616,8 @@ class TACU_SevenRings_V_O_Assault_Boat: TACU_SevenRings_V_I_Assault_Boat {
 };
 
 class TACU_SevenRings_V_O_Offroad_Covered: TACU_SevenRings_V_I_Offroad_Covered {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Rifleman_01",
@@ -524,7 +626,8 @@ class TACU_SevenRings_V_O_Offroad_Covered: TACU_SevenRings_V_I_Offroad_Covered {
 };
 
 class TACU_SevenRings_V_O_MATV: TACU_SevenRings_V_I_MATV {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_02";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Rifleman_01",
@@ -533,7 +636,8 @@ class TACU_SevenRings_V_O_MATV: TACU_SevenRings_V_I_MATV {
 };
 
 class TACU_SevenRings_V_O_MATV_HMG: TACU_SevenRings_V_I_MATV_HMG {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Engineer_01",
@@ -542,7 +646,8 @@ class TACU_SevenRings_V_O_MATV_HMG: TACU_SevenRings_V_I_MATV_HMG {
 };
 
 class TACU_SevenRings_V_O_Fennek: TACU_SevenRings_V_I_Fennek {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Rifleman_01",
@@ -551,7 +656,8 @@ class TACU_SevenRings_V_O_Fennek: TACU_SevenRings_V_I_Fennek {
 };
 
 class TACU_SevenRings_V_O_Fennek_HMG: TACU_SevenRings_V_I_Fennek_HMG {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Engineer_01",
@@ -560,7 +666,8 @@ class TACU_SevenRings_V_O_Fennek_HMG: TACU_SevenRings_V_I_Fennek_HMG {
 };
 
 class TACU_SevenRings_V_O_Polaris_Dagor: TACU_SevenRings_V_I_Polaris_Dagor {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Engineer_01",
@@ -569,7 +676,8 @@ class TACU_SevenRings_V_O_Polaris_Dagor: TACU_SevenRings_V_I_Polaris_Dagor {
 };
 
 class TACU_SevenRings_V_O_Polaris_Dagor_XM312: TACU_SevenRings_V_I_Polaris_Dagor_XM312 {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Rifleman_01",
@@ -578,7 +686,8 @@ class TACU_SevenRings_V_O_Polaris_Dagor_XM312: TACU_SevenRings_V_I_Polaris_Dagor
 };
 
 class TACU_SevenRings_V_O_HEMTT_Transport: TACU_SevenRings_V_I_HEMTT_Transport {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_02";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Rifleman_01",
@@ -587,7 +696,8 @@ class TACU_SevenRings_V_O_HEMTT_Transport: TACU_SevenRings_V_I_HEMTT_Transport {
 };
 
 class TACU_SevenRings_V_O_HEMTT_Transport_Covered: TACU_SevenRings_V_I_HEMTT_Transport_Covered {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_02";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Rifleman_01",
@@ -596,7 +706,8 @@ class TACU_SevenRings_V_O_HEMTT_Transport_Covered: TACU_SevenRings_V_I_HEMTT_Tra
 };
 
 class TACU_SevenRings_V_O_PANDUR_II: TACU_SevenRings_V_I_PANDUR_II {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_01";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Engineer_02",
@@ -605,7 +716,8 @@ class TACU_SevenRings_V_O_PANDUR_II: TACU_SevenRings_V_I_PANDUR_II {
 };
 
 class TACU_SevenRings_V_O_Badger_IFV: TACU_SevenRings_V_I_Badger_IFV {
-    MACRO_OPFOR_WEST_SIDE;
+    side = 0;
+    faction = "TACU_SevenRings_O_Western";
     crew = "TACU_SevenRings_U_O_Western_Rifleman_03";
     typicalCargo[] = {
         "TACU_SevenRings_U_O_Western_Rifleman_01",
