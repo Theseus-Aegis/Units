@@ -1,0 +1,157 @@
+#define MACRO_SEVEN_RINGS_EASTERN_VEHICLE \
+    faction = "TACU_Seven_Rings_Eastern"; \
+    side = 0; \
+    crew = "TACU_Seven_Rings_Eastern_U_O_Driver"; \
+    typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Driver"}
+
+class TACU_Seven_Rings_Eastern_V_O_LSVMKII: TACU_LSV_MKII_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Black", 1}; // Needs a blank Tan one.
+};
+class TACU_Seven_Rings_Eastern_V_O_LSVMKII_Armed: TACU_LSV_MKII_Armed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Black", 1}; // Needs a blank Tan one.
+};
+class TACU_Seven_Rings_Eastern_V_O_LSVMKII_AT: TACU_LSV_MKII_Armed_AT_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Black", 1}; // Needs a blank Tan one.
+};
+
+class TACU_Seven_Rings_Eastern_V_O_Karatel: TACU_Karatel_Unarmed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Hex", 1}; // Needs a blank Tan one.
+};
+class TACU_Seven_Rings_Eastern_V_O_Karatel_HMG: TACU_Karatel_HMG_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Hex", 1}; // Needs a blank Tan one.
+};
+class TACU_Seven_Rings_Eastern_V_O_Karatel_GMG: TACU_Karatel_GMG_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Hex", 1}; // Needs a blank Tan one.
+};
+
+class TACU_Seven_Rings_Eastern_V_O_Kamaz: TACU_Kamaz_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Brown", 1};
+};
+class TACU_Seven_Rings_Eastern_V_O_Kamaz_Covered: TACU_Kamaz_Covered_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Brown", 1};
+};
+
+// Offroads
+class TACU_Seven_Rings_Eastern_V_O_Offroad: TACU_Offroad_Unarmed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Guerilla_12", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 0,
+        "HideConstruction", 0,
+        "hidePolice", 1,
+        "HideServices", 1,
+        "BeaconsStart", 0,
+        "BeaconsServicesStart", 0
+    };
+};
+class TACU_Seven_Rings_Eastern_V_O_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Guerilla_12", 1};
+    animationList[] = {
+        "Hide_Shield", 0,
+        "Hide_Rail", 0,
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 0,
+        "HideConstruction", 0
+    };
+};
+class TACU_Seven_Rings_Eastern_V_O_Offroad_AT: TACU_Offroad_Armed_AT_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Guerilla_12", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 0,
+        "HideConstruction", 0
+    };
+};
+class TACU_Seven_Rings_Eastern_V_O_Offroad_UP: TACU_Offroad_Unarmed_UP_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Guerilla_12", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "hideRoofLights", 0,
+        "HideBumper1", 1,
+        "HideBumper2", 1,
+        "HideBumper3", 0,
+        "HatchL_rot", 1,
+        "HatchR_rot", 1,
+        "HideSnorkel", 0,
+        "HideDoor3", 0,
+        "HideConstruction", 0,
+        "HideBackpacks", 1
+    };
+};
+class TACU_Seven_Rings_Eastern_V_O_Offroad_UP_Armed: TACU_Offroad_Armed_M2_UP_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Guerilla_12", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "hideRoofLights", 0,
+        "HideBumper1", 1,
+        "HideBumper2", 1,
+        "HideBumper3", 0,
+        "HatchL_rot", 1,
+        "HatchR_rot", 1,
+        "HideSnorkel", 0,
+        "Hide_Shield", 0,
+        "Hide_Rail", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideConstruction", 0
+    };
+};
+class TACU_Seven_Rings_Eastern_V_O_Offroad_UP_AT: TACU_Offroad_Armed_AT_UP_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Guerilla_12", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "hideRoofLights", 0,
+        "HideBumper1", 1,
+        "HideBumper2", 1,
+        "HideBumper3", 0,
+        "HatchL_rot", 1,
+        "HatchR_rot", 1,
+        "HideSnorkel", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideConstruction", 0
+    };
+};

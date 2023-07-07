@@ -9,6 +9,7 @@ class CfgVehicles {
     #include "Deprecated\vehicles.hpp"
 
     #include "CfgVehicles_Eastern_Backpacks.hpp"
+    #include "CfgVehicles_Eastern_Vehicles.hpp"
     #include "CfgVehicles_Eastern.hpp"
     #include "CfgVehicles_Western.hpp"
 };
