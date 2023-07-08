@@ -1,0 +1,23 @@
+class TACU_African_South_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
+    author = "Mike";
+    displayName = "Rifleman";
+    faction = "TACU_African_South_B";
+    scope = 2;
+    scopeCurator = 2;
+    identityTypes[] = {"LanguageENGFRE_F", "Head_African", "Head_Euro"};
+    genericNames = "";
+    icon = "iconMan";
+    role = "Rifleman";
+    uniformClass = "";
+    items[] = {};
+    respawnItems[] = {};
+    linkedItems[] = {};
+    respawnLinkedItems[] = {};
+    weapons[] = {};
+    respawnWeapons[] = {};
+    magazines[] = {};
+    respawnMagazines[] = {};
+    headgearList[] = {};
+    CBA_facewearList[] = {};
+    //EDITORPREVIEW(TACU_African_South_U_B_Rifleman);
+};
