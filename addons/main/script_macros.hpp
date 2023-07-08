@@ -38,6 +38,9 @@
 #define mag_11(a) a, a, a, a, a, a, a, a, a, a, a
 #define mag_12(a) a, a, a, a, a, a, a, a, a, a, a, a
 
+// Unit Sensitivity
+#define MACRO_SENSITIVITY 6
+
 // Default Items (Compass, Map, Watch, Radio)
 #define DEFAULT_ITEMS "ItemMap", "ItemCompass", "ItemWatch"
 #define DEFAULT_ITEMS_RADIO "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"
