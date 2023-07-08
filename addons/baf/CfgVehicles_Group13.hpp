@@ -6,7 +6,7 @@ class TACU_BAF_U_B_Arid_Scout: TACU_Main_U_BLUFOR_Soldier_Base {
     editorSubcategory = "TACU_BAF_EdSubCat_B_Group_13";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"LanguageENG_F", "Head_NATO", "NoGlasses"};
+    identityTypes[] = {"LanguageENGB_F", "Head_NATO", "NoGlasses"};
     genericNames = "TACU_BritishNames";
     icon = "iconMan";
     role = "Rifleman";
