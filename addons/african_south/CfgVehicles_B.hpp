@@ -5,7 +5,7 @@ class TACU_African_South_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     scope = 2;
     scopeCurator = 2;
     identityTypes[] = {"LanguageENGFRE_F", "Head_African", "Head_Euro"};
-    genericNames = "";
+    genericNames = "TACU_SouthAfricanNames";
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "";
