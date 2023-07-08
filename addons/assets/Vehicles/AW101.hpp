@@ -31,7 +31,7 @@ class TACU_Merlin_Base: I_Heli_Transport_02_F {
         };
         class South_African_Green {
             author = "GilleeDoo";
-            displayName = "SA - Green";
+            displayName = "South African Green";
             textures[] = {
                 QPATHTOF(data\aw101\heli_transport_02_1_sa_grn_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_2_sa_grn_co.paa),

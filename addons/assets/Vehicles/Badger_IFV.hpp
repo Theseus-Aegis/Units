@@ -32,7 +32,7 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
             factions[] = {};
         };
         class South_African_Green {
-            displayName = "SA - Green";
+            displayName = "South African Green";
             author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\badger\apc_wheeled_01_base_sa_grn_co.paa),
@@ -44,7 +44,7 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
             factions[] = {};
         };
         class South_African_Tan {
-            displayName = "SA - Tan";
+            displayName = "South African Tan";
             author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\badger\apc_wheeled_01_base_sa_tan_co.paa),
