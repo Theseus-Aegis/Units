@@ -261,6 +261,6 @@ class CfgPatches {
 };
 
 #include "CfgFactionClasses.hpp"
-#include "Groups\CfgGroups.hpp"
+#include "CfgGroups.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
