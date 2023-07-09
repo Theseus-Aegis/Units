@@ -41,7 +41,11 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
                 "a3\armor_f\data\camonet_nato_green_co.paa",
                 QPATHTOF(data\badger\cage_g1_sa_grn_co.paa)
             };
-            factions[] = {};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
         };
         class South_African_Tan {
             displayName = "South African Tan";
@@ -52,6 +56,11 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
                 QPATHTOF(data\badger\apc_wheeled_01_tows_sa_tan_co.paa),
                 "a3\armor_f\data\camonet_nato_desert_co.paa",
                 "a3\armor_f\data\cage_sand_co.paa"
+            };
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
             };
         };
     };
