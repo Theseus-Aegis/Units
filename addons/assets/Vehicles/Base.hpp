@@ -73,7 +73,15 @@ class Van_02_vehicle_base_F;
 // Weapons
 class Weapon_Base_F;
 
-// Turrets
+// Turrets - Vanilla
+class B_G_HMG_02_high_F;
+class B_G_Mortar_01_F;
+class B_static_AT_F;
+class I_HMG_02_F;
+class I_static_AT_F;
+class O_static_AT_F;
+
+// Turrets - CUP
 class CUP_AGS_base;
 class CUP_D30_AT_base;
 class CUP_D30_base;

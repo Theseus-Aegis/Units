@@ -123,6 +123,12 @@ class CfgPatches {
             "TACU_Assets_W_Item_HK416A5_Arid",
             "TACU_Assets_W_Item_HK417A2_Arid",
             // Turrets
+            "TACU_Assets_MK6_Base",
+            "TACU_Assets_HMG_50",
+            "TACU_Assets_HMG_50_Low",
+            "TACU_Assets_Mini_Spike_Sand",
+            "TACU_Assets_Mini_Spike_Brown",
+            "TACU_Assets_Mini_Spike_Green",
             "TACU_Assets_AGS_base",
             "TACU_Assets_D30_base",
             "TACU_Assets_D30AT_base",
