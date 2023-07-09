@@ -36,6 +36,7 @@ class CfgPatches {
             "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Urban",
             "TACU_Police_Item_Helmet_PASGT_Neck_PoliceBlack",
             "TACU_Police_Item_Helmet_PASGT_Neck_PoliceGreen",
+            "TACU_South_Africa_Item_Helmet_PASGT_Green",
             // Vests
             "TACU_BAF_Item_Vest_LightPlateCarrier_Arid",
             "TACU_BAF_Item_Vest_LightPlateCarrier_Tropic",
@@ -122,6 +123,12 @@ class CfgPatches {
             "TACU_Assets_W_Item_HK416A5_Arid",
             "TACU_Assets_W_Item_HK417A2_Arid",
             // Turrets
+            "TACU_Assets_MK6_Base",
+            "TACU_Assets_HMG_50",
+            "TACU_Assets_HMG_50_Low",
+            "TACU_Assets_Mini_Spike_Sand",
+            "TACU_Assets_Mini_Spike_Brown",
+            "TACU_Assets_Mini_Spike_Green",
             "TACU_Assets_AGS_base",
             "TACU_Assets_D30_base",
             "TACU_Assets_D30AT_base",
@@ -159,6 +166,8 @@ class CfgPatches {
             "TACU_Police_Uniform_Combat_Blue",
             "TACU_Police_Uniform_Combat_Brown",
             "TACU_Police_Uniform_Combat_Green",
+            "TACU_African_South_Uniform_Combat_Fatigues",
+            "TACU_African_South_Uniform_Combat_Fatigues_Rolled",
             "TACU_Uniform_O_W_Cartel_Greek_Grunt_01",
             "TACU_Uniform_O_W_Cartel_Greek_Grunt_02",
             "TACU_Uniform_O_W_Cartel_Greek_Grunt_03",
@@ -177,6 +186,7 @@ class CfgPatches {
             "TACU_BAF_Helmet_EnhancedCombatHelmet_Urban",
             "TACU_Police_Helmet_PASGT_Neck_PoliceBlack",
             "TACU_Police_Helmet_PASGT_Neck_PoliceGreen",
+            "TACU_African_South_Helmet_PASGT_Green",
             // Vests
             "TACU_BAF_Vest_LightPlateCarrier_Arid",
             "TACU_BAF_Vest_LightPlateCarrier_Tropic",

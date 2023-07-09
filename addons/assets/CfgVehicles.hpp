@@ -78,11 +78,14 @@ class CfgVehicles {
     #include "Vehicles\Wearables\Police_Uniforms.hpp"
     #include "Vehicles\Wearables\Police_Vests.hpp"
     #include "Vehicles\Wearables\Prisoner_Uniforms.hpp"
+    #include "Vehicles\Wearables\South_Africa_Helmets.hpp"
+    #include "Vehicles\Wearables\South_Africa_Uniforms.hpp"
     #include "Vehicles\Wearables\Vanguard_Vests.hpp"
 
     // Weapons
     #include "Vehicles\Rifles.hpp"
 
     // Turrets
+    #include "Vehicles\Turrets.hpp"
     #include "Vehicles\CUP_Turrets.hpp"
 };

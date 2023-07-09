@@ -17,7 +17,6 @@ class TACU_Wildcat_Armed_Base: I_Heli_light_03_dynamicLoadout_F {
             };
             factions[] = {};
         };
-        // This one will need a retexture, Green has "Rescue" on it.
         class Green {
             displayName = "Green";
             author = "Bohemia Interactive";

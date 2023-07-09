@@ -76,7 +76,11 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
                 QPATHTOF(data\kamaz\truck_02_kuz_sa_grn_co.paa),
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
         };
         class South_African_Tan {
             displayName = "Tan";
@@ -86,7 +90,11 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
                 QPATHTOF(data\kamaz\truck_02_kuz_sa_tan_co.paa),
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
         };
     };
 

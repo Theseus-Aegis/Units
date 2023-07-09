@@ -8,6 +8,8 @@ class B_FieldPack_Base;
 
 // Uniform Base
 class I_G_Soldier_LAT_F;
+class I_soldier_F;
+class I_Soldier_02_F;
 class I_C_Soldier_Bandit_2_F;
 class C_Uniform_ArtTShirt_01_v1_F;
 
@@ -73,7 +75,15 @@ class Van_02_vehicle_base_F;
 // Weapons
 class Weapon_Base_F;
 
-// Turrets
+// Turrets - Vanilla
+class B_G_HMG_02_high_F;
+class B_G_Mortar_01_F;
+class B_static_AT_F;
+class I_HMG_02_F;
+class I_static_AT_F;
+class O_static_AT_F;
+
+// Turrets - CUP
 class CUP_AGS_base;
 class CUP_D30_AT_base;
 class CUP_D30_base;
