@@ -226,7 +226,17 @@ class CfgPatches {
             "TACU_Seven_Rings_Eastern_V_O_Offroad_UP_AT",
             "TACU_Seven_Rings_Eastern_V_O_Otokar",
             "TACU_Seven_Rings_Eastern_V_O_Otokar_HMG",
-            "TACU_Seven_Rings_Eastern_V_O_Otokar_M2"
+            "TACU_Seven_Rings_Eastern_V_O_Otokar_M2",
+            // Eastern Turrets
+            "TACU_Seven_Rings_V_O_MK6",
+            "TACU_Seven_Rings_V_O_AGS30",
+            "TACU_Seven_Rings_V_O_D30",
+            "TACU_Seven_Rings_V_O_DSHKM",
+            "TACU_Seven_Rings_V_O_DSHKM_Mini",
+            "TACU_Seven_Rings_V_O_Igla",
+            "TACU_Seven_Rings_V_O_KORD",
+            "TACU_Seven_Rings_V_O_KORD_Mini",
+            "TACU_Seven_Rings_V_O_ZU23"
         };
         weapons[] = {
             // Eastern Weapons
