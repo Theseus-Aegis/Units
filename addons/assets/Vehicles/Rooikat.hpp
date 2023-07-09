@@ -33,7 +33,7 @@ class TACU_Rooikat_Base: B_T_AFV_Wheeled_01_cannon_F {
             factions[] = {};
         };
         class South_African_Green {
-            displayName = "SA - Green";
+            displayName = "South African Green";
             author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\rooikat\afv_wheeled_01_ext1_sa_grn_co.paa),
