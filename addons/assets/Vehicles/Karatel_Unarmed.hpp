@@ -27,6 +27,12 @@ class TACU_Karatel_Unarmed_Base: O_MRAP_02_F {
             };
             factions[] = {};
         };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {};
+        };
     };
 
     textureList[] = {

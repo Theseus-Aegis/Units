@@ -27,6 +27,12 @@ class TACU_Karatel_GMG_Base: O_MRAP_02_gmg_F {
             };
             factions[] = {};
         };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {};
+        };
     };
 
     textureList[] = {

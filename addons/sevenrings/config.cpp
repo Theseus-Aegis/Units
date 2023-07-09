@@ -207,9 +207,29 @@ class CfgPatches {
             "TACU_Seven_Rings_Eastern_B_Demo",
             "TACU_Seven_Rings_Eastern_B_Medic",
             "TACU_Seven_Rings_Eastern_B_Engineer",
-            "TACU_Seven_Rings_Eastern_B_Heavygunner"
+            "TACU_Seven_Rings_Eastern_B_Heavygunner",
+            // Eastern Vehicles
+            "TACU_Seven_Rings_Eastern_V_O_LSVMKII",
+            "TACU_Seven_Rings_Eastern_V_O_LSVMKII_Armed",
+            "TACU_Seven_Rings_Eastern_V_O_LSVMKII_AT",
+            "TACU_Seven_Rings_Eastern_V_O_Karatel",
+            "TACU_Seven_Rings_Eastern_V_O_Karatel_HMG",
+            "TACU_Seven_Rings_Eastern_V_O_Karatel_GMG",
+            "TACU_Seven_Rings_Eastern_V_O_Kamaz",
+            "TACU_Seven_Rings_Eastern_V_O_Kamaz_Covered",
+            "TACU_Seven_Rings_Eastern_V_O_Kamaz_ZU23",
+            "TACU_Seven_Rings_Eastern_V_O_Offroad",
+            "TACU_Seven_Rings_Eastern_V_O_Offroad_Armed",
+            "TACU_Seven_Rings_Eastern_V_O_Offroad_AT",
+            "TACU_Seven_Rings_Eastern_V_O_Offroad_UP",
+            "TACU_Seven_Rings_Eastern_V_O_Offroad_UP_Armed",
+            "TACU_Seven_Rings_Eastern_V_O_Offroad_UP_AT",
+            "TACU_Seven_Rings_Eastern_V_O_Otokar",
+            "TACU_Seven_Rings_Eastern_V_O_Otokar_HMG",
+            "TACU_Seven_Rings_Eastern_V_O_Otokar_M2"
         };
         weapons[] = {
+            // Eastern Weapons
             "TACU_Seven_Rings_Eastern_W_Katiba",
             "TACU_Seven_Rings_Eastern_W_Katiba_Carbine",
             "TACU_Seven_Rings_Eastern_W_Katiba_GL",
@@ -221,6 +241,7 @@ class CfgPatches {
             "TACU_Seven_Rings_Eastern_W_Type115",
             "TACU_Seven_Rings_Eastern_W_Cyrus",
             "TACU_Seven_Rings_Eastern_W_HK121",
+            // Western Weapons
             "TACU_Seven_Rings_Western_W_MSBS",
             "TACU_Seven_Rings_Western_W_MSBS_GL",
             "TACU_Seven_Rings_Western_W_MSBS_MR",

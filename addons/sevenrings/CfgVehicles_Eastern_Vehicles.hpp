@@ -7,44 +7,49 @@
 class TACU_Seven_Rings_Eastern_V_O_LSVMKII: TACU_LSV_MKII_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Black", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
 };
 class TACU_Seven_Rings_Eastern_V_O_LSVMKII_Armed: TACU_LSV_MKII_Armed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Black", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
 };
 class TACU_Seven_Rings_Eastern_V_O_LSVMKII_AT: TACU_LSV_MKII_Armed_AT_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Black", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
 };
 
 class TACU_Seven_Rings_Eastern_V_O_Karatel: TACU_Karatel_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Hex", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
 };
 class TACU_Seven_Rings_Eastern_V_O_Karatel_HMG: TACU_Karatel_HMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Hex", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
 };
 class TACU_Seven_Rings_Eastern_V_O_Karatel_GMG: TACU_Karatel_GMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Hex", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
 };
 
 class TACU_Seven_Rings_Eastern_V_O_Kamaz: TACU_Kamaz_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Brown", 1};
+    textureList[] = {"Seven_Rings_East", 1};
 };
 class TACU_Seven_Rings_Eastern_V_O_Kamaz_Covered: TACU_Kamaz_Covered_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Brown", 1};
+    textureList[] = {"Seven_Rings_East", 1};
+};
+class TACU_Seven_Rings_Eastern_V_O_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Seven_Rings_East", 1};
 };
 
 // Offroads
@@ -154,4 +159,21 @@ class TACU_Seven_Rings_Eastern_V_O_Offroad_UP_AT: TACU_Offroad_Armed_AT_UP_Base 
         "HideBackpacks", 1,
         "HideConstruction", 0
     };
+};
+
+// APCs
+class TACU_Seven_Rings_Eastern_V_O_Otokar: TACU_Otokar_ARMA_Unarmed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Seven_Rings_East", 1};
+};
+class TACU_Seven_Rings_Eastern_V_O_Otokar_HMG: TACU_Otokar_ARMA_HMG_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Seven_Rings_East", 1};
+};
+class TACU_Seven_Rings_Eastern_V_O_Otokar_M2: TACU_Otokar_ARMA_Armed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
+    textureList[] = {"Seven_Rings_East", 1};
 };

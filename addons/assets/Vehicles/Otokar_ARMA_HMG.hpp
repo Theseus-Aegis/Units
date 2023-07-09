@@ -31,6 +31,12 @@ class TACU_Otokar_ARMA_HMG_Base: O_APC_Wheeled_02_rcws_v2_F {
             };
             factions[] = {};
         };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {};
+        };
     };
 
     textureList[] = {

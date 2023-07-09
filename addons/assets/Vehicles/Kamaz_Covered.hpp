@@ -96,6 +96,12 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
                 "TACU_African_South_I"
             };
         };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {};
+        };
     };
 
     textureList[] = {

@@ -53,6 +53,12 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
             };
             factions[] = {};
         };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {};
+        };
     };
 
     textureList[] = {

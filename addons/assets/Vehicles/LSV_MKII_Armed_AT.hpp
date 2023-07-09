@@ -43,6 +43,12 @@ class TACU_LSV_MKII_Armed_AT_Base: O_LSV_02_AT_F {
             };
             factions[] = {};
         };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {};
+        };
     };
 
     textureList[] = {

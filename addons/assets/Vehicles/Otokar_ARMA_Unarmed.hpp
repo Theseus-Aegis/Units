@@ -56,6 +56,12 @@ class TACU_Otokar_ARMA_Unarmed_Base: O_APC_Wheeled_02_unarmed_lxWS {
             };
             factions[] = {};
         };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {};
+        };
     };
 
     textureList[] = {
