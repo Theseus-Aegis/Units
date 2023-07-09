@@ -36,6 +36,7 @@ class CfgPatches {
             "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Urban",
             "TACU_Police_Item_Helmet_PASGT_Neck_PoliceBlack",
             "TACU_Police_Item_Helmet_PASGT_Neck_PoliceGreen",
+            "TACU_South_Africa_Item_Helmet_PASGT_Green",
             // Vests
             "TACU_BAF_Item_Vest_LightPlateCarrier_Arid",
             "TACU_BAF_Item_Vest_LightPlateCarrier_Tropic",
@@ -177,6 +178,7 @@ class CfgPatches {
             "TACU_BAF_Helmet_EnhancedCombatHelmet_Urban",
             "TACU_Police_Helmet_PASGT_Neck_PoliceBlack",
             "TACU_Police_Helmet_PASGT_Neck_PoliceGreen",
+            "TACU_African_South_Helmet_PASGT_Green",
             // Vests
             "TACU_BAF_Vest_LightPlateCarrier_Arid",
             "TACU_BAF_Vest_LightPlateCarrier_Tropic",
