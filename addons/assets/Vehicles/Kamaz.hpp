@@ -104,7 +104,7 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
                 QPATHTOF(data\kamaz\truck_02_kuz_sre_co.paa),
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Seven_Rings_Eastern"};
         };
     };
 
