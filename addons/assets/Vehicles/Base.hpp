@@ -8,6 +8,8 @@ class B_FieldPack_Base;
 
 // Uniform Base
 class I_G_Soldier_LAT_F;
+class I_soldier_F;
+class I_Soldier_02_F;
 class I_C_Soldier_Bandit_2_F;
 class C_Uniform_ArtTShirt_01_v1_F;
 

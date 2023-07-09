@@ -166,6 +166,8 @@ class CfgPatches {
             "TACU_Police_Uniform_Combat_Blue",
             "TACU_Police_Uniform_Combat_Brown",
             "TACU_Police_Uniform_Combat_Green",
+            "TACU_African_South_Uniform_Combat_Fatigues",
+            "TACU_African_South_Uniform_Combat_Fatigues_Rolled",
             "TACU_Uniform_O_W_Cartel_Greek_Grunt_01",
             "TACU_Uniform_O_W_Cartel_Greek_Grunt_02",
             "TACU_Uniform_O_W_Cartel_Greek_Grunt_03",
