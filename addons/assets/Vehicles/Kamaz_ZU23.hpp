@@ -56,7 +56,16 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";
-            textures[] = {};
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_sre_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_sre_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+                "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+            };
             factions[] = {};
         };
     };

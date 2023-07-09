@@ -7,33 +7,33 @@
 class TACU_Seven_Rings_Eastern_V_O_LSVMKII: TACU_LSV_MKII_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1};
 };
 class TACU_Seven_Rings_Eastern_V_O_LSVMKII_Armed: TACU_LSV_MKII_Armed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1};
 };
 class TACU_Seven_Rings_Eastern_V_O_LSVMKII_AT: TACU_LSV_MKII_Armed_AT_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1};
 };
 
 class TACU_Seven_Rings_Eastern_V_O_Karatel: TACU_Karatel_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1};
 };
 class TACU_Seven_Rings_Eastern_V_O_Karatel_HMG: TACU_Karatel_HMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1};
 };
 class TACU_Seven_Rings_Eastern_V_O_Karatel_GMG: TACU_Karatel_GMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
-    textureList[] = {"Seven_Rings_East", 1}; // Needs a blank Tan one.
+    textureList[] = {"Seven_Rings_East", 1};
 };
 
 class TACU_Seven_Rings_Eastern_V_O_Kamaz: TACU_Kamaz_Base {
@@ -50,6 +50,15 @@ class TACU_Seven_Rings_Eastern_V_O_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_EASTERN_VEHICLE;
     textureList[] = {"Seven_Rings_East", 1};
+    animationList[] = {
+        "shield_hide", 0,
+        "hideCrates", 0,
+        "hideSpareWheel", 0,
+        "hideRoofRack", 1,
+        "hideBeacon_1", 0,
+        "hideBumper", 0,
+        "hideWindowProtector", 0
+    };
 };
 
 // Offroads

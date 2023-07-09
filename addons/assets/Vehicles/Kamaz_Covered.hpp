@@ -99,7 +99,11 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";
-            textures[] = {};
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_sre_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_sre_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
+            };
             factions[] = {};
         };
     };
