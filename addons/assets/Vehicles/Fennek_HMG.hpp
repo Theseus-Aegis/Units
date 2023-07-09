@@ -28,7 +28,7 @@ class TACU_Fennek_HMG_Base: I_MRAP_03_hmg_F {
         class South_African_Green {
             displayName = "South African Green";
             author = "GilleeDoo";
-            textures[] = {QPATHTOF(data\fennek\fennek_ext_sa_grn_co.paa), "\a3\data_f\vehicles\turret_co.paa"};
+            textures[] = {QPATHTOF(data\fennek\fennek_ext_sa_grn_co.paa), QPATHTOF(data\turrets\turret_sa_grn_co.paa)};
             factions[] = {
                 "TACU_African_South_B",
                 "TACU_African_South_O",

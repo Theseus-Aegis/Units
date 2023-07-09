@@ -28,7 +28,7 @@ class TACU_Fennek_Unarmed_Base: I_MRAP_03_F {
         class South_African_Green {
             displayName = "South African Green";
             author = "GilleeDoo";
-            textures[] = {QPATHTOF(data\fennek\fennek_ext_sa_grn_co.paa)};
+            textures[] = {QPATHTOF(data\fennek\fennek_ext_sa_grn_co.paa), QPATHTOF(data\turrets\turret_sa_grn_co.paa)};
             factions[] = {
                 "TACU_African_South_B",
                 "TACU_African_South_O",
