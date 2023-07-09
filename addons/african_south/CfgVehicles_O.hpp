@@ -50,3 +50,7 @@ class TACU_African_South_U_O_Spotter: TACU_African_South_U_B_Spotter {
     side = 0;
     faction = "TACU_African_South_O";
 };
+class TACU_African_South_U_O_Pilot: TACU_African_South_U_B_Pilot {
+    side = 0;
+    faction = "TACU_African_South_O";
+};

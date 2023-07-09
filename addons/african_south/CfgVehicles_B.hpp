@@ -385,3 +385,20 @@ class TACU_African_South_U_B_Spotter: TACU_African_South_U_B_Rifleman {
     };
     //EDITORPREVIEW(TACU_African_South_U_B_Spotter);
 };
+
+class TACU_African_South_U_B_Pilot: TACU_African_South_U_B_Rifleman {
+    displayName = "Pilot";
+    uniformClass = "tacs_Uniform_HeliPilotCoverall_Green";
+    backpack = "B_Parachute";
+    linkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "H_PilotHelmetHeli_I_E",
+        "V_Chestrig_oli"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "H_PilotHelmetHeli_I_E",
+        "V_Chestrig_oli"
+    };
+    CBA_facewearList[] = {};
+};
