@@ -88,7 +88,14 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
         class South_African_Green {
             displayName = "South African Green";
             author = "GilleeDoo";
-            textures[] = {};
+            textures[] = {
+                QPATHTOF(data\polaris\sa_lsv_01_grn_co.paa),
+                QPATHTOF(data\polaris\sa_lsv_02_grn_co.paa),
+                QPATHTOF(data\polaris\sa_lsv_03_grn_co.paa),
+                QPATHTOF(data\polaris\sa_lsv_adds_grn_co.paa),
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
+            };
             factions[] = {
                 "TACU_African_South_B",
                 "TACU_African_South_O",
@@ -98,7 +105,14 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
         class South_African_Tan {
             displayName = "South African Tan";
             author = "GilleeDoo";
-            textures[] = {};
+            textures[] = {
+                QPATHTOF(data\polaris\sa_lsv_01_tan_co.paa),
+                QPATHTOF(data\polaris\sa_lsv_02_tan_co.paa),
+                QPATHTOF(data\polaris\sa_lsv_03_tan_co.paa),
+                QPATHTOF(data\polaris\sa_lsv_adds_tan_co.paa),
+                "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
+                "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
+            };
             factions[] = {
                 "TACU_African_South_B",
                 "TACU_African_South_O",
