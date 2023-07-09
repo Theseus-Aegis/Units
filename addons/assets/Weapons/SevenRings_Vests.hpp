@@ -4,3 +4,8 @@ class TACU_Seven_Rings_Vest_Plate_Carrier_Full: V_PlateCarrierIA1_dgtl {
     displayName = "Plate Carrier Full";
     //hiddenSelectionsTextures[] = {QPATHTOF(data\vests\)};
 };
+
+class TACU_Seven_Rings_Vest_Plate_Carrier_Full_Green: TACU_Seven_Rings_Vest_Plate_Carrier_Full {
+    displayName = "Plate Carrier Full (Green)";
+    //hiddenSelectionsTextures[] = {QPATHTOF(data\vests\)};
+};
