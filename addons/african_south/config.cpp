@@ -64,6 +64,9 @@ class CfgPatches {
             "TACU_African_South_V_B_HMG_50",
             "TACU_African_South_V_B_HMG_50_Low",
             "TACU_African_South_V_B_Mini_Spike_Green",
+            "TACU_African_South_V_B_D30",
+            "TACU_African_South_V_B_FIM92",
+            "TACU_African_South_V_B_ZU23",
             // Independent Units
             "TACU_African_South_U_I_Rifleman",
             "TACU_African_South_U_I_CQB",
@@ -117,6 +120,9 @@ class CfgPatches {
             "TACU_African_South_V_I_HMG_50",
             "TACU_African_South_V_I_HMG_50_Low",
             "TACU_African_South_V_I_Mini_Spike_Green",
+            "TACU_African_South_V_I_D30",
+            "TACU_African_South_V_I_FIM92",
+            "TACU_African_South_V_I_ZU23",
             // Opfor Units
             "TACU_African_South_U_O_Rifleman",
             "TACU_African_South_U_O_CQB",
@@ -169,7 +175,10 @@ class CfgPatches {
             "TACU_African_South_V_O_MK6",
             "TACU_African_South_V_O_HMG_50",
             "TACU_African_South_V_O_HMG_50_Low",
-            "TACU_African_South_V_O_Mini_Spike_Green"
+            "TACU_African_South_V_O_Mini_Spike_Green",
+            "TACU_African_South_V_O_D30",
+            "TACU_African_South_V_O_FIM92",
+            "TACU_African_South_V_O_ZU23"
         };
         weapons[] = {
             "TACU_African_South_W_Green_XMS",
