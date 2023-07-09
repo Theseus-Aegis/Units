@@ -48,7 +48,7 @@ class TACU_African_South_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "", 0.8,
         "G_Combat_lxWS", 0.2
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_Rifleman);
+    EDITORPREVIEW(TACU_African_South_U_B_Rifleman);
 };
 
 class TACU_African_South_U_B_CQB: TACU_African_South_U_B_Rifleman {
@@ -77,7 +77,7 @@ class TACU_African_South_U_B_CQB: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_CQB);
+    EDITORPREVIEW(TACU_African_South_U_B_CQB);
 };
 
 class TACU_African_South_U_B_Medic: TACU_African_South_U_B_Rifleman {
@@ -86,7 +86,7 @@ class TACU_African_South_U_B_Medic: TACU_African_South_U_B_Rifleman {
     role = "CombatLifeSaver";
     attendant = 1;
     backpack = "TACU_African_South_B_Medic";
-    //EDITORPREVIEW(TACU_African_South_U_B_Medic);
+    EDITORPREVIEW(TACU_African_South_U_B_Medic);
 };
 
 class TACU_African_South_U_B_Demolitions: TACU_African_South_U_B_Rifleman {
@@ -96,7 +96,7 @@ class TACU_African_South_U_B_Demolitions: TACU_African_South_U_B_Rifleman {
     backpack = "TACU_African_South_B_Demolitions";
     canDeactivateMines = 1;
     engineer = 1;
-    //EDITORPREVIEW(TACU_African_South_U_B_Demolitions);
+    EDITORPREVIEW(TACU_African_South_U_B_Demolitions);
 };
 
 class TACU_African_South_U_B_Grenadier: TACU_African_South_U_B_Rifleman {
@@ -126,7 +126,7 @@ class TACU_African_South_U_B_Grenadier: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_Grenadier);
+    EDITORPREVIEW(TACU_African_South_U_B_Grenadier);
 };
 
 class TACU_African_South_U_B_Autorifleman: TACU_African_South_U_B_Rifleman {
@@ -155,7 +155,7 @@ class TACU_African_South_U_B_Autorifleman: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_Autorifleman);
+    EDITORPREVIEW(TACU_African_South_U_B_Autorifleman);
 };
 
 class TACU_African_South_U_B_Machinegunner: TACU_African_South_U_B_Rifleman {
@@ -185,7 +185,7 @@ class TACU_African_South_U_B_Machinegunner: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_Machinegunner);
+    EDITORPREVIEW(TACU_African_South_U_B_Machinegunner);
 };
 
 class TACU_African_South_U_B_Marksman: TACU_African_South_U_B_Rifleman {
@@ -213,7 +213,7 @@ class TACU_African_South_U_B_Marksman: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_Marksman);
+    EDITORPREVIEW(TACU_African_South_U_B_Marksman);
 };
 
 class TACU_African_South_U_B_TL: TACU_African_South_U_B_Rifleman {
@@ -243,7 +243,7 @@ class TACU_African_South_U_B_TL: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_TL);
+    EDITORPREVIEW(TACU_African_South_U_B_TL);
 };
 
 class TACU_African_South_U_B_AT: TACU_African_South_U_B_Rifleman {
@@ -277,7 +277,7 @@ class TACU_African_South_U_B_AT: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_AT);
+    EDITORPREVIEW(TACU_African_South_U_B_AT);
 };
 
 class TACU_African_South_U_B_AP: TACU_African_South_U_B_Rifleman {
@@ -311,7 +311,41 @@ class TACU_African_South_U_B_AP: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_AP);
+    EDITORPREVIEW(TACU_African_South_U_B_AP);
+};
+
+class TACU_African_South_U_B_AA: TACU_African_South_U_B_Rifleman {
+    displayName = "Rifleman (AA)";
+    icon = "iconManAT";
+    role = "MissileSpecialist";
+    backpack = "TACU_African_South_B_AA";
+    weapons[] = {
+        "launch_B_Titan_tna_F",
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "launch_B_Titan_tna_F",
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        "Titan_AA",
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        "Titan_AA",
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    EDITORPREVIEW(TACU_African_South_U_B_AA);
 };
 
 class TACU_African_South_U_B_Sniper: TACU_African_South_U_B_Rifleman {
@@ -347,7 +381,7 @@ class TACU_African_South_U_B_Sniper: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_Sniper);
+    EDITORPREVIEW(TACU_African_South_U_B_Sniper);
 };
 
 class TACU_African_South_U_B_Spotter: TACU_African_South_U_B_Rifleman {
@@ -383,7 +417,7 @@ class TACU_African_South_U_B_Spotter: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_African_South_U_B_Spotter);
+    EDITORPREVIEW(TACU_African_South_U_B_Spotter);
 };
 
 class TACU_African_South_U_B_Pilot: TACU_African_South_U_B_Rifleman {

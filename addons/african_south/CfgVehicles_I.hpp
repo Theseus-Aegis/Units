@@ -42,6 +42,10 @@ class TACU_African_South_U_I_AP: TACU_African_South_U_B_AP {
     side = 2;
     faction = "TACU_African_South_I";
 };
+class TACU_African_South_U_I_AA: TACU_African_South_U_B_AA {
+    side = 2;
+    faction = "TACU_African_South_I";
+};
 class TACU_African_South_U_I_Sniper: TACU_African_South_U_B_Sniper {
     side = 2;
     faction = "TACU_African_South_I";
