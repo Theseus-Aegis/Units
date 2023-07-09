@@ -52,4 +52,6 @@ class TACU_Fennek_GMG_Base: I_MRAP_03_gmg_F {
         "Indep", 1,
         "Vanguard", 0
     };
+
+    MACRO_EVENTHANDLERS;
 };
