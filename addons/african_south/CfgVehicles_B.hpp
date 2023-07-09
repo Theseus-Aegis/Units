@@ -53,10 +53,30 @@ class TACU_African_South_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
 
 class TACU_African_South_U_B_CQB: TACU_African_South_U_B_Rifleman {
     displayName = "CQB Specialist";
-    weapons[] = {};
-    respawnWeapons[] = {};
-    magazines[] = {};
-    respawnMagazines[] = {};
+    weapons[] = {
+        "TACU_African_South_W_Green_XMS_SG",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "TACU_African_South_W_Green_XMS_SG",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_4("6Rnd_12Gauge_Pellets"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_4("6Rnd_12Gauge_Pellets"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     //EDITORPREVIEW(TACU_African_South_U_B_CQB);
 };
 
@@ -65,7 +85,7 @@ class TACU_African_South_U_B_Medic: TACU_African_South_U_B_Rifleman {
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    backpack = ""; // To do!
+    backpack = "TACU_African_South_B_Medic";
     //EDITORPREVIEW(TACU_African_South_U_B_Medic);
 };
 
@@ -73,8 +93,9 @@ class TACU_African_South_U_B_Demolitions: TACU_African_South_U_B_Rifleman {
     displayName = "Demolitions";
     icon = "iconManExplosive";
     role = "Sapper";
-    backpack = ""; // To do!
+    backpack = "TACU_African_South_B_Demolitions";
     canDeactivateMines = 1;
+    engineer = 1;
     //EDITORPREVIEW(TACU_African_South_U_B_Demolitions);
 };
 
@@ -141,7 +162,7 @@ class TACU_African_South_U_B_Machinegunner: TACU_African_South_U_B_Rifleman {
     displayName = "Machinegunner";
     icon = "iconManMG";
     role = "MachineGunner";
-    backpack = ""; // To do!
+    backpack = "TACU_African_South_B_MG";
     weapons[] = {
         "TACU_African_South_W_SPW",
         "TACU_African_South_W_Green_FNX",
@@ -170,20 +191,58 @@ class TACU_African_South_U_B_Machinegunner: TACU_African_South_U_B_Rifleman {
 class TACU_African_South_U_B_Marksman: TACU_African_South_U_B_Rifleman {
     displayName = "Marksman";
     role = "Marksman";
-    weapons[] = {};
-    respawnWeapons[] = {};
-    magazines[] = {};
-    respawnMagazines[] = {};
+    weapons[] = {
+        "TACU_African_South_W_SLR",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "TACU_African_South_W_SLR",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        mag_7("20Rnd_762x51_slr_lxWS"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        mag_7("20Rnd_762x51_slr_lxWS"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     //EDITORPREVIEW(TACU_African_South_U_B_Marksman);
 };
 
 class TACU_African_South_U_B_TL: TACU_African_South_U_B_Rifleman {
     displayName = "Team Leader";
     icon = "iconManLeader";
-    weapons[] = {};
-    respawnWeapons[] = {};
-    magazines[] = {};
-    respawnMagazines[] = {};
+    weapons[] = {
+        "TACU_African_South_W_Green_XMS_GL",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "TACU_African_South_W_Green_XMS_GL",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_4("1Rnd_HE_Grenade_shell"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_4("1Rnd_HE_Grenade_shell"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     //EDITORPREVIEW(TACU_African_South_U_B_TL);
 };
 
@@ -191,11 +250,33 @@ class TACU_African_South_U_B_AT: TACU_African_South_U_B_Rifleman {
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    backpack = ""; // To do!
-    weapons[] = {};
-    respawnWeapons[] = {};
-    magazines[] = {};
-    respawnMagazines[] = {};
+    backpack = "TACU_African_South_B_AT";
+    weapons[] = {
+        "launch_MRAWS_green_rail_F",
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "launch_MRAWS_green_rail_F",
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        "MRAWS_HEAT_F",
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        "MRAWS_HEAT_F",
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     //EDITORPREVIEW(TACU_African_South_U_B_AT);
 };
 
@@ -203,32 +284,104 @@ class TACU_African_South_U_B_AP: TACU_African_South_U_B_Rifleman {
     displayName = "Rifleman (AP)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    backpack = ""; // To do!
-    weapons[] = {};
-    respawnWeapons[] = {};
-    magazines[] = {};
-    respawnMagazines[] = {};
+    backpack = "TACU_African_South_B_AP";
+    weapons[] = {
+        "launch_MRAWS_green_rail_F",
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "launch_MRAWS_green_rail_F",
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        "MRAWS_HE_F",
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        "MRAWS_HE_F",
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     //EDITORPREVIEW(TACU_African_South_U_B_AP);
 };
 
 class TACU_African_South_U_B_Sniper: TACU_African_South_U_B_Rifleman {
     displayName = "Sniper";
-    linkedItems[] = {};
-    respawnLinkedItems[] = {};
-    weapons[] = {};
-    respawnWeapons[] = {};
-    magazines[] = {};
-    respawnMagazines[] = {};
+    uniformClass = "U_B_FullGhillie_lsh";
+    linkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_Chestrig_oli"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_Chestrig_oli"
+    };
+    weapons[] = {
+        "TACU_African_South_W_Green_M200",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "TACU_African_South_W_Green_M200",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        mag_6("7Rnd_408_Mag"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        mag_6("7Rnd_408_Mag"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     //EDITORPREVIEW(TACU_African_South_U_B_Sniper);
 };
 
 class TACU_African_South_U_B_Spotter: TACU_African_South_U_B_Rifleman {
     displayName = "Spotter";
-    linkedItems[] = {};
-    respawnLinkedItems[] = {};
-    weapons[] = {};
-    respawnWeapons[] = {};
-    magazines[] = {};
-    respawnMagazines[] = {};
+    uniformClass = "U_B_FullGhillie_lsh";
+    linkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_Chestrig_oli"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_Chestrig_oli"
+    };
+    weapons[] = {
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "TACU_African_South_W_Green_XMS",
+        "TACU_African_South_W_Green_FNX",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     //EDITORPREVIEW(TACU_African_South_U_B_Spotter);
 };
