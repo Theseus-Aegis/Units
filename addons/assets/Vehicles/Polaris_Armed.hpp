@@ -85,6 +85,26 @@ class TACU_Polaris_Armed_Base: B_LSV_01_armed_F {
             };
             factions[] = {};
         };
+        class South_African_Green {
+            displayName = "South African Green";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
+        };
+        class South_African_Tan {
+            displayName = "South African Tan";
+            author = "GilleeDoo";
+            textures[] = {};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
+        };
     };
 
     textureList[] = {
