@@ -1,9 +1,9 @@
 class CfgGroups {
     class INDEP {
-        #include "CfgGroups_I.hpp"
+        #include "Western\CfgGroups_I.hpp"
     };
 
     class EAST {
-        #include "CfgGroups_O.hpp"
+        #include "Eastern\CfgGroups_O.hpp"
     };
 };

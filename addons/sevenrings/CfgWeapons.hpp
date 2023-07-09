@@ -23,6 +23,6 @@ class CfgWeapons {
     class MMG_02_black_F;
     class srifle_DMR_02_F;
 
-    #include "CfgWeapons_Eastern.hpp"
-    #include "CfgWeapons_Western.hpp"
+    #include "Eastern\CfgWeapons_Eastern.hpp"
+    #include "Western\CfgWeapons_Western.hpp"
 };
