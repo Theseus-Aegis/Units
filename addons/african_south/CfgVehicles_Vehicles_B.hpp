@@ -124,9 +124,17 @@ class TACU_African_South_V_B_Badger: TACU_Badger_IFV_Base {
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
     textureList[] = {"South_African_Green", 1};
 };
+class TACU_African_South_V_B_Badger_SLAT: TACU_African_South_V_B_Badger {
+    displayName = "Badger IFV SLAT";
+    animationList[] = {"showSLATHull", 1, "showSLATTurret", 1};
+};
 class TACU_African_South_V_B_Badger_Tan: TACU_African_South_V_B_Badger {
     editorSubcategory = "TACU_African_South_EdSubCat_Tan_APC";
     textureList[] = {"South_African_Tan", 1};
+};
+class TACU_African_South_V_B_Badger_Tan_SLAT: TACU_African_South_V_B_Badger_Tan {
+    displayName = "Badger IFV SLAT";
+    animationList[] = {"showSLATHull", 1, "showSLATTurret", 1};
 };
 
 // Rooikat
@@ -138,9 +146,17 @@ class TACU_African_South_V_B_Rooikat: TACU_Rooikat_Base {
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
     textureList[] = {"South_African_Green", 1};
 };
+class TACU_African_South_V_B_Rooikat_SLAT: TACU_African_South_V_B_Rooikat {
+    displayName = "Rooikat 120 SLAT";
+    animationList[] = {"showSLATHull", 1};
+};
 class TACU_African_South_V_B_Rooikat_Tan: TACU_African_South_V_B_Rooikat {
     editorSubcategory = "TACU_African_South_EdSubCat_Tan_APC";
-    textureList[] = {"South_African_Tan", 1};
+    textureList[] = {"Sand", 1};
+};
+class TACU_African_South_V_B_Rooikat_Tan_SLAT: TACU_African_South_V_B_Rooikat_Tan {
+    displayName = "Rooikat 120 SLAT";
+    animationList[] = {"showSLATHull", 1};
 };
 
 class TACU_African_South_V_B_Rooikat_UP: TACU_Rooikat_UP_Base {
@@ -153,7 +169,7 @@ class TACU_African_South_V_B_Rooikat_UP: TACU_Rooikat_UP_Base {
 };
 class TACU_African_South_V_B_Rooikat_UP_Tan: TACU_African_South_V_B_Rooikat_UP {
     editorSubcategory = "TACU_African_South_EdSubCat_Tan_APC";
-    textureList[] = {"South_African_Tan", 1};
+    textureList[] = {"Sand", 1};
 };
 
 // Leopard
@@ -168,4 +184,22 @@ class TACU_African_South_V_B_Leopard: TACU_Leopard_2SG_Base {
 class TACU_African_South_V_B_Leopard_Tan: TACU_African_South_V_B_Leopard {
     editorSubcategory = "TACU_African_South_EdSubCat_Tan_Tank";
     textureList[] = {"South_African_Tan", 1};
+};
+
+// Wildcat
+class TACU_African_South_V_B_Wildcat: TACU_Wildcat_Armed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_South_B";
+    side = 1;
+    crew = "TACU_African_South_U_B_Pilot";
+    typicalCargo[] = {"TACU_African_South_U_B_Pilot"};
+    textureList[] = {"Green", 1};
+};
+class TACU_African_South_V_B_Wildcat_Unarmed: TACU_Wildcat_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_South_B";
+    side = 1;
+    crew = "TACU_African_South_U_B_Pilot";
+    typicalCargo[] = {"TACU_African_South_U_B_Pilot"};
+    textureList[] = {"Green", 1};
 };

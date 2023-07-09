@@ -46,3 +46,10 @@ class TACU_African_South_B_AP: B_FieldPack_oli {
         MACRO_ADDMAGAZINE(MRAWS_HE_F,3);
     };
 };
+class TACU_African_South_B_AA: B_FieldPack_oli {
+    scope = 1;
+    scopeCurator = 1;
+    class TransportMagazines {
+        MACRO_ADDMAGAZINE(Titan_AA,2);
+    };
+};
