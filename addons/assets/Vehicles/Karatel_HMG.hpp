@@ -30,8 +30,12 @@ class TACU_Karatel_HMG_Base: O_MRAP_02_hmg_F {
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";
-            textures[] = {};
-            factions[] = {};
+            textures[] = {
+                QPATHTOF(data\karatel\karatel_ext_01_sre_co.paa),
+                QPATHTOF(data\karatel\karatel_ext_02_sre_co.paa),
+                QPATHTOF(data\turrets\turret_sre_co.paa)
+            };
+            factions[] = {"TACU_Seven_Rings_Eastern"};
         };
     };
 
