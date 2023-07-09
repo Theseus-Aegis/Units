@@ -6,6 +6,7 @@ class CfgWorlds {
         #include "Names\PolishNames.hpp"
         #include "Names\SlovakianNames.hpp"
         #include "Names\SomaliNames.hpp"
+        #include "Names\SouthAfricanNames.hpp"
         #include "Names\TalibanNames.hpp"
     };
 };

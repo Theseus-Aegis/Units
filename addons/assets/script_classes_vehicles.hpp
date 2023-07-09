@@ -69,7 +69,15 @@ class TACU_Wiesel_Armed_Base;
 class TACU_Wildcat_Armed_Base;
 class TACU_Wildcat_Base;
 
-// Turrets
+// Turrets - Vanilla
+class TACU_Assets_HMG_50;
+class TACU_Assets_HMG_50_Low;
+class TACU_Assets_Mini_Spike_Brown;
+class TACU_Assets_Mini_Spike_Green;
+class TACU_Assets_Mini_Spike_Sand;
+class TACU_Assets_MK6_Base;
+
+// Turrets - CUP
 class TACU_Assets_AGS_base;
 class TACU_Assets_D30_base;
 class TACU_Assets_D30AT_base;

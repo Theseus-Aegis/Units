@@ -33,10 +33,14 @@ class TACU_Rooikat_UP_Base: B_afv_wheeled_01_up_cannon_F {
                 "a3\armor_f\data\camonet_nato_green_co.paa",
                 "a3\armor_f_tank\afv_wheeled_01\Data\afv_wheeled_01_EXT3_co.paa"
             };
-            factions[] = {};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
         };
         class South_African_Green {
-            displayName = "SA - Green";
+            displayName = "South African Green";
             author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\rooikat\afv_wheeled_01_ext1_sa_grn_co.paa),
@@ -47,7 +51,11 @@ class TACU_Rooikat_UP_Base: B_afv_wheeled_01_up_cannon_F {
                 "a3\armor_f\data\camonet_nato_green_co.paa",
                 QPATHTOF(data\rooikat\afv_wheeled_01_ext3_sa_grn_co.paa)
             };
-            factions[] = {};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
         };
     };
 
