@@ -27,6 +27,22 @@ class TACU_African_South_I {
             MACRO_UNIT3(TACU_African_South_U_I_Rifleman,2);
         };
 
+        class TACU_African_South_AT_I: TACU_African_South_Patrol_I {
+            name = "AT Team";
+            MACRO_UNIT0(TACU_African_South_U_I_TL,2);
+            MACRO_UNIT1(TACU_African_South_U_I_AT,2);
+            MACRO_UNIT2(TACU_African_South_U_I_AT,2);
+            MACRO_UNIT3(TACU_African_South_U_I_Rifleman,2);
+        };
+
+        class TACU_African_South_AA_I: TACU_African_South_Patrol_I {
+            name = "AA Team";
+            MACRO_UNIT0(TACU_African_South_U_I_TL,2);
+            MACRO_UNIT1(TACU_African_South_U_I_AA,2);
+            MACRO_UNIT2(TACU_African_South_U_I_AA,2);
+            MACRO_UNIT3(TACU_African_South_U_I_Rifleman,2);
+        };
+
         class TACU_African_South_Squad_I: TACU_African_South_Patrol_I {
             name = "Squad";
             MACRO_UNIT0(TACU_African_South_U_I_TL,2);
