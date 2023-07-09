@@ -8,7 +8,7 @@ class TACU_African_South_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     genericNames = "TACU_SouthAfricanNames";
     icon = "iconMan";
     role = "Rifleman";
-    uniformClass = "U_I_C_Soldier_Camo_F";
+    uniformClass = "TACU_African_South_Uniform_Combat_Fatigues";
     items[] = {"ACE_NVG_Gen4_Green"};
     respawnItems[] = {"ACE_NVG_Gen4_Green"};
     linkedItems[] = {
@@ -93,6 +93,7 @@ class TACU_African_South_U_B_Demolitions: TACU_African_South_U_B_Rifleman {
     displayName = "Demolitions";
     icon = "iconManExplosive";
     role = "Sapper";
+    uniformClass = "TACU_African_South_Uniform_Combat_Fatigues_Rolled";
     backpack = "TACU_African_South_B_Demolitions";
     canDeactivateMines = 1;
     engineer = 1;
@@ -162,6 +163,7 @@ class TACU_African_South_U_B_Machinegunner: TACU_African_South_U_B_Rifleman {
     displayName = "Machinegunner";
     icon = "iconManMG";
     role = "MachineGunner";
+    uniformClass = "TACU_African_South_Uniform_Combat_Fatigues_Rolled";
     backpack = "TACU_African_South_B_MG";
     weapons[] = {
         "TACU_African_South_W_SPW",
@@ -191,6 +193,7 @@ class TACU_African_South_U_B_Machinegunner: TACU_African_South_U_B_Rifleman {
 class TACU_African_South_U_B_Marksman: TACU_African_South_U_B_Rifleman {
     displayName = "Marksman";
     role = "Marksman";
+    uniformClass = "TACU_African_South_Uniform_Combat_Fatigues_Rolled";
     weapons[] = {
         "TACU_African_South_W_SLR",
         "TACU_African_South_W_Green_FNX",
@@ -318,6 +321,7 @@ class TACU_African_South_U_B_AA: TACU_African_South_U_B_Rifleman {
     displayName = "Rifleman (AA)";
     icon = "iconManAT";
     role = "MissileSpecialist";
+    uniformClass = "TACU_African_South_Uniform_Combat_Fatigues_Rolled";
     backpack = "TACU_African_South_B_AA";
     weapons[] = {
         "launch_B_Titan_tna_F",
