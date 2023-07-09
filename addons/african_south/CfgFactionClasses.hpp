@@ -11,3 +11,15 @@ class CfgFactionClasses {
         side = 2;
     };
 };
+
+class CfgEditorSubcategories {
+    class TACU_African_South_EdSubCat_Tan_APC {
+        displayName = "APCs (Tan)";
+    };
+    class TACU_African_South_EdSubCat_Tan_Car {
+        displayName = "Cars (Tan)";
+    };
+    class TACU_African_South_EdSubCat_Tan_Tank {
+        displayName = "Tanks (Tan)";
+    };
+};
