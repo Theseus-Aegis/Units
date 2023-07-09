@@ -39,7 +39,7 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
                 QPATHTOF(data\badger\apc_wheeled_01_adds_sa_grn_co.paa),
                 QPATHTOF(data\badger\apc_wheeled_01_tows_sa_grn_co.paa),
                 "a3\armor_f\data\camonet_nato_green_co.paa",
-                "a3\armor_f\data\cage_olive_co.paa"
+                QPATHTOF(data\badger\cage_g1_sa_grn_co.paa)
             };
             factions[] = {};
         };
