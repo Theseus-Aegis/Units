@@ -1,6 +1,7 @@
 class Uniform_Base;
 class UniformItem;
 class H_HelmetSpecB;
+class H_PASGT_basic_olive_F;
 class H_PASGT_neckprot_blue_press_F;
 class V_PlateCarrier1_blk;
 class V_PlateCarrierIAGL_oli;
