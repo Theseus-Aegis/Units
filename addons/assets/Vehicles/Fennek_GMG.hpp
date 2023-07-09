@@ -25,6 +25,26 @@ class TACU_Fennek_GMG_Base: I_MRAP_03_gmg_F {
             textures[] = {QPATHTOF(data\fennek\vanguard_v_strider_co.paa), "\a3\data_f\vehicles\turret_co.paa"};
             factions[] = {"TACU_Vanguard", "TACU_Vanguard_O"};
         };
+        class South_African_Green {
+            displayName = "South African Green";
+            author = "GilleeDoo";
+            textures[] = {QPATHTOF(data\fennek\fennek_ext_sa_grn_co.paa), "\a3\data_f\vehicles\turret_co.paa"};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
+        };
+        class South_African_Tan {
+            displayName = "South African Tan";
+            author = "GilleeDoo";
+            textures[] = {QPATHTOF(data\fennek\fennek_ext_sa_tan_co.paa), "\a3\data_f\vehicles\turret_co.paa"};
+            factions[] = {
+                "TACU_African_South_B",
+                "TACU_African_South_O",
+                "TACU_African_South_I"
+            };
+        };
     };
 
     textureList[] = {
