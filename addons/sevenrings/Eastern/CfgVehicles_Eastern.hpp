@@ -14,12 +14,12 @@ class TACU_Seven_Rings_Eastern_U_O_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     respawnItems[] = {"ACE_NVG_Gen4"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "TACU_Seven_Rings_Vest_Plate_Carrier_Full",
+        "TACU_Seven_Rings_Vest_Plate_Carrier_Coyote",
         "H_turban_02_mask_black_lxws"
     };
     respawnLinkedItems[] = {
         DEFAULT_ITEMS_RADIO,
-        "TACU_Seven_Rings_Vest_Plate_Carrier_Full",
+        "TACU_Seven_Rings_Vest_Plate_Carrier_Coyote",
         "H_turban_02_mask_black_lxws"
     };
     weapons[] = {
