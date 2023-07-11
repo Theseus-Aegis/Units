@@ -21,6 +21,14 @@ class TACU_Seven_Rings_O {
             MACRO_UNIT3(TACU_Seven_Rings_Eastern_U_O_Marksman,0);
         };
 
+        class TACU_Seven_Rings_AT_O: TACU_Seven_Rings_Patrol_O {
+            name = "AT Team";
+            MACRO_UNIT0(TACU_Seven_Rings_Eastern_U_O_Leader,0);
+            MACRO_UNIT1(TACU_Seven_Rings_Eastern_U_O_Medic,0);
+            MACRO_UNIT2(TACU_Seven_Rings_Eastern_U_O_AT,0);
+            MACRO_UNIT3(TACU_Seven_Rings_Eastern_U_O_AT,0);
+        };
+
         class TACU_Seven_Rings_Squad_O: TACU_Seven_Rings_Patrol_O {
             name = "Squad";
             MACRO_UNIT0(TACU_Seven_Rings_Eastern_U_O_Leader,0);
