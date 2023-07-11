@@ -202,6 +202,7 @@ class CfgPatches {
             "TACU_Seven_Rings_Western_U_I_Medic",
             "TACU_Seven_Rings_Western_U_I_Engineer",
             "TACU_Seven_Rings_Western_U_I_Driver",
+            "TACU_Seven_Rings_Western_U_I_Pilot",
             // Western Backpacks
             "TACU_Seven_Rings_Western_B_AT",
             "TACU_Seven_Rings_Western_B_AP",
