@@ -26,23 +26,23 @@ class TACU_Seven_Rings_Western_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     };
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -55,23 +55,23 @@ class TACU_Seven_Rings_Western_U_I_Rifleman_02: TACU_Seven_Rings_Western_U_I_Rif
     displayName = "Rifleman (AK-15)";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_AK15",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_AK15",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -82,25 +82,25 @@ class TACU_Seven_Rings_Western_U_I_CQB: TACU_Seven_Rings_Western_U_I_Rifleman_01
     displayName = "CQB Specialist";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS_SG",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS_SG",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
         mag_4("6Rnd_12Gauge_Pellets"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
         mag_4("6Rnd_12Gauge_Pellets"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -113,25 +113,25 @@ class TACU_Seven_Rings_Western_U_I_Leader: TACU_Seven_Rings_Western_U_I_Rifleman
     genericNames = "TACU_SlovakianNames";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS_GL",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS_GL",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -142,24 +142,26 @@ class TACU_Seven_Rings_Western_U_I_Marksman: TACU_Seven_Rings_Western_U_I_Riflem
     displayName = "Marksman";
     role = "Marksman";
     weapons[] = {
+        "Binocular",
         "TACU_Seven_Rings_Western_W_MSBS_MR",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
+        "Binocular",
         "TACU_Seven_Rings_Western_W_MSBS_MR",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -171,24 +173,26 @@ class TACU_Seven_Rings_Western_U_I_Sniper: TACU_Seven_Rings_Western_U_I_Rifleman
     role = "Marksman";
     genericNames = "TACU_SlovakianNames";
     weapons[] = {
+        "Binocular",
         "TACU_Seven_Rings_Western_W_Noreen",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
+        "Binocular",
         "TACU_Seven_Rings_Western_W_Noreen",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("10Rnd_338_Mag"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("10Rnd_338_Mag"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -203,26 +207,26 @@ class TACU_Seven_Rings_Western_U_I_AT: TACU_Seven_Rings_Western_U_I_Rifleman_01 
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
         "launch_RPG32_green_F",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
         "launch_RPG32_green_F",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         "RPG32_F",
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "RPG32_F",
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -237,26 +241,26 @@ class TACU_Seven_Rings_Western_U_I_AP: TACU_Seven_Rings_Western_U_I_Rifleman_01 
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
         "launch_RPG32_green_F",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
         "launch_RPG32_green_F",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         "RPG32_HE_F",
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "RPG32_HE_F",
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -271,26 +275,26 @@ class TACU_Seven_Rings_Western_U_I_AA: TACU_Seven_Rings_Western_U_I_Rifleman_01 
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
         "launch_B_Titan_olive_F",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
         "launch_B_Titan_olive_F",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         "Titan_AA",
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "Titan_AA",
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -303,25 +307,25 @@ class TACU_Seven_Rings_Western_U_I_Grenadier: TACU_Seven_Rings_Western_U_I_Rifle
     genericNames = "TACU_SlovakianNames";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS_GL",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS_GL",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -334,23 +338,23 @@ class TACU_Seven_Rings_Western_U_I_Autorifleman: TACU_Seven_Rings_Western_U_I_Ri
     role = "MachineGunner";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_AK15",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_AK15",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_4("tacgt_AI_75Rnd_762x39_Drum"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_4("tacgt_AI_75Rnd_762x39_Drum"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -364,23 +368,23 @@ class TACU_Seven_Rings_Western_U_I_Machinegunner: TACU_Seven_Rings_Western_U_I_R
     backpack = "TACU_Seven_Rings_Western_B_MG";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_Stoner99",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_Stoner99",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_2("tacgt_AI_200Rnd_65x39_Belt"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_2("tacgt_AI_200Rnd_65x39_Belt"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -395,23 +399,23 @@ class TACU_Seven_Rings_Western_U_I_Heavygunner: TACU_Seven_Rings_Western_U_I_Rif
     backpack = "TACU_Seven_Rings_Western_B_HG";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_LWMMG",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_LWMMG",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         "130Rnd_338_Mag",
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "130Rnd_338_Mag",
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -425,23 +429,23 @@ class TACU_Seven_Rings_Western_U_I_Demolitions: TACU_Seven_Rings_Western_U_I_Rif
     backpack = "TACU_Seven_Rings_Western_B_Demo";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_AK15K",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_AK15K",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -456,23 +460,23 @@ class TACU_Seven_Rings_Western_U_I_Medic: TACU_Seven_Rings_Western_U_I_Rifleman_
     backpack = "TACU_Seven_Rings_Western_B_Medic";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_AK15K",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_AK15K",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -488,23 +492,23 @@ class TACU_Seven_Rings_Western_U_I_Engineer: TACU_Seven_Rings_Western_U_I_Riflem
     backpack = "TACU_Seven_Rings_Western_B_Engineer";
     weapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Seven_Rings_Western_W_MSBS",
-        "CUP_hgun_M17_Black",
+        "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_65x39_GROT"),
-        mag_2("tacgt_AI_17Rnd_9x19_M17"),
+        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
@@ -514,4 +518,22 @@ class TACU_Seven_Rings_Western_U_I_Engineer: TACU_Seven_Rings_Western_U_I_Riflem
 class TACU_Seven_Rings_Western_U_I_Driver: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
     displayName = "Driver";
     //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Driver);
+};
+
+class TACU_Seven_Rings_Western_U_I_Pilot: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
+    displayName = "Pilot";
+    backpack = "B_Parachute";
+    linkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "H_PilotHelmetHeli_B",
+        "TACU_Seven_Rings_Vest_Plate_Carrier_Green"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "H_PilotHelmetHeli_B",
+        "TACU_Seven_Rings_Vest_Plate_Carrier_Green"
+    };
+    headgearList[] = {"H_PilotHelmetHeli_B", 1};
+    CBA_facewearList[] = {};
+    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Pilot);
 };
