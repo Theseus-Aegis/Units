@@ -46,8 +46,14 @@ class TACU_LSV_MKII_Base: O_LSV_02_unarmed_F {
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";
-            textures[] = {};
-            factions[] = {};
+            textures[] = {
+                QPATHTOF(data\lsvmkii\lsv_01_sre_co.paa),
+                QPATHTOF(data\lsvmkii\lsv_02_sre_co.paa),
+                QPATHTOF(data\lsvmkii\lsv_03_sre_co.paa),
+                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
+                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
+            };
+            factions[] = {"TACU_Seven_Rings_Eastern"};
         };
     };
 
