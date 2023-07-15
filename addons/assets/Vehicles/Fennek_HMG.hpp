@@ -45,6 +45,12 @@ class TACU_Fennek_HMG_Base: I_MRAP_03_hmg_F {
                 "TACU_African_South_I"
             };
         };
+        class Seven_Rings_West {
+            displayName = "Seven Rings West";
+            author = "GilleeDoo";
+            textures[] = {QPATHTOF(data\fennek\fennek_ext_srw_co.paa), QPATHTOF(data\turrets\turret_fennek_srw_co.paa)};
+            factions[] = {"TACU_Seven_Rings_Western"};
+        };
     };
 
     textureList[] = {
