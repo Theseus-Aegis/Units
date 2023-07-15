@@ -9,7 +9,6 @@ class CfgPatches {
         requiredAddons[] = {
             // Arma 3
             "A3_Data_F_AoW_Loadorder",
-            "A3_Data_F_Mod_Loadorder",
             // ACE
             "ace_explosives",
             "ace_flashsuppressors",
