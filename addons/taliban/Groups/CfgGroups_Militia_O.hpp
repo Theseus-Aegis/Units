@@ -18,6 +18,14 @@ class TACU_Taliban_Militia_Infantry_O {
         MACRO_UNIT3(TACU_Taliban_Militia_U_O_Machinegunner,0);
     };
 
+    class TACU_Taliban_Militia_ATTeam_O: TACU_Taliban_Militia_Patrol_O {
+        name = "AT Team";
+        MACRO_UNIT0(TACU_Taliban_Militia_U_O_Leader,0);
+        MACRO_UNIT1(TACU_Taliban_Militia_U_O_AT,0);
+        MACRO_UNIT2(TACU_Taliban_Militia_U_O_AT,0);
+        MACRO_UNIT3(TACU_Taliban_Militia_U_O_Rifleman_01,0);
+    };
+
     class TACU_Taliban_Militia_Squad_O: TACU_Taliban_Militia_Patrol_O {
         name = "Squad";
         MACRO_UNIT0(TACU_Taliban_Militia_U_O_Leader,0);

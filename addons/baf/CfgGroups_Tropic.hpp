@@ -9,11 +9,13 @@ class TACU_BAF_G_Tropic {
         MACRO_UNIT0(TACU_BAF_U_B_Tropic_TL,1);
         MACRO_UNIT1(TACU_BAF_U_B_Tropic_Scout,1);
     };
+
     class TACU_BAF_G_Tropic_Sniper_Team: TACU_BAF_G_Tropic_Patrol {
         name = "Sniper Team";
         MACRO_UNIT0(TACU_BAF_U_B_Tropic_Sniper,1);
         MACRO_UNIT1(TACU_BAF_U_B_Tropic_Spotter,1);
     };
+
     class TACU_BAF_G_Tropic_Fireteam: TACU_BAF_G_Tropic_Patrol {
         name = "Fireteam";
         MACRO_UNIT0(TACU_BAF_U_B_Tropic_TL,1);
@@ -21,6 +23,15 @@ class TACU_BAF_G_Tropic {
         MACRO_UNIT2(TACU_BAF_U_B_Tropic_Grenadier,1);
         MACRO_UNIT3(TACU_BAF_U_B_Tropic_Marksman,1);
     };
+
+    class TACU_BAF_G_Tropic_ATTeam: TACU_BAF_G_Tropic_Patrol {
+        name = "AT Team";
+        MACRO_UNIT0(TACU_BAF_U_B_Tropic_TL,1);
+        MACRO_UNIT1(TACU_BAF_U_B_Tropic_LAT,1);
+        MACRO_UNIT2(TACU_BAF_U_B_Tropic_LAT,1);
+        MACRO_UNIT3(TACU_BAF_U_B_Tropic_Scout,1);
+    };
+
     class TACU_BAF_G_Tropic_Squad: TACU_BAF_G_Tropic_Patrol {
         name = "Squad";
         MACRO_UNIT0(TACU_BAF_U_B_Tropic_TL,1);

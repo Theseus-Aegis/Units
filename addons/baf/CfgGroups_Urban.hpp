@@ -9,6 +9,7 @@ class TACU_BAF_G_Urban {
         MACRO_UNIT0(TACU_BAF_U_B_Urban_TL,1);
         MACRO_UNIT1(TACU_BAF_U_B_Urban_Scout,1);
     };
+
     class TACU_BAF_G_Urban_Fireteam: TACU_BAF_G_Urban_Patrol {
         name = "Fireteam";
         MACRO_UNIT0(TACU_BAF_U_B_Urban_TL,1);
@@ -16,6 +17,15 @@ class TACU_BAF_G_Urban {
         MACRO_UNIT2(TACU_BAF_U_B_Urban_Grenadier,1);
         MACRO_UNIT3(TACU_BAF_U_B_Urban_Marksman,1);
     };
+
+    class TACU_BAF_G_Urban_ATTeam: TACU_BAF_G_Tropic_Patrol {
+        name = "AT Team";
+        MACRO_UNIT0(TACU_BAF_U_B_Urban_TL,1);
+        MACRO_UNIT1(TACU_BAF_U_B_Urban_LAT,1);
+        MACRO_UNIT2(TACU_BAF_U_B_Urban_LAT,1);
+        MACRO_UNIT3(TACU_BAF_U_B_Urban_Scout,1);
+    };
+
     class TACU_BAF_G_Urban_Squad: TACU_BAF_G_Urban_Patrol {
         name = "Squad";
         MACRO_UNIT0(TACU_BAF_U_B_Urban_TL,1);

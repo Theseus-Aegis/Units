@@ -21,6 +21,14 @@ class TACU_Somali_Pirates_O {
             MACRO_UNIT3(TACU_Somali_Pirates_U_O_AT,0);
         };
 
+        class TACU_Somali_Pirates_ATTeam_O: TACU_Somali_Pirates_Patrol_O {
+            name = "AT Team";
+            MACRO_UNIT0(TACU_Somali_Pirates_U_O_Rifleman_03,0);
+            MACRO_UNIT1(TACU_Somali_Pirates_U_O_AT,0);
+            MACRO_UNIT2(TACU_Somali_Pirates_U_O_AT,0);
+            MACRO_UNIT3(TACU_Somali_Pirates_U_O_Rifleman_01,0);
+        };
+
         class TACU_Somali_Pirates_Squad_O: TACU_Somali_Pirates_Patrol_O {
             name = "Squad";
             MACRO_UNIT0(TACU_Somali_Pirates_U_O_Rifleman_05,0);

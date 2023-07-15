@@ -13,7 +13,7 @@ class EAST {
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Green_Rifleman_02,0);
             };
 
-            class TACU_Vanguard_G_O_Contractors_Green_Fireteam: TACU_Vanguard_G_Contractors_Green_Patrol {
+            class TACU_Vanguard_G_Contractors_Green_Fireteam: TACU_Vanguard_G_Contractors_Green_Patrol {
                 name = "Fireteam";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Green_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Green_Grenadier,0);
@@ -21,7 +21,15 @@ class EAST {
                 MACRO_UNIT3(TACU_Vanguard_U_O_Contractor_Green_Medic,0);
             };
 
-            class TACU_Vanguard_G_Contractors_Green_Squad: TACU_Vanguard_G_O_Contractors_Green_Fireteam {
+            class TACU_Vanguard_G_Contractors_Green_ATTeam: TACU_Vanguard_G_Contractors_Green_Patrol {
+                name = "AT Team";
+                MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Green_TeamLeader,0);
+                MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Green_Rifleman_AT,0);
+                MACRO_UNIT2(TACU_Vanguard_U_O_Contractor_Green_Rifleman_AT,0);
+                MACRO_UNIT3(TACU_Vanguard_U_O_Contractor_Green_Rifleman_01,0);
+            };
+
+            class TACU_Vanguard_G_Contractors_Green_Squad: TACU_Vanguard_G_Contractors_Green_Patrol {
                 name = "Squad";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Green_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Green_Rifleman_01,0);
@@ -43,7 +51,7 @@ class EAST {
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Sand_Rifleman_02,0);
             };
 
-            class TACU_Vanguard_G_O_Contractors_Sand_Fireteam: TACU_Vanguard_G_Contractors_Sand_Patrol {
+            class TACU_Vanguard_G_Contractors_Sand_Fireteam: TACU_Vanguard_G_Contractors_Sand_Patrol {
                 name = "Fireteam";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Sand_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Sand_Grenadier,0);
@@ -51,7 +59,15 @@ class EAST {
                 MACRO_UNIT3(TACU_Vanguard_U_O_Contractor_Sand_Medic,0);
             };
 
-            class TACU_Vanguard_G_O_Contractors_Sand_Squad: TACU_Vanguard_G_O_Contractors_Sand_Fireteam {
+            class TACU_Vanguard_G_Contractors_Sand_ATTeam: TACU_Vanguard_G_Contractors_Sand_Patrol {
+                name = "AT Team";
+                MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Sand_TeamLeader,0);
+                MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Sand_Rifleman_AT,0);
+                MACRO_UNIT2(TACU_Vanguard_U_O_Contractor_Sand_Rifleman_AT,0);
+                MACRO_UNIT3(TACU_Vanguard_U_O_Contractor_Sand_Rifleman_01,0);
+            };
+
+            class TACU_Vanguard_G_Contractors_Sand_Squad: TACU_Vanguard_G_Contractors_Sand_Patrol {
                 name = "Squad";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Sand_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Sand_Rifleman_01,0);
@@ -74,7 +90,7 @@ class EAST {
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Winter_Rifleman_02,0);
             };
 
-            class TACU_Vanguard_G_O_Contractors_Winter_Fireteam: TACU_Vanguard_G_Contractors_Winter_Patrol {
+            class TACU_Vanguard_G_Contractors_Winter_Fireteam: TACU_Vanguard_G_Contractors_Winter_Patrol {
                 name = "Fireteam";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Winter_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Winter_Grenadier,0);
@@ -82,7 +98,15 @@ class EAST {
                 MACRO_UNIT3(TACU_Vanguard_U_O_Contractor_Winter_Medic,0);
             };
 
-            class TACU_Vanguard_G_O_Contractors_Winter_Squad: TACU_Vanguard_G_O_Contractors_Winter_Fireteam {
+            class TACU_Vanguard_G_Contractors_Winter_ATTeam: TACU_Vanguard_G_Contractors_Winter_Patrol {
+                name = "AT Team";
+                MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Winter_TeamLeader,0);
+                MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Winter_Rifleman_AT,0);
+                MACRO_UNIT2(TACU_Vanguard_U_O_Contractor_Winter_Rifleman_AT,0);
+                MACRO_UNIT3(TACU_Vanguard_U_O_Contractor_Winter_Rifleman_01,0);
+            };
+
+            class TACU_Vanguard_G_Contractors_Winter_Squad: TACU_Vanguard_G_Contractors_Winter_Patrol {
                 name = "Squad";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Contractor_Winter_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Contractor_Winter_Rifleman_01,0);
@@ -105,7 +129,7 @@ class EAST {
                 MACRO_UNIT1(TACU_Vanguard_U_O_Specialist_Grenadier,0);
             };
 
-            class TACU_Vanguard_G_O_Specialists_Fireteam: TACU_Vanguard_G_Specialists_Patrol {
+            class TACU_Vanguard_G_Specialists_Fireteam: TACU_Vanguard_G_Specialists_Patrol {
                 name = "Fireteam";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Specialist_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Specialist_Grenadier,0);
@@ -113,7 +137,15 @@ class EAST {
                 MACRO_UNIT3(TACU_Vanguard_U_O_Specialist_Medic,0);
             };
 
-            class TACU_Vanguard_G_O_Specialists_Squad: TACU_Vanguard_G_O_Specialists_Fireteam {
+            class TACU_Vanguard_G_Specialists_ATTeam: TACU_Vanguard_G_Specialists_Patrol {
+                name = "AT Team";
+                MACRO_UNIT0(TACU_Vanguard_U_O_Specialist_TeamLeader,0);
+                MACRO_UNIT1(TACU_Vanguard_U_O_Specialist_Rifleman_AT,0);
+                MACRO_UNIT2(TACU_Vanguard_U_O_Specialist_Rifleman_AT,0);
+                MACRO_UNIT3(TACU_Vanguard_U_O_Specialist_Rifleman,0);
+            };
+
+            class TACU_Vanguard_G_Specialists_Squad: TACU_Vanguard_G_Specialists_Patrol {
                 name = "Squad";
                 MACRO_UNIT0(TACU_Vanguard_U_O_Specialist_TeamLeader,0);
                 MACRO_UNIT1(TACU_Vanguard_U_O_Specialist_Rifleman,0);
