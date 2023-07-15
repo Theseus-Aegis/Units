@@ -56,6 +56,7 @@ class CfgPatches {
             "TACU_Assets_TestUnit",
             // Vehicles
             "TACU_AH6_LittleBird_Base",
+            "TACU_Assault_Boat_Base",
             "TACU_Merlin_Base",
             "TACU_Badger_IFV_Base",
             "TACU_Bardelas_Base",

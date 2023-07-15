@@ -63,6 +63,7 @@ class Offroad_01_military_covered_base_F;
 class Offroad_02_AT_base_F;
 class Offroad_02_LMG_base_F;
 class Offroad_02_unarmed_base_F;
+class Rubber_duck_base_F;
 class Truck_01_base_F;
 class Truck_02_aa_base_lxWS;
 class Truck_02_base_F;

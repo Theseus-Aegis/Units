@@ -6,6 +6,7 @@ class TACU_Assets_Fieldpack_Urban;
 
 // Vehicles
 class TACU_AH6_LittleBird_Base;
+class TACU_Assault_Boat_Base;
 class TACU_Badger_IFV_Base;
 class TACU_Bardelas_Base;
 class TACU_Cargo_Van_Base;
