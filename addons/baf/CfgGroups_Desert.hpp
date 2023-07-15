@@ -1,7 +1,7 @@
 class TACU_BAF_G_Desert {
     name = "Group 12 (Sahara Desert)";
 
-    class TACU_BAF_G_Desert_Patrol {
+    class TACU_BAF_G_Patrol_Desert {
         name = "Patrol";
         side = 1;
         faction = "TACU_BAF_B";
@@ -9,14 +9,14 @@ class TACU_BAF_G_Desert {
         MACRO_UNIT0(TACU_BAF_U_B_Desert_TL,1);
         MACRO_UNIT1(TACU_BAF_U_B_Desert_Scout,1);
     };
-    class TACU_BAF_G_Desert_Fireteam: TACU_BAF_G_Desert_Patrol {
+    class TACU_BAF_G_Fireteam_Desert: TACU_BAF_G_Patrol_Desert {
         name = "Fireteam";
         MACRO_UNIT0(TACU_BAF_U_B_Desert_TL,1);
         MACRO_UNIT1(TACU_BAF_U_B_Desert_Medic,1);
         MACRO_UNIT2(TACU_BAF_U_B_Desert_Scout,1);
         MACRO_UNIT3(TACU_BAF_U_B_Desert_Marksman,1);
     };
-    class TACU_BAF_G_Desert_Squad: TACU_BAF_G_Desert_Patrol {
+    class TACU_BAF_G_Squad_Desert: TACU_BAF_G_Patrol_Desert {
         name = "Squad";
         MACRO_UNIT0(TACU_BAF_U_B_Desert_TL,1);
         MACRO_UNIT1(TACU_BAF_U_B_Desert_Medic,1);

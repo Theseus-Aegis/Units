@@ -4,7 +4,7 @@ class TACU_Seven_Rings_O {
     class TACU_Seven_Rings_Infantry_O {
         name = "Infantry";
 
-        class TACU_Seven_Rings_Patrol_O {
+        class TACU_Seven_Rings_G_Patrol {
             name = "Patrol";
             side = 0;
             faction = "TACU_Seven_Rings_Eastern";
@@ -13,7 +13,7 @@ class TACU_Seven_Rings_O {
             MACRO_UNIT1(TACU_Seven_Rings_Eastern_U_O_Rifleman_02,0);
         };
 
-        class TACU_Seven_Rings_Fireteam_O: TACU_Seven_Rings_Patrol_O {
+        class TACU_Seven_Rings_G_Fireteam: TACU_Seven_Rings_G_Patrol {
             name = "Fireteam";
             MACRO_UNIT0(TACU_Seven_Rings_Eastern_U_O_Leader,0);
             MACRO_UNIT1(TACU_Seven_Rings_Eastern_U_O_Medic,0);
@@ -21,7 +21,7 @@ class TACU_Seven_Rings_O {
             MACRO_UNIT3(TACU_Seven_Rings_Eastern_U_O_Marksman,0);
         };
 
-        class TACU_Seven_Rings_AT_O: TACU_Seven_Rings_Patrol_O {
+        class TACU_Seven_Rings_G_ATTeam: TACU_Seven_Rings_G_Patrol {
             name = "AT Team";
             MACRO_UNIT0(TACU_Seven_Rings_Eastern_U_O_Leader,0);
             MACRO_UNIT1(TACU_Seven_Rings_Eastern_U_O_Medic,0);
@@ -29,7 +29,7 @@ class TACU_Seven_Rings_O {
             MACRO_UNIT3(TACU_Seven_Rings_Eastern_U_O_AT,0);
         };
 
-        class TACU_Seven_Rings_Squad_O: TACU_Seven_Rings_Patrol_O {
+        class TACU_Seven_Rings_G_Squad: TACU_Seven_Rings_G_Patrol {
             name = "Squad";
             MACRO_UNIT0(TACU_Seven_Rings_Eastern_U_O_Leader,0);
             MACRO_UNIT1(TACU_Seven_Rings_Eastern_U_O_Medic,0);

@@ -1,7 +1,7 @@
 class TACU_Taliban_Militia_Infantry_I {
     name = "Infantry";
 
-    class TACU_Taliban_Militia_Patrol_I {
+    class TACU_Taliban_G_Patrol_Militia {
         name = "Patrol";
         side = 2;
         faction = "TACU_Taliban_Militia_I";
@@ -10,7 +10,7 @@ class TACU_Taliban_Militia_Infantry_I {
         MACRO_UNIT1(TACU_Taliban_Militia_U_I_Rifleman_03,2);
     };
 
-    class TACU_Taliban_Militia_Fireteam_I: TACU_Taliban_Militia_Patrol_I {
+    class TACU_Taliban_G_Fireteam_Militia: TACU_Taliban_G_Patrol_Militia {
         name = "Fireteam";
         MACRO_UNIT0(TACU_Taliban_Militia_U_I_Leader,2);
         MACRO_UNIT1(TACU_Taliban_Militia_U_I_Medic,2);
@@ -18,7 +18,7 @@ class TACU_Taliban_Militia_Infantry_I {
         MACRO_UNIT3(TACU_Taliban_Militia_U_I_Machinegunner,2);
     };
 
-    class TACU_Taliban_Militia_ATTeam_I: TACU_Taliban_Militia_Patrol_I {
+    class TACU_Taliban_G_ATTeam_Militia: TACU_Taliban_G_Patrol_Militia {
         name = "AT Team";
         MACRO_UNIT0(TACU_Taliban_Militia_U_I_Leader,2);
         MACRO_UNIT1(TACU_Taliban_Militia_U_I_AT,2);
@@ -26,7 +26,7 @@ class TACU_Taliban_Militia_Infantry_I {
         MACRO_UNIT3(TACU_Taliban_Militia_U_I_Rifleman_01,2);
     };
 
-    class TACU_Taliban_Militia_Squad_I: TACU_Taliban_Militia_Patrol_I {
+    class TACU_Taliban_G_Squad_Militia: TACU_Taliban_G_Patrol_Militia {
         name = "Squad";
         MACRO_UNIT0(TACU_Taliban_Militia_U_I_Leader,2);
         MACRO_UNIT1(TACU_Taliban_Militia_U_I_AT,2);

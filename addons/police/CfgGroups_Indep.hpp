@@ -3,7 +3,7 @@ class TACU_Police_I {
     class TACU_Police_G_I_CT {
         name = "Counter-Terrorists";
 
-        class TACU_Police_G_I_CT_Guards {
+        class TACU_Police_G_Guards_CT {
             name = "Guards";
             side = 2;
             faction = "TACU_Police_I";
@@ -12,7 +12,7 @@ class TACU_Police_I {
             MACRO_UNIT1(TACU_Police_U_I_CT_Rifleman,2);
         };
 
-        class TACU_Police_G_I_CT_Fireteam: TACU_Police_G_I_CT_Guards {
+        class TACU_Police_G_Fireteam_CT: TACU_Police_G_Guards_CT {
             name = "Fireteam";
             MACRO_UNIT0(TACU_Police_U_I_CT_Rifleman,2);
             MACRO_UNIT1(TACU_Police_U_I_CT_Breacher,2);
@@ -24,7 +24,7 @@ class TACU_Police_I {
     class TACU_Police_G_I_Enforcer {
         name = "Enforcer";
 
-        class TACU_Police_G_I_Enforcer_Guards {
+        class TACU_Police_G_Enforcer_Guards {
             name = "Guards";
             side = 2;
             faction = "TACU_Police_I";
@@ -33,7 +33,7 @@ class TACU_Police_I {
             MACRO_UNIT1(TACU_Police_U_I_Enforcer_SMG_2,2);
         };
 
-        class TACU_Police_G_I_Enforcer_Fireteam: TACU_Police_G_I_Enforcer_Guards {
+        class TACU_Police_G_Enforcer_Fireteam: TACU_Police_G_Enforcer_Guards {
             name = "Fireteam";
             MACRO_UNIT0(TACU_Police_U_I_Enforcer_Rifleman,2);
             MACRO_UNIT1(TACU_Police_U_I_Enforcer_Breacher,2);

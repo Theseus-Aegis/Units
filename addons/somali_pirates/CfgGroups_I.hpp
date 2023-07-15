@@ -4,7 +4,7 @@ class TACU_Somali_Pirates_I {
     class TACU_Somali_Pirates_Infantry_I {
         name = "Infantry";
 
-        class TACU_Somali_Pirates_Patrol_I {
+        class TACU_Somali_Pirates_G_Patrol {
             name = "Patrol";
             side = 2;
             faction = "TACU_Somali_I";
@@ -13,7 +13,7 @@ class TACU_Somali_Pirates_I {
             MACRO_UNIT1(TACU_Somali_Pirates_U_I_Rifleman_02,2);
         };
 
-        class TACU_Somali_Pirates_Fireteam_I: TACU_Somali_Pirates_Patrol_I {
+        class TACU_Somali_Pirates_G_Fireteam: TACU_Somali_Pirates_G_Patrol {
             name = "Fireteam";
             MACRO_UNIT0(TACU_Somali_Pirates_U_I_Rifleman_03,2);
             MACRO_UNIT1(TACU_Somali_Pirates_U_I_Rifleman_04,2);
@@ -21,7 +21,7 @@ class TACU_Somali_Pirates_I {
             MACRO_UNIT3(TACU_Somali_Pirates_U_I_AT,2);
         };
 
-        class TACU_Somali_Pirates_ATTeam_I: TACU_Somali_Pirates_Patrol_I {
+        class TACU_Somali_Pirates_G_ATTeam: TACU_Somali_Pirates_G_Patrol {
             name = "AT Team";
             MACRO_UNIT0(TACU_Somali_Pirates_U_I_Rifleman_01,2);
             MACRO_UNIT1(TACU_Somali_Pirates_U_I_AT,2);
@@ -29,7 +29,7 @@ class TACU_Somali_Pirates_I {
             MACRO_UNIT3(TACU_Somali_Pirates_U_I_Rifleman_03,2);
         };
 
-        class TACU_Somali_Pirates_Squad_I: TACU_Somali_Pirates_Patrol_I {
+        class TACU_Somali_Pirates_G_Squad: TACU_Somali_Pirates_G_Patrol {
             name = "Squad";
             MACRO_UNIT0(TACU_Somali_Pirates_U_I_Rifleman_05,2);
             MACRO_UNIT1(TACU_Somali_Pirates_U_I_Rifleman_06,2);
