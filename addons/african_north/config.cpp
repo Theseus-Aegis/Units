@@ -19,6 +19,7 @@ class CfgPatches {
             "TACU_African_North_U_B_Marksman",
             "TACU_African_North_U_B_Teamleader",
             // Blufor Vehicles
+            "TACU_African_North_V_B_Assault_Boat",
             "TACU_African_North_V_B_Kasatka_Armed",
             "TACU_African_North_V_B_Kasatka_Armed_Green",
             "TACU_African_North_V_B_Kasatka_Armed_UP",
@@ -63,6 +64,7 @@ class CfgPatches {
             "TACU_African_North_U_O_Marksman",
             "TACU_African_North_U_O_Teamleader",
             // Opfor Vehicles
+            "TACU_African_North_V_O_Assault_Boat",
             "TACU_African_North_V_O_Kasatka_Armed",
             "TACU_African_North_V_O_Kasatka_Armed_Green",
             "TACU_African_North_V_O_Kasatka_Armed_UP",
@@ -107,6 +109,7 @@ class CfgPatches {
             "TACU_African_North_U_I_Marksman",
             "TACU_African_North_U_I_Teamleader",
             // Independent Vehicles
+            "TACU_African_North_V_I_Assault_Boat",
             "TACU_African_North_V_I_Kasatka_Armed",
             "TACU_African_North_V_I_Kasatka_Armed_Green",
             "TACU_African_North_V_I_Kasatka_Armed_UP",
