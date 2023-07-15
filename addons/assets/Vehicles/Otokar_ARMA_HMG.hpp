@@ -34,8 +34,14 @@ class TACU_Otokar_ARMA_HMG_Base: O_APC_Wheeled_02_rcws_v2_F {
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";
-            textures[] = {};
-            factions[] = {};
+            textures[] = {
+                QPATHTOF(data\otokar\otokar_ext_01_sre_co.paa),
+                QPATHTOF(data\otokar\otokar_ext_02_sre_co.paa),
+                QPATHTOF(data\turrets\turret_otokar_sre_co.paa),
+                "a3\armor_f\data\camonet_csat_hex_desert_co.paa",
+                "a3\armor_f\data\cage_csat_co.paa"
+            };
+            factions[] = {"TACU_Seven_Rings_Eastern"};
         };
     };
 
