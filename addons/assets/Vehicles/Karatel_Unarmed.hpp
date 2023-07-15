@@ -17,22 +17,19 @@ class TACU_Karatel_Unarmed_Base: O_MRAP_02_F {
             };
             factions[] = {};
         };
-        class GreenHex {
-            displayName = "Green Hex";
-            author = "Bohemia Interactive";
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
             textures[] = {
-                "\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_01_ghex_CO.paa",
-                "\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_02_ghex_CO.paa",
-                "\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
+                QPATHTOF(data\karatel\karatel_ext_01_sre_co.paa),
+                QPATHTOF(data\karatel\karatel_ext_02_sre_co.paa),
+                QPATHTOF(data\turrets\turret_karatel_sre_co.paa)
             };
-            factions[] = {};
+            factions[] = {"TACU_Seven_Rings_Eastern"};
         };
     };
 
-    textureList[] = {
-        "Hex", 1,
-        "GreenHex", 1
-    };
+    textureList[] = {"Hex", 1};
 
     MACRO_EVENTHANDLERS;
 };

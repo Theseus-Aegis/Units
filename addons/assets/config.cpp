@@ -200,6 +200,8 @@ class CfgPatches {
             "TACU_Police_Vest_PlateCarrier_PoliceBlack",
             "TACU_Police_Vest_PlateCarrier_PoliceBlue",
             "TACU_Police_Vest_PlateCarrier_PoliceGreen",
+            "TACU_Seven_Rings_Vest_Plate_Carrier_Coyote",
+            "TACU_Seven_Rings_Vest_Plate_Carrier_Green",
             "TACU_Vanguard_V_PlateCarrier_Earth",
             "TACU_Vanguard_V_PlateCarrier_Foliage",
             "TACU_Vanguard_V_PlateCarrier_Snow",

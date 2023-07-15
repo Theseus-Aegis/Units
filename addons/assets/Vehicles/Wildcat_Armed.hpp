@@ -17,7 +17,7 @@ class TACU_Wildcat_Armed_Base: I_Heli_light_03_dynamicLoadout_F {
             };
             factions[] = {};
         };
-        class Green {
+        class Green: Black {
             displayName = "Green";
             author = "Bohemia Interactive";
             textures[] = {
@@ -25,14 +25,19 @@ class TACU_Wildcat_Armed_Base: I_Heli_light_03_dynamicLoadout_F {
                 "a3\weapons_f\ammoboxes\data\ammobox_co.paa",
                 "a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa"
             };
-            factions[] = {};
+        };
+        class Seven_Rings_West: Black {
+            displayName = "Seven Rings West";
+            textures[] = {
+                QPATHTOF(data\wildcat\heli_light_03_base_srw_co.paa),
+                "a3\weapons_f\ammoboxes\data\ammobox_co.paa",
+                "a3\weapons_f\ammoboxes\data\ammobox_signs_ca.paa"
+            };
+            factions[] = {"TACU_Seven_Rings_Western"};
         };
     };
 
-    textureList[] = {
-        "Black", 1,
-        "Green", 1
-    };
+    textureList[] = {"Black", 1, "Green", 1};
 
     MACRO_EVENTHANDLERS;
 };

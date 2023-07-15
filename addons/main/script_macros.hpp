@@ -52,6 +52,10 @@
     scopeCurator = 2; \
     forceInGarage = 1
 
+#define MACRO_WEAPON_DEFAULTS \
+    scope = 1; \
+    scopeCurator = 1
+
 // Add Weapon, Item, Magazine to transport cargo (Vehicle, backpack etc.)
 #define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON { \
     weapon = #WEAPON; \
