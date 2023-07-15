@@ -28,6 +28,8 @@ class CfgPatches {
             "TACU_African_South_U_B_Spotter",
             "TACU_African_South_U_B_Pilot",
             // Blufor Vehicles
+            "TACU_African_South_V_B_Assault_Boat",
+            "TACU_African_South_V_B_Speedboat_Minigun",
             "TACU_African_South_V_B_Fennek",
             "TACU_African_South_V_B_Fennek_Tan",
             "TACU_African_South_V_B_Fennek_HMG",
@@ -84,6 +86,8 @@ class CfgPatches {
             "TACU_African_South_U_I_Spotter",
             "TACU_African_South_U_I_Pilot",
             // Independent Vehicles
+            "TACU_African_South_V_I_Assault_Boat",
+            "TACU_African_South_V_I_Speedboat_Minigun",
             "TACU_African_South_V_I_Fennek",
             "TACU_African_South_V_I_Fennek_Tan",
             "TACU_African_South_V_I_Fennek_HMG",
@@ -140,6 +144,8 @@ class CfgPatches {
             "TACU_African_South_U_O_Spotter",
             "TACU_African_South_U_O_Pilot",
             // Opfor Vehicles
+            "TACU_African_South_V_O_Assault_Boat",
+            "TACU_African_South_V_O_Speedboat_Minigun",
             "TACU_African_South_V_O_Fennek",
             "TACU_African_South_V_O_Fennek_Tan",
             "TACU_African_South_V_O_Fennek_HMG",
