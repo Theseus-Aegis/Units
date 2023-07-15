@@ -10,8 +10,16 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "TACU_Uniform_O_W_Cartel_Greek_Thug_01";
-    linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk", "H_Cap_blk"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_TacVest_blk", "H_Cap_blk"};
+    linkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_TacVest_blk",
+        "H_Cap_blk"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_TacVest_blk",
+        "H_Cap_blk"
+    };
     weapons[] = {"SMG_03C_black", "Throw", "Put"};
     respawnWeapons[] = {"SMG_03C_black", "Throw", "Put"};
     magazines[] = {mag_7("tacgt_AI_50Rnd_57x28"), mag_2("HandGrenade")};
@@ -56,10 +64,26 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_03: TACU_Cartel_Greek_U_O_Thug_Riflema
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_04: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
     displayName = "Thug (M79/MAC-10)";
     uniformClass = "TACU_Uniform_O_W_Cartel_Greek_Thug_04";
-    weapons[] = {"CUP_glaunch_M79", "CUP_hgun_Mac10", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_glaunch_M79", "CUP_hgun_Mac10", "Throw", "Put"};
-    magazines[] = {mag_7("1Rnd_HE_Grenade_shell"), mag_6("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
-    respawnMagazines[] = {mag_7("1Rnd_HE_Grenade_shell"), mag_6("tacgt_AI_30Rnd_45ACP_MAC10"), mag_2("HandGrenade")};
+    weapons[] = {
+        "CUP_glaunch_M79",
+        "CUP_hgun_Mac10",
+        "Throw", "Put"
+    };
+    respawnWeapons[] = {
+        "CUP_glaunch_M79",
+        "CUP_hgun_Mac10",
+        "Throw", "Put"
+    };
+    magazines[] = {
+        mag_7("1Rnd_HE_Grenade_shell"),
+        mag_6("tacgt_AI_30Rnd_45ACP_MAC10"),
+        mag_2("HandGrenade")
+    };
+    respawnMagazines[] = {
+        mag_7("1Rnd_HE_Grenade_shell"),
+        mag_6("tacgt_AI_30Rnd_45ACP_MAC10"),
+        mag_2("HandGrenade")
+    };
     EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_04);
 };
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_05: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
