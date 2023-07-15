@@ -17,16 +17,6 @@ class TACU_Karatel_GMG_Base: O_MRAP_02_gmg_F {
             };
             factions[] = {};
         };
-        class GreenHex {
-            displayName = "Green Hex";
-            author = "Bohemia Interactive";
-            textures[] = {
-                "\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_01_ghex_CO.paa",
-                "\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_02_ghex_CO.paa",
-                "\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
-            };
-            factions[] = {};
-        };
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";
@@ -39,10 +29,7 @@ class TACU_Karatel_GMG_Base: O_MRAP_02_gmg_F {
         };
     };
 
-    textureList[] = {
-        "Hex", 1,
-        "GreenHex", 1
-    };
+    textureList[] = {"Hex", 1};
 
     MACRO_EVENTHANDLERS;
 };

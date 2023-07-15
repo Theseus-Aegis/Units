@@ -21,9 +21,8 @@ class TACU_Otokar_ARMA_Armed_Base: O_APC_Wheeled_02_hmg_lxWS {
             };
             factions[] = {};
         };
-        class Black {
+        class Black: SFIA {
             displayName = "Black";
-            author = "Rotators Collective";
             textures[] = {
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_ext_01_black_co.paa",
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_ext_02_black_co.paa",
@@ -32,9 +31,8 @@ class TACU_Otokar_ARMA_Armed_Base: O_APC_Wheeled_02_hmg_lxWS {
                 "lxws\vehicles_f_lxws\data\apc_wheeled_01\cage_black_co.paa",
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_adds_02_black_co.paa"
             };
-            factions[] = {};
         };
-        class Sand {
+        class Sand: SFIA {
             displayName = "Sand";
             author = "Bohemia Interactive";
             textures[] = {
@@ -45,11 +43,9 @@ class TACU_Otokar_ARMA_Armed_Base: O_APC_Wheeled_02_hmg_lxWS {
                 "a3\armor_f\data\cage_sand_co.paa",
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_adds_02_nato_co.paa"
             };
-            factions[] = {};
         };
-        class Sand_Desert {
+        class Sand_Desert: SFIA {
             displayName = "Sand (Desert Camo Net)";
-            author = "Rotators Collective";
             textures[] = {
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_ext_01_nato_co.paa",
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_ext_02_nato_co.paa",
@@ -58,7 +54,6 @@ class TACU_Otokar_ARMA_Armed_Base: O_APC_Wheeled_02_hmg_lxWS {
                 "a3\armor_f\data\cage_sand_co.paa",
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_adds_02_nato_co.paa"
             };
-            factions[] = {};
         };
         class Seven_Rings_East {
             displayName = "Seven Rings East";

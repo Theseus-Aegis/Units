@@ -19,30 +19,6 @@ class TACU_LSV_MKII_Base: O_LSV_02_unarmed_F {
             };
             factions[] = {};
         };
-        class GreenHex {
-            displayName = "Green Hex";
-            author = "Bohemia Interactive";
-            textures[] = {
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
-            };
-            factions[] = {};
-        };
-        class Hex {
-            displayName = "Hex";
-            author = "Bohemia Interactive";
-            textures[] = {
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_arid_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_arid_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_arid_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
-            };
-            factions[] = {};
-        };
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";
@@ -57,11 +33,7 @@ class TACU_LSV_MKII_Base: O_LSV_02_unarmed_F {
         };
     };
 
-    textureList[] = {
-        "Black", 1,
-        "GreenHex", 1,
-        "Hex", 1
-    };
+    textureList[] = {"Black", 1};
 
     MACRO_EVENTHANDLERS;
 };
