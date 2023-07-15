@@ -2,16 +2,21 @@ class CfgVehicles {
     #include "\x\tacu\addons\assets\script_classes_vehicles.hpp"
 
     class TACU_Main_U_INDEP_Soldier_Base;
-    // Western Base Classes
-    class B_Boat_Transport_01_F;
+    class TACU_Main_U_OPFOR_Soldier_Base;
 
-    #include "CfgVehicles_Backpacks.hpp"
-    #include "CfgVehicles_I_Eastern.hpp"
-    #include "CfgVehicles_I_Eastern_Vehicles.hpp"
-    #include "CfgVehicles_I_Western.hpp"
-    #include "CfgVehicles_I_Western_Vehicles.hpp"
-    #include "CfgVehicles_O_Eastern.hpp"
-    #include "CfgVehicles_O_Eastern_Vehicles.hpp"
-    #include "CfgVehicles_O_Western.hpp"
-    #include "CfgVehicles_O_Western_Vehicles.hpp"
+    #include "Deprecated\backpacks.hpp"
+    #include "Deprecated\units.hpp"
+    #include "Deprecated\vehicles.hpp"
+
+    #include "Eastern\CfgVehicles_Eastern.hpp"
+    #include "Western\CfgVehicles_Western.hpp"
+
+    #include "Eastern\CfgVehicles_Eastern_Vehicles.hpp"
+    #include "Western\CfgVehicles_Western_Vehicles.hpp"
+
+    #include "Eastern\CfgVehicles_Eastern_Backpacks.hpp"
+    #include "Western\CfgVehicles_Western_Backpacks.hpp"
+
+    #include "Eastern\CfgVehicles_Eastern_Turrets.hpp"
+    #include "Western\CfgVehicles_Western_Turrets.hpp"
 };

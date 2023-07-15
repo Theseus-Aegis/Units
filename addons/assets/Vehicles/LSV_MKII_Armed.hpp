@@ -19,37 +19,21 @@ class TACU_LSV_MKII_Armed_Base: O_LSV_02_armed_F {
             };
             factions[] = {};
         };
-        class GreenHex {
-            displayName = "Green Hex";
-            author = "Bohemia Interactive";
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
             textures[] = {
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
-            };
-            factions[] = {};
-        };
-        class Hex {
-            displayName = "Hex";
-            author = "Bohemia Interactive";
-            textures[] = {
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_arid_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_arid_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_arid_CO.paa",
+                QPATHTOF(data\lsvmkii\lsv_01_sre_co.paa),
+                QPATHTOF(data\lsvmkii\lsv_02_sre_co.paa),
+                QPATHTOF(data\lsvmkii\lsv_03_sre_co.paa),
                 "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
                 "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Seven_Rings_Eastern"};
         };
     };
 
-    textureList[] = {
-        "Black", 1,
-        "GreenHex", 1,
-        "Hex", 1
-    };
+    textureList[] = {"Black", 1};
 
     MACRO_EVENTHANDLERS;
 };

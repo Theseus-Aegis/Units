@@ -8,21 +8,6 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
-        class Opfor {
-            displayName = "Hex";
-            author = "Bohemia Interactive";
-            textures[] = {
-                "\A3\soft_f_beta\Truck_02\Data\Truck_02_kab_opfor_co.paa",
-                "\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_opfor_CO.paa",
-                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_hex_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
-                "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
-            };
-            factions[] = {};
-        };
         class SFIA {
             displayName = "SFIA";
             author = "Rotators Collective";
@@ -38,9 +23,8 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
             };
             factions[] = {};
         };
-        class Brown {
+        class Brown: SFIA {
             displayName = "Brown";
-            author = "Rotators Collective";
             textures[] = {
                 "lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_brown_CO.paa",
                 "\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_olive_CO.paa",
@@ -51,15 +35,39 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
                 "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
                 "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
             };
-            factions[] = {};
+        };
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_sre_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_sre_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+                "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+            };
+            factions[] = {"TACU_Seven_Rings_Eastern"};
+        };
+        class Seven_Rings_West: Seven_Rings_East {
+            displayName = "Seven Rings West";
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_srw_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_srw_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+                "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+            };
+            factions[] = {"TACU_Seven_Rings_Western"};
         };
     };
 
-    textureList[] = {
-        "Opfor", 1,
-        "SFIA", 1,
-        "Brown", 1
-    };
+    textureList[] = {"SFIA", 1, "Brown", 1};
 
     MACRO_EVENTHANDLERS;
 };

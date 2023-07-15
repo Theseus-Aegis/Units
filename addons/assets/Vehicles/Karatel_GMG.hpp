@@ -11,28 +11,25 @@ class TACU_Karatel_GMG_Base: O_MRAP_02_gmg_F {
             displayName = "Hex";
             author = "Bohemia Interactive";
             textures[] = {
-                "\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-                "\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-                "\A3\Data_F\Vehicles\turret_opfor_co.paa"
+                "\a3\soft_f\mrap_02\data\mrap_02_ext_01_co.paa",
+                "\a3\soft_f\mrap_02\data\mrap_02_ext_02_co.paa",
+                "\a3\data_f\vehicles\turret_opfor_co.paa"
             };
             factions[] = {};
         };
-        class GreenHex {
-            displayName = "Green Hex";
-            author = "Bohemia Interactive";
+        class Seven_Rings_East {
+            displayName = "Seven Rings East";
+            author = "GilleeDoo";
             textures[] = {
-                "\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_01_ghex_CO.paa",
-                "\A3\Soft_F_Exp\MRAP_02\data\MRAP_02_ext_02_ghex_CO.paa",
-                "\A3\Data_F_Exp\Vehicles\Turret_ghex_CO.paa"
+                QPATHTOF(data\karatel\karatel_ext_01_sre_co.paa),
+                QPATHTOF(data\karatel\karatel_ext_02_sre_co.paa),
+                QPATHTOF(data\turrets\turret_karatel_sre_co.paa)
             };
-            factions[] = {};
+            factions[] = {"TACU_Seven_Rings_Eastern"};
         };
     };
 
-    textureList[] = {
-        "Hex", 1,
-        "GreenHex", 1
-    };
+    textureList[] = {"Hex", 1};
 
     MACRO_EVENTHANDLERS;
 };

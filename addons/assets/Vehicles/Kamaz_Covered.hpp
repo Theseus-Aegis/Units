@@ -7,16 +7,6 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
-        class Opfor {
-            displayName = "OPFOR";
-            author = "Bohemia Interactive";
-            textures[] = {
-                "\a3\soft_f_beta\truck_02\Data\truck_02_kab_opfor_co.paa",
-                "\a3\soft_f_beta\truck_02\Data\truck_02_kuz_opfor_co.paa",
-                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
-            };
-            factions[] = {};
-        };
         class Orange {
             displayName = "Orange";
             author = "Bohemia Interactive";
@@ -27,26 +17,13 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
             };
             factions[] = {};
         };
-        class Blue {
+        class Blue: Orange {
             displayName = "Blue";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_beta\truck_02\data\truck_02_kab_blue_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_kuz_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {};
-        };
-        class GreenHex {
-            displayName = "Green Hex";
-            author = "Bohemia Interactive";
-            textures[] = {
-                "\A3\soft_f_exp\truck_02\Data\truck_02_kab_GHEX_co.paa",
-                "\A3\soft_f_exp\truck_02\Data\truck_02_kuz_GHEX_co.paa",
-                "\A3\soft_f_beta\truck_02\Data\truck_02_int_co.paa",
-                "\A3\Soft_F_Beta\truck_02\data\truck_02_chassis_opfor_co.paa"
-            };
-            factions[] = {};
         };
         class Black {
             displayName = "Black";
@@ -58,15 +35,13 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
             };
             factions[] = {};
         };
-        class Brown {
+        class Brown: Black {
             displayName = "Brown";
-            author = "Rotators Collective";
             textures[] = {
                 "lxws\vehicles_f_lxws\data\truck_02\truck_02_kab_brown_co.paa",
                 "lxws\vehicles_f_lxws\data\truck_02\truck_02_kuz_africa_brown_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {};
         };
         class South_African_Green {
             displayName = "Green";
@@ -82,27 +57,37 @@ class TACU_Kamaz_Covered_Base: I_Truck_02_covered_F {
                 "TACU_African_South_I"
             };
         };
-        class South_African_Tan {
+        class South_African_Tan: South_African_Green {
             displayName = "Tan";
-            author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\kamaz\truck_02_kab_sa_tan_co.paa),
                 QPATHTOF(data\kamaz\truck_02_kuz_sa_tan_co.paa),
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {
-                "TACU_African_South_B",
-                "TACU_African_South_O",
-                "TACU_African_South_I"
+        };
+        class Seven_Rings_East: South_African_Green {
+            displayName = "Seven Rings East";
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_sre_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_sre_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
+            factions[] = {"TACU_Seven_Rings_Eastern"};
+        };
+        class Seven_Rings_West: South_African_Green {
+            displayName = "Seven Rings West";
+            textures[] = {
+                QPATHTOF(data\kamaz\truck_02_kab_srw_co.paa),
+                QPATHTOF(data\kamaz\truck_02_kuz_srw_co.paa),
+                "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
+            };
+            factions[] = {"TACU_Seven_Rings_Western"};
         };
     };
 
     textureList[] = {
-        "Opfor", 1,
         "Orange", 1,
         "Blue", 1,
-        "GreenHex", 1,
         "Black", 1,
         "Brown", 1
     };
