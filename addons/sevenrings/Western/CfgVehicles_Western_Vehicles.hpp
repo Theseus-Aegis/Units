@@ -57,6 +57,12 @@ class TACU_Seven_Rings_Western_V_I_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
     };
 };
 
+class TACU_Seven_Rings_Western_V_I_Truck: TACU_Truck_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_SEVEN_RINGS_WESTERN_VEHICLE;
+    textureList[] = {"Olive", 1};
+};
+
 class TACU_Seven_Rings_Western_V_I_Jeep: TACU_Jeep_Wrangler_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_SEVEN_RINGS_WESTERN_VEHICLE;

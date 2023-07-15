@@ -213,6 +213,20 @@ class CfgPatches {
             "TACU_Seven_Rings_Western_B_Medic",
             "TACU_Seven_Rings_Western_B_Demo",
             // Western Vehicles
+            "TACU_Seven_Rings_Western_V_I_Fennek",
+            "TACU_Seven_Rings_Western_V_I_Fennek_HMG",
+            "TACU_Seven_Rings_Western_V_I_Fennek_GMG",
+            "TACU_Seven_Rings_Western_V_I_Pandur",
+            "TACU_Seven_Rings_Western_V_I_Kamaz",
+            "TACU_Seven_Rings_Western_V_I_Kamaz_Covered",
+            "TACU_Seven_Rings_Western_V_I_Kamaz_ZU23",
+            "TACU_Seven_Rings_Western_V_I_Truck",
+            "TACU_Seven_Rings_Western_V_I_Jeep",
+            "TACU_Seven_Rings_Western_V_I_Jeep_Armed",
+            "TACU_Seven_Rings_Western_V_I_Jeep_AT",
+            "TACU_Seven_Rings_Western_V_I_Little_Bird",
+            "TACU_Seven_Rings_Western_V_I_Wildcat",
+            "TACU_Seven_Rings_Western_V_I_Wildcat_Unarmed",
             // Western Turrets
             // Eastern Units (Opfor)
             "TACU_Seven_Rings_Eastern_U_O_Rifleman_01",
