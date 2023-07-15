@@ -15,140 +15,108 @@ class TACU_Truck_Base: B_G_Van_01_transport_F {
                 "\a3\soft_f_gamma\van_01\data\van_01_adds_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
+            materials[] = {
+                "\a3\soft_f_gamma\van_01\data\van_01_ext.rvmat",
+                "\a3\soft_f_gamma\van_01\data\van_01_adds.rvmat",
+                "\a3\soft_f_gamma\van_01\data\van_01_int_base.rvmat"
+            };
             faction[] = {};
         };
-        class White {
+        class White: Black {
             displayName = "White";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_gamma\van_01\data\van_01_ext_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_adds_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Red {
+        class Red: Black {
             displayName = "Red";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_gamma\van_01\data\van_01_ext_red_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_adds_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_01 {
+        class Guerilla_01: Black {
             displayName = "Guerrilla 01";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_01_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_01_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_02 {
+        class Guerilla_02: Black {
             displayName = "Guerrilla 02";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_02_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_02_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_03 {
+        class Guerilla_03: Black {
             displayName = "Guerrilla 03";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_03_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_03_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_04 {
+        class Guerilla_04: Black {
             displayName = "Guerrilla 04";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_04_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_04_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_05 {
+        class Guerilla_05: Black {
             displayName = "Guerrilla 05";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_05_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_05_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_06 {
+        class Guerilla_06: Black {
             displayName = "Guerrilla 06";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_06_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_06_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_07 {
+        class Guerilla_07: Black {
             displayName = "Guerrilla 07";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_07_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_07_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Guerilla_08 {
+        class Guerilla_08: Black {
             displayName = "Guerrilla 08";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_bootcamp\van_01\data\van_01_ext_ig_08_co.paa",
                 "\a3\soft_f_bootcamp\van_01\data\van_01_adds_ig_08_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            faction[] = {};
         };
-        class Brown {
+        class Brown: Black {
             displayName = "Brown";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\Soft_F_Exp\van_01\data\van_01_ext_brn_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_adds_co.paa",
                 "\a3\Soft_F_Exp\van_01\data\van_01_int_base_2_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            factions[] = {};
         };
-        class Olive {
+        class Olive: Black {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\Soft_F_Exp\van_01\data\van_01_ext_oli_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_adds_co.paa",
                 "\a3\Soft_F_Exp\van_01\data\van_01_int_base_3_co.paa"
             };
-            materials[] = {MACRO_TRUCK_MATERIALS};
-            factions[] = {};
         };
     };
 

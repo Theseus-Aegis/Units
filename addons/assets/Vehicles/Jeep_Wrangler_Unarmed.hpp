@@ -11,97 +11,87 @@ class TACU_Jeep_Wrangler_Unarmed_Base: I_C_Offroad_02_unarmed_F {
             displayName = "Black";
             author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_black_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_black_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_black_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_black_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS};
+            materials[] = {
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_metal.rvmat",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_chrome.rvmat",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_metal.rvmat",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_chrome.rvmat"
+            };
             factions[] = {};
         };
-        class Blue {
+        class Blue: Black {
             displayName = "Blue";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_blue_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_blue_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_blue_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_blue_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_blue_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_blue_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_blue_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_blue_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS};
-            factions[] = {};
         };
-        class Green {
+        class Green: Black {
             displayName = "Green";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_green_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_green_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_green_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_green_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_green_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_green_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_green_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_green_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS};
-            factions[] = {};
         };
-        class Orange {
+        class Orange: Black {
             displayName = "Orange";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_orange_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_orange_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_orange_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_orange_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_orange_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_orange_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_orange_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_orange_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS};
-            factions[] = {};
         };
-        class Red {
+        class Red: Black {
             displayName = "Red";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_red_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_red_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_red_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_red_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_red_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_red_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_red_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_red_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS};
-            factions[] = {};
         };
-        class White {
+        class White: Black {
             displayName = "White";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_white_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_white_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_white_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_white_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_white_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_white_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS};
-            factions[] = {};
         };
-        class Brown {
+        class Brown: Black {
             displayName = "Brown";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_brown_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_brown_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_brown_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_brown_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS_ALT};
-            factions[] = {};
+            materials[] = {
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_2_metal.rvmat",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_chrome.rvmat",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_metal.rvmat",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_chrome.rvmat"
+            };
         };
-        class Olive {
+        class Olive: Brown {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa",
-                "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_olive_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_ext_olive_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_olive_co.paa",
+                "\a3\soft_f_exp\offroad_02\data\offroad_02_int_olive_co.paa"
             };
-            materials[] = {MACRO_WRANGLER_MATERIALS_ALT};
-            factions[] = {};
         };
     };
 

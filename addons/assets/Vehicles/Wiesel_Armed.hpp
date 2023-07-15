@@ -11,34 +11,30 @@ class TACU_Wiesel_Armed_Base: I_LT_01_cannon_F {
             displayName = "Olive (Jungle Camo Net)";
             author = "Bohemia Interactive";
             textures[] = {
-                "A3\armor_f_tank\lt_01\data\lt_01_main_olive_co.paa",
-                "A3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa",
-                "A3\Armor_F\Data\camonet_AAF_Digi_Jungle_CO.paa",
-                "A3\armor_f\data\cage_G1_co.paa"
+                "a3\armor_f_tank\lt_01\data\lt_01_main_olive_co.paa",
+                "a3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa",
+                "a3\armor_f\data\camonet_aaf_digi_jungle_co.paa",
+                "a3\armor_f\data\cage_g1_co.paa"
             };
             factions[] = {};
         };
-        class Olive_Desert {
+        class Olive_Desert: Olive_Jungle {
             displayName = "Olive (Desert Camo Net)";
-            author = "Bohemia Interactive";
             textures[] = {
-                "A3\armor_f_tank\lt_01\data\lt_01_main_olive_co.paa",
-                "A3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa",
-                "A3\Armor_F\Data\camonet_AAF_Digi_Desert_CO.paa",
-                "A3\armor_f\data\cage_G3_co.paa"
+                "a3\armor_f_tank\lt_01\data\lt_01_main_olive_co.paa",
+                "a3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa",
+                "a3\armor_f\data\camonet_aaf_digi_desert_co.paa",
+                "a3\armor_f\data\cage_g3_co.paa"
             };
-            factions[] = {};
         };
-        class Olive {
+        class Olive: Olive_Jungle {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
-                "A3\armor_f_tank\lt_01\data\lt_01_main_olive_co.paa",
-                "A3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa",
-                "A3\Armor_F\Data\camonet_AAF_Digi_Green_CO.paa",
-                "A3\armor_f\data\cage_olive_co.paa"
+                "a3\armor_f_tank\lt_01\data\lt_01_main_olive_co.paa",
+                "a3\armor_f_tank\lt_01\data\lt_01_cannon_olive_co.paa",
+                "a3\armor_f\data\camonet_aaf_digi_green_co.paa",
+                "a3\armor_f\data\cage_olive_co.paa"
             };
-            factions[] = {};
         };
     };
 

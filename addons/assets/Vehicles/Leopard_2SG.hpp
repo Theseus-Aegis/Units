@@ -18,9 +18,8 @@ class TACU_Leopard_2SG_Base: I_MBT_03_cannon_F {
             };
             factions[] = {};
         };
-        class Sand {
+        class Sand: Desert {
             displayName = "Sand";
-            author = "Mike";
             textures[] = {
                 QPATHTOF(data\leopard\mbt_03_ext01_sand_co.paa),
                 QPATHTOF(data\leopard\mbt_03_ext02_sand_co.paa),
@@ -28,16 +27,14 @@ class TACU_Leopard_2SG_Base: I_MBT_03_cannon_F {
                 QPATHTOF(data\leopard\camonet_desert_co.paa)
             };
         };
-        class Woodland {
+        class Woodland: Desert {
             displayName = "Woodland";
-            author = "Mike";
             textures[] = {
                 QPATHTOF(data\leopard\mbt_03_ext01_woodland_co.paa),
                 QPATHTOF(data\leopard\mbt_03_ext02_woodland_co.paa),
                 QPATHTOF(data\leopard\mbt_03_rcws_woodland_co.paa),
                 "a3\armor_f\data\camonet_aaf_digi_jungle_co.paa"
             };
-            factions[] = {};
         };
         class South_African_Green {
             displayName = "South African Green";
@@ -54,19 +51,13 @@ class TACU_Leopard_2SG_Base: I_MBT_03_cannon_F {
                 "TACU_African_South_I"
             };
         };
-        class South_African_Tan {
+        class South_African_Tan: South_African_Green {
             displayName = "South African Tan";
-            author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\leopard\mbt_03_ext01_sa_tan_co.paa),
                 QPATHTOF(data\leopard\mbt_03_ext02_sa_tan_co.paa),
                 QPATHTOF(data\leopard\mbt_03_rcws_sa_tan_co.paa),
                 QPATHTOF(data\leopard\camonet_desert_co.paa)
-            };
-            factions[] = {
-                "TACU_African_South_B",
-                "TACU_African_South_O",
-                "TACU_African_South_I"
             };
         };
     };

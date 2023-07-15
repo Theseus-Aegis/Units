@@ -18,16 +18,14 @@ class TACU_Namer_Base: B_APC_Tracked_01_rcws_F {
             };
             factions[] = {};
         };
-        class Olive {
+        class Olive: Sand {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
                 "a3\armor_f_exp\apc_tracked_01\data\apc_tracked_01_body_olive_co.paa",
                 "a3\armor_f_exp\apc_tracked_01\data\mbt_01_body_olive_co.paa",
                 "A3\data_f_exp\Vehicles\turret_olive_co.paa",
                 "a3\armor_f\data\camonet_nato_green_co.paa"
             };
-            factions[] = {};
         };
         class North_African_Yellow {
             displayName = "Yellow";
@@ -46,10 +44,7 @@ class TACU_Namer_Base: B_APC_Tracked_01_rcws_F {
         };
     };
 
-    textureList[] = {
-        "Sand", 1,
-        "Olive", 1
-    };
+    textureList[] = {"Sand", 1, "Olive", 1};
 
     MACRO_EVENTHANDLERS;
 };
