@@ -8,9 +8,9 @@ class TACU_Speedboat_Minigun_Base: Boat_Armed_01_minigun_base_F {
 
     // This property has to be set otherwise textureSources fail.
     hiddenSelectionsTextures[] = {
-        "\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_ext_co.paa",
-        "\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_int_co.paa",
-        "\A3\boat_f\Boat_Armed_01\data\Boat_Armed_01_crows_blufor_co.paa"
+        "\a3\boat_f\boat_armed_01\data\boat_armed_01_ext_co.paa",
+        "\a3\boat_f\boat_armed_01\data\boat_armed_01_int_co.paa",
+        "\a3\boat_f\boat_armed_01\data\boat_armed_01_crows_blufor_co.paa"
     };
 
     class TextureSources {

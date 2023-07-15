@@ -122,6 +122,7 @@ class CfgPatches {
             "TACU_Wildcat_Base",
             // Weapons
             "TACU_Assets_W_Item_HK416A5_Arid",
+            "TACU_Assets_W_Item_HK416A5_GL_Arid",
             "TACU_Assets_W_Item_HK417A2_Arid",
             // Turrets
             "TACU_Assets_MK6_Base",

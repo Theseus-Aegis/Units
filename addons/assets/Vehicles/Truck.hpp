@@ -105,17 +105,17 @@ class TACU_Truck_Base: B_G_Van_01_transport_F {
         class Brown: Black {
             displayName = "Brown";
             textures[] = {
-                "\a3\Soft_F_Exp\van_01\data\van_01_ext_brn_co.paa",
+                "\a3\soft_f_exp\van_01\data\van_01_ext_brn_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_adds_co.paa",
-                "\a3\Soft_F_Exp\van_01\data\van_01_int_base_2_co.paa"
+                "\a3\soft_f_exp\van_01\data\van_01_int_base_2_co.paa"
             };
         };
         class Olive: Black {
             displayName = "Olive";
             textures[] = {
-                "\a3\Soft_F_Exp\van_01\data\van_01_ext_oli_co.paa",
+                "\a3\soft_f_exp\van_01\data\van_01_ext_oli_co.paa",
                 "\a3\soft_f_gamma\van_01\data\van_01_adds_co.paa",
-                "\a3\Soft_F_Exp\van_01\data\van_01_int_base_3_co.paa"
+                "\a3\soft_f_exp\van_01\data\van_01_int_base_3_co.paa"
             };
         };
     };

@@ -23,7 +23,7 @@ class TACU_Namer_Base: B_APC_Tracked_01_rcws_F {
             textures[] = {
                 "a3\armor_f_exp\apc_tracked_01\data\apc_tracked_01_body_olive_co.paa",
                 "a3\armor_f_exp\apc_tracked_01\data\mbt_01_body_olive_co.paa",
-                "A3\data_f_exp\Vehicles\turret_olive_co.paa",
+                "a3\data_f_exp\vehicles\turret_olive_co.paa",
                 "a3\armor_f\data\camonet_nato_green_co.paa"
             };
         };

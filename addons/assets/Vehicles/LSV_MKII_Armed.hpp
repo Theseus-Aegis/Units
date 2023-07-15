@@ -11,11 +11,11 @@ class TACU_LSV_MKII_Armed_Base: O_LSV_02_armed_F {
             displayName = "Black";
             author = "Bohemia Interactive";
             textures[] = {
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_black_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa",
-                "\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
+                "\a3\soft_f_exp\lsv_02\data\csat_lsv_01_black_co.paa",
+                "\a3\soft_f_exp\lsv_02\data\csat_lsv_02_black_co.paa",
+                "\a3\soft_f_exp\lsv_02\data\csat_lsv_03_black_co.paa",
+                "\a3\weapons_f_tank\launchers\vorona\data\vorona_green_f_co.paa",
+                "\a3\weapons_f_tank\launchers\vorona\data\vorona_green_f_co.paa"
             };
             factions[] = {};
         };
@@ -26,8 +26,8 @@ class TACU_LSV_MKII_Armed_Base: O_LSV_02_armed_F {
                 QPATHTOF(data\lsvmkii\lsv_01_sre_co.paa),
                 QPATHTOF(data\lsvmkii\lsv_02_sre_co.paa),
                 QPATHTOF(data\lsvmkii\lsv_03_sre_co.paa),
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa",
-                "\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_F_CO.paa"
+                "\a3\weapons_f_tank\launchers\vorona\data\vorona_f_co.paa",
+                "\a3\weapons_f_tank\launchers\vorona\data\vorona_f_co.paa"
             };
             factions[] = {"TACU_Seven_Rings_Eastern"};
         };
