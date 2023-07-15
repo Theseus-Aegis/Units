@@ -48,7 +48,7 @@ class TACU_Seven_Rings_Western_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     };
     headgearList[] = {"H_HelmetHBK_F", 1};
     CBA_facewearList[] = {"G_Balaclava_oli", 1};
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Rifleman_01);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Rifleman_01);
 };
 
 class TACU_Seven_Rings_Western_U_I_Rifleman_02: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -75,7 +75,7 @@ class TACU_Seven_Rings_Western_U_I_Rifleman_02: TACU_Seven_Rings_Western_U_I_Rif
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Rifleman_02);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Rifleman_02);
 };
 
 class TACU_Seven_Rings_Western_U_I_CQB: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -104,7 +104,7 @@ class TACU_Seven_Rings_Western_U_I_CQB: TACU_Seven_Rings_Western_U_I_Rifleman_01
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_CQB);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_CQB);
 };
 
 class TACU_Seven_Rings_Western_U_I_Leader: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -135,7 +135,7 @@ class TACU_Seven_Rings_Western_U_I_Leader: TACU_Seven_Rings_Western_U_I_Rifleman
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Leader);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Leader);
 };
 
 class TACU_Seven_Rings_Western_U_I_Marksman: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -165,7 +165,7 @@ class TACU_Seven_Rings_Western_U_I_Marksman: TACU_Seven_Rings_Western_U_I_Riflem
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Marksman);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Marksman);
 };
 
 class TACU_Seven_Rings_Western_U_I_Sniper: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -196,7 +196,7 @@ class TACU_Seven_Rings_Western_U_I_Sniper: TACU_Seven_Rings_Western_U_I_Rifleman
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Sniper);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Sniper);
 };
 
 class TACU_Seven_Rings_Western_U_I_AT: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -230,7 +230,7 @@ class TACU_Seven_Rings_Western_U_I_AT: TACU_Seven_Rings_Western_U_I_Rifleman_01 
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AT);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AT);
 };
 
 class TACU_Seven_Rings_Western_U_I_AP: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -264,7 +264,7 @@ class TACU_Seven_Rings_Western_U_I_AP: TACU_Seven_Rings_Western_U_I_Rifleman_01 
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AP);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AP);
 };
 
 class TACU_Seven_Rings_Western_U_I_AA: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -298,7 +298,7 @@ class TACU_Seven_Rings_Western_U_I_AA: TACU_Seven_Rings_Western_U_I_Rifleman_01 
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AA);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AA);
 };
 
 class TACU_Seven_Rings_Western_U_I_Grenadier: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -329,7 +329,7 @@ class TACU_Seven_Rings_Western_U_I_Grenadier: TACU_Seven_Rings_Western_U_I_Rifle
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Grenadier);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Grenadier);
 };
 
 class TACU_Seven_Rings_Western_U_I_Autorifleman: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -358,7 +358,7 @@ class TACU_Seven_Rings_Western_U_I_Autorifleman: TACU_Seven_Rings_Western_U_I_Ri
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Autorifleman);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Autorifleman);
 };
 
 class TACU_Seven_Rings_Western_U_I_Machinegunner: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -388,7 +388,7 @@ class TACU_Seven_Rings_Western_U_I_Machinegunner: TACU_Seven_Rings_Western_U_I_R
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Machinegunner);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Machinegunner);
 };
 
 class TACU_Seven_Rings_Western_U_I_Heavygunner: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -419,7 +419,7 @@ class TACU_Seven_Rings_Western_U_I_Heavygunner: TACU_Seven_Rings_Western_U_I_Rif
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Heavygunner);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Heavygunner);
 };
 
 class TACU_Seven_Rings_Western_U_I_Demolitions: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -449,7 +449,7 @@ class TACU_Seven_Rings_Western_U_I_Demolitions: TACU_Seven_Rings_Western_U_I_Rif
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Demolitions);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Demolitions);
 };
 
 class TACU_Seven_Rings_Western_U_I_Medic: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -480,7 +480,7 @@ class TACU_Seven_Rings_Western_U_I_Medic: TACU_Seven_Rings_Western_U_I_Rifleman_
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Medic);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Medic);
 };
 
 class TACU_Seven_Rings_Western_U_I_Engineer: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -512,12 +512,12 @@ class TACU_Seven_Rings_Western_U_I_Engineer: TACU_Seven_Rings_Western_U_I_Riflem
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Engineer);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Engineer);
 };
 
 class TACU_Seven_Rings_Western_U_I_Driver: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
     displayName = "Driver";
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Driver);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Driver);
 };
 
 class TACU_Seven_Rings_Western_U_I_Pilot: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
@@ -535,5 +535,5 @@ class TACU_Seven_Rings_Western_U_I_Pilot: TACU_Seven_Rings_Western_U_I_Rifleman_
     };
     headgearList[] = {"H_PilotHelmetHeli_B", 1};
     CBA_facewearList[] = {};
-    //EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Pilot);
+    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_Pilot);
 };

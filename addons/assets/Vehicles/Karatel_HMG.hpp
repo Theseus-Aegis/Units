@@ -11,9 +11,9 @@ class TACU_Karatel_HMG_Base: O_MRAP_02_hmg_F {
             displayName = "Hex";
             author = "Bohemia Interactive";
             textures[] = {
-                "\A3\soft_F\MRAP_02\data\MRAP_02_ext_01_CO.paa",
-                "\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
-                "\A3\Data_F\Vehicles\turret_opfor_co.paa"
+                "\a3\soft_f\mrap_02\data\mrap_02_ext_01_co.paa",
+                "\a3\soft_f\mrap_02\data\mrap_02_ext_02_co.paa",
+                "\a3\data_f\vehicles\turret_opfor_co.paa"
             };
             factions[] = {};
         };
@@ -23,7 +23,7 @@ class TACU_Karatel_HMG_Base: O_MRAP_02_hmg_F {
             textures[] = {
                 QPATHTOF(data\karatel\karatel_ext_01_sre_co.paa),
                 QPATHTOF(data\karatel\karatel_ext_02_sre_co.paa),
-                QPATHTOF(data\turrets\turret_karatel_sre_co.paa.paa)
+                QPATHTOF(data\turrets\turret_karatel_sre_co.paa)
             };
             factions[] = {"TACU_Seven_Rings_Eastern"};
         };
