@@ -42,6 +42,8 @@ class CfgPatches {
             "TACU_BAF_V_B_Arid_L134A1",
             "TACU_BAF_V_B_Arid_RBS70",
             // Arid Vehicles
+            "TACU_BAF_V_B_Arid_Assault_Boat",
+            "TACU_BAF_V_B_Arid_Speedboat_Minigun",
             "TACU_BAF_V_B_Arid_Polaris_Unarmed",
             "TACU_BAF_V_B_Arid_Polaris_Armed",
             "TACU_BAF_V_B_Arid_Polaris_AT",
@@ -66,6 +68,8 @@ class CfgPatches {
             "TACU_BAF_V_B_Tropic_L134A1",
             "TACU_BAF_V_B_Tropic_RBS70",
             // Tropic Vehicles
+            "TACU_BAF_V_B_Tropic_Assault_Boat",
+            "TACU_BAF_V_B_Tropic_Speedboat_Minigun",
             "TACU_BAF_V_B_Tropic_Polaris_Unarmed",
             "TACU_BAF_V_B_Tropic_Polaris_Armed",
             "TACU_BAF_V_B_Tropic_Polaris_AT",
@@ -88,6 +92,8 @@ class CfgPatches {
             "TACU_BAF_V_B_Urban_L134A1",
             "TACU_BAF_V_B_Urban_RBS70",
             // Urban Vehicles
+            "TACU_BAF_V_B_Urban_Assault_Boat",
+            "TACU_BAF_V_B_Urban_Speedboat_Minigun",
             "TACU_BAF_V_B_Urban_Polaris_Unarmed",
             "TACU_BAF_V_B_Urban_Polaris_Armed",
             "TACU_BAF_V_B_Urban_Polaris_AT",
