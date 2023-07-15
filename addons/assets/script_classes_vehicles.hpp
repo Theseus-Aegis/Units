@@ -76,6 +76,7 @@ class TACU_Assets_Mini_Spike_Brown;
 class TACU_Assets_Mini_Spike_Green;
 class TACU_Assets_Mini_Spike_Sand;
 class TACU_Assets_MK6_Base;
+class TACU_Assets_ZU23_base;
 
 // Turrets - CUP
 class TACU_Assets_AGS_base;
@@ -98,4 +99,3 @@ class TACU_Assets_Metis_base;
 class TACU_Assets_MK19_base;
 class TACU_Assets_RBS70_base;
 class TACU_Assets_SearchLight_base;
-class TACU_Assets_ZU23_base;

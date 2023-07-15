@@ -81,3 +81,10 @@ class TACU_Taliban_Veterans_V_O_KORD_Mini: TACU_Taliban_Veterans_V_I_KORD_Mini {
     crew = "TACU_Taliban_Veterans_U_O_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
 };
+class TACU_Taliban_Veterans_V_O_ZU23: TACU_Assets_ZU23_Base {
+    faction = "TACU_Taliban_Veterans_O";
+    side = 0;
+    crew = "TACU_Taliban_Veterans_U_O_Driver";
+    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
+    textureList[] = {"Sand", 1};
+};

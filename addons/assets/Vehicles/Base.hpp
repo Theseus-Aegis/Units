@@ -82,6 +82,7 @@ class B_static_AT_F;
 class I_HMG_02_F;
 class I_static_AT_F;
 class O_static_AT_F;
+class zu23_base_lxWS;
 
 // Turrets - CUP
 class CUP_AGS_base;
@@ -104,4 +105,3 @@ class CUP_RBS70_Base;
 class CUP_SearchLight_static_base;
 class CUP_Stinger_AA_pod_Base;
 class CUP_TOW_TriPod_base;
-class CUP_ZU23_base;

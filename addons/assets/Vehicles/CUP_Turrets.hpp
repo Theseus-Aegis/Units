@@ -109,9 +109,3 @@ class TACU_Assets_SearchLight_base: CUP_SearchLight_static_base {
     editorSubcategory = "TACU_Assets_EdSubCat_Turrets";
     MACRO_DEFAULT_VEHICLE;
 };
-
-// ZU-23-2
-class TACU_Assets_ZU23_base: CUP_ZU23_base {
-    editorSubcategory = "TACU_Assets_EdSubCat_Turrets";
-    MACRO_DEFAULT_VEHICLE;
-};
