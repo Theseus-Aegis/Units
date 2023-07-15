@@ -93,7 +93,6 @@ class TACU_Assets_L11A1_base;
 class TACU_Assets_L11A1_MiniTripod_base;
 class TACU_Assets_L134A1_base;
 class TACU_Assets_M119_base;
-class TACU_Assets_M2_base;
 class TACU_Assets_M220_TOW_base;
 class TACU_Assets_Metis_base;
 class TACU_Assets_MK19_base;

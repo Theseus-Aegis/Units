@@ -99,7 +99,6 @@ class CUP_L111A1_MiniTripod_base;
 class CUP_L134A1_TriPod_base;
 class CUP_M119_base;
 class CUP_MK19_TriPod_base;
-class CUP_M2StaticMG_base;
 class CUP_Metis_Base;
 class CUP_RBS70_Base;
 class CUP_SearchLight_static_base;
