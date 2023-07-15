@@ -33,7 +33,7 @@ class TACU_Karatel_HMG_Base: O_MRAP_02_hmg_F {
             textures[] = {
                 QPATHTOF(data\karatel\karatel_ext_01_sre_co.paa),
                 QPATHTOF(data\karatel\karatel_ext_02_sre_co.paa),
-                QPATHTOF(data\turrets\turret_sre_co.paa)
+                QPATHTOF(data\turrets\turret_karatel_sre_co.paa.paa)
             };
             factions[] = {"TACU_Seven_Rings_Eastern"};
         };
