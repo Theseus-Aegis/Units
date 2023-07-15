@@ -29,10 +29,10 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
                 "lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_brown_CO.paa",
                 "\lxws\vehicles_f_lxws\Truck_02\data\truck_02_cargo_olive_CO.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_base_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_co.paa",
                 "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
             };
         };
@@ -43,10 +43,10 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
                 QPATHTOF(data\kamaz\truck_02_kab_sre_co.paa),
                 QPATHTOF(data\kamaz\truck_02_kuz_sre_co.paa),
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_base_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_green_co.paa",
-                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_base_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_1_co.paa",
+                "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_co.paa",
                 "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
             };
             factions[] = {"TACU_Seven_Rings_Eastern"};
