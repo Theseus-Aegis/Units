@@ -4,7 +4,7 @@ class TACU_African_North_I {
     class TACU_African_North_Infantry_I {
         name = "Infantry";
 
-        class TACU_African_North_Patrol_I {
+        class TACU_African_North_Patrol {
             name = "Patrol";
             side = 2;
             faction = "TACU_African_North_B";
@@ -13,7 +13,7 @@ class TACU_African_North_I {
             MACRO_UNIT1(TACU_African_North_U_I_Rifleman,2);
         };
 
-        class TACU_African_North_Fireteam_I: TACU_African_North_Patrol_I {
+        class TACU_African_North_Fireteam: TACU_African_North_Patrol {
             name = "Fireteam";
             MACRO_UNIT0(TACU_African_North_U_I_Teamleader,2);
             MACRO_UNIT1(TACU_African_North_U_I_Medic,2);
@@ -21,7 +21,7 @@ class TACU_African_North_I {
             MACRO_UNIT3(TACU_African_North_U_I_Grenadier,2);
         };
 
-        class TACU_African_North_Squad_I: TACU_African_North_Patrol_I {
+        class TACU_African_North_Squad: TACU_African_North_Patrol {
             name = "Squad";
             MACRO_UNIT0(TACU_African_North_U_I_Teamleader,2);
             MACRO_UNIT1(TACU_African_North_U_I_Rifleman,2);
@@ -33,7 +33,7 @@ class TACU_African_North_I {
             MACRO_UNIT7(TACU_African_North_U_I_Marksman,2);
         };
 
-        class TACU_African_North_AATeam_I: TACU_African_North_Patrol_I {
+        class TACU_African_North_AATeam: TACU_African_North_Patrol {
             name = "AA Team";
             MACRO_UNIT0(TACU_African_North_U_I_Teamleader,2);
             MACRO_UNIT1(TACU_African_North_U_I_AA,2);
@@ -41,7 +41,7 @@ class TACU_African_North_I {
             MACRO_UNIT3(TACU_African_North_U_I_Rifleman,2);
         };
 
-        class TACU_African_North_ATTeam_I: TACU_African_North_Patrol_I {
+        class TACU_African_North_ATTeam: TACU_African_North_Patrol {
             name = "AT Team";
             MACRO_UNIT0(TACU_African_North_U_I_Teamleader,2);
             MACRO_UNIT1(TACU_African_North_U_I_AT,2);
