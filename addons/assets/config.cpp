@@ -155,6 +155,10 @@ class CfgPatches {
         };
         weapons[] = {
             // Uniforms
+            "TACU_Proxy_Russia_Uniform_Coveralls",
+            "TACU_Proxy_Russia_Uniform_Combat_Fatigues",
+            "TACU_Proxy_Russia_Uniform_Combat_Fatigues_Officer",
+            "TACU_Proxy_Russia_Uniform_Combat_Fatigues_Rolled",
             "TACU_Assets_Uniform_Prisoner_Outfit_Orange_Clean",
             "TACU_Assets_Uniform_Prisoner_Outfit_Orange_Dirty",
             "TACU_Assets_Uniform_Prisoner_Outfit_Orange_Muddy",

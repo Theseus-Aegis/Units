@@ -12,6 +12,11 @@ class I_soldier_F;
 class I_Soldier_02_F;
 class I_C_Soldier_Bandit_2_F;
 class C_Uniform_ArtTShirt_01_v1_F;
+class I_E_Uniform_01_coveralls_F;
+class I_E_Uniform_01_F;
+class I_E_Uniform_01_officer_F;
+class I_E_Uniform_01_shortsleeve_F;
+class I_L_Uniform_01_camo_F;
 
 // Vehicles
 class APC_Wheeled_02_base_v2_F;
