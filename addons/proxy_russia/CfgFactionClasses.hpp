@@ -13,4 +13,7 @@ class CfgEditorSubcategories {
     class TACU_Proxy_Russia_CBRN {
         displayName = "Men (CBRN)";
     };
+    class TACU_Proxy_Russia_Car_CBRN {
+        displayName = "Cars (CBRN)";
+    };
 };
