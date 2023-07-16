@@ -1,10 +1,10 @@
 class TACU_African_North_B {
     name = "Army of the African Republic";
 
-    class TACU_African_North_Infantry_B {
+    class TACU_African_North_Infantry {
         name = "Infantry";
 
-        class TACU_African_North_Patrol_B {
+        class TACU_African_North_G_Patrol {
             name = "Patrol";
             side = 1;
             faction = "TACU_African_North_B";
@@ -13,7 +13,7 @@ class TACU_African_North_B {
             MACRO_UNIT1(TACU_African_North_U_B_Rifleman,1);
         };
 
-        class TACU_African_North_Fireteam_B: TACU_African_North_Patrol_B {
+        class TACU_African_North_G_Fireteam: TACU_African_North_G_Patrol {
             name = "Fireteam";
             MACRO_UNIT0(TACU_African_North_U_B_Teamleader,1);
             MACRO_UNIT1(TACU_African_North_U_B_Medic,1);
@@ -21,7 +21,7 @@ class TACU_African_North_B {
             MACRO_UNIT3(TACU_African_North_U_B_Grenadier,1);
         };
 
-        class TACU_African_North_Squad_B: TACU_African_North_Patrol_B {
+        class TACU_African_North_G_Squad: TACU_African_North_G_Patrol {
             name = "Squad";
             MACRO_UNIT0(TACU_African_North_U_B_Teamleader,1);
             MACRO_UNIT1(TACU_African_North_U_B_Rifleman,1);
@@ -33,7 +33,7 @@ class TACU_African_North_B {
             MACRO_UNIT7(TACU_African_North_U_B_Marksman,1);
         };
 
-        class TACU_African_North_AATeam_B: TACU_African_North_Patrol_B {
+        class TACU_African_North_G_AATeam: TACU_African_North_G_Patrol {
             name = "AA Team";
             MACRO_UNIT0(TACU_African_North_U_B_Teamleader,1);
             MACRO_UNIT1(TACU_African_North_U_B_AA,1);
@@ -41,7 +41,7 @@ class TACU_African_North_B {
             MACRO_UNIT3(TACU_African_North_U_B_Rifleman,1);
         };
 
-        class TACU_African_North_ATTeam_B: TACU_African_North_Patrol_B {
+        class TACU_African_North_G_ATTeam: TACU_African_North_G_Patrol {
             name = "AT Team";
             MACRO_UNIT0(TACU_African_North_U_B_Teamleader,1);
             MACRO_UNIT1(TACU_African_North_U_B_AT,1);

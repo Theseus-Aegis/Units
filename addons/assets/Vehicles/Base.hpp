@@ -63,6 +63,7 @@ class Offroad_01_military_covered_base_F;
 class Offroad_02_AT_base_F;
 class Offroad_02_LMG_base_F;
 class Offroad_02_unarmed_base_F;
+class Rubber_duck_base_F;
 class Truck_01_base_F;
 class Truck_02_aa_base_lxWS;
 class Truck_02_base_F;
@@ -82,6 +83,7 @@ class B_static_AT_F;
 class I_HMG_02_F;
 class I_static_AT_F;
 class O_static_AT_F;
+class zu23_base_lxWS;
 
 // Turrets - CUP
 class CUP_AGS_base;
@@ -98,10 +100,8 @@ class CUP_L111A1_MiniTripod_base;
 class CUP_L134A1_TriPod_base;
 class CUP_M119_base;
 class CUP_MK19_TriPod_base;
-class CUP_M2StaticMG_base;
 class CUP_Metis_Base;
 class CUP_RBS70_Base;
 class CUP_SearchLight_static_base;
 class CUP_Stinger_AA_pod_Base;
 class CUP_TOW_TriPod_base;
-class CUP_ZU23_base;

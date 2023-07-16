@@ -7,6 +7,7 @@ class CfgVehicles {
 
     // Vehicles - Using ACE Realistic names
     #include "Vehicles\AH6_Little_Bird.hpp"
+    #include "Vehicles\Assault_Boat.hpp"
     #include "Vehicles\AW101.hpp"
     #include "Vehicles\Backpacks.hpp"
     #include "Vehicles\Badger_IFV.hpp"

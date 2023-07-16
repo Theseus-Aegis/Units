@@ -14,7 +14,7 @@ class TACU_Bardelas_Base: B_APC_Tracked_01_AA_F {
                 "a3\armor_f_beta\apc_tracked_01\data\apc_tracked_01_aa_body_co.paa",
                 "a3\armor_f_beta\apc_tracked_01\data\mbt_01_body_co.paa",
                 "a3\armor_f_beta\apc_tracked_01\data\apc_tracked_01_aa_tower_co.paa",
-                "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
+                "a3\armor_f\data\camonet_nato_desert_co.paa"
             };
             factions[] = {};
         };

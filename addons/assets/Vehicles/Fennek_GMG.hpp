@@ -10,7 +10,7 @@ class TACU_Fennek_GMG_Base: I_MRAP_03_gmg_F {
         class Blufor {
             displayName = "BLUFOR";
             author = "Bohemia Interactive";
-            textures[] = {"\a3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa", "\a3\data_f\vehicles\turret_co.paa"};
+            textures[] = {"\a3\soft_f_beta\mrap_03\data\mrap_03_ext_co.paa", "\a3\data_f\vehicles\turret_co.paa"};
             factions[] = {};
         };
         class South_African_Green {

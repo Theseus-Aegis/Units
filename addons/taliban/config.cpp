@@ -58,6 +58,7 @@ class CfgPatches {
             "TACU_Taliban_Militia_V_O_DSHKM_Mini",
             "TACU_Taliban_Militia_V_O_KORD",
             "TACU_Taliban_Militia_V_O_KORD_Mini",
+            "TACU_Taliban_Militia_V_O_ZU23",
             // Taliban Veterans
             "TACU_Taliban_Veterans_U_I_Rifleman_01",
             "TACU_Taliban_Veterans_U_I_Rifleman_02",
@@ -114,7 +115,8 @@ class CfgPatches {
             "TACU_Taliban_Veterans_V_O_DSHKM",
             "TACU_Taliban_Veterans_V_O_DSHKM_Mini",
             "TACU_Taliban_Veterans_V_O_KORD",
-            "TACU_Taliban_Veterans_V_O_KORD_Mini"
+            "TACU_Taliban_Veterans_V_O_KORD_Mini",
+            "TACU_Taliban_Veterans_V_O_ZU23"
         };
         weapons[] = {
             "TACU_Taliban_Veterans_W_Galat",

@@ -124,6 +124,7 @@ class TACU_African_South_V_B_ZU23: TACU_Assets_ZU23_base {
     side = 1;
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
+    textureList[] = {"Sand", 1};
 };
 class TACU_African_South_V_I_ZU23: TACU_African_South_V_B_ZU23 {
     faction = "TACU_African_South_I";

@@ -9,7 +9,7 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
     class TextureSources {
         class Arid {
             displayName = "Arid";
-            author = "GilleeDoo, Mike";
+            author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\polaris\baf_lsv_01_arid_co.paa),
                 QPATHTOF(data\polaris\baf_lsv_02_arid_co.paa),
@@ -20,9 +20,8 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
             };
             factions[] = {"TACU_BAF_B"};
         };
-        class Tropic {
+        class Tropic: Arid {
             displayName = "Tropic";
-            author = "GilleeDoo, Mike";
             textures[] = {
                 QPATHTOF(data\polaris\baf_lsv_01_tropic_co.paa),
                 QPATHTOF(data\polaris\baf_lsv_02_tropic_co.paa),
@@ -31,11 +30,9 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
-            factions[] = {"TACU_BAF_B"};
         };
-        class Urban {
+        class Urban: Arid {
             displayName = "Urban";
-            author = "GilleeDoo, Mike";
             textures[] = {
                 QPATHTOF(data\polaris\baf_lsv_01_urban_co.paa),
                 QPATHTOF(data\polaris\baf_lsv_02_urban_co.paa),
@@ -44,7 +41,6 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
-            factions[] = {"TACU_BAF_B"};
         };
         class Black {
             displayName = "Black";
@@ -59,7 +55,7 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
             };
             factions[] = {};
         };
-        class Tan {
+        class Tan: Black {
             displayName = "Tan";
             author = "GilleeDoo";
             textures[] = {
@@ -70,9 +66,8 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
-            factions[] = {};
         };
-        class Green {
+        class Green: Black {
             displayName = "Green";
             author = "GilleeDoo";
             textures[] = {
@@ -83,7 +78,6 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
                 "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
                 "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
             };
-            factions[] = {};
         };
         class South_African_Green {
             displayName = "South African Green";
@@ -102,9 +96,8 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
                 "TACU_African_South_I"
             };
         };
-        class South_African_Tan {
+        class South_African_Tan: South_African_Green {
             displayName = "South African Tan";
-            author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\polaris\sa_lsv_01_tan_co.paa),
                 QPATHTOF(data\polaris\sa_lsv_02_tan_co.paa),
@@ -112,11 +105,6 @@ class TACU_Polaris_Unarmed_Base: B_LSV_01_unarmed_F {
                 QPATHTOF(data\polaris\sa_lsv_adds_tan_co.paa),
                 "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
-            };
-            factions[] = {
-                "TACU_African_South_B",
-                "TACU_African_South_O",
-                "TACU_African_South_I"
             };
         };
     };

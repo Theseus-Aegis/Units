@@ -6,6 +6,7 @@ class TACU_Assets_Fieldpack_Urban;
 
 // Vehicles
 class TACU_AH6_LittleBird_Base;
+class TACU_Assault_Boat_Base;
 class TACU_Badger_IFV_Base;
 class TACU_Bardelas_Base;
 class TACU_Cargo_Van_Base;
@@ -76,6 +77,7 @@ class TACU_Assets_Mini_Spike_Brown;
 class TACU_Assets_Mini_Spike_Green;
 class TACU_Assets_Mini_Spike_Sand;
 class TACU_Assets_MK6_Base;
+class TACU_Assets_ZU23_base;
 
 // Turrets - CUP
 class TACU_Assets_AGS_base;
@@ -92,10 +94,8 @@ class TACU_Assets_L11A1_base;
 class TACU_Assets_L11A1_MiniTripod_base;
 class TACU_Assets_L134A1_base;
 class TACU_Assets_M119_base;
-class TACU_Assets_M2_base;
 class TACU_Assets_M220_TOW_base;
 class TACU_Assets_Metis_base;
 class TACU_Assets_MK19_base;
 class TACU_Assets_RBS70_base;
 class TACU_Assets_SearchLight_base;
-class TACU_Assets_ZU23_base;

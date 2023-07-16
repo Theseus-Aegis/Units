@@ -74,12 +74,6 @@ class TACU_Assets_M119_base: CUP_M119_base {
     MACRO_DEFAULT_VEHICLE;
 };
 
-// M2
-class TACU_Assets_M2_base: CUP_M2StaticMG_base {
-    editorSubcategory = "TACU_Assets_EdSubCat_Turrets";
-    MACRO_DEFAULT_VEHICLE;
-};
-
 // M220 TOW
 class TACU_Assets_M220_TOW_base: CUP_TOW_TriPod_base {
     editorSubcategory = "TACU_Assets_EdSubCat_Turrets";
@@ -106,12 +100,6 @@ class TACU_Assets_RBS70_base: CUP_RBS70_base {
 
 // Search Light
 class TACU_Assets_SearchLight_base: CUP_SearchLight_static_base {
-    editorSubcategory = "TACU_Assets_EdSubCat_Turrets";
-    MACRO_DEFAULT_VEHICLE;
-};
-
-// ZU-23-2
-class TACU_Assets_ZU23_base: CUP_ZU23_base {
     editorSubcategory = "TACU_Assets_EdSubCat_Turrets";
     MACRO_DEFAULT_VEHICLE;
 };

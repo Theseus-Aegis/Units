@@ -22,23 +22,18 @@ class TACU_HEMTT_Base: B_Truck_01_transport_F {
             };
             factions[] = {};
         };
-        class Olive {
+        class Olive: Blufor {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_Exp\truck_01\data\truck_01_ext_01_olive_co.paa",
                 "\a3\soft_f_Exp\truck_01\data\truck_01_ext_02_olive_co.paa",
                 "\a3\soft_f_Exp\truck_01\data\truck_01_cargo_olive_co.paa",
                 "\a3\soft_f_Exp\truck_01\data\truck_01_cover_olive_co.paa"
             };
-            factions[] = {};
         };
     };
 
-    textureList[] = {
-        "Blufor", 1,
-        "Olive", 1
-    };
+    textureList[] = {"Blufor", 1, "Olive", 1};
 
     MACRO_EVENTHANDLERS;
 };
@@ -59,23 +54,18 @@ class TACU_HEMTT_Covered_Base: B_Truck_01_covered_F {
             };
             factions[] = {};
         };
-        class Olive {
+        class Olive: Blufor {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_Exp\truck_01\data\truck_01_ext_01_olive_co.paa",
                 "\a3\soft_f_Exp\truck_01\data\truck_01_ext_02_olive_co.paa",
                 "\a3\soft_f_Exp\truck_01\data\truck_01_cargo_olive_co.paa",
                 "\a3\soft_f_Exp\truck_01\data\truck_01_cover_olive_co.paa"
             };
-            factions[] = {};
         };
     };
 
-    textureList[] = {
-        "Blufor", 1,
-        "Olive", 1
-    };
+    textureList[] = {"Blufor", 1, "Olive", 1};
 
     MACRO_EVENTHANDLERS;
 };

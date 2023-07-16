@@ -1,3 +1,22 @@
+// Boats
+class TACU_African_South_V_O_Assault_Boat: TACU_Assault_Boat_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_South_O";
+    side = 0;
+    crew = "TACU_African_South_U_O_Rifleman";
+    typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
+    textureList[] = {"Digital", 1};
+};
+
+class TACU_African_South_V_O_Speedboat_Minigun: TACU_Speedboat_Minigun_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_South_O";
+    side = 0;
+    crew = "TACU_African_South_U_O_Rifleman";
+    typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
+    textureList[] = {"Indep", 1};
+};
+
 // Fenneks
 class TACU_African_South_V_O_Fennek: TACU_Fennek_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;

@@ -8,8 +8,8 @@ class TACU_Merlin_Base: I_Heli_Transport_02_F {
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
         class Arid {
-            author = "GilleeDoo, Mike";
-            displayName = "British Armed Forces (Arid)";
+            author = "GilleeDoo";
+            displayName = "Arid";
             textures[] = {
                 QPATHTOF(data\aw101\heli_transport_02_1_baf_arid_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_2_baf_arid_co.paa),
@@ -18,20 +18,17 @@ class TACU_Merlin_Base: I_Heli_Transport_02_F {
             };
             factions[] = {"TACU_BAF_B"};
         };
-        class Tropic {
-            author = "GilleeDoo, Mike";
-            displayName = "British Armed Forces (Tropic)";
+        class Tropic: Arid {
+            displayName = "Tropic";
             textures[] = {
                 QPATHTOF(data\aw101\heli_transport_02_1_baf_wld_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_2_baf_wld_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_3_baf_wld_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_int_02_co.paa)
             };
-            factions[] = {"TACU_BAF_B"};
         };
-        class South_African_Green {
-            author = "GilleeDoo";
-            displayName = "South African Green";
+        class South_African_Green: Arid {
+            displayName = "Green";
             textures[] = {
                 QPATHTOF(data\aw101\heli_transport_02_1_sa_grn_co.paa),
                 QPATHTOF(data\aw101\heli_transport_02_2_sa_grn_co.paa),

@@ -1,7 +1,7 @@
 class TACU_Cartel_Greek_O_G_Enforcers_Infantry {
     name = "Enforcers";
 
-    class TACU_Cartel_G_O_Enforcers_Patrol {
+    class TACU_Cartel_G_Patrol_Enforcers {
         name = "Enforcer Patrol";
         side = 0;
         faction = "TACU_Cartel_Greek_O";
@@ -10,7 +10,7 @@ class TACU_Cartel_Greek_O_G_Enforcers_Infantry {
         MACRO_UNIT1(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02,0);
     };
 
-    class TACU_Cartel_G_O_Enforcers_Fireteam: TACU_Cartel_G_O_Enforcers_Patrol {
+    class TACU_Cartel_G_Fireteam_Enforcers: TACU_Cartel_G_Patrol_Enforcers {
         name = "Enforcer Fireteam";
         MACRO_UNIT0(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01,0);
         MACRO_UNIT1(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02,0);
@@ -18,7 +18,7 @@ class TACU_Cartel_Greek_O_G_Enforcers_Infantry {
         MACRO_UNIT3(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04,0);
     };
 
-    class TACU_Cartel_G_O_Enforcers_Squad: TACU_Cartel_G_O_Enforcers_Fireteam {
+    class TACU_Cartel_G_Squad_Enforcers: TACU_Cartel_G_Patrol_Enforcers {
         name = "Enforcer Squad";
         MACRO_UNIT0(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01,0);
         MACRO_UNIT1(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02,0);

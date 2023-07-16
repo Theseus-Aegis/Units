@@ -37,6 +37,18 @@ class TACU_African_North_V_B_Otokar_Armed: O_SFIA_APC_Wheeled_02_hmg_lxWS {
     typicalCargo[] = {"TACU_African_North_U_B_Crewman"};
 };
 
+// Boat
+class TACU_African_North_V_B_Assault_Boat: TACU_Assault_Boat_Base {
+    MACRO_CLEAR_VEHICLE_CARGO;
+    faction = "TACU_African_North_B";
+    side = 1;
+    scope = 2;
+    scopeCurator = 2;
+    crew = "TACU_African_North_U_B_Rifleman";
+    typicalCargo[] = {"TACU_African_North_U_B_Rifleman"};
+    textureList[] = {"Hex", 1};
+};
+
 // Helicopters
 class TACU_African_North_V_B_Kasatka_Unarmed: TACU_Kasatka_Unarmed_Base {
     displayName = "Ka-60 Kasatka Unarmed (Yellow)";

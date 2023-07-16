@@ -10,86 +10,61 @@ class TACU_Offroad_Armed_M2_Base: B_G_Offroad_01_armed_F {
         class Guerilla_01 {
             displayName = "Guerrilla 01";
             author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_01_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_01_CO.paa"};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_01_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_01_co.paa"};
             faction[] = {};
         };
-        class Guerilla_02 {
+        class Guerilla_02: Guerilla_01 {
             displayName = "Guerrilla 02";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_02_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_02_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_02_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_02_co.paa"};
         };
-        class Guerilla_03 {
+        class Guerilla_03: Guerilla_01 {
             displayName = "Guerrilla 03";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_03_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_03_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_03_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_03_co.paa"};
         };
-        class Guerilla_04 {
+        class Guerilla_04: Guerilla_01 {
             displayName = "Guerrilla 04";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_04_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_04_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_04_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_04_co.paa"};
         };
-        class Guerilla_05 {
+        class Guerilla_05: Guerilla_01 {
             displayName = "Guerrilla 05";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_05_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_05_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_05_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_05_co.paa"};
         };
-        class Guerilla_06 {
+        class Guerilla_06: Guerilla_01 {
             displayName = "Guerrilla 06";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_06_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_06_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_06_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_06_co.paa"};
         };
-        class Guerilla_07 {
+        class Guerilla_07: Guerilla_01 {
             displayName = "Guerrilla 07";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_07_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_07_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_07_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_07_co.paa"};
         };
-        class Guerilla_08 {
+        class Guerilla_08: Guerilla_01 {
             displayName = "Guerrilla 08";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_08_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_08_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_08_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_08_co.paa"};
         };
-        class Guerilla_09 {
+        class Guerilla_09: Guerilla_01 {
             displayName = "Guerrilla 09";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_09_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_09_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_09_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_09_co.paa"};
         };
-        class Guerilla_10 {
+        class Guerilla_10: Guerilla_01 {
             displayName = "Guerrilla 10";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_10_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_10_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_10_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_10_co.paa"};
         };
-        class Guerilla_11 {
+        class Guerilla_11: Guerilla_01 {
             displayName = "Guerrilla 11";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_11_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_11_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_11_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_11_co.paa"};
         };
-        class Guerilla_12 {
+        class Guerilla_12: Guerilla_01 {
             displayName = "Guerrilla 12";
-            author = "Bohemia Interactive";
-            textures[] = {"\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa", "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa"};
-            faction[] = {};
+            textures[] = {"\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_12_co.paa", "\a3\soft_f_bootcamp\offroad_01\data\offroad_01_ext_ig_12_co.paa"};
         };
-        class Green {
+        class Green: Guerilla_01 {
             displayName = "Green";
-            author = "Bohemia Interactive";
-            textures[] = {"\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa", "\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa"};
-            faction[] = {"IND_E_F"};
+            textures[] = {"\a3\soft_f_enoch\offroad_01\data\offroad_01_ext_grn_co.paa", "\a3\soft_f_enoch\offroad_01\data\offroad_01_ext_grn_co.paa"};
         };
-        class Black {
+        class Black: Guerilla_01 {
             displayName = "Black";
             author = "BadHabitz, Jonpas";
             textures[] = {"\x\tacs\addons\vehicles\data\offroad_black_ext_co.paa", "\x\tacs\addons\vehicles\data\offroad_black_ext_co.paa"};
-            factions[] = {};
         };
     };
 

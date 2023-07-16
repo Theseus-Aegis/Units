@@ -44,4 +44,5 @@ class TACU_Seven_Rings_V_I_ZU23: TACU_Assets_ZU23_base {
     side = 2;
     crew = "TACU_Seven_Rings_Western_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Western_U_I_Rifleman_01"};
+    textureList[] = {"Green", 1};
 };

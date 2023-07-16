@@ -12,31 +12,25 @@ class TACU_Rooikat_UP_Base: B_afv_wheeled_01_up_cannon_F {
             author = "Bohemia Interactive";
             textures[] = {
                 "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext1_co.paa",
-                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_EXT2_co.paa",
+                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext2_co.paa",
                 "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_wheel_co.paa",
-                "A3\armor_f_tank\afv_wheeled_01\Data\afv_wheeled_01_EXT3_sand_co.paa",
+                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_sand_co.paa",
                 "a3\armor_f_tank\afv_wheeled_01\data\afv_commander_tow_sand_co.paa",
                 "a3\armor_f\data\camonet_nato_desert_co.paa",
-                "a3\armor_f_tank\afv_wheeled_01\Data\afv_wheeled_01_EXT3_sand_co.paa"
+                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_sand_co.paa"
             };
             factions[] = {};
         };
-        class Green {
+        class Green: Sand {
             displayName = "Green";
-            author = "Bohemia Interactive";
             textures[] = {
                 "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext1_green_co.paa",
-                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_EXT2_green_co.paa",
+                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext2_green_co.paa",
                 "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_wheel_green_co.paa",
-                "A3\armor_f_tank\afv_wheeled_01\Data\afv_wheeled_01_EXT3_co.paa",
+                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_co.paa",
                 "a3\armor_f_tank\afv_wheeled_01\data\afv_commander_tow_co.paa",
                 "a3\armor_f\data\camonet_nato_green_co.paa",
-                "a3\armor_f_tank\afv_wheeled_01\Data\afv_wheeled_01_EXT3_co.paa"
-            };
-            factions[] = {
-                "TACU_African_South_B",
-                "TACU_African_South_O",
-                "TACU_African_South_I"
+                "a3\armor_f_tank\afv_wheeled_01\data\afv_wheeled_01_ext3_co.paa"
             };
         };
         class South_African_Green {
@@ -59,10 +53,7 @@ class TACU_Rooikat_UP_Base: B_afv_wheeled_01_up_cannon_F {
         };
     };
 
-    textureList[] = {
-        "Sand", 1,
-        "Green", 1
-    };
+    textureList[] = {"Sand", 1, "Green", 1};
 
     MACRO_EVENTHANDLERS;
 };

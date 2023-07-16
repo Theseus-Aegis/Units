@@ -19,17 +19,15 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
             };
             factions[] = {};
         };
-        class Olive {
+        class Olive: Sand {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
-                "A3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_base_olive_co.paa",
-                "A3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_adds_olive_co.paa",
-                "A3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_tows_olive_co.paa",
+                "a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_base_olive_co.paa",
+                "a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_adds_olive_co.paa",
+                "a3\armor_f_exp\apc_wheeled_01\data\apc_wheeled_01_tows_olive_co.paa",
                 "a3\armor_f\data\camonet_nato_green_co.paa",
                 "a3\armor_f\data\cage_olive_co.paa"
             };
-            factions[] = {};
         };
         class South_African_Green {
             displayName = "South African Green";
@@ -47,9 +45,8 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
                 "TACU_African_South_I"
             };
         };
-        class South_African_Tan {
+        class South_African_Tan: South_African_Green {
             displayName = "South African Tan";
-            author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\badger\apc_wheeled_01_base_sa_tan_co.paa),
                 QPATHTOF(data\badger\apc_wheeled_01_adds_sa_tan_co.paa),
@@ -57,18 +54,10 @@ class TACU_Badger_IFV_Base: B_APC_Wheeled_01_cannon_F {
                 "a3\armor_f\data\camonet_nato_desert_co.paa",
                 "a3\armor_f\data\cage_sand_co.paa"
             };
-            factions[] = {
-                "TACU_African_South_B",
-                "TACU_African_South_O",
-                "TACU_African_South_I"
-            };
         };
     };
 
-    textureList[] = {
-        "Sand", 1,
-        "Olive", 1
-    };
+    textureList[] = {"Sand", 1, "Olive", 1};
 
     MACRO_EVENTHANDLERS;
 };

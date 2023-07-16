@@ -11,9 +11,9 @@ class TACU_Kamaz_MRL_Base: I_Truck_02_MRL_F {
             displayName = "Black";
             author = "Bohemia Interactive";
             textures[] = {
-                "\lxws\vehicles_f_lxws\data\Truck_02\Truck_02_kab_black_CO.paa",
+                "\lxws\vehicles_f_lxws\data\truck_02\truck_02_kab_black_co.paa",
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa",
-                "\A3\soft_f_Enoch\Truck_02\Data\Truck_02_mrl_EAF_co.paa"
+                "\a3\soft_f_enoch\truck_02\data\truck_02_mrl_eaf_co.paa"
             };
             factions[] = {};
         };

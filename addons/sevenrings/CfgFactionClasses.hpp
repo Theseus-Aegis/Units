@@ -25,7 +25,7 @@ class CfgFactionClasses {
         side = 0;
         priority = 2;
     };
-    class TACU_Seven_Rings_Western: TACU_Seven_Rings_Eastern_I {
+    class TACU_Seven_Rings_Western: TACU_Seven_Rings_Eastern {
         displayName = "Seven Rings (West)";
         side = 2;
     };

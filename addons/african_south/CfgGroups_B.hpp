@@ -4,7 +4,7 @@ class TACU_African_South_B {
     class TACU_African_South_Infantry_B {
         name = "Infantry";
 
-        class TACU_African_South_Patrol_B {
+        class TACU_African_South_G_Patrol {
             name = "Patrol";
             side = 1;
             faction = "TACU_African_North_B";
@@ -13,13 +13,13 @@ class TACU_African_South_B {
             MACRO_UNIT1(TACU_African_South_U_B_CQB,1);
         };
 
-        class TACU_African_South_Sniper_Team_B: TACU_African_South_Patrol_B {
+        class TACU_African_South_G_Sniper_Team: TACU_African_South_G_Patrol {
             name = "Sniper Team";
             MACRO_UNIT0(TACU_African_South_U_B_Sniper,1);
             MACRO_UNIT1(TACU_African_South_U_B_Spotter,1);
         };
 
-        class TACU_African_South_Fireteam_B: TACU_African_South_Patrol_B {
+        class TACU_African_South_G_Fireteam: TACU_African_South_G_Patrol {
             name = "Fireteam";
             MACRO_UNIT0(TACU_African_South_U_B_TL,1);
             MACRO_UNIT1(TACU_African_South_U_B_Medic,1);
@@ -27,7 +27,7 @@ class TACU_African_South_B {
             MACRO_UNIT3(TACU_African_South_U_B_Rifleman,1);
         };
 
-        class TACU_African_South_AT_B: TACU_African_South_Patrol_B {
+        class TACU_African_South_G_ATTeam: TACU_African_South_G_Patrol {
             name = "AT Team";
             MACRO_UNIT0(TACU_African_South_U_B_TL,1);
             MACRO_UNIT1(TACU_African_South_U_B_AT,1);
@@ -35,7 +35,7 @@ class TACU_African_South_B {
             MACRO_UNIT3(TACU_African_South_U_B_Rifleman,1);
         };
 
-        class TACU_African_South_AA_B: TACU_African_South_Patrol_B {
+        class TACU_African_South_G_AATeam: TACU_African_South_G_Patrol {
             name = "AA Team";
             MACRO_UNIT0(TACU_African_South_U_B_TL,1);
             MACRO_UNIT1(TACU_African_South_U_B_AA,1);
@@ -43,7 +43,7 @@ class TACU_African_South_B {
             MACRO_UNIT3(TACU_African_South_U_B_Rifleman,1);
         };
 
-        class TACU_African_South_Squad_B: TACU_African_South_Patrol_B {
+        class TACU_African_South_G_Squad: TACU_African_South_G_Patrol {
             name = "Squad";
             MACRO_UNIT0(TACU_African_South_U_B_TL,1);
             MACRO_UNIT1(TACU_African_South_U_B_Medic,1);

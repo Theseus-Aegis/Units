@@ -13,29 +13,25 @@ class TACU_Kasatka_Armed_Armoured_Base: B_ION_Heli_Light_02_dynamicLoadout_lxWS 
             displayName = "Black";
             factions[] = {};
             textures[] = {
-                "\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa",
+                "\a3\air_f\heli_light_02\data\heli_light_02_ext_co.paa",
                 "\a3\air_f\data\rockets_co.paa",
-                "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
+                "\lxws\air_f_lxws\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
         };
-        class BlackCustom {
-            author = "Bohemia Interactive";
+        class BlackCustom: Black {
             displayName = "Black Custom";
-            factions[] = {};
             textures[] = {
-                "\A3\Air_F_Heli\Heli_Light_02\Data\Heli_Light_02_ext_OPFOR_V2_CO.paa",
+                "\a3\air_f_heli\heli_light_02\data\heli_light_02_ext_opfor_v2_co.paa",
                 "\a3\air_f\data\rockets_co.paa",
-                "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
+                "\lxws\air_f_lxws\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
         };
-        class Blue {
-            author = "Bohemia Interactive";
+        class Blue: Black {
             displayName = "Blue";
-            factions[] = {};
             textures[] = {
-                "\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa",
+                "\a3\air_f\heli_light_02\data\heli_light_02_ext_civilian_co.paa",
                 "\a3\air_f\data\rockets_co.paa",
-                "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
+                "\lxws\air_f_lxws\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
         };
         class North_African_Green {
@@ -49,21 +45,15 @@ class TACU_Kasatka_Armed_Armoured_Base: B_ION_Heli_Light_02_dynamicLoadout_lxWS 
             textures[] = {
                 QPATHTOF(data\kasatka\heli_light_02_na_grn_ext_co.paa),
                 "\a3\air_f\data\rockets_co.paa",
-                "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
+                "\lxws\air_f_lxws\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
         };
-        class North_African_Yellow {
-            author = "GilleeDoo";
+        class North_African_Yellow: North_African_Green {
             displayName = "Yellow";
-            factions[] = {
-                "TACU_African_North_B",
-                "TACU_African_North_O",
-                "TACU_African_North_I"
-            };
             textures[] = {
                 QPATHTOF(data\kasatka\heli_light_02_na_ylw_ext_co.paa),
                 "\a3\air_f\data\rockets_co.paa",
-                "\lxWS\air_f_lxWS\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
+                "\lxws\air_f_lxws\heli_light_02\data\lxws_heli_light_02_adds_ion_co.paa"
             };
         };
     };

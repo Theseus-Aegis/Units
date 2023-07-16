@@ -11,28 +11,23 @@ class TACU_Offroad_Covered_Base: I_E_Offroad_01_covered_F {
             displayName = "Green";
             author = "Bohemia Interactive";
             textures[] = {
-                "\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa",
-                "\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_grn_CO.paa",
-                "a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_cover_grn_co.paa"
+                "\a3\soft_f_enoch\offroad_01\data\offroad_01_ext_grn_co.paa",
+                "\a3\soft_f_enoch\offroad_01\data\offroad_01_ext_grn_co.paa",
+                "a3\soft_f_enoch\offroad_01\data\offroad_01_cover_grn_co.paa"
             };
             faction[] = {};
         };
-        class Black {
+        class Black: Green {
             displayName = "Black";
-            author = "Bohemia Interactive";
             textures[] = {
-                "\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa",
-                "\a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_ext_blk_CO.paa",
-                "a3\Soft_F_Enoch\Offroad_01\Data\offroad_01_cover_blk_co.paa"
+                "\a3\soft_f_enoch\offroad_01\data\offroad_01_ext_blk_co.paa",
+                "\a3\soft_f_enoch\offroad_01\data\offroad_01_ext_blk_co.paa",
+                "a3\soft_f_enoch\offroad_01\data\offroad_01_cover_blk_co.paa"
             };
-            faction[] = {};
         };
     };
 
-    textureList[] = {
-        "Green", 1,
-        "Black", 1
-    };
+    textureList[] = {"Green", 1, "Black", 1};
 
     MACRO_EVENTHANDLERS;
 };

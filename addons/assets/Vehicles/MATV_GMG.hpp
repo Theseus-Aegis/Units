@@ -16,19 +16,17 @@ class TACU_MATV_GMG_Base: B_MRAP_01_gmg_F {
             };
             factions[] = {};
         };
-        class Olive {
+        class Olive: Blufor {
             displayName = "Olive";
-            author = "Bohemia Interactive";
             textures[] = {
                 "\a3\soft_f_exp\mrap_01\data\mrap_01_base_olive_co.paa",
                 "\a3\soft_f_exp\mrap_01\data\mrap_01_adds_olive_co.paa",
                 "\a3\data_f_exp\vehicles\turret_olive_co.paa"
             };
-            factions[] = {};
         };
         class Vanguard {
             displayName = "Vanguard PMC";
-            author = "GilleeDoo, Mike";
+            author = "GilleeDoo";
             textures[] = {
                 QPATHTOF(data\matv\vanguard_v_hunter_ext01_co.paa),
                 QPATHTOF(data\matv\vanguard_v_hunter_ext02_co.paa),
@@ -38,11 +36,7 @@ class TACU_MATV_GMG_Base: B_MRAP_01_gmg_F {
         };
     };
 
-    textureList[] = {
-        "Blufor", 1,
-        "Olive", 1,
-        "Vanguard", 0
-    };
+    textureList[] = {"Blufor", 1, "Olive", 1};
 
     MACRO_EVENTHANDLERS;
 };
