@@ -1,8 +1,14 @@
 class CfgGroups {
     class EAST {
-        #include "CfgGroups_O.hpp"
+        class TACU_African_Militia_O {
+            name = "Pride of Africa";
+            #include "CfgGroups_O.hpp"
+        };
     };
     class INDEP {
-        #include "CfgGroups_I.hpp"
+        class TACU_African_Militia_I {
+            name = "Pride of Africa";
+            #include "CfgGroups_I.hpp"
+        };
     };
 };
