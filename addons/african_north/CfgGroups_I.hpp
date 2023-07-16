@@ -1,5 +1,5 @@
 class TACU_African_North_I {
-    name = "Army of the African Republic";
+    name = "Northern Africa";
 
     class TACU_African_North_Infantry_I {
         name = "Infantry";
@@ -7,7 +7,7 @@ class TACU_African_North_I {
         class TACU_African_North_G_Patrol {
             name = "Patrol";
             side = 2;
-            faction = "TACU_African_North_B";
+            faction = "TACU_African_North_I";
             icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
             MACRO_UNIT0(TACU_African_North_U_I_Teamleader,2);
             MACRO_UNIT1(TACU_African_North_U_I_Rifleman,2);

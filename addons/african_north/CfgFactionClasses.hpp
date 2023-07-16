@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_African_North_B {
-        displayName = "Army of the African Republic";
+        displayName = "Northern Africa";
         side = 1;
         priority = 1;
     };

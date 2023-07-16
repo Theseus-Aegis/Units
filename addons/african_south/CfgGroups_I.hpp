@@ -1,5 +1,5 @@
 class TACU_African_South_I {
-    name = "South Africa";
+    name = "Southern Africa";
 
     class TACU_African_South_Infantry_I {
         name = "Infantry";
@@ -7,7 +7,7 @@ class TACU_African_South_I {
         class TACU_African_South_G_Patrol {
             name = "Patrol";
             side = 2;
-            faction = "TACU_African_North_I";
+            faction = "TACU_African_South_I";
             icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
             MACRO_UNIT0(TACU_African_South_U_I_Rifleman,2);
             MACRO_UNIT1(TACU_African_South_U_I_CQB,2);
