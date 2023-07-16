@@ -24,21 +24,21 @@ class TACU_African_Militia_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     magazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("SmokeShell")};
     respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("SmokeShell")};
     headgearList[] = {
-        "H_Booniehat_khk", 8.3,
-        "H_Booniehat_oli", 8.3,
-        "H_Booniehat_tan", 8.3,
-        "lxWS_H_Booniehat_desert", 8.3,
-        "H_Shemag_olive", 8.3,
-        "H_ShemagOpen_tan", 8.3,
-        "lxWS_H_ssh40_green", 8.3,
-        "lxWS_H_ssh40_sand", 8.3,
-        "lxWS_H_ssh40_white", 8.3,
-        "H_Bandanna_khk", 8.3,
-        "H_Bandanna_camo", 8.3,
-        "H_Beret_blk", 8.3,
-        "lxWS_H_PASGT_goggles_UN_F", 0.05,
-        "H_PASGT_basic_olive_F", 0.05,
-        "H_PASGT_basic_white_F", 0.05
+        "H_Booniehat_khk", 0.75,
+        "H_Booniehat_oli", 0.75,
+        "H_Booniehat_tan", 0.75,
+        "lxWS_H_Booniehat_desert", 0.75,
+        "H_Shemag_olive", 0.75,
+        "H_ShemagOpen_tan", 0.75,
+        "lxWS_H_ssh40_green", 0.75,
+        "lxWS_H_ssh40_sand", 0.75,
+        "lxWS_H_ssh40_white", 0.75,
+        "H_Bandanna_khk", 0.75,
+        "H_Bandanna_camo", 0.75,
+        "H_Beret_blk", 0.75,
+        "lxWS_H_PASGT_goggles_UN_F", 0.25,
+        "H_PASGT_basic_olive_F", 0.25,
+        "H_PASGT_basic_white_F", 0.25
     };
     CBA_facewearList[] = {"", 0.95, "G_Aviator", 0.05};
     EDITORPREVIEW(TACU_African_Militia_U_O_Rifleman);
