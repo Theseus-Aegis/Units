@@ -56,8 +56,8 @@ class TACU_Proxy_Russia_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "H_HelmetHBK_F", 0.25
     };
     CBA_facewearList[] = {
-        "", 0.8,
-        "G_Bandanna_oli", 0.4,
+        "G_Bandanna_oli", 0.8,
+        "", 0.4,
         "G_Balaclava_blk", 0.2,
         "G_Balaclava_oli", 0.2
     };
