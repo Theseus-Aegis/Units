@@ -23,7 +23,20 @@ class CfgPatches {
             "TACU_African_Militia_U_O_Marksman",
             "TACU_African_Militia_U_O_Teamleader",
             // Opfor Vehicles
+            "TACU_African_Militia_V_O_Offroad",
+            "TACU_African_Militia_V_O_Offroad_Armed",
+            "TACU_African_Militia_V_O_Offroad_AT",
+            "TACU_African_Militia_V_O_Offroad_UP",
+            "TACU_African_Militia_V_O_Offroad_UP_Armed",
+            "TACU_African_Militia_V_O_Offroad_UP_AT",
+            "TACU_African_Militia_V_O_Truck",
+            "TACU_African_Militia_V_O_Kamaz",
+            "TACU_African_Militia_V_O_Kamaz_ZU23",
             // Opfor Turrets
+            "TACU_African_Militia_V_O_MK6",
+            "TACU_African_Militia_V_O_HMG",
+            "TACU_African_Militia_V_O_ZU23",
+            "TACU_African_Militia_V_O_DSHKM",
             // Independent Units
             "TACU_African_Militia_U_I_Rifleman",
             "TACU_African_Militia_U_I_Rifleman_02",
@@ -35,9 +48,22 @@ class CfgPatches {
             "TACU_African_Militia_U_I_AT",
             "TACU_African_Militia_U_I_Repair",
             "TACU_African_Militia_U_I_Marksman",
-            "TACU_African_Militia_U_I_Teamleader"
+            "TACU_African_Militia_U_I_Teamleader",
             // Independent Vehicles
+            "TACU_African_Militia_V_I_Offroad",
+            "TACU_African_Militia_V_I_Offroad_Armed",
+            "TACU_African_Militia_V_I_Offroad_AT",
+            "TACU_African_Militia_V_I_Offroad_UP",
+            "TACU_African_Militia_V_I_Offroad_UP_Armed",
+            "TACU_African_Militia_V_I_Offroad_UP_AT",
+            "TACU_African_Militia_V_I_Truck",
+            "TACU_African_Militia_V_I_Kamaz",
+            "TACU_African_Militia_V_I_Kamaz_ZU23",
             // Independent Turrets
+            "TACU_African_Militia_V_I_MK6",
+            "TACU_African_Militia_V_I_HMG",
+            "TACU_African_Militia_V_I_ZU23",
+            "TACU_African_Militia_V_I_DSHKM"
         };
         weapons[] = {
             "TACU_African_Militia_W_Galat",
