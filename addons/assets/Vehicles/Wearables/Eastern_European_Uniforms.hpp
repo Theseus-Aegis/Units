@@ -106,7 +106,7 @@ class TACU_Proxy_Russia_Unit_Deserter_Fatigues: I_L_Uniform_01_camo_F {
     uniformClass = "TACU_Proxy_Russia_Uniform_Deserter";
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\uniforms\proxy_russia_soldier_01_co.paa),
-        "a3\characters_f_enoch\uniforms\data\i_l_uniform_01_camo_co.paa", // Replace this with a texture without the flag
+        QPATHTOF(data\uniforms\proxy_russia_uniform_01_camo_co.paa),
         "a3\characters_f_enoch\uniforms\data\i_e_soldier_01_gloves_camo_co.paa"
     };
     modelSides[] = {6};
