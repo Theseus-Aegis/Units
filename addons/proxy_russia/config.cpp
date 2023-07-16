@@ -76,7 +76,7 @@ class CfgPatches {
             "TACU_Proxy_Russia_U_I_AT_CBRN",
             "TACU_Proxy_Russia_U_I_AP_CBRN",
             "TACU_Proxy_Russia_U_I_Driver_CBRN",
-            "TACU_Proxy_Russia_U_I_Pilot_CBRN"
+            "TACU_Proxy_Russia_U_I_Pilot_CBRN",
             // Independent Vehicles
             "TACU_Proxy_Russia_V_I_Offroad",
             "TACU_Proxy_Russia_V_I_Offroad_Armed",
