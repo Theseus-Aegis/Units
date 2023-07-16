@@ -50,3 +50,57 @@ class TACU_Proxy_Russia_U_I_Pilot: TACU_Proxy_Russia_U_O_Pilot {
     faction = "TACU_Proxy_Russia_I";
     side = 2;
 };
+
+// CBRN Units
+class TACU_Proxy_Russia_U_I_Rifleman_CBRN: TACU_Proxy_Russia_U_O_Rifleman_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Demolitions_CBRN: TACU_Proxy_Russia_U_O_Demolitions_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Engineer_CBRN: TACU_Proxy_Russia_U_O_Engineer_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Grenadier_CBRN: TACU_Proxy_Russia_U_O_Grenadier_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Marksman_CBRN: TACU_Proxy_Russia_U_O_Marksman_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Teamleader_CBRN: TACU_Proxy_Russia_U_O_Teamleader_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Autorifleman_CBRN: TACU_Proxy_Russia_U_O_Autorifleman_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Machinegunner_CBRN: TACU_Proxy_Russia_U_O_Machinegunner_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Medic_CBRN: TACU_Proxy_Russia_U_O_Medic_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_AT_CBRN: TACU_Proxy_Russia_U_O_AT_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_AP_CBRN: TACU_Proxy_Russia_U_O_AP_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Driver_CBRN: TACU_Proxy_Russia_U_O_Driver_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};
+class TACU_Proxy_Russia_U_I_Pilot_CBRN: TACU_Proxy_Russia_U_O_Pilot_CBRN {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+};

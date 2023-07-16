@@ -8,3 +8,9 @@ class CfgFactionClasses {
         side = 2;
     };
 };
+
+class CfgEditorSubcategories {
+    class TACU_Proxy_Russia_CBRN {
+        displayName = "Men (CBRN)";
+    };
+};

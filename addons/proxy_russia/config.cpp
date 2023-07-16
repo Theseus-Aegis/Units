@@ -26,6 +26,20 @@ class CfgPatches {
             "TACU_Proxy_Russia_U_O_AP",
             "TACU_Proxy_Russia_U_O_Driver",
             "TACU_Proxy_Russia_U_O_Pilot",
+            // Opfor CBRN Units
+            "TACU_Proxy_Russia_U_O_Rifleman_CBRN",
+            "TACU_Proxy_Russia_U_O_Demolitions_CBRN",
+            "TACU_Proxy_Russia_U_O_Engineer_CBRN",
+            "TACU_Proxy_Russia_U_O_Grenadier_CBRN",
+            "TACU_Proxy_Russia_U_O_Marksman_CBRN",
+            "TACU_Proxy_Russia_U_O_Teamleader_CBRN",
+            "TACU_Proxy_Russia_U_O_Autorifleman_CBRN",
+            "TACU_Proxy_Russia_U_O_Machinegunner_CBRN",
+            "TACU_Proxy_Russia_U_O_Medic_CBRN",
+            "TACU_Proxy_Russia_U_O_AT_CBRN",
+            "TACU_Proxy_Russia_U_O_AP_CBRN",
+            "TACU_Proxy_Russia_U_O_Driver_CBRN",
+            "TACU_Proxy_Russia_U_O_Pilot_CBRN",
             // Opfor Vehicles
             // Opfor Turrets
             // Independent Units
@@ -41,7 +55,21 @@ class CfgPatches {
             "TACU_Proxy_Russia_U_I_AT",
             "TACU_Proxy_Russia_U_I_AP",
             "TACU_Proxy_Russia_U_I_Driver",
-            "TACU_Proxy_Russia_U_I_Pilot"
+            "TACU_Proxy_Russia_U_I_Pilot",
+            // Independent CBRN Units
+            "TACU_Proxy_Russia_U_I_Rifleman_CBRN",
+            "TACU_Proxy_Russia_U_I_Demolitions_CBRN",
+            "TACU_Proxy_Russia_U_I_Engineer_CBRN",
+            "TACU_Proxy_Russia_U_I_Grenadier_CBRN",
+            "TACU_Proxy_Russia_U_I_Marksman_CBRN",
+            "TACU_Proxy_Russia_U_I_Teamleader_CBRN",
+            "TACU_Proxy_Russia_U_I_Autorifleman_CBRN",
+            "TACU_Proxy_Russia_U_I_Machinegunner_CBRN",
+            "TACU_Proxy_Russia_U_I_Medic_CBRN",
+            "TACU_Proxy_Russia_U_I_AT_CBRN",
+            "TACU_Proxy_Russia_U_I_AP_CBRN",
+            "TACU_Proxy_Russia_U_I_Driver_CBRN",
+            "TACU_Proxy_Russia_U_I_Pilot_CBRN"
             // Independent Vehicles
             // Independent Turrets
         };
