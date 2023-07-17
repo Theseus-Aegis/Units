@@ -9,16 +9,16 @@ class TACU_BM2T_Stalker_Base: O_APC_Tracked_02_cannon_F {
     class TextureSources {
         class Hex {
             displayName = "Hex";
-			author = "Bohemia Interactive";
-			textures[] = {
+            author = "Bohemia Interactive";
+            textures[] = {
                 "a3\armor_f_beta\apc_tracked_02\data\apc_tracked_02_ext_01_hexarid_co.paa",
                 "a3\armor_f_beta\apc_tracked_02\data\apc_tracked_02_ext_02_hexarid_co.paa",
                 "a3\armor_f_beta\apc_tracked_02\data\rcws30_opfor_co.paa",
                 "a3\armor_f\data\camonet_csat_hex_desert_co.paa",
                 "a3\armor_f\data\cage_csat_co.paa"
             };
-			factions[] = {};
-		};
+            factions[] = {};
+        };
         class Eastern_Europe {
             displayName = "Green";
             author = "GilleeDoo";
