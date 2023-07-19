@@ -24,23 +24,23 @@ class TACU_Taliban_Veterans_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     };
     weapons[] = {
         "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -71,23 +71,23 @@ class TACU_Taliban_Veterans_U_I_Rifleman_02: TACU_Taliban_Veterans_U_I_Rifleman_
     uniformClass = "U_lxWS_Djella_02_Grey";
     weapons[] = {
         "TACU_Taliban_Veterans_W_R4",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_R4",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_35Rnd_556x45_R4"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_35Rnd_556x45_R4"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -99,23 +99,23 @@ class TACU_Taliban_Veterans_U_I_Rifleman_03: TACU_Taliban_Veterans_U_I_Rifleman_
     uniformClass = "U_lxWS_Djella_03_Green";
     weapons[] = {
         "TACU_Taliban_Veterans_W_SLR_Wood",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_SLR_Wood",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -128,25 +128,25 @@ class TACU_Taliban_Veterans_U_I_Leader: TACU_Taliban_Veterans_U_I_Rifleman_01 {
     uniformClass = "U_lxWS_Djella_02_Sand";
     weapons[] = {
         "TACU_Taliban_Veterans_W_R5_GL",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_R5_GL",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_35Rnd_556x45_R4"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_35Rnd_556x45_R4"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -158,25 +158,25 @@ class TACU_Taliban_Veterans_U_I_Grenadier: TACU_Taliban_Veterans_U_I_Rifleman_01
     role = "Grenadier";
     weapons[] = {
         "TACU_Taliban_Veterans_W_SLR_GL_Wood",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_SLR_GL_Wood",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("20Rnd_762x51_slr_lxWS"),
         mag_4("1Rnd_40mm_HE_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("20Rnd_762x51_slr_lxWS"),
         mag_4("1Rnd_40mm_HE_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -192,23 +192,23 @@ class TACU_Taliban_Veterans_U_I_Medic: TACU_Taliban_Veterans_U_I_Rifleman_01 {
     backpack = "TACU_Taliban_Militia_B_Medic";
     weapons[] = {
         "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -225,23 +225,23 @@ class TACU_Taliban_Veterans_U_I_Demolitions: TACU_Taliban_Veterans_U_I_Rifleman_
     backpack = "TACU_Taliban_Militia_B_Demolitions";
     weapons[] = {
         "TACU_Taliban_Veterans_W_AK15K",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_AK15K",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -254,24 +254,24 @@ class TACU_Taliban_Veterans_U_I_Scout: TACU_Taliban_Veterans_U_I_Rifleman_01 {
     weapons[] = {
         "Binocular",
         "TACU_Taliban_Veterans_W_SLR_Wood_Scout",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "Binocular",
         "TACU_Taliban_Veterans_W_SLR_Wood_Scout",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -285,23 +285,23 @@ class TACU_Taliban_Veterans_U_I_Machinegunner: TACU_Taliban_Veterans_U_I_Riflema
     role = "MachineGunner";
     weapons[] = {
         "TACU_Taliban_Veterans_W_SA77",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Taliban_Veterans_W_SA77",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         mag_3("100Rnd_762x51_S77_Red_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_3("100Rnd_762x51_S77_Red_lxWS"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -317,65 +317,30 @@ class TACU_Taliban_Veterans_U_I_AT: TACU_Taliban_Veterans_U_I_Rifleman_01 {
     weapons[] = {
         "launch_RPG7_F",
         "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "launch_RPG7_F",
         "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
+        "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
         "RPG7_F",
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         "RPG7_F",
         mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     EDITORPREVIEW(TACU_Taliban_Veterans_U_I_AT);
-};
-
-class TACU_Taliban_Veterans_U_I_AP: TACU_Taliban_Veterans_U_I_Rifleman_01 {
-    displayName = "Rifleman (AP)";
-    uniformClass = "U_lxWS_Djella_02_Grey";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
-    backpack = "TACU_Taliban_Veterans_B_AP";
-    weapons[] = {
-        "launch_RPG7_F",
-        "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "launch_RPG7_F",
-        "TACU_Taliban_Veterans_W_Galat",
-        "CUP_hgun_M9",
-        "Throw", "Put"
-    };
-    magazines[] = {
-        "CUP_OG7_M",
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
-        "HandGrenade",
-        "SmokeShell"
-    };
-    respawnMagazines[] = {
-        "CUP_OG7_M",
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_15Rnd_9x19_M9"),
-        "HandGrenade",
-        "SmokeShell"
-    };
-    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_AP);
 };
 
 class TACU_Taliban_Veterans_U_I_Driver: TACU_Taliban_Veterans_U_I_Rifleman_01 {
