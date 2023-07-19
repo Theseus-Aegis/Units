@@ -1,8 +1,8 @@
 class TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Arid: Headgear_Base_F {
     author = "GilleeDoo, Mike";
     displayName = "Enhanced Combat Helmet (Arid)";
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     vehicleClass = "ItemsHeadgear";
     class TransportItems {
         MACRO_ADDITEM(TACU_BAF_Helmet_EnhancedCombatHelmet_Arid,1);

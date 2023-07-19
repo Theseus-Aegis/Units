@@ -1,5 +1,5 @@
 class TACU_Seven_Rings_Vest_Plate_Carrier_Coyote: V_PlateCarrier2_blk {
-    scope = 2;
+    scope = 1;
     author = "Mike";
     displayName = "Carrier Rig (Coyote)";
     hiddenSelectionsTextures[] = {QPATHTOF(data\vests\sr_platecarrier_east_co.paa)};
