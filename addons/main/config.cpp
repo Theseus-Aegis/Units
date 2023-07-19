@@ -26,18 +26,6 @@ class CfgPatches {
             "CUP_Weapons_LoadOrder",
             // GT Armory
             "tacgt_ammunition",
-            "tacgt_flashlight",
-            // NIArms
-            "hlcweapons_core",
-            "hlcweapons_ar15",
-            "hlcweapons_AUG",
-            "hlcweapons_SG550",
-            // Military Gear Pack
-            "milgp_headgear_cfg",
-            "milgp_vests_cfg",
-            // Project Infinite
-            "bnae_core",
-            "bnae_M97",
             // Theseus Services
             "tacs_backpacks",
             "tacs_headgear",

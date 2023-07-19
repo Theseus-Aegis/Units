@@ -52,18 +52,6 @@ class CfgPatches {
             "TACU_Police_V_O_Van_Transport_Black"
         };
         weapons[] = {
-            "TACU_Police_Helmet_PASGT_Neck_PoliceBlack",
-            "TACU_Police_Helmet_PASGT_Neck_PoliceGreen",
-            "TACU_Police_Uniform_Combat_Black",
-            "TACU_Police_Uniform_Combat_Blue",
-            "TACU_Police_Uniform_Combat_Brown",
-            "TACU_Police_Uniform_Combat_Green",
-            "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack",
-            "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue",
-            "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen",
-            "TACU_Police_Vest_PlateCarrier_PoliceBlack",
-            "TACU_Police_Vest_PlateCarrier_PoliceBlue",
-            "TACU_Police_Vest_PlateCarrier_PoliceGreen",
             "TACU_Police_W_Dragunov",
             "TACU_Police_W_HK416_CQB",
             "TACU_Police_W_HK417_DMR",
@@ -73,7 +61,15 @@ class CfgPatches {
             "TACU_Police_W_Vityaz_Grip"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        requiredAddons[] = {
+            "tacu_main",
+            "tacu_assets",
+            "milgp_headgear_cfg", // Military Gear Pack
+            "hlcweapons_core", // NiArms
+            "hlcweapons_SG550",
+            "bnae_core", // Project Infinite
+            "bnae_M97"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Kresky"};
         VERSION_CONFIG;
