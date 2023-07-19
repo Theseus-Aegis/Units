@@ -97,6 +97,9 @@ class TACU_Revolutionaries_B_Saboteur_Green: B_FieldPack_green_F {
     dlc = QUOTE(PREFIX);
     scope = 1;
     scopeCurator = 1;
+    class TransportItems {
+        MACRO_ADDITEM(ACE_Clacker,1);
+    };
     class TransportMagazines {
         MACRO_ADDMAGAZINE(APERSMineDispenser_MAG,1);
         MACRO_ADDMAGAZINE(APERSMine_Range_MAG,2);
