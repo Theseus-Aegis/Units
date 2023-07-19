@@ -70,9 +70,60 @@ class TACU_Polaris_Armed_Base: B_LSV_01_armed_F {
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
         };
+        class Black {
+            displayName = "Black";
+            author = "Bohemia Interactive";
+            textures[]= {
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_01_black_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_02_black_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_03_black_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_adds_black_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
+            };
+            factions[]= {};
+        };
+        class Olive: Black {
+            displayName = "Olive";
+            textures[] = {
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_01_olive_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_02_olive_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_03_olive_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_adds_olive_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
+            };
+        };
+        class Sand: Black {
+            displayName = "Sand";
+            textures[]= {
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_01_sand_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_02_sand_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_03_sand_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_adds_sand_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
+            };
+        };
+        class Dazzle: Black {
+            displayName = "Dazzle";
+            textures[]= {
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_01_dazzle_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_02_olive_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_03_olive_co.paa",
+                "\a3\soft_f_exp\lsv_01\data\nato_lsv_adds_olive_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
+                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
+            };
+        };
     };
 
-    textureList[] = {};
+    textureList[] = {
+        "Black", 1,
+        "Olive", 1,
+        "Sand", 1,
+        "Dazzle", 1
+    };
 
     MACRO_EVENTHANDLERS;
 };
