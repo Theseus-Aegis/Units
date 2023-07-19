@@ -73,6 +73,7 @@ class CfgPatches {
         author = ECSTRING(main,Author);
         authors[] = {"Kresky"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
