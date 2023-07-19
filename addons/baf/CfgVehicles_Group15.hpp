@@ -26,18 +26,6 @@ class TACU_BAF_U_B_Urban_Scout: TACU_BAF_U_B_Arid_Scout {
         "Throw",
         "Put"
     };
-    magazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
-    respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
     headgearList[] = {"TACU_BAF_Helmet_EnhancedCombatHelmet_Urban", 1};
     CBA_facewearList[] = {
         "G_Balaclava_TI_blk_F", 0.25,
@@ -79,18 +67,6 @@ class TACU_BAF_U_B_Urban_Demolitions: TACU_BAF_U_B_Urban_Scout {
         "Throw",
         "Put"
     };
-    magazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
-    respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
     EDITORPREVIEW(TACU_BAF_U_B_Urban_Demolitions);
 };
 
@@ -98,6 +74,7 @@ class TACU_BAF_U_B_Urban_HeavyGunner: TACU_BAF_U_B_Urban_Scout {
     displayName = "Heavy Gunner";
     icon = "iconManMG";
     role = "MachineGunner";
+    backpack = "TACU_BAF_B_Heavygunner_Fieldpack_Urban";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_HeavyPlateCarrier_Urban",
@@ -123,13 +100,13 @@ class TACU_BAF_U_B_Urban_HeavyGunner: TACU_BAF_U_B_Urban_Scout {
         "Put"
     };
     magazines[] = {
-        mag_3("tacgt_AI_200Rnd_65x39_Belt"),
+        mag_2("tacgt_AI_200Rnd_65x39_Belt"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
     respawnMagazines[] = {
-        mag_3("tacgt_AI_200Rnd_65x39_Belt"),
+        mag_2("tacgt_AI_200Rnd_65x39_Belt"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
@@ -165,18 +142,6 @@ class TACU_BAF_U_B_Urban_JTAC: TACU_BAF_U_B_Urban_Scout {
         "Throw",
         "Put"
     };
-    magazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
-    respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
     EDITORPREVIEW(TACU_BAF_U_B_Urban_JTAC);
 };
 class TACU_BAF_U_B_Urban_Marksman: TACU_BAF_U_B_Urban_Scout {
@@ -207,13 +172,13 @@ class TACU_BAF_U_B_Urban_Marksman: TACU_BAF_U_B_Urban_Scout {
         "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_20Rnd_762x51"),
+        mag_10("tacgt_AI_20Rnd_762x51"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_20Rnd_762x51"),
+        mag_10("tacgt_AI_20Rnd_762x51"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
@@ -249,18 +214,6 @@ class TACU_BAF_U_B_Urban_Medic: TACU_BAF_U_B_Urban_Scout {
         "TACU_BAF_W_Urban_Glock",
         "Throw",
         "Put"
-    };
-    magazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
-    respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
     };
     EDITORPREVIEW(TACU_BAF_U_B_Urban_Medic);
 };
@@ -338,13 +291,13 @@ class TACU_BAF_U_B_Urban_Shotgun: TACU_BAF_U_B_Urban_Scout {
         "Put"
     };
     magazines[] = {
-        mag_2("20Rnd_12Gauge_AA40_Pellets_lxWS"),
+        mag_3("20Rnd_12Gauge_AA40_Pellets_lxWS"),
         mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_2("20Rnd_12Gauge_AA40_Pellets_lxWS"),
+        mag_3("20Rnd_12Gauge_AA40_Pellets_lxWS"),
         mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell")
@@ -378,18 +331,6 @@ class TACU_BAF_U_B_Urban_TL: TACU_BAF_U_B_Urban_Scout {
         "Throw",
         "Put"
     };
-    magazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
-    respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
-        mag_2("SmokeShell"),
-        mag_2("HandGrenade")
-    };
     EDITORPREVIEW(TACU_BAF_U_B_Urban_TL);
 };
 
@@ -421,15 +362,15 @@ class TACU_BAF_U_B_Urban_Grenadier: TACU_BAF_U_B_Urban_Scout {
         "Put"
     };
     magazines[] = {
-        mag_5("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_5("1Rnd_HE_Grenade_shell"),
+        mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_10("1Rnd_HE_Grenade_shell"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_5("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_5("1Rnd_HE_Grenade_shell"),
+        mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_10("1Rnd_HE_Grenade_shell"),
         mag_2("tacgt_AI_17Rnd_9x19_Glock"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
