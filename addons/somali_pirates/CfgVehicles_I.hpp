@@ -34,10 +34,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_02: TACU_Somali_Pirates_U_I_Rifleman_01 {
     uniformClass = "U_I_C_Soldier_Bandit_1_F";
     weapons[] = {"arifle_AK12U_arid_F", "Throw", "Put"};
     respawnWeapons[] = {"arifle_AK12U_arid_F", "Throw", "Put"};
-    magazines[] = {
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("HandGrenade")
-    };
+    magazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), mag_2("HandGrenade")};
     EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_02);
 };
