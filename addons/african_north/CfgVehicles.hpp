@@ -24,7 +24,10 @@ class CfgVehicles {
     #include "CfgVehicles_B.hpp"
     #include "CfgVehicles_O.hpp"
     #include "CfgVehicles_I.hpp"
+
     #include "CfgVehicles_Vehicles_B.hpp"
     #include "CfgVehicles_Vehicles_O.hpp"
     #include "CfgVehicles_Vehicles_I.hpp"
+
+    #include "CfgVehicles_Turrets.hpp"
 };
