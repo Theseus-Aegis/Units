@@ -16,13 +16,13 @@ class TACU_BAF_U_B_Urban_Scout: TACU_BAF_U_B_Arid_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
@@ -57,13 +57,13 @@ class TACU_BAF_U_B_Urban_Demolitions: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
@@ -89,25 +89,25 @@ class TACU_BAF_U_B_Urban_HeavyGunner: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_Stoner99",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_Stoner99",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     magazines[] = {
         mag_2("tacgt_AI_200Rnd_65x39_Belt"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
     respawnMagazines[] = {
         mag_2("tacgt_AI_200Rnd_65x39_Belt"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
@@ -132,13 +132,13 @@ class TACU_BAF_U_B_Urban_JTAC: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
@@ -161,25 +161,25 @@ class TACU_BAF_U_B_Urban_Marksman: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_HK417A2",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK417A2",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     magazines[] = {
         mag_10("tacgt_AI_20Rnd_762x51"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         mag_10("tacgt_AI_20Rnd_762x51"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -205,13 +205,13 @@ class TACU_BAF_U_B_Urban_Medic: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
@@ -237,28 +237,28 @@ class TACU_BAF_U_B_Urban_LAT: TACU_BAF_U_B_Urban_Scout {
     weapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
         "launch_MRAWS_green_F",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
         "launch_MRAWS_green_F",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     magazines[] = {
         "MRAWS_HEAT_F",
         mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "MRAWS_HEAT_F",
         mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -280,26 +280,26 @@ class TACU_BAF_U_B_Urban_Shotgun: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_AA40",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_AA40",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     magazines[] = {
         mag_3("20Rnd_12Gauge_AA40_Pellets_lxWS"),
         mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_3("20Rnd_12Gauge_AA40_Pellets_lxWS"),
         mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell")
     };
     EDITORPREVIEW(TACU_BAF_U_B_Urban_Shotgun);
@@ -321,13 +321,13 @@ class TACU_BAF_U_B_Urban_TL: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK416A5",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
@@ -351,27 +351,27 @@ class TACU_BAF_U_B_Urban_Grenadier: TACU_BAF_U_B_Urban_Scout {
     };
     weapons[] = {
         "TACU_BAF_W_Urban_HK416A5_GL",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     respawnWeapons[] = {
         "TACU_BAF_W_Urban_HK416A5_GL",
-        "TACU_BAF_W_Urban_Glock",
+        "TACU_BAF_W_Urban_P99",
         "Throw",
         "Put"
     };
     magazines[] = {
         mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
         mag_10("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
         mag_10("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Glock"),
+        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
