@@ -28,20 +28,6 @@ class CfgPatches {
             "TACU_Vanguard_U_O_Contractor_Green_Rifleman_02",
             "TACU_Vanguard_U_O_Contractor_Green_Rifleman_AT",
             "TACU_Vanguard_U_O_Contractor_Green_TeamLeader",
-            // Units - (Indep - Guards)
-            "TACU_Vanguard_U_Guard_Rifleman_01",
-            "TACU_Vanguard_U_Guard_Rifleman_02",
-            "TACU_Vanguard_U_Guard_Rifleman_03",
-            "TACU_Vanguard_U_Guard_Rifleman_04",
-            "TACU_Vanguard_U_Guard_Rifleman_05",
-            "TACU_Vanguard_U_Guard_Rifleman_06",
-            // Units - (Opfor - Guards)
-            "TACU_Vanguard_U_O_Guard_Rifleman_01",
-            "TACU_Vanguard_U_O_Guard_Rifleman_02",
-            "TACU_Vanguard_U_O_Guard_Rifleman_03",
-            "TACU_Vanguard_U_O_Guard_Rifleman_04",
-            "TACU_Vanguard_U_O_Guard_Rifleman_05",
-            "TACU_Vanguard_U_O_Guard_Rifleman_06",
             // Units - (Indep - Sand)
             "TACU_Vanguard_U_Contractor_Sand_Autorifleman",
             "TACU_Vanguard_U_Contractor_Sand_Driver",
