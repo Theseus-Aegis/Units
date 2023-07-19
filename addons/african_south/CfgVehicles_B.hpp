@@ -44,10 +44,7 @@ class TACU_African_South_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         mag_2("SmokeShell")
     };
     headgearList[] = {};
-    CBA_facewearList[] = {
-        "", 0.8,
-        "G_Combat_lxWS", 0.2
-    };
+    CBA_facewearList[] = {"", 0.8, "G_Combat_lxWS", 0.2};
     EDITORPREVIEW(TACU_African_South_U_B_Rifleman);
 };
 
@@ -355,14 +352,8 @@ class TACU_African_South_U_B_AA: TACU_African_South_U_B_Rifleman {
 class TACU_African_South_U_B_Sniper: TACU_African_South_U_B_Rifleman {
     displayName = "Sniper";
     uniformClass = "U_B_FullGhillie_lsh";
-    linkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "V_Chestrig_oli"
-    };
-    respawnLinkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "V_Chestrig_oli"
-    };
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Chestrig_oli"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Chestrig_oli"};
     weapons[] = {
         "TACU_African_South_W_Green_M200",
         "TACU_African_South_W_Green_FNX",
@@ -391,14 +382,8 @@ class TACU_African_South_U_B_Sniper: TACU_African_South_U_B_Rifleman {
 class TACU_African_South_U_B_Spotter: TACU_African_South_U_B_Rifleman {
     displayName = "Spotter";
     uniformClass = "U_B_FullGhillie_lsh";
-    linkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "V_Chestrig_oli"
-    };
-    respawnLinkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "V_Chestrig_oli"
-    };
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Chestrig_oli"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_Chestrig_oli"};
     weapons[] = {
         "TACU_African_South_W_Green_XMS",
         "TACU_African_South_W_Green_FNX",
