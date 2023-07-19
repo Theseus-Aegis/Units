@@ -42,9 +42,7 @@ class TACU_Revolutionaries_V_O_KamAZ: TACU_Kamaz_Base {
     side = 0;
     crew = "TACU_Revolutionaries_U_O_Tanoan_Pistoleer02";
     typicalCargo[] = {"TACU_Revolutionaries_U_O_Tanoan_Pistoleer02"};
-    textureList[] = {
-        "Orange", 0.5,
-        "Blue", 0.5
+    textureList[] = {"Orange", 0.5, "Blue", 0.5
     };
 };
 

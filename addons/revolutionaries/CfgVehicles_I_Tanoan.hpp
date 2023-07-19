@@ -4,6 +4,7 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Main_U_INDEP_Soldier_Base
     author = "Jack";
     displayName = "Rifleman (FAL)";
     faction = "TACU_Revolutionaries_I";
+    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Tanoan";
     scope = 2;
     scopeCurator = 2;
     identityTypes[] = {"LanguageFRE_F", "Head_Tanoan", "NoGlasses"};
@@ -14,19 +15,12 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Main_U_INDEP_Soldier_Base
     backpack = "B_FieldPack_green_F";
     linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
-    Items[] = {mag_5("ACE_fieldDressing")};
-    respawnItems[] = {mag_5("ACE_fieldDressing")};
     weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
     magazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL")};
     respawnMagazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL")};
-    editorSubcategory = "TACU_Revolutionaries_EdSubCat_Tanoan";
-    headgearList[] = {
-        "", 1
-    };
-    CBA_facewearList[] = {
-        "", 1
-    };
+    headgearList[] = {};
+    CBA_facewearList[] = {};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Rifleman01);
 };
 
@@ -111,33 +105,37 @@ class TACU_Revolutionaries_U_I_Tanoan_Head: TACU_Revolutionaries_U_I_Tanoan_Rifl
     displayName = "Head";
     icon = "iconManOfficer";
     uniformClass = "U_C_HunterBody_grn";
-    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Cap_tan"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Cap_tan"};
+    linkedItems[] = {
+        DEFAULT_ITEMS,
+        "V_LegStrapBag_black_F",
+        "H_Cap_tan"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS,
+        "V_LegStrapBag_black_F",
+        "H_Cap_tan"
+    };
     backpack = "";
     weapons[] = {"hgun_P07_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_P07_F", "Throw", "Put"};
     magazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
     respawnMagazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Head);
-    headgearList[] = {
-        "H_Cap_tan", 1
-    };
+    headgearList[] = {"H_Cap_tan", 1};
 };
 
 class TACU_Revolutionaries_U_I_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_I_Tanoan_Rifleman01 {
     displayName = "Representative (Unarmed)";
     uniformClass = "U_OrestesBody";
     linkedItems[] = {DEFAULT_ITEMS, "H_StrawHat_dark"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "", "H_StrawHat_dark"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "H_StrawHat_dark"};
     backpack = "";
     weapons[] = {"Throw", "Put"};
     respawnWeapons[] = {"Throw", "Put"};
     magazines[] = {};
     respawnMagazines[] = {};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_FigureHeadUA);
-    headgearList[] = {
-        "H_StrawHat_dark", 1
-    };
+    headgearList[] = {"H_StrawHat_dark", 1};
 };
 
 class TACU_Revolutionaries_U_I_Tanoan_FigureHead: TACU_Revolutionaries_U_I_Tanoan_FigureHeadUA {
@@ -153,14 +151,20 @@ class TACU_Revolutionaries_U_I_Tanoan_Leader: TACU_Revolutionaries_U_I_Tanoan_Ri
     displayName = "Leader";
     icon = "iconManLeader";
     uniformClass = "U_BG_Guerilla3_1";
-    linkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Booniehat_khk"};
-    respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F", "H_Booniehat_khk"};
+    linkedItems[] = {
+        DEFAULT_ITEMS,
+        "V_LegStrapBag_black_F",
+        "H_Booniehat_khk"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS,
+        "V_LegStrapBag_black_F",
+        "H_Booniehat_khk"
+    };
     weapons[] = {"CUP_arifle_M16A1", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_M16A1", "Throw", "Put"};
     magazines[] = {mag_6("CUP_20Rnd_556x45_Stanag")};
     respawnMagazines[] = {mag_6("CUP_20Rnd_556x45_Stanag")};
-    headgearList[] = {
-        "H_Booniehat_khk", 1
-    };
+    headgearList[] = {"H_Booniehat_khk", 1};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Leader);
 };

@@ -8,7 +8,6 @@ class CfgPatches {
             "TACU_Taliban_Militia_B_Medic",
             "TACU_Taliban_Militia_B_Demolitions",
             "TACU_Taliban_Militia_B_AT",
-            "TACU_Taliban_Veterans_B_AP",
             // Taliban Militia
             "TACU_Taliban_Militia_U_I_Rifleman_01",
             "TACU_Taliban_Militia_U_I_Rifleman_02",
@@ -70,7 +69,6 @@ class CfgPatches {
             "TACU_Taliban_Veterans_U_I_Scout",
             "TACU_Taliban_Veterans_U_I_Machinegunner",
             "TACU_Taliban_Veterans_U_I_AT",
-            "TACU_Taliban_Veterans_U_I_AP",
             "TACU_Taliban_Veterans_U_I_Driver",
             "TACU_Taliban_Veterans_V_I_Kamaz_ZU23",
             "TACU_Taliban_Veterans_V_I_Kamaz_Transport",
@@ -98,7 +96,6 @@ class CfgPatches {
             "TACU_Taliban_Veterans_U_O_Scout",
             "TACU_Taliban_Veterans_U_O_Machinegunner",
             "TACU_Taliban_Veterans_U_O_AT",
-            "TACU_Taliban_Veterans_U_O_AP",
             "TACU_Taliban_Veterans_U_O_Driver",
             "TACU_Taliban_Veterans_V_O_Kamaz_ZU23",
             "TACU_Taliban_Veterans_V_O_Kamaz_Transport",
