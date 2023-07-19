@@ -42,43 +42,6 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
                 "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
             };
         };
-        class Black {
-            displayName = "Black";
-            author = "Kresky";
-            textures[] = {
-                "\x\tacs\addons\vehicles\data\polaris_black_ext01_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_black_ext02_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_black_ext03_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_black_adds_co.paa",
-                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
-                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
-            };
-            factions[] = {};
-        };
-        class Tan: Black {
-            displayName = "Tan";
-            author = "GilleeDoo";
-            textures[] = {
-                "\x\tacs\addons\vehicles\data\polaris_tan_ext01_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_tan_ext02_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_tan_ext03_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_tan_adds_co.paa",
-                "\A3\weapons_f_beta\launchers\titan\data\launcher_co.paa",
-                "\A3\weapons_f_beta\launchers\titan\data\tubem_co.paa"
-            };
-        };
-        class Green: Black {
-            displayName = "Green";
-            author = "GilleeDoo";
-            textures[] = {
-                "\x\tacs\addons\vehicles\data\polaris_green_ext01_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_green_ext02_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_green_ext03_co.paa",
-                "\x\tacs\addons\vehicles\data\polaris_green_adds_co.paa",
-                "\a3\weapons_f_beta\launchers\titan\data\launcher_indp_co.paa",
-                "\a3\weapons_f_beta\launchers\titan\data\tubem_indp_co.paa"
-            };
-        };
         class South_African_Green {
             displayName = "South African Green";
             author = "GilleeDoo";
@@ -109,11 +72,7 @@ class TACU_Polaris_Armed_AT_Base: B_LSV_01_AT_F {
         };
     };
 
-    textureList[] = {
-        "Black", 1,
-        "Tan", 1,
-        "Green", 1
-    };
+    textureList[] = {};
 
     MACRO_EVENTHANDLERS;
 };
