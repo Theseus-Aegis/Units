@@ -112,7 +112,15 @@
     class unit##COUNTER { \
         vehicle = #UNIT; \
         side = SIDE; \
+        #if COUNTER == 0 \
         rank = "SERGEANT"; \
+        #else \
+        #if COUNTER == 1 \
+        rank = "CORPORAL"; \
+        #else \
+        rank = "PRIVATE"; \
+        #endif \
+        #endif \
         position[] = { \
             QUOTE(5 * floor ((COUNTER + 1) / 2) * (-1 ^ (COUNTER + 1))), \
             QUOTE(-5 * floor ((COUNTER + 1) / 2)), \
