@@ -87,16 +87,13 @@ class B_D_CTRG_Soldier_Exp_lxWS: B_CTRG_Soldier_Exp_tna_F {
 class B_CTRG_LSV_01_light_F: LSV_01_light_base_F {
     scope = 1;
     scopeCurator = 1;
-    scopeCurator = 1;
 };
 
 class B_CTRG_Heli_Transport_01_tropic_F: Heli_Transport_01_base_F {
     scope = 1;
     scopeCurator = 1;
-    scopeCurator = 1;
 };
 class B_CTRG_Heli_Transport_01_sand_F: Heli_Transport_01_base_F {
     scope = 1;
-    scopeCurator = 1;
     scopeCurator = 1;
 };

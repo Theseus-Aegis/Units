@@ -162,7 +162,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Marksman: TACU_Revolutionaries_U_O_Tanoan_
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"};
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
@@ -228,12 +228,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Grenadier: TACU_Revolutionaries_U_O_Tanoan
     displayName = "Grenadier";
     role = "Grenadier";
     uniformClass = "U_C_Poloshirt_blue";
-    linkedItems= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
     };
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
@@ -271,12 +271,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Machinegunner: TACU_Revolutionaries_U_O_Ta
     role = "MachineGunner";
     uniformClass = "U_C_Poloshirt_redwhite";
     backpack = "TACU_Revolutionaries_B_MMG_UK59_Green";
-    linkedItems= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
     };
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
@@ -304,12 +304,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Autorifleman: TACU_Revolutionaries_U_O_Tan
     role = "MachineGunner";
     uniformClass = "U_C_Poloshirt_salmon";
     backpack = "TACU_Revolutionaries_B_LMG_Minimi_Green";
-    linkedItems= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
     };
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
@@ -335,8 +335,8 @@ class TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_O_Tan
     displayName = "Figure Head (Unarmed)";
     uniformClass = "U_I_C_Soldier_Para_2_F";
     backpack = "";
-    linkedItems= {DEFAULT_ITEMS, "H_Beret_blk"};
-    respawnLinkedItems= {DEFAULT_ITEMS, "", "H_Beret_blk"};
+    linkedItems[] = {DEFAULT_ITEMS, "H_Beret_blk"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS, "", "H_Beret_blk"};
     weapons[] = {"Throw", "Put"};
     respawnWeapons[] = {"Throw", "Put"};
     magazines[] = {};
@@ -370,13 +370,13 @@ class TACU_Revolutionaries_U_O_Tanoan_Leader: TACU_Revolutionaries_U_O_Tanoan_Ri
     displayName = "Leader";
     icon = "iconManLeader";
     uniformClass = "U_I_C_Soldier_Para_4_F";
-    linkedItems= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_LegStrapBag_black_F",
         "H_Booniehat_oil",
         "G_Balaclava_blk"
     };
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_LegStrapBag_black_F",
         "H_Booniehat_oil",
@@ -408,12 +408,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan
     role = "MissileSpecialist";
     uniformClass = "U_I_C_Soldier_Bandit_1_F";
     backpack = "TACU_Revolutionaries_B_Rocketeer_Green";
-    linkedItems= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
     };
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
@@ -471,12 +471,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Pistoleer01: TACU_Revolutionaries_U_O_Tano
     displayName = "Pistoleer (Grach)";
     uniformClass = "U_I_C_Soldier_Bandit_4_F";
     backpack = "";
-    linkedItems= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
     };
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_Pocketed_black_F",
         "G_Balaclava_blk"
@@ -524,12 +524,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifl
     icon = "iconManOfficer";
     uniformClass = "U_Marshal";
     backpack = "";
-    linkedItems= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_LegStrapBag_black_F",
         "H_Hat_brown"
     };
-    respawnLinkedItems= {
+    respawnLinkedItems[] = {
         DEFAULT_ITEMS,
         "V_LegStrapBag_black_F",
         "H_Hat_brown"
@@ -559,7 +559,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01: TACU_Revolutionaries_U_O_T
     displayName = "Rifleman (FAMAS)";
     uniformClass = "U_BG_Guerrilla_6_1";
     backpack = "B_FieldPack_green_F";
-    linkedItems[]= {
+    linkedItems[] = {
         DEFAULT_ITEMS,
         "V_TacVest_camo",
         "G_Balaclava_blk"

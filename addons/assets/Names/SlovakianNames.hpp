@@ -40,7 +40,6 @@ class TACU_SlovakianNames {
         pavlikova = "Pavlíková";
         simko = "Šimko";
         szabo = "Szabo";
-        szabo = "Szabó";
         takac = "Takáč";
         toth = "Tóth";
         varga = "Varga";
