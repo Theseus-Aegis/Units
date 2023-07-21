@@ -1,73 +1,90 @@
 class CfgWeapons {
-    class CUP_arifle_HK416_CQB_Black;
-    class CUP_arifle_HK417_20;
-    class CUP_arifle_SR3M_Vikhr_VFG;
-    class CUP_smg_vityaz_vfg;
-    class CUP_srifle_SVD;
-    class hlc_rifle_SG550Sniper_RIS;
-    class hlc_rifle_SG551LB_TAC;
+    class arifle_SPAR_02_blk_F;
+    class arifle_SPAR_03_blk_F;
+    class arifle_TRG21_F;
+    class sgun_aa40_lxWS;
+    class srifle_EBR_blk_lxWS;
+    class arifle_AK12_F;
+    class SMG_02_F;
+    class hgun_PDW2000_F;
+    class srifle_DMR_07_blk_F;
 
-    class TACU_Police_W_Dragunov: CUP_srifle_SVD {
+    class TACU_Police_W_HK416_CQB: arifle_SPAR_02_blk_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(cup_optic_pso_1_1_open);
+            EQUIP_OPTIC(optic_holosight_blk_f);
+            EQUIP_POINTER(acc_pointer_ir);
         };
     };
 
-    class TACU_Police_W_HK416_CQB: CUP_arifle_HK416_CQB_Black {
+    class TACU_Police_W_HK417_DMR: arifle_SPAR_03_blk_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(cup_optic_eotech553_black);
-            EQUIP_POINTER(cup_acc_anpeq_15_top_flashlight_black_l);
-        };
-    };
-
-    class TACU_Police_W_HK417_DMR: CUP_arifle_HK417_20 {
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            EQUIP_OPTIC(cup_optic_leupoldmk4_cq_t);
-            EQUIP_POINTER(cup_acc_anpeq_15_black);
+            EQUIP_OPTIC(optic_dms);
+            EQUIP_POINTER(acc_pointer_ir);
             EQUIP_BIPOD(bipod_01_f_blk);
         };
     };
 
-    class TACU_Police_W_SG5501_DMR_Rail: hlc_rifle_SG550Sniper_RIS {
-        scope = 1;
-        scopeCurator = 1;
-        class LinkedItems {
-            EQUIP_OPTIC(hlc_optic_zf95base);
-        };
-    };
-
-    class TACU_Police_W_SG551LB_TAC: hlc_rifle_SG551LB_TAC {
+    class TACU_Police_W_Tar21: arifle_TRG21_F {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
             EQUIP_OPTIC(optic_mrco);
-            EQUIP_POINTER(cup_acc_anpeq_15_top_flashlight_black_l);
+            EQUIP_POINTER(acc_pointer_ir);
         };
     };
 
-    class TACU_Police_W_Vikhr_Grip: CUP_arifle_SR3M_Vikhr_VFG {
+    class TACU_Police_W_AA40: sgun_aa40_lxWS {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(cup_optic_kobra);
-            EQUIP_POINTER(cup_acc_anpeq_15_flashlight_black_l);
-            EQUIP_MUZZLE(cup_muzzle_snds_sr3m);
+            EQUIP_OPTIC(optic_aco_smg);
         };
     };
 
-    class TACU_Police_W_Vityaz_Grip: CUP_smg_vityaz_vfg {
+    class TACU_Police_W_EBR: srifle_EBR_blk_lxWS {
         scope = 1;
         scopeCurator = 1;
         class LinkedItems {
-            EQUIP_OPTIC(cup_optic_kobra);
-            EQUIP_POINTER(cup_acc_anpeq_15_flashlight_black_l);
-            EQUIP_MUZZLE(cup_muzzle_bizon);
+            EQUIP_OPTIC(optic_sos);
+            EQUIP_POINTER(acc_pointer_ir);
+        };
+    };
+
+    class TACU_Police_W_AK15: arifle_AK12_F {
+        scope = 1;
+        scopeCurator = 1;
+        class linkedItems {
+            EQUIP_OPTIC(optic_mrco);
+            EQUIP_POINTER(acc_pointer_ir);
+        };
+    };
+
+    class TACU_Police_W_Scorpion: SMG_02_F {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_aco_grn_smg);
+            EQUIP_POINTER(acc_pointer_ir);
+        };
+    };
+
+    class TACU_Police_W_CPW: hgun_PDW2000_F {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_aco_grn_smg);
+        };
+    };
+
+    class TACU_Police_W_QBU: srifle_DMR_07_blk_F {
+        scope = 1;
+        scopeCurator = 1;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_dms);
         };
     };
 };
