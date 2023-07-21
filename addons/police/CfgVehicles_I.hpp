@@ -9,6 +9,8 @@ class TACU_Police_U_I_CT_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "TACU_Police_Uniform_Combat_Black";
+    items[] = {"NVGoggles_OPFOR"};
+    respawnItems[] = {"NVGoggles_OPFOR"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_Police_Helmet_PASGT_Neck_PoliceBlack",
@@ -22,26 +24,24 @@ class TACU_Police_U_I_CT_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
         "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack"
     };
     weapons[] = {
-        "TACU_Police_W_SG551LB_TAC",
-        "CUP_hgun_M9",
+        "TACU_Police_W_Tar21",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Police_W_SG551LB_TAC",
-        "CUP_hgun_M9",
+        "TACU_Police_W_Tar21",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("tacgt_AI_30Rnd_556x45_SIG"),
-        mag_3("tacgt_AI_15Rnd_9x19_M9"),
-        mag_2("ACE_M84"),
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_3("tacgt_AI_8Rnd_45ACP_1911"),
         "MiniGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("tacgt_AI_30Rnd_556x45_SIG"),
-        mag_3("tacgt_AI_15Rnd_9x19_M9"),
-        mag_2("ACE_M84"),
+        mag_6("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_3("tacgt_AI_8Rnd_45ACP_1911"),
         "MiniGrenade",
         "SmokeShell"
     };
@@ -53,25 +53,25 @@ class TACU_Police_U_I_CT_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
 class TACU_Police_U_I_CT_Breacher: TACU_Police_U_I_CT_Rifleman {
     displayName = "Breacher";
     weapons[] = {
-        "bnae_m97_virtual",
-        "CUP_hgun_M9",
+        "TACU_Police_W_AA40",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "bnae_m97_virtual",
-        "CUP_hgun_M9",
+        "TACU_Police_W_AA40",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_8("6Rnd_00_Buckshot_Magazine"),
-        mag_3("tacgt_AI_15Rnd_9x19_M9"),
+        mag_6("8Rnd_12Gauge_AA40_Pellets_lxWS"),
+        mag_3("tacgt_AI_8Rnd_45ACP_1911"),
         mag_2("ACE_M84"),
         "MiniGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_8("6Rnd_00_Buckshot_Magazine"),
-        mag_3("tacgt_AI_15Rnd_9x19_M9"),
+        mag_6("8Rnd_12Gauge_AA40_Pellets_lxWS"),
+        mag_3("tacgt_AI_8Rnd_45ACP_1911"),
         mag_2("ACE_M84"),
         "MiniGrenade",
         "SmokeShell"
@@ -82,27 +82,18 @@ class TACU_Police_U_I_CT_Breacher: TACU_Police_U_I_CT_Rifleman {
 class TACU_Police_U_I_CT_Marksman: TACU_Police_U_I_CT_Rifleman {
     displayName = "Marksman";
     weapons[] = {
-        "TACU_Police_W_SG5501_DMR_Rail",
-        "CUP_hgun_M9",
+        "TACU_Police_W_EBR",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Police_W_SG5501_DMR_Rail",
-        "CUP_hgun_M9",
+        "TACU_Police_W_EBR",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_6("tacgt_AI_30Rnd_556x45_SIG"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_556x45_SIG"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
+    magazines[] = {mag_6("tacgt_AI_20Rnd_762x51"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_6("tacgt_AI_20Rnd_762x51"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
     EDITORPREVIEW(TACU_Police_U_I_CT_Marksman);
-};
-
-class TACU_Police_U_I_CT_RiotControl: TACU_Police_U_I_CT_Rifleman {
-    displayName = "Riot Control";
-    weapons[] = {"CUP_hgun_BallisticShield_Armed", "Throw", "Put"};
-    respawnWeapons[] = {"CUP_hgun_BallisticShield_Armed", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_AI_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("tacgt_AI_15Rnd_9x19_M9")};
-    EDITORPREVIEW(TACU_Police_U_I_CT_RiotControl);
 };
 
 // Units - Police (Enforcers)
@@ -116,7 +107,6 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "TACU_Police_Uniform_Combat_Black";
-    backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "H_Cap_blk",
@@ -130,17 +120,17 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
         "TACU_Police_Vest_PlateCarrier_PoliceBlack"
     };
     weapons[] = {
-        "CUP_arifle_G36C",
-        "CUP_hgun_M9",
+        "arifle_TRG21_F",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "CUP_arifle_G36C",
-        "CUP_hgun_M9",
+        "arifle_TRG21_F",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_6("tacgt_AI_30Rnd_556x45_G36"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_556x45_G36"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_556x45_STANAG"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
     headgearList[] = {"H_Cap_blk", 0.60, "H_HelmetB_black", 0.40};
     CBA_facewearList[] = {"G_Aviator", 1};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_Rifleman);
@@ -150,16 +140,16 @@ class TACU_Police_U_I_Enforcer_SMG_1: TACU_Police_U_I_Enforcer_Rifleman {
     displayName = "SMG (CPW)";
     weapons[] = {
         "hgun_PDW2000_F",
-        "CUP_hgun_M9",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "hgun_PDW2000_F",
-        "CUP_hgun_M9",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_6("tacgt_AI_30Rnd_9x19"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
+    magazines[] = {mag_6("tacgt_AI_30Rnd_9x19"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_SMG_1);
 };
 
@@ -167,32 +157,32 @@ class TACU_Police_U_I_Enforcer_SMG_2: TACU_Police_U_I_Enforcer_Rifleman {
     displayName = "SMG (P90)";
     weapons[] = {
         "SMG_03C_black",
-        "CUP_hgun_M9",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "SMG_03C_black",
-        "CUP_hgun_M9",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_4("tacgt_AI_50Rnd_57x28"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_4("tacgt_AI_50Rnd_57x28"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
+    magazines[] = {mag_4("tacgt_AI_50Rnd_57x28"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_4("tacgt_AI_50Rnd_57x28"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_SMG_2);
 };
 
 class TACU_Police_U_I_Enforcer_Breacher: TACU_Police_U_I_Enforcer_Rifleman {
     displayName = "Breacher";
     weapons[] = {
-        "bnae_m97_virtual",
-        "CUP_hgun_M9",
+        "sgun_aa40_lxWS",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "bnae_m97_virtual",
-        "CUP_hgun_M9",
+        "sgun_aa40_lxWS",
+        "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_6("6Rnd_00_Buckshot_Magazine"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
-    respawnMagazines[] = {mag_6("6Rnd_00_Buckshot_Magazine"), mag_3("tacgt_AI_15Rnd_9x19_M9")};
+    magazines[] = {mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
+    respawnMagazines[] = {mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"), mag_3("tacgt_AI_8Rnd_45ACP_1911")};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_Breacher);
 };
