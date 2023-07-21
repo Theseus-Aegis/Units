@@ -38,8 +38,8 @@ class TACU_SlovakianNames {
         oravcova = "Oravcová";
         oravec = "Oravec";
         pavlikova = "Pavlíková";
+        sablova = "Sabolová";
         simko = "Šimko";
-        szabo = "Szabo";
         szabo = "Szabó";
         takac = "Takáč";
         toth = "Tóth";
