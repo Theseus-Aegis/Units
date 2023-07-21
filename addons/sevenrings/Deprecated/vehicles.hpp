@@ -6,7 +6,6 @@ class TACU_SevenRings_V_I_Kamaz: TACU_Kamaz_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "Kamaz Transport";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_01";
     typicalCargo[] = {
@@ -23,7 +22,6 @@ class TACU_SevenRings_V_I_Kamaz_Covered: TACU_Kamaz_Covered_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "Kamaz Transport (Covered)";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_03";
     typicalCargo[] = {
@@ -40,7 +38,6 @@ class TACU_SevenRings_V_I_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "Kamaz (ZU-23)";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_03";
     typicalCargo[] = {
@@ -57,7 +54,6 @@ class TACU_SevenRings_V_I_Offroad: TACU_Offroad_Unarmed_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "Offroad";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_03";
     typicalCargo[] = {
@@ -74,7 +70,6 @@ class TACU_SevenRings_V_I_Offroad_Armored: TACU_Offroad_Unarmed_UP_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "Offroad Armored";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_02";
     typicalCargo[] = {
@@ -91,7 +86,6 @@ class TACU_SevenRings_V_I_Offroad_M2: TACU_Offroad_Armed_M2_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "Offroad (M2)";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_01";
     typicalCargo[] = {
@@ -108,7 +102,6 @@ class TACU_SevenRings_V_I_Offroad_Armored_M2: TACU_Offroad_Armed_M2_UP_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "Offroad Armored (M2)";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_03";
     typicalCargo[] = {
@@ -125,7 +118,6 @@ class TACU_SevenRings_V_I_Marid_M2: TACU_Otokar_ARMA_Armed_Base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "MSE-3 Marid (HMG)";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_01";
     typicalCargo[] = {
@@ -143,7 +135,6 @@ class TACU_SevenRings_V_I_AGS30: TACU_Assets_AGS_base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "AGS-30";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_01";
     typicalCargo[] = {"TACU_SevenRings_U_I_Eastern_Rifleman_01"};
@@ -156,7 +147,6 @@ class TACU_SevenRings_V_I_D30: TACU_Assets_D30_base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "D-30";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_02";
     typicalCargo[] = {"TACU_SevenRings_U_I_Eastern_Rifleman_02"};
@@ -169,7 +159,6 @@ class TACU_SevenRings_V_I_ZU23: TACU_Assets_ZU23_base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "ZU-23";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_03";
     typicalCargo[] = {"TACU_SevenRings_U_I_Eastern_Rifleman_03"};
@@ -182,7 +171,6 @@ class TACU_SevenRings_V_I_DSHKM: TACU_Assets_DSHKM_base {
     forceInGarage = 1;
     faction = "TACU_SevenRings_I_Eastern";
     side = 2;
-    scope = 1;
     displayName = "DShKM";
     crew = "TACU_SevenRings_U_I_Eastern_Rifleman_02";
     typicalCargo[] = {"TACU_SevenRings_U_I_Eastern_Rifleman_02"};
