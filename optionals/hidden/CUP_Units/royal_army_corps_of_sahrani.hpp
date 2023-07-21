@@ -2,8 +2,6 @@
 class CUP_I_RACS_Soldier: CUP_I_RACS_Desert_Soldier_02 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_Soldier_Unarmed: CUP_I_RACS_Soldier {
     scope = 1;
@@ -24,56 +22,38 @@ class CUP_I_RACS_Soldier_Unarmed_wdl: CUP_I_RACS_Soldier_Unarmed {
 class CUP_I_RACS_Soldier_LAT: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_M72A6_M"};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_M72A6_M"};
 };
 class CUP_I_RACS_Soldier_Light: CUP_I_RACS_Soldier {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_4("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_Officer: CUP_I_RACS_Desert_Soldier_02 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_Medic: CUP_I_RACS_Desert_Soldier_02 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_SL: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_6("1Rnd_HE_Grenade_shell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_6("1Rnd_HE_Grenade_shell")};
 };
 class CUP_I_RACS_GL: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_6("1Rnd_HE_Grenade_shell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_6("1Rnd_HE_Grenade_shell")};
 };
 class CUP_I_RACS_M: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_AR: CUP_I_RACS_Desert_Soldier_02 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_2("tacgt_AI_200Rnd_556x45_Pouch"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_2("tacgt_AI_200Rnd_556x45_Pouch"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_MMG: CUP_I_RACS_Desert_Soldier_02 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_3("tacgt_AI_100Rnd_762x51_Belt"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade")};
-    //respawnMagazines[] = {mag_3("tacgt_AI_100Rnd_762x51_Belt"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade")};
 };
 class CUP_I_RACS_Soldier_AMG: CUP_I_RACS_Soldier {
     scope = 1;
@@ -83,20 +63,14 @@ class CUP_I_RACS_Soldier_AMG: CUP_I_RACS_Soldier {
 class CUP_I_RACS_Crew: CUP_I_RACS_Soldier_03 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_Soldier_AA: CUP_I_RACS_Desert_Soldier_02 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Stinger_M"};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Stinger_M"};
 };
 class CUP_I_RACS_Soldier_MAT: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_MAAWS_HEAT_M"};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_MAAWS_HEAT_M"};
 };
 class CUP_I_RACS_Soldier_AAT: CUP_I_RACS_Soldier {
     scope = 1;
@@ -106,44 +80,30 @@ class CUP_I_RACS_Soldier_AAT: CUP_I_RACS_Soldier {
 class CUP_I_RACS_Soldier_HAT: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Dragon_EP1_M"};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell"), "CUP_Dragon_EP1_M"};
 };
 class CUP_I_RACS_Sniper: CUP_I_RACS_Desert_Soldier_02 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_5("CUP_5Rnd_762x51_M24"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
-    //respawnMagazines[] = {mag_5("CUP_5Rnd_762x51_M24"), mag_2("HandGrenade"), mag_2("SmokeShell"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
 };
 class CUP_I_RACS_Engineer: CUP_I_RACS_Desert_Soldier_01 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_Pilot: CUP_I_RACS_Soldier_03 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_RoyalCommando: CUP_I_RACS_Desert_Soldier_03 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_9x19_MP5"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_RoyalGuard: CUP_I_RACS_Desert_Soldier_03 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_STANAG"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class CUP_I_RACS_RoyalMarksman: CUP_I_RACS_Desert_Soldier_03 {
     scope = 1;
     scopeCurator = 1;
-    //magazines[] = {mag_8("tacgt_AI_30Rnd_556x45_G36"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
-    //respawnMagazines[] = {mag_8("tacgt_AI_30Rnd_556x45_G36"), mag_2("tacgt_AI_17Rnd_9x19_Walther"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 
 class CUP_I_RACS_Soldier_Urban: CUP_I_RACS_Soldier {

@@ -7,12 +7,19 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacu_main"
-            //"tacu_ammunition"
+            "tacu_main",
+            "MU_divers",
+            "MU_greendagers",
+            "MU_MILITIA",
+            "MU_islam",
+            "MU_LIV",
+            "MU_mercs",
+            "MU_RU"
         };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
