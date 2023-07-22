@@ -7,13 +7,18 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacu_main"
-            //"tacu_ammunition"
+            "tacu_main",
+            "tacu_ammunition",
+            "CUP_Weapons_LoadOrder"
         };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
-#include "CfgVehicles.hpp"
+#include "CfgAmmo.hpp"
+#include "CfgMagazines.hpp"
+#include "CfgMagazineWells.hpp"
+#include "CfgWeapons.hpp"

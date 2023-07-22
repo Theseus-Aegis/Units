@@ -1,0 +1,21 @@
+// Backpacks
+class B_AssaultPack_rgr;
+class B_TacticalPack_blk;
+class B_AssaultPack_dgtl;
+class B_Carryall_oli;
+class B_FieldPack_green_F;
+class B_MU_Carryall_blk;
+class B_Carryall_cbr;
+class B_AssaultPack_cbr;
+class B_FieldPack_cbr;
+
+// Units
+class O_diver_F;
+class O_Soldier_diver_base_F;
+class O_Soldier_F;
+class I_MU_GrDa_base_F;
+class I_MU_mercs_base_2_F;
+class I_MU_mercs_base_F;
+class O_MU_islam_base_F;
+class O_MU_LIVP_soldier_base;
+class O_MU_militia_base_F;

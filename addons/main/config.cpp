@@ -21,11 +21,6 @@ class CfgPatches {
             "ace_scopes",
             // CBA
             "cba_main",
-            // CUP
-            "CUP_Creatures_People_LoadOrder",
-            "CUP_Weapons_LoadOrder",
-            // GT Armory
-            "tacgt_ammunition",
             // Theseus Services
             "tacs_backpacks",
             "tacs_headgear",
