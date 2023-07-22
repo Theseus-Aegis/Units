@@ -38,14 +38,14 @@ class TACU_BAF_U_B_Arid_Scout: TACU_Main_U_BLUFOR_Soldier_Base {
         "Put"
     };
     magazines[] = {
-        mag_10("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_10("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -91,14 +91,14 @@ class TACU_BAF_U_B_Arid_Demolitions: TACU_BAF_U_B_Arid_Scout {
         "Put"
     };
     magazines[] = {
-        mag_12("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_12("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -135,14 +135,14 @@ class TACU_BAF_U_B_Arid_HeavyGunner: TACU_BAF_U_B_Arid_Scout {
         "Put"
     };
     magazines[] = {
-        mag_2("tacgt_AI_200Rnd_65x39_Belt"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_200Rnd_65_Box"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
     respawnMagazines[] = {
-        mag_2("tacgt_AI_200Rnd_65x39_Belt"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_200Rnd_65_Box"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
@@ -207,14 +207,14 @@ class TACU_BAF_U_B_Arid_Marksman: TACU_BAF_U_B_Arid_Scout {
         "Put"
     };
     magazines[] = {
-        mag_10("tacgt_AI_20Rnd_762x51"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_20Rnd_M1A"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_10("tacgt_AI_20Rnd_762x51"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_20Rnd_M1A"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -285,15 +285,15 @@ class TACU_BAF_U_B_Arid_LAT: TACU_BAF_U_B_Arid_Scout {
     };
     magazines[] = {
         "MRAWS_HEAT_F",
-        mag_10("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "MRAWS_HEAT_F",
-        mag_10("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -328,13 +328,13 @@ class TACU_BAF_U_B_Arid_Shotgun: TACU_BAF_U_B_Arid_Scout {
     magazines[] = {
         mag_3("20Rnd_12Gauge_AA40_Pellets_Tan_lxWS"),
         mag_4("8Rnd_12Gauge_AA40_Pellets_Snake_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_3("20Rnd_12Gauge_AA40_Pellets_Tan_lxWS"),
         mag_4("8Rnd_12Gauge_AA40_Pellets_Snake_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
     EDITORPREVIEW(TACU_BAF_U_B_Arid_Shotgun);
@@ -397,16 +397,16 @@ class TACU_BAF_U_B_Arid_Grenadier: TACU_BAF_U_B_Arid_Scout {
         "Put"
     };
     magazines[] = {
-        mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_8("TACU_Magazine_30Rnd_STANAG"),
         mag_10("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_8("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_8("TACU_Magazine_30Rnd_STANAG"),
         mag_10("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -446,13 +446,13 @@ class TACU_BAF_U_B_Arid_Sniper: TACU_BAF_U_B_Arid_Scout {
     };
     magazines[] = {
         mag_10("10Rnd_338_Mag"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
     respawnMagazines[] = {
         mag_10("10Rnd_338_Mag"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
@@ -476,14 +476,14 @@ class TACU_BAF_U_B_Arid_Spotter: TACU_BAF_U_B_Arid_Sniper {
         "Put"
     };
     magazines[] = {
-        mag_10("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
     respawnMagazines[] = {
-        mag_10("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
@@ -525,13 +525,13 @@ class TACU_BAF_U_B_Pilot: TACU_BAF_U_B_Arid_Scout {
         "Put"
     };
     magazines[] = {
-        mag_4("tacgt_AI_30Rnd_9x19_MP5"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_4("TACU_Magazine_30Rnd_MP5"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_4("tacgt_AI_30Rnd_9x19_MP5"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_4("TACU_Magazine_30Rnd_MP5"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
     EDITORPREVIEW(TACU_BAF_U_B_Pilot);

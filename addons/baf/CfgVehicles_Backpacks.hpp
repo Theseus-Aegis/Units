@@ -39,7 +39,7 @@ class TACU_BAF_B_Medic_Fieldpack_Arid: TACU_Assets_Fieldpack_Arid {
 class TACU_BAF_B_Heavygunner_Fieldpack_Arid: TACU_Assets_Fieldpack_Arid {
     MACRO_BACKPACK_DEFAULTS;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_65x39_Belt,3);
+        MACRO_ADDMAGAZINE(TACU_Magazine_200Rnd_65_Box,3);
     };
 };
 
@@ -78,7 +78,7 @@ class TACU_BAF_B_Medic_Fieldpack_Tropic: TACU_Assets_Fieldpack_Tropic {
 class TACU_BAF_B_Heavygunner_Fieldpack_Tropic: TACU_Assets_Fieldpack_Tropic {
     MACRO_BACKPACK_DEFAULTS;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_65x39_Belt,3);
+        MACRO_ADDMAGAZINE(TACU_Magazine_200Rnd_65_Box,3);
     };
 };
 
@@ -117,6 +117,6 @@ class TACU_BAF_B_Medic_Fieldpack_Urban: TACU_Assets_Fieldpack_Urban {
 class TACU_BAF_B_Heavygunner_Fieldpack_Urban: TACU_Assets_Fieldpack_Urban {
     MACRO_BACKPACK_DEFAULTS;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_65x39_Belt,3);
+        MACRO_ADDMAGAZINE(TACU_Magazine_200Rnd_65_Box,3);
     };
 };
