@@ -1,3 +1,35 @@
+// SFIA
+class OPF_SFIA_lxWS {
+    class Infantry {
+        name = "DEPRECATED";
+        delete OSFIA_InfSquad_lxWS;
+        delete OSFIA_InfSentry_lxWS;
+        delete OSFIA_InfTeam_lxWS;
+        delete OSFIA_HAF_InfTeam_AT_lxWS;
+        delete OSFIA_HAF_InfTeam_AA_lxWS;
+        delete OSFIA_InfSquad_Weapons_lxWS;
+    };
+    class Motorized {
+        name = "DEPRECATED";
+        delete OSFIA_MotInf_Team_lxWS;
+        delete OSFIA_MotInf_AT_lxWS;
+        delete OSFIA_MotInf_AA_lxWS;
+        delete OSFIA_MotInf_Reinforce_lxWS;
+    };
+    class Mechanized {
+        name = "DEPRECATED";
+        delete OSFIA_MechInf_AT;
+        delete OSFIA_MechInf_AA;
+    };
+    class Armored {
+        name = "DEPRECATED";
+        delete OSFIA_HAF_TankPlatoon_lxWS;
+        delete OSFIA_HAF_TankPlatoon_AA_lxWS;
+        delete OSFIA_HAF_TankSection_lxWS;
+    };
+};
+
+// CUP
 class CUP_O_ChDKZ {
     class Motorized {
         name = "DEPRECATED";
@@ -304,35 +336,5 @@ class CUP_O_SLA {
         delete CUP_O_SLA_DemoSquad;
         delete CUP_O_SLA_SniperTeam;
         delete CUP_O_SLA_SniperTeam_KSVK;
-    };
-};
-
-class OPF_SFIA_lxWS {
-    class Infantry {
-        name = "DEPRECATED";
-        delete OSFIA_InfSquad_lxWS;
-        delete OSFIA_InfSentry_lxWS;
-        delete OSFIA_InfTeam_lxWS;
-        delete OSFIA_HAF_InfTeam_AT_lxWS;
-        delete OSFIA_HAF_InfTeam_AA_lxWS;
-        delete OSFIA_InfSquad_Weapons_lxWS;
-    };
-    class Motorized {
-        name = "DEPRECATED";
-        delete OSFIA_MotInf_Team_lxWS;
-        delete OSFIA_MotInf_AT_lxWS;
-        delete OSFIA_MotInf_AA_lxWS;
-        delete OSFIA_MotInf_Reinforce_lxWS;
-    };
-    class Mechanized {
-        name = "DEPRECATED";
-        delete OSFIA_MechInf_AT;
-        delete OSFIA_MechInf_AA;
-    };
-    class Armored {
-        name = "DEPRECATED";
-        delete OSFIA_HAF_TankPlatoon_lxWS;
-        delete OSFIA_HAF_TankPlatoon_AA_lxWS;
-        delete OSFIA_HAF_TankSection_lxWS;
     };
 };

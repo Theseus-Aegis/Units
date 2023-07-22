@@ -1,10 +1,9 @@
 class CfgFactionClasses {
-    // Vanilla
     class BLU_CTRG_F {
         displayName = "DEPRECATED";
     };
 
-    // CUP - Pre removal
+    // CUP Factions
     class CUP_B_USMC {
         displayName = "DEPRECATED";
     };

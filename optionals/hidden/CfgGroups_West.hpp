@@ -1,4 +1,4 @@
-// Vanilla
+// CTRG; Replaced by BAF.
 class BLU_CTRG_F {
     class Infantry {
         name = "DEPRECATED";
@@ -14,7 +14,7 @@ class BLU_CTRG_F {
     };
 };
 
-// CUP Units
+// CUP
 class CUP_B_CZ {
     class Motorized {
         name = "DEPRECATED";
