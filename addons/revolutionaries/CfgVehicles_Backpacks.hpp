@@ -13,7 +13,7 @@ class TACU_Revolutionaries_B_LMG_Minimi_Black: B_FieldPack_blk {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(200Rnd_556x45_Box_F,3);
+        MACRO_ADDMAGAZINE(TACU_Magazine_200Rnd_556_Box,3);
     };
 };
 class TACU_Revolutionaries_B_Rocketeer_Black: B_FieldPack_blk {
@@ -82,7 +82,7 @@ class TACU_Revolutionaries_B_LMG_Minimi_Green: B_FieldPack_green_F {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(200Rnd_556x45_Box_F,3);
+        MACRO_ADDMAGAZINE(TACU_Magazine_200Rnd_556_Box,3);
     };
 };
 class TACU_Revolutionaries_B_Rocketeer_Green: B_FieldPack_green_F {
@@ -124,7 +124,7 @@ class TACU_Revolutionaries_B_Vet_M60_Green: B_FieldPack_green_F {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_762x51_Belt,5);
+        MACRO_ADDMAGAZINE(TACU_Magazine_100Rnd_762_M240,5);
     };
 };
 
@@ -133,7 +133,7 @@ class TACU_Revolutionaries_B_Vet_MXLSW_Green: B_FieldPack_green_F {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(tacgt_AI_100Rnd_65x39_MX_Black,5);
+        MACRO_ADDMAGAZINE(TACU_Magazine_100Rnd_MX,5);
     };
 };
 
@@ -142,7 +142,7 @@ class TACU_Revolutionaries_B_Vet_Zafir_Black: B_FieldPack_blk {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(150Rnd_762x54_Box,5);
+        MACRO_ADDMAGAZINE(TACU_Magazine_150Rnd_Negev,5);
     };
 };
 

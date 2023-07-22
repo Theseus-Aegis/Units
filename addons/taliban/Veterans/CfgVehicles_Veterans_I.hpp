@@ -33,14 +33,14 @@ class TACU_Taliban_Veterans_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -80,14 +80,14 @@ class TACU_Taliban_Veterans_U_I_Rifleman_02: TACU_Taliban_Veterans_U_I_Rifleman_
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("tacgt_AI_35Rnd_556x45_R4"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("tacgt_AI_35Rnd_556x45_R4"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -108,14 +108,14 @@ class TACU_Taliban_Veterans_U_I_Rifleman_03: TACU_Taliban_Veterans_U_I_Rifleman_
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -137,16 +137,16 @@ class TACU_Taliban_Veterans_U_I_Leader: TACU_Taliban_Veterans_U_I_Rifleman_01 {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("tacgt_AI_35Rnd_556x45_R4"),
+        mag_6("TACU_Magazine_35Rnd_R4"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("tacgt_AI_35Rnd_556x45_R4"),
+        mag_6("TACU_Magazine_35Rnd_R4"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -167,16 +167,16 @@ class TACU_Taliban_Veterans_U_I_Grenadier: TACU_Taliban_Veterans_U_I_Rifleman_01
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
         mag_4("1Rnd_40mm_HE_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
         mag_4("1Rnd_40mm_HE_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -201,14 +201,14 @@ class TACU_Taliban_Veterans_U_I_Medic: TACU_Taliban_Veterans_U_I_Rifleman_01 {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -234,14 +234,14 @@ class TACU_Taliban_Veterans_U_I_Demolitions: TACU_Taliban_Veterans_U_I_Rifleman_
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -264,14 +264,14 @@ class TACU_Taliban_Veterans_U_I_Scout: TACU_Taliban_Veterans_U_I_Rifleman_01 {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -294,14 +294,14 @@ class TACU_Taliban_Veterans_U_I_Machinegunner: TACU_Taliban_Veterans_U_I_Riflema
         "Throw", "Put"
     };
     magazines[] = {
-        mag_3("100Rnd_762x51_S77_Red_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_3("TACU_Magazine_100Rnd_762_SA77"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_3("100Rnd_762x51_S77_Red_lxWS"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_3("TACU_Magazine_100Rnd_762_SA77"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
@@ -328,15 +328,15 @@ class TACU_Taliban_Veterans_U_I_AT: TACU_Taliban_Veterans_U_I_Rifleman_01 {
     };
     magazines[] = {
         "RPG7_F",
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
         "RPG7_F",
-        mag_6("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_6("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };

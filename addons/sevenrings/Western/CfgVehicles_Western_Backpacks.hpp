@@ -30,7 +30,7 @@ class TACU_Seven_Rings_Western_B_MG: B_FieldPack_green_F {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_65x39_Belt,4);
+        MACRO_ADDMAGAZINE(TACU_Magazine_200Rnd_65_Box,4);
     };
 };
 
