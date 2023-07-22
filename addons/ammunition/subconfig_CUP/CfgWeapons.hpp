@@ -50,12 +50,12 @@ class CfgWeapons {
     };
 
     class CUP_arifle_X95;
-    CUP_arifle_Fort224: CUP_arifle_X95 {
+    class CUP_arifle_Fort224: CUP_arifle_X95 {
         magazineWell[] += {"CBA_545x39_Fort"};
     };
 
     class CUP_arifle_X95_Grippod;
-    CUP_arifle_Fort224_Grippod: CUP_arifle_X95_Grippod {
+    class CUP_arifle_Fort224_Grippod: CUP_arifle_X95_Grippod {
         magazineWell[] += {"CBA_545x39_Fort"};
     };
 };
