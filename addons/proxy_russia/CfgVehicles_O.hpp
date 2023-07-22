@@ -38,14 +38,14 @@ class TACU_Proxy_Russia_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -108,16 +108,16 @@ class TACU_Proxy_Russia_U_O_Grenadier: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -139,13 +139,13 @@ class TACU_Proxy_Russia_U_O_Marksman: TACU_Proxy_Russia_U_O_Rifleman {
     };
     magazines[] = {
         mag_6("10Rnd_93x64_DMR_05_Mag"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         mag_6("10Rnd_93x64_DMR_05_Mag"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -167,16 +167,16 @@ class TACU_Proxy_Russia_U_O_Teamleader: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -200,14 +200,14 @@ class TACU_Proxy_Russia_U_O_Autorifleman: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_2("tacgt_AI_75Rnd_762x39_Drum"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_75Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_2("tacgt_AI_75Rnd_762x39_Drum"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_2("TACU_Magazine_75Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -231,14 +231,14 @@ class TACU_Proxy_Russia_U_O_Machinegunner: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        "150Rnd_762x54_Box",
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        "TACU_Magazine_150Rnd_Negev",
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        "150Rnd_762x54_Box",
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        "TACU_Magazine_150Rnd_Negev",
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -274,15 +274,15 @@ class TACU_Proxy_Russia_U_O_AT: TACU_Proxy_Russia_U_O_Rifleman {
     };
     magazines[] = {
         "RPG32_F",
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "RPG32_F",
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -308,15 +308,15 @@ class TACU_Proxy_Russia_U_O_AP: TACU_Proxy_Russia_U_O_Rifleman {
     };
     magazines[] = {
         "RPG32_HE_F",
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "RPG32_HE_F",
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_11Rnd_45ACP_FNX"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
