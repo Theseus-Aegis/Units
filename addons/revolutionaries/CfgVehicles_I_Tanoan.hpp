@@ -17,8 +17,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Rifleman01: TACU_Main_U_INDEP_Soldier_Base
     respawnLinkedItems[] = {DEFAULT_ITEMS, "V_LegStrapBag_black_F"};
     weapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_FNFAL", "Throw", "Put"};
-    magazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL")};
-    respawnMagazines[] = {mag_5("tacgt_AI_20Rnd_762x51_FAL")};
+    magazines[] = {mag_5("TACU_Magazine_20Rnd_762_FAL")};
+    respawnMagazines[] = {mag_5("TACU_Magazine_20Rnd_762_FAL")};
     headgearList[] = {};
     CBA_facewearList[] = {};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Rifleman01);
@@ -52,8 +52,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Paramedic: TACU_Revolutionaries_U_I_Tanoan
     uniformClass = "U_C_Poloshirt_burgundy";
     weapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
-    magazines[] = {mag_12("tacgt_2Rnd_P_000")};
-    respawnMagazines[] = {mag_12("tacgt_2Rnd_P_000")};
+    magazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    respawnMagazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
     backpack = "TACU_Revolutionaries_B_Paramedic_Green";
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Paramedic);
 };
@@ -63,8 +63,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Shotgunner: TACU_Revolutionaries_U_I_Tanoa
     uniformClass = "U_C_MAN_casual_3_F";
     weapons[] = {"sgun_HunterShotgun_01_F", "Throw", "Put"};
     respawnWeapons[] = {"sgun_HunterShotgun_01_F", "Throw", "Put"};
-    magazines[] = {mag_12("tacgt_2Rnd_P_000")};
-    respawnMagazines[] = {mag_12("tacgt_2Rnd_P_000")};
+    magazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
+    respawnMagazines[] = {mag_12("2Rnd_12Gauge_Pellets")};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Shotgunner);
 };
 
@@ -85,8 +85,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Pistoleer01: TACU_Revolutionaries_U_I_Tano
     backpack = "";
     weapons[] = {"hgun_Rook40_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_Rook40_F", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
-    respawnMagazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
+    magazines[] = {mag_6("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Pistoleer01);
 };
 
@@ -96,8 +96,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Pistoleer02: TACU_Revolutionaries_U_I_Tano
     backpack = "";
     weapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_AI_11Rnd_45ACP_FNX")};
-    respawnMagazines[] = {mag_6("tacgt_AI_11Rnd_45ACP_FNX")};
+    magazines[] = {mag_6("TACU_Magazine_11Rnd_FNX")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_11Rnd_FNX")};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Pistoleer02);
 };
 
@@ -118,8 +118,8 @@ class TACU_Revolutionaries_U_I_Tanoan_Head: TACU_Revolutionaries_U_I_Tanoan_Rifl
     backpack = "";
     weapons[] = {"hgun_P07_F", "Throw", "Put"};
     respawnWeapons[] = {"hgun_P07_F", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
-    respawnMagazines[] = {mag_6("tacgt_AI_17Rnd_9x19_Walther")};
+    magazines[] = {mag_6("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Revolutionaries_U_I_Tanoan_Head);
     headgearList[] = {"H_Cap_tan", 1};
 };
