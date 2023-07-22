@@ -235,4 +235,10 @@ class CfgMagazines {
         displayName = "Generic 40Rnd 7.62 RPK Magazine";
     };
 
+    class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M;
+    class TACU_Magazine_100Rnd_762_M240: CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M {
+        MACRO_MG_MAGAZINE;
+        ammo = "TACU_Ammunition_762x51";
+        displayName = "Generic 100Rnd 7.62 M240 Magazine";
+    };
 };
