@@ -131,6 +131,10 @@ class CfgMagazineWells {
         TACU_ai[] = {"TACU_Magazine_75Rnd_762_AK"};
     };
 
+    class CBA_762x51_LINKS {
+        TACU_ai[] = {"TACU_Magazine_150Rnd_762_Box"};
+    };
+
     class S77_762x51 {
         TACU_ai[] = {"TACU_Magazine_100Rnd_762_SA77"};
     };

@@ -207,6 +207,20 @@ class CfgMagazines {
         displayName = "Generic 60Rnd 5.45 Quadstack Magazine";
     };
 
+    class CUP_100Rnd_556x45_BetaCMag_ar15;
+    class TACU_Magazine_100Rnd_556_AR15_BetaC: CUP_100Rnd_556x45_BetaCMag_ar15 {
+        MACRO_MG_MAGAZINE;
+        ammo = "TACU_Ammunition_556x45";
+        displayName = "Generic 100Rnd 556 AR15 Beta-C Magazine";
+    };
+
+    class CUP_100Rnd_556x45_BetaCMag;
+    class TACU_Magazine_100Rnd_556_G36_BetaC: CUP_100Rnd_556x45_BetaCMag {
+        MACRO_MG_MAGAZINE;
+        ammo = "TACU_Ammunition_556x45";
+        displayName = "Generic 100Rnd 556 G36 Beta-C Magazine";
+    };
+
     class CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch;
     class TACU_Magazine_200Rnd_556_Pouch: CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch {
         MACRO_MG_MAGAZINE;

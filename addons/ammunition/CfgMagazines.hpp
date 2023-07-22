@@ -219,6 +219,13 @@ class CfgMagazines {
         displayName = "Generic 75Rnd AK Drum Magazine";
     };
 
+    class 150Rnd_762x51_Box;
+    class TACU_Magazine_150Rnd_762_Box: 150Rnd_762x51_Box {
+        MACRO_MG_MAGAZINE;
+        ammo = "TACU_Ammunition_762x51";
+        displayName = "Generic 150Rnd 7.62 Box Magazine";
+    };
+
     class 100Rnd_762x51_S77_Red_lxWS;
     class TACU_Magazine_100Rnd_762_SA77: 100Rnd_762x51_S77_Red_lxWS {
         MACRO_MG_MAGAZINE;

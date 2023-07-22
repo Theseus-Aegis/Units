@@ -5,7 +5,7 @@ class CfgWeapons {
 
     class Pistol_Base_F;
     class hgun_Pistol_01_F: Pistol_Base_F {
-        magazineWell[] = {"CBA_9x18_PM"};
+        magazineWell[] += {"CBA_9x18_PM"};
     };
 
     class pdw2000_base_F;
@@ -28,7 +28,7 @@ class CfgWeapons {
 
     class Rifle_Long_Base_F;
     class DMR_07_base_F: Rifle_Long_Base_F {
-        magazineWell[] = {"CBA_65x39_QBU"};
+        magazineWell[] += {"CBA_65x39_QBU"};
     };
 
     class Rifle_Base_F;
