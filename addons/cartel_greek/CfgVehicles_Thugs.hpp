@@ -5,7 +5,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     editorSubcategory = "TACU_Cartel_Greek_EdSubCat_O_Thugs";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"LanguageGRE_F", "Head_Cartel", "NoGlasses"};
+    identityTypes[] = {"LanguageGRE_F", "Head_Greek_Cartel", "NoGlasses"};
     genericNames = "GreekMen";
     icon = "iconMan";
     role = "Rifleman";
