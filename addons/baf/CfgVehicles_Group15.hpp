@@ -2,6 +2,8 @@
 class TACU_BAF_U_B_Urban_Scout: TACU_BAF_U_B_Arid_Scout {
     editorSubcategory = "TACU_BAF_EdSubCat_B_Group_15";
     uniformClass = "U_B_CTRG_Soldier_urb_1_F";
+    items[] = {"NVGoggles_INDEP"};
+    respawnItems[] = {"NVGoggles_INDEP"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_BAF_Vest_LightPlateCarrier_Urban",

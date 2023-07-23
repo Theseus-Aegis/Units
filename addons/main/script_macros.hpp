@@ -45,6 +45,19 @@
 #define DEFAULT_ITEMS "ItemMap", "ItemCompass", "ItemWatch"
 #define DEFAULT_ITEMS_RADIO "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"
 
+// Backpack Items
+#define MACRO_MEDICAL_BACKPACK_ITEMS \
+    class TransportItems { \
+        MACRO_ADDITEM(ACE_fieldDressing,20); \
+        MACRO_ADDITEM(ACE_epinephrine,5); \
+        MACRO_ADDITEM(ACE_morphine,5); \
+        MACRO_ADDITEM(ACE_bloodIV,4); \
+        MACRO_ADDITEM(ACE_bloodIV_500,4); \
+        MACRO_ADDITEM(ACE_splint,4); \
+        MACRO_ADDITEM(ACE_tourniquet,4); \
+        MACRO_ADDITEM(ACE_bloodIV_250,2); \
+    }
+
 // Vehicle defaults for factions
 #define MACRO_FACTION_VEHICLE_DEFAULTS \
     dlc = QUOTE(PREFIX); \
@@ -53,8 +66,15 @@
     forceInGarage = 1
 
 #define MACRO_WEAPON_DEFAULTS \
+    dlc = QUOTE(PREFIX); \
     scope = 1; \
     scopeCurator = 1
+
+#define MACRO_BACKPACK_DEFAULTS \
+    dlc = QUOTE(PREFIX); \
+    scope = 1; \
+    scopeCurator = 1
+
 
 // Add Weapon, Item, Magazine to transport cargo (Vehicle, backpack etc.)
 #define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON { \

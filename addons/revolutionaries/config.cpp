@@ -96,6 +96,7 @@ class CfgPatches {
         requiredAddons[] = {
             "tacu_main",
             "tacu_assets",
+            "tacu_weapons",
             "CUP_Weapons_LoadOrder"
         };
         author = ECSTRING(main,Author);

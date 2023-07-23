@@ -10,7 +10,6 @@ class TACU_Vanguard_U_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Garment_LS_BS_BP_BB";
-    backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "tacs_Helmet_Enc_Ballistic_DarkBlack",
@@ -277,7 +276,7 @@ class TACU_Vanguard_U_Specialist_Medic: TACU_Vanguard_U_Specialist_Rifleman {
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    backpack = "G_FieldPack_Medic";
+    backpack = "TACU_Vanguard_B_Medic_AssaultPack_Black";
     weapons[] = {
         "TACU_Vanguard_W_MXC_Black",
         "TACU_Vanguard_W_MXC_Black",

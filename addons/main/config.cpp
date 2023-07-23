@@ -21,12 +21,6 @@ class CfgPatches {
             "ace_scopes",
             // CBA
             "cba_main",
-            // Theseus Services
-            "tacs_backpacks",
-            "tacs_headgear",
-            "tacs_units",
-            "tacs_vehicles",
-            "tacs_vests",
             // Western Sahara
             "data_f_lxWS_Loadorder"
         };
