@@ -88,5 +88,4 @@ class CfgVehicles {
 
     // Turrets
     #include "Vehicles\Turrets.hpp"
-    #include "Vehicles\CUP_Turrets.hpp"
 };
