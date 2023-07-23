@@ -11,7 +11,6 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
     role = "Rifleman";
     sensitivityEar = 0.15;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
-    backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "H_HelmetSpecB",
@@ -47,9 +46,7 @@ class TACU_Vanguard_U_Contractor_Green_Rifleman_01: TACU_Main_U_INDEP_Soldier_Ba
         "SmokeShell"
     };
     EDITORPREVIEW(TACU_Vanguard_U_Contractor_Green_Rifleman_01);
-    headgearList[] = {
-        "H_HelmetSpecB", 1
-    };
+    headgearList[] = {"H_HelmetSpecB", 1};
     editorSubcategory = "TACU_Vanguard_EdSubCat_Contractors_Green";
 };
 
@@ -297,7 +294,7 @@ class TACU_Vanguard_U_Contractor_Green_Medic: TACU_Vanguard_U_Contractor_Green_R
     role = "CombatLifeSaver";
     attendant = 1;
     uniformClass = "tacs_Uniform_Garment_RS_GS_GP_BB";
-    backpack = "tacs_Backpack_Kitbag_Medic_Sage";
+    backpack = "TACU_Vanguard_B_Medic_Kitbag_Green";
     weapons[] = {
         "arifle_Mk20C_ACO_F",
         "hgun_Pistol_heavy_01_green_F",

@@ -197,7 +197,11 @@ class CfgPatches {
             "TACU_African_South_W_Green_FNX"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        requiredAddons[] = {
+            "tacu_main",
+            "tacu_assets",
+            "tacs_units"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;

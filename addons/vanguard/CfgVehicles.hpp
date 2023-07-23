@@ -4,9 +4,12 @@ class CfgVehicles {
     // Base Classes
     class TACU_Main_U_INDEP_Soldier_Base;
 
+    #include "CfgVehicles_Backpacks.hpp"
+
     #include "CfgVehicles_Contractors_Green.hpp"
     #include "CfgVehicles_Contractors_Sand.hpp"
     #include "CfgVehicles_Contractors_Winter.hpp"
     #include "CfgVehicles_Specialists.hpp"
+
     #include "CfgVehicles_Vehicles.hpp"
 };

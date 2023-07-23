@@ -10,7 +10,6 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
-    backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "tacs_Helmet_Enc_Ballistic_White",
@@ -264,7 +263,7 @@ class TACU_Vanguard_U_Contractor_Winter_Medic: TACU_Vanguard_U_Contractor_Winter
     role = "CombatLifeSaver";
     attendant = 1;
     uniformClass = "tacs_Uniform_Combat_LS_WS_WP_WB";
-    backpack = "tacs_Backpack_Kitbag_Medic_White";
+    backpack = "TACU_Vanguard_B_Kitbag_Medic_White";
     weapons[] = {
         "arifle_SPAR_01_blk_ACO_Pointer_F",
         "hgun_Rook40_F",
