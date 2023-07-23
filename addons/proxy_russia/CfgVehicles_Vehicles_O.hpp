@@ -73,3 +73,32 @@ class TACU_Proxy_Russia_V_O_Offroad_AT_CBRN: TACU_Proxy_Russia_V_O_Offroad_AT {
     crew = "TACU_Proxy_Russia_U_O_Driver_CBRN";
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
 };
+
+// Anti-Air
+class TACU_Proxy_Russia_V_O_Tigris: TACU_Tigris_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+
+// APCs
+class TACU_Proxy_Russia_V_O_Iskatel: TACU_BM2T_Iskatel_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+
+class TACU_Proxy_Russia_V_O_Stalker: TACU_BM2T_Stalker_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
+    textureList[] = {"Eastern_Europe", 1};
+};

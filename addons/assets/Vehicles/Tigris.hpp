@@ -33,7 +33,13 @@ class TACU_Tigris_Base: O_APC_Tracked_02_AA_F {
         class Eastern_Europe {
             displayName = "Green";
             author = "GilleeDoo";
-            textures[] = {};
+            textures[] = {
+                QPATHTOF(data\tigris\apc_tracked_02_ext_01_aa_ee_co.paa),
+                QPATHTOF(data\bm2t\apc_tracked_02_ext_02_ee_co.paa),
+                QPATHTOF(data\tigris\apc_tracked_02_aa_tower_ee_co.paa),
+                "a3\armor_f\data\camonet_nato_green_co.paa",
+                "a3\armor_f\data\cage_olive_co.paa"
+            };
             factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
         };
     };

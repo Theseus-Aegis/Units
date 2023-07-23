@@ -22,7 +22,13 @@ class TACU_BM2T_Stalker_Base: O_APC_Tracked_02_cannon_F {
         class Eastern_Europe {
             displayName = "Green";
             author = "GilleeDoo";
-            textures[] = {};
+            textures[] = {
+                QPATHTOF(data\bm2t\apc_tracked_02_ext_01_ee_co.paa),
+                QPATHTOF(data\bm2t\apc_tracked_02_ext_02_ee_co.paa),
+                QPATHTOF(data\turrets\rcws30_ee_co.paa),
+                "a3\armor_f\data\camonet_nato_green_co.paa",
+                "a3\armor_f\data\cage_olive_co.paa"
+            };
             factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
         };
     };
@@ -91,7 +97,14 @@ class TACU_BM2T_Iskatel_Base: O_APC_Tracked_02_30mm_lxWS {
         class Eastern_Europe {
             displayName = "Green";
             author = "GilleeDoo";
-            textures[] = {};
+            textures[] = {
+                QPATHTOF(data\bm2t\apc_tracked_02_ext_01_ee_co.paa),
+                QPATHTOF(data\bm2t\apc_tracked_02_ext_02_ee_co.paa),
+                QPATHTOF(data\bm2t\apc_tracked_02_ext_03_ee_co.paa),
+                QPATHTOF(data\bm2t\apc_tracked_02_30mm_iskatel_ee_co.paa),
+                "a3\armor_f\data\camonet_nato_green_co.paa",
+                "a3\armor_f\data\cage_olive_co.paa"
+            };
             factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
         };
     };
