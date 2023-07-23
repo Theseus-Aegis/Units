@@ -21,7 +21,5 @@ class CfgVehicles {
 
     #include "CfgVehicles_Vehicles.hpp"
 
-    #include "CfgVehicles_Turrets.hpp"
-
     #include "CfgVehicles_Backpacks.hpp"
 };

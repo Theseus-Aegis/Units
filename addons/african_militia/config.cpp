@@ -36,7 +36,6 @@ class CfgPatches {
             "TACU_African_Militia_V_O_MK6",
             "TACU_African_Militia_V_O_HMG",
             "TACU_African_Militia_V_O_ZU23",
-            "TACU_African_Militia_V_O_DSHKM",
             // Independent Units
             "TACU_African_Militia_U_I_Rifleman",
             "TACU_African_Militia_U_I_Rifleman_02",
@@ -62,8 +61,7 @@ class CfgPatches {
             // Independent Turrets
             "TACU_African_Militia_V_I_MK6",
             "TACU_African_Militia_V_I_HMG",
-            "TACU_African_Militia_V_I_ZU23",
-            "TACU_African_Militia_V_I_DSHKM"
+            "TACU_African_Militia_V_I_ZU23"
         };
         weapons[] = {
             "TACU_African_Militia_W_Galat",
