@@ -1,5 +1,5 @@
 // Included all in all faction CfgVehicles as a baseclass list.
-//Backpacks
+// Backpacks
 class TACU_Assets_Fieldpack_Arid;
 class TACU_Assets_Fieldpack_Tropic;
 class TACU_Assets_Fieldpack_Urban;
@@ -81,24 +81,3 @@ class TACU_Assets_Mini_Spike_Green;
 class TACU_Assets_Mini_Spike_Sand;
 class TACU_Assets_MK6_Base;
 class TACU_Assets_ZU23_base;
-
-// Turrets - CUP
-class TACU_Assets_AGS_base;
-class TACU_Assets_D30_base;
-class TACU_Assets_D30AT_base;
-class TACU_Assets_DSHKM_base;
-class TACU_Assets_DSHKM_Mini_base;
-class TACU_Assets_FIM92_base;
-class TACU_Assets_IGLA_base;
-class TACU_Assets_KORD_base;
-class TACU_Assets_KORD_Mini_base;
-class TACU_Assets_KORNET_AT4_base;
-class TACU_Assets_L11A1_base;
-class TACU_Assets_L11A1_MiniTripod_base;
-class TACU_Assets_L134A1_base;
-class TACU_Assets_M119_base;
-class TACU_Assets_M220_TOW_base;
-class TACU_Assets_Metis_base;
-class TACU_Assets_MK19_base;
-class TACU_Assets_RBS70_base;
-class TACU_Assets_SearchLight_base;
