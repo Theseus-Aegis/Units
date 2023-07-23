@@ -4,10 +4,6 @@ class CfgVehicles {
     class TACU_Main_U_INDEP_Soldier_Base;
     class TACU_Main_U_OPFOR_Soldier_Base;
 
-    #include "Deprecated\backpacks.hpp"
-    #include "Deprecated\units.hpp"
-    #include "Deprecated\vehicles.hpp"
-
     #include "Eastern\CfgVehicles_Eastern.hpp"
     #include "Western\CfgVehicles_Western.hpp"
 
