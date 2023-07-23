@@ -205,6 +205,7 @@ class CfgPatches {
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
