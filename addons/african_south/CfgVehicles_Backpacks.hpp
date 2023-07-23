@@ -29,7 +29,7 @@ class TACU_African_South_B_MG: B_FieldPack_oli {
     scope = 1;
     scopeCurator = 1;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(tacgt_AI_200Rnd_556x45_Box,5);
+        MACRO_ADDMAGAZINE(TACU_Magazine_200Rnd_556_Box,5);
     };
 };
 class TACU_African_South_B_AT: B_FieldPack_oli {

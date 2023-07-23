@@ -34,14 +34,14 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
@@ -70,13 +70,14 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_02: TACU_Vanguard_U_Contractor_
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+    respawnMagazines[] = {
+        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
@@ -107,15 +108,15 @@ class TACU_Vanguard_U_Contractor_Winter_Rifleman_AT: TACU_Vanguard_U_Contractor_
     };
     magazines[] = {
         "MRAWS_HEAT_F",
-        mag_7("tacgt_AI_30Rnd_58x42"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_30Rnd_QBZ"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
         "MRAWS_HEAT_F",
-        mag_7("tacgt_AI_30Rnd_58x42"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_30Rnd_QBZ"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
@@ -143,16 +144,16 @@ class TACU_Vanguard_U_Contractor_Winter_Grenadier: TACU_Vanguard_U_Contractor_Wi
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_7("TACU_Magazine_30Rnd_STANAG"),
         mag_3("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_556x45_STANAG"),
+        mag_7("TACU_Magazine_30Rnd_STANAG"),
         mag_3("1Rnd_HE_Grenade_shell"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
@@ -179,14 +180,14 @@ class TACU_Vanguard_U_Contractor_Winter_Marksman: TACU_Vanguard_U_Contractor_Win
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_20Rnd_762x51"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_20Rnd_M1A"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_20Rnd_762x51"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_20Rnd_M1A"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
@@ -207,19 +208,20 @@ class TACU_Vanguard_U_Contractor_Winter_TeamLeader: TACU_Vanguard_U_Contractor_W
         "hgun_Rook40_F",
         "Throw", "Put"
     };
-    respawnWeapons[] = {"TACU_Vanguard_W_MX_Black",
+    respawnWeapons[] = {
+        "TACU_Vanguard_W_MX_Black",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("tacgt_AI_30Rnd_65x39_MX_Black"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_30Rnd_MX"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("tacgt_AI_30Rnd_65x39_MX_Black"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_7("TACU_Magazine_30Rnd_MX"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
@@ -246,8 +248,8 @@ class TACU_Vanguard_U_Contractor_Winter_Autorifleman: TACU_Vanguard_U_Contractor
         "hgun_Rook40_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_2("tacgt_AI_200Rnd_65x39_Belt"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
-    respawnMagazines[] = {mag_2("tacgt_AI_200Rnd_65x39_Belt"), mag_2("tacgt_AI_17Rnd_9x19_Walther")};
+    magazines[] = {mag_2("TACU_Magazine_200Rnd_65_Box"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_2("TACU_Magazine_200Rnd_65_Box"), mag_2("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Vanguard_U_Contractor_Winter_Autorifleman);
 };
 
@@ -274,13 +276,13 @@ class TACU_Vanguard_U_Contractor_Winter_Medic: TACU_Vanguard_U_Contractor_Winter
         "Throw", "Put"
     };
     magazines[] = {
-        mag_4("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_4("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_4("tacgt_AI_30Rnd_556x45_STANAG"),
-        mag_2("tacgt_AI_17Rnd_9x19_Walther"),
+        mag_4("TACU_Magazine_30Rnd_STANAG"),
+        mag_2("TACU_Magazine_17Rnd_Walther"),
         "SmokeShell"
     };
     EDITORPREVIEW(TACU_Vanguard_U_Contractor_Winter_Medic);

@@ -21,8 +21,8 @@ class TACU_African_Militia_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     };
     weapons[] = {"TACU_African_Militia_W_Galat", "Throw", "Put"};
     respawnWeapons[] = {"TACU_African_Militia_W_Galat", "Throw", "Put"};
-    magazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_7("tacgt_AI_30Rnd_762x39_AK"), mag_2("SmokeShell")};
+    magazines[] = {mag_7("TACU_Magazine_30Rnd_762_AK"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_7("TACU_Magazine_30Rnd_762_AK"), mag_2("SmokeShell")};
     headgearList[] = {
         "H_Booniehat_khk", 0.75,
         "H_Booniehat_oli", 0.75,
@@ -49,8 +49,8 @@ class TACU_African_Militia_U_O_Rifleman_02: TACU_African_Militia_U_O_Rifleman {
     uniformClass = "U_lxWS_SFIA_deserter";
     weapons[] = {"TACU_African_Militia_W_SLR", "Throw", "Put"};
     respawnWeapons[] = {"TACU_African_Militia_W_SLR", "Throw", "Put"};
-    magazines[] = {mag_6("20Rnd_762x51_slr_desert_lxWS"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("20Rnd_762x51_slr_desert_lxWS"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("TACU_Magazine_20Rnd_SLR"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_20Rnd_SLR"), mag_2("SmokeShell")};
     EDITORPREVIEW(TACU_African_Militia_U_O_Rifleman_02);
 };
 
@@ -81,8 +81,8 @@ class TACU_African_Militia_U_O_Medic: TACU_African_Militia_U_O_Rifleman {
     backpack = "TACU_African_Militia_B_Medic";
     weapons[] = {"TACU_African_Militia_W_SLR", "Throw", "Put"};
     respawnWeapons[] = {"TACU_African_Militia_W_SLR", "Throw", "Put"};
-    magazines[] = {mag_6("20Rnd_762x51_slr_desert_lxWS"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("20Rnd_762x51_slr_desert_lxWS"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("TACU_Magazine_20Rnd_SLR"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_20Rnd_SLR"), mag_2("SmokeShell")};
     EDITORPREVIEW(TACU_African_Militia_U_O_Medic);
 };
 
@@ -103,12 +103,12 @@ class TACU_African_Militia_U_O_Grenadier: TACU_African_Militia_U_O_Rifleman {
     weapons[] = {"TACU_African_Militia_W_SLR_GL", "Throw", "Put"};
     respawnWeapons[] = {"TACU_African_Militia_W_SLR_GL", "Throw", "Put"};
     magazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
         mag_4("1Rnd_40mm_HE_lxWS"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("20Rnd_762x51_slr_lxWS"),
+        mag_6("TACU_Magazine_20Rnd_SLR"),
         mag_4("1Rnd_40mm_HE_lxWS"),
         mag_2("SmokeShell")
     };
@@ -145,12 +145,12 @@ class TACU_African_Militia_U_O_AT: TACU_African_Militia_U_O_Rifleman {
     };
     magazines[] = {
         "RPG7_F",
-        mag_5("tacgt_AI_30Rnd_762x39_AK"),
+        mag_5("TACU_Magazine_30Rnd_762_AK"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "RPG7_F",
-        mag_5("tacgt_AI_30Rnd_762x39_AK"),
+        mag_5("TACU_Magazine_30Rnd_762_AK"),
         mag_2("SmokeShell")
     };
     EDITORPREVIEW(TACU_African_Militia_U_O_AT);
@@ -164,8 +164,8 @@ class TACU_African_Militia_U_O_Repair: TACU_African_Militia_U_O_Rifleman {
     backpack = "TACU_African_Militia_B_Engineer";
     weapons[] = {"TACU_African_Militia_W_AK12", "Throw", "Put"};
     respawnWeapons[] = {"TACU_African_Militia_W_AK12", "Throw", "Put"};
-    magazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("tacgt_AI_30Rnd_762x39_AK"), mag_2("SmokeShell")};
+    magazines[] = {mag_6("TACU_Magazine_30Rnd_762_AK"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_762_AK"), mag_2("SmokeShell")};
     EDITORPREVIEW(TACU_African_Militia_U_O_Repair);
 };
 
@@ -196,7 +196,7 @@ class TACU_African_Militia_U_O_Teamleader: TACU_African_Militia_U_O_Rifleman {
     };
     weapons[] = {"TACU_African_Militia_W_SLR", "Throw", "Put"};
     respawnWeapons[] = {"TACU_African_Militia_W_SLR", "Throw", "Put"};
-    magazines[] = {mag_7("20Rnd_762x51_slr_desert_lxWS"), mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_7("20Rnd_762x51_slr_desert_lxWS"), mag_2("SmokeShell")};
+    magazines[] = {mag_7("TACU_Magazine_20Rnd_SLR"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_7("TACU_Magazine_20Rnd_SLR"), mag_2("SmokeShell")};
     EDITORPREVIEW(TACU_African_Militia_U_O_Teamleader);
 };

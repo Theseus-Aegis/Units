@@ -35,5 +35,5 @@
 
 // Identity Macros
 #define MACRO_FACES_CARTEL \
-    identityTypes[] = {"Head_Cartel"}; \
+    identityTypes[] = {"Head_Greek_Cartel"}; \
     disabled = 1
