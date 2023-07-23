@@ -17,13 +17,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Revolutionaries_U_I_Tanoa
     };
     magazines[] = {
         mag_5("TACU_Magazine_20Rnd_762_FAL"),
-        mag_2("SmokeShell"),
-        "ACE_M84"
+        mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_5("TACU_Magazine_20Rnd_762_FAL"),
-        mag_2("SmokeShell"),
-        "ACE_M84"
+        mag_2("SmokeShell")
     };
     headgearList[] = {};
     CBA_facewearList[] = {"G_Balaclava_blk", 1};
@@ -37,13 +35,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman02: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"srifle_DMR_06_hunter_F", "Throw", "Put"};
     magazines[] = {
         mag_5("10Rnd_Mk14_762x51_Mag"),
-        "ACE_M84",
         "SmokeShellRed",
         "SmokeShellPurple"
     };
     respawnMagazines[] = {
         mag_5("10Rnd_Mk14_762x51_Mag"),
-        "ACE_M84",
         "SmokeShellRed",
         "SmokeShellPurple"
     };
@@ -67,13 +63,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman03: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"CUP_srifle_LeeEnfield", "Throw", "Put"};
     magazines[] = {
         mag_5("CUP_10x_303_M"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellYellow"
     };
     respawnMagazines[] = {
         mag_5("CUP_10x_303_M"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellYellow"
     };
@@ -87,13 +81,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman04: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"TACU_Revolutionaries_W_CZ805A2", "Throw", "Put"};
     magazines[] = {
         mag_6("TACU_Magazine_30Rnd_556_G36"),
-        "ACE_M84",
         "SmokeShellBlue",
         "SmokeShellPurple"
     };
     respawnMagazines[] = {
         mag_6("TACU_Magazine_30Rnd_556_G36"),
-        "ACE_M84",
         "SmokeShellBlue",
         "SmokeShellPurple"
     };
@@ -111,13 +103,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Paramedic: TACU_Revolutionaries_U_O_Tanoan
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     magazines[] = {
         mag_12("2Rnd_12Gauge_Pellets"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellOrange"
     };
     respawnMagazines[] = {
         mag_12("2Rnd_12Gauge_Pellets"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellOrange"
     };
@@ -141,13 +131,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Shotgunner: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"sgun_HunterShotgun_01_F", "Throw", "Put"};
     magazines[] = {
         mag_12("2Rnd_12Gauge_Pellets"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellGreen"
     };
     respawnMagazines[] = {
         mag_12("2Rnd_12Gauge_Pellets"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellGreen"
     };
@@ -171,13 +159,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Marksman: TACU_Revolutionaries_U_O_Tanoan_
     respawnWeapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
     magazines[] = {
         mag_4("CUP_5x_22_LR_17_HMR_M"),
-        "ACE_M84",
         "SmokeShellRed",
         "SmokeShellBlue"
     };
     respawnMagazines[] = {
         mag_4("CUP_5x_22_LR_17_HMR_M"),
-        "ACE_M84",
         "SmokeShellRed",
         "SmokeShellBlue"
     };
@@ -191,13 +177,11 @@ class TACU_Revolutionaries_U_O_Tanoan_SMG01: TACU_Revolutionaries_U_O_Tanoan_Rif
     respawnWeapons[] = {"TACU_Revolutionaries_W_MP5K", "Throw", "Put"};
     magazines[] = {
         mag_6("TACU_Magazine_30Rnd_SMG"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellYellow"
     };
     respawnMagazines[] = {
         mag_6("TACU_Magazine_30Rnd_SMG"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellYellow"
     };
@@ -211,13 +195,11 @@ class TACU_Revolutionaries_U_O_Tanoan_SMG02: TACU_Revolutionaries_U_O_Tanoan_Rif
     respawnWeapons[] = {"CUP_smg_bizon", "Throw", "Put"};
     magazines[] = {
         mag_4("TACU_Magazine_64Rnd_Bizon"),
-        "ACE_M84",
         "SmokeShellOrange",
         "SmokeShellPurple"
     };
     respawnMagazines[] = {
         mag_4("TACU_Magazine_64Rnd_Bizon"),
-        "ACE_M84",
         "SmokeShellOrange",
         "SmokeShellPurple"
     };
@@ -251,14 +233,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Grenadier: TACU_Revolutionaries_U_O_Tanoan
     magazines[] = {
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_3("TACU_Magazine_17Rnd_Glock"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellPurple"
     };
     respawnMagazines[] = {
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_3("TACU_Magazine_17Rnd_Glock"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellPurple"
     };
@@ -285,13 +265,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Machinegunner: TACU_Revolutionaries_U_O_Ta
     respawnWeapons[] = {"CUP_lmg_UK59", "Throw", "Put"};
     magazines[] = {
         mag_2("CUP_50Rnd_UK59_762x54R_Tracer"),
-        "ACE_M84",
         "SmokeShellOrange",
         "SmokeShellBlue"
     };
     respawnMagazines[] = {
         mag_2("CUP_50Rnd_UK59_762x54R_Tracer"),
-        "ACE_M84",
         "SmokeShellOrange",
         "SmokeShellBlue"
     };
@@ -318,13 +296,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Autorifleman: TACU_Revolutionaries_U_O_Tan
     respawnWeapons[] = {"TACU_Revolutionaries_W_FNMinimiSPW", "Throw", "Put"};
     magazines[] = {
         "TACU_Magazine_200Rnd_556_Box",
-        "ACE_M84",
         "SmokeShellYellow",
         "SmokeShellRed"
     };
     respawnMagazines[] = {
         "TACU_Magazine_200Rnd_556_Box",
-        "ACE_M84",
         "SmokeShellYellow",
         "SmokeShellRed"
     };
@@ -353,13 +329,11 @@ class TACU_Revolutionaries_U_O_Tanoan_FigureHead: TACU_Revolutionaries_U_O_Tanoa
     respawnWeapons[] = {"CUP_hgun_TaurusTracker455_gold", "Throw", "Put"};
     magazines[] = {
         mag_3("CUP_6Rnd_45ACP_M"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellOrange"
     };
     respawnMagazines[] = {
         mag_3("CUP_6Rnd_45ACP_M"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellOrange"
     };
@@ -387,14 +361,12 @@ class TACU_Revolutionaries_U_O_Tanoan_Leader: TACU_Revolutionaries_U_O_Tanoan_Ri
     magazines[] = {
         mag_6("TACU_Magazine_30Rnd_556_G36"),
         mag_6("1Rnd_HE_Grenade_shell"),
-        "ACE_M84",
         "SmokeShellBlue",
         "SmokeShellPurple"
     };
     respawnMagazines[] = {
         mag_6("TACU_Magazine_30Rnd_556_G36"),
         mag_6("1Rnd_HE_Grenade_shell"),
-        "ACE_M84",
         "SmokeShellBlue",
         "SmokeShellPurple"
     };
@@ -430,13 +402,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan
     };
     magazines[] = {
         mag_4("TACU_Magazine_30Rnd_MAC10"),
-        "ACE_M84",
         "SmokeShellRed",
         "SmokeShellOrange"
     };
     respawnMagazines[] = {
         mag_4("TACU_Magazine_30Rnd_MAC10"),
-        "ACE_M84",
         "SmokeShellRed",
         "SmokeShellOrange"
     };
@@ -454,13 +424,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Saboteur: TACU_Revolutionaries_U_O_Tanoan_
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     magazines[] = {
         mag_6("TACU_Magazine_30Rnd_SMG"),
-        "ACE_M84",
         "SmokeShellYellow",
         "SmokeShellPurple"
     };
     respawnMagazines[] = {
         mag_6("TACU_Magazine_30Rnd_SMG"),
-        "ACE_M84",
         "SmokeShellYellow",
         "SmokeShellPurple"
     };
@@ -485,13 +453,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Pistoleer01: TACU_Revolutionaries_U_O_Tano
     respawnWeapons[] = {"hgun_Rook40_F", "Throw", "Put"};
     magazines[] = {
         mag_6("TACU_Magazine_17Rnd_Walther"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellPurple"
     };
     respawnMagazines[] = {
         mag_6("TACU_Magazine_17Rnd_Walther"),
-        "ACE_M84",
         "SmokeShellGreen",
         "SmokeShellPurple"
     };
@@ -506,13 +472,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Pistoleer02: TACU_Revolutionaries_U_O_Tano
     respawnWeapons[] = {"hgun_Pistol_heavy_01_F", "Throw", "Put"};
     magazines[] = {
         mag_4("TACU_Magazine_11Rnd_FNX"),
-        "ACE_M84",
         "SmokeShellYellow",
         "SmokeShell"
     };
     respawnMagazines[] = {
         mag_4("TACU_Magazine_11Rnd_FNX"),
-        "ACE_M84",
         "SmokeShellYellow",
         "SmokeShell"
     };
@@ -538,13 +502,11 @@ class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifl
     respawnWeapons[] = {"cup_hgun_Deagle", "Throw", "Put"};
     magazines[] = {
         mag_4("CUP_7Rnd_50AE_Deagle"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellBlue"
     };
     respawnMagazines[] = {
         mag_4("CUP_7Rnd_50AE_Deagle"),
-        "ACE_M84",
         "SmokeShell",
         "SmokeShellBlue"
     };
