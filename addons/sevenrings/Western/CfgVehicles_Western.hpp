@@ -10,8 +10,8 @@ class TACU_Seven_Rings_Western_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "U_O_R_Gorka_01_F";
-    items[] = {"ACE_NVG_Gen4_Green"};
-    respawnItems[] = {"ACE_NVG_Gen4_Green"};
+    items[] = {"NVGoggles_INDEP"};
+    respawnItems[] = {"NVGoggles_INDEP"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_Seven_Rings_Vest_Plate_Carrier_Green",

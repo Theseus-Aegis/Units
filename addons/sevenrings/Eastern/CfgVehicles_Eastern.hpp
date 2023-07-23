@@ -10,8 +10,8 @@ class TACU_Seven_Rings_Eastern_U_O_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "U_lxWS_C_Djella_02";
-    items[] = {"ACE_NVG_Gen4"};
-    respawnItems[] = {"ACE_NVG_Gen4"};
+    items[] = {"NVGoggles"};
+    respawnItems[] = {"NVGoggles"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "TACU_Seven_Rings_Vest_Plate_Carrier_Coyote",
