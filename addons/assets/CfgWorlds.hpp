@@ -4,6 +4,7 @@ class CfgWorlds {
         #include "Names\BritishNames.hpp"
         #include "Names\IranianNames.hpp"
         #include "Names\PolishNames.hpp"
+        #include "Names\RussianNames.hpp"
         #include "Names\SlovakianNames.hpp"
         #include "Names\SomaliNames.hpp"
         #include "Names\SouthAfricanNames.hpp"

@@ -21,29 +21,6 @@ class CfgPatches {
             "ace_scopes",
             // CBA
             "cba_main",
-            // CUP
-            "CUP_Creatures_People_LoadOrder",
-            "CUP_Weapons_LoadOrder",
-            // GT Armory
-            "tacgt_ammunition",
-            "tacgt_flashlight",
-            // NIArms
-            "hlcweapons_core",
-            "hlcweapons_ar15",
-            "hlcweapons_AUG",
-            "hlcweapons_SG550",
-            // Military Gear Pack
-            "milgp_headgear_cfg",
-            "milgp_vests_cfg",
-            // Project Infinite
-            "bnae_core",
-            "bnae_M97",
-            // Theseus Services
-            "tacs_backpacks",
-            "tacs_headgear",
-            "tacs_units",
-            "tacs_vehicles",
-            "tacs_vests",
             // Western Sahara
             "data_f_lxWS_Loadorder"
         };

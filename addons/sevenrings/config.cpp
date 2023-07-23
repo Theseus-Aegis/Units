@@ -49,10 +49,7 @@ class CfgPatches {
             "TACU_Seven_Rings_Western_V_I_Wildcat_Unarmed",
             // Western Turrets
             "TACU_Seven_Rings_V_I_HMG",
-            "TACU_Seven_Rings_V_I_Metis",
-            "TACU_Seven_Rings_V_I_MK19",
             "TACU_Seven_Rings_V_I_MK6",
-            "TACU_Seven_Rings_V_I_TOW",
             "TACU_Seven_Rings_V_I_ZU23",
             // Eastern Units (Opfor)
             "TACU_Seven_Rings_Eastern_U_O_Rifleman_01",
@@ -99,13 +96,6 @@ class CfgPatches {
             "TACU_Seven_Rings_Eastern_V_O_Otokar_M2",
             // Eastern Turrets
             "TACU_Seven_Rings_V_O_MK6",
-            "TACU_Seven_Rings_V_O_AGS30",
-            "TACU_Seven_Rings_V_O_D30",
-            "TACU_Seven_Rings_V_O_DSHKM",
-            "TACU_Seven_Rings_V_O_DSHKM_Mini",
-            "TACU_Seven_Rings_V_O_Igla",
-            "TACU_Seven_Rings_V_O_KORD",
-            "TACU_Seven_Rings_V_O_KORD_Mini",
             "TACU_Seven_Rings_V_O_ZU23"
         };
         weapons[] = {

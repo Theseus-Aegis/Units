@@ -7,15 +7,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacu_main",
-            "tacgt_ammunitionai",
-            "MU_divers",
-            "MU_greendagers",
-            "MU_MILITIA",
-            "MU_islam",
-            "MU_LIV",
-            "MU_mercs",
-            "MU_RU"
+            "tacu_main"
+            //"tacu_ammunition"
         };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
@@ -24,5 +17,3 @@ class CfgPatches {
 };
 
 #include "CfgVehicles.hpp"
-#include "CfgFactionClasses.hpp"
-#include "CfgGroups.hpp"

@@ -4,56 +4,12 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            // Units
+            "TACU_Assets_TestUnit",
             // Backpacks
             "TACU_Assets_Fieldpack_Arid",
             "TACU_Assets_Fieldpack_Tropic",
             "TACU_Assets_Fieldpack_Urban",
-            // Uniforms
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Clean",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Dirty",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Orange_Muddy",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Blue_Clean",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Blue_Dirty",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Blue_Muddy",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Olive_Clean",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Olive_Dirty",
-            "TACU_Assets_Item_Uniform_Prisoner_Outfit_Olive_Muddy",
-            "TACU_Uniform_O_V_Cartel_Greek_Grunt_01",
-            "TACU_Uniform_O_V_Cartel_Greek_Grunt_02",
-            "TACU_Uniform_O_V_Cartel_Greek_Grunt_03",
-            "TACU_Uniform_O_V_Cartel_Greek_Grunt_04",
-            "TACU_Uniform_O_V_Cartel_Greek_Grunt_05",
-            "TACU_Uniform_O_V_Cartel_Greek_Grunt_06",
-            "TACU_Uniform_O_V_Cartel_Greek_Thug_01",
-            "TACU_Uniform_O_V_Cartel_Greek_Thug_02",
-            "TACU_Uniform_O_V_Cartel_Greek_Thug_03",
-            "TACU_Uniform_O_V_Cartel_Greek_Thug_04",
-            "TACU_Uniform_O_V_Cartel_Greek_Thug_05",
-            "TACU_Uniform_O_V_Cartel_Greek_Thug_06",
-            // Helmets
-            "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Arid",
-            "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Tropic",
-            "TACU_BAF_Item_Helmet_EnhancedCombatHelmet_Urban",
-            "TACU_Police_Item_Helmet_PASGT_Neck_PoliceBlack",
-            "TACU_Police_Item_Helmet_PASGT_Neck_PoliceGreen",
-            "TACU_South_Africa_Item_Helmet_PASGT_Green",
-            // Vests
-            "TACU_BAF_Item_Vest_LightPlateCarrier_Arid",
-            "TACU_BAF_Item_Vest_LightPlateCarrier_Tropic",
-            "TACU_BAF_Item_Vest_LightPlateCarrier_Urban",
-            "TACU_BAF_Item_Vest_HeavyPlateCarrier_Arid",
-            "TACU_BAF_Item_Vest_HeavyPlateCarrier_Tropic",
-            "TACU_BAF_Item_Vest_HeavyPlateCarrier_Urban",
-            "TACU_Police_Item_Vest_HeavyPlateCarrier_PoliceBlack",
-            "TACU_Police_Item_Vest_HeavyPlateCarrier_PoliceBlue",
-            "TACU_Police_Item_Vest_HeavyPlateCarrier_PoliceGreen",
-            "TACU_Police_Item_Vest_PlateCarrier_PoliceBlack",
-            "TACU_Police_Item_Vest_PlateCarrier_PoliceBlue",
-            "TACU_Police_Item_Vest_PlateCarrier_PoliceGreen",
-            "TACU_Vanguard_Item_Vest_PlateCarrier_Earth",
-            "TACU_Vanguard_Item_Vest_PlateCarrier_Foliage",
-            "TACU_Vanguard_Item_Vest_PlateCarrier_Snow",
-            "TACU_Assets_TestUnit",
             // Vehicles
             "TACU_AH6_LittleBird_Base",
             "TACU_Assault_Boat_Base",
@@ -120,10 +76,6 @@ class CfgPatches {
             "TACU_Wiesel_Armed_Base",
             "TACU_Wildcat_Armed_Base",
             "TACU_Wildcat_Base",
-            // Weapons
-            "TACU_Assets_W_Item_HK416A5_Arid",
-            "TACU_Assets_W_Item_HK416A5_GL_Arid",
-            "TACU_Assets_W_Item_HK417A2_Arid",
             // Turrets
             "TACU_Assets_MK6_Base",
             "TACU_Assets_HMG_50",
@@ -131,27 +83,7 @@ class CfgPatches {
             "TACU_Assets_Mini_Spike_Sand",
             "TACU_Assets_Mini_Spike_Brown",
             "TACU_Assets_Mini_Spike_Green",
-            "TACU_Assets_AGS_base",
-            "TACU_Assets_D30_base",
-            "TACU_Assets_D30AT_base",
-            "TACU_Assets_DSHKM_base",
-            "TACU_Assets_DSHKM_Mini_base",
-            "TACU_Assets_FIM92_base",
-            "TACU_Assets_IGLA_base",
-            "TACU_Assets_KORD_base",
-            "TACU_Assets_KORD_Mini_base",
-            "TACU_Assets_KORNET_AT4_base",
-            "TACU_Assets_L11A1_base",
-            "TACU_Assets_L11A1_MiniTripod_base",
-            "TACU_Assets_L134A1_base",
-            "TACU_Assets_M119_base",
-            "TACU_Assets_M2_base",
-            "TACU_Assets_M220_TOW_base",
-            "TACU_Assets_Metis_base",
-            "TACU_Assets_MK19_base",
-            "TACU_Assets_RBS70_base",
-            "TACU_Assets_SearchLight_base",
-            "TACU_Assets_ZU23_base"
+            "TACU_Assets_ZU23_Base"
         };
         weapons[] = {
             // Uniforms

@@ -183,32 +183,3 @@ class TACU_African_North_V_I_Offroad_HMG: TACU_African_North_V_B_Offroad_HMG {
     crew = "TACU_African_North_U_I_Repair";
     typicalCargo[] = {"TACU_African_North_U_I_Repair"};
 };
-
-// Turrets
-class TACU_African_North_V_I_M2HMG_Low: TACU_African_North_V_B_M2HMG_Low {
-    faction = "TACU_African_North_I";
-    side = 2;
-    crew = "TACU_African_North_U_I_Repair";
-    typicalCargo[] = {"TACU_African_North_U_I_Repair"};
-};
-
-class TACU_African_North_V_I_M2HMG: TACU_African_North_V_B_M2HMG {
-    faction = "TACU_African_North_I";
-    side = 2;
-    crew = "TACU_African_North_U_I_Repair";
-    typicalCargo[] = {"TACU_African_North_U_I_Repair"};
-};
-
-class TACU_African_North_V_I_MK6: TACU_African_North_V_B_MK6 {
-    faction = "TACU_African_North_I";
-    side = 2;
-    crew = "TACU_African_North_U_I_Repair";
-    typicalCargo[] = {"TACU_African_North_U_I_Repair"};
-};
-
-class TACU_African_North_V_I_ZU23: TACU_African_North_V_B_ZU23 {
-    faction = "TACU_African_North_I";
-    side = 2;
-    crew = "TACU_African_North_U_I_Repair";
-    typicalCargo[] = {"TACU_African_North_U_I_Repair"};
-};
