@@ -44,9 +44,9 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_O_Offroad",
             "TACU_Proxy_Russia_V_O_Offroad_Armed",
             "TACU_Proxy_Russia_V_O_Offroad_AT",
-            "TACU_Proxy_Russia_V_I_Tigris",
-            "TACU_Proxy_Russia_V_I_Iskatel",
-            "TACU_Proxy_Russia_V_I_Stalker",
+            "TACU_Proxy_Russia_V_O_Tigris",
+            "TACU_Proxy_Russia_V_O_Iskatel",
+            "TACU_Proxy_Russia_V_O_Stalker",
             // Opfor Vehicles CBRN
             "TACU_Proxy_Russia_V_O_Offroad_CBRN",
             "TACU_Proxy_Russia_V_O_Offroad_Armed_CBRN",
