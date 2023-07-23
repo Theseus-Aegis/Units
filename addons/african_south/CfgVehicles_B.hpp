@@ -9,8 +9,8 @@ class TACU_African_South_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "TACU_African_South_Uniform_Combat_Fatigues";
-    items[] = {"ACE_NVG_Gen4_Green"};
-    respawnItems[] = {"ACE_NVG_Gen4_Green"};
+    items[] = {"NVGoggles_INDEP"};
+    respawnItems[] = {"NVGoggles_INDEP"};
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "V_lxWS_TacVestIR_oli",

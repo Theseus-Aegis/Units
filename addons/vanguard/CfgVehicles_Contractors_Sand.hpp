@@ -10,7 +10,6 @@ class TACU_Vanguard_U_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_Bas
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
-    backpack = "";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
         "H_HelmetSpecB_sand",
@@ -297,7 +296,7 @@ class TACU_Vanguard_U_Contractor_Sand_Medic: TACU_Vanguard_U_Contractor_Sand_Rif
     role = "CombatLifeSaver";
     attendant = 1;
     uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
-    backpack = "tacs_Backpack_Kitbag_Medic_Tan";
+    backpack = "TACU_Vanguard_B_Kitbag_Medic_Tan";
     weapons[] = {
         "TACU_Vanguard_W_F2000_Sand",
         "hgun_Pistol_heavy_01_F",

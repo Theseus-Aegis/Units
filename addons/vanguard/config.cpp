@@ -4,7 +4,11 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            "TACU_Vanguard_U_Soldier_Base",
+            // Backpacks
+            "TACU_Vanguard_B_Medic_AssaultPack_Black",
+            "TACU_Vanguard_B_Medic_Kitbag_Green",
+            "TACU_Vanguard_B_Medic_Kitbag_Tan",
+            "TACU_Vanguard_B_Medic_Kitbag_White",
             // Units - (Indep - Green)
             "TACU_Vanguard_U_Contractor_Green_Autorifleman",
             "TACU_Vanguard_U_Contractor_Green_Driver",
@@ -124,10 +128,17 @@ class CfgPatches {
             "TACU_Vanguard_W_SIG556_Sand"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        requiredAddons[] = {
+            "tacu_main",
+            "tacu_assets",
+            "tacs_headgear",
+            "tacs_backpacks",
+            "tacs_units",
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
