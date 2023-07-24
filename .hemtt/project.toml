@@ -1,6 +1,6 @@
-name = "TAC Units"
+name = "Theseus Units"
 prefix = "tacu"
-author = "TAC Units Team"
+author = "Theseus Units Team"
 
 [files]
 include = [
@@ -17,4 +17,4 @@ git_hash = 0
 preset = "Hemtt"
 
 [hemtt.release]
-folder = "tac_units"
+folder = "theseus_units"

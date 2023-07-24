@@ -5,7 +5,7 @@
             <English>TAC Units Team</English>
         </Key>
         <Key ID="STR_TACU_Main_URL">
-            <English>http://www.theseus-aegis.com/</English>
+            <English>https://github.com/Theseus-Aegis/Units</English>
         </Key>
     </Package>
 </Project>
