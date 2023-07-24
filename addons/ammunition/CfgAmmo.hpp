@@ -192,6 +192,7 @@ class CfgAmmo {
     };
 
     // RPG Ammo
+    class MissileBase;
     class RocketBase;
 
     // PG-7VM HEAT Grenade
@@ -199,14 +200,14 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 70; // default 200
     };
     // RPG-42 Rocket
     class R_PG32V_F: RocketBase {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 70; // default 100
     };
 
     // RPG-42 HE Rocket
@@ -214,7 +215,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 30; // default 100
     };
 
     // MAAWS HEAT 75 Round
@@ -222,7 +223,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 70; // default 100
     };
 
     // MAAWS HEAT 55 Round
@@ -230,7 +231,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 70; // default 100
     };
 
     // MAAWS HE 44 Round
@@ -238,7 +239,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 30; // default 100
         ace_frag_classes[] = {"ACE_frag_medium"};
     };
 
@@ -247,7 +248,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        //cost = 30; Already default at 30.
     };
 
     // SPG-9 HE
@@ -258,5 +259,21 @@ class CfgAmmo {
         ace_frag_gurney_c = 2800;
         ace_Frag_gurney_k = "3/5";
         ace_frag_classes[] = {"ACE_frag_medium"};
+    };
+
+    // Vorona HEAT
+    class Vorona_HEAT: MissileBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 250; // Default 500
+    };
+
+    // Vorona HE
+    class M_Vorona_HE: Vorona_HEAT {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        //cost = 30; Already default at 30.
     };
 };

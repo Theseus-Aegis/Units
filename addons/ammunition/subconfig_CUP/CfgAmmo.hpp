@@ -40,7 +40,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 30; // default 100
         ace_frag_enabled = 1;
         ace_frag_metal = 350;
         ace_frag_charge = 210;
@@ -54,7 +54,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 70; // default 100
     };
 
     // PG-7VL (HEAT) Rocket
@@ -62,7 +62,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 100; // default 200
     };
 
     // PG-7VM HEAT Rocket
@@ -70,7 +70,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 70; // default 100
     };
 
     // PG-7VR (T-HEAT) Rocket
@@ -86,7 +86,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 150; // default 300
     };
 
     // RPG-26 Rocket
@@ -94,7 +94,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 70; // default 100
     };
 
     // RPG-18 Rocket
@@ -102,6 +102,6 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 30;
+        cost = 100; // default 200
     };
 };
