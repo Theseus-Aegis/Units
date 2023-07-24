@@ -38,13 +38,13 @@ class TACU_BAF_U_B_Arid_Scout: TACU_Main_U_BLUFOR_Soldier_Base {
         "Put"
     };
     magazines[] = {
-        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_30Rnd_STANAG"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_10("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_30Rnd_STANAG"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
@@ -207,13 +207,13 @@ class TACU_BAF_U_B_Arid_Marksman: TACU_BAF_U_B_Arid_Scout {
         "Put"
     };
     magazines[] = {
-        mag_10("TACU_Magazine_20Rnd_M1A"),
+        mag_11("TACU_Magazine_20Rnd_M1A"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_10("TACU_Magazine_20Rnd_M1A"),
+        mag_11("TACU_Magazine_20Rnd_M1A"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
