@@ -44,13 +44,20 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_O_Offroad",
             "TACU_Proxy_Russia_V_O_Offroad_Armed",
             "TACU_Proxy_Russia_V_O_Offroad_AT",
+            "TACU_Proxy_Russia_V_O_Jeep",
+            "TACU_Proxy_Russia_V_O_Jeep_LMG",
+            "TACU_Proxy_Russia_V_O_Jeep_AT",
             "TACU_Proxy_Russia_V_O_Tigris",
             "TACU_Proxy_Russia_V_O_Iskatel",
             "TACU_Proxy_Russia_V_O_Stalker",
+            "TACU_Proxy_Russia_V_O_Pandur",
             // Opfor Vehicles CBRN
             "TACU_Proxy_Russia_V_O_Offroad_CBRN",
             "TACU_Proxy_Russia_V_O_Offroad_Armed_CBRN",
             "TACU_Proxy_Russia_V_O_Offroad_AT_CBRN",
+            "TACU_Proxy_Russia_V_O_Jeep_CBRN",
+            "TACU_Proxy_Russia_V_O_Jeep_LMG_CBRN",
+            "TACU_Proxy_Russia_V_O_Jeep_AT_CBRN",
             // Opfor Turrets
             // Independent Units
             "TACU_Proxy_Russia_U_I_Rifleman",
@@ -84,13 +91,20 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_I_Offroad",
             "TACU_Proxy_Russia_V_I_Offroad_Armed",
             "TACU_Proxy_Russia_V_I_Offroad_AT",
+            "TACU_Proxy_Russia_V_I_Jeep",
+            "TACU_Proxy_Russia_V_I_Jeep_LMG",
+            "TACU_Proxy_Russia_V_I_Jeep_AT",
             "TACU_Proxy_Russia_V_I_Tigris",
             "TACU_Proxy_Russia_V_I_Iskatel",
             "TACU_Proxy_Russia_V_I_Stalker",
+            "TACU_Proxy_Russia_V_I_Pandur",
             // Independent Vehicles CBRN
             "TACU_Proxy_Russia_V_I_Offroad_CBRN",
             "TACU_Proxy_Russia_V_I_Offroad_Armed_CBRN",
-            "TACU_Proxy_Russia_V_I_Offroad_AT_CBRN"
+            "TACU_Proxy_Russia_V_I_Offroad_AT_CBRN",
+            "TACU_Proxy_Russia_V_I_Jeep_CBRN",
+            "TACU_Proxy_Russia_V_I_Jeep_LMG_CBRN",
+            "TACU_Proxy_Russia_V_I_Jeep_AT_CBRN"
             // Independent Turrets
         };
         weapons[] = {

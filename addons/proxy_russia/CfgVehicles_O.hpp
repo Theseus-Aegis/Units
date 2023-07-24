@@ -1,6 +1,9 @@
 #define MACRO_LINKED_ITEMS_CBRN \
     linkedItems[] = {DEFAULT_ITEMS_RADIO, "V_CarrierRigKBT_01_light_EAF_F", "H_HelmetHBK_F", "G_AirPurifyingRespirator_02_olive_F"}; \
-    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_CarrierRigKBT_01_light_EAF_F", "H_HelmetHBK_F", "G_AirPurifyingRespirator_02_olive_F"}
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "V_CarrierRigKBT_01_light_EAF_F", "H_HelmetHBK_F", "G_AirPurifyingRespirator_02_olive_F"}; \
+    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F"; \
+    CBA_facewearList[] = {"G_AirPurifyingRespirator_02_olive_F"}; \
+    editorSubcategory = "TACU_Proxy_Russia_CBRN"
 
 class TACU_Proxy_Russia_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     author = "Mike";
@@ -351,104 +354,65 @@ class TACU_Proxy_Russia_U_O_Pilot: TACU_Proxy_Russia_U_O_Rifleman {
 class TACU_Proxy_Russia_U_O_Rifleman_CBRN: TACU_Proxy_Russia_U_O_Rifleman {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Rifleman (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Rifleman_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Demolitions_CBRN: TACU_Proxy_Russia_U_O_Demolitions {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Demolitions (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Demolitions_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Engineer_CBRN: TACU_Proxy_Russia_U_O_Engineer {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Engineer (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Engineer_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Grenadier_CBRN: TACU_Proxy_Russia_U_O_Grenadier {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Grenadier (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Grenadier_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Marksman_CBRN: TACU_Proxy_Russia_U_O_Marksman {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Marksman (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Marksman_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Teamleader_CBRN: TACU_Proxy_Russia_U_O_Teamleader {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Team Leader (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Teamleader_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Autorifleman_CBRN: TACU_Proxy_Russia_U_O_Autorifleman {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Autorifleman (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Autorifleman_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Machinegunner_CBRN: TACU_Proxy_Russia_U_O_Machinegunner {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Machinegunner (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Machinegunner_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Medic_CBRN: TACU_Proxy_Russia_U_O_Medic {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Medic (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Medic_CBRN);
 };
 class TACU_Proxy_Russia_U_O_AT_CBRN: TACU_Proxy_Russia_U_O_AT {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Rifleman (AT, CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT_CBRN);
 };
 class TACU_Proxy_Russia_U_O_AP_CBRN: TACU_Proxy_Russia_U_O_AP {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Rifleman (AP, CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_AP_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Driver_CBRN: TACU_Proxy_Russia_U_O_Driver {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Driver (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Driver_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Pilot_CBRN: TACU_Proxy_Russia_U_O_Pilot {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Pilot (CBRN)";
-    uniformClass = "U_I_E_CBRN_Suit_01_EAF_F";
-    CBA_facewearList[] = {};
-    editorSubcategory = "TACU_Proxy_Russia_CBRN";
     //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Pilot_CBRN);
 };

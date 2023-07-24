@@ -35,6 +35,43 @@ class TACU_Proxy_Russia_V_I_Offroad_AT_CBRN: TACU_Proxy_Russia_V_I_Offroad_AT {
     typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
 };
 
+// Jeep Wranglers
+class TACU_Proxy_Russia_V_I_Jeep: TACU_Proxy_Russia_V_O_Jeep {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+class TACU_Proxy_Russia_V_I_Jeep_CBRN: TACU_Proxy_Russia_V_I_Jeep {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_I_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_I_Jeep_LMG: TACU_Proxy_Russia_V_O_Jeep_LMG {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+class TACU_Proxy_Russia_V_I_Jeep_LMG_CBRN: TACU_Proxy_Russia_V_I_Jeep_LMG {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_I_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_I_Jeep_AT: TACU_Proxy_Russia_V_O_Jeep_AT {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+class TACU_Proxy_Russia_V_I_Jeep_AT_CBRN: TACU_Proxy_Russia_V_I_Jeep_AT {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_I_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
+};
+
 // Anti-Air
 class TACU_Proxy_Russia_V_I_Tigris: TACU_Proxy_Russia_V_O_Tigris {
     faction = "TACU_Proxy_Russia_I";
@@ -52,6 +89,13 @@ class TACU_Proxy_Russia_V_I_Iskatel: TACU_Proxy_Russia_V_O_Iskatel {
 };
 
 class TACU_Proxy_Russia_V_I_Stalker: TACU_Proxy_Russia_V_O_Stalker {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+
+class TACU_Proxy_Russia_V_I_Pandur: TACU_Proxy_Russia_V_O_Pandur {
     faction = "TACU_Proxy_Russia_I";
     side = 2;
     crew = "TACU_Proxy_Russia_U_I_Driver";

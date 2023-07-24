@@ -66,6 +66,12 @@ class TACU_Offroad_Armed_AT_Base: B_G_Offroad_01_AT_F {
             author = "BadHabitz, Jonpas";
             textures[] = {"\x\tacs\addons\vehicles\data\offroad_black_ext_co.paa", "\x\tacs\addons\vehicles\data\offroad_black_ext_co.paa"};
         };
+        class Eastern_Europe: Guerilla_01 {
+            displayName = "Green";
+            author = "GilleeDoo";
+            textures[] = {QPATHTOF(data\offroad\offroad_01_ext_grn_ee_co.paa), QPATHTOF(data\offroad\offroad_01_ext_grn_ee_co.paa)};
+            factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
+        };
     };
 
     textureList[] = {
