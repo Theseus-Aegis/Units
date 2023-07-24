@@ -34,22 +34,18 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_12("TACU_Magazine_30Rnd_556_G36"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_12("TACU_Magazine_30Rnd_556_G36"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
+    headgearList[] = {"H_PASGT_basic_black_F", 1};
+    CBA_facewearList[] = {"G_Balaclava_blk", 1};
     EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01);
-    headgearList[] = {
-        "H_PASGT_basic_black_F", 1
-    };
-    CBA_facewearList[] = {
-        "G_Balaclava_blk", 1
-    };
 };
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
     displayName = "Enforcer (G36A AG36)";
@@ -64,13 +60,13 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_10("TACU_Magazine_30Rnd_556_G36"),
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_10("TACU_Magazine_30Rnd_556_G36"),
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
@@ -91,12 +87,12 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_03: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_12("TACU_Magazine_30Rnd_556_G36"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_12("TACU_Magazine_30Rnd_556_G36"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
@@ -118,13 +114,13 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_12("TACU_Magazine_30Rnd_556_G36"),
         "CUP_OG7_M",
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_556_G36"),
+        mag_12("TACU_Magazine_30Rnd_556_G36"),
         "CUP_OG7_M",
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
@@ -145,12 +141,12 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_05: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_20Rnd_M1A"),
+        mag_11("TACU_Magazine_20Rnd_M1A"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_20Rnd_M1A"),
+        mag_11("TACU_Magazine_20Rnd_M1A"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
@@ -222,13 +218,13 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("CUP_6Rnd_HE_M203"),
-        mag_4("TACU_Magazine_40Rnd_MP7"),
+        mag_5("CUP_6Rnd_HE_M203"),
+        mag_5("TACU_Magazine_40Rnd_MP7"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("CUP_6Rnd_HE_M203"),
-        mag_4("TACU_Magazine_40Rnd_MP7"),
+        mag_5("CUP_6Rnd_HE_M203"),
+        mag_5("TACU_Magazine_40Rnd_MP7"),
         mag_2("HandGrenade")
     };
     EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08);
