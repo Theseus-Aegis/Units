@@ -31,4 +31,77 @@ class CfgAmmo {
         visibleFire = 0.07;
         visibleFireTime = 2;
     };
+
+    // RPG Ammo
+    class RocketBase;
+
+    // OG-7V (Frag) Rocket
+    class CUP_R_OG7_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30; // default 100
+        ace_frag_enabled = 1;
+        ace_frag_metal = 350;
+        ace_frag_charge = 210;
+        ace_frag_gurney_c = 2800;
+        ace_Frag_gurney_k = "3/5";
+        ace_frag_classes[] = {"ACE_frag_medium"};
+    };
+
+    // PG-7V (HEAT) Rocket
+    class CUP_R_PG7V_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 70; // default 100
+    };
+
+    // PG-7VL (HEAT) Rocket
+    class CUP_R_PG7VL_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 100; // default 200
+    };
+
+    // PG-7VM HEAT Rocket
+    class CUP_R_PG7VM_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 70; // default 100
+    };
+
+    // PG-7VR (T-HEAT) Rocket
+    class CUP_R_PG7VR_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+    };
+
+    // TBG-7V (Thermobaric) Rocket
+    class CUP_R_TBG7V_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 150; // default 300
+    };
+
+    // RPG-26 Rocket
+    class CUP_R_PG26_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 70; // default 100
+    };
+
+    // RPG-18 Rocket
+    class CUP_R_RPG18_AT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 100; // default 200
+    };
 };

@@ -49,6 +49,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 30Rnd 9mm SMG Magazine";
+        mass = 8;
     };
 
     class 30Rnd_9x21_Mag_SMG_02;
@@ -56,6 +57,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 30Rnd 9mm SMG Magazine";
+        mass = 8;
     };
 
     class 30Rnd_45ACP_Mag_SMG_01;
@@ -63,6 +65,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_45ACP";
         displayName = "Generic 25Rnd Vector Magazine";
+        mass = 8;
     };
 
     class 50Rnd_570x28_SMG_03;
@@ -70,6 +73,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_58x52";
         displayName = "Generic 50Rnd P90 Magazine";
+        mass = 8;
     };
 
     // Assault Rifles
@@ -78,6 +82,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_545x39";
         displayName = "Generic 30Rnd 5.45 AK Magazine";
+        mass = 9;
     };
 
     class 30Rnd_556x45_Stanag;
@@ -85,6 +90,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 30Rnd STANAG Magazine";
+        mass = 9;
     };
 
     class 35Rnd_556x45_Velko_reload_tracer_red_lxWS;
@@ -92,6 +98,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 35Rnd Velko Magazine";
+        mass = 10;
     };
 
     class 30Rnd_580x42_Mag_F;
@@ -99,6 +106,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_58x52";
         displayName = "Generic 30Rnd QBZ Magazine";
+        mass = 9;
     };
 
     // Katiba
@@ -107,6 +115,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_65x39";
         displayName = "Generic 30Rnd Katiba Magazine";
+        mass = 9;
     };
 
     // MX
@@ -115,6 +124,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_65x39";
         displayName = "Generic 30Rnd MX Magazine";
+        mass = 9;
     };
 
     // Promet / MSBS
@@ -123,6 +133,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_65x39";
         displayName = "Generic 30Rnd MSBS Magazine";
+        mass = 9;
     };
 
     class 30Rnd_762x39_Mag_F;
@@ -130,6 +141,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_762x39";
         displayName = "Generic 30Rnd 7.62 AK Magazine";
+        mass = 10;
     };
 
     // Battle Rifles / Marksman Rifles
@@ -153,6 +165,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_762x51";
         displayName = "Generic 20Rnd M1A Magazine";
+        mass = 10;
     };
 
     class 10Rnd_762x54_Mag;
@@ -167,6 +180,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_762x51";
         displayName = "Generic 20Rnd SLR Magazine";
+        mass = 10;
     };
 
     // Machine Guns
@@ -175,6 +189,7 @@ class CfgMagazines {
         MACRO_MG_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 75Rnd 5.56 Surefire Magazine";
+        mass = 15;
     };
 
     class 150Rnd_556x45_Drum_Mag_F;
@@ -217,6 +232,7 @@ class CfgMagazines {
         MACRO_MG_MAGAZINE;
         ammo = "TACU_Ammunition_762x39";
         displayName = "Generic 75Rnd AK Drum Magazine";
+        mass = 25;
     };
 
     class 150Rnd_762x51_Box;
