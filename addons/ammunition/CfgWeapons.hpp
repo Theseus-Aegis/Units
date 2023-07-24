@@ -49,6 +49,7 @@ class CfgWeapons {
     };
 
     // RPG firemodes
+    class Mode_SemiAuto;
     class Launcher_Base_F;
     class launch_RPG7_F: Launcher_Base_F {
         class Single: Mode_SemiAuto {
