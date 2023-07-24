@@ -1,12 +1,12 @@
 name = "Theseus Units 0.0.0";
 picture = "logo_tacu_ca.paa";
-actionName = "Website";
-action = "http://www.theseus-aegis.com/";
-description = "Theseus Inc. Unit mod";
+actionName = "Github";
+action = "https://github.com/Theseus-Aegis/Units";
+description = "Theseus Units - Factions complimenting PMCs";
 logo = "logo_tacu_small_ca.paa";
 logoOver = "logo_tacu_small_ca.paa";
-tooltip = "TAC Units";
+tooltip = "Theseus Units";
 tooltipOwned = "Theseus Inc. Owned";
-overview = "Unit factions for Theseus Inc.";
+overview = "Theseus Units provides factions for Private Military Companies, their enemies and friends.";
 author = "Theseus Units Team";
 overviewPicture = "logo_tacu_ca.paa";
