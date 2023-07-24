@@ -1,5 +1,10 @@
 class CfgWeapons {
-    // Add magwells to weapons that don't have them or reliable ones.
+    /*
+     * Adds missing magwells to weapons that lack them.
+     * Alters RPG firemodes.
+    */
+
+    // Magwells
     class Pistol_Base_F;
     class Rifle_Base_F;
 
@@ -57,5 +62,20 @@ class CfgWeapons {
     class CUP_arifle_X95_Grippod;
     class CUP_arifle_Fort224_Grippod: CUP_arifle_X95_Grippod {
         magazineWell[] += {"CBA_545x39_Fort"};
+    };
+
+    // RPG Firemodes
+    class CUP_launch_RPG7V: Launcher_Base_F {
+        class Single: Mode_SemiAuto {
+            minRange = 50;
+            minRangeProbab = 0.50;
+            midRange = 500;
+            midRangeProbab = 0.40;
+            maxRange = 800;
+            maxRangeProbab = 0.30;
+            aiRateOfFire = 7;
+            aiRateOfFireDistance = 250;
+            aiRateOfFireDispersion = 7;
+        };
     };
 };
