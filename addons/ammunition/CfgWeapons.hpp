@@ -1,8 +1,10 @@
 class CfgWeapons {
     /*
-     * Here only to add Magwells to guns missing them.
+     * Adds missing magwells to weapons that lack them.
+     * Alters RPG firemodes.
     */
 
+    // Magwells
     class Pistol_Base_F;
     class hgun_Pistol_01_F: Pistol_Base_F {
         magazineWell[] += {"CBA_9x18_PM"};
@@ -44,5 +46,21 @@ class CfgWeapons {
     class arifle_Galat_base_lxWS;
     class arifle_Galat_lxWS: arifle_Galat_base_lxWS {
         magazineWell[] += {"CBA_762x39_AK"};
+    };
+
+    // RPG firemodes
+    class Launcher_Base_F;
+    class launch_RPG7_F: Launcher_Base_F {
+        class Single: Mode_SemiAuto {
+            minRange = 50;
+            minRangeProbab = 0.50;
+            midRange = 500;
+            midRangeProbab = 0.40;
+            maxRange = 800;
+            maxRangeProbab = 0.30;
+            aiRateOfFire = 7;
+            aiRateOfFireDistance = 250;
+            aiRateOfFireDispersion = 7;
+        };
     };
 };

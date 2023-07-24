@@ -55,6 +55,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_46x30";
         displayName = "Generic 40Rnd MP7 Magazine";
+        mass = 8;
     };
 
     class CUP_30Rnd_45ACP_M3A1_BLK_M;
@@ -62,6 +63,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_45ACP";
         displayName = "Generic 30Rnd M3A1 Magazine";
+        mass = 8;
     };
 
     class CUP_30Rnd_45ACP_MAC10_M;
@@ -69,6 +71,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_45ACP";
         displayName = "Generic 30Rnd MAC-10 Magazine";
+        mass = 8;
     };
 
     class CUP_64Rnd_9x19_Bizon_M;
@@ -76,6 +79,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 64Rnd Bizon Magazine";
+        mass = 16;
     };
 
     class CUP_30Rnd_9x19_MP5;
@@ -83,6 +87,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 30Rnd MP5 Magazine";
+        mass = 8;
     };
 
     class CUP_32Rnd_9x19_TEC9;
@@ -90,6 +95,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 32Rnd TEC9 Magazine";
+        mass = 8;
     };
 
     class CUP_32Rnd_9x19_UZI_M;
@@ -97,6 +103,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 32Rnd UZI Magazine";
+        mass = 8;
     };
 
     class CUP_72Rnd_9x19_UZI_M;
@@ -104,6 +111,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 72Rnd UZI Magazine";
+        mass = 16;
     };
 
     class CUP_30Rnd_9x19_Vityaz;
@@ -111,6 +119,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x19";
         displayName = "Generic 30Rnd Vityaz Magazine";
+        mass = 8;
     };
 
     class CUP_30Rnd_9x39_SP5_VIKHR_M;
@@ -118,6 +127,7 @@ class CfgMagazines {
         MACRO_HANDGUN_MAGAZINE;
         ammo = "TACU_Ammunition_9x39";
         displayName = "Generic 30Rnd SR3M Magazine";
+        mass = 8;
     };
 
     // Assault Rifles
@@ -126,6 +136,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 30Rnd 5.56 AK Magazine";
+        mass = 9;
     };
 
     class CUP_30Rnd_556x45_AK19_M;
@@ -133,6 +144,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 30Rnd 5.56 AK19 Magazine";
+        mass = 9;
     };
 
     class CUP_30Rnd_556x45_AUG;
@@ -140,6 +152,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 30Rnd 5.56 AUG Magazine";
+        mass = 9;
     };
 
     class CUP_30Rnd_556x45_G36;
@@ -147,6 +160,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 30Rnd 5.56 G36 Magazine";
+        mass = 9;
     };
 
     class CUP_25Rnd_556x45_Famas;
@@ -154,6 +168,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 25Rnd 5.56 FAMAS Magazine";
+        mass = 8;
     };
 
     class CUP_30Rnd_545x39_Fort224_M;
@@ -161,6 +176,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 30Rnd 5.56 Fort Magazine";
+        mass = 9;
     };
 
     class CUP_30Rnd_762x39_CZ807;
@@ -168,6 +184,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_762x39";
         displayName = "Generic 30Rnd 7.62 CZ Magazine";
+        mass = 10;
     };
 
     class CUP_30Rnd_Sa58_M;
@@ -175,6 +192,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_762x39";
         displayName = "Generic 30Rnd 7.62 SA58 Magazine";
+        mass = 10;
     };
 
     // Battle Rifles / Marksman Rifles
@@ -183,6 +201,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_762x51";
         displayName = "Generic 20Rnd 7.62 FAL Magazine";
+        mass = 10;
     };
 
     class CUP_20Rnd_762x51_B_SCAR_bkl;
@@ -190,6 +209,7 @@ class CfgMagazines {
         MACRO_RIFLE_MAGAZINE;
         ammo = "TACU_Ammunition_762x51";
         displayName = "Generic 20Rnd 7.62 SCAR-H Magazine";
+        mass = 10;
     };
 
     // Machine Guns
@@ -198,6 +218,7 @@ class CfgMagazines {
         MACRO_MG_MAGAZINE;
         ammo = "TACU_Ammunition_545x39";
         displayName = "Generic 45Rnd 5.45 RPK Magazine";
+        mass = 13;
     };
 
     class CUP_60Rnd_545x39_AK74M_M;
@@ -205,6 +226,7 @@ class CfgMagazines {
         MACRO_MG_MAGAZINE;
         ammo = "TACU_Ammunition_545x39";
         displayName = "Generic 60Rnd 5.45 Quadstack Magazine";
+        mass = 14;
     };
 
     class CUP_100Rnd_556x45_BetaCMag_ar15;
@@ -212,6 +234,7 @@ class CfgMagazines {
         MACRO_MG_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 100Rnd 556 AR15 Beta-C Magazine";
+        mass = 17;
     };
 
     class CUP_100Rnd_556x45_BetaCMag;
@@ -219,6 +242,7 @@ class CfgMagazines {
         MACRO_MG_MAGAZINE;
         ammo = "TACU_Ammunition_556x45";
         displayName = "Generic 100Rnd 556 G36 Beta-C Magazine";
+        mass = 17;
     };
 
     class CUP_200Rnd_TE4_Green_Tracer_556x45_M249_Pouch;
@@ -233,6 +257,7 @@ class CfgMagazines {
         MACRO_MG_MAGAZINE;
         ammo = "TACU_Ammunition_762x39";
         displayName = "Generic 40Rnd 7.62 RPK Magazine";
+        mass = 12;
     };
 
     class CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M;
