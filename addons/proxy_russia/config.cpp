@@ -67,6 +67,15 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_O_MATV_GMG_CBRN",
             "TACU_Proxy_Russia_V_O_Truck_CBRN",
             // Opfor Turrets
+            "TACU_Proxy_Russia_V_O_MK6",
+            "TACU_Proxy_Russia_V_O_HMG",
+            "TACU_Proxy_Russia_V_O_Mini_Spike_AT",
+            "TACU_Proxy_Russia_V_O_ZU23",
+            // Opfor Turrets CBRN
+            "TACU_Proxy_Russia_V_O_MK6_CBRN",
+            "TACU_Proxy_Russia_V_O_HMG_CBRN",
+            "TACU_Proxy_Russia_V_O_Mini_Spike_AT_CBRN",
+            "TACU_Proxy_Russia_V_O_ZU23_CBRN",
             // Independent Units
             "TACU_Proxy_Russia_U_I_Rifleman",
             "TACU_Proxy_Russia_U_I_Demolitions",
@@ -120,8 +129,17 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_I_MATV_CBRN",
             "TACU_Proxy_Russia_V_I_MATV_HMG_CBRN",
             "TACU_Proxy_Russia_V_I_MATV_GMG_CBRN",
-            "TACU_Proxy_Russia_V_I_Truck_CBRN"
+            "TACU_Proxy_Russia_V_I_Truck_CBRN",
             // Independent Turrets
+            "TACU_Proxy_Russia_V_I_MK6",
+            "TACU_Proxy_Russia_V_I_HMG",
+            "TACU_Proxy_Russia_V_I_Mini_Spike_AT",
+            "TACU_Proxy_Russia_V_I_ZU23",
+            // Independent Turrets CBRN
+            "TACU_Proxy_Russia_V_I_MK6_CBRN",
+            "TACU_Proxy_Russia_V_I_HMG_CBRN",
+            "TACU_Proxy_Russia_V_I_Mini_Spike_AT_CBRN",
+            "TACU_Proxy_Russia_V_I_ZU23_CBRN"
         };
         weapons[] = {
             "TACU_Proxy_Russia_W_AK12U",
