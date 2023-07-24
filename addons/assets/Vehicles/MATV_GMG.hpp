@@ -34,6 +34,15 @@ class TACU_MATV_GMG_Base: B_MRAP_01_gmg_F {
             };
             factions[] = {"TACU_Vanguard", "TACU_Vanguard_O"};
         };
+        class Eastern_Europe: Vanguard {
+            displayName = "Green";
+            textures[] = {
+                QPATHTOF(data\matv\matv_01_base_ee_co.paa),
+                QPATHTOF(data\matv\matv_01_adds_ee_co.paa),
+                "\a3\data_f\vehicles\turret_co.paa"
+            };
+            factions[] = {};
+        };
     };
 
     textureList[] = {"Blufor", 1, "Olive", 1};
