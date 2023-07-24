@@ -1,12 +1,12 @@
-name = "TAC Units 0.0.0";
+name = "Theseus Units 0.0.0";
 picture = "logo_tacu_ca.paa";
 actionName = "Website";
 action = "http://www.theseus-aegis.com/";
-description = "Theseus Inc. unit mod";
+description = "Theseus Inc. Unit mod";
 logo = "logo_tacu_small_ca.paa";
 logoOver = "logo_tacu_small_ca.paa";
 tooltip = "TAC Units";
 tooltipOwned = "Theseus Inc. Owned";
-overview = "Unit factions for Theseus Inc. mission makers.";
-author = "TAC Units Team";
+overview = "Unit factions for Theseus Inc.";
+author = "Theseus Units Team";
 overviewPicture = "logo_tacu_ca.paa";
