@@ -72,6 +72,19 @@ class TACU_Proxy_Russia_V_I_Jeep_AT_CBRN: TACU_Proxy_Russia_V_I_Jeep_AT {
     typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
 };
 
+// Truck
+class TACU_Proxy_Russia_V_I_Truck: TACU_Proxy_Russia_V_O_Truck {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+class TACU_Proxy_Russia_V_I_Truck_CBRN: TACU_Proxy_Russia_V_I_Truck {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_I_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
+};
+
 // Anti-Air
 class TACU_Proxy_Russia_V_I_Tigris: TACU_Proxy_Russia_V_O_Tigris {
     faction = "TACU_Proxy_Russia_I";
