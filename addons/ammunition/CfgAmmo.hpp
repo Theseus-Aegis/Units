@@ -190,4 +190,73 @@ class CfgAmmo {
         caliber = 2.1;
         hit = 14.5;
     };
+
+    // RPG Ammo
+    class RocketBase;
+
+    // PG-7VM HEAT Grenade
+    class R_PG7_F: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+    };
+    // RPG-42 Rocket
+    class R_PG32V_F: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+    };
+
+    // RPG-42 HE Rocket
+    class R_TBG32V_F: R_PG32V_F {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+    };
+
+    // MAAWS HEAT 75 Round
+    class R_MRAAWS_HEAT_F: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+    };
+
+    // MAAWS HEAT 55 Round
+    class R_MRAAWS_HEAT55_F: R_MRAAWS_HEAT_F {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+    };
+
+    // MAAWS HE 44 Round
+    class R_MRAAWS_HE_F: R_MRAAWS_HEAT_F {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+        ace_frag_classes[] = {"ACE_frag_medium"};
+    };
+
+    // SPG-9 HEAT
+    class M_SPG9_HEAT: RocketBase {
+        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        airLock = 1;
+        allowAgainstInfantry = 1;
+        cost = 30;
+    };
+
+    // SPG-9 HE
+    class M_SPG9_HE: M_SPG9_HEAT {
+        ace_frag_enabled = 1;
+        ace_frag_metal = 350;
+        ace_frag_charge = 210;
+        ace_frag_gurney_c = 2800;
+        ace_Frag_gurney_k = "3/5";
+        ace_frag_classes[] = {"ACE_frag_medium"};
+    };
 };
