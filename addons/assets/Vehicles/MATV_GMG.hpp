@@ -39,9 +39,9 @@ class TACU_MATV_GMG_Base: B_MRAP_01_gmg_F {
             textures[] = {
                 QPATHTOF(data\matv\matv_01_base_ee_co.paa),
                 QPATHTOF(data\matv\matv_01_adds_ee_co.paa),
-                "\a3\data_f\vehicles\turret_co.paa"
+                QPATHTOF(data\turrets\turret_srw_co.paa)
             };
-            factions[] = {};
+            factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
         };
     };
 

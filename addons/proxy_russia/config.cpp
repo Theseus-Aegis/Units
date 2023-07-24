@@ -47,6 +47,9 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_O_Jeep",
             "TACU_Proxy_Russia_V_O_Jeep_LMG",
             "TACU_Proxy_Russia_V_O_Jeep_AT",
+            "TACU_Proxy_Russia_V_O_MATV",
+            "TACU_Proxy_Russia_V_O_MATV_HMG",
+            "TACU_Proxy_Russia_V_O_MATV_GMG",
             "TACU_Proxy_Russia_V_O_Truck",
             "TACU_Proxy_Russia_V_O_Tigris",
             "TACU_Proxy_Russia_V_O_Iskatel",
@@ -59,6 +62,9 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_O_Jeep_CBRN",
             "TACU_Proxy_Russia_V_O_Jeep_LMG_CBRN",
             "TACU_Proxy_Russia_V_O_Jeep_AT_CBRN",
+            "TACU_Proxy_Russia_V_O_MATV_CBRN",
+            "TACU_Proxy_Russia_V_O_MATV_HMG_CBRN",
+            "TACU_Proxy_Russia_V_O_MATV_GMG_CBRN",
             "TACU_Proxy_Russia_V_O_Truck_CBRN",
             // Opfor Turrets
             // Independent Units
@@ -96,6 +102,9 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_I_Jeep",
             "TACU_Proxy_Russia_V_I_Jeep_LMG",
             "TACU_Proxy_Russia_V_I_Jeep_AT",
+            "TACU_Proxy_Russia_V_I_MATV",
+            "TACU_Proxy_Russia_V_I_MATV_HMG",
+            "TACU_Proxy_Russia_V_I_MATV_GMG",
             "TACU_Proxy_Russia_V_I_Truck",
             "TACU_Proxy_Russia_V_I_Tigris",
             "TACU_Proxy_Russia_V_I_Iskatel",
@@ -108,6 +117,9 @@ class CfgPatches {
             "TACU_Proxy_Russia_V_I_Jeep_CBRN",
             "TACU_Proxy_Russia_V_I_Jeep_LMG_CBRN",
             "TACU_Proxy_Russia_V_I_Jeep_AT_CBRN",
+            "TACU_Proxy_Russia_V_I_MATV_CBRN",
+            "TACU_Proxy_Russia_V_I_MATV_HMG_CBRN",
+            "TACU_Proxy_Russia_V_I_MATV_GMG_CBRN",
             "TACU_Proxy_Russia_V_I_Truck_CBRN"
             // Independent Turrets
         };

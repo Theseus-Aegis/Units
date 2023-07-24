@@ -72,6 +72,43 @@ class TACU_Proxy_Russia_V_I_Jeep_AT_CBRN: TACU_Proxy_Russia_V_I_Jeep_AT {
     typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
 };
 
+// M-ATVs
+class TACU_Proxy_Russia_V_I_MATV: TACU_Proxy_Russia_V_O_MATV {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+class TACU_Proxy_Russia_V_I_MATV_CBRN: TACU_Proxy_Russia_V_I_MATV {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_I_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_I_MATV_HMG: TACU_Proxy_Russia_V_O_MATV_HMG {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+class TACU_Proxy_Russia_V_I_MATV_HMG_CBRN: TACU_Proxy_Russia_V_I_MATV_HMG {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_I_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_I_MATV_GMG: TACU_Proxy_Russia_V_O_MATV_GMG {
+    faction = "TACU_Proxy_Russia_I";
+    side = 2;
+    crew = "TACU_Proxy_Russia_U_I_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver"};
+};
+class TACU_Proxy_Russia_V_I_MATV_GMG_CBRN: TACU_Proxy_Russia_V_I_MATV_GMG {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_I_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_I_Driver_CBRN"};
+};
+
 // Truck
 class TACU_Proxy_Russia_V_I_Truck: TACU_Proxy_Russia_V_O_Truck {
     faction = "TACU_Proxy_Russia_I";
