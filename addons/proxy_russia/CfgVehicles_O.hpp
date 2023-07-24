@@ -41,13 +41,13 @@ class TACU_Proxy_Russia_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_8("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_8("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
@@ -111,14 +111,14 @@ class TACU_Proxy_Russia_U_O_Grenadier: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_8("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_8("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
@@ -141,13 +141,13 @@ class TACU_Proxy_Russia_U_O_Marksman: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("10Rnd_93x64_DMR_05_Mag"),
+        mag_7("10Rnd_93x64_DMR_05_Mag"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("10Rnd_93x64_DMR_05_Mag"),
+        mag_7("10Rnd_93x64_DMR_05_Mag"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
@@ -170,14 +170,14 @@ class TACU_Proxy_Russia_U_O_Teamleader: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_8("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_8("TACU_Magazine_30Rnd_762_AK"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
@@ -203,13 +203,13 @@ class TACU_Proxy_Russia_U_O_Autorifleman: TACU_Proxy_Russia_U_O_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_2("TACU_Magazine_75Rnd_762_AK"),
+        mag_3("TACU_Magazine_75Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_2("TACU_Magazine_75Rnd_762_AK"),
+        mag_3("TACU_Magazine_75Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
@@ -277,14 +277,14 @@ class TACU_Proxy_Russia_U_O_AT: TACU_Proxy_Russia_U_O_Rifleman {
     };
     magazines[] = {
         "RPG32_F",
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_9("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "RPG32_F",
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_9("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
@@ -311,14 +311,14 @@ class TACU_Proxy_Russia_U_O_AP: TACU_Proxy_Russia_U_O_Rifleman {
     };
     magazines[] = {
         "RPG32_HE_F",
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_9("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "RPG32_HE_F",
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_9("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
