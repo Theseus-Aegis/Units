@@ -127,11 +127,7 @@ class CfgPatches {
             "TACU_BAF_W_MP5SD"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "tacu_assets",
-            "tacs_units"
-        };
+        requiredAddons[] = {"tacu_main", "tacu_assets"};
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo, Mike"};
         VERSION_CONFIG;
