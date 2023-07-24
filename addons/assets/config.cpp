@@ -80,9 +80,7 @@ class CfgPatches {
             "TACU_Assets_MK6_Base",
             "TACU_Assets_HMG_50",
             "TACU_Assets_HMG_50_Low",
-            "TACU_Assets_Mini_Spike_Sand",
-            "TACU_Assets_Mini_Spike_Brown",
-            "TACU_Assets_Mini_Spike_Green",
+            "TACU_Assets_Mini_Spike_AT",
             "TACU_Assets_ZU23_Base"
         };
         weapons[] = {

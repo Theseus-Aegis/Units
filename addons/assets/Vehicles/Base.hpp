@@ -79,8 +79,6 @@ class Weapon_Base_F;
 // Turrets - Vanilla
 class B_G_HMG_02_high_F;
 class B_G_Mortar_01_F;
-class B_static_AT_F;
+class AT_01_base_F;
 class I_HMG_02_F;
-class I_static_AT_F;
-class O_static_AT_F;
 class zu23_base_lxWS;

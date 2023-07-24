@@ -58,12 +58,13 @@ class TACU_African_South_V_O_HMG_50_Low: TACU_African_South_V_B_HMG_50_Low {
     typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
 };
 
-class TACU_African_South_V_B_Mini_Spike_Green: TACU_Assets_Mini_Spike_Green {
+class TACU_African_South_V_B_Mini_Spike_Green: TACU_Assets_Mini_Spike_AT {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
+    textureList[] = {"Green", 1};
 };
 class TACU_African_South_V_I_Mini_Spike_Green: TACU_African_South_V_B_Mini_Spike_Green {
     faction = "TACU_African_South_I";

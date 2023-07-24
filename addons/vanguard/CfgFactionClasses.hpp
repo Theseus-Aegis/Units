@@ -1,11 +1,11 @@
 class CfgFactionClasses {
-    class TACU_Vanguard {
+    class TACU_Vanguard_I {
         displayName = "Vanguard PMC";
         side = 2;
         priority = 2;
     };
 
-    class TACU_Vanguard_O: TACU_Vanguard {
+    class TACU_Vanguard_O: TACU_Vanguard_I {
         side = 0;
     };
 };
@@ -22,5 +22,14 @@ class CfgEditorSubcategories {
     };
     class TACU_Vanguard_EdSubCat_Specialists {
         displayName = "Men (Specialists)";
+    };
+    class TACU_Vanguard_EdSubCat_Turrets_Green {
+        displayName = "Turrets (Green)";
+    };
+    class TACU_Vanguard_EdSubCat_Turrets_Sand {
+        displayName = "Turrets (Sand)";
+    };
+    class TACU_Vanguard_EdSubCat_Turrets_Winter {
+        displayName = "Turrets (Winter)";
     };
 };
