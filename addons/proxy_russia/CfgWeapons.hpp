@@ -12,7 +12,6 @@ class CfgWeapons {
         class linkedItems {
             EQUIP_OPTIC(optic_arco_ak_blk_f);
             EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(ace_muzzle_mzls_b);
         };
     };
 
@@ -21,7 +20,6 @@ class CfgWeapons {
         class linkedItems {
             EQUIP_OPTIC(optic_arco_ak_blk_f);
             EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(ace_muzzle_mzls_b);
         };
     };
 
@@ -30,7 +28,6 @@ class CfgWeapons {
         class linkedItems {
             EQUIP_OPTIC(optic_arco_ak_blk_f);
             EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(ace_muzzle_mzls_b);
         };
     };
 
@@ -39,7 +36,6 @@ class CfgWeapons {
         class linkedItems {
             EQUIP_OPTIC(optic_arco_ak_blk_f);
             EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(ace_muzzle_mzls_b);
         };
     };
 
@@ -56,7 +52,6 @@ class CfgWeapons {
         class linkedItems {
             EQUIP_OPTIC(optic_khs_blk);
             EQUIP_POINTER(acc_pointer_ir);
-            EQUIP_MUZZLE(ace_muzzle_mzls_93mmg);
         };
     };
 
