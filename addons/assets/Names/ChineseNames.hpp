@@ -1,0 +1,48 @@
+class TACU_ChineseNames {
+    class FirstNames {
+        chao = "Chao";
+        hong = "Hong";
+        hui = "Hui";
+        jianfeng = "Jianfeng";
+        kai = "Kai";
+        lei = "Lei";
+        li = "Li";
+        liping = "Liping";
+        long = "Long";
+        min = "Min";
+        nushi = "Nushi";
+        peng = "Peng";
+        qiang = "Qiang";
+        qiong = "Qiong";
+        shan = "Shan";
+        wei = "Wei";
+        xiaoyan = "Xiaoyan";
+        xin = "Xin";
+        yan = "Yan";
+        ying = "Ying";
+        yu = "Yu";
+    };
+    class LastNames {
+        bai = "Bai";
+        chang = "Chang";
+        chen = "Chen";
+        dai = "Dai";
+        duan = "Duan";
+        guo = "Guo";
+        huang = "Huang";
+        ou_yang = "Ou Yang";
+        quan = "Quan";
+        ruan = "Ruan";
+        sun = "Sun";
+        teng = "Teng";
+        tian = "Tian";
+        wang = "Wang";
+        wu = "Wu";
+        xia = "Xia";
+        xu = "Xu";
+        yang = "Yang";
+        zhao = "Zhao";
+        zhong = "Zhong";
+        zhou = "Zhou";
+    };
+};
