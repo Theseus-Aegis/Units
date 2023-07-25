@@ -40,10 +40,6 @@ class CfgPatches {
             "TACU_BAF_U_B_Arid_Grenadier",
             "TACU_BAF_U_B_Arid_Sniper",
             "TACU_BAF_U_B_Arid_Spotter",
-            // Arid Turrets
-            "TACU_BAF_V_B_Arid_L11A1",
-            "TACU_BAF_V_B_Arid_L134A1",
-            "TACU_BAF_V_B_Arid_RBS70",
             // Arid Vehicles
             "TACU_BAF_V_B_Arid_Assault_Boat",
             "TACU_BAF_V_B_Arid_Speedboat_Minigun",
@@ -66,10 +62,6 @@ class CfgPatches {
             "TACU_BAF_U_B_Tropic_Grenadier",
             "TACU_BAF_U_B_Tropic_Sniper",
             "TACU_BAF_U_B_Tropic_Spotter",
-            // Tropic Turrets
-            "TACU_BAF_V_B_Tropic_L11A1",
-            "TACU_BAF_V_B_Tropic_L134A1",
-            "TACU_BAF_V_B_Tropic_RBS70",
             // Tropic Vehicles
             "TACU_BAF_V_B_Tropic_Assault_Boat",
             "TACU_BAF_V_B_Tropic_Speedboat_Minigun",
@@ -90,10 +82,6 @@ class CfgPatches {
             "TACU_BAF_U_B_Urban_Shotgun",
             "TACU_BAF_U_B_Urban_TL",
             "TACU_BAF_U_B_Urban_Grenadier",
-            // Urban Turrets
-            "TACU_BAF_V_B_Urban_L11A1",
-            "TACU_BAF_V_B_Urban_L134A1",
-            "TACU_BAF_V_B_Urban_RBS70",
             // Urban Vehicles
             "TACU_BAF_V_B_Urban_Assault_Boat",
             "TACU_BAF_V_B_Urban_Speedboat_Minigun",

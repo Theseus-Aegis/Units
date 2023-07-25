@@ -9,6 +9,7 @@ class V_PlateCarrierL_CTRG;
 class V_PlateCarrierH_CTRG;
 class V_PlateCarrier1_rgr_noflag_F;
 class V_PlateCarrier2_blk;
+class V_lxWS_PlateCarrier1_desert;
 
 // Cartel Uniforms
 class U_C_ArtTShirt_01_v1_F: Uniform_Base {
