@@ -327,13 +327,13 @@ class TACU_BAF_U_B_Arid_Shotgun: TACU_BAF_U_B_Arid_Scout {
     };
     magazines[] = {
         mag_3("20Rnd_12Gauge_AA40_Pellets_Tan_lxWS"),
-        mag_4("8Rnd_12Gauge_AA40_Pellets_Snake_lxWS"),
+        mag_3("8Rnd_12Gauge_AA40_Pellets_Snake_lxWS"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         mag_3("20Rnd_12Gauge_AA40_Pellets_Tan_lxWS"),
-        mag_4("8Rnd_12Gauge_AA40_Pellets_Snake_lxWS"),
+        mag_3("8Rnd_12Gauge_AA40_Pellets_Snake_lxWS"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };

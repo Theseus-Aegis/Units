@@ -114,13 +114,13 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_30Rnd_556_G36"),
+        mag_11("TACU_Magazine_30Rnd_556_G36"),
         "CUP_OG7_M",
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_30Rnd_556_G36"),
+        mag_11("TACU_Magazine_30Rnd_556_G36"),
         "CUP_OG7_M",
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
@@ -166,12 +166,12 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_06: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_100Rnd_556_G36_BetaC"),
+        mag_6("TACU_Magazine_100Rnd_556_G36_BetaC"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_100Rnd_556_G36_BetaC"),
+        mag_6("TACU_Magazine_100Rnd_556_G36_BetaC"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
@@ -191,14 +191,12 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_07: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_5("CUP_12Rnd_B_Saiga12_Buck_0"),
-        mag_5("CUP_12Rnd_B_Saiga12_Buck_0"),
+        mag_9("CUP_12Rnd_B_Saiga12_Buck_0"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_5("CUP_12Rnd_B_Saiga12_Buck_0"),
-        mag_5("CUP_12Rnd_B_Saiga12_Buck_0"),
+        mag_9("CUP_12Rnd_B_Saiga12_Buck_0"),
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
@@ -218,12 +216,12 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08: TACU_Cartel_Greek_U_O_Enforcer
         "Throw", "Put"
     };
     magazines[] = {
-        mag_5("CUP_6Rnd_HE_M203"),
+        mag_4("CUP_6Rnd_HE_M203"),
         mag_5("TACU_Magazine_40Rnd_MP7"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_5("CUP_6Rnd_HE_M203"),
+        mag_4("CUP_6Rnd_HE_M203"),
         mag_5("TACU_Magazine_40Rnd_MP7"),
         mag_2("HandGrenade")
     };

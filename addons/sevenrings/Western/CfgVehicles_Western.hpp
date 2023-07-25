@@ -91,14 +91,14 @@ class TACU_Seven_Rings_Western_U_I_CQB: TACU_Seven_Rings_Western_U_I_Rifleman_01
         "Throw", "Put"
     };
     magazines[] = {
-        mag_8("TACU_Magazine_30Rnd_MSBS"),
+        mag_7("TACU_Magazine_30Rnd_MSBS"),
         mag_4("6Rnd_12Gauge_Pellets"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_8("TACU_Magazine_30Rnd_MSBS"),
+        mag_7("TACU_Magazine_30Rnd_MSBS"),
         mag_4("6Rnd_12Gauge_Pellets"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),

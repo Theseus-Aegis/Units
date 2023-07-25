@@ -61,14 +61,14 @@ class TACU_African_South_U_B_CQB: TACU_African_South_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
+        mag_7("TACU_Magazine_30Rnd_STANAG"),
         mag_4("6Rnd_12Gauge_Pellets"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
+        mag_7("TACU_Magazine_30Rnd_STANAG"),
         mag_4("6Rnd_12Gauge_Pellets"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
