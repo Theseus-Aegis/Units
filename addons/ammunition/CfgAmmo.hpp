@@ -262,7 +262,7 @@ class CfgAmmo {
     };
 
     // Vorona HEAT
-    class Vorona_HEAT: MissileBase {
+    class M_Vorona_HEAT: MissileBase {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
@@ -270,7 +270,7 @@ class CfgAmmo {
     };
 
     // Vorona HE
-    class M_Vorona_HE: Vorona_HEAT {
+    class M_Vorona_HE: M_Vorona_HEAT {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;

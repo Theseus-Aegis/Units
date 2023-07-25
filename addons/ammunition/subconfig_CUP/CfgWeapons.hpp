@@ -65,6 +65,7 @@ class CfgWeapons {
     };
 
     // RPG Firemodes
+    class Launcher_Base_F;
     class CUP_launch_RPG7V: Launcher_Base_F {
         class Single: Mode_SemiAuto {
             minRange = 50;

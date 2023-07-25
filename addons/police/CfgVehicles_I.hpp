@@ -34,13 +34,13 @@ class TACU_Police_U_I_CT_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_3("TACU_Magazine_8Rnd_1911"),
         "MiniGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_3("TACU_Magazine_8Rnd_1911"),
         "MiniGrenade",
         "SmokeShell"
@@ -91,8 +91,8 @@ class TACU_Police_U_I_CT_Marksman: TACU_Police_U_I_CT_Rifleman {
         "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_6("TACU_Magazine_20Rnd_M1A"), mag_3("TACU_Magazine_8Rnd_1911")};
-    respawnMagazines[] = {mag_6("TACU_Magazine_20Rnd_M1A"), mag_3("TACU_Magazine_8Rnd_1911")};
+    magazines[] = {mag_10("TACU_Magazine_20Rnd_M1A"), mag_3("TACU_Magazine_8Rnd_1911")};
+    respawnMagazines[] = {mag_10("TACU_Magazine_20Rnd_M1A"), mag_3("TACU_Magazine_8Rnd_1911")};
     EDITORPREVIEW(TACU_Police_U_I_CT_Marksman);
 };
 
@@ -129,8 +129,8 @@ class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
         "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911")};
-    respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911")};
+    magazines[] = {mag_12("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911")};
+    respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911")};
     headgearList[] = {"H_Cap_blk", 0.60, "H_HelmetB_black", 0.40};
     CBA_facewearList[] = {"G_Aviator", 1};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_Rifleman);
@@ -148,8 +148,8 @@ class TACU_Police_U_I_Enforcer_SMG_1: TACU_Police_U_I_Enforcer_Rifleman {
         "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_6("TACU_Magazine_30Rnd_SMG"), mag_3("TACU_Magazine_8Rnd_1911")};
-    respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_SMG"), mag_3("TACU_Magazine_8Rnd_1911")};
+    magazines[] = {mag_12("TACU_Magazine_30Rnd_SMG"), mag_3("TACU_Magazine_8Rnd_1911")};
+    respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_SMG"), mag_3("TACU_Magazine_8Rnd_1911")};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_SMG_1);
 };
 
@@ -165,8 +165,8 @@ class TACU_Police_U_I_Enforcer_SMG_2: TACU_Police_U_I_Enforcer_Rifleman {
         "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_4("TACU_Magazine_50Rnd_P90"), mag_3("TACU_Magazine_8Rnd_1911")};
-    respawnMagazines[] = {mag_4("TACU_Magazine_50Rnd_P90"), mag_3("TACU_Magazine_8Rnd_1911")};
+    magazines[] = {mag_12("TACU_Magazine_50Rnd_P90"), mag_3("TACU_Magazine_8Rnd_1911")};
+    respawnMagazines[] = {mag_12("TACU_Magazine_50Rnd_P90"), mag_3("TACU_Magazine_8Rnd_1911")};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_SMG_2);
 };
 
@@ -182,7 +182,7 @@ class TACU_Police_U_I_Enforcer_Breacher: TACU_Police_U_I_Enforcer_Rifleman {
         "hgun_ACPC2_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"), mag_3("TACU_Magazine_8Rnd_1911")};
-    respawnMagazines[] = {mag_4("8Rnd_12Gauge_AA40_Pellets_lxWS"), mag_3("TACU_Magazine_8Rnd_1911")};
+    magazines[] = {mag_8("8Rnd_12Gauge_AA40_Pellets_lxWS"), mag_3("TACU_Magazine_8Rnd_1911")};
+    respawnMagazines[] = {mag_8("8Rnd_12Gauge_AA40_Pellets_lxWS"), mag_3("TACU_Magazine_8Rnd_1911")};
     EDITORPREVIEW(TACU_Police_U_I_Enforcer_Breacher);
 };
