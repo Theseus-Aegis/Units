@@ -96,6 +96,16 @@ class TACU_Police_U_I_CT_Marksman: TACU_Police_U_I_CT_Rifleman {
     EDITORPREVIEW(TACU_Police_U_I_CT_Marksman);
 };
 
+class TACU_Police_U_I_CT_RiotControl: TACU_Police_U_I_CT_Rifleman {
+    scope = 1;
+    scopeCurator = 1;
+    weapons[] = {""};
+    respawnWeapons[] = {""};
+    magazines[] = {""};
+    respawnMagazines[] = {""};
+    EDITORPREVIEW(TACU_Police_U_I_CT_RiotControl);
+};
+
 // Units - Police (Enforcers)
 class TACU_Police_U_I_Enforcer_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     author = "Kresky";
