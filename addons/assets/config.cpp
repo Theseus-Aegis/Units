@@ -126,6 +126,7 @@ class CfgPatches {
             "TACU_BAF_Vest_HeavyPlateCarrier_Arid",
             "TACU_BAF_Vest_HeavyPlateCarrier_Tropic",
             "TACU_BAF_Vest_HeavyPlateCarrier_Urban",
+            "TACU_Foreign_Legion_Vest_Carrier_Lite_Desert",
             "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack",
             "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue",
             "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen",

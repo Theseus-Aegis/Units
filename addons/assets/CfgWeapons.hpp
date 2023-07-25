@@ -5,6 +5,7 @@ class CfgWeapons {
     #include "Weapons\BAF_Helmets.hpp"
     #include "Weapons\BAF_Vests.hpp"
     #include "Weapons\Cartel_Uniforms.hpp"
+    #include "Weapons\Foreign_Legion_Vests.hpp"
     #include "Weapons\Police_Helmets.hpp"
     #include "Weapons\Police_Uniforms.hpp"
     #include "Weapons\Police_Vests.hpp"
