@@ -13,6 +13,8 @@ class CfgPatches {
     };
 };
 
+class Mode_SemiAuto;
+
 #include "CfgAmmo.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"

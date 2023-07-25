@@ -1,4 +1,3 @@
-// Blufor - Army of the African Republic
 class TACU_African_North_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     author = "Mike";
     displayName = "Rifleman";
@@ -31,12 +30,12 @@ class TACU_African_North_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -60,12 +59,12 @@ class TACU_African_North_U_B_Medic: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -94,12 +93,12 @@ class TACU_African_North_U_B_Crewman: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_5("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_5("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -121,12 +120,12 @@ class TACU_African_North_U_B_Demolitions: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -144,13 +143,13 @@ class TACU_African_North_U_B_Grenadier: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_10("TACU_Magazine_35Rnd_R4"),
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_10("TACU_Magazine_35Rnd_R4"),
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
@@ -199,13 +198,13 @@ class TACU_African_North_U_B_AT: TACU_African_North_U_B_Rifleman {
     };
     magazines[] = {
         "RPG32_F",
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "RPG32_F",
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -228,13 +227,13 @@ class TACU_African_North_U_B_AA: TACU_African_North_U_B_Rifleman {
     };
     magazines[] = {
         "Titan_AA",
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         "Titan_AA",
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -253,12 +252,12 @@ class TACU_African_North_U_B_Officer: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -311,12 +310,12 @@ class TACU_African_North_U_B_Repair: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_11("TACU_Magazine_35Rnd_R4"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -335,12 +334,12 @@ class TACU_African_North_U_B_Marksman: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_20Rnd_SLR"),
+        mag_11("TACU_Magazine_20Rnd_SLR"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_20Rnd_SLR"),
+        mag_11("TACU_Magazine_20Rnd_SLR"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
@@ -359,13 +358,13 @@ class TACU_African_North_U_B_Teamleader: TACU_African_North_U_B_Rifleman {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_10("TACU_Magazine_35Rnd_R4"),
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_35Rnd_R4"),
+        mag_10("TACU_Magazine_35Rnd_R4"),
         mag_6("1Rnd_HE_Grenade_shell"),
         mag_2("SmokeShell"),
         mag_2("HandGrenade")

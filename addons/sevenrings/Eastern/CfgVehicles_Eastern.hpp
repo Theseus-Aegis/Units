@@ -33,13 +33,13 @@ class TACU_Seven_Rings_Eastern_U_O_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -66,13 +66,13 @@ class TACU_Seven_Rings_Eastern_U_O_Rifleman_02: TACU_Seven_Rings_Eastern_U_O_Rif
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_11("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_11("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -95,14 +95,14 @@ class TACU_Seven_Rings_Eastern_U_O_Leader: TACU_Seven_Rings_Eastern_U_O_Rifleman
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_10("TACU_Magazine_30Rnd_Katiba"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_10("TACU_Magazine_30Rnd_Katiba"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
@@ -128,13 +128,13 @@ class TACU_Seven_Rings_Eastern_U_O_Marksman: TACU_Seven_Rings_Eastern_U_O_Riflem
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_10Rnd_VS121"),
+        mag_12("TACU_Magazine_10Rnd_VS121"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_10Rnd_VS121"),
+        mag_12("TACU_Magazine_10Rnd_VS121"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -159,13 +159,13 @@ class TACU_Seven_Rings_Eastern_U_O_Sharpshooter: TACU_Seven_Rings_Eastern_U_O_Ri
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_20Rnd_QBU"),
+        mag_12("TACU_Magazine_20Rnd_QBU"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_20Rnd_QBU"),
+        mag_12("TACU_Magazine_20Rnd_QBU"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -190,13 +190,13 @@ class TACU_Seven_Rings_Eastern_U_O_Sniper: TACU_Seven_Rings_Eastern_U_O_Rifleman
         "Throw", "Put"
     };
     magazines[] = {
-        mag_4("10Rnd_93x64_DMR_05_Mag"),
+        mag_7("10Rnd_93x64_DMR_05_Mag"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_4("10Rnd_93x64_DMR_05_Mag"),
+        mag_7("10Rnd_93x64_DMR_05_Mag"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -224,14 +224,14 @@ class TACU_Seven_Rings_Eastern_U_O_AT: TACU_Seven_Rings_Eastern_U_O_Rifleman_01 
     };
     magazines[] = {
         "RPG32_F",
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "RPG32_F",
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -259,14 +259,14 @@ class TACU_Seven_Rings_Eastern_U_O_AP: TACU_Seven_Rings_Eastern_U_O_Rifleman_01 
     };
     magazines[] = {
         "RPG32_HE_F",
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "RPG32_HE_F",
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -289,14 +289,14 @@ class TACU_Seven_Rings_Eastern_U_O_Grenadier: TACU_Seven_Rings_Eastern_U_O_Rifle
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_10("TACU_Magazine_30Rnd_QBZ"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_10("TACU_Magazine_30Rnd_QBZ"),
         mag_4("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
@@ -321,13 +321,13 @@ class TACU_Seven_Rings_Eastern_U_O_Autorifleman: TACU_Seven_Rings_Eastern_U_O_Ri
         "Throw", "Put"
     };
     magazines[] = {
-        mag_3("TACU_Magazine_100Rnd_QBZ"),
+        mag_5("TACU_Magazine_100Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_3("TACU_Magazine_100Rnd_QBZ"),
+        mag_5("TACU_Magazine_100Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -385,13 +385,13 @@ class TACU_Seven_Rings_Eastern_U_O_Demolitions: TACU_Seven_Rings_Eastern_U_O_Rif
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_11("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_11("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -417,13 +417,13 @@ class TACU_Seven_Rings_Eastern_U_O_Medic: TACU_Seven_Rings_Eastern_U_O_Rifleman_
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_11("TACU_Magazine_30Rnd_Katiba"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -449,13 +449,13 @@ class TACU_Seven_Rings_Eastern_U_O_Engineer: TACU_Seven_Rings_Eastern_U_O_Riflem
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_11("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_QBZ"),
+        mag_11("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
@@ -479,14 +479,14 @@ class TACU_Seven_Rings_Eastern_U_O_Ambusher: TACU_Seven_Rings_Eastern_U_O_Riflem
         "Throw", "Put"
     };
     magazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_8("TACU_Magazine_30Rnd_Katiba"),
         mag_4("10Rnd_50BW_Mag_F"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_6("TACU_Magazine_30Rnd_Katiba"),
+        mag_8("TACU_Magazine_30Rnd_Katiba"),
         mag_4("10Rnd_50BW_Mag_F"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("MiniGrenade"),
