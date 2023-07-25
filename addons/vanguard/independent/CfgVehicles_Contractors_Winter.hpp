@@ -33,13 +33,13 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
@@ -62,13 +62,13 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_02: TACU_Vanguard_U_I_Contrac
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_10("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_762_AK"),
+        mag_10("TACU_Magazine_30Rnd_762_AK"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
@@ -96,14 +96,14 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT: TACU_Vanguard_U_I_Contrac
     };
     magazines[] = {
         "MRAWS_HEAT_F",
-        mag_7("TACU_Magazine_30Rnd_QBZ"),
+        mag_10("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
         "MRAWS_HEAT_F",
-        mag_7("TACU_Magazine_30Rnd_QBZ"),
+        mag_10("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
@@ -131,14 +131,14 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AP: TACU_Vanguard_U_I_Contrac
     };
     magazines[] = {
         "MRAWS_HE_F",
-        mag_7("TACU_Magazine_30Rnd_QBZ"),
+        mag_10("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
         "MRAWS_HE_F",
-        mag_7("TACU_Magazine_30Rnd_QBZ"),
+        mag_10("TACU_Magazine_30Rnd_QBZ"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
@@ -162,14 +162,14 @@ class TACU_Vanguard_U_I_Contractor_Winter_Grenadier: TACU_Vanguard_U_I_Contracto
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_3("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_3("1Rnd_HE_Grenade_shell"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
@@ -193,13 +193,13 @@ class TACU_Vanguard_U_I_Contractor_Winter_Marksman: TACU_Vanguard_U_I_Contractor
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_20Rnd_M1A"),
+        mag_10("TACU_Magazine_20Rnd_M1A"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_20Rnd_M1A"),
+        mag_10("TACU_Magazine_20Rnd_M1A"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
@@ -222,13 +222,13 @@ class TACU_Vanguard_U_I_Contractor_Winter_TeamLeader: TACU_Vanguard_U_I_Contract
         "Throw", "Put"
     };
     magazines[] = {
-        mag_7("TACU_Magazine_30Rnd_MX"),
+        mag_10("TACU_Magazine_30Rnd_MX"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_7("TACU_Magazine_30Rnd_MX"),
+        mag_10("TACU_Magazine_30Rnd_MX"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         mag_2("HandGrenade"),
         "SmokeShell"
@@ -275,12 +275,12 @@ class TACU_Vanguard_U_I_Contractor_Winter_Medic: TACU_Vanguard_U_I_Contractor_Wi
         "Throw", "Put"
     };
     magazines[] = {
-        mag_4("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_4("TACU_Magazine_30Rnd_STANAG"),
+        mag_10("TACU_Magazine_30Rnd_STANAG"),
         mag_2("TACU_Magazine_11Rnd_FNX"),
         "SmokeShell"
     };
