@@ -1,5 +1,6 @@
 // Arid Vehicles
 class TACU_BAF_V_B_Arid_Assault_Boat: TACU_Assault_Boat_Base {
+    displayName = "Assault Boat (Arid)";
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_BAF_B";
     side = 1;
@@ -9,6 +10,7 @@ class TACU_BAF_V_B_Arid_Assault_Boat: TACU_Assault_Boat_Base {
 };
 
 class TACU_BAF_V_B_Arid_Speedboat_Minigun: TACU_Speedboat_Minigun_Base {
+    displayName = "Speedboat Minigun (Arid)";
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_BAF_B";
     side = 1;
@@ -78,6 +80,7 @@ class TACU_BAF_V_Arid_FV510_Warrior_SLAT: TACU_BAF_V_B_Arid_FV510_Warrior {
 
 // Tropic Vehicles
 class TACU_BAF_V_B_Tropic_Assault_Boat: TACU_Assault_Boat_Base {
+    displayName = "Assault Boat (Tropic)";
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_BAF_B";
     side = 1;
@@ -87,6 +90,7 @@ class TACU_BAF_V_B_Tropic_Assault_Boat: TACU_Assault_Boat_Base {
 };
 
 class TACU_BAF_V_B_Tropic_Speedboat_Minigun: TACU_Speedboat_Minigun_Base {
+    displayName = "Speedboat Minigun (Tropic)";
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_BAF_B";
     side = 1;
@@ -156,6 +160,7 @@ class TACU_BAF_V_Tropic_FV510_Warrior_SLAT: TACU_BAF_V_B_Tropic_FV510_Warrior {
 
 // Urban Vehicles
 class TACU_BAF_V_B_Urban_Assault_Boat: TACU_Assault_Boat_Base {
+    displayName = "Assault Boat (Urban)";
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_BAF_B";
     side = 1;
@@ -165,6 +170,7 @@ class TACU_BAF_V_B_Urban_Assault_Boat: TACU_Assault_Boat_Base {
 };
 
 class TACU_BAF_V_B_Urban_Speedboat_Minigun: TACU_Speedboat_Minigun_Base {
+    displayName = "Speedboat Minigun (Urban)";
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_BAF_B";
     side = 1;
