@@ -29,7 +29,7 @@ class TACU_Fennek_HMG_Base: I_MRAP_03_hmg_F {
         };
         class Seven_Rings_West: South_African_Green {
             displayName = "Seven Rings West";
-            textures[] = {QPATHTOF(data\fennek\fennek_ext_srw_co.paa), QPATHTOF(data\turrets\turret_fennek_srw_co.paa)};
+            textures[] = {QPATHTOF(data\fennek\fennek_ext_srw_co.paa), QPATHTOF(data\turrets\turret_srw_co.paa)};
             factions[] = {"TACU_Seven_Rings_Western"};
         };
         class Vanguard: South_African_Green {

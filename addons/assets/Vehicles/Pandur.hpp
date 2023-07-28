@@ -18,7 +18,7 @@ class TACU_Pandur_Base: I_APC_Wheeled_03_cannon_F {
                 "a3\armor_f\data\camonet_aaf_fia_green_co.paa",
                 "a3\armor_f\data\cage_g1_co.paa"
             };
-            faction[] = {};
+            factions[] = {};
         };
         class Guerilla_02: Guerilla_01 {
             displayName = "Guerrilla 02";
@@ -53,7 +53,21 @@ class TACU_Pandur_Base: I_APC_Wheeled_03_cannon_F {
                 "a3\armor_f\data\cage_sand_co.paa"
             };
         };
+        class Eastern_Europe: Guerilla_01 {
+            displayName = "Green";
+            author = "GilleeDoo";
+            textures[] = {
+                QPATHTOF(data\pandur\pandur_03_ext_01_ee_co.paa),
+                QPATHTOF(data\pandur\pandur_03_ext_02_ee_co.paa),
+                QPATHTOF(data\turrets\rcws30_pandur_ee_co.paa),
+                QPATHTOF(data\pandur\pandur_03_ext_adds_ee_co.paa),
+                "a3\armor_f\data\camonet_aaf_fia_green_co.paa",
+                "a3\armor_f\data\cage_g1_co.paa"
+            };
+            factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
+        };
     };
+
     textureList[] = {
         "Guerilla_01", 1,
         "Guerilla_02", 1,

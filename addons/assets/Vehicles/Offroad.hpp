@@ -106,6 +106,12 @@ class TACU_Offroad_Unarmed_Base: B_G_Offroad_01_F {
             textures[] = {QPATHTOF(data\offroad\police_v_offroad_black_co.paa), QPATHTOF(data\offroad\police_v_offroad_black_co.paa)};
             factions[] = {"TACU_Police_I"};
         };
+        class Eastern_Europe: Police_Blue {
+            displayName = "Green";
+            author = "GilleeDoo";
+            textures[] = {QPATHTOF(data\offroad\offroad_01_ext_grn_ee_co.paa), QPATHTOF(data\offroad\offroad_01_ext_grn_ee_co.paa)};
+            factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
+        };
     };
 
     textureList[] = {
