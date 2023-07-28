@@ -50,7 +50,7 @@ class TACU_Proxy_China_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "tacs_Helmet_Modular_Headset_Coyote", 0.25
     };
     CBA_facewearList[] = {"", 1};
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Rifleman);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Rifleman);
 };
 
 class TACU_Proxy_China_U_O_Demolitions: TACU_Proxy_China_U_O_Rifleman {
@@ -59,7 +59,7 @@ class TACU_Proxy_China_U_O_Demolitions: TACU_Proxy_China_U_O_Rifleman {
     role = "Sapper";
     canDeactivateMines = 1;
     backpack = "TACU_Proxy_China_B_Demolitions";
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Demolitions);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Demolitions);
 };
 
 class TACU_Proxy_China_U_O_Engineer: TACU_Proxy_China_U_O_Rifleman {
@@ -68,7 +68,7 @@ class TACU_Proxy_China_U_O_Engineer: TACU_Proxy_China_U_O_Rifleman {
     role = "Sapper";
     engineer = 1;
     backpack = "TACU_Proxy_China_B_Engineer";
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Engineer);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Engineer);
 };
 
 class TACU_Proxy_China_U_O_Grenadier: TACU_Proxy_China_U_O_Rifleman {
@@ -96,7 +96,7 @@ class TACU_Proxy_China_U_O_Grenadier: TACU_Proxy_China_U_O_Rifleman {
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Grenadier);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Grenadier);
 };
 
 class TACU_Proxy_China_U_O_Marksman: TACU_Proxy_China_U_O_Rifleman {
@@ -125,7 +125,7 @@ class TACU_Proxy_China_U_O_Marksman: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Marksman);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Marksman);
 };
 
 class TACU_Proxy_China_U_O_Teamleader: TACU_Proxy_China_U_O_Rifleman {
@@ -153,7 +153,7 @@ class TACU_Proxy_China_U_O_Teamleader: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Teamleader);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Teamleader);
 };
 
 class TACU_Proxy_China_U_O_Autorifleman: TACU_Proxy_China_U_O_Rifleman {
@@ -183,7 +183,7 @@ class TACU_Proxy_China_U_O_Autorifleman: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Autorifleman);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Autorifleman);
 };
 
 class TACU_Proxy_China_U_O_Machinegunner: TACU_Proxy_China_U_O_Rifleman {
@@ -213,7 +213,7 @@ class TACU_Proxy_China_U_O_Machinegunner: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Machinegunner);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Machinegunner);
 };
 
 class TACU_Proxy_China_U_O_Medic: TACU_Proxy_China_U_O_Rifleman {
@@ -222,7 +222,7 @@ class TACU_Proxy_China_U_O_Medic: TACU_Proxy_China_U_O_Rifleman {
     role = "CombatLifeSaver";
     attendant = 1;
     backpack = "TACU_Proxy_China_B_Medic";
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Medic);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Medic);
 };
 
 class TACU_Proxy_China_U_O_AT: TACU_Proxy_China_U_O_Rifleman {
@@ -256,7 +256,7 @@ class TACU_Proxy_China_U_O_AT: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_AT);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_AT);
 };
 
 class TACU_Proxy_China_U_O_AP: TACU_Proxy_China_U_O_Rifleman {
@@ -290,12 +290,12 @@ class TACU_Proxy_China_U_O_AP: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_AP);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_AP);
 };
 
 class TACU_Proxy_China_U_O_Driver: TACU_Proxy_China_U_O_Rifleman {
     displayName = "Driver";
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Driver);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Driver);
 };
 
 class TACU_Proxy_China_U_O_Pilot: TACU_Proxy_China_U_O_Rifleman {
@@ -333,7 +333,7 @@ class TACU_Proxy_China_U_O_Pilot: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell")
     };
     headgearList[] = {"tacs_Helmet_PilotHeli_Tan", 1};
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Pilot);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Pilot);
 };
 
 class TACU_Proxy_China_U_O_Sniper: TACU_Proxy_China_U_O_Rifleman {
@@ -361,7 +361,7 @@ class TACU_Proxy_China_U_O_Sniper: TACU_Proxy_China_U_O_Rifleman {
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Sniper);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Sniper);
 };
 class TACU_Proxy_China_U_O_Spotter: TACU_Proxy_China_U_O_Rifleman {
     displayName = "Spotter";
@@ -390,5 +390,5 @@ class TACU_Proxy_China_U_O_Spotter: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Proxy_China_U_O_Spotter);
+    EDITORPREVIEW(TACU_Proxy_China_U_O_Spotter);
 };
