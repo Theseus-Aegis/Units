@@ -1,4 +1,4 @@
-class TACU_TalibanNames {
+class TACU_AfghanNames {
     class FirstNames {
         abdul = "Abdul";
         ahmad = "Ahmad";
