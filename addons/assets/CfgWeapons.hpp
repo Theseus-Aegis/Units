@@ -5,6 +5,7 @@ class CfgWeapons {
     #include "Weapons\BAF_Helmets.hpp"
     #include "Weapons\BAF_Vests.hpp"
     #include "Weapons\Cartel_Uniforms.hpp"
+    #include "Weapons\Eastern_Asia_Uniforms.hpp"
     #include "Weapons\Eastern_Asia_Vests.hpp"
     #include "Weapons\Eastern_European_Uniforms.hpp"
     #include "Weapons\Foreign_Legion_Vests.hpp"

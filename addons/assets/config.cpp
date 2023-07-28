@@ -88,6 +88,7 @@ class CfgPatches {
         };
         weapons[] = {
             // Uniforms
+            "TACU_Proxy_China_Uniform_Combat_Fatigues",
             "TACU_Proxy_Russia_Uniform_Coveralls",
             "TACU_Proxy_Russia_Uniform_Combat_Fatigues",
             "TACU_Proxy_Russia_Uniform_Combat_Fatigues_Officer",

@@ -17,11 +17,14 @@ class U_C_ArtTShirt_01_v1_F: Uniform_Base {
 class U_I_C_Soldier_Bandit_2_F: Uniform_Base {
     class ItemInfo;
 };
+class U_O_LCF_noInsignia_hex_lxws: Uniform_Base {
+    class ItemInfo;
+};
 
 // Vests
 class V_PlateCarrier1_rgr;
 class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr {
-	class ItemInfo;
+    class ItemInfo;
 };
 class V_PlateCarrier1_blk;
 class V_PlateCarrierIAGL_oli;
