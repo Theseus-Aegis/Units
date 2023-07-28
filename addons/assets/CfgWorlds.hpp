@@ -1,5 +1,6 @@
 class CfgWorlds {
     class GenericNames {
+        #include "Names\AfghanistanNames.hpp"
         #include "Names\AfricanNames.hpp"
         #include "Names\BritishNames.hpp"
         #include "Names\ChineseNames.hpp"
@@ -11,6 +12,5 @@ class CfgWorlds {
         #include "Names\SomaliNames.hpp"
         #include "Names\SouthAfricanNames.hpp"
         #include "Names\SouthAmericanNames.hpp"
-        #include "Names\TalibanNames.hpp"
     };
 };

@@ -6,7 +6,7 @@ class TACU_Taliban_Militia_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
     scope = 2;
     scopeCurator = 2;
     identityTypes[] = {"LanguagePER_F", "Head_TK", "NoGlasses"};
-    genericNames = "TACU_TalibanNames";
+    genericNames = "TACU_AfghanNames";
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "U_lxWS_Djella_02_Brown";
