@@ -51,6 +51,17 @@ class TACU_Otokar_ARMA_Unarmed_Base: O_APC_Wheeled_02_unarmed_lxWS {
                 "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_adds_02_nato_co.paa"
             };
         };
+        class Opfor: SFIA {
+            displayName = "Hex";
+            textures[] = {
+                "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_01_opfor_co.paa",
+                "a3\armor_f_beta\apc_wheeled_02\data\apc_wheeled_02_ext_02_opfor_co.paa",
+                "a3\armor_f\data\camonet_csat_hex_desert_co.paa",
+                "a3\armor_f\data\cage_csat_co.paa",
+                "lxws\vehicles_1_f_lxws\apc_wheeled_02\data\apc_wheeled_02_adds_02_hex_co.paa"
+            };
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
+        };
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";

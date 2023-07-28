@@ -15,7 +15,7 @@ class TACU_Karatel_GMG_Base: O_MRAP_02_gmg_F {
                 "\a3\soft_f\mrap_02\data\mrap_02_ext_02_co.paa",
                 "\a3\data_f\vehicles\turret_opfor_co.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
         class Seven_Rings_East {
             displayName = "Seven Rings East";
@@ -29,7 +29,7 @@ class TACU_Karatel_GMG_Base: O_MRAP_02_gmg_F {
         };
     };
 
-    textureList[] = {"Hex", 1};
+    textureList[] = {};
 
     MACRO_EVENTHANDLERS;
 };

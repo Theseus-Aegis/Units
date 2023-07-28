@@ -12,9 +12,10 @@ class TACU_Assault_Boat_Base: B_Boat_Transport_01_F {
             textures[] = {"\a3\boat_f\boat_transport_01\data\boat_transport_01_co.paa"};
             factions[] = {};
         };
-        class Hex: Black {
-            textures[] = {"\a3\boat_f\boat_transport_01\data\boat_transport_01_opfor_co.paa"};
+        class Opfor: Black {
             displayName = "Hex";
+            textures[] = {"\a3\boat_f\boat_transport_01\data\boat_transport_01_opfor_co.paa"};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
         class Rescue: Black {
             displayName = "Rescue";
@@ -32,7 +33,6 @@ class TACU_Assault_Boat_Base: B_Boat_Transport_01_F {
 
     textureList[] = {
         "Black", 1,
-        "Hex", 1,
         "Rescue", 1,
         "Civilian", 1,
         "Digital", 1

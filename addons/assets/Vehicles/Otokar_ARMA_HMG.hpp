@@ -17,7 +17,7 @@ class TACU_Otokar_ARMA_HMG_Base: O_APC_Wheeled_02_rcws_v2_F {
                 "a3\armor_f\data\camonet_csat_hex_desert_co.paa",
                 "a3\armor_f\data\cage_csat_co.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
         class Seven_Rings_East {
             displayName = "Seven Rings East";
@@ -33,7 +33,7 @@ class TACU_Otokar_ARMA_HMG_Base: O_APC_Wheeled_02_rcws_v2_F {
         };
     };
 
-    textureList[] = {"Hex", 1};
+    textureList[] = {};
 
     MACRO_EVENTHANDLERS;
 };
