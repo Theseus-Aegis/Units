@@ -19,6 +19,15 @@ class TACU_LSV_MKII_Base: O_LSV_02_unarmed_F {
             };
             factions[] = {};
         };
+        class Opfor: Black {
+            displayName = "Hex";
+            textures[] = {
+                "\a3\soft_f_exp\lsv_02\data\csat_lsv_01_arid_co.paa",
+                "\a3\soft_f_exp\lsv_02\data\csat_lsv_02_arid_co.paa",
+                "\a3\soft_f_exp\lsv_02\data\csat_lsv_03_arid_co.paa"
+            };
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
+        };
         class Seven_Rings_East {
             displayName = "Seven Rings East";
             author = "GilleeDoo";

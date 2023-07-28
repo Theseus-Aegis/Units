@@ -88,6 +88,7 @@ class CfgPatches {
         };
         weapons[] = {
             // Uniforms
+            "TACU_Proxy_China_Uniform_Combat_Fatigues",
             "TACU_Proxy_Russia_Uniform_Coveralls",
             "TACU_Proxy_Russia_Uniform_Combat_Fatigues",
             "TACU_Proxy_Russia_Uniform_Combat_Fatigues_Officer",
@@ -133,6 +134,7 @@ class CfgPatches {
             "TACU_BAF_Vest_HeavyPlateCarrier_Arid",
             "TACU_BAF_Vest_HeavyPlateCarrier_Tropic",
             "TACU_BAF_Vest_HeavyPlateCarrier_Urban",
+            "TACU_Eastern_Asia_Vest_Carrier_Rig",
             "TACU_Foreign_Legion_Vest_Carrier_Lite_Desert",
             "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack",
             "TACU_Police_Vest_HeavyPlateCarrier_PoliceBlue",

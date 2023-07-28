@@ -7,7 +7,7 @@ class TACU_Karatel_Unarmed_Base: O_MRAP_02_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
-        class Hex {
+        class Opfor {
             displayName = "Hex";
             author = "Bohemia Interactive";
             textures[] = {
@@ -15,7 +15,7 @@ class TACU_Karatel_Unarmed_Base: O_MRAP_02_F {
                 "\A3\soft_F\MRAP_02\data\MRAP_02_ext_02_CO.paa",
                 "\A3\Data_F\Vehicles\turret_opfor_co.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
         class Seven_Rings_East {
             displayName = "Seven Rings East";
@@ -29,7 +29,7 @@ class TACU_Karatel_Unarmed_Base: O_MRAP_02_F {
         };
     };
 
-    textureList[] = {"Hex", 1};
+    textureList[] = {};
 
     MACRO_EVENTHANDLERS;
 };

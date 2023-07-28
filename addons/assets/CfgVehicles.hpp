@@ -77,6 +77,7 @@ class CfgVehicles {
     #include "Vehicles\Wearables\BAF_Helmets.hpp"
     #include "Vehicles\Wearables\BAF_Vests.hpp"
     #include "Vehicles\Wearables\Cartel_Uniforms.hpp"
+    #include "Vehicles\Wearables\Eastern_Asia_Uniforms.hpp"
     #include "Vehicles\Wearables\Eastern_European_Uniforms.hpp"
     #include "Vehicles\Wearables\Foreign_Legion_Vests.hpp"
     #include "Vehicles\Wearables\Police_Helmets.hpp"

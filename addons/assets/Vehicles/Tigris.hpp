@@ -8,7 +8,7 @@ class TACU_Tigris_Base: O_APC_Tracked_02_AA_F {
     MACRO_DEFAULT_VEHICLE;
 
     class TextureSources {
-        class Hex {
+        class Opfor {
             displayName = "Hex";
             author = "Bohemia Interactive";
             textures[] = {
@@ -18,9 +18,10 @@ class TACU_Tigris_Base: O_APC_Tracked_02_AA_F {
                 "a3\armor_f\data\camonet_csat_hex_desert_co.paa",
                 "a3\armor_f\data\cage_csat_co.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
-        class GreenHex: Hex {
+        class GreenHex {
+            author = "Bohemia Interactive";
             displayName = "Green Hex";
             textures[] = {
                 "a3\armor_f_exp\apc_tracked_02\data\apc_tracked_02_ext_01_aa_ghex_co.paa",
@@ -29,6 +30,7 @@ class TACU_Tigris_Base: O_APC_Tracked_02_AA_F {
                 "a3\armor_f\data\camonet_csat_hex_green_co.paa",
                 "a3\armor_f\data\cage_csat_green_co.paa"
             };
+            factions[] = {};
         };
         class Eastern_Europe {
             displayName = "Green";
@@ -44,7 +46,7 @@ class TACU_Tigris_Base: O_APC_Tracked_02_AA_F {
         };
     };
 
-    textureList[] = {"Hex", 1, "GreenHex", 1};
+    textureList[] = {"GreenHex", 1};
 
     MACRO_EVENTHANDLERS;
 };

@@ -8,7 +8,7 @@ class TACU_Kasatka_Armed_Base: O_Heli_Light_02_dynamicLoadout_F {
     MACRO_DEFAULT_VEHICLE;
 
     // This property has to be set otherwise textureSources fail.
-    hiddenSelectionsTextures[] = {"\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"};
+    hiddenSelectionsTextures[] = {"\a3\air_f\heli_light_02\data\heli_light_02_ext_civilian_co.paa"};
 
     class TextureSources {
         class Black {
@@ -21,9 +21,14 @@ class TACU_Kasatka_Armed_Base: O_Heli_Light_02_dynamicLoadout_F {
             displayName = "Black Custom";
             textures[] = {"\a3\air_f_heli\heli_light_02\data\heli_light_02_ext_opfor_v2_co.paa"};
         };
+        class Opfor: Black {
+            displayName = "Hex";
+            textures[] = {"\a3\air_f\heli_light_02\data\heli_light_02_ext_opfor_co"};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
+        };
         class Blue: Black {
             displayName = "Blue";
-            textures[] = {"\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa"};
+            textures[] = {"\a3\air_f\heli_light_02\data\heli_light_02_ext_civilian_co.paa"};
         };
         class North_African_Green {
             author = "GilleeDoo";

@@ -6,16 +6,25 @@ class O_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F {
 class TACU_Kasatka_Unarmed_Base: O_Heli_Light_02_unarmed_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
+
+    // This property has to be set otherwise textureSources fail.
+    hiddenSelectionsTextures[] = {"\a3\air_f\heli_light_02\data\heli_light_02_ext_civilian_co.paa"};
+
     class TextureSources {
         class Black {
             author = "Bohemia Interactive";
             displayName = "Black";
-            factions[] = {};
             textures[] = {"\a3\air_f\heli_light_02\data\heli_light_02_ext_co.paa"};
+            factions[] = {};
         };
         class BlackCustom: Black {
             displayName = "Black Custom";
             textures[] = {"\a3\air_f_heli\heli_light_02\data\heli_light_02_ext_opfor_v2_co.paa"};
+        };
+        class Opfor: Black {
+            displayName = "Hex";
+            textures[] = {"\a3\air_f\heli_light_02\data\heli_light_02_ext_opfor_co"};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
         class Blue: Black {
             displayName = "Blue";

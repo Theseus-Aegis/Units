@@ -7,7 +7,7 @@ class TACU_BM2T_Stalker_Base: O_APC_Tracked_02_cannon_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
     class TextureSources {
-        class Hex {
+        class Opfor {
             displayName = "Hex";
             author = "Bohemia Interactive";
             textures[] = {
@@ -17,7 +17,7 @@ class TACU_BM2T_Stalker_Base: O_APC_Tracked_02_cannon_F {
                 "a3\armor_f\data\camonet_csat_hex_desert_co.paa",
                 "a3\armor_f\data\cage_csat_co.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
         class Eastern_Europe {
             displayName = "Green";
@@ -33,7 +33,7 @@ class TACU_BM2T_Stalker_Base: O_APC_Tracked_02_cannon_F {
         };
     };
 
-    textureList[] = {"Hex", 1};
+    textureList[] = {};
 
     MACRO_EVENTHANDLERS;
 };
@@ -48,7 +48,7 @@ class TACU_BM2T_Iskatel_Base: O_APC_Tracked_02_30mm_lxWS {
     MACRO_DEFAULT_VEHICLE;
     displayName = "BM-2T Iskatel";
     class TextureSources {
-        class Hex {
+        class Opfor {
             displayName = "Hex";
             author = "Rotators Collective";
             textures[] = {
@@ -59,9 +59,9 @@ class TACU_BM2T_Iskatel_Base: O_APC_Tracked_02_30mm_lxWS {
                 "a3\armor_f\data\camonet_csat_hex_desert_co.paa",
                 "a3\armor_f\data\cage_csat_co.paa"
             };
-            factions[] = {};
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
-        class GreenHex: Hex {
+        class GreenHex {
             displayName = "Green Hex";
             textures[] = {
                 "a3\armor_f_exp\apc_tracked_02\data\apc_tracked_02_ext_01_ghex_co.paa",
@@ -71,8 +71,9 @@ class TACU_BM2T_Iskatel_Base: O_APC_Tracked_02_30mm_lxWS {
                 "a3\armor_f\data\camonet_csat_hex_green_co.paa",
                 "a3\armor_f\data\cage_csat_green_co.paa"
             };
+            factions[] = {};
         };
-        class SFIA: Hex {
+        class SFIA: GreenHex {
             displayName = "SFIA";
             textures[] = {
                 "lxws\vehicles_f_lxws\data\apc_tracked_02\kamysh_africa1_co.paa",
@@ -83,7 +84,7 @@ class TACU_BM2T_Iskatel_Base: O_APC_Tracked_02_30mm_lxWS {
                 "a3\armor_f\data\cage_csat_co.paa"
             };
         };
-        class Grey: Hex {
+        class Grey: GreenHex {
             displayName = "Grey";
             textures[] = {
                 "lxws\vehicles_1_f_lxws\apc_tracked_02\data\apc_tracked_02_ext_01_black_co.paa",
@@ -110,7 +111,6 @@ class TACU_BM2T_Iskatel_Base: O_APC_Tracked_02_30mm_lxWS {
     };
 
     textureList[] = {
-        "Hex", 1,
         "GreenHex", 1,
         "SFIA", 1,
         "Grey", 1

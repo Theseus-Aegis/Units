@@ -31,6 +31,7 @@ class TACU_Speedboat_Minigun_Base: Boat_Armed_01_minigun_base_F {
                 "\a3\boat_f\boat_armed_01\data\boat_armed_01_int_opfor_co.paa",
                 "\a3\boat_f\boat_armed_01\data\boat_armed_01_crows_opfor_co.paa"
             };
+            factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
         };
         class Blufor: Indep {
             displayName = "BLUFOR";
@@ -42,11 +43,7 @@ class TACU_Speedboat_Minigun_Base: Boat_Armed_01_minigun_base_F {
         };
     };
 
-    textureList[] = {
-        "Indep", 1,
-        "Opfor", 1,
-        "Blufor", 1
-    };
+    textureList[] = {"Indep", 1, "Blufor", 1};
 
     MACRO_EVENTHANDLERS;
 };
