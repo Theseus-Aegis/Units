@@ -3,14 +3,14 @@ class CfgVehicles {
 
     class TACU_Main_U_OPFOR_Soldier_Base;
 
-    //#include "CfgVehicles_Backpacks.hpp"
+    #include "CfgVehicles_Backpacks.hpp"
 
-    //#include "CfgVehicles_I.hpp"
-    //#include "CfgVehicles_O.hpp"
+    #include "CfgVehicles_O.hpp"
+    #include "CfgVehicles_I.hpp"
 
-    //#include "CfgVehicles_Vehicles_I.hpp"
     //#include "CfgVehicles_Vehicles_O.hpp"
+    //#include "CfgVehicles_Vehicles_I.hpp"
 
-    //#include "CfgVehicles_Turrets_I.hpp"
     //#include "CfgVehicles_Turrets_O.hpp"
+    //#include "CfgVehicles_Turrets_I.hpp"
 };
