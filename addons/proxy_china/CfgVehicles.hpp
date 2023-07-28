@@ -11,6 +11,6 @@ class CfgVehicles {
     #include "CfgVehicles_Vehicles_O.hpp"
     #include "CfgVehicles_Vehicles_I.hpp"
 
-    //#include "CfgVehicles_Turrets_O.hpp"
-    //#include "CfgVehicles_Turrets_I.hpp"
+    #include "CfgVehicles_Turrets_O.hpp"
+    #include "CfgVehicles_Turrets_I.hpp"
 };
