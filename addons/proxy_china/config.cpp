@@ -25,7 +25,9 @@ class CfgPatches {
             "TACU_Proxy_China_W_QBZ_GL_ACO",
             "TACU_Proxy_China_W_QBZ_LSW_MRCO",
             "TACU_Proxy_China_W_QBU_DMS",
-            "TACU_Proxy_China_W_Negev_MRCO"
+            "TACU_Proxy_China_W_Negev_MRCO",
+            "TACU_Proxy_China_W_GM6_LRPS",
+            "TACU_Proxy_China_W_Rook_Suppressed"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main", "tacu_assets"};
