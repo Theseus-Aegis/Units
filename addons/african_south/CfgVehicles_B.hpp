@@ -280,23 +280,9 @@ class TACU_African_South_U_B_AT: TACU_African_South_U_B_Rifleman {
     EDITORPREVIEW(TACU_African_South_U_B_AT);
 };
 
-class TACU_African_South_U_B_AP: TACU_African_South_U_B_Rifleman {
+class TACU_African_South_U_B_AP: TACU_African_South_U_B_AT {
     displayName = "Rifleman (AP)";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
     backpack = "TACU_African_South_B_AP";
-    weapons[] = {
-        "launch_MRAWS_green_rail_F",
-        "TACU_African_South_W_Green_XMS",
-        "TACU_African_South_W_Green_FNX",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "launch_MRAWS_green_rail_F",
-        "TACU_African_South_W_Green_XMS",
-        "TACU_African_South_W_Green_FNX",
-        "Throw", "Put"
-    };
     magazines[] = {
         "MRAWS_HE_F",
         mag_12("TACU_Magazine_30Rnd_STANAG"),
@@ -311,7 +297,6 @@ class TACU_African_South_U_B_AP: TACU_African_South_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_African_South_U_B_AP);
 };
 
 class TACU_African_South_U_B_AA: TACU_African_South_U_B_Rifleman {
