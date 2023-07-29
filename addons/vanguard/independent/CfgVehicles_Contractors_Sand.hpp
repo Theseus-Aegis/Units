@@ -50,7 +50,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
 
 class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_02: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
     displayName = "Rifleman (AK12)";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {
         "TACU_Vanguard_W_Sand_AK12",
         "TACU_Vanguard_W_Sand_FNX",
@@ -80,7 +79,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT: TACU_Vanguard_U_I_Contracto
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "TACU_Vanguard_B_AT_Kitbag_Tan";
     weapons[] = {
         "launch_MRAWS_sand_rail_F",
@@ -111,24 +109,9 @@ class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT: TACU_Vanguard_U_I_Contracto
     EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT);
 };
 
-class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AP: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
+class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AP: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT {
     displayName = "Rifleman (AP)";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "TACU_Vanguard_B_AP_Kitbag_Tan";
-    weapons[] = {
-        "launch_MRAWS_sand_rail_F",
-        "TACU_Vanguard_W_Sand_QBZ",
-        "TACU_Vanguard_W_Sand_FNX",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "launch_MRAWS_sand_rail_F",
-        "TACU_Vanguard_W_Sand_QBZ",
-        "TACU_Vanguard_W_Sand_FNX",
-        "Throw", "Put"
-    };
     magazines[] = {
         "MRAWS_HE_F",
         mag_12("TACU_Magazine_30Rnd_QBZ"),
@@ -143,14 +126,12 @@ class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AP: TACU_Vanguard_U_I_Contracto
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AP);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Grenadier: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
     displayName = "Grenadier";
     icon = "iconMan";
     role = "Grenadier";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {
         "TACU_Vanguard_W_Sand_HK416A5GL",
         "TACU_Vanguard_W_Sand_FNX",
@@ -181,7 +162,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Grenadier: TACU_Vanguard_U_I_Contractor_
 class TACU_Vanguard_U_I_Contractor_Sand_Marksman: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
     displayName = "Marksman";
     role = "Marksman";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {
         "TACU_Vanguard_W_Sand_SIG556",
         "TACU_Vanguard_W_Sand_FNX",
@@ -210,7 +190,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Marksman: TACU_Vanguard_U_I_Contractor_S
 class TACU_Vanguard_U_I_Contractor_Sand_Driver: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
     displayName = "Driver";
     role = "Crewman";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {
         "SMG_02_ACO_F",
         "TACU_Vanguard_W_Sand_FNX",
@@ -237,7 +216,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Driver: TACU_Vanguard_U_I_Contractor_San
 class TACU_Vanguard_U_I_Contractor_Sand_TeamLeader: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
     displayName = "Team Leader";
     icon = "iconManLeader";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     weapons[] = {
         "arifle_MX_Hamr_pointer_F",
         "TACU_Vanguard_W_Sand_FNX",
@@ -267,7 +245,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Autorifleman: TACU_Vanguard_U_I_Contract
     displayName = "Autorifleman";
     icon = "iconManMG";
     role = "MachineGunner";
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "TACU_Vanguard_B_MG_Kitbag_Tan";
     weapons[] = {
         "TACU_Vanguard_W_Sand_MK200",
@@ -289,7 +266,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Medic: TACU_Vanguard_U_I_Contractor_Sand
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "TACU_Vanguard_B_Medic_Kitbag_Tan";
     weapons[] = {
         "TACU_Vanguard_W_Sand_F2000",
@@ -319,7 +295,6 @@ class TACU_Vanguard_U_I_Contractor_Sand_Engineer: TACU_Vanguard_U_I_Contractor_S
     icon = "iconManEngineer";
     role = "Sapper";
     engineer = 1;
-    uniformClass = "tacs_Uniform_Garment_RS_TS_TP_TB";
     backpack = "B_Kitbag_mcamo_Eng";
     weapons[] = {
         "TACU_Vanguard_W_Sand_QBZ",
