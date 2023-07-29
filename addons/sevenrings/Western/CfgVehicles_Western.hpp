@@ -233,23 +233,9 @@ class TACU_Seven_Rings_Western_U_I_AT: TACU_Seven_Rings_Western_U_I_Rifleman_01 
     EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AT);
 };
 
-class TACU_Seven_Rings_Western_U_I_AP: TACU_Seven_Rings_Western_U_I_Rifleman_01 {
+class TACU_Seven_Rings_Western_U_I_AP: TACU_Seven_Rings_Western_U_I_AT {
     displayName = "Rifleman (AP)";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
     backpack = "TACU_Seven_Rings_Western_B_AP";
-    weapons[] = {
-        "TACU_Seven_Rings_Western_W_MSBS",
-        "launch_RPG32_green_F",
-        "hgun_Pistol_heavy_01_green_F",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "TACU_Seven_Rings_Western_W_MSBS",
-        "launch_RPG32_green_F",
-        "hgun_Pistol_heavy_01_green_F",
-        "Throw", "Put"
-    };
     magazines[] = {
         "RPG32_HE_F",
         mag_12("TACU_Magazine_30Rnd_MSBS"),
@@ -264,7 +250,6 @@ class TACU_Seven_Rings_Western_U_I_AP: TACU_Seven_Rings_Western_U_I_Rifleman_01 
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Seven_Rings_Western_U_I_AP);
 };
 
 class TACU_Seven_Rings_Western_U_I_AA: TACU_Seven_Rings_Western_U_I_Rifleman_01 {

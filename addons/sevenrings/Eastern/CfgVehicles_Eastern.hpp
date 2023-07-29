@@ -239,24 +239,10 @@ class TACU_Seven_Rings_Eastern_U_O_AT: TACU_Seven_Rings_Eastern_U_O_Rifleman_01 
     EDITORPREVIEW(TACU_Seven_Rings_Eastern_U_O_AT);
 };
 
-class TACU_Seven_Rings_Eastern_U_O_AP: TACU_Seven_Rings_Eastern_U_O_Rifleman_01 {
+class TACU_Seven_Rings_Eastern_U_O_AP: TACU_Seven_Rings_Eastern_U_O_AT {
     displayName = "Rifleman (AP)";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
     uniformClass = "U_lxWS_Djella_03_Green";
     backpack = "TACU_Seven_Rings_Eastern_B_AP";
-    weapons[] = {
-        "launch_RPG32_F",
-        "TACU_Seven_Rings_Eastern_W_Katiba_Carbine",
-        "hgun_Rook40_F",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "launch_RPG32_F",
-        "TACU_Seven_Rings_Eastern_W_Katiba_Carbine",
-        "hgun_Rook40_F",
-        "Throw", "Put"
-    };
     magazines[] = {
         "RPG32_HE_F",
         mag_11("TACU_Magazine_30Rnd_Katiba"),
@@ -271,7 +257,6 @@ class TACU_Seven_Rings_Eastern_U_O_AP: TACU_Seven_Rings_Eastern_U_O_Rifleman_01 
         mag_2("MiniGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Seven_Rings_Eastern_U_O_AP);
 };
 
 class TACU_Seven_Rings_Eastern_U_O_Grenadier: TACU_Seven_Rings_Eastern_U_O_Rifleman_01 {
