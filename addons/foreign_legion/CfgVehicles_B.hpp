@@ -277,23 +277,9 @@ class TACU_Foreign_Legion_U_B_AT: TACU_Foreign_Legion_U_B_Rifleman {
     EDITORPREVIEW(TACU_Foreign_Legion_U_B_AT);
 };
 
-class TACU_Foreign_Legion_U_B_AP: TACU_Foreign_Legion_U_B_Rifleman {
+class TACU_Foreign_Legion_U_B_AP: TACU_Foreign_Legion_U_B_AT {
     displayName = "Rifleman (AP)";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
     backpack = "TACU_Foreign_Legion_B_AP_Carryall";
-    weapons[] = {
-        "launch_MRAWS_sand_rail_F",
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
-        "hgun_P07_F",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "launch_MRAWS_sand_rail_F",
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
-        "hgun_P07_F",
-        "Throw", "Put"
-    };
     magazines[] = {
         "MRAWS_HE_F",
         mag_12("TACU_Magazine_30Rnd_STANAG"),
@@ -308,7 +294,6 @@ class TACU_Foreign_Legion_U_B_AP: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Foreign_Legion_U_B_AP);
 };
 
 class TACU_Foreign_Legion_U_B_Breacher: TACU_Foreign_Legion_U_B_Rifleman {

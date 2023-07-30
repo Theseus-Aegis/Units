@@ -9,7 +9,6 @@ class CfgPatches {
             "TACU_Foreign_Legion_U_B_Engineer",
             "TACU_Foreign_Legion_U_B_Medic",
             "TACU_Foreign_Legion_U_B_AT",
-            "TACU_Foreign_Legion_U_B_AP",
             "TACU_Foreign_Legion_U_B_TL"
         };
         weapons[] = {
