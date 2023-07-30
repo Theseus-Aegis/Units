@@ -1,10 +1,10 @@
 class TACU_BAF_B_Demolitions_Fieldpack_Arid: TACU_Assets_Fieldpack_Arid {
     MACRO_BACKPACK_DEFAULTS;
     class TransportItems {
-        MACRO_ADDITEM(ToolKit,1);
         MACRO_ADDITEM(ACE_DefusalKit,1);
+        MACRO_ADDITEM(ACE_M26_Clacker,1);
     };
-    class TransportMagazines{
+    class TransportMagazines {
         MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,5);
     };
 };
@@ -31,10 +31,10 @@ class TACU_BAF_B_Heavygunner_Fieldpack_Arid: TACU_Assets_Fieldpack_Arid {
 class TACU_BAF_B_Demolitions_Fieldpack_Tropic: TACU_Assets_Fieldpack_Tropic {
     MACRO_BACKPACK_DEFAULTS;
     class TransportItems {
-        MACRO_ADDITEM(ToolKit,1);
         MACRO_ADDITEM(ACE_DefusalKit,1);
+        MACRO_ADDITEM(ACE_M26_Clacker,1);
     };
-    class TransportMagazines{
+    class TransportMagazines {
         MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,5);
     };
 };
@@ -61,10 +61,10 @@ class TACU_BAF_B_Heavygunner_Fieldpack_Tropic: TACU_Assets_Fieldpack_Tropic {
 class TACU_BAF_B_Demolitions_Fieldpack_Urban: TACU_Assets_Fieldpack_Urban {
     MACRO_BACKPACK_DEFAULTS;
     class TransportItems {
-        MACRO_ADDITEM(ToolKit,1);
         MACRO_ADDITEM(ACE_DefusalKit,1);
+        MACRO_ADDITEM(ACE_M26_Clacker,1);
     };
-    class TransportMagazines{
+    class TransportMagazines {
         MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,5);
     };
 };

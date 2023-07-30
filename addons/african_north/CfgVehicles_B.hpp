@@ -49,7 +49,7 @@ class TACU_African_North_U_B_Medic: TACU_African_North_U_B_Rifleman {
     icon = "iconManMedic";
     role = "CombatLifeSaver";
     attendant = 1;
-    backpack = "G_FieldPack_Medic";
+    backpack = "TACU_African_North_B_Medic";
     weapons[] = {
         "TACU_African_North_W_VelkoR5",
         "Throw", "Put"
@@ -109,7 +109,7 @@ class TACU_African_North_U_B_Demolitions: TACU_African_North_U_B_Rifleman {
     displayName = "Demolitions Specialist";
     icon = "iconManExplosive";
     role = "Sapper";
-    backpack = "G_Carryall_Exp";
+    backpack = "TACU_African_North_B_Demolitions";
     canDeactivateMines = 1;
     weapons[] = {
         "TACU_African_North_W_VelkoR4",
@@ -185,7 +185,7 @@ class TACU_African_North_U_B_AT: TACU_African_North_U_B_Rifleman {
     displayName = "Missile Specialist (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    backpack = "B_Kitbag_rgr_at_1_lxWS";
+    backpack = "TACU_African_North_B_AT";
     weapons[] = {
         "TACU_African_North_W_VelkoR4",
         "launch_RPG32_green_F",
@@ -210,11 +210,28 @@ class TACU_African_North_U_B_AT: TACU_African_North_U_B_Rifleman {
     };
     EDITORPREVIEW(TACU_African_North_U_B_AT);
 };
+class TACU_African_North_U_B_AP: TACU_African_North_U_B_AT {
+    displayName = "Missile Specialist (AP)";
+    isAP = 1;
+    backpack = "TACU_African_North_B_AP";
+    magazines[] = {
+        "RPG32_HE_F",
+        mag_11("TACU_Magazine_35Rnd_R4"),
+        mag_2("SmokeShell"),
+        mag_2("HandGrenade")
+    };
+    respawnMagazines[] = {
+        "RPG32_HE_F",
+        mag_11("TACU_Magazine_35Rnd_R4"),
+        mag_2("SmokeShell"),
+        mag_2("HandGrenade")
+    };
+};
 class TACU_African_North_U_B_AA: TACU_African_North_U_B_Rifleman {
     displayName = "Missile Specialist (AA)";
     icon = "iconManAT";
     role = "MissileSpecialist";
-    backpack = "B_Kitbag_rgr_aa_1_lxWS";
+    backpack = "TACU_African_North_B_AA";
     weapons[] = {
         "TACU_African_North_W_VelkoR4",
         "launch_B_Titan_olive_F",
@@ -299,7 +316,7 @@ class TACU_African_North_U_B_Pilot: TACU_African_North_U_B_Rifleman {
 class TACU_African_North_U_B_Repair: TACU_African_North_U_B_Rifleman {
     displayName = "Engineer";
     icon = "iconManEngineer";
-    backpack = "I_Fieldpack_oli_Repair";
+    backpack = "TACU_African_North_B_Repair";
     engineer = 1;
     weapons[] = {
         "TACU_African_North_W_VelkoR5",

@@ -43,7 +43,11 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_assets_cup"};
+        requiredAddons[] = {
+            "tacu_taliban",
+            "tacu_assets_cup",
+            "CUP_Weapons_LoadOrder"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;

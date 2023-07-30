@@ -21,6 +21,8 @@ class CfgVehicles {
     class O_SFIA_Mortar_lxWS;
     class O_SFIA_ZU23_lxWS;
 
+    #include "CfgVehicles_Backpacks.hpp"
+
     #include "CfgVehicles_B.hpp"
     #include "CfgVehicles_O.hpp"
     #include "CfgVehicles_I.hpp"
