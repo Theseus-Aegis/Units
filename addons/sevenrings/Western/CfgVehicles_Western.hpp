@@ -235,6 +235,7 @@ class TACU_Seven_Rings_Western_U_I_AT: TACU_Seven_Rings_Western_U_I_Rifleman_01 
 
 class TACU_Seven_Rings_Western_U_I_AP: TACU_Seven_Rings_Western_U_I_AT {
     displayName = "Rifleman (AP)";
+    isAP = 1;
     backpack = "TACU_Seven_Rings_Western_B_AP";
     magazines[] = {
         "RPG32_HE_F",

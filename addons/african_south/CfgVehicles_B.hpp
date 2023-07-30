@@ -282,6 +282,7 @@ class TACU_African_South_U_B_AT: TACU_African_South_U_B_Rifleman {
 
 class TACU_African_South_U_B_AP: TACU_African_South_U_B_AT {
     displayName = "Rifleman (AP)";
+    isAP = 1;
     backpack = "TACU_African_South_B_AP";
     magazines[] = {
         "MRAWS_HE_F",
