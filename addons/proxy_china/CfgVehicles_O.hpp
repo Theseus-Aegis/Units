@@ -259,23 +259,9 @@ class TACU_Proxy_China_U_O_AT: TACU_Proxy_China_U_O_Rifleman {
     EDITORPREVIEW(TACU_Proxy_China_U_O_AT);
 };
 
-class TACU_Proxy_China_U_O_AP: TACU_Proxy_China_U_O_Rifleman {
+class TACU_Proxy_China_U_O_AP: TACU_Proxy_China_U_O_AT {
     displayName = "Rifleman (AP)";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
     backpack = "TACU_Proxy_China_B_AP";
-    weapons[] = {
-        "launch_RPG32_F",
-        "TACU_Proxy_China_W_QBZ_ACO",
-        "hgun_Rook40_F",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "launch_RPG32_F",
-        "TACU_Proxy_China_W_QBZ_ACO",
-        "hgun_Rook40_F",
-        "Throw", "Put"
-    };
     magazines[] = {
         "RPG32_HE_F",
         mag_10("TACU_Magazine_30Rnd_QBZ"),
@@ -290,7 +276,6 @@ class TACU_Proxy_China_U_O_AP: TACU_Proxy_China_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_China_U_O_AP);
 };
 
 class TACU_Proxy_China_U_O_Driver: TACU_Proxy_China_U_O_Rifleman {

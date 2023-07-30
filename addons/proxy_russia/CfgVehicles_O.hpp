@@ -292,23 +292,9 @@ class TACU_Proxy_Russia_U_O_AT: TACU_Proxy_Russia_U_O_Rifleman {
     EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT);
 };
 
-class TACU_Proxy_Russia_U_O_AP: TACU_Proxy_Russia_U_O_Rifleman {
+class TACU_Proxy_Russia_U_O_AP: TACU_Proxy_Russia_U_O_AT {
     displayName = "Rifleman (AP)";
-    icon = "iconManAT";
-    role = "MissileSpecialist";
     backpack = "TACU_Proxy_Russia_B_AP";
-    weapons[] = {
-        "launch_RPG32_green_F",
-        "TACU_Proxy_Russia_W_AK15",
-        "TACU_Proxy_Russia_W_FNX",
-        "Throw", "Put"
-    };
-    respawnWeapons[] = {
-        "launch_RPG32_green_F",
-        "TACU_Proxy_Russia_W_AK15",
-        "TACU_Proxy_Russia_W_FNX",
-        "Throw", "Put"
-    };
     magazines[] = {
         "RPG32_HE_F",
         mag_9("TACU_Magazine_30Rnd_762_AK"),
@@ -323,7 +309,6 @@ class TACU_Proxy_Russia_U_O_AP: TACU_Proxy_Russia_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT);
 };
 
 class TACU_Proxy_Russia_U_O_Driver: TACU_Proxy_Russia_U_O_Rifleman {
@@ -404,7 +389,7 @@ class TACU_Proxy_Russia_U_O_AT_CBRN: TACU_Proxy_Russia_U_O_AT {
 class TACU_Proxy_Russia_U_O_AP_CBRN: TACU_Proxy_Russia_U_O_AP {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Rifleman (AP, CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_AP_CBRN);
+    EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Driver_CBRN: TACU_Proxy_Russia_U_O_Driver {
     MACRO_LINKED_ITEMS_CBRN;
