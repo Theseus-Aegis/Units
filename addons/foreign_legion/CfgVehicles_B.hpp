@@ -279,7 +279,7 @@ class TACU_Foreign_Legion_U_B_AT: TACU_Foreign_Legion_U_B_Rifleman {
 
 class TACU_Foreign_Legion_U_B_AP: TACU_Foreign_Legion_U_B_AT {
     displayName = "Rifleman (AP)";
-    isAP = 1;
+    TACU_isAP = 1;
     backpack = "TACU_Foreign_Legion_B_AP_Carryall";
     magazines[] = {
         "MRAWS_HE_F",

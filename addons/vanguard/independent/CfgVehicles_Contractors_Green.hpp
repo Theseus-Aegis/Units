@@ -113,7 +113,7 @@ class TACU_Vanguard_U_I_Contractor_Green_Rifleman_AT: TACU_Vanguard_U_I_Contract
 
 class TACU_Vanguard_U_I_Contractor_Green_Rifleman_AP: TACU_Vanguard_U_I_Contractor_Green_Rifleman_AT {
     displayName = "Rifleman (AP)";
-    isAP = 1;
+    TACU_isAP = 1;
     backpack = "TACU_Vanguard_B_AP_Kitbag_Green";
     magazines[] = {
         "MRAWS_HE_F",

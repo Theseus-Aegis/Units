@@ -1,7 +1,7 @@
 class TACU_Taliban_Militia_U_I_AT;
 class TACU_Taliban_Militia_U_I_AP: TACU_Taliban_Militia_U_I_AT {
     displayName = "Rifleman (AP)";
-    isAP = 1;
+    TACU_isAP = 1;
     backpack = "TACU_Taliban_Militia_B_AP";
     magazines[] = {
         "CUP_OG7_M",
@@ -18,7 +18,7 @@ class TACU_Taliban_Militia_U_I_AP: TACU_Taliban_Militia_U_I_AT {
 class TACU_Taliban_Veterans_U_I_AT;
 class TACU_Taliban_Veterans_U_I_AP: TACU_Taliban_Veterans_U_I_AT {
     displayName = "Rifleman (AP)";
-    isAP = 1;
+    TACU_isAP = 1;
     backpack = "TACU_Taliban_Militia_B_AP";
     magazines[] = {
         "CUP_OG7_M",

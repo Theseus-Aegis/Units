@@ -1,7 +1,7 @@
 class TACU_African_Militia_U_O_AT;
 class TACU_African_Militia_U_O_AP: TACU_African_Militia_U_O_AT {
     displayName = "Missile Specialist (AP)";
-    isAP = 1;
+    TACU_isAP = 1;
     backpack = "TACU_African_Militia_B_AP";
     magazines[] = {
         "CUP_OG7_M",

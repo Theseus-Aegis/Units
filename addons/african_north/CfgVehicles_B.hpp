@@ -212,7 +212,7 @@ class TACU_African_North_U_B_AT: TACU_African_North_U_B_Rifleman {
 };
 class TACU_African_North_U_B_AP: TACU_African_North_U_B_AT {
     displayName = "Missile Specialist (AP)";
-    isAP = 1;
+    TACU_isAP = 1;
     backpack = "TACU_African_North_B_AP";
     magazines[] = {
         "RPG32_HE_F",

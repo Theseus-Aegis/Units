@@ -111,7 +111,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT: TACU_Vanguard_U_I_Contrac
 
 class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AP: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT {
     displayName = "Rifleman (AP)";
-    isAP = 1;
+    TACU_isAP = 1;
     backpack = "TACU_Vanguard_B_AP_Kitbag_White";
     magazines[] = {
         "MRAWS_HE_F",
