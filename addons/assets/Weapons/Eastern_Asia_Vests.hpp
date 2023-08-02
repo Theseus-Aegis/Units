@@ -1,7 +1,7 @@
 // Doesn't use leg strap holster.
 class TACU_Eastern_Asia_Vest_Carrier_Rig: V_PlateCarrier2_rgr {
     author = "Mike";
-    scope = 2;
+    scope = 1;
     displayName = "Carrier Rig (Eastern Asia)";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\vests_cbr_co.paa"};

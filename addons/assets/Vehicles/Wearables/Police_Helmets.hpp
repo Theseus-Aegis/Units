@@ -1,8 +1,8 @@
 class TACU_Police_Item_Helmet_PASGT_Neck_PoliceBlack: Headgear_Base_F {
     author = "Kresky";
     displayName = "Police Helmet (Neck Protection, Black)";
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     vehicleClass = "ItemsHeadgear";
     class TransportItems {
         MACRO_ADDITEM(TACU_Police_Helmet_PASGT_Neck_PoliceBlack,1);
