@@ -261,6 +261,7 @@ class TACU_Proxy_China_U_O_AT: TACU_Proxy_China_U_O_Rifleman {
 
 class TACU_Proxy_China_U_O_AP: TACU_Proxy_China_U_O_AT {
     displayName = "Rifleman (AP)";
+    TACU_isAP = 1;
     backpack = "TACU_Proxy_China_B_AP";
     magazines[] = {
         "RPG32_HE_F",

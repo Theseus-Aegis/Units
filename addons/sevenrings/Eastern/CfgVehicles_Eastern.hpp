@@ -241,6 +241,7 @@ class TACU_Seven_Rings_Eastern_U_O_AT: TACU_Seven_Rings_Eastern_U_O_Rifleman_01 
 
 class TACU_Seven_Rings_Eastern_U_O_AP: TACU_Seven_Rings_Eastern_U_O_AT {
     displayName = "Rifleman (AP)";
+    TACU_isAP = 1;
     uniformClass = "U_lxWS_Djella_03_Green";
     backpack = "TACU_Seven_Rings_Eastern_B_AP";
     magazines[] = {
