@@ -36,6 +36,17 @@ class TACU_Wiesel_Armed_Base: I_LT_01_cannon_F {
                 "a3\armor_f\data\cage_olive_co.paa"
             };
         };
+        class Eastern_Europe {
+            author = "GilleeDoo";
+            displayName = "Green";
+            textures[] = {
+                QPATHTOF(data\wiesel\wiesel_main_ee_co.paa),
+                QPATHTOF(data\wiesel\wiesel_cannon_ee_co.paa),
+                "a3\armor_f\data\camonet_aaf_digi_green_co.paa",
+                "a3\armor_f\data\cage_olive_co.paa"
+            };
+            factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
+        };
     };
 
     textureList[] = {

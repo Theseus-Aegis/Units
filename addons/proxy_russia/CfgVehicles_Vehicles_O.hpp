@@ -74,6 +74,35 @@ class TACU_Proxy_Russia_V_O_Offroad_AT_CBRN: TACU_Proxy_Russia_V_O_Offroad_AT {
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
 };
 
+// Helicopters
+class TACU_Proxy_Russia_V_O_Kasatka: TACU_Kasatka_Unarmed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Pilot";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Pilot"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+class TACU_Proxy_Russia_V_O_Kasatka_CBRN: TACU_Proxy_Russia_V_O_Kasatka {
+    editorSubcategory = "TACU_Proxy_Russia_Helicopter_CBRN";
+    crew = "TACU_Proxy_Russia_U_O_Pilot_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Pilot_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_O_Kasatka_Armed: TACU_Kasatka_Armed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Pilot";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Pilot"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+class TACU_Proxy_Russia_V_O_Kasatka_Armed_CBRN: TACU_Proxy_Russia_V_O_Kasatka_Armed {
+    editorSubcategory = "TACU_Proxy_Russia_Helicopter_CBRN";
+    crew = "TACU_Proxy_Russia_U_O_Pilot_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Pilot_CBRN"};
+};
+
 // Jeep Wranglers
 class TACU_Proxy_Russia_V_O_Jeep: TACU_Jeep_Wrangler_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -188,6 +217,35 @@ class TACU_Proxy_Russia_V_O_MATV_GMG_CBRN: TACU_Proxy_Russia_V_O_MATV_GMG {
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
 };
 
+// Tanks
+class TACU_Proxy_Russia_V_O_Wiesel_MK20: TACU_Wiesel_Armed_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+class TACU_Proxy_Russia_V_O_Wiesel_MK20_CBRN: TACU_Proxy_Russia_V_O_Wiesel_MK20 {
+    editorSubcategory = "TACU_Proxy_Russia_Tank_CBRN";
+    crew = "TACU_Proxy_Russia_U_O_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_O_Wiesel_AT: TACU_Wiesel_Armed_AT_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+class TACU_Proxy_Russia_V_O_Wiesel_AT_CBRN: TACU_Proxy_Russia_V_O_Wiesel_AT {
+    editorSubcategory = "TACU_Proxy_Russia_Tank_CBRN";
+    crew = "TACU_Proxy_Russia_U_O_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
+};
+
 // Truck
 class TACU_Proxy_Russia_V_O_Truck: TACU_Truck_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -201,6 +259,45 @@ class TACU_Proxy_Russia_V_O_Truck_CBRN: TACU_Proxy_Russia_V_O_Truck {
     editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
     crew = "TACU_Proxy_Russia_U_O_Driver_CBRN";
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
+};
+
+// Typhoon
+class TACU_Proxy_Russia_V_O_Typhoon: TACU_Typhoon_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+class TACU_Proxy_Russia_V_O_Typhoon_CBRN: TACU_Proxy_Russia_V_O_Typhoon {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_O_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_O_Typhoon_Covered: TACU_Typhoon_Covered_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
+    textureList[] = {"Eastern_Europe", 1};
+};
+class TACU_Proxy_Russia_V_O_Typhoon_Covered_CBRN: TACU_Proxy_Russia_V_O_Typhoon_Covered {
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    crew = "TACU_Proxy_Russia_U_O_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
+};
+
+class TACU_Proxy_Russia_V_O_Typhoon_Device_CBRN: TACU_Typhoon_Device_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_Russia_O";
+    editorSubcategory = "TACU_Proxy_Russia_Car_CBRN";
+    side = 0;
+    crew = "TACU_Proxy_Russia_U_O_Driver_CBRN";
+    typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
+    textureList[] = {"Eastern_Europe", 1};
 };
 
 // Anti-Air
