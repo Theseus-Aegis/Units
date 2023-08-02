@@ -35,11 +35,7 @@ class TACU_Seven_Rings_Western_B_HG: B_FieldPack_green_F {
 
 class TACU_Seven_Rings_Western_B_Engineer: B_FieldPack_green_F {
     MACRO_BACKPACK_DEFAULTS;
-    class TransportItems {
-        MACRO_ADDITEM(ToolKit,1);
-        MACRO_ADDITEM(ACE_wirecutter,1);
-        MACRO_ADDITEM(ACE_EntrenchingTool,1);
-    };
+    MACRO_ENGINEER_BACKPACK_ITEMS;
 };
 
 class TACU_Seven_Rings_Western_B_Medic: B_FieldPack_green_F {
@@ -49,11 +45,5 @@ class TACU_Seven_Rings_Western_B_Medic: B_FieldPack_green_F {
 
 class TACU_Seven_Rings_Western_B_Demo: B_FieldPack_green_F {
     MACRO_BACKPACK_DEFAULTS;
-    class TransportItems {
-        MACRO_ADDITEM(ACE_M26_Clacker,1);
-        MACRO_ADDITEM(ACE_DefusalKit,1);
-    };
-    class TransportMagazines {
-        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,3);
-    };
+    MACRO_DEMOLITIONS_BACKPACK_ITEMS;
 };

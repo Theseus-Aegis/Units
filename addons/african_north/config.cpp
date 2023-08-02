@@ -4,6 +4,13 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
+            // Backpacks
+            "TACU_African_North_B_Medic",
+            "TACU_African_North_B_Demolitions",
+            "TACU_African_North_B_AT",
+            "TACU_African_North_B_AP",
+            "TACU_African_North_B_AA",
+            "TACU_African_North_B_Repair",
             // Blufor
             "TACU_African_North_U_B_Rifleman",
             "TACU_African_North_U_B_Medic",
@@ -12,6 +19,7 @@ class CfgPatches {
             "TACU_African_North_U_B_Grenadier",
             "TACU_African_North_U_B_Machinegunner",
             "TACU_African_North_U_B_AT",
+            "TACU_African_North_U_B_AP",
             "TACU_African_North_U_B_AA",
             "TACU_African_North_U_B_Officer",
             "TACU_African_North_U_B_Pilot",
@@ -57,6 +65,7 @@ class CfgPatches {
             "TACU_African_North_U_O_Grenadier",
             "TACU_African_North_U_O_Machinegunner",
             "TACU_African_North_U_O_AT",
+            "TACU_African_North_U_O_AP",
             "TACU_African_North_U_O_AA",
             "TACU_African_North_U_O_Officer",
             "TACU_African_North_U_O_Pilot",
@@ -102,6 +111,7 @@ class CfgPatches {
             "TACU_African_North_U_I_Grenadier",
             "TACU_African_North_U_I_Machinegunner",
             "TACU_African_North_U_I_AT",
+            "TACU_African_North_U_I_AP",
             "TACU_African_North_U_I_AA",
             "TACU_African_North_U_I_Officer",
             "TACU_African_North_U_I_Pilot",
