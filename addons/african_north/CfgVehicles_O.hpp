@@ -26,6 +26,10 @@ class TACU_African_North_U_O_AT: TACU_African_North_U_B_AT {
     side = 0;
     faction = "TACU_African_North_O";
 };
+class TACU_African_North_U_O_AP: TACU_African_North_U_B_AP {
+    side = 0;
+    faction = "TACU_African_North_O";
+};
 class TACU_African_North_U_O_AA: TACU_African_North_U_B_AA {
     side = 0;
     faction = "TACU_African_North_O";

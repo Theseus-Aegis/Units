@@ -1,10 +1,10 @@
-class B_FieldPack_oli;
-class TACU_African_Militia_B_Medic: B_FieldPack_oli {
+class B_Kitbag_rgr;
+class TACU_African_North_B_Medic: B_Kitbag_rgr {
     MACRO_BACKPACK_DEFAULTS;
     MACRO_MEDICAL_BACKPACK_ITEMS;
 };
 
-class TACU_African_Militia_B_Demolitions: B_FieldPack_oli {
+class TACU_African_North_B_Demolitions: B_Kitbag_rgr {
     MACRO_BACKPACK_DEFAULTS;
     class TransportItems {
         MACRO_ADDITEM(ACE_DefusalKit,1);
@@ -15,21 +15,28 @@ class TACU_African_Militia_B_Demolitions: B_FieldPack_oli {
     };
 };
 
-class TACU_African_Militia_B_MG: B_FieldPack_oli {
+class TACU_African_North_B_AT: B_Kitbag_rgr {
     MACRO_BACKPACK_DEFAULTS;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(100Rnd_762x51_S77_Red_lxWS,3);
+        MACRO_ADDMAGAZINE(RPG32_F,3);
     };
 };
 
-class TACU_African_Militia_B_AT: B_FieldPack_oli {
+class TACU_African_North_B_AP: B_Kitbag_rgr {
     MACRO_BACKPACK_DEFAULTS;
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(RPG7_F,2);
+        MACRO_ADDMAGAZINE(RPG32_HE_F,3);
     };
 };
 
-class TACU_African_Militia_B_Engineer: B_FieldPack_oli {
+class TACU_African_North_B_AA: B_Kitbag_rgr {
+    MACRO_BACKPACK_DEFAULTS;
+    class TransportMagazines {
+        MACRO_ADDMAGAZINE(Titan_AA,2);
+    };
+};
+
+class TACU_African_North_B_Repair: B_Kitbag_rgr {
     MACRO_BACKPACK_DEFAULTS;
     class TransportItems {
         MACRO_ADDITEM(ToolKit,1);

@@ -16,6 +16,8 @@ class TACU_Proxy_Russia_B_Engineer: B_AssaultPack_eaf_F {
     MACRO_BACKPACK_DEFAULTS;
     class TransportItems {
         MACRO_ADDITEM(ToolKit,1);
+        MACRO_ADDITEM(ACE_wirecutter,1);
+        MACRO_ADDITEM(ACE_EntrenchingTool,1);
     };
 };
 

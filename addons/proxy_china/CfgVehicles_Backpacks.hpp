@@ -14,6 +14,8 @@ class TACU_Proxy_China_B_Engineer: B_ViperHarness_hex_F {
     MACRO_BACKPACK_DEFAULTS;
     class TransportItems {
         MACRO_ADDITEM(ToolKit,1);
+        MACRO_ADDITEM(ACE_wirecutter,1);
+        MACRO_ADDITEM(ACE_EntrenchingTool,1);
     };
 };
 
