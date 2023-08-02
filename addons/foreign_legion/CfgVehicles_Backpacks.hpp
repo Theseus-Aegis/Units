@@ -3,22 +3,12 @@ class B_Carryall_cbr;
 
 class TACU_Foreign_Legion_B_Demolitions_AssaultPack: B_AssaultPack_cbr {
     MACRO_BACKPACK_DEFAULTS;
-    class TransportItems {
-        MACRO_ADDITEM(ACE_DefusalKit,1);
-        MACRO_ADDITEM(ACE_M26_Clacker,1);
-    };
-    class TransportMagazines {
-        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,5);
-    };
+    MACRO_DEMOLITIONS_BACKPACK_ITEMS;
 };
 
 class TACU_Foreign_Legion_B_Engineer_AssaultPack: B_AssaultPack_cbr {
     MACRO_BACKPACK_DEFAULTS;
-    class TransportItems {
-        MACRO_ADDITEM(ToolKit,1);
-        MACRO_ADDITEM(ACE_wirecutter,1);
-        MACRO_ADDITEM(ACE_EntrenchingTool,1);
-    };
+    MACRO_ENGINEER_BACKPACK_ITEMS;
 };
 
 class TACU_Foreign_Legion_B_Autorifleman_AssaultPack: B_AssaultPack_cbr {

@@ -3,13 +3,17 @@
 class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
-        units[] = {};
+        units[] = {
+            "TACU_Foreign_Legion_B_Demolitions_AssaultPack",
+            "TACU_Foreign_Legion_B_Engineer_AssaultPack",
+            "TACU_Foreign_Legion_B_Medic_AssaultPack"
+        };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacu_main",
-            "tacu_cup_ammunition",
-            "CUP_Creatures_People_LoadOrder"
+            "tacu_foreign_legion",
+            "ace_explosives",
+            "ace_medical_treatment"
         };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
@@ -18,5 +22,4 @@ class CfgPatches {
     };
 };
 
-#include "CfgFactionClasses.hpp"
 #include "CfgVehicles.hpp"

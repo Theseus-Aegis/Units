@@ -6,13 +6,7 @@ class TACU_African_South_B_Medic: B_FieldPack_oli {
 
 class TACU_African_South_B_Demolitions: B_FieldPack_oli {
     MACRO_BACKPACK_DEFAULTS;
-    class TransportItems {
-        MACRO_ADDITEM(ACE_DefusalKit,1);
-        MACRO_ADDITEM(ACE_M26_Clacker,1);
-    };
-    class TransportMagazines {
-        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag, 5);
-    };
+    MACRO_DEMOLITIONS_BACKPACK_ITEMS;
 };
 
 class TACU_African_South_B_MG: B_FieldPack_oli {

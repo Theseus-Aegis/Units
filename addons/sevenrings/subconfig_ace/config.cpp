@@ -4,21 +4,19 @@ class CfgPatches {
     class ADDON {
         name = COMPONENT_NAME;
         units[] = {
-            // Backpacks
-            "TACU_African_Militia_B_AP",
-            // Units
-            "TACU_African_Militia_U_O_AP",
-            "TACU_African_Militia_U_I_AP",
-            // Turrets
-            "TACU_African_Militia_V_O_DSHKM",
-            "TACU_African_Militia_V_I_DSHKM"
+            "TACU_Seven_Rings_Eastern_B_Demo",
+            "TACU_Seven_Rings_Eastern_B_Medic",
+            "TACU_Seven_Rings_Eastern_B_Engineer",
+            "TACU_Seven_Rings_Western_B_Engineer",
+            "TACU_Seven_Rings_Western_B_Medic",
+            "TACU_Seven_Rings_Western_B_Demo"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "tacu_african_militia",
-            "tacu_assets_cup",
-            "CUP_Weapons_LoadOrder"
+            "tacu_seven_rings",
+            "ace_explosives",
+            "ace_medical_treatment"
         };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
