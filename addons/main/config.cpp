@@ -9,16 +9,6 @@ class CfgPatches {
         requiredAddons[] = {
             // Arma 3
             "A3_Data_F_AoW_Loadorder",
-            // ACE
-            "ace_explosives",
-            "ace_flashsuppressors",
-            "ace_grenades",
-            "ace_laserpointer",
-            "ace_main",
-            "ace_medical",
-            "ace_nightvision",
-            "ace_realisticnames",
-            "ace_scopes",
             // CBA
             "cba_main",
             // Theseus Services
