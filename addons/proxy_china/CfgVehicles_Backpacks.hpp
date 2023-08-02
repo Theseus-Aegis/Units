@@ -1,20 +1,12 @@
 class B_ViperHarness_hex_F;
 class TACU_Proxy_China_B_Demolitions: B_ViperHarness_hex_F {
     MACRO_BACKPACK_DEFAULTS;
-    class TransportItems {
-        MACRO_ADDITEM(ACE_DefusalKit,1);
-        MACRO_ADDITEM(ACE_M26_Clacker,1);
-    };
-    class TransportMagazines {
-        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag, 5);
-    };
+    MACRO_DEMOLITIONS_BACKPACK_ITEMS;
 };
 
 class TACU_Proxy_China_B_Engineer: B_ViperHarness_hex_F {
     MACRO_BACKPACK_DEFAULTS;
-    class TransportItems {
-        MACRO_ADDITEM(ToolKit,1);
-    };
+    MACRO_ENGINEER_BACKPACK_ITEMS;
 };
 
 class TACU_Proxy_China_B_Autorifleman: B_ViperHarness_hex_F {

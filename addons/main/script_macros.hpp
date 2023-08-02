@@ -48,6 +48,14 @@
 // Backpack Items
 #define MACRO_MEDICAL_BACKPACK_ITEMS \
     class TransportItems { \
+        MACRO_ADDITEM(Medikit,1); \
+        MACRO_ADDITEM(FirstAidKit,5); \
+    }
+
+#define MACRO_MEDICAL_BACKPACK_ITEMS_ACE \
+    class TransportItems { \
+        delete _xx_Medikit; \
+        delete _xx_FirstAidKit; \
         MACRO_ADDITEM(ACE_fieldDressing,20); \
         MACRO_ADDITEM(ACE_epinephrine,5); \
         MACRO_ADDITEM(ACE_morphine,5); \
@@ -56,6 +64,40 @@
         MACRO_ADDITEM(ACE_splint,4); \
         MACRO_ADDITEM(ACE_tourniquet,4); \
         MACRO_ADDITEM(ACE_bloodIV_250,2); \
+    }
+
+#define MACRO_ENGINEER_BACKPACK_ITEMS \
+    class TransportItems { \
+        MACRO_ADDITEM(ToolKit,1); \
+    }
+
+#define MACRO_ENGINEER_BACKPACK_ITEMS_ACE \
+    class TransportItems { \
+        MACRO_ADDITEM(ACE_wirecutter,1); \
+        MACRO_ADDITEM(ACE_EntrenchingTool,1); \
+    }
+
+#define MACRO_DEMOLITIONS_BACKPACK_ITEMS \
+    class TransportItems { \
+        MACRO_ADDITEM(ToolKit,1); \
+    }; \
+    class TransportMagazines { \
+        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,3); \
+    }
+
+#define MACRO_DEMOLITIONS_BACKPACK_ITEMS_ACE \
+    class TransportItems { \
+        delete _xx_ToolKit; \
+        MACRO_ADDITEM(ACE_DefusalKit,1); \
+        MACRO_ADDITEM(ACE_M26_Clacker,1); \
+    }
+
+#define MACRO_DEMOLITIONS_BACKPACK_ITEMS_ACE_TALIBAN \
+    class TransportItems { \
+        delete _xx_ToolKit; \
+        MACRO_ADDITEM(ACE_DefusalKit,1); \
+        MACRO_ADDITEM(ACE_DeadManSwitch,1); \
+        MACRO_ADDITEM(ACE_Cellphone,1); \
     }
 
 // Vehicle defaults for factions
