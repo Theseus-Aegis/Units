@@ -44,6 +44,10 @@ class TACU_Kasatka_Armed_Base: O_Heli_Light_02_dynamicLoadout_F {
             displayName = "Yellow";
             textures[] = {QPATHTOF(data\kasatka\heli_light_02_na_ylw_ext_co.paa)};
         };
+        class Eastern_Europe: North_African_Green {
+            textures[] = {QPATHTOF(data\kasatka\heli_light_02_ee_ext_co.paa)};
+            factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
+        };
     };
 
     textureList[] = {

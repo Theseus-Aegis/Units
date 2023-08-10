@@ -16,6 +16,12 @@ class CfgEditorSubcategories {
     class TACU_Proxy_Russia_Car_CBRN {
         displayName = "Cars (CBRN)";
     };
+    class TACU_Proxy_Russia_Helicopter_CBRN {
+        displayName = "Helicopters (CBRN)";
+    };
+    class TACU_Proxy_Russia_Tank_CBRN {
+        displayName = "Tanks (CBRN)";
+    };
     class TACU_Proxy_Russia_Turrets_CBRN {
         displayName = "Turrets (CBRN)";
     };

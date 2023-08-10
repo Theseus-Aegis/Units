@@ -38,6 +38,7 @@ class Heli_Transport_01_base_F;
 class Heli_Transport_02_base_F;
 class Heli_Transport_03_base_F;
 class Heli_Transport_03_unarmed_base_F;
+class Heli_Transport_04_base_F;
 class I_APC_tracked_03_base_F;
 class I_APC_Wheeled_03_base_F;
 class I_G_Offroad_01_armed_F;

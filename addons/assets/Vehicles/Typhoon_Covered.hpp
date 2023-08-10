@@ -6,6 +6,7 @@ class O_Truck_03_covered_F: Truck_03_base_F {
 class TACU_Typhoon_Covered_Base: O_Truck_03_covered_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
+    displayName = "Typhoon Transport (Covered)";
     class TextureSources {
         class Opfor {
             author = "Bohemia Interactive";
@@ -17,6 +18,17 @@ class TACU_Typhoon_Covered_Base: O_Truck_03_covered_F {
                 "\a3\soft_f_epc\truck_03\data\truck_03_cover_co.paa"
             };
             factions[] = {"TACU_Proxy_China_O", "TACU_Proxy_China_I"};
+        };
+        class Eastern_Europe {
+            author = "GilleeDoo";
+            displayName = "Green";
+            textures[] = {
+                QPATHTOF(data\typhoon\typhoon_ext01_ee_co.paa),
+                QPATHTOF(data\typhoon\typhoon_ext02_ee_co.paa),
+                QPATHTOF(data\typhoon\typhoon_cargo_ee_co.paa),
+                QPATHTOF(data\typhoon\typhoon_cover_ee_co.paa)
+            };
+            factions[] = {"TACU_Proxy_Russia_O", "TACU_Proxy_Russia_I"};
         };
     };
 
