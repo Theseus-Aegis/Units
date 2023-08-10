@@ -2,8 +2,8 @@
 class TACU_Police_Item_Uniform_Combat_Black: Item_Base_F {
     author = "Kresky";
     displayName = "Police Combat Uniform (Black)";
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     vehicleClass = "ItemsUniforms";
     class TransportItems {
         MACRO_ADDITEM(TACU_Police_Uniform_Combat_Black,1);

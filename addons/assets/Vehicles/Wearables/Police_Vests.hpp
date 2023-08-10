@@ -1,8 +1,8 @@
 class TACU_Police_Item_Vest_HeavyPlateCarrier_PoliceBlack: Vest_Base_F {
     author = "Kresky";
     displayName = "Heavy Plate Carrier (Police, Black)";
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     vehicleClass = "ItemsVests";
     class TransportItems {
         MACRO_ADDITEM(TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack,1);
@@ -26,8 +26,8 @@ class TACU_Police_Item_Vest_HeavyPlateCarrier_PoliceGreen: TACU_Police_Item_Vest
 class TACU_Police_Item_Vest_PlateCarrier_PoliceBlack: Vest_Base_F {
     author = "Kresky";
     displayName = "Plate Carrier (Police, Black)";
-    scope = 2;
-    scopeCurator = 2;
+    scope = 1;
+    scopeCurator = 1;
     vehicleClass = "ItemsVests";
     class TransportItems {
         MACRO_ADDITEM(TACU_Police_Vest_PlateCarrier_PoliceBlack,1);
