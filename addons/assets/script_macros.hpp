@@ -1,4 +1,4 @@
-#define DEBUG_MODE_FULL
+//#define DEBUG_MODE_FULL
 
 #ifdef DEBUG_MODE_FULL
     #define MACRO_DEFAULT_VEHICLE \
@@ -29,6 +29,6 @@
     }
 
 // Identity Macros
-#define MACRO_FACES_CARTEL \
+#define MACRO_FACES_GREEK_CARTEL \
     identityTypes[] = {"Head_Greek_Cartel"}; \
     disabled = 1
