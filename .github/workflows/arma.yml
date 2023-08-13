@@ -27,9 +27,9 @@ jobs:
     - name: Run HEMTT build
       run: hemtt build
     - name: Rename build folder
-      run: mv .hemttout/build .hemttout/@tac_units
+      run: mv .hemttout/build .hemttout/@theseus_units
     - name: Upload Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: tac_units_${{ github.sha }}-nobin
+        name: TheseusUnits_${{ github.sha }}-nobin
         path: .hemttout/@*
