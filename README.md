@@ -2,7 +2,7 @@
     <img src="https://github.com/Theseus-Aegis/Units/blob/master/extras/assets/logo/logo_tacu_ca.png">
 </p>
 
-**TAC Units** is a content mod for Theseus mission makers, providing new factions.
+**THeseus Units** is a content mod for Theseus mission makers, providing new factions.
 
 
 ## Setup
@@ -24,5 +24,5 @@ _Replace `hemtt` with `hemtt.exe` on Windows._
 - Run `$ hemtt release` to create a release build
   - _Only Windows release builds are currently supported due to binarization!_
 - Run `$ hemtt dev` to create a development build with file patching
-  - `mklink /J <Arma 3>\x\tac <TAC_Units>/.hemttout/dev` _(`/D` instead of `/J` for network paths)_
+  - `mklink /J <Arma 3>\x\tac <Units>/.hemttout/dev` _(`/D` instead of `/J` for network paths)_
   - _`$ hemtt launch` is not supported. Use [ArmaQDL](https://github.com/jonpas/ArmaQDL)._
