@@ -13,7 +13,7 @@ class CfgVehicles {
     // Base BLUFOR Soldier
     class TACU_Main_U_BLUFOR_Soldier_Base: SoldierWB {
         dlc = QUOTE(PREFIX);
-        author = "TAC Units Team";
+        author = CSTRING(Author);
         displayName = "TACU BLUFOR Base Soldier";
         faction = "";
         scope = 1;
@@ -53,7 +53,7 @@ class CfgVehicles {
     // Base OPFOR Soldier
     class TACU_Main_U_OPFOR_Soldier_Base: SoldierEB {
         dlc = QUOTE(PREFIX);
-        author = "TAC Units Team";
+        author = CSTRING(Author);
         displayName = "TACU OPFOR Base Soldier";
         faction = "";
         scope = 1;
@@ -93,7 +93,7 @@ class CfgVehicles {
     // Base INDEP Soldier
     class TACU_Main_U_INDEP_Soldier_Base: SoldierGB {
         dlc = QUOTE(PREFIX);
-        author = "TAC Units Team";
+        author = CSTRING(Author);
         displayName = "TACU INDEP Base Soldier";
         faction = "";
         scope = 1;

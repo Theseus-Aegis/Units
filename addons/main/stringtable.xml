@@ -2,7 +2,7 @@
 <Project name="TACU">
     <Package name="Main">
         <Key ID="STR_TACU_Main_Author">
-            <English>TAC Units Team</English>
+            <English>Theseus Incorporated</English>
         </Key>
         <Key ID="STR_TACU_Main_URL">
             <English>https://github.com/Theseus-Aegis/Units</English>

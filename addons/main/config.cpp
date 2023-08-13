@@ -21,7 +21,7 @@ class CfgPatches {
             "data_f_lxWS_Loadorder"
         };
         author = CSTRING(Author);
-        authors[] = {CSTRING(author)};
+        authors[] = {"Mike", "GilleeDoo"};
         url = CSTRING(URL);
         VERSION_CONFIG;
     };
