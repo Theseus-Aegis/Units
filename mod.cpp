@@ -1,6 +1,6 @@
 name = "Theseus Units 0.0.0";
 picture = "logo_tacu_ca.paa";
-actionName = "Github";
+actionName = "GitHub";
 action = "https://github.com/Theseus-Aegis/Units";
 description = "Theseus Units - Factions complementing PMCs";
 logo = "logo_tacu_small_ca.paa";
