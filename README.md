@@ -2,7 +2,7 @@
     <img src="https://github.com/Theseus-Aegis/Units/blob/master/extras/assets/logo/logo_tacu_ca.png">
 </p>
 
-**THeseus Units** is a content mod for Theseus mission makers, providing new factions.
+**Theseus Units** is a content mod for Theseus mission makers, providing new factions.
 
 
 ## Setup
