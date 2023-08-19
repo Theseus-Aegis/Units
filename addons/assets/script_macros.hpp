@@ -12,6 +12,7 @@
         typicalCargo[] = {"TACU_Assets_TestUnit"}
 #else
     #define MACRO_DEFAULT_VEHICLE \
+        editorPreview = ""; \
         author = "Mike"; \
         scope = 1; \
         scopeCurator = 1; \
