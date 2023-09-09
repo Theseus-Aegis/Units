@@ -16,10 +16,10 @@ class CfgPatches {
             "MU_mercs",
             "MU_RU"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 

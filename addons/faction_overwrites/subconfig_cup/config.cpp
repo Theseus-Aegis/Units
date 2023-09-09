@@ -11,10 +11,10 @@ class CfgPatches {
             "tacu_cup_ammunition",
             "CUP_Creatures_People_LoadOrder"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 

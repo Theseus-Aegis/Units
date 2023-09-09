@@ -18,10 +18,10 @@ class CfgPatches {
             "tacu_assets_cup",
             "CUP_Weapons_LoadOrder"
         };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 

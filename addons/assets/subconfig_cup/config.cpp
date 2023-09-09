@@ -27,10 +27,10 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_assets", "CUP_Weapons_LoadOrder"};
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         VERSION_CONFIG;
-        skipWhenMissingDependencies = 1;
     };
 };
 
