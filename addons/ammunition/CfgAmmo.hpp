@@ -133,7 +133,7 @@ class CfgAmmo {
         airFriction = -0.00089999998;
         airLock = 1;
         caliber = 1.8;
-        cartridge = "";
+        cartridge = "FxCartridge_65";
         cost = 1;
         dangerRadiusBulletClose = 8;
         dangerRadiusHit = 12;
@@ -200,14 +200,14 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 70; // default 200
+        cost = 50; // default 200
     };
     // RPG-42 Rocket
     class R_PG32V_F: RocketBase {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 70; // default 100
+        cost = 50; // default 100
     };
 
     // RPG-42 HE Rocket
@@ -223,7 +223,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 70; // default 100
+        cost = 50; // default 100
     };
 
     // MAAWS HEAT 55 Round
@@ -231,7 +231,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 70; // default 100
+        cost = 50; // default 100
     };
 
     // MAAWS HE 44 Round

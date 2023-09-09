@@ -103,25 +103,25 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04: TACU_Cartel_Greek_U_O_Enforcer
     displayName = "Enforcer (G36K / RPG7)";
     weapons[] = {
         "TACU_Cartel_Greek_W_G36K_KSK",
-        "CUP_launch_RPG7V",
+        "launch_RPG7_F",
         "TACU_Cartel_Greek_W_M9_Laser",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "TACU_Cartel_Greek_W_G36K_KSK",
-        "CUP_launch_RPG7V",
+        "launch_RPG7_F",
         "TACU_Cartel_Greek_W_M9_Laser",
         "Throw", "Put"
     };
     magazines[] = {
         mag_11("TACU_Magazine_30Rnd_556_G36"),
-        "CUP_OG7_M",
+        "RPG7_F",
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
     respawnMagazines[] = {
         mag_11("TACU_Magazine_30Rnd_556_G36"),
-        "CUP_OG7_M",
+        "RPG7_F",
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };

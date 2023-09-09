@@ -1,4 +1,4 @@
-#define DEBUG_MODE_FULL
+//#define DEBUG_MODE_FULL
 
 #define MACRO_TRACERS \
     model = "\a3\weapons_f\data\bullettracer\tracer_red"; \
