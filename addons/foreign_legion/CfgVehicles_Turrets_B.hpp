@@ -4,6 +4,7 @@ class TACU_Foreign_Legion_V_B_MK6: TACU_Assets_MK6_Base {
     side = 1;
     crew = "TACU_Foreign_Legion_U_B_Driver";
     typicalCargo[] = {"TACU_Foreign_Legion_U_B_Driver"};
+    EDITORPREVIEW(TACU_Foreign_Legion_V_B_MK6);
 };
 
 class TACU_Foreign_Legion_V_B_HMG: TACU_Assets_HMG_50 {
@@ -12,6 +13,7 @@ class TACU_Foreign_Legion_V_B_HMG: TACU_Assets_HMG_50 {
     side = 1;
     crew = "TACU_Foreign_Legion_U_B_Driver";
     typicalCargo[] = {"TACU_Foreign_Legion_U_B_Driver"};
+    EDITORPREVIEW(TACU_Foreign_Legion_V_B_HMG);
 };
 
 class TACU_Foreign_Legion_V_B_Mini_Spike_AT: TACU_Assets_Mini_Spike_AT {
@@ -21,4 +23,5 @@ class TACU_Foreign_Legion_V_B_Mini_Spike_AT: TACU_Assets_Mini_Spike_AT {
     crew = "TACU_Foreign_Legion_U_B_Driver";
     typicalCargo[] = {"TACU_Foreign_Legion_U_B_Driver"};
     textureList[] = {"Sand", 1};
+    EDITORPREVIEW(TACU_Foreign_Legion_V_B_Mini_Spike_AT);
 };
