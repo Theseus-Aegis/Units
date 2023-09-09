@@ -24,6 +24,7 @@ class CfgPatches {
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };

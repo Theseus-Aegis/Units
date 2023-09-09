@@ -158,6 +158,7 @@ class CfgPatches {
         requiredAddons[] = {"tacu_main"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike, GilleeDoo"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
