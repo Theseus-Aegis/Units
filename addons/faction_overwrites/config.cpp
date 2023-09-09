@@ -9,6 +9,7 @@ class CfgPatches {
         requiredAddons[] = {"tacu_main", "tacu_ammunition"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
+        url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
