@@ -133,7 +133,7 @@ class CfgAmmo {
         airFriction = -0.00089999998;
         airLock = 1;
         caliber = 1.8;
-        cartridge = "";
+        cartridge = "FxCartridge_65";
         cost = 1;
         dangerRadiusBulletClose = 8;
         dangerRadiusHit = 12;
