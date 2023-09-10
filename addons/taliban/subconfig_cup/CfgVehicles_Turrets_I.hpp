@@ -5,6 +5,7 @@ class TACU_Taliban_Militia_V_I_AGS30: TACU_Assets_AGS_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_AGS30);
 };
 
 class TACU_Taliban_Militia_V_I_D30: TACU_Assets_D30_base {
@@ -13,6 +14,7 @@ class TACU_Taliban_Militia_V_I_D30: TACU_Assets_D30_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_D30);
 };
 
 class TACU_Taliban_Militia_V_I_DSHKM: TACU_Assets_DSHKM_base {
@@ -21,6 +23,7 @@ class TACU_Taliban_Militia_V_I_DSHKM: TACU_Assets_DSHKM_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_DSHKM);
 };
 
 class TACU_Taliban_Militia_V_I_DSHKM_Mini: TACU_Assets_DSHKM_Mini_base {
@@ -29,6 +32,7 @@ class TACU_Taliban_Militia_V_I_DSHKM_Mini: TACU_Assets_DSHKM_Mini_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_DSHKM_Mini);
 };
 
 class TACU_Taliban_Militia_V_I_KORD: TACU_Assets_KORD_base {
@@ -37,6 +41,7 @@ class TACU_Taliban_Militia_V_I_KORD: TACU_Assets_KORD_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_KORD);
 };
 
 class TACU_Taliban_Militia_V_I_KORD_Mini: TACU_Assets_KORD_Mini_base {
@@ -45,6 +50,7 @@ class TACU_Taliban_Militia_V_I_KORD_Mini: TACU_Assets_KORD_Mini_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_KORD_Mini);
 };
 
 // Veterans
@@ -54,6 +60,7 @@ class TACU_Taliban_Veterans_V_I_AGS30: TACU_Assets_AGS_base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_AGS30);
 };
 
 class TACU_Taliban_Veterans_V_I_D30: TACU_Assets_D30_base {
@@ -62,6 +69,7 @@ class TACU_Taliban_Veterans_V_I_D30: TACU_Assets_D30_base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_D30);
 };
 
 class TACU_Taliban_Veterans_V_I_DSHKM: TACU_Assets_DSHKM_base {
@@ -70,6 +78,7 @@ class TACU_Taliban_Veterans_V_I_DSHKM: TACU_Assets_DSHKM_base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_DSHKM);
 };
 
 class TACU_Taliban_Veterans_V_I_DSHKM_Mini: TACU_Assets_DSHKM_Mini_base {
@@ -78,6 +87,7 @@ class TACU_Taliban_Veterans_V_I_DSHKM_Mini: TACU_Assets_DSHKM_Mini_base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_DSHKM_Mini);
 };
 
 class TACU_Taliban_Veterans_V_I_KORD: TACU_Assets_KORD_base {
@@ -86,6 +96,7 @@ class TACU_Taliban_Veterans_V_I_KORD: TACU_Assets_KORD_base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_KORD);
 };
 
 class TACU_Taliban_Veterans_V_I_KORD_Mini: TACU_Assets_KORD_Mini_base {
@@ -94,4 +105,5 @@ class TACU_Taliban_Veterans_V_I_KORD_Mini: TACU_Assets_KORD_Mini_base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_KORD_Mini);
 };

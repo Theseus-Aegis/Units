@@ -7,6 +7,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_African_South_U_B_Rifleman";
         typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
+        EDITORPREVIEW(TACU_African_South_V_B_D30);
     };
     class TACU_African_South_V_I_D30: TACU_African_South_V_B_D30 {
         faction = "TACU_African_South_I";
@@ -27,6 +28,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_African_South_U_B_Rifleman";
         typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
+        EDITORPREVIEW(TACU_African_South_V_B_FIM92);
     };
     class TACU_African_South_V_I_FIM92: TACU_African_South_V_B_FIM92 {
         faction = "TACU_African_South_I";

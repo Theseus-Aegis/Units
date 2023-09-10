@@ -20,6 +20,7 @@ class TACU_Cartel_Greek_V_O_Grunt_Offroad: TACU_Offroad_Unarmed_Base {
         "BeaconsServicesStart", 0
     };
     textureList[] = {"Bluecustom", 1};
+    EDITORPREVIEW(TACU_Cartel_Greek_V_O_Grunt_Offroad);
 };
 
 class TACU_Cartel_Greek_V_O_Grunt_Van_Transport: TACU_Transport_Van_Base {
@@ -29,7 +30,6 @@ class TACU_Cartel_Greek_V_O_Grunt_Van_Transport: TACU_Transport_Van_Base {
     crew = "TACU_Cartel_Greek_U_O_Grunt_Rifleman_01";
     typicalCargo[] = {"TACU_Cartel_Greek_U_O_Grunt_Rifleman_01"};
     editorSubcategory = "TACU_Cartel_Greek_EdSubCat_O_Grunts_Vehicles";
-
     textureList[] = {"Black", 1};
     animationList[] = {
         "Door_1_source", 0,
@@ -54,6 +54,7 @@ class TACU_Cartel_Greek_V_O_Grunt_Van_Transport: TACU_Transport_Van_Base {
         "beacon_front_hide", 1,
         "beacon_rear_hide", 1
     };
+    EDITORPREVIEW(TACU_Cartel_Greek_V_O_Grunt_Van_Transport);
 };
 
 // Thug Vehicles
@@ -78,6 +79,7 @@ class TACU_Cartel_Greek_V_O_Thug_Offroad: TACU_Offroad_Unarmed_Base {
         "BeaconsServicesStart", 0
     };
     textureList[] = {"Bluecustom", 1};
+    EDITORPREVIEW(TACU_Cartel_Greek_V_O_Thug_Offroad);
 };
 
 class TACU_Cartel_Greek_V_O_Thug_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
@@ -87,7 +89,6 @@ class TACU_Cartel_Greek_V_O_Thug_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
     crew = "TACU_Cartel_Greek_U_O_Thug_Rifleman_01";
     typicalCargo[] = {"TACU_Cartel_Greek_U_O_Thug_Rifleman_01"};
     editorSubcategory = "TACU_Cartel_Greek_EdSubCat_O_Thugs_Vehicles";
-
     textureList[] = {"Black", 1};
     animationList[] = {
         "Hide_Shield", 0,
@@ -100,6 +101,7 @@ class TACU_Cartel_Greek_V_O_Thug_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
         "HideBumper2", 0,
         "HideConstruction", 0
     };
+    EDITORPREVIEW(TACU_Cartel_Greek_V_O_Thug_Offroad_Armed);
 };
 
 class TACU_Cartel_Greek_V_O_Thug_Van_Transport: TACU_Cartel_Greek_V_O_Grunt_Van_Transport {

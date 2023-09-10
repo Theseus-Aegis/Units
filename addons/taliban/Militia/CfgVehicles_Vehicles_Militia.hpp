@@ -15,6 +15,7 @@ class TACU_Taliban_Militia_V_I_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
         "hideBumper", 0,
         "hideWindowProtector", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Kamaz_ZU23);
 };
 class TACU_Taliban_Militia_V_O_Kamaz_ZU23: TACU_Taliban_Militia_V_I_Kamaz_ZU23 {
     faction = "TACU_Taliban_Militia_O";
@@ -30,6 +31,7 @@ class TACU_Taliban_Militia_V_I_Kamaz_Transport: TACU_Kamaz_Base {
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
     textureList[] = {"Brown", 1};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Kamaz_Transport);
 };
 class TACU_Taliban_Militia_V_O_Kamaz_Transport: TACU_Taliban_Militia_V_I_Kamaz_Transport {
     faction = "TACU_Taliban_Militia_O";
@@ -45,6 +47,7 @@ class TACU_Taliban_Militia_V_I_Kamaz_Covered_Transport: TACU_Kamaz_Covered_Base 
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
     textureList[] = {"Brown", 1};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Kamaz_Covered_Transport);
 };
 class TACU_Taliban_Militia_V_O_Kamaz_Covered_Transport: TACU_Taliban_Militia_V_I_Kamaz_Covered_Transport {
     faction = "TACU_Taliban_Militia_O";
@@ -60,6 +63,7 @@ class TACU_Taliban_Militia_V_I_Truck: TACU_Truck_Base {
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
     textureList[] = {"Guerilla_03", 1};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Truck);
 };
 class TACU_Taliban_Militia_V_O_Truck: TACU_Taliban_Militia_V_I_Truck {
     faction = "TACU_Taliban_Militia_O";
@@ -89,6 +93,7 @@ class TACU_Taliban_Militia_V_I_Offroad_Unarmed: TACU_Offroad_Unarmed_Base {
         "BeaconsStart", 0,
         "BeaconsServicesStart", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Offroad_Unarmed);
 };
 class TACU_Taliban_Militia_V_O_Offroad_Unarmed: TACU_Taliban_Militia_V_I_Offroad_Unarmed {
     faction = "TACU_Taliban_Militia_O";
@@ -115,6 +120,7 @@ class TACU_Taliban_Militia_V_I_Offroad_HMG: TACU_Offroad_Armed_M2_Base {
         "HideBumper2", 0,
         "HideConstruction", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Offroad_HMG);
 };
 class TACU_Taliban_Militia_V_O_Offroad_HMG: TACU_Taliban_Militia_V_I_Offroad_HMG {
     faction = "TACU_Taliban_Militia_O";
@@ -139,6 +145,7 @@ class TACU_Taliban_Militia_V_I_Offroad_AT: TACU_Offroad_Armed_AT_Base {
         "HideBumper2", 0,
         "HideConstruction", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Offroad_AT);
 };
 class TACU_Taliban_Militia_V_O_Offroad_AT: TACU_Taliban_Militia_V_I_Offroad_AT {
     faction = "TACU_Taliban_Militia_O";

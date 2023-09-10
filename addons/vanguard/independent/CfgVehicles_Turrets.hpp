@@ -4,6 +4,7 @@ class TACU_Vanguard_V_I_MK6_Green: TACU_Assets_MK6_Base {
     side = 2;
     crew = "TACU_Vanguard_U_I_Contractor_Green_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_I_Contractor_Green_Rifleman_01"};
+    EDITORPREVIEW(TACU_Vanguard_V_I_MK6_Green);
 };
 class TACU_Vanguard_V_I_MK6_Sand: TACU_Vanguard_V_I_MK6_Green {
     editorSubcategory = "TACU_Vanguard_EdSubCat_Turrets_Sand";
@@ -22,6 +23,7 @@ class TACU_Vanguard_V_I_HMG_Green: TACU_Assets_HMG_50 {
     side = 2;
     crew = "TACU_Vanguard_U_I_Contractor_Green_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_I_Contractor_Green_Rifleman_01"};
+    EDITORPREVIEW(TACU_Vanguard_V_I_HMG_Green);
 };
 class TACU_Vanguard_V_I_HMG_Sand: TACU_Vanguard_V_I_HMG_Green {
     editorSubcategory = "TACU_Vanguard_EdSubCat_Turrets_Sand";
@@ -41,6 +43,7 @@ class TACU_Vanguard_V_I_Mini_Spike_AT_Green: TACU_Assets_Mini_Spike_AT {
     crew = "TACU_Vanguard_U_I_Contractor_Green_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_I_Contractor_Green_Rifleman_01"};
     textureList[] = {"Green", 1};
+    EDITORPREVIEW(TACU_Vanguard_V_I_Mini_Spike_AT_Green);
 };
 class TACU_Vanguard_V_I_Mini_Spike_AT_Sand: TACU_Assets_Mini_Spike_AT {
     faction = "TACU_Vanguard_I";
@@ -49,6 +52,7 @@ class TACU_Vanguard_V_I_Mini_Spike_AT_Sand: TACU_Assets_Mini_Spike_AT {
     crew = "TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01"};
     textureList[] = {"Sand", 1};
+    EDITORPREVIEW(TACU_Vanguard_V_I_Mini_Spike_AT_Sand);
 };
 
 class TACU_Vanguard_V_I_ZU23_Green: TACU_Assets_ZU23_Base {
@@ -58,6 +62,7 @@ class TACU_Vanguard_V_I_ZU23_Green: TACU_Assets_ZU23_Base {
     crew = "TACU_Vanguard_U_I_Contractor_Green_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_I_Contractor_Green_Rifleman_01"};
     textureList[] = {"Green", 1};
+    EDITORPREVIEW(TACU_Vanguard_V_I_ZU23_Green);
 };
 class TACU_Vanguard_V_I_ZU23_Sand: TACU_Assets_ZU23_Base {
     faction = "TACU_Vanguard_I";
@@ -66,4 +71,5 @@ class TACU_Vanguard_V_I_ZU23_Sand: TACU_Assets_ZU23_Base {
     crew = "TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01"};
     textureList[] = {"Sand", 1};
+    EDITORPREVIEW(TACU_Vanguard_V_I_ZU23_Sand);
 };

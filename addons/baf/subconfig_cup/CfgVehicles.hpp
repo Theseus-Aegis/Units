@@ -8,6 +8,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Arid_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Arid_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Arid_L11A1);
     };
 
     class TACU_BAF_V_B_Tropic_L11A1: TACU_Assets_L11A1_base {
@@ -17,6 +18,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Tropic_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Tropic_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Tropic_L11A1);
     };
 
     class TACU_BAF_V_B_Urban_L11A1: TACU_Assets_L11A1_base {
@@ -26,6 +28,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Urban_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Urban_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Urban_L11A1);
     };
 
     class TACU_BAF_V_B_Arid_L134A1: TACU_Assets_L134A1_base {
@@ -35,6 +38,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Arid_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Arid_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Arid_L134A1);
     };
 
     class TACU_BAF_V_B_Tropic_L134A1: TACU_Assets_L134A1_base {
@@ -44,6 +48,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Tropic_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Tropic_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Tropic_L134A1);
     };
 
     class TACU_BAF_V_B_Urban_L134A1: TACU_Assets_L134A1_base {
@@ -53,6 +58,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Urban_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Urban_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Urban_L134A1);
     };
 
     class TACU_BAF_V_B_Arid_RBS70: TACU_Assets_RBS70_base {
@@ -62,6 +68,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Arid_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Arid_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Arid_RBS70);
     };
 
     class TACU_BAF_V_B_Tropic_RBS70: TACU_Assets_RBS70_base {
@@ -71,6 +78,7 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Tropic_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Tropic_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Tropic_RBS70);
     };
 
     class TACU_BAF_V_B_Urban_RBS70: TACU_Assets_RBS70_base {
@@ -80,5 +88,6 @@ class CfgVehicles {
         side = 1;
         crew = "TACU_BAF_U_B_Urban_Scout";
         typicalCargo[] = {"TACU_BAF_U_B_Urban_Scout"};
+        EDITORPREVIEW(TACU_BAF_V_B_Urban_RBS70);
     };
 };

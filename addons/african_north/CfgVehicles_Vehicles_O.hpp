@@ -8,11 +8,13 @@ class TACU_African_North_V_O_Namer_Sand: TACU_Namer_Base {
     crew = "TACU_African_North_U_O_Crewman";
     typicalCargo[] = {"TACU_African_North_U_O_Crewman"};
     textureList[] = {"North_African_Yellow", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Namer_Sand);
 };
 
 class TACU_African_North_V_O_Namer_Green: TACU_African_North_V_O_Namer_Sand {
     displayName = "Namer (Green)";
     textureList[] = {"Olive", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Namer_Green);
 };
 
 class TACU_African_North_V_O_Otokar_Unarmed: TACU_African_North_V_B_Otokar_Unarmed {
@@ -20,6 +22,7 @@ class TACU_African_North_V_O_Otokar_Unarmed: TACU_African_North_V_B_Otokar_Unarm
     side = 0;
     crew = "TACU_African_North_U_O_Crewman";
     typicalCargo[] = {"TACU_African_North_U_O_Crewman"};
+    EDITORPREVIEW(TACU_African_North_V_O_Otokar_Unarmed);
 };
 
 class TACU_African_North_V_O_Otokar_Armed: TACU_African_North_V_B_Otokar_Armed {
@@ -27,6 +30,7 @@ class TACU_African_North_V_O_Otokar_Armed: TACU_African_North_V_B_Otokar_Armed {
     side = 0;
     crew = "TACU_African_North_U_O_Crewman";
     typicalCargo[] = {"TACU_African_North_U_O_Crewman"};
+    EDITORPREVIEW(TACU_African_North_V_O_Otokar_Armed);
 };
 
 // Boat
@@ -35,6 +39,7 @@ class TACU_African_North_V_O_Assault_Boat: TACU_African_North_V_B_Assault_Boat {
     side = 0;
     crew = "TACU_African_North_U_O_Rifleman";
     typicalCargo[] = {"TACU_African_North_U_O_Rifleman"};
+    EDITORPREVIEW(TACU_African_North_V_O_Assault_Boat);
 };
 
 // Helicopters
@@ -47,10 +52,12 @@ class TACU_African_North_V_O_Kasatka_Unarmed: TACU_Kasatka_Unarmed_Base {
     crew = "TACU_African_North_U_O_Pilot";
     typicalCargo[] = {"TACU_African_North_U_O_Pilot"};
     textureList[] = {"North_African_Yellow", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Unarmed);
 };
 class TACU_African_North_V_O_Kasatka_Unarmed_Green: TACU_African_North_V_O_Kasatka_Unarmed {
     displayName = "Ka-60 Kasatka (Green)";
     textureList[] = {"North_African_Green", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Unarmed_Green);
 };
 
 class TACU_African_North_V_O_Kasatka_Armed: TACU_Kasatka_Armed_Base {
@@ -62,10 +69,12 @@ class TACU_African_North_V_O_Kasatka_Armed: TACU_Kasatka_Armed_Base {
     crew = "TACU_African_North_U_O_Pilot";
     typicalCargo[] = {"TACU_African_North_U_O_Pilot"};
     textureList[] = {"North_African_Yellow", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Armed);
 };
 class TACU_African_North_V_O_Kasatka_Armed_Green: TACU_African_North_V_O_Kasatka_Armed {
     displayName = "Ka-60-A Kasatka (Green)";
     textureList[] = {"North_African_Green", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Armed_Green);
 };
 
 class TACU_African_North_V_O_Kasatka_Unarmed_UP: TACU_Kasatka_Unarmed_Armoured_Base {
@@ -77,10 +86,12 @@ class TACU_African_North_V_O_Kasatka_Unarmed_UP: TACU_Kasatka_Unarmed_Armoured_B
     crew = "TACU_African_North_U_O_Pilot";
     typicalCargo[] = {"TACU_African_North_U_O_Pilot"};
     textureList[] = {"North_African_Yellow", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Unarmed_UP);
 };
 class TACU_African_North_V_O_Kasatka_Unarmed_UP_Green: TACU_African_North_V_O_Kasatka_Unarmed_UP {
     displayName = "Ka-60 Kasatka Armed (UP, Green)";
     textureList[] = {"North_African_Green", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Unarmed_UP_Green);
 };
 
 class TACU_African_North_V_O_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base {
@@ -92,10 +103,12 @@ class TACU_African_North_V_O_Kasatka_Armed_UP: TACU_Kasatka_Armed_Armoured_Base 
     crew = "TACU_African_North_U_O_Pilot";
     typicalCargo[] = {"TACU_African_North_U_O_Pilot"};
     textureList[] = {"North_African_Yellow", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Armed_UP);
 };
 class TACU_African_North_V_O_Kasatka_Armed_UP_Green: TACU_African_North_V_O_Kasatka_Armed_UP {
     displayName = "Ka-60-A Kasatka (UP, Green)";
     textureList[] = {"North_African_Green", 1};
+    EDITORPREVIEW(TACU_African_North_V_O_Kasatka_Armed_UP_Green);
 };
 
 // Zamaks
@@ -104,6 +117,7 @@ class TACU_African_North_V_O_Zamak_AA : TACU_African_North_V_B_Zamak_AA {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_AA);
 };
 
 class TACU_African_North_V_O_Zamak_MRL: TACU_African_North_V_B_Zamak_MRL {
@@ -111,6 +125,7 @@ class TACU_African_North_V_O_Zamak_MRL: TACU_African_North_V_B_Zamak_MRL {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_MRL);
 };
 
 class TACU_African_North_V_O_Zamak_Fuel: TACU_African_North_V_B_Zamak_Fuel {
@@ -118,6 +133,7 @@ class TACU_African_North_V_O_Zamak_Fuel: TACU_African_North_V_B_Zamak_Fuel {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_Fuel);
 };
 
 class TACU_African_North_V_O_Zamak_Transport: TACU_African_North_V_B_Zamak_Transport {
@@ -125,6 +141,7 @@ class TACU_African_North_V_O_Zamak_Transport: TACU_African_North_V_B_Zamak_Trans
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_Transport);
 };
 
 class TACU_African_North_V_O_Zamak_Transport_Covered: TACU_African_North_V_B_Zamak_Transport_Covered {
@@ -132,6 +149,7 @@ class TACU_African_North_V_O_Zamak_Transport_Covered: TACU_African_North_V_B_Zam
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_Transport_Covered);
 };
 
 class TACU_African_North_V_O_Zamak_Ammo: TACU_African_North_V_B_Zamak_Ammo {
@@ -139,6 +157,7 @@ class TACU_African_North_V_O_Zamak_Ammo: TACU_African_North_V_B_Zamak_Ammo {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_Ammo);
 };
 
 class TACU_African_North_V_O_Zamak_Cargo: TACU_African_North_V_B_Zamak_Cargo {
@@ -146,6 +165,7 @@ class TACU_African_North_V_O_Zamak_Cargo: TACU_African_North_V_B_Zamak_Cargo {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_Cargo);
 };
 
 class TACU_African_North_V_O_Zamak_Flatbed: TACU_African_North_V_B_Zamak_Flatbed {
@@ -153,6 +173,7 @@ class TACU_African_North_V_O_Zamak_Flatbed: TACU_African_North_V_B_Zamak_Flatbed
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_Flatbed);
 };
 
 class TACU_African_North_V_O_Zamak_Repair: TACU_African_North_V_B_Zamak_Repair {
@@ -160,6 +181,7 @@ class TACU_African_North_V_O_Zamak_Repair: TACU_African_North_V_B_Zamak_Repair {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Zamak_Repair);
 };
 
 // Offroads
@@ -168,6 +190,7 @@ class TACU_African_North_V_O_Offroad: TACU_African_North_V_B_Offroad {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Offroad);
 };
 
 class TACU_African_North_V_O_Offroad_AT: TACU_African_North_V_B_Offroad_AT {
@@ -175,6 +198,7 @@ class TACU_African_North_V_O_Offroad_AT: TACU_African_North_V_B_Offroad_AT {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Offroad_AT);
 };
 
 class TACU_African_North_V_O_Offroad_HMG: TACU_African_North_V_B_Offroad_HMG {
@@ -182,4 +206,5 @@ class TACU_African_North_V_O_Offroad_HMG: TACU_African_North_V_B_Offroad_HMG {
     side = 0;
     crew = "TACU_African_North_U_O_Repair";
     typicalCargo[] = {"TACU_African_North_U_O_Repair"};
+    EDITORPREVIEW(TACU_African_North_V_O_Offroad_HMG);
 };
