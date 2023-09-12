@@ -26,10 +26,3 @@ jobs:
       uses: arma-actions/hemtt@v1
     - name: Run HEMTT build
       run: hemtt build
-    - name: Rename build folder
-      run: mv .hemttout/build .hemttout/@theseus_units
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: TheseusUnits_${{ github.sha }}-nobin
-        path: .hemttout/@*
