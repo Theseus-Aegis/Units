@@ -1,4 +1,4 @@
-class B_AFV_Wheeled_01_up_cannon_F: afv_wheeled_01_up_base_F {
+class B_afv_wheeled_01_up_cannon_F: afv_wheeled_01_up_base_F {
     class EventHandlers;
 };
 
