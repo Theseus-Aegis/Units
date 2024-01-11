@@ -8,7 +8,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacu_main",
-            "tacu_cup_ammunition",
+            "CUP_Weapons_LoadOrder",
             "CUP_Creatures_People_LoadOrder"
         };
         skipWhenMissingDependencies = 1;
