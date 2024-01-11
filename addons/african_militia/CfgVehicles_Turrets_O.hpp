@@ -16,7 +16,7 @@ class TACU_African_Militia_V_O_HMG: TACU_Assets_HMG_50 {
     EDITORPREVIEW(TACU_African_Militia_V_O_HMG);
 };
 
-class TACU_African_Militia_V_O_ZU23: TACU_Assets_ZU23_Base {
+class TACU_African_Militia_V_O_ZU23: TACU_Assets_ZU23_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_Militia_O";
     side = 0;

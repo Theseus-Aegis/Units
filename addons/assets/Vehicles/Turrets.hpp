@@ -61,7 +61,7 @@ class TACU_Assets_Mini_Spike_AT: B_static_AT_F {
 class I_SFIA_ZU23_lxWS: zu23_base_lxWS {
     class EventHandlers;
 };
-class TACU_Assets_ZU23_Base: I_SFIA_ZU23_lxWS {
+class TACU_Assets_ZU23_base: I_SFIA_ZU23_lxWS {
     MACRO_DEFAULT_VEHICLE;
     editorSubcategory = "TACU_Assets_EdSubCat_Turrets";
     class TextureSources {

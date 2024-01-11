@@ -26,7 +26,7 @@ class TACU_Proxy_China_V_I_Mini_Spike_AT: TACU_Assets_Mini_Spike_AT {
     EDITORPREVIEW(TACU_Proxy_China_V_I_Mini_Spike_AT);
 };
 
-class TACU_Proxy_China_V_I_ZU23: TACU_Assets_ZU23_Base {
+class TACU_Proxy_China_V_I_ZU23: TACU_Assets_ZU23_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Proxy_China_I";
     side = 2;

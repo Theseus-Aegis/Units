@@ -20,6 +20,10 @@ class CfgMagazineWells {
         TACU_ai[] = {"TACU_Magazine_10Rnd_Makarov"};
     };
 
+    class CBA_9x19_CZP09 {
+        TACU_cup_ai[] = {"TACU_Magazine_17Rnd_Walther"};
+    };
+
     // SMGs
     class CBA_9x19_ScorpionEvo3 {
         TACU_ai[] = {"TACU_Magazine_30Rnd_SMG", "TACU_Magazine_30Rnd_SMG_02"};

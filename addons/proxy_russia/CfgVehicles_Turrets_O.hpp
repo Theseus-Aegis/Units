@@ -41,7 +41,7 @@ class TACU_Proxy_Russia_V_O_Mini_Spike_AT_CBRN: TACU_Proxy_Russia_V_O_Mini_Spike
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver_CBRN"};
 };
 
-class TACU_Proxy_Russia_V_O_ZU23: TACU_Assets_ZU23_Base {
+class TACU_Proxy_Russia_V_O_ZU23: TACU_Assets_ZU23_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Proxy_Russia_O";
     side = 0;
