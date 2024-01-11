@@ -24,7 +24,7 @@ class APC_Wheeled_02_base_v2_F;
 class APC_Wheeled_02_hmg_base_lxws;
 class APC_Wheeled_02_unarmed_base_lxws;
 class AFV_Wheeled_01_base_F;
-class AFV_Wheeled_01_up_base_F;
+class afv_wheeled_01_up_base_F;
 class B_APC_Tracked_01_base_F;
 class B_APC_Wheeled_01_base_F;
 class Boat_Armed_01_base_F;

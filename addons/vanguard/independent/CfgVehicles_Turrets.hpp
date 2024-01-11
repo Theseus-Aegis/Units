@@ -55,7 +55,7 @@ class TACU_Vanguard_V_I_Mini_Spike_AT_Sand: TACU_Assets_Mini_Spike_AT {
     EDITORPREVIEW(TACU_Vanguard_V_I_Mini_Spike_AT_Sand);
 };
 
-class TACU_Vanguard_V_I_ZU23_Green: TACU_Assets_ZU23_Base {
+class TACU_Vanguard_V_I_ZU23_Green: TACU_Assets_ZU23_base {
     faction = "TACU_Vanguard_I";
     editorSubcategory = "TACU_Vanguard_EdSubCat_Turrets_Green";
     side = 2;
@@ -64,7 +64,7 @@ class TACU_Vanguard_V_I_ZU23_Green: TACU_Assets_ZU23_Base {
     textureList[] = {"Green", 1};
     EDITORPREVIEW(TACU_Vanguard_V_I_ZU23_Green);
 };
-class TACU_Vanguard_V_I_ZU23_Sand: TACU_Assets_ZU23_Base {
+class TACU_Vanguard_V_I_ZU23_Sand: TACU_Assets_ZU23_base {
     faction = "TACU_Vanguard_I";
     editorSubcategory = "TACU_Vanguard_EdSubCat_Turrets_Sand";
     side = 2;
