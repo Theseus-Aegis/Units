@@ -11,7 +11,7 @@ class TACU_African_North_B_Demolitions: B_Kitbag_rgr {
         MACRO_ADDITEM(ACE_M26_Clacker,1);
     };
     class TransportMagazines {
-        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag, 5);
+        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,5);
     };
 };
 
