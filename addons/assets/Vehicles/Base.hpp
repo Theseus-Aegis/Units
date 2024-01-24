@@ -18,6 +18,7 @@ class I_E_Uniform_01_officer_F;
 class I_E_Uniform_01_shortsleeve_F;
 class I_L_Uniform_01_camo_F;
 class O_A_Soldier_lxWS;
+class B_UN_officer_lxWS;
 
 // Vehicles
 class APC_Wheeled_02_base_v2_F;
