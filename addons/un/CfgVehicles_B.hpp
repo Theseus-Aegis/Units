@@ -10,7 +10,7 @@ class TACU_UN_Autumn_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
     genericNames = "CivMen"; // Mixture of American, African, & Greek
     icon = "iconMan";
     role = "Rifleman";
-    uniformClass = "";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Autumn";
     items[] = {"ACE_NVG_Gen4_Black"};
     respawnItems[] = {"ACE_NVG_Gen4_Black"};
     linkedItems[] = {
@@ -153,6 +153,7 @@ class TACU_UN_Autumn_U_B_Driver: TACU_UN_Autumn_U_B_Rifleman {
 
 class TACU_UN_Autumn_U_B_Pilot: TACU_UN_Autumn_U_B_Rifleman {
     displayName = "Pilot";
+    uniformClass = "U_lxWS_UN_Pilot";
     backpack = "B_Parachute";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -171,63 +172,83 @@ class TACU_UN_Autumn_U_B_Pilot: TACU_UN_Autumn_U_B_Rifleman {
 // Urban Units
 class TACU_UN_Urban_U_B_Rifleman: TACU_UN_Autumn_U_B_Rifleman {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Demolitions: TACU_UN_Autumn_U_B_Demolitions {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Grenadier: TACU_UN_Autumn_U_B_Grenadier {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Marksman: TACU_UN_Autumn_U_B_Marksman {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Teamleader: TACU_UN_Autumn_U_B_Teamleader {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Autorifleman: TACU_UN_Autumn_U_B_Autorifleman {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Machinegunner: TACU_UN_Autumn_U_B_Machinegunner {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Medic: TACU_UN_Autumn_U_B_Medic {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_AT: TACU_UN_Autumn_U_B_AT {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 class TACU_UN_Urban_U_B_Driver: TACU_UN_Autumn_U_B_Driver {
     editorSubcategory = "TACU_UN_Urban";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
 };
 
 // Woodland Units
 class TACU_UN_Woodland_U_B_Rifleman: TACU_UN_Autumn_U_B_Rifleman {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Demolitions: TACU_UN_Autumn_U_B_Demolitions {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Grenadier: TACU_UN_Autumn_U_B_Grenadier {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Marksman: TACU_UN_Autumn_U_B_Marksman {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Teamleader: TACU_UN_Autumn_U_B_Teamleader {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Autorifleman: TACU_UN_Autumn_U_B_Autorifleman {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Machinegunner: TACU_UN_Autumn_U_B_Machinegunner {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Medic: TACU_UN_Autumn_U_B_Medic {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_AT: TACU_UN_Autumn_U_B_AT {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
 class TACU_UN_Woodland_U_B_Driver: TACU_UN_Autumn_U_B_Driver {
     editorSubcategory = "TACU_UN_Woodland";
+    uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
 };
