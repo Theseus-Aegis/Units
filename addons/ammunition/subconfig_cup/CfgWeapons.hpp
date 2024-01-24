@@ -37,7 +37,7 @@ class CfgWeapons {
 
     class CUP_CZ_BREN2_Base;
     class CUP_CZ_BREN2_762_Base: CUP_CZ_BREN2_Base {
-        magazineWell[] += {"TACU_762x39_CZ"};
+        magazineWell[] = {"TACU_762x39_CZ", "tacgt_762x39_CZ"};
     };
 
     class CUP_Famas_Base: Rifle_Base_F {
