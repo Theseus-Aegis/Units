@@ -52,8 +52,6 @@
 // Backpack Items
 #define MACRO_MEDICAL_BACKPACK_ITEMS \
     class TransportItems { \
-        delete _xx_Medikit; \
-        delete _xx_FirstAidKit; \
         MACRO_ADDITEM(ACE_fieldDressing,20); \
         MACRO_ADDITEM(ACE_epinephrine,5); \
         MACRO_ADDITEM(ACE_morphine,5); \
