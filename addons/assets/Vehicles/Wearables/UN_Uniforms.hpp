@@ -26,7 +26,7 @@ class TACU_Assets_Item_Uniform_UN_Woodland: TACU_Assets_Item_Uniform_UN_Autumn {
 // Uniforms (UN)
 class TACU_UN_Unit_Autumn: B_UN_officer_lxWS {
     author = "Mike";
-    scope = 2;
+    scope = 1;
     uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Autumn";
     hiddenSelections[] = {
         "camo1",
