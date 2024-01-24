@@ -268,12 +268,14 @@ class TACU_UN_Woodland_V_I_Offroad_UP: TACU_UN_Woodland_V_B_Offroad_UP {
 // Helicopter - Generic
 class TACU_UN_V_I_Mohawk: TACU_UN_V_B_Mohawk {
     faction = "TACU_UN_I";
+    side = 2;
     crew = "TACU_UN_Autumn_U_I_Pilot";
     typicalCargo[] = {"TACU_UN_Autumn_U_I_Pilot"};
 };
 // Tank - Generic
 class TACU_UN_V_I_Leopard: TACU_UN_V_B_Leopard {
     faction = "TACU_UN_I";
+    side = 2;
     crew = "TACU_UN_Autumn_U_I_Driver";
     typicalCargo[] = {"TACU_UN_Autumn_U_I_Driver"};
 };

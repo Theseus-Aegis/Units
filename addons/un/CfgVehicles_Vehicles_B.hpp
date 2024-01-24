@@ -2,6 +2,7 @@
 // APCs
 class TACU_UN_Autumn_V_B_Marshall: B_UN_APC_Wheeled_01_command_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_APC_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -9,6 +10,7 @@ class TACU_UN_Autumn_V_B_Marshall: B_UN_APC_Wheeled_01_command_lxWS {
 };
 class TACU_UN_Autumn_V_B_Marid_HMG: B_UNA_APC_Wheeled_02_hmg_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_APC_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -16,6 +18,7 @@ class TACU_UN_Autumn_V_B_Marid_HMG: B_UNA_APC_Wheeled_02_hmg_lxWS {
 };
 class TACU_UN_Autumn_V_B_Marid_Unarmed: B_UNA_APC_Wheeled_02_unarmed_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_APC_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -25,6 +28,7 @@ class TACU_UN_Autumn_V_B_Marid_Unarmed: B_UNA_APC_Wheeled_02_unarmed_lxWS {
 // Cars
 class TACU_UN_Autumn_V_B_HEMTT_Mover: B_UN_Truck_01_mover_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -32,6 +36,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Mover: B_UN_Truck_01_mover_lxWS {
 };
 class TACU_UN_Autumn_V_B_HEMTT_Ammo: B_UN_Truck_01_ammo_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -39,6 +44,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Ammo: B_UN_Truck_01_ammo_lxWS {
 };
 class TACU_UN_Autumn_V_B_HEMTT_Container: B_UN_Truck_01_box_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -46,6 +52,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Container: B_UN_Truck_01_box_lxWS {
 };
 class TACU_UN_Autumn_V_B_HEMTT_Fuel: B_UN_Truck_01_fuel_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -53,6 +60,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Fuel: B_UN_Truck_01_fuel_lxWS {
 };
 class TACU_UN_Autumn_V_B_HEMTT_Medical: B_UN_Truck_01_medical_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -60,6 +68,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Medical: B_UN_Truck_01_medical_lxWS {
 };
 class TACU_UN_Autumn_V_B_HEMTT_Repair: B_UN_Truck_01_Repair_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -67,6 +76,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Repair: B_UN_Truck_01_Repair_lxWS {
 };
 class TACU_UN_Autumn_V_B_HEMTT_Transport: B_UN_Truck_01_transport_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -74,6 +84,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Transport: B_UN_Truck_01_transport_lxWS {
 };
 class TACU_UN_Autumn_V_B_HEMTT_Transport_Covered: B_UN_Truck_01_covered_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -81,6 +92,7 @@ class TACU_UN_Autumn_V_B_HEMTT_Transport_Covered: B_UN_Truck_01_covered_lxWS {
 };
 class TACU_UN_Autumn_V_B_MATV: B_UN_MRAP_01_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -88,6 +100,7 @@ class TACU_UN_Autumn_V_B_MATV: B_UN_MRAP_01_lxWS {
 };
 class TACU_UN_Autumn_V_B_Offroad: B_UN_Offroad_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -112,6 +125,7 @@ class TACU_UN_Autumn_V_B_Offroad: B_UN_Offroad_lxWS {
 };
 class TACU_UN_Autumn_V_B_Offroad_UP: B_UN_Offroad_Armor_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     editorSubcategory = "TACU_UN_Cars_Autumn";
     crew = "TACU_UN_Autumn_U_B_Driver";
@@ -286,6 +300,7 @@ class TACU_UN_Woodland_V_B_Offroad_UP: TACU_UN_Autumn_V_B_Offroad_UP {
 // Helicopter - Generic
 class TACU_UN_V_B_Mohawk: B_UN_Heli_Transport_02_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     crew = "TACU_UN_Autumn_U_B_Pilot";
     typicalCargo[] = {"TACU_UN_Autumn_U_B_Pilot"};
@@ -294,6 +309,7 @@ class TACU_UN_V_B_Mohawk: B_UN_Heli_Transport_02_lxWS {
 // Tank - Generic
 class TACU_UN_V_B_Leopard: B_MBT_03_cannon_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
+    MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
     crew = "TACU_UN_Autumn_U_B_Driver";
     typicalCargo[] = {"TACU_UN_Autumn_U_B_Driver"};
