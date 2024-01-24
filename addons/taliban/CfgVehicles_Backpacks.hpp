@@ -6,7 +6,7 @@ class TACU_Taliban_Militia_B_Medic: B_FieldPack_khk {
 
 class TACU_Taliban_Militia_B_Demolitions: B_FieldPack_khk {
     MACRO_BACKPACK_DEFAULTS;
-    MACRO_DEMOLITIONS_BACKPACK_ITEMS;
+    MACRO_DEMOLITIONS_BACKPACK_ITEMS_TALIBAN;
 };
 
 class TACU_Taliban_Militia_B_AT: B_FieldPack_khk {
