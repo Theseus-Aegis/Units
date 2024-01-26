@@ -27,7 +27,7 @@ class TACU_UN_G_Autumn_B {
     };
 
     class TACU_UN_G_Squad_Autumn: TACU_UN_G_Patrol_Autumn {
-        name = "AT Team";
+        name = "Squad";
         MACRO_UNIT0(TACU_UN_Autumn_U_B_Teamleader,1);
         MACRO_UNIT1(TACU_UN_Autumn_U_B_Medic,1);
         MACRO_UNIT2(TACU_UN_Autumn_U_B_Grenadier,1);
@@ -68,7 +68,7 @@ class TACU_UN_G_Urban {
     };
 
     class TACU_UN_G_Squad_Urban: TACU_UN_G_Patrol_Urban {
-        name = "AT Team";
+        name = "Squad";
         MACRO_UNIT0(TACU_UN_Urban_U_B_Teamleader,1);
         MACRO_UNIT1(TACU_UN_Urban_U_B_Medic,1);
         MACRO_UNIT2(TACU_UN_Urban_U_B_Grenadier,1);
@@ -109,7 +109,7 @@ class TACU_UN_G_Woodland {
     };
 
     class TACU_UN_G_Squad_Woodland: TACU_UN_G_Patrol_Woodland {
-        name = "AT Team";
+        name = "Squad";
         MACRO_UNIT0(TACU_UN_Woodland_U_B_Teamleader,1);
         MACRO_UNIT1(TACU_UN_Woodland_U_B_Medic,1);
         MACRO_UNIT2(TACU_UN_Woodland_U_B_Grenadier,1);
