@@ -13,6 +13,9 @@ class CfgEditorSubcategories {
     class TACU_UN_Autumn {
         displayName = "Men (Autumn)";
     };
+    class TACU_UN_Desert {
+        displayName = "Men (Desert)";
+    };
     class TACU_UN_Urban {
         displayName = "Men (Urban)";
     };
@@ -22,6 +25,9 @@ class CfgEditorSubcategories {
     class TACU_UN_APC_Autumn {
         displayName = "APCs (Autumn)";
     };
+    class TACU_UN_APC_Desert {
+        displayName = "APCs (Desert)";
+    };
     class TACU_UN_APC_Urban {
         displayName = "APCs (Urban)";
     };
@@ -30,6 +36,9 @@ class CfgEditorSubcategories {
     };
     class TACU_UN_Cars_Autumn {
         displayName = "Cars (Autumn)";
+    };
+    class TACU_UN_Cars_Desert {
+        displayName = "Cars (Desert)";
     };
     class TACU_UN_Cars_Urban {
         displayName = "Cars (Urban)";

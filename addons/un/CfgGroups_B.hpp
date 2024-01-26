@@ -1,3 +1,4 @@
+// Autumn Groups
 class TACU_UN_G_Autumn_B {
     name = "Infantry (Autumn)";
 
@@ -39,6 +40,49 @@ class TACU_UN_G_Autumn_B {
     };
 };
 
+// Desert Groups
+class TACU_UN_G_Desert {
+    name = "Infantry (Desert)";
+
+    class TACU_UN_G_Patrol_Desert {
+        name = "Patrol";
+        side = 1;
+        faction = "TACU_UN_B";
+        icon = "\a3\ui_f\data\map\markers\nato\n_inf.paa";
+        MACRO_UNIT0(TACU_UN_Desert_U_B_Teamleader,1);
+        MACRO_UNIT1(TACU_UN_Desert_U_B_Rifleman,1);
+    };
+
+    class TACU_UN_G_Fireteam_Desert: TACU_UN_G_Patrol_Desert {
+        name = "Fireteam";
+        MACRO_UNIT0(TACU_UN_Desert_U_B_Teamleader,1);
+        MACRO_UNIT1(TACU_UN_Desert_U_B_Medic,1);
+        MACRO_UNIT2(TACU_UN_Desert_U_B_Grenadier,1);
+        MACRO_UNIT3(TACU_UN_Desert_U_B_Marksman,1);
+    };
+
+    class TACU_UN_G_ATTeam_Desert: TACU_UN_G_Patrol_Desert {
+        name = "AT Team";
+        MACRO_UNIT0(TACU_UN_Desert_U_B_Teamleader,1);
+        MACRO_UNIT1(TACU_UN_Desert_U_B_AT,1);
+        MACRO_UNIT2(TACU_UN_Desert_U_B_AT,1);
+        MACRO_UNIT3(TACU_UN_Desert_U_B_Rifleman,1);
+    };
+
+    class TACU_UN_G_Squad_Desert: TACU_UN_G_Patrol_Desert {
+        name = "Squad";
+        MACRO_UNIT0(TACU_UN_Desert_U_B_Teamleader,1);
+        MACRO_UNIT1(TACU_UN_Desert_U_B_Medic,1);
+        MACRO_UNIT2(TACU_UN_Desert_U_B_Grenadier,1);
+        MACRO_UNIT3(TACU_UN_Desert_U_B_Autorifleman,1);
+        MACRO_UNIT4(TACU_UN_Desert_U_B_Demolitions,1);
+        MACRO_UNIT5(TACU_UN_Desert_U_B_AT,1);
+        MACRO_UNIT6(TACU_UN_Desert_U_B_Marksman,1);
+        MACRO_UNIT7(TACU_UN_Desert_U_B_Rifleman,1);
+    };
+};
+
+// Urban Groups
 class TACU_UN_G_Urban {
     name = "Infantry (Urban)";
 
@@ -80,6 +124,7 @@ class TACU_UN_G_Urban {
     };
 };
 
+// Woodland Groups
 class TACU_UN_G_Woodland {
     name = "Infantry (Woodland)";
 

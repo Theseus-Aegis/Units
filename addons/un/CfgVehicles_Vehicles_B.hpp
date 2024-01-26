@@ -146,6 +146,81 @@ class TACU_UN_Autumn_V_B_Offroad_UP: B_UN_Offroad_Armor_lxWS {
     };
 };
 
+// Desert Vehicles
+// APCs
+class TACU_UN_Desert_V_B_Marshall: TACU_UN_Autumn_V_B_Marshall {
+    editorSubcategory = "TACU_UN_APC_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_Marid_HMG: TACU_UN_Autumn_V_B_Marid_HMG {
+    editorSubcategory = "TACU_UN_APC_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_Marid_Unarmed: TACU_UN_Autumn_V_B_Marid_Unarmed {
+    editorSubcategory = "TACU_UN_APC_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+
+// Cars
+class TACU_UN_Desert_V_B_HEMTT_Mover: TACU_UN_Autumn_V_B_HEMTT_Mover {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_HEMTT_Ammo: TACU_UN_Autumn_V_B_HEMTT_Ammo {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_HEMTT_Container: TACU_UN_Autumn_V_B_HEMTT_Container {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_HEMTT_Fuel: TACU_UN_Autumn_V_B_HEMTT_Fuel {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_HEMTT_Medical: TACU_UN_Autumn_V_B_HEMTT_Medical {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_HEMTT_Repair: TACU_UN_Autumn_V_B_HEMTT_Repair {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_HEMTT_Transport: TACU_UN_Autumn_V_B_HEMTT_Transport {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_HEMTT_Transport_Covered: TACU_UN_Autumn_V_B_HEMTT_Transport_Covered {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_MATV: TACU_UN_Autumn_V_B_MATV {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_Offroad: TACU_UN_Autumn_V_B_Offroad {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+class TACU_UN_Desert_V_B_Offroad_UP: TACU_UN_Autumn_V_B_Offroad_UP {
+    editorSubcategory = "TACU_UN_Cars_Desert";
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
+};
+
 // Urban Vehicles
 // APCs
 class TACU_UN_Urban_V_B_Marshall: TACU_UN_Autumn_V_B_Marshall {
@@ -302,8 +377,8 @@ class TACU_UN_V_B_Mohawk: B_UN_Heli_Transport_02_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
-    crew = "TACU_UN_Autumn_U_B_Pilot";
-    typicalCargo[] = {"TACU_UN_Autumn_U_B_Pilot"};
+    crew = "TACU_UN_Desert_U_B_Pilot";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Pilot"};
 };
 
 // Tank - Generic
@@ -311,6 +386,6 @@ class TACU_UN_V_B_Leopard: B_MBT_03_cannon_lxWS {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_CLEAR_VEHICLE_CARGO;
     faction = "TACU_UN_B";
-    crew = "TACU_UN_Autumn_U_B_Driver";
-    typicalCargo[] = {"TACU_UN_Autumn_U_B_Driver"};
+    crew = "TACU_UN_Desert_U_B_Driver";
+    typicalCargo[] = {"TACU_UN_Desert_U_B_Driver"};
 };
