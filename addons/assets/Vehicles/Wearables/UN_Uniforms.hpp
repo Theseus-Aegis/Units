@@ -24,45 +24,30 @@ class TACU_Assets_Item_Uniform_UN_Woodland: TACU_Assets_Item_Uniform_UN_Autumn {
 };
 
 // Uniforms (UN)
-class TACU_UN_Unit_Autumn: B_UN_officer_lxWS {
+class TACU_UN_Unit_Autumn: B_UN_crew_lxWS {
     author = "Mike";
     scope = 1;
     uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Autumn";
-    hiddenSelections[] = {
-        "camo1",
-        "camo2",
-        "insignia"
-    };
+    hiddenSelections[] = {"camo", "insignia"};
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\uniforms\un_soldier_camo_autumn_co.paa),
-        "\lxws\characters_f_lxws\data\clothes\UN_Soldier_Camo_F_2_co.paa",
         "\lxws\data_f_lxws\img\insignia\un_ca.paa"
     };
     modelSides[] = {6};
 };
 class TACU_UN_Unit_Urban: TACU_UN_Unit_Autumn {
     uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Urban";
-    hiddenSelections[] = {
-        "camo1",
-        "camo2",
-        "insignia"
-    };
+    hiddenSelections[] = {"camo", "insignia"};
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\uniforms\un_soldier_camo_urban_co.paa),
-        "\lxws\characters_f_lxws\data\clothes\UN_Soldier_Camo_F_2_co.paa",
         "\lxws\data_f_lxws\img\insignia\un_ca.paa"
     };
 };
 class TACU_UN_Unit_Woodland: TACU_UN_Unit_Autumn {
     uniformClass = "TACU_UN_Uniform_Combat_Fatigues_Woodland";
-    hiddenSelections[] = {
-        "camo1",
-        "camo2",
-        "insignia"
-    };
+    hiddenSelections[] = {"camo", "insignia"};
     hiddenSelectionsTextures[] = {
         QPATHTOF(data\uniforms\un_soldier_camo_woodland_co.paa),
-        "\lxws\characters_f_lxws\data\clothes\UN_Soldier_Camo_F_2_co.paa",
         "\lxws\data_f_lxws\img\insignia\un_ca.paa"
     };
 };
