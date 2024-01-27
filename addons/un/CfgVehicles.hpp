@@ -21,8 +21,26 @@ class CfgVehicles {
     class B_UN_Heli_Transport_02_lxWS;
     class B_MBT_03_cannon_lxWS;
 
-    #include "CfgVehicles_B.hpp"
-    #include "CfgVehicles_I.hpp"
+    // Backpacks
+    class tacs_Backpack_Kitbag_DarkBlack;
+    class B_Kitbag_rgr;
+    class B_Kitbag_cbr;
+    class B_AssaultPack_rgr;
+    class B_AssaultPack_blk;
+    class B_AssaultPack_cbr;
+    class tacs_Backpack_Kitbag_Medic_Green;
+    class tacs_Backpack_Kitbag_Medic_Black;
+    class tacs_Backpack_Kitbag_Medic_Coyote;
+
+    #include "CfgVehicles_B_Autumn.hpp"
+    #include "CfgVehicles_B_Desert.hpp"
+    #include "CfgVehicles_B_Urban.hpp"
+    #include "CfgVehicles_B_Woodland.hpp"
+
+    #include "CfgVehicles_I_Autumn.hpp"
+    #include "CfgVehicles_I_Desert.hpp"
+    #include "CfgVehicles_I_Urban.hpp"
+    #include "CfgVehicles_I_Woodland.hpp"
 
     #include "CfgVehicles_Vehicles_B.hpp"
     #include "CfgVehicles_Vehicles_I.hpp"

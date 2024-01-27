@@ -29,10 +29,10 @@ class TACU_UN_G_Autumn_B {
 
     class TACU_UN_G_Squad_Autumn: TACU_UN_G_Patrol_Autumn {
         name = "Squad";
-        MACRO_UNIT0(TACU_UN_Autumn_U_B_Teamleader,1);
+        MACRO_UNIT0(TACU_UN_Autumn_U_B_Squadleader,1);
         MACRO_UNIT1(TACU_UN_Autumn_U_B_Medic,1);
         MACRO_UNIT2(TACU_UN_Autumn_U_B_Grenadier,1);
-        MACRO_UNIT3(TACU_UN_Autumn_U_B_Autorifleman,1);
+        MACRO_UNIT3(TACU_UN_Autumn_U_B_Machinegunner,1);
         MACRO_UNIT4(TACU_UN_Autumn_U_B_Demolitions,1);
         MACRO_UNIT5(TACU_UN_Autumn_U_B_AT,1);
         MACRO_UNIT6(TACU_UN_Autumn_U_B_Marksman,1);
@@ -71,10 +71,10 @@ class TACU_UN_G_Desert {
 
     class TACU_UN_G_Squad_Desert: TACU_UN_G_Patrol_Desert {
         name = "Squad";
-        MACRO_UNIT0(TACU_UN_Desert_U_B_Teamleader,1);
+        MACRO_UNIT0(TACU_UN_Desert_U_B_Squadleader,1);
         MACRO_UNIT1(TACU_UN_Desert_U_B_Medic,1);
         MACRO_UNIT2(TACU_UN_Desert_U_B_Grenadier,1);
-        MACRO_UNIT3(TACU_UN_Desert_U_B_Autorifleman,1);
+        MACRO_UNIT3(TACU_UN_Desert_U_B_Machinegunner,1);
         MACRO_UNIT4(TACU_UN_Desert_U_B_Demolitions,1);
         MACRO_UNIT5(TACU_UN_Desert_U_B_AT,1);
         MACRO_UNIT6(TACU_UN_Desert_U_B_Marksman,1);
@@ -113,10 +113,10 @@ class TACU_UN_G_Urban {
 
     class TACU_UN_G_Squad_Urban: TACU_UN_G_Patrol_Urban {
         name = "Squad";
-        MACRO_UNIT0(TACU_UN_Urban_U_B_Teamleader,1);
+        MACRO_UNIT0(TACU_UN_Urban_U_B_Squadleader,1);
         MACRO_UNIT1(TACU_UN_Urban_U_B_Medic,1);
         MACRO_UNIT2(TACU_UN_Urban_U_B_Grenadier,1);
-        MACRO_UNIT3(TACU_UN_Urban_U_B_Autorifleman,1);
+        MACRO_UNIT3(TACU_UN_Urban_U_B_Machinegunner,1);
         MACRO_UNIT4(TACU_UN_Urban_U_B_Demolitions,1);
         MACRO_UNIT5(TACU_UN_Urban_U_B_AT,1);
         MACRO_UNIT6(TACU_UN_Urban_U_B_Marksman,1);
@@ -155,10 +155,10 @@ class TACU_UN_G_Woodland {
 
     class TACU_UN_G_Squad_Woodland: TACU_UN_G_Patrol_Woodland {
         name = "Squad";
-        MACRO_UNIT0(TACU_UN_Woodland_U_B_Teamleader,1);
+        MACRO_UNIT0(TACU_UN_Woodland_U_B_Squadleader,1);
         MACRO_UNIT1(TACU_UN_Woodland_U_B_Medic,1);
         MACRO_UNIT2(TACU_UN_Woodland_U_B_Grenadier,1);
-        MACRO_UNIT3(TACU_UN_Woodland_U_B_Autorifleman,1);
+        MACRO_UNIT3(TACU_UN_Woodland_U_B_Machinegunner,1);
         MACRO_UNIT4(TACU_UN_Woodland_U_B_Demolitions,1);
         MACRO_UNIT5(TACU_UN_Woodland_U_B_AT,1);
         MACRO_UNIT6(TACU_UN_Woodland_U_B_Marksman,1);
