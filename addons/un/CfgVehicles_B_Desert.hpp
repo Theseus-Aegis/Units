@@ -21,9 +21,17 @@ class TACU_UN_Desert_U_B_Pilot: TACU_UN_Autumn_U_B_Rifleman {
         "TACU_UN_W_P90",
         "Throw", "Put"
     };
-    magazines[] = {};
-    respawnMagazines[] = {};
-    headgearList[] = {"H_PilotHelmetHeli_B", 1}; // helmet
+    magazines[] = {
+        mag_2("TACU_Magazine_50Rnd_P90"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        mag_2("TACU_Magazine_50Rnd_P90"),
+        mag_2("TACU_Magazine_11Rnd_FNX"),
+        mag_2("SmokeShell")
+    };
+    headgearList[] = {"H_PilotHelmetHeli_B", 1};
     //EDITORPREVIEW(TACU_UN_Desert_U_B_Pilot);
 };
 
