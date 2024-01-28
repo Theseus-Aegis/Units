@@ -125,6 +125,9 @@ class CfgPatches {
             "TACU_UN_Uniform_Combat_Fatigues_Autumn",
             "TACU_UN_Uniform_Combat_Fatigues_Urban",
             "TACU_UN_Uniform_Combat_Fatigues_Woodland",
+            "TACU_Uniform_Combat_Fatigues_TigerStripe_Autumn",
+            "TACU_Uniform_Combat_Fatigues_TigerStripe_Urban",
+            "TACU_Uniform_Combat_Fatigues_TigerStripe_Woodland",
             // Helmets
             "TACU_BAF_Helmet_EnhancedCombatHelmet_Arid",
             "TACU_BAF_Helmet_EnhancedCombatHelmet_Tropic",
