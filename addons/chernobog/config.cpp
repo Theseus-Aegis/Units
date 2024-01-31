@@ -34,7 +34,8 @@ class CfgPatches {
         requiredAddons[] = {
             "tacu_main",
             "tacu_assets",
-            "CUP_Weapons_LoadOrder"
+            "CUP_Weapons_LoadOrder",
+            "CUP_Creatures_People_LoadOrder"
         };
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
