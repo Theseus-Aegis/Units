@@ -1,13 +1,7 @@
-class TACU_Chernobog_U_I_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
-    author = "Mike";
-    displayName = "Rifleman";
-    faction = "TACU_Chernobog_I";
+class TACU_Chernobog_Chosen_U_I_Rifleman: TACU_Chernobog_Core_Unit {
+    editorSubcategory = "TACU_Chernobog_Chosen";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"LanguageRUS_F", "Head_Russian"};
-    genericNames = "RussianMen";
-    icon = "iconMan";
-    role = "Rifleman";
     uniformClass = "CUP_U_C_racketeer_04";
     linkedItems[] = {
         DEFAULT_ITEMS_RADIO,
@@ -23,11 +17,10 @@ class TACU_Chernobog_U_I_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     respawnWeapons[] = {"TACU_Chernobog_W_AK74M", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_30Rnd_545_AK")};
     respawnMagazines[] = {mag_7("TACU_Magazine_30Rnd_545_AK")};
-    headgearList[] = {"H_Hat_Tinfoil_F", 1};
     CBA_facewearList[] = {"", 1};
-    //EDITORPREVIEW(TACU_Chernobog_U_I_Rifleman);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_Rifleman);
 };
-class TACU_Chernobog_U_I_Medic: TACU_Chernobog_U_I_Rifleman {
+class TACU_Chernobog_Chosen_U_I_Medic: TACU_Chernobog_Chosen_U_I_Rifleman {
     displayName = "Medic";
     icon = "iconManMedic";
     role = "CombatLifeSaver";
@@ -36,11 +29,10 @@ class TACU_Chernobog_U_I_Medic: TACU_Chernobog_U_I_Rifleman {
     uniformClass = "TACU_Assets_Uniform_Prisoner_Outfit_Olive_Muddy";
     weapons[] = {"CUP_arifle_AK74M", "Throw", "Put"};
     respawnWeapons[] = {"CUP_arifle_AK74M", "Throw", "Put"};
-    //EDITORPREVIEW(TACU_Chernobog_U_I_Medic);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_Medic);
 };
-class TACU_Chernobog_U_I_LAT: TACU_Chernobog_U_I_Rifleman {
+class TACU_Chernobog_Chosen_U_I_LAT: TACU_Chernobog_Chosen_U_I_Rifleman {
     displayName = "Rifleman (LAT)";
-    backpack = "";
     uniformClass = "U_C_WorkerCoveralls";
     icon = "iconManAT";
     role = "MissileSpecialist";
@@ -66,9 +58,9 @@ class TACU_Chernobog_U_I_LAT: TACU_Chernobog_U_I_Rifleman {
         mag_2("CUP_HandGrenade_RGO"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Chernobog_U_I_LAT);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_LAT);
 };
-class TACU_Chernobog_U_I_AT: TACU_Chernobog_U_I_Rifleman {
+class TACU_Chernobog_Chosen_U_I_AT: TACU_Chernobog_Chosen_U_I_Rifleman {
     displayName = "Rifleman (AT)";
     icon = "iconManAT";
     role = "MissileSpecialist";
@@ -96,9 +88,9 @@ class TACU_Chernobog_U_I_AT: TACU_Chernobog_U_I_Rifleman {
         mag_2("CUP_HandGrenade_RGO"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Chernobog_U_I_AT);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_AT);
 };
-class TACU_Chernobog_U_I_Teamleader: TACU_Chernobog_U_I_Rifleman {
+class TACU_Chernobog_Chosen_U_I_Teamleader: TACU_Chernobog_Chosen_U_I_Rifleman {
     displayName = "Team Leader";
     icon = "iconManLeader";
     uniformClass = "U_C_E_LooterJacket_01_F";
@@ -117,9 +109,9 @@ class TACU_Chernobog_U_I_Teamleader: TACU_Chernobog_U_I_Rifleman {
         mag_2("CUP_HandGrenade_RGO"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Chernobog_U_I_Teamleader);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_Teamleader);
 };
-class TACU_Chernobog_U_I_Squadleader: TACU_Chernobog_U_I_Rifleman {
+class TACU_Chernobog_Chosen_U_I_Squadleader: TACU_Chernobog_Chosen_U_I_Rifleman {
     displayName = "Squad Leader";
     icon = "iconManLeader";
     uniformClass = "CUP_U_I_GUE_Anorak_02";
@@ -128,9 +120,9 @@ class TACU_Chernobog_U_I_Squadleader: TACU_Chernobog_U_I_Rifleman {
     respawnWeapons[] = {"CUP_lmg_PKM", "Throw", "Put"};
     magazines[] = {"TACU_Magazine_150Rnd_Negev"};
     respawnMagazines[] = {"TACU_Magazine_150Rnd_Negev"};
-    //EDITORPREVIEW(TACU_Chernobog_U_I_Squadleader);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_Squadleader);
 };
-class TACU_Chernobog_U_I_Marksman: TACU_Chernobog_U_I_Rifleman {
+class TACU_Chernobog_Chosen_U_I_Marksman: TACU_Chernobog_Chosen_U_I_Rifleman {
     displayName = "Marksman";
     role = "Marksman";
     uniformClass = "U_BG_leader";
@@ -148,14 +140,14 @@ class TACU_Chernobog_U_I_Marksman: TACU_Chernobog_U_I_Rifleman {
     respawnWeapons[] = {"TACU_Chernobog_W_SVD", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_10Rnd_VS121")};
     respawnMagazines[] = {mag_7("TACU_Magazine_10Rnd_VS121")};
-    //EDITORPREVIEW(TACU_Chernobog_U_I_Marksman);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_Marksman);
 };
-class TACU_Chernobog_U_I_Demolitions: TACU_Chernobog_U_I_Rifleman {
+class TACU_Chernobog_Chosen_U_I_Demolitions: TACU_Chernobog_Chosen_U_I_Rifleman {
     displayName = "Demolitions";
     icon = "iconManExplosive";
     role = "Sapper";
     engineer = 1;
     uniformClass = "CUP_U_I_GUE_Anorak_02";
     backpack = "TACU_Chernobog_Messenger_Demolitions";
-    //EDITORPREVIEW(TACU_Chernobog_U_I_Marksman);
+    //EDITORPREVIEW(TACU_Chernobog_Chosen_U_I_Marksman);
 };
