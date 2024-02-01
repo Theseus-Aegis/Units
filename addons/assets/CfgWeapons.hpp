@@ -17,5 +17,6 @@ class CfgWeapons {
     #include "Weapons\SevenRings_Vests.hpp"
     #include "Weapons\South_Africa_Helmets.hpp"
     #include "Weapons\South_Africa_Uniforms.hpp"
+    #include "Weapons\UN_Uniforms.hpp"
     #include "Weapons\Vanguard_Vests.hpp"
 };

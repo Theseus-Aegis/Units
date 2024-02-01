@@ -88,6 +88,7 @@ class CfgVehicles {
     #include "Vehicles\Wearables\Prisoner_Uniforms.hpp"
     #include "Vehicles\Wearables\South_Africa_Helmets.hpp"
     #include "Vehicles\Wearables\South_Africa_Uniforms.hpp"
+    #include "Vehicles\Wearables\UN_Uniforms.hpp"
     #include "Vehicles\Wearables\Vanguard_Vests.hpp"
 
     // Weapons
