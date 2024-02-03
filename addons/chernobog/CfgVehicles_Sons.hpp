@@ -36,7 +36,7 @@ class TACU_Chernobog_Sons_U_I_Rifleman: TACU_Chernobog_Core_Unit {
         "CUP_G_TK_RoundGlasses_blk", 0.3,
         "", 0.6
     };
-    //EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Rifleman);
+    EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Rifleman);
 };
 class TACU_Chernobog_Sons_U_I_Medic: TACU_Chernobog_Sons_U_I_Rifleman {
     displayName = "Healer of Sacred Tears";
@@ -59,7 +59,7 @@ class TACU_Chernobog_Sons_U_I_Medic: TACU_Chernobog_Sons_U_I_Rifleman {
     respawnWeapons[] = {"TACU_Chernobog_W_ASVAL", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_30Rnd_SR3M")};
     respawnMagazines[] = {mag_7("TACU_Magazine_30Rnd_SR3M")};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Medic);
+    EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Medic);
 };
 class TACU_Chernobog_Sons_U_I_Machinegunner: TACU_Chernobog_Sons_U_I_Rifleman {
     displayName = "Guardian of the True Voice";
@@ -87,7 +87,7 @@ class TACU_Chernobog_Sons_U_I_Machinegunner: TACU_Chernobog_Sons_U_I_Rifleman {
         mag_2("CUP_HandGrenade_RGO"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Machinegunner);
+    EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Machinegunner);
 };
 class TACU_Chernobog_Sons_U_I_Sniper: TACU_Chernobog_Sons_U_I_Rifleman {
     displayName = "Guardian of the True Sight";
@@ -107,7 +107,7 @@ class TACU_Chernobog_Sons_U_I_Sniper: TACU_Chernobog_Sons_U_I_Rifleman {
     respawnWeapons[] = {"TACU_Chernobog_W_KSVK", "Throw", "Put"};
     magazines[] = {mag_6("CUP_5Rnd_127x108_KSVK_M")};
     respawnMagazines[] = {mag_6("CUP_5Rnd_127x108_KSVK_M")};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Sniper);
+    EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Sniper);
 };
 class TACU_Chernobog_Sons_U_I_Squadleader: TACU_Chernobog_Sons_U_I_Rifleman {
     displayName = "Enlightened One";
@@ -128,5 +128,5 @@ class TACU_Chernobog_Sons_U_I_Squadleader: TACU_Chernobog_Sons_U_I_Rifleman {
     respawnWeapons[] = {"CUP_sgun_Saiga12K", "Throw", "Put"};
     magazines[] = {mag_4("CUP_12Rnd_B_Saiga12_Buck_00")};
     respawnMagazines[] = {mag_4("CUP_12Rnd_B_Saiga12_Buck_00")};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Squadleader);
+    EDITORPREVIEW(TACU_Chernobog_Sons_U_I_Squadleader);
 };
