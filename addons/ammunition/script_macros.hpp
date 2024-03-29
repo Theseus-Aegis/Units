@@ -43,7 +43,7 @@
     #define MACRO_RIFLE_MAGAZINE \
         author = "Mike"; \
         descriptionShort = ""; \
-        tracersEvery = 0; \
+        tracersEvery = 3; \
         lastRoundsTracer = 4; \
         scope = 1; \
         scopeArsenal = 1
