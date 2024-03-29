@@ -12,7 +12,6 @@ class CfgAmmo {
     class TACU_Ammunition_9x19: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.0016;
         airLock = 1;
         audibleFire = 30;
@@ -34,7 +33,6 @@ class CfgAmmo {
     class TACU_Ammunition_45ACP: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.0018;
         airLock = 1;
         audibleFire = 45;
@@ -56,8 +54,8 @@ class CfgAmmo {
     class TACU_Ammunition_57x28: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.001412;
+        airLock = 1;
         audibleFire = 25;
         caliber = 1.6;
         dangerRadiusBulletClose = 8;
@@ -77,7 +75,6 @@ class CfgAmmo {
     class TACU_Ammunition_545x39: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.0013;
         airLock = 1;
         caliber = 1.1;
@@ -96,7 +93,6 @@ class CfgAmmo {
     class TACU_Ammunition_556x45: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.0012000001;
         airLock = 1;
         audibleFire = 35;
@@ -116,7 +112,6 @@ class CfgAmmo {
     class TACU_Ammunition_58x52: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.0011;
         airLock = 1;
         caliber = 1.4;
@@ -136,7 +131,6 @@ class CfgAmmo {
     class TACU_Ammunition_65x39: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.00089999998;
         airLock = 1;
         caliber = 1.8;
@@ -156,7 +150,6 @@ class CfgAmmo {
     class TACU_Ammunition_762x39: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction=-0.0016;
         airLock = 1;
         caliber = 1.68;
@@ -176,7 +169,6 @@ class CfgAmmo {
     class TACU_Ammunition_762x51: BulletBase {
         MACRO_TRACERS;
         aiAmmoUsageFlags = "64 + 128 + 256";
-        airLock = 1;
         airFriction = -0.001;
         airLock = 1;
         audibleFire = 45;
