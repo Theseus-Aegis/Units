@@ -2,7 +2,8 @@ class CfgAmmo {
     class BulletBase;
     class TACU_Ammunition_46x30: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = "64 + 128 + 256";
+        airLock = 1;
         airFriction = -0.0008;
         audibleFire = 7;
         caliber = 0.7;
@@ -18,7 +19,8 @@ class CfgAmmo {
 
     // 9x39, no tracer.
     class TACU_Ammunition_9x39: BulletBase {
-        aiAmmoUsageFlags = "64 + 128";
+        aiAmmoUsageFlags = "64 + 128 + 256";
+        airLock = 1;
         airFriction = -0.00075274;
         audibleFire = 0.07;
         caliber = 1.1;
