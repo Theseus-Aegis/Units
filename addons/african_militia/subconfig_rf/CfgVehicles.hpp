@@ -10,13 +10,7 @@ class CfgVehicles {
         side = 0;
         crew = "TACU_African_Militia_U_O_Repair";
         typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
-        textureList[] = {
-            "Guerilla_01", 0.2,
-            "Guerilla_02", 0.2,
-            "Guerilla_03", 0.2,
-            "Guerilla_05", 0.2,
-            "Guerilla_09", 0.2
-        };
+        textureList[] = {"Guerilla_06", 0.5, "Guerilla_09", 0.5};
         animationList[] = {
             "hide_bullbar", 0,
             "hide_fuel_tank", 1,
@@ -45,13 +39,7 @@ class CfgVehicles {
         side = 0;
         crew = "TACU_African_Militia_U_O_Repair";
         typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
-        textureList[] = {
-            "Guerilla_01", 0.2,
-            "Guerilla_02", 0.2,
-            "Guerilla_03", 0.2,
-            "Guerilla_05", 0.2,
-            "Guerilla_09", 0.2
-        };
+        textureList[] = {"Guerilla_06", 0.5, "Guerilla_09", 0.5};
         animationList[] = {
             "Hide_Shield", 0,
             "Hide_Rail", 0,
@@ -80,13 +68,7 @@ class CfgVehicles {
         side = 0;
         crew = "TACU_African_Militia_U_O_Repair";
         typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
-        textureList[] = {
-            "Guerilla_01", 0.2,
-            "Guerilla_02", 0.2,
-            "Guerilla_03", 0.2,
-            "Guerilla_05", 0.2,
-            "Guerilla_09", 0.2
-        };
+        textureList[] = {"Guerilla_06", 0.5, "Guerilla_09", 0.5};
         animationList[] = {
             "hide_trunk_cover", 1,
             "hide_frame_full", 0,
