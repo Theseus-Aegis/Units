@@ -1,8 +1,3 @@
-class B_Boat_Transport_01_F;
-class C_Scooter_Transport_01_F;
-class C_Boat_Transport_02_F;
-class C_Boat_Civil_01_F;
-
 class TACU_Somali_Pirates_V_I_Assault_Boat: B_Boat_Transport_01_F {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     MACRO_CLEAR_VEHICLE_CARGO;
