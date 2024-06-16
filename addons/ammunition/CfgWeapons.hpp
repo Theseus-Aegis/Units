@@ -15,7 +15,6 @@ class CfgWeapons {
         magazineWell[] += {"CBA_9x19_ScorpionEvo3"};
     };
 
-    class Pistol_Base_F;
     class hgun_P07_F: Pistol_Base_F {
         magazineWell[] += {"CBA_9x19_Walther"};
     };
