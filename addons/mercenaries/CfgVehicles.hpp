@@ -5,11 +5,12 @@ class CfgVehicles {
     class TACU_Main_U_OPFOR_Soldier_Base;
     class TACU_Main_U_INDEP_Soldier_Base;
 
-    // Units
-    //#include "CfgVehicles_O_Low.hpp"
-    //#include "CfgVehicles_O_Medium.hpp"
-    //#include "CfgVehicles_O_High.hpp"
+    // Units - Opfor
+    #include "CfgVehicles_O_Low.hpp"
+    #include "CfgVehicles_O_Medium.hpp"
+    #include "CfgVehicles_O_High.hpp"
 
+    // Units - Independent
     #include "CfgVehicles_I_Low.hpp"
     #include "CfgVehicles_I_Medium.hpp"
     #include "CfgVehicles_I_High.hpp"
