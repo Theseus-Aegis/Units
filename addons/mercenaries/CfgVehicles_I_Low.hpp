@@ -1,6 +1,7 @@
 class TACU_Mercenaries_U_I_Low_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     author = "Mike";
     editorSubcategory = "TACU_Mercenaries_EdSubCat_Low";
+    displayName = "Rifleman";
     faction = "TACU_Mercenaries_I";
     genericNames = "CivMen";
     icon = "iconMan";
@@ -96,7 +97,7 @@ class TACU_Mercenaries_U_I_Low_AT: TACU_Mercenaries_U_I_Low_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Rifleman_AT);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_AT);
 };
 class TACU_Mercenaries_U_I_Low_AP: TACU_Mercenaries_U_I_Low_AT {
     displayName = "Rifleman (AP)";
@@ -115,7 +116,7 @@ class TACU_Mercenaries_U_I_Low_AP: TACU_Mercenaries_U_I_Low_AT {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Rifleman_AP);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_AP);
 };
 class TACU_Mercenaries_U_I_Low_MG: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Machine Gunner";
@@ -162,18 +163,6 @@ class TACU_Mercenaries_U_I_Low_Medic: TACU_Mercenaries_U_I_Low_Rifleman {
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
-    magazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
-    };
-    respawnMagazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
-    };
     //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Rifleman_Medic);
 };
 class TACU_Mercenaries_U_I_Low_Engineer: TACU_Mercenaries_U_I_Low_Rifleman {
@@ -191,18 +180,6 @@ class TACU_Mercenaries_U_I_Low_Engineer: TACU_Mercenaries_U_I_Low_Rifleman {
         "TACU_Mercenaries_W_Ctar21_Low",
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
-    };
-    magazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
-    };
-    respawnMagazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
     };
     //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Rifleman_Engineer);
 };
@@ -222,18 +199,6 @@ class TACU_Mercenaries_U_I_Low_Demolitions: TACU_Mercenaries_U_I_Low_Rifleman {
         "TACU_Mercenaries_W_Ctar21_Low",
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
-    };
-    magazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
-    };
-    respawnMagazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
     };
     //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Rifleman_Demolitions);
 };
@@ -309,18 +274,6 @@ class TACU_Mercenaries_U_I_Low_TeamLeader: TACU_Mercenaries_U_I_Low_Rifleman {
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
-    magazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
-    };
-    respawnMagazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
-    };
     //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_TeamLeader);
 };
 class TACU_Mercenaries_U_I_Low_SquadLeader: TACU_Mercenaries_U_I_Low_Rifleman {
@@ -368,18 +321,6 @@ class TACU_Mercenaries_U_I_Low_Crewman: TACU_Mercenaries_U_I_Low_Rifleman {
         "TACU_Mercenaries_W_Ctar21_Low",
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
-    };
-    magazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
-    };
-    respawnMagazines[] = {
-        mag_8("TACU_Magazine_30Rnd_STANAG"),
-        mag_2("TACU_Magazine_11Rnd_FNX"),
-        mag_2("HandGrenade"),
-        mag_2("SmokeShell")
     };
     //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Crewman);
 };
