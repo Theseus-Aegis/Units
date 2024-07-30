@@ -1,11 +1,10 @@
-/*
+
 class CfgGroups {
     class EAST {
-        #include "CfgGroups_East.hpp"
+        #include "opfor\CfgGroups_O.hpp"
     };
 
     class INDEP {
-        #include "CfgGroups_Indep.hpp"
+        #include "independent\CfgGroups_I.hpp"
     };
 };
-*/
