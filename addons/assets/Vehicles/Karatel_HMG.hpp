@@ -25,7 +25,7 @@ class TACU_Karatel_HMG_Base: O_MRAP_02_hmg_F {
                 QPATHTOF(data\karatel\karatel_ext_02_sre_co.paa),
                 QPATHTOF(data\turrets\turret_sre_co.paa)
             };
-            factions[] = {"TACU_Seven_Rings_Eastern"};
+            factions[] = {"TACU_Seven_Rings_Eastern", "TACU_Mercenaries_O"};
         };
     };
 
