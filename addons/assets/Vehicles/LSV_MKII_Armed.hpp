@@ -38,7 +38,7 @@ class TACU_LSV_MKII_Armed_Base: O_LSV_02_armed_F {
                 "\a3\weapons_f_tank\launchers\vorona\data\vorona_f_co.paa",
                 "\a3\weapons_f_tank\launchers\vorona\data\vorona_f_co.paa"
             };
-            factions[] = {"TACU_Seven_Rings_Eastern"};
+            factions[] = {"TACU_Seven_Rings_Eastern", "TACU_Mercenaries_O"};
         };
     };
 

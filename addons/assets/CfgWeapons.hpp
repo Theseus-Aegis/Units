@@ -9,6 +9,7 @@ class CfgWeapons {
     #include "Weapons\Eastern_Asia_Vests.hpp"
     #include "Weapons\Eastern_European_Uniforms.hpp"
     #include "Weapons\Foreign_Legion_Vests.hpp"
+    #include "Weapons\Mercenaries_Vests.hpp"
     #include "Weapons\Police_Helmets.hpp"
     #include "Weapons\Police_Uniforms.hpp"
     #include "Weapons\Police_Vests.hpp"

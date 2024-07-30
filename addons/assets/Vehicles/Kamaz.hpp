@@ -54,7 +54,8 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
             factions[] = {
                 "TACU_African_South_B",
                 "TACU_African_South_O",
-                "TACU_African_South_I"
+                "TACU_African_South_I",
+                "TACU_Mercenaries_I"
             };
         };
         class South_African_Tan: South_African_Green {
