@@ -16,4 +16,12 @@ class CfgVehicles {
     #include "independent\CfgVehicles_I_High.hpp"
 
     #include "CfgVehicles_Backpacks.hpp"
+
+    // Vehicles
+    #include "opfor\CfgVehicles_Vehicles_O.hpp"
+    #include "independent\CfgVehicles_Vehicles_I.hpp"
+
+    // Turrets
+    #include "opfor\CfgVehicles_Turrets_O.hpp"
+    #include "independent\CfgVehicles_Turrets_I.hpp"
 };
