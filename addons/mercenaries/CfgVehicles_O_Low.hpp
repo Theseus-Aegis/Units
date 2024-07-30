@@ -1,0 +1,21 @@
+class TACU_Mercenaries_U_O_Low_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
+    author = "Mike";
+    displayName = "Rifleman";
+    faction = "TACU_Mercenaries_O";
+    genericNames = "TACU_IranianNames";
+    icon = "iconMan";
+    identityTypes[] = {"LanguagePER_F", "Head_TK"};
+    role = "Rifleman";
+    scope = 2;
+    scopeCurator = 2;
+    uniformClass = "U_BG_Guerilla2_3";
+    linkedItems[] = {};
+    respawnLinkedItems[] = {};
+    weapons[] = {};
+    respawnWeapons[] = {};
+    magazines[] = {};
+    respawnMagazines[] = {};
+    headgearList[] = {};
+    CBA_facewearList[] = {};
+    //EDITORPREVIEW(TACU_Mercenaries_U_O_Low_Rifleman);
+};
