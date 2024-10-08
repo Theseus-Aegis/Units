@@ -16,13 +16,13 @@ class TACU_Mercenaries_U_O_High_AT: TACU_Mercenaries_U_O_Low_AT {
     MACRO_OPFOR_HIGH_GEAR;
     weapons[] = {
         "launch_RPG32_tan_lxWS",
-        "TACU_Mercenaries_W_HK416_Low",
+        "TACU_Mercenaries_W_HK416_High",
         "TACU_Mercenaries_W_FNX_Sand_High",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "launch_RPG32_tan_lxWS",
-        "TACU_Mercenaries_W_HK416_Low",
+        "TACU_Mercenaries_W_HK416_High",
         "TACU_Mercenaries_W_FNX_Sand_High",
         "Throw", "Put"
     };
