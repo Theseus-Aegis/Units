@@ -209,7 +209,7 @@ class CfgAmmo {
         aiAmmoUsageFlags = "64 + 128 + 256 + 512";
         airLock = 1;
         allowAgainstInfantry = 1;
-        cost = 50; // default 100
+        cost = 75; // default 100
     };
 
     // RPG-42 HE Rocket
