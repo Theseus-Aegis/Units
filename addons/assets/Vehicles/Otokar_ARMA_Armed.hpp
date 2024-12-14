@@ -88,5 +88,17 @@ class TACU_Otokar_ARMA_Armed_Base: O_APC_Wheeled_02_hmg_lxWS {
         "Sand_Desert", 1
     };
 
-    MACRO_EVENTHANDLERS;
+    class EventHandlers: EventHandlers {
+        postInit = "if (local (_this select 0)) then { [_this select 0, '', [], true] call BIS_fnc_initVehicle; };";
+
+        // Gets rid of the weird script that adds agents with no locality checks. (Recheck this after WS Patches)
+        class lxWS {
+            deleted = "";
+            getIn = "";
+            getOut = "";
+            init = "";
+            killed = "";
+            seatSwitched = "";
+        };
+    };
 };
