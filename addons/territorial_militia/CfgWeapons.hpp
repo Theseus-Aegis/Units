@@ -60,18 +60,4 @@ class CfgWeapons {
             };
         };
     };
-
-    class TACU_Territorial_Militia_VSS_PSO: CUP_srifle_VSSVintorez {
-        MACRO_WEAPON_DEFAULTS;
-        class linkedItems {
-            class LinkedItemsOptic {
-                slot = "CUP_DovetailMountVSS";
-                item = "CUP_optic_PSO_1";
-            };
-            class LinkedItemSide {
-                slot = "CUP_PicatinnySideMountVSS";
-                item = "saber_light_lxWS";
-            };
-        };
-    };
 };

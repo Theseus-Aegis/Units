@@ -177,11 +177,11 @@ class TACU_Territorial_Militia_U_O_Marksman_Arid: TACU_Territorial_Militia_U_O_R
     icon = "iconManRecon";
     role = "Marksman";
     weapons[] = {
-        "TACU_Territorial_Militia_VSS_PSO",
+        "CUP_srifle_VSSVintorez_pso",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Territorial_Militia_VSS_PSO",
+        "CUP_srifle_VSSVintorez_pso",
         "Throw", "Put"
     };
     magazines[] = {

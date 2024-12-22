@@ -13,3 +13,13 @@
         "CUP_H_C_Ushanka_03", 0.25, \
         "CUP_H_C_Ushanka_04", 0.25 \
     }
+
+#define MACRO_WOODLAND_TURRETS \
+    editorSubcategory = "TACU_Territorial_Militia_EdSubCat_Turrets_Woodland"; \
+    crew = "TACU_Territorial_Militia_U_O_Crewman_Woodland"; \
+    typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Woodland"}
+
+#define MACRO_WOODLAND_VEHICLES \
+    editorSubcategory = "TACU_Territorial_Militia_EdSubCat_Cars_Woodland"; \
+    crew = "TACU_Territorial_Militia_U_O_Crewman_Woodland"; \
+    typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Woodland"}

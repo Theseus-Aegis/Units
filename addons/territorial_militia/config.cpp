@@ -69,8 +69,7 @@ class CfgPatches {
             "TACU_Territorial_Militia_AKS_OKP7",
             "TACU_Territorial_Militia_AKMN_Kobra",
             "TACU_Territorial_Militia_RPK74_Kobra",
-            "TACU_Territorial_Militia_AKS74_GL",
-            "TACU_Territorial_Militia_VSS_PSO"
+            "TACU_Territorial_Militia_AKS74_GL"
         };
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
