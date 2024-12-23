@@ -42,6 +42,7 @@ class TACU_Territorial_Defence_V_O_RAM_Arid: TACU_Ram1500_Unarmed_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_Arid);
 };
 class TACU_Territorial_Defence_V_O_RAM_HMG_Arid: TACU_Ram1500_HMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -67,6 +68,7 @@ class TACU_Territorial_Defence_V_O_RAM_HMG_Arid: TACU_Ram1500_HMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_HMG_Arid);
 };
 class TACU_Territorial_Defence_V_O_RAM_MMG_Arid: TACU_Ram1500_MMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -92,6 +94,7 @@ class TACU_Territorial_Defence_V_O_RAM_MMG_Arid: TACU_Ram1500_MMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_MMG_Arid);
 };
 
 
