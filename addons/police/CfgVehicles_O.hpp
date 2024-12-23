@@ -1,7 +1,7 @@
 // Units - Police (Counter-Terrorism)
 class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     author = "Kresky";
-    displayName = "Rifleman (AK-15)";
+    displayName = "Rifleman (AS VAL)";
     faction = "TACU_Police_O";
     editorSubcategory = "TACU_Police_EdSubCat_O_CT";
     scope = 2;
@@ -26,23 +26,23 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "TACU_Police_Vest_HeavyPlateCarrier_PoliceGreen"
     };
     weapons[] = {
-        "TACU_Police_W_AK15",
+        "TACU_Police_W_ASVAL",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Police_W_AK15",
+        "TACU_Police_W_ASVAL",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_9("TACU_Magazine_30Rnd_762_AK"),
+        mag_9("TACU_Magazine_30Rnd_SR3M"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_9("TACU_Magazine_30Rnd_762_AK"),
+        mag_9("TACU_Magazine_30Rnd_SR3M"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
@@ -53,25 +53,25 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
 };
 
 class TACU_Police_U_O_CT_SMG_1: TACU_Police_U_O_CT_Rifleman {
-    displayName = "SMG (Scorpion)";
+    displayName = "SMG (Vityaz)";
     weapons[] = {
-        "TACU_Police_W_Scorpion",
+        "TACU_Police_W_Vityaz_Grip",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Police_W_Scorpion",
+        "TACU_Police_W_Vityaz_Grip",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_10("TACU_Magazine_30Rnd_SMG"),
+        mag_10("TACU_Magazine_30Rnd_Vityaz"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_10("TACU_Magazine_30Rnd_SMG"),
+        mag_10("TACU_Magazine_30Rnd_Vityaz"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
@@ -80,25 +80,25 @@ class TACU_Police_U_O_CT_SMG_1: TACU_Police_U_O_CT_Rifleman {
 };
 
 class TACU_Police_U_O_CT_SMG_2: TACU_Police_U_O_CT_Rifleman {
-    displayName = "SMG (CPW)";
+    displayName = "SMG (Vikhr)";
     weapons[] = {
-        "TACU_Police_W_CPW",
+        "TACU_Police_W_Vikhr_Grip",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Police_W_CPW",
+        "TACU_Police_W_Vikhr_Grip",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_30Rnd_SMG"),
+        mag_10("TACU_Magazine_30Rnd_SR3M"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_30Rnd_SMG"),
+        mag_10("TACU_Magazine_30Rnd_SR3M"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
@@ -109,23 +109,23 @@ class TACU_Police_U_O_CT_SMG_2: TACU_Police_U_O_CT_Rifleman {
 class TACU_Police_U_O_CT_Breacher: TACU_Police_U_O_CT_Rifleman {
     displayName = "Breacher";
     weapons[] = {
-        "sgun_HunterShotgun_01_sawedoff_F",
+        "CUP_sgun_Saiga12K",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "sgun_HunterShotgun_01_sawedoff_F",
+        "CUP_sgun_Saiga12K",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("2Rnd_12Gauge_Pellets"),
+        mag_8("CUP_12Rnd_B_Saiga12_Buck_00"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_12("2Rnd_12Gauge_Pellets"),
+        mag_8("CUP_12Rnd_B_Saiga12_Buck_00"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
@@ -136,100 +136,88 @@ class TACU_Police_U_O_CT_Breacher: TACU_Police_U_O_CT_Rifleman {
 class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
     displayName = "Marksman";
     weapons[] = {
-        "TACU_Police_W_QBU",
+        "TACU_Police_W_Dragunov",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Police_W_QBU",
+        "TACU_Police_W_Dragunov",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_12("TACU_Magazine_20Rnd_QBU"), mag_3("TACU_Magazine_17Rnd_Walther")};
-    respawnMagazines[] = {mag_12("TACU_Magazine_20Rnd_QBU"), mag_3("TACU_Magazine_17Rnd_Walther")};
+    magazines[] = {mag_10("TACU_Magazine_10Rnd_VS121"), mag_3("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_10("TACU_Magazine_10Rnd_VS121"), mag_3("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Police_U_O_CT_Marksman);
 };
 
 // Units - Police (Enforcers)
 class TACU_Police_U_O_Enforcer_SMG_1: TACU_Police_U_O_CT_Rifleman {
     editorSubcategory = "TACU_Police_EdSubCat_O_Enforcer";
-    displayName = "SMG (Scorpion)";
-    linkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "H_Beret_blk",
-        "G_Aviator",
-        "TACU_Police_Vest_PlateCarrier_PoliceGreen"
-    };
-    respawnLinkedItems[] = {
-        DEFAULT_ITEMS_RADIO,
-        "H_Beret_blk",
-        "G_Aviator",
-        "TACU_Police_Vest_PlateCarrier_PoliceGreen"
-    };
+    displayName = "SMG (Vityaz)";
     weapons[] = {
-        "SMG_02_F",
+        "CUP_smg_vityaz",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "SMG_02_F",
+        "CUP_smg_vityaz",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_12("TACU_Magazine_30Rnd_SMG"), mag_2("TACU_Magazine_17Rnd_Walther")};
-    respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_SMG"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    magazines[] = {mag_12("TACU_Magazine_30Rnd_Vityaz"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_Vityaz"), mag_2("TACU_Magazine_17Rnd_Walther")};
     headgearList[] = {"H_Beret_blk", 1};
     CBA_facewearList[] = {"G_Aviator", 0.8, "", 0.2};
     EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_1);
 };
 
 class TACU_Police_U_O_Enforcer_SMG_2: TACU_Police_U_O_Enforcer_SMG_1 {
-    displayName = "SMG (CPW)";
+    displayName = "SMG (Bizon)";
     weapons[] = {
-        "hgun_PDW2000_F",
+        "CUP_smg_bizon",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "hgun_PDW2000_F",
+        "CUP_smg_bizon",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_12("TACU_Magazine_30Rnd_SMG"), mag_2("TACU_Magazine_17Rnd_Walther")};
-    respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_SMG"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    magazines[] = {mag_8("TACU_Magazine_64Rnd_Bizon"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_8("TACU_Magazine_64Rnd_Bizon"), mag_2("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_2);
 };
 
 class TACU_Police_U_O_Enforcer_SMG_3: TACU_Police_U_O_Enforcer_SMG_1 {
-    displayName = "Rifleman (AK-15K)";
+    displayName = "SMG (Vikhr)";
     weapons[] = {
-        "arifle_AK12U_F",
+        "CUP_arifle_SR3M_Vikhr",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "arifle_AK12U_F",
+        "CUP_arifle_SR3M_Vikhr",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_12("TACU_Magazine_30Rnd_762_AK"), mag_2("TACU_Magazine_17Rnd_Walther")};
-    respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_762_AK"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    magazines[] = {mag_12("TACU_Magazine_30Rnd_SR3M"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_SR3M"), mag_2("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_3);
 };
 
 class TACU_Police_U_O_Enforcer_Breacher: TACU_Police_U_O_Enforcer_SMG_1 {
     displayName = "Breacher";
     weapons[] = {
-        "sgun_HunterShotgun_01_sawedoff_F",
+        "CUP_sgun_Saiga12K",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "sgun_HunterShotgun_01_sawedoff_F",
+        "CUP_sgun_Saiga12K",
         "hgun_Rook40_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_12("2Rnd_12Gauge_Pellets"), mag_2("TACU_Magazine_17Rnd_Walther")};
-    respawnMagazines[] = {mag_12("2Rnd_12Gauge_Pellets"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    magazines[] = {mag_6("CUP_12Rnd_B_Saiga12_Buck_00"), mag_2("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_6("CUP_12Rnd_B_Saiga12_Buck_00"), mag_2("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Police_U_O_Enforcer_Breacher);
 };

@@ -38,6 +38,10 @@ class CfgPatches {
             "TACU_Police_V_O_Van_Transport_Black"
         };
         weapons[] = {
+            "TACU_Police_W_Dragunov",
+            "TACU_Police_W_ASVAL",
+            "TACU_Police_W_Vikhr_Grip",
+            "TACU_Police_W_Vityaz_Grip",
             "TACU_Police_W_HK416_CQB",
             "TACU_Police_W_HK417_DMR",
             "TACU_Police_W_Tar21",
@@ -49,7 +53,11 @@ class CfgPatches {
             "TACU_Police_W_QBU"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets",};
+        requiredAddons[] = {
+            "tacu_main",
+            "tacu_assets",
+            "CUP_Weapons_LoadOrder"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Kresky", "Mike"};
         url = ECSTRING(main,URL);

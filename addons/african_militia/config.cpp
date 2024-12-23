@@ -9,6 +9,7 @@ class CfgPatches {
             "TACU_African_Militia_B_Demolitions",
             "TACU_African_Militia_B_MG",
             "TACU_African_Militia_B_AT",
+            "TACU_African_Militia_B_AP",
             "TACU_African_Militia_B_Engineer",
             // Opfor Units
             "TACU_African_Militia_U_O_Rifleman",
@@ -19,6 +20,7 @@ class CfgPatches {
             "TACU_African_Militia_U_O_Grenadier",
             "TACU_African_Militia_U_O_Machinegunner",
             "TACU_African_Militia_U_O_AT",
+            "TACU_African_Militia_U_O_AP",
             "TACU_African_Militia_U_O_Repair",
             "TACU_African_Militia_U_O_Marksman",
             "TACU_African_Militia_U_O_Teamleader",
@@ -36,6 +38,7 @@ class CfgPatches {
             "TACU_African_Militia_V_O_MK6",
             "TACU_African_Militia_V_O_HMG",
             "TACU_African_Militia_V_O_ZU23",
+            "TACU_African_Militia_V_O_DSHKM",
             // Independent Units
             "TACU_African_Militia_U_I_Rifleman",
             "TACU_African_Militia_U_I_Rifleman_02",
@@ -45,6 +48,7 @@ class CfgPatches {
             "TACU_African_Militia_U_I_Grenadier",
             "TACU_African_Militia_U_I_Machinegunner",
             "TACU_African_Militia_U_I_AT",
+            "TACU_African_Militia_U_I_AP",
             "TACU_African_Militia_U_I_Repair",
             "TACU_African_Militia_U_I_Marksman",
             "TACU_African_Militia_U_I_Teamleader",
@@ -61,7 +65,8 @@ class CfgPatches {
             // Independent Turrets
             "TACU_African_Militia_V_I_MK6",
             "TACU_African_Militia_V_I_HMG",
-            "TACU_African_Militia_V_I_ZU23"
+            "TACU_African_Militia_V_I_ZU23",
+            "TACU_African_Militia_V_I_DSHKM"
         };
         weapons[] = {
             "TACU_African_Militia_W_Galat",
@@ -73,7 +78,12 @@ class CfgPatches {
             "TACU_African_Militia_W_VS121"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        requiredAddons[] = {
+            "tacu_main",
+            "tacu_assets",
+            "CUP_Weapons_LoadOrder"
+        };
+        skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
