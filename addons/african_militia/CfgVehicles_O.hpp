@@ -156,6 +156,22 @@ class TACU_African_Militia_U_O_AT: TACU_African_Militia_U_O_Rifleman {
     EDITORPREVIEW(TACU_African_Militia_U_O_AT);
 };
 
+class TACU_African_Militia_U_O_AP: TACU_African_Militia_U_O_AT {
+    displayName = "Missile Specialist (AP)";
+    TACU_isAP = 1;
+    backpack = "TACU_African_Militia_B_AP";
+    magazines[] = {
+        "CUP_OG7_M",
+        mag_12("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        "CUP_OG7_M",
+        mag_12("TACU_Magazine_30Rnd_762_AK"),
+        mag_2("SmokeShell")
+    };
+};
+
 class TACU_African_Militia_U_O_Repair: TACU_African_Militia_U_O_Rifleman {
     displayName = "Engineer";
     icon = "iconManEngineer";

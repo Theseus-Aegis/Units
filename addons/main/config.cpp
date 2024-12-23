@@ -18,7 +18,8 @@ class CfgPatches {
             "tacs_units",
             "tacs_weapons",
             // Western Sahara
-            "data_f_lxWS_Loadorder"
+            "data_f_lxWS_Loadorder",
+            "CUP_Weapons_LoadOrder"
         };
         author = CSTRING(Author);
         authors[] = {"Mike", "GilleeDoo"};
@@ -29,3 +30,4 @@ class CfgPatches {
 
 #include "CfgMods.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgWorlds.hpp"

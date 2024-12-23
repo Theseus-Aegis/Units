@@ -16,3 +16,9 @@ class TACU_African_Militia_V_I_ZU23: TACU_African_Militia_V_O_ZU23 {
     crew = "TACU_African_Militia_U_I_Rifleman";
     typicalCargo[] = {"TACU_African_Militia_U_I_Rifleman"};
 };
+class TACU_African_Militia_V_I_DSHKM: TACU_African_Militia_V_O_DSHKM {
+    faction = "TACU_African_Militia_I";
+    side = 2;
+    crew = "TACU_African_Militia_U_I_Rifleman";
+    typicalCargo[] = {"TACU_African_Militia_U_I_Rifleman"};
+};

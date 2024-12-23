@@ -89,7 +89,17 @@ class CfgPatches {
             "TACU_BAF_V_B_Urban_Polaris_Armed",
             "TACU_BAF_V_B_Urban_Polaris_AT",
             // Pilot Unit
-            "TACU_BAF_U_B_Pilot"
+            "TACU_BAF_U_B_Pilot",
+            // Turrets
+            "TACU_BAF_V_B_Arid_L11A1",
+            "TACU_BAF_V_B_Arid_L134A1",
+            "TACU_BAF_V_B_Arid_RBS70",
+            "TACU_BAF_V_B_Tropic_L11A1",
+            "TACU_BAF_V_B_Tropic_L134A1",
+            "TACU_BAF_V_B_Tropic_RBS70",
+            "TACU_BAF_V_B_Urban_L11A1",
+            "TACU_BAF_V_B_Urban_L134A1",
+            "TACU_BAF_V_B_Urban_RBS70"
         };
         weapons[] = {
             "TACU_BAF_W_Arid_HK416A5",
@@ -115,7 +125,7 @@ class CfgPatches {
             "TACU_BAF_W_MP5SD"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo, Mike"};
         url = ECSTRING(main,URL);
