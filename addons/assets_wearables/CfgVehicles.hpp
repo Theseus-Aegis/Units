@@ -527,17 +527,17 @@ class CfgVehicles {
         class Wounds {
             tex[] = {};
             mat[] = {
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_orange.rvmat",
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_orange_wound_01.rvmat",
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_orange_wound_02.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_orange.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_orange_wound_01.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_orange_wound_02.rvmat",
 
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_blue.rvmat",
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_blue_wound_01.rvmat",
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_blue_wound_02.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_blue.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_blue_wound_01.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_blue_wound_02.rvmat",
 
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_olive.rvmat",
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_olive_wound_01.rvmat",
-                "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_olive_wound_02.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_olive.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_olive_wound_01.rvmat",
+                "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_olive_wound_02.rvmat",
 
                 "A3\Characters_F\Common\Data\basicbody.rvmat",
                 "A3\Characters_F\Common\Data\basicbody_injury.rvmat",

@@ -12,7 +12,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-    texture = "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_orange_nohq.paa";
+    texture = "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_orange_nohq.paa";
     uvSource = "tex";
     class uvTransform
     {
@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-    texture = "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_wound_02_co.paa";
+    texture = "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_wound_02_co.paa";
     uvSource = "tex";
     class uvTransform
     {
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-    texture = "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_as.paa";
+    texture = "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_as.paa";
     uvSource = "tex";
     class uvTransform
     {
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-    texture = "x\tacu\addons\assets\data\prison\assets_uniform_prisoner_outfit_smdi.paa";
+    texture = "x\tacu\addons\assets_wearables\data\prison\assets_uniform_prisoner_outfit_smdi.paa";
     uvSource = "tex";
     class uvTransform
     {
