@@ -27,7 +27,7 @@
 #define ECSTRING(var1,var2) QUOTE(TRIPLES($STR,DOUBLES(PREFIX,var1),var2))
 
 // Editor Preview
-#define EDITORPREVIEW(CLASS) editorPreview = QPATHTOEF(assets,previews\CLASS.jpg)
+#define EDITORPREVIEW(CLASS) editorPreview = QPATHTOEF(assets_ui,COMPONENT\CLASS.jpg)
 
 // Magazines
 #define mag_2(a) a, a

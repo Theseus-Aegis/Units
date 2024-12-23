@@ -6,11 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "CUP_Weapons_LoadOrder",
-            "CUP_Creatures_People_LoadOrder"
-        };
+        requiredAddons[] = {"tacu_main", "CUP_Creatures_People_LoadOrder"};
         skipWhenMissingDependencies = 1;
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};

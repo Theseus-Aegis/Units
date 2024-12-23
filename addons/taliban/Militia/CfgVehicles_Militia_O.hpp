@@ -38,6 +38,10 @@ class TACU_Taliban_Militia_U_O_AT: TACU_Taliban_Militia_U_I_AT {
     side = 0;
     faction = "TACU_Taliban_Militia_O";
 };
+class TACU_Taliban_Militia_U_O_AP: TACU_Taliban_Militia_U_I_AP {
+    side = 0;
+    faction = "TACU_Taliban_Militia_O";
+};
 class TACU_Taliban_Militia_U_O_Driver: TACU_Taliban_Militia_U_I_Driver {
     side = 0;
     faction = "TACU_Taliban_Militia_O";

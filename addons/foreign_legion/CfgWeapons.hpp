@@ -6,6 +6,21 @@ class CfgWeapons {
     class LMG_03_F;
     class sgun_aa40_tan_lxWS;
     class SMG_05_F;
+    class CUP_Famas_F1_Rail;
+
+    class TACU_Foreign_Legion_W_FAMAS_Holo: CUP_Famas_F1_Rail {
+        MACRO_WEAPON_DEFAULTS;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_holosight_blk_f);
+        };
+    };
+
+    class TACU_Foreign_Legion_W_FAMAS_Bravo: CUP_Famas_F1_Rail {
+        MACRO_WEAPON_DEFAULTS;
+        class LinkedItems {
+            EQUIP_OPTIC(optic_erco_blk_f);
+        };
+    };
 
     class TACU_Foreign_Legion_W_HK416A5_SB_Holo: arifle_SPAR_01_blk_F {
         MACRO_WEAPON_DEFAULTS;

@@ -1,5 +1,5 @@
 class CfgVehicles {
-    #include "\x\tacu\addons\assets\script_classes_vehicles.hpp"
+    #include "\x\tacu\addons\assets_vehicles\script_classes_vehicles.hpp"
 
     class TACU_Main_U_BLUFOR_Soldier_Base;
 
@@ -14,12 +14,14 @@ class CfgVehicles {
     class B_D_CTRG_Soldier_SG_lxWS;
     class B_D_CTRG_Soldier_TL_lxWS;
 
+    #include "CfgVehicles_Backpacks.hpp"
+
     #include "CfgVehicles_Group12.hpp"
     #include "CfgVehicles_Group13.hpp"
     #include "CfgVehicles_Group14.hpp"
     #include "CfgVehicles_Group15.hpp"
 
-    #include "CfgVehicles_Vehicles.hpp"
+    #include "CfgVehicles_Turrets.hpp"
 
-    #include "CfgVehicles_Backpacks.hpp"
+    #include "CfgVehicles_Vehicles.hpp"
 };

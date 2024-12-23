@@ -30,6 +30,11 @@ class TACU_African_Militia_U_I_AT: TACU_African_Militia_U_O_AT {
     faction = "TACU_African_Militia_I";
     side = 2;
 };
+class TACU_African_Militia_U_I_AP: TACU_African_Militia_U_O_AP {
+    faction = "TACU_African_Militia_I";
+    side = 2;
+};
+
 class TACU_African_Militia_U_I_Repair: TACU_African_Militia_U_O_Repair {
     faction = "TACU_African_Militia_I";
     side = 2;

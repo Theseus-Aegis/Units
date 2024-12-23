@@ -24,23 +24,23 @@ class TACU_Foreign_Legion_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "G_Shades_Black"
     };
     weapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_LB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_LB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
@@ -67,23 +67,23 @@ class TACU_Foreign_Legion_U_B_Demolitions: TACU_Foreign_Legion_U_B_Rifleman {
     engineer = 1;
     canDeactivateMines = 1;
     weapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
@@ -98,23 +98,23 @@ class TACU_Foreign_Legion_U_B_Engineer: TACU_Foreign_Legion_U_B_Rifleman {
     role = "Sapper";
     engineer = 1;
     weapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
@@ -219,23 +219,23 @@ class TACU_Foreign_Legion_U_B_Medic: TACU_Foreign_Legion_U_B_Rifleman {
     attendant = 1;
     backpack = "TACU_Foreign_Legion_B_Medic_AssaultPack";
     weapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
@@ -250,26 +250,26 @@ class TACU_Foreign_Legion_U_B_AT: TACU_Foreign_Legion_U_B_Rifleman {
     backpack = "TACU_Foreign_Legion_B_AT_Carryall";
     weapons[] = {
         "launch_MRAWS_sand_rail_F",
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
         "launch_MRAWS_sand_rail_F",
-        "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
+        "TACU_Foreign_Legion_W_FAMAS_Holo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     magazines[] = {
         "MRAWS_HEAT_F",
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
         "MRAWS_HEAT_F",
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
@@ -331,23 +331,23 @@ class TACU_Foreign_Legion_U_B_TL: TACU_Foreign_Legion_U_B_Rifleman {
     displayName = "Team Leader";
     icon = "iconManLeader";
     weapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_LB_Bravo",
+        "TACU_Foreign_Legion_W_FAMAS_Bravo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "TACU_Foreign_Legion_W_HK416A5_LB_Bravo",
+        "TACU_Foreign_Legion_W_FAMAS_Bravo",
         "hgun_P07_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_30Rnd_STANAG"),
+        mag_12("TACU_Magazine_25Rnd_556_Famas"),
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("HandGrenade"),
         mag_2("SmokeShell")

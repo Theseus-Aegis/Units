@@ -51,23 +51,23 @@ class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
 class TACU_Police_U_B_CT_Breacher: TACU_Police_U_B_CT_Rifleman {
     displayName = "Breacher";
     weapons[] = {
-        "SMG_03C_black",
+        "CUP_sgun_M1014_solidstock",
         "hgun_P07_blk_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "SMG_03C_black",
+        "CUP_sgun_M1014_solidstock",
         "hgun_P07_blk_F",
         "Throw", "Put"
     };
     magazines[] = {
-        mag_12("TACU_Magazine_50Rnd_P90"),
+        mag_12("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
     };
     respawnMagazines[] = {
-        mag_12("TACU_Magazine_50Rnd_P90"),
+        mag_12("CUP_8Rnd_12Gauge_Pellets_No00_Buck"),
         mag_3("TACU_Magazine_17Rnd_Walther"),
         "HandGrenade",
         "SmokeShell"
@@ -93,13 +93,21 @@ class TACU_Police_U_B_CT_Marksman: TACU_Police_U_B_CT_Rifleman {
 };
 
 class TACU_Police_U_B_CT_RiotControl: TACU_Police_U_B_CT_Rifleman {
-    scope = 1;
-    scopeCurator = 1;
     displayName = "Riot Control";
-    weapons[] = {""};
-    respawnWeapons[] = {""};
-    magazines[] = {""};
-    respawnMagazines[] = {""};
+    scope = 2;
+    scopeCurator = 2;
+    weapons[] = {"CUP_hgun_BallisticShield_Armed_M9", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_hgun_BallisticShield_Armed_M9", "Throw", "Put"};
+    magazines[] = {
+        mag_12("TACU_Magazine_15Rnd_M9"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
+    respawnMagazines[] = {
+        mag_12("TACU_Magazine_15Rnd_M9"),
+        mag_2("HandGrenade"),
+        mag_2("SmokeShell")
+    };
     EDITORPREVIEW(TACU_Police_U_B_CT_RiotControl);
 };
 
@@ -178,16 +186,16 @@ class TACU_Police_U_B_Enforcer_SMG_2: TACU_Police_U_B_Enforcer_Rifleman {
 class TACU_Police_U_B_Enforcer_Breacher: TACU_Police_U_B_Enforcer_Rifleman {
     displayName = "Breacher";
     weapons[] = {
-        "SMG_03C_black",
+        "CUP_sgun_M1014_solidstock",
         "hgun_P07_blk_F",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "SMG_03C_black",
+        "CUP_sgun_M1014_solidstock",
         "hgun_P07_blk_F",
         "Throw", "Put"
     };
-    magazines[] = {mag_10("TACU_Magazine_50Rnd_P90"), mag_3("TACU_Magazine_17Rnd_Walther")};
-    respawnMagazines[] = {mag_10("TACU_Magazine_50Rnd_P90"), mag_3("TACU_Magazine_17Rnd_Walther")};
+    magazines[] = {mag_10("CUP_8Rnd_12Gauge_Pellets_No00_Buck"), mag_3("TACU_Magazine_17Rnd_Walther")};
+    respawnMagazines[] = {mag_10("CUP_8Rnd_12Gauge_Pellets_No00_Buck"), mag_3("TACU_Magazine_17Rnd_Walther")};
     EDITORPREVIEW(TACU_Police_U_B_Enforcer_Breacher);
 };

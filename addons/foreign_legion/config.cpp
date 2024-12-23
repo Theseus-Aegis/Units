@@ -81,6 +81,8 @@ class CfgPatches {
             "TACU_Foreign_Legion_V_I_Mini_Spike_AT"
         };
         weapons[] = {
+            "TACU_Foreign_Legion_W_FAMAS_Holo",
+            "TACU_Foreign_Legion_W_FAMAS_Bravo",
             "TACU_Foreign_Legion_W_HK416A5_SB_Holo",
             "TACU_Foreign_Legion_W_HK416A5_GL_Holo",
             "TACU_Foreign_Legion_W_HK416A5_LB_Holo",
@@ -91,7 +93,7 @@ class CfgPatches {
             "TACU_Foreign_Legion_W_MP5"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);
