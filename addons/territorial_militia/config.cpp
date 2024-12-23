@@ -74,8 +74,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "tacu_main",
-            "tacu_assets",
-            "CUP_Weapons_LoadOrder",
+            "tacu_assets_vehicles",
             "CUP_Creatures_People_LoadOrder"
         };
         skipWhenMissingDependencies = 1;

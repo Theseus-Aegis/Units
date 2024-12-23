@@ -62,7 +62,7 @@ class TACU_Territorial_Militia_V_O_Kamaz_Transport_Arid: TACU_Kamaz_Covered_Base
     side = 0;
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
-    textureList[] = {"Brown", 1};
+    textureList[] = {"Seven_Rings_East", 1};
 };
 
 class TACU_Territorial_Militia_V_O_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
@@ -72,7 +72,7 @@ class TACU_Territorial_Militia_V_O_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
     side = 0;
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
-    textureList[] = {"Brown", 1};
+    textureList[] = {"Seven_Rings_East", 1};
     animationList[] = {
         "shield_hide", 0,
         "hideCrates", 0,

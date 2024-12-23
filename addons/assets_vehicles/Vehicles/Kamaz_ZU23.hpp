@@ -52,7 +52,7 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
                 "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_co.paa",
                 "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
             };
-            factions[] = {"TACU_Seven_Rings_Eastern"};
+            factions[] = {};
         };
         class Seven_Rings_West: Seven_Rings_East {
             displayName = "Seven Rings West";
@@ -67,7 +67,7 @@ class TACU_Kamaz_ZU23_Base: I_A_Truck_02_aa_lxWS {
                 "lxws\vehicles_f_lxws\zu23\data\zu23_addon_2_green_co.paa",
                 "lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
             };
-            factions[] = {"TACU_Seven_Rings_Western"};
+            factions[] = {};
         };
     };
 
