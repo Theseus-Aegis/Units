@@ -260,12 +260,7 @@ class CfgPatches {
             "TACU_UN_W_SCARH_MR_Tan"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "tacu_assets",
-            "CUP_Weapons_LoadOrder"
-        };
-        skipWhenMissingDependencies = 1;
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);

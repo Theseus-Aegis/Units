@@ -78,7 +78,7 @@ class CfgPatches {
             "TACU_Vanguard_V_PlateCarrier_Snow"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main"};
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike, GilleeDoo"};
         url = ECSTRING(main,URL);

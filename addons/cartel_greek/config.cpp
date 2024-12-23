@@ -54,12 +54,7 @@ class CfgPatches {
             "TACU_Cartel_Greek_W_hgun_MP7"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "tacu_assets",
-            "CUP_Weapons_LoadOrder"
-        };
-        skipWhenMissingDependencies = 1;
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);

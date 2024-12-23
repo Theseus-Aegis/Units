@@ -1,5 +1,5 @@
 class CfgVehicles {
-    #include "\x\tacu\addons\assets\script_classes_vehicles.hpp"
+    #include "\x\tacu\addons\assets_vehicles\script_classes_vehicles.hpp"
 
     class TACU_Main_U_BLUFOR_Soldier_Base;
     class O_SFIA_APC_Wheeled_02_unarmed_lxWS;

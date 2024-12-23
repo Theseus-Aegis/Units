@@ -125,12 +125,7 @@ class CfgPatches {
             "TACU_BAF_W_MP5SD"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "tacu_assets",
-            "CUP_Weapons_LoadOrder"
-        };
-        skipWhenMissingDependencies = 1;
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"GilleeDoo, Mike"};
         url = ECSTRING(main,URL);

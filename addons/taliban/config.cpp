@@ -30,6 +30,9 @@ class CfgPatches {
             "TACU_Taliban_Militia_V_I_Offroad_Unarmed",
             "TACU_Taliban_Militia_V_I_Offroad_HMG",
             "TACU_Taliban_Militia_V_I_Offroad_AT",
+            "TACU_Taliban_Militia_V_I_Pickup_Unarmed",
+            "TACU_Taliban_Militia_V_I_Pickup_HMG",
+            "TACU_Taliban_Militia_V_I_Pickup_MMG",
             // Turrets - Independent
             "TACU_Taliban_Militia_V_I_ZU23",
             "TACU_Taliban_Militia_V_I_AGS30",
@@ -59,6 +62,9 @@ class CfgPatches {
             "TACU_Taliban_Militia_V_O_Offroad_Unarmed",
             "TACU_Taliban_Militia_V_O_Offroad_HMG",
             "TACU_Taliban_Militia_V_O_Offroad_AT",
+            "TACU_Taliban_Militia_V_O_Pickup_Unarmed",
+            "TACU_Taliban_Militia_V_O_Pickup_HMG",
+            "TACU_Taliban_Militia_V_O_Pickup_MMG",
             // Turrets - Opfor
             "TACU_Taliban_Militia_V_O_ZU23",
             "TACU_Taliban_Militia_V_O_AGS30",
@@ -90,6 +96,12 @@ class CfgPatches {
             "TACU_Taliban_Veterans_V_I_Offroad_Unarmed_UP",
             "TACU_Taliban_Veterans_V_I_Offroad_HMG_UP",
             "TACU_Taliban_Veterans_V_I_Offroad_AT_UP",
+            "TACU_Taliban_Veterans_V_I_Pickup_Unarmed",
+            "TACU_Taliban_Veterans_V_I_Pickup_unarmed_UP",
+            "TACU_Taliban_Veterans_V_I_Pickup_HMG",
+            "TACU_Taliban_Veterans_V_I_Pickup_HMG_UP",
+            "TACU_Taliban_Veterans_V_I_Pickup_MMG",
+            "TACU_Taliban_Veterans_V_I_Pickup_MMG_UP",
             // Turrets - Independent
             "TACU_Taliban_Veterans_V_I_ZU23",
             "TACU_Taliban_Veterans_V_I_AGS30",
@@ -121,6 +133,12 @@ class CfgPatches {
             "TACU_Taliban_Veterans_V_O_Offroad_Unarmed_UP",
             "TACU_Taliban_Veterans_V_O_Offroad_HMG_UP",
             "TACU_Taliban_Veterans_V_O_Offroad_AT_UP",
+            "TACU_Taliban_Veterans_V_O_Pickup_Unarmed",
+            "TACU_Taliban_Veterans_V_O_Pickup_unarmed_UP",
+            "TACU_Taliban_Veterans_V_O_Pickup_HMG",
+            "TACU_Taliban_Veterans_V_O_Pickup_HMG_UP",
+            "TACU_Taliban_Veterans_V_O_Pickup_MMG",
+            "TACU_Taliban_Veterans_V_O_Pickup_MMG_UP",
             // Turrets - Opfor
             "TACU_Taliban_Veterans_V_O_ZU23",
             "TACU_Taliban_Veterans_V_O_AGS30",
@@ -141,12 +159,7 @@ class CfgPatches {
             "TACU_Taliban_Veterans_W_SA77"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "tacu_assets",
-            "CUP_Weapons_LoadOrder"
-        };
-        skipWhenMissingDependencies = 1;
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);

@@ -180,7 +180,7 @@ class CfgPatches {
             "TACU_Vanguard_W_Specialists_Rook"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_assets"};
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);

@@ -34,6 +34,9 @@ class CfgPatches {
             "TACU_African_Militia_V_O_Truck",
             "TACU_African_Militia_V_O_Kamaz",
             "TACU_African_Militia_V_O_Kamaz_ZU23",
+            "TACU_African_Militia_V_O_Pickup_Unarmed",
+            "TACU_African_Militia_V_O_Pickup_HMG",
+            "TACU_African_Militia_V_O_Pickup_MMG",
             // Opfor Turrets
             "TACU_African_Militia_V_O_MK6",
             "TACU_African_Militia_V_O_HMG",
@@ -62,6 +65,9 @@ class CfgPatches {
             "TACU_African_Militia_V_I_Truck",
             "TACU_African_Militia_V_I_Kamaz",
             "TACU_African_Militia_V_I_Kamaz_ZU23",
+            "TACU_African_Militia_V_I_Pickup_Unarmed",
+            "TACU_African_Militia_V_I_Pickup_HMG",
+            "TACU_African_Militia_V_I_Pickup_MMG",
             // Independent Turrets
             "TACU_African_Militia_V_I_MK6",
             "TACU_African_Militia_V_I_HMG",
@@ -78,12 +84,7 @@ class CfgPatches {
             "TACU_African_Militia_W_VS121"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "tacu_assets",
-            "CUP_Weapons_LoadOrder"
-        };
-        skipWhenMissingDependencies = 1;
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);

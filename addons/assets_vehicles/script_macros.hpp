@@ -1,4 +1,4 @@
-//#define DEBUG_MODE_FULL
+#define DEBUG_MODE_FULL
 
 #ifdef DEBUG_MODE_FULL
     #define MACRO_DEFAULT_VEHICLE \

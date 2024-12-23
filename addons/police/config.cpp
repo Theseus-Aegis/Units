@@ -53,11 +53,7 @@ class CfgPatches {
             "TACU_Police_W_QBU"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "tacu_main",
-            "tacu_assets",
-            "CUP_Weapons_LoadOrder"
-        };
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Kresky", "Mike"};
         url = ECSTRING(main,URL);

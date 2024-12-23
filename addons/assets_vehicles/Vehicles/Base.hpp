@@ -60,6 +60,9 @@ class Truck_03_base_F;
 class Van_02_transport_base_F;
 class Van_02_vehicle_base_F;
 
+// RF Base
+class Offroad_01_unarmed_base_F;
+
 // Turrets - Vanilla
 class B_G_HMG_02_high_F;
 class B_G_Mortar_01_F;

@@ -75,6 +75,11 @@ class TACU_Wiesel_Armed_Base;
 class TACU_Wildcat_Armed_Base;
 class TACU_Wildcat_Base;
 
+// RF
+class TACU_Ram1500_HMG_Base;
+class TACU_Ram1500_MMG_Base;
+class TACU_Ram1500_Unarmed_Base;
+
 // Turrets - Vanilla
 class TACU_Assets_HMG_50;
 class TACU_Assets_HMG_50_Low;

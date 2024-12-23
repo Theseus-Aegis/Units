@@ -10,7 +10,7 @@ class CfgPatches {
             "TACU_Assets_W_HK417A2_Arid"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main"};
+        requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike, GilleeDoo"};
         url = ECSTRING(main,URL);

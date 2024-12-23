@@ -62,6 +62,9 @@ class CfgPatches {
             "TACU_Polaris_Armed_Base",
             "TACU_Polaris_Unarmed_Base",
             "TACU_RAH66_Comanche_Base",
+            "TACU_Ram1500_HMG_Base",
+            "TACU_Ram1500_MMG_Base",
+            "TACU_Ram1500_Unarmed_Base",
             "TACU_Rooikat_Base",
             "TACU_Rooikat_UP_Base",
             "TACU_Speedboat_Minigun_Base",
@@ -105,7 +108,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "CUP_Weapons_LoadOrder"};
+        requiredAddons[] = {"tacu_main", "RF_Data_Loadorder"};
         author = ECSTRING(main,Author);
         authors[] = {"Mike, GilleeDoo"};
         url = ECSTRING(main,URL);
