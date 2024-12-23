@@ -73,7 +73,7 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
                 QPATHTOF(data\kamaz\truck_02_kuz_sre_co.paa),
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {"TACU_Seven_Rings_Eastern"};
+            factions[] = {};
         };
         class Seven_Rings_West: South_African_Green {
             displayName = "Seven Rings West";
@@ -82,7 +82,7 @@ class TACU_Kamaz_Base: I_Truck_02_transport_F {
                 QPATHTOF(data\kamaz\truck_02_kuz_srw_co.paa),
                 "\a3\soft_f_beta\truck_02\data\truck_02_int_co.paa"
             };
-            factions[] = {"TACU_Seven_Rings_Western"};
+            factions[] = {};
         };
     };
 
