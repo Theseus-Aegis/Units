@@ -6,6 +6,7 @@ class TACU_Vanguard_G_Contractors_Winter {
         side = 0;
         faction = "TACU_Vanguard_O";
         icon = "\a3\ui_f\data\map\markers\nato\o_inf.paa";
+        __COUNTER_RESET__
         GROUP_UNIT(TACU_Vanguard_U_O_Contractor_Winter_Rifleman_01,0);
         GROUP_UNIT(TACU_Vanguard_U_O_Contractor_Winter_Rifleman_02,0);
     };
