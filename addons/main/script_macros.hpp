@@ -155,67 +155,37 @@
     item = #BIPOD; \
 }
 
-// Group Macros
-#define MACRO_UNIT0(UNIT,SIDE) \
-    class unit0 { \
+// Group Macro, Requires __COUNTER_RESET__ before each use.
+#define GROUP_UNIT(UNIT,SIDE) __GROUP_UNIT(__COUNTER__,UNIT,SIDE)
+
+#define __GROUP_UNIT(COUNTER,UNIT,SIDE) \
+    class unit##COUNTER { \
         vehicle = #UNIT; \
         side = SIDE; \
+        #if COUNTER == 0 \
         rank = "SERGEANT"; \
-        position[] = {0, 0, 0}; \
-    }
-
-#define MACRO_UNIT1(UNIT,SIDE) \
-    class unit1 { \
-        vehicle = #UNIT; \
-        side = SIDE; \
-        rank = "PRIVATE"; \
-        position[] = {5, -5, 0}; \
-    }
-
-#define MACRO_UNIT2(UNIT,SIDE) \
-    class unit2 { \
-        vehicle = #UNIT; \
-        side = SIDE; \
+        #else \
+        #if COUNTER == 2 \
         rank = "SERGEANT"; \
-        position[] = {-5, -5, 0}; \
-    }
-
-#define MACRO_UNIT3(UNIT,SIDE) \
-    class unit3 { \
-        vehicle = #UNIT; \
-        side = SIDE; \
+        #else \
+        #if COUNTER == 3 \
         rank = "CORPORAL"; \
-        position[] = {10, -10, 0}; \
-    }
-
-#define MACRO_UNIT4(UNIT,SIDE) \
-    class unit4 { \
-        vehicle = #UNIT; \
-        side = SIDE; \
-        rank = "PRIVATE"; \
-        position[] = {-10, -10, 0}; \
-    }
-
-#define MACRO_UNIT5(UNIT,SIDE) \
-    class unit5 { \
-        vehicle = #UNIT; \
-        side = SIDE; \
+        #else \
+        #if COUNTER == 5 \
         rank = "SERGEANT"; \
-        position[] = {15, -15, 0}; \
-    }
-
-#define MACRO_UNIT6(UNIT,SIDE) \
-    class unit6 { \
-        vehicle = #UNIT; \
-        side = SIDE; \
+        #else \
+        #if COUNTER == 6 \
         rank = "CORPORAL"; \
-        position[] = {-15, -15, 0}; \
-    }
-
-#define MACRO_UNIT7(UNIT,SIDE) \
-    class unit7 { \
-        vehicle = #UNIT; \
-        side = SIDE; \
+        #else \
         rank = "PRIVATE"; \
-        position[] = {20, -20, 0}; \
+        #endif \
+        #endif \
+        #endif \
+        #endif \
+        #endif \
+        position[] = { \
+            QUOTE(5 * floor ((COUNTER + 1) / 2) * (-1 ^ (COUNTER + 1))), \
+            QUOTE(-5 * floor ((COUNTER + 1) / 2)), \
+            0 \
+        }; \
     }
