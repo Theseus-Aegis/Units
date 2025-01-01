@@ -1,4 +1,4 @@
-class TACU_African_South_V_B_MK6: TACU_Assets_MK6_Base {
+class TACU_African_South_V_B_MK6: TACU_MK6_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
@@ -19,7 +19,7 @@ class TACU_African_South_V_O_MK6: TACU_African_South_V_B_MK6 {
     typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
 };
 
-class TACU_African_South_V_B_HMG_50: TACU_Assets_HMG_50 {
+class TACU_African_South_V_B_HMG_50: TACU_HMG_50 {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
@@ -40,7 +40,7 @@ class TACU_African_South_V_O_HMG_50: TACU_African_South_V_B_HMG_50 {
     typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
 };
 
-class TACU_African_South_V_B_HMG_50_Low: TACU_Assets_HMG_50_Low {
+class TACU_African_South_V_B_HMG_50_Low: TACU_HMG_50_Low {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
@@ -61,7 +61,7 @@ class TACU_African_South_V_O_HMG_50_Low: TACU_African_South_V_B_HMG_50_Low {
     typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
 };
 
-class TACU_African_South_V_B_Mini_Spike_Green: TACU_Assets_Mini_Spike_AT {
+class TACU_African_South_V_B_Mini_Spike_Green: TACU_Mini_Spike_AT {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
@@ -83,7 +83,7 @@ class TACU_African_South_V_O_Mini_Spike_Green: TACU_African_South_V_B_Mini_Spike
     typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
 };
 
-class TACU_African_South_V_B_ZU23: TACU_Assets_ZU23_base {
+class TACU_African_South_V_B_ZU23: TACU_ZU23_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
@@ -104,7 +104,7 @@ class TACU_African_South_V_O_ZU23: TACU_African_South_V_B_ZU23 {
     crew = "TACU_African_South_U_O_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
 };
-class TACU_African_South_V_B_D30: TACU_Assets_D30_base {
+class TACU_African_South_V_B_D30: TACU_D30_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
@@ -125,7 +125,7 @@ class TACU_African_South_V_O_D30: TACU_African_South_V_B_D30 {
     typicalCargo[] = {"TACU_African_South_U_O_Rifleman"};
 };
 
-class TACU_African_South_V_B_FIM92: TACU_Assets_FIM92_base {
+class TACU_African_South_V_B_FIM92: TACU_FIM92_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_South_B";
     side = 1;
