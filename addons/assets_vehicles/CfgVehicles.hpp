@@ -1,5 +1,6 @@
 class CfgVehicles {
-    #include "Vehicles\Base.hpp"
+    #include "Vehicles\baseclasses.hpp"
+    #include "Vehicles_CUP\baseclasses.hpp"
 
     #ifdef DEBUG_MODE_FULL
         #include "Vehicles\Test_Unit.hpp"
@@ -76,6 +77,18 @@ class CfgVehicles {
     #include "Vehicles\Wiesel_Armed_AT.hpp"
     #include "Vehicles\Wildcat_Armed.hpp"
     #include "Vehicles\Wildcat_Unarmed.hpp"
+
+    // CUP Vehicles
+    #include "Vehicles_CUP\BMP-2.hpp"
+    #include "Vehicles_CUP\BMP-3.hpp"
+    #include "Vehicles_CUP\BRDM-2.hpp"
+    #include "Vehicles_CUP\BTR-80.hpp"
+    #include "Vehicles_CUP\BTR-90.hpp"
+    #include "Vehicles_CUP\GAZ-233011.hpp"
+    #include "Vehicles_CUP\GAZ-233114.hpp"
+    #include "Vehicles_CUP\Mi-8.hpp"
+    #include "Vehicles_CUP\RHIB.hpp"
+    #include "Vehicles_CUP\Ural.hpp"
 
     // Turrets
     #include "Vehicles\Turrets.hpp"

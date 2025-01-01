@@ -75,10 +75,29 @@ class TACU_Wiesel_Armed_Base;
 class TACU_Wildcat_Armed_Base;
 class TACU_Wildcat_Base;
 
-// RF
+// Vehicles - RF
 class TACU_Ram1500_HMG_Base;
 class TACU_Ram1500_MMG_Base;
 class TACU_Ram1500_Unarmed_Base;
+
+// Vehicles - CUP
+class TACU_BMP2_Base;
+class TACU_BMP2K_Base;
+class TACU_BMP3_Base;
+class TACU_BRDM2_Base;
+class TACU_BTR80_Base;
+class TACU_BTR80A_Base;
+class TACU_BTR90_Base;
+class TACU_BTR90_HQ_Base;
+class TACU_Mi8_Base;
+class TACU_Mi8_MTV3_Base;
+class TACU_RHIB_Base;
+class TACU_RHIB_MK19;
+class TACU_TIGR_233011_Base;
+class TACU_TIGR_233114_KORD_Base;
+class TACU_TIGR_233114_PK_Base;
+class TACU_Ural_Base;
+class TACU_Ural_Open_Base;
 
 // Turrets - Vanilla
 class TACU_Assets_HMG_50;
