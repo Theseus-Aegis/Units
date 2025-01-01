@@ -1,3 +1,4 @@
+// These have to manually set hiddenSelectionsTextures because for some reason the vehicles just refuse to set them.
 // GAZ-233114 KORD
 class CUP_Tigr_233114_KORD_Base: CUP_Tigr_M_KORD_Base {
     class EventHandlers;

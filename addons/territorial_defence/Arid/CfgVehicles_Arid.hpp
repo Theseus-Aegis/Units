@@ -275,3 +275,8 @@ class TACU_Territorial_Defence_U_O_TeamLeader_Arid: TACU_Territorial_Defence_U_O
 class TACU_Territorial_Defence_U_O_Crewman_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     displayName = "Crewman";
 };
+class TACU_Territorial_Militia_U_O_Pilot_Arid;
+class TACU_Territorial_Defence_U_O_Pilot_Arid: TACU_Territorial_Militia_U_O_Pilot_Arid {
+    editorSubcategory = "TACU_Territorial_Defence_EdSubCat_Arid";
+    faction = "TACU_Territorial_Defence_O";
+};

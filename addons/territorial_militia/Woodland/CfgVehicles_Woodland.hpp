@@ -49,3 +49,8 @@ class TACU_Territorial_Militia_U_O_TeamLeader_Woodland: TACU_Territorial_Militia
 class TACU_Territorial_Militia_U_O_Crewman_Woodland: TACU_Territorial_Militia_U_O_Crewman_Arid {
     MACRO_WOODLAND_MILITIA;
 };
+class TACU_Territorial_Militia_U_O_Pilot_Woodland: TACU_Territorial_Militia_U_O_Pilot_Arid {
+    identityTypes[] = {"LanguageRUS_F", "Head_Euro", "Head_Russian"};
+    editorSubcategory = "TACU_Territorial_Militia_EdSubCat_Woodland";
+    //EDITORPREVIEW(TACU_Territorial_Militia_U_O_Pilot_Woodland);
+};

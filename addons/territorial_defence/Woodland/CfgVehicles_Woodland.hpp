@@ -50,3 +50,8 @@ class TACU_Territorial_Defence_U_O_Crewman_Woodland: TACU_Territorial_Defence_U_
     MACRO_WOODLAND_DEFENCE;
     //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Crewman_Woodland);
 };
+class TACU_Territorial_Militia_U_O_Pilot_Woodland;
+class TACU_Territorial_Defence_U_O_Pilot_Woodland: TACU_Territorial_Militia_U_O_Pilot_Woodland {
+    editorSubcategory = "TACU_Territorial_Defence_EdSubCat_Woodland";
+    faction = "TACU_Territorial_Defence_O";
+};

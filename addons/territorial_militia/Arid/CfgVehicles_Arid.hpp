@@ -273,3 +273,15 @@ class TACU_Territorial_Militia_U_O_TeamLeader_Arid: TACU_Territorial_Militia_U_O
 class TACU_Territorial_Militia_U_O_Crewman_Arid: TACU_Territorial_Militia_U_O_Rifleman_Arid {
     displayName = "Crewman";
 };
+class TACU_Territorial_Militia_U_O_Pilot_Arid: TACU_Territorial_Militia_U_O_Rifleman_Arid {
+    displayName = "Pilot";
+    uniformClass = "CUP_U_I_RACS_PilotOverall";
+    linkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_RUS_ZSH_Shield_Down"};
+    respawnLinkedItems[] = {DEFAULT_ITEMS_RADIO, "CUP_H_RUS_ZSH_Shield_Down"};
+    weapons[] = {"CUP_smg_vityaz", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_smg_vityaz", "Throw", "Put"};
+    magazines[] = {mag_2("CUP_30Rnd_9x19AP_Vityaz"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_2("CUP_30Rnd_9x19AP_Vityaz"), mag_2("SmokeShell")};
+    headgearList[] = {};
+    //EDITORPREVIEW(TACU_Territorial_Militia_U_O_Pilot_Arid);
+};
