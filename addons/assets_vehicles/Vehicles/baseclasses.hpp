@@ -1,4 +1,5 @@
 // Vehicles
+class APC_Tracked_02_base_F;
 class APC_Wheeled_02_base_v2_F;
 class APC_Wheeled_02_hmg_base_lxws;
 class APC_Wheeled_02_unarmed_base_lxws;
@@ -7,6 +8,7 @@ class afv_wheeled_01_up_base_F;
 class B_APC_Tracked_01_base_F;
 class B_APC_Wheeled_01_base_F;
 class Boat_Armed_01_base_F;
+class Car_F;
 class Helicopter_Base_H;
 class Heli_Attack_01_dynamicLoadout_base_F;
 class Heli_Light_01_dynamicLoadout_base_F;

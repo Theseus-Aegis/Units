@@ -1,0 +1,10 @@
+class CUP_B_M113A1_USA: CUP_M113A1_Base {
+    class EventHandlers;
+};
+
+class TACU_M113A1_Base: CUP_B_M113A1_USA {
+    MACRO_CLEAR_VEHICLE_CARGO;
+    MACRO_DEFAULT_CUP_VEHICLE;
+
+    MACRO_EVENTHANDLERS;
+};
