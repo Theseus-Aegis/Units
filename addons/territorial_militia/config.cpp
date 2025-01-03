@@ -24,6 +24,7 @@ class CfgPatches {
             "TACU_Territorial_Militia_U_O_SquadLeader_Arid",
             "TACU_Territorial_Militia_U_O_TeamLeader_Arid",
             "TACU_Territorial_Militia_U_O_Crewman_Arid",
+            "TACU_Territorial_Militia_U_O_Pilot_Arid",
             // Units - Woodland
             "TACU_Territorial_Militia_U_O_Rifleman_Woodland",
             "TACU_Territorial_Militia_U_O_Rifleman02_Woodland",
@@ -38,6 +39,7 @@ class CfgPatches {
             "TACU_Territorial_Militia_U_O_SquadLeader_Woodland",
             "TACU_Territorial_Militia_U_O_TeamLeader_Woodland",
             "TACU_Territorial_Militia_U_O_Crewman_Woodland",
+            "TACU_Territorial_Militia_U_O_Pilot_Woodland",
             // Turrets - Arid
             "TACU_Territorial_Militia_V_O_AGS30_Arid",
             "TACU_Territorial_Militia_V_O_DSHKM_Arid",
@@ -57,13 +59,18 @@ class CfgPatches {
             "TACU_Territorial_Militia_V_O_Offroad_M2_Arid",
             "TACU_Territorial_Militia_V_O_Truck_Arid",
             "TACU_Territorial_Militia_V_O_Kamaz_Transport_Arid",
-            "TACU_Territorial_Militia_V_O_Kamaz_ZU23",
+            "TACU_Territorial_Militia_V_O_Kamaz_ZU23_Arid",
+            "TACU_Territorial_Militia_V_O_GAZ_233011_Arid",
+            "TACU_Territorial_Militia_V_O_Mi8_Arid",
             // Vehicles - Woodland
             "TACU_Territorial_Militia_V_O_Offroad_Unarmed_Woodland",
             "TACU_Territorial_Militia_V_O_Offroad_M2_Woodland",
             "TACU_Territorial_Militia_V_O_Truck_Woodland",
             "TACU_Territorial_Militia_V_O_Kamaz_Transport_Woodland",
-            "TACU_Territorial_Militia_V_O_Kamaz_Woodland"
+            "TACU_Territorial_Militia_V_O_Kamaz_ZU23_Woodland",
+            "TACU_Territorial_Militia_V_O_GAZ_233011_Woodland",
+            "TACU_Territorial_Militia_V_O_Mi8_Woodland",
+            "TACU_Territorial_Defence_V_O_Mi8_MTV3_Woodland"
         };
         weapons[] = {
             "TACU_Territorial_Militia_AKS_OKP7",

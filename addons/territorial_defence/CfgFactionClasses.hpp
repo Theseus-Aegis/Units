@@ -13,11 +13,23 @@ class CfgEditorSubcategories {
     class TACU_Territorial_Defence_EdSubCat_Woodland {
         displayName = "Men (Woodland)";
     };
+    class TACU_Territorial_Defence_EdSubCat_APCs_Arid {
+        displayName = "APCs (Arid)";
+    };
+    class TACU_Territorial_Defence_EdSubCat_APCs_Woodland {
+        displayName = "APCs (Woodland)";
+    };
     class TACU_Territorial_Defence_EdSubCat_Cars_Arid {
         displayName = "Cars (Arid)";
     };
     class TACU_Territorial_Defence_EdSubCat_Cars_Woodland {
         displayName = "Cars (Woodland)";
+    };
+    class TACU_Territorial_Defence_EdSubCat_Helicopters_Arid {
+        displayName = "Helicopters (Arid)";
+    };
+    class TACU_Territorial_Defence_EdSubCat_Helicopters_Woodland {
+        displayName = "Helicopters (Woodland)";
     };
     class TACU_Territorial_Defence_EdSubCat_Turrets_Arid {
         displayName = "Turrets (Arid)";

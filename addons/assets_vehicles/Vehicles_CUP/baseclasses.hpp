@@ -1,0 +1,15 @@
+class CUP_BMP1_base;
+class CUP_BTR80_Common_Base;
+class CUP_Hilux_Base;
+class CUP_HMMWV_M2_GPK_Base;
+class CUP_leopard_1A3_base;
+class CUP_M113A1_Base;
+class CUP_M113A3_Base;
+class CUP_M1Abramcs_M1A1SA_Base;
+class CUP_Tigr_Base;
+class CUP_Tigr_M_KORD_Base;
+class CUP_Tigr_M_PK_Base;
+class CUP_UAZ_MG_Base;
+class CUP_UAZ_Open_Base;
+class CUP_UAZ_Unarmed_Base;
+class CUP_Ural_BaseTurret;

@@ -1,5 +1,5 @@
 // MK6 Mortar
-class TACU_Mercenaries_V_O_Low_MK6: TACU_Assets_MK6_Base  {
+class TACU_Mercenaries_V_O_Low_MK6: TACU_MK6_Base  {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Mercenaries_O";
     editorSubcategory = "TACU_Mercenaries_EdSubCat_Turrets_Low";
@@ -19,7 +19,7 @@ class TACU_Mercenaries_V_O_High_MK6: TACU_Mercenaries_V_O_Low_MK6 {
 };
 
 // HMG .50
-class TACU_Mercenaries_V_O_Low_HMG_50: TACU_Assets_HMG_50 {
+class TACU_Mercenaries_V_O_Low_HMG_50: TACU_HMG_50 {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Mercenaries_O";
     editorSubcategory = "TACU_Mercenaries_EdSubCat_Turrets_Low";
@@ -39,7 +39,7 @@ class TACU_Mercenaries_V_O_High_HMG_50: TACU_Mercenaries_V_O_Low_HMG_50 {
 };
 
 // Mini-Spike AT
-class TACU_Mercenaries_V_O_Low_Mini_Spike_AT: TACU_Assets_Mini_Spike_AT {
+class TACU_Mercenaries_V_O_Low_Mini_Spike_AT: TACU_Mini_Spike_AT {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Mercenaries_O";
     editorSubcategory = "TACU_Mercenaries_EdSubCat_Turrets_Low";
@@ -60,7 +60,7 @@ class TACU_Mercenaries_V_O_High_Mini_Spike_AT: TACU_Mercenaries_V_O_Low_Mini_Spi
 };
 
 // ZU-23
-class TACU_Mercenaries_V_O_Low_ZU23: TACU_Assets_ZU23_base {
+class TACU_Mercenaries_V_O_Low_ZU23: TACU_ZU23_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Mercenaries_O";
     editorSubcategory = "TACU_Mercenaries_EdSubCat_Turrets_Low";

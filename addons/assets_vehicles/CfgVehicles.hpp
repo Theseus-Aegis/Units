@@ -1,5 +1,6 @@
 class CfgVehicles {
-    #include "Vehicles\Base.hpp"
+    #include "Vehicles\baseclasses.hpp"
+    #include "Vehicles_CUP\baseclasses.hpp"
 
     #ifdef DEBUG_MODE_FULL
         #include "Vehicles\Test_Unit.hpp"
@@ -76,6 +77,37 @@ class CfgVehicles {
     #include "Vehicles\Wiesel_Armed_AT.hpp"
     #include "Vehicles\Wildcat_Armed.hpp"
     #include "Vehicles\Wildcat_Unarmed.hpp"
+
+    // CUP Vehicles
+    #include "Vehicles_CUP\BMP-2.hpp"
+    #include "Vehicles_CUP\BMP-3.hpp"
+    #include "Vehicles_CUP\BRDM-2.hpp"
+    #include "Vehicles_CUP\BTR-60.hpp"
+    #include "Vehicles_CUP\BTR-80.hpp"
+    #include "Vehicles_CUP\BTR-90.hpp"
+    #include "Vehicles_CUP\GAZ-233011.hpp"
+    #include "Vehicles_CUP\GAZ-233114.hpp"
+    #include "Vehicles_CUP\Hilux-BMP1.hpp"
+    #include "Vehicles_CUP\Hilux-BTR60.hpp"
+    #include "Vehicles_CUP\Hilux.hpp"
+    #include "Vehicles_CUP\HMMWV.hpp"
+    #include "Vehicles_CUP\Leopard-1.hpp"
+    #include "Vehicles_CUP\M1A1SA.hpp"
+    #include "Vehicles_CUP\M2A2.hpp"
+    #include "Vehicles_CUP\M113A1.hpp"
+    #include "Vehicles_CUP\M113A3.hpp"
+    #include "Vehicles_CUP\Mi-8.hpp"
+    #include "Vehicles_CUP\MT-LB-LV.hpp"
+    #include "Vehicles_CUP\MTVR.hpp"
+    #include "Vehicles_CUP\RHIB.hpp"
+    #include "Vehicles_CUP\Skoda-S1203.hpp"
+    #include "Vehicles_CUP\T-55.hpp"
+    #include "Vehicles_CUP\T-72.hpp"
+    #include "Vehicles_CUP\T-90.hpp"
+    #include "Vehicles_CUP\UAZ-649.hpp"
+    #include "Vehicles_CUP\UH-1H.hpp"
+    #include "Vehicles_CUP\UH-60M.hpp"
+    #include "Vehicles_CUP\Ural.hpp"
 
     // Turrets
     #include "Vehicles\Turrets.hpp"
