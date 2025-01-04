@@ -1,3 +1,35 @@
+class TACU_African_Militia_V_O_BRDM2: TACU_BRDM2_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_Militia_O";
+    side = 0;
+    crew = "TACU_African_Militia_U_O_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
+    textureList[] = {"NAPA", 1};
+};
+class TACU_African_Militia_V_O_BMP2: TACU_BMP2_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_Militia_O";
+    side = 0;
+    crew = "TACU_African_Militia_U_O_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
+    textureList[] = {"NAPA", 1};
+};
+class TACU_African_Militia_V_O_BTR60: TACU_BTR60_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_Militia_O";
+    side = 0;
+    crew = "TACU_African_Militia_U_O_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
+    textureList[] = {"RU_GREEN", 1};
+};
+class TACU_African_Militia_V_O_BTR80: TACU_BTR80_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_Militia_O";
+    side = 0;
+    crew = "TACU_African_Militia_U_O_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
+    textureList[] = {"RU_Camo", 1};
+};
 class TACU_African_Militia_V_O_Offroad: TACU_Offroad_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_African_Militia_O";
@@ -246,4 +278,20 @@ class TACU_African_Militia_V_O_Pickup_MMG: TACU_Ram1500_MMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+};
+class TACU_African_Militia_V_O_T55: TACU_T55_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_Militia_O";
+    side = 0;
+    crew = "TACU_African_Militia_U_O_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
+    textureList[] = {"SLA", 1};
+};
+class TACU_African_Militia_V_O_T72: TACU_T72_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_African_Militia_O";
+    side = 0;
+    crew = "TACU_African_Militia_U_O_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
+    textureList[] = {"NAPA", 1};
 };
