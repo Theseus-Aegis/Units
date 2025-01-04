@@ -106,3 +106,9 @@ class TACU_Proxy_China_V_I_Kasatka: TACU_Proxy_China_V_O_Kasatka {
     crew = "TACU_Proxy_China_U_I_Pilot";
     typicalCargo[] = {"TACU_Proxy_China_U_I_Pilot"};
 };
+class TACU_Proxy_China_V_I_T72: TACU_Proxy_China_V_O_T72 {
+    faction = "TACU_Proxy_China_I";
+    side = 2;
+    crew = "TACU_Proxy_China_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_China_U_O_Driver"};
+};

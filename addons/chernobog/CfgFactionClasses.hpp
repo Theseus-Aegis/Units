@@ -28,4 +28,7 @@ class CfgEditorSubcategories  {
     class TACU_Chernobog_Sons_APC {
         displayName = "APCs (Sons)";
     };
+    class TACU_Chernobog_Sons_Tanks {
+        displayName = "Tanks (Sons)";
+    };
 };

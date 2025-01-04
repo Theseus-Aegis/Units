@@ -25,6 +25,10 @@ class CfgPatches {
             "TACU_African_Militia_U_O_Marksman",
             "TACU_African_Militia_U_O_Teamleader",
             // Opfor Vehicles
+            "TACU_African_Militia_V_O_BRDM2",
+            "TACU_African_Militia_V_O_BMP2",
+            "TACU_African_Militia_V_O_BTR60",
+            "TACU_African_Militia_V_O_BTR80",
             "TACU_African_Militia_V_O_Offroad",
             "TACU_African_Militia_V_O_Offroad_Armed",
             "TACU_African_Militia_V_O_Offroad_AT",
@@ -37,6 +41,8 @@ class CfgPatches {
             "TACU_African_Militia_V_O_Pickup_Unarmed",
             "TACU_African_Militia_V_O_Pickup_HMG",
             "TACU_African_Militia_V_O_Pickup_MMG",
+            "TACU_African_Militia_V_O_T55",
+            "TACU_African_Militia_V_O_T72",
             // Opfor Turrets
             "TACU_African_Militia_V_O_MK6",
             "TACU_African_Militia_V_O_HMG",
@@ -56,6 +62,10 @@ class CfgPatches {
             "TACU_African_Militia_U_I_Marksman",
             "TACU_African_Militia_U_I_Teamleader",
             // Independent Vehicles
+            "TACU_African_Militia_V_I_BRDM2",
+            "TACU_African_Militia_V_I_BMP2",
+            "TACU_African_Militia_V_I_BTR60",
+            "TACU_African_Militia_V_I_BTR80",
             "TACU_African_Militia_V_I_Offroad",
             "TACU_African_Militia_V_I_Offroad_Armed",
             "TACU_African_Militia_V_I_Offroad_AT",
@@ -68,6 +78,8 @@ class CfgPatches {
             "TACU_African_Militia_V_I_Pickup_Unarmed",
             "TACU_African_Militia_V_I_Pickup_HMG",
             "TACU_African_Militia_V_I_Pickup_MMG",
+            "TACU_African_Militia_V_I_T55",
+            "TACU_African_Militia_V_I_T72",
             // Independent Turrets
             "TACU_African_Militia_V_I_MK6",
             "TACU_African_Militia_V_I_HMG",

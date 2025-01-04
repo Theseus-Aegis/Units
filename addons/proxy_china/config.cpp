@@ -47,6 +47,7 @@ class CfgPatches {
             "TACU_Proxy_China_V_O_Typhoon_Covered",
             "TACU_Proxy_China_V_O_Kasatka_Unarmed",
             "TACU_Proxy_China_V_O_Kasatka",
+            "TACU_Proxy_China_V_O_T72",
             // Turrets - Opfor
             "TACU_Proxy_China_V_O_MK6",
             "TACU_Proxy_China_V_O_HMG",
@@ -87,6 +88,7 @@ class CfgPatches {
             "TACU_Proxy_China_V_I_Typhoon_Covered",
             "TACU_Proxy_China_V_I_Kasatka_Unarmed",
             "TACU_Proxy_China_V_I_Kasatka",
+            "TACU_Proxy_China_V_I_T72",
             // Turrets - Independent
             "TACU_Proxy_China_V_I_MK6",
             "TACU_Proxy_China_V_I_HMG",

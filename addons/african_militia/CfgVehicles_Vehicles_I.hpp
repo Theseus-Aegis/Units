@@ -1,3 +1,27 @@
+class TACU_African_Militia_V_I_BRDM2: TACU_African_Militia_V_O_BRDM2 {
+    side = 2;
+    faction = "TACU_African_Militia_I";
+    crew = "TACU_African_Militia_U_I_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_I_Repair"};
+};
+class TACU_African_Militia_V_I_BMP2: TACU_African_Militia_V_O_BMP2 {
+    side = 2;
+    faction = "TACU_African_Militia_I";
+    crew = "TACU_African_Militia_U_I_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_I_Repair"};
+};
+class TACU_African_Militia_V_I_BTR60: TACU_African_Militia_V_O_BTR60 {
+    side = 2;
+    faction = "TACU_African_Militia_I";
+    crew = "TACU_African_Militia_U_I_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_I_Repair"};
+};
+class TACU_African_Militia_V_I_BTR80: TACU_African_Militia_V_O_BTR80 {
+    side = 2;
+    faction = "TACU_African_Militia_I";
+    crew = "TACU_African_Militia_U_I_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_I_Repair"};
+};
 class TACU_African_Militia_V_I_Offroad: TACU_African_Militia_V_O_Offroad {
     side = 2;
     faction = "TACU_African_Militia_I";
@@ -65,6 +89,18 @@ class TACU_African_Militia_V_I_Pickup_HMG: TACU_African_Militia_V_O_Pickup_HMG {
     typicalCargo[] = {"TACU_African_Militia_U_I_Repair"};
 };
 class TACU_African_Militia_V_I_Pickup_MMG: TACU_African_Militia_V_O_Pickup_MMG {
+    side = 2;
+    faction = "TACU_African_Militia_I";
+    crew = "TACU_African_Militia_U_I_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_I_Repair"};
+};
+class TACU_African_Militia_V_I_T55: TACU_African_Militia_V_O_T55 {
+    side = 2;
+    faction = "TACU_African_Militia_I";
+    crew = "TACU_African_Militia_U_I_Repair";
+    typicalCargo[] = {"TACU_African_Militia_U_I_Repair"};
+};
+class TACU_African_Militia_V_I_T72: TACU_African_Militia_V_O_T72 {
     side = 2;
     faction = "TACU_African_Militia_I";
     crew = "TACU_African_Militia_U_I_Repair";
