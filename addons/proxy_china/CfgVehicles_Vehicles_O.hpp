@@ -181,3 +181,14 @@ class TACU_Proxy_China_V_O_Kasatka: TACU_Kasatka_Armed_Base {
     textureList[] = {"Opfor", 1};
     EDITORPREVIEW(TACU_Proxy_China_V_O_Kasatka);
 };
+
+// Tanks
+class TACU_Proxy_China_V_O_T72: TACU_T72_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Proxy_China_O";
+    side = 0;
+    crew = "TACU_Proxy_China_U_O_Driver";
+    typicalCargo[] = {"TACU_Proxy_China_U_O_Driver"};
+    textureList[] = {"Opfor", 1};
+    //EDITORPREVIEW(TACU_Proxy_China_V_O_T72);
+};
