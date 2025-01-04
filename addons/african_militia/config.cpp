@@ -41,8 +41,8 @@ class CfgPatches {
             "TACU_African_Militia_V_O_Pickup_Unarmed",
             "TACU_African_Militia_V_O_Pickup_HMG",
             "TACU_African_Militia_V_O_Pickup_MMG",
-            "TACU_African_Militia_V_O_T55"
-            "TACU_African_Militia_V_O_T72"
+            "TACU_African_Militia_V_O_T55",
+            "TACU_African_Militia_V_O_T72",
             // Opfor Turrets
             "TACU_African_Militia_V_O_MK6",
             "TACU_African_Militia_V_O_HMG",
