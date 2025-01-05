@@ -69,8 +69,7 @@ class CfgPatches {
             "TACU_Territorial_Militia_V_O_Kamaz_Transport_Woodland",
             "TACU_Territorial_Militia_V_O_Kamaz_ZU23_Woodland",
             "TACU_Territorial_Militia_V_O_GAZ_233011_Woodland",
-            "TACU_Territorial_Militia_V_O_Mi8_Woodland",
-            "TACU_Territorial_Defence_V_O_Mi8_MTV3_Woodland"
+            "TACU_Territorial_Militia_V_O_Mi8_Woodland"
         };
         weapons[] = {
             "TACU_Territorial_Militia_AKS_OKP7",
