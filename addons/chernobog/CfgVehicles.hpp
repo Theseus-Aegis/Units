@@ -27,5 +27,7 @@ class CfgVehicles {
     #include "CfgVehicles_Chosen.hpp"
     #include "CfgVehicles_Sons.hpp"
     #include "CfgVehicles_Backpacks.hpp"
-    #include "CfgVehicles_Vehicles.hpp"
+    #include "CfgVehicles_Vehicles_Children.hpp"
+    #include "CfgVehicles_Vehicles_Chosen.hpp"
+    #include "CfgVehicles_Vehicles_Sons.hpp"
 };
