@@ -196,4 +196,5 @@ class TACU_Territorial_Defence_V_O_Mi8_MTV3_Arid: TACU_Mi8_MTV3_Base {
     crew = "TACU_Territorial_Defence_U_O_Pilot_Arid";
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Pilot_Arid"};
     textureList[] = {"CIV_TAN", 1};
+    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_Mi8_MTV3_Arid);
 };

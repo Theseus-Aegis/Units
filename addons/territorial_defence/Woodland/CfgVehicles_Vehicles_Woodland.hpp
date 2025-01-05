@@ -79,4 +79,5 @@ class TACU_Territorial_Defence_V_O_Mi8_MTV3_Woodland: TACU_Territorial_Defence_V
     crew = "TACU_Territorial_Defence_U_O_Pilot_Woodland";
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Pilot_Woodland"};
     textureList[] = {"CIV_GREEN", 1};
+    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_Mi8_MTV3_Woodland);
 };
