@@ -15,7 +15,7 @@ class TACU_Chernobog_Children_V_I_Offroad: TACU_Offroad_Unarmed_Base {
         "Guerilla_09", 0.14,
         "Guerilla_12", 0.14
     };
-    EDITORPREVIEW(TACU_Chernobog_Children_V_I_Offroad);
+    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_Offroad);
 };
 // HMG Offroad
 class TACU_Chernobog_Children_V_I_Offroad_HMG: TACU_Offroad_Armed_M2_Base {
@@ -34,7 +34,7 @@ class TACU_Chernobog_Children_V_I_Offroad_HMG: TACU_Offroad_Armed_M2_Base {
         "Guerilla_09", 0.14,
         "Guerilla_12", 0.14
     };
-    EDITORPREVIEW(TACU_Chernobog_Children_V_I_Offroad_HMG);
+    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_Offroad_HMG);
 };
 class TACU_Chernobog_Children_V_I_UAZ: TACU_UAZ_Open_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;

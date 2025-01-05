@@ -64,7 +64,7 @@ class TACU_Mercenaries_U_I_Low_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
         "G_Bandanna_aviator", 0.25,
         "G_Spectacles_Tinted", 0.25
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Rifleman);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Rifleman);
 };
 class TACU_Mercenaries_U_I_Low_AT: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Rifleman (AT)";
@@ -97,7 +97,7 @@ class TACU_Mercenaries_U_I_Low_AT: TACU_Mercenaries_U_I_Low_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_AT);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_AT);
 };
 class TACU_Mercenaries_U_I_Low_AP: TACU_Mercenaries_U_I_Low_AT {
     displayName = "Rifleman (AP)";
@@ -117,7 +117,7 @@ class TACU_Mercenaries_U_I_Low_AP: TACU_Mercenaries_U_I_Low_AT {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_AP);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_AP);
 };
 class TACU_Mercenaries_U_I_Low_MG: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Machine Gunner";
@@ -146,7 +146,7 @@ class TACU_Mercenaries_U_I_Low_MG: TACU_Mercenaries_U_I_Low_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_MG);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_MG);
 };
 class TACU_Mercenaries_U_I_Low_Medic: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Medic";
@@ -164,7 +164,7 @@ class TACU_Mercenaries_U_I_Low_Medic: TACU_Mercenaries_U_I_Low_Rifleman {
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Medic);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Medic);
 };
 class TACU_Mercenaries_U_I_Low_Engineer: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Engineer";
@@ -182,7 +182,7 @@ class TACU_Mercenaries_U_I_Low_Engineer: TACU_Mercenaries_U_I_Low_Rifleman {
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Engineer);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Engineer);
 };
 class TACU_Mercenaries_U_I_Low_Demolitions: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Demolitions";
@@ -201,7 +201,7 @@ class TACU_Mercenaries_U_I_Low_Demolitions: TACU_Mercenaries_U_I_Low_Rifleman {
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Demolitions);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Demolitions);
 };
 class TACU_Mercenaries_U_I_Low_Grenadier: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Grenadier";
@@ -230,7 +230,7 @@ class TACU_Mercenaries_U_I_Low_Grenadier: TACU_Mercenaries_U_I_Low_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Grenadier);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Grenadier);
 };
 class TACU_Mercenaries_U_I_Low_Marksman: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Marksman";
@@ -260,7 +260,7 @@ class TACU_Mercenaries_U_I_Low_Marksman: TACU_Mercenaries_U_I_Low_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Marksman);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Marksman);
 };
 class TACU_Mercenaries_U_I_Low_TeamLeader: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Team Leader";
@@ -275,7 +275,7 @@ class TACU_Mercenaries_U_I_Low_TeamLeader: TACU_Mercenaries_U_I_Low_Rifleman {
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_TeamLeader);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_TeamLeader);
 };
 class TACU_Mercenaries_U_I_Low_SquadLeader: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Squad Leader";
@@ -306,7 +306,7 @@ class TACU_Mercenaries_U_I_Low_SquadLeader: TACU_Mercenaries_U_I_Low_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_SquadLeader);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_SquadLeader);
 };
 class TACU_Mercenaries_U_I_Low_Crewman: TACU_Mercenaries_U_I_Low_Rifleman {
     displayName = "Crewman";
@@ -323,5 +323,5 @@ class TACU_Mercenaries_U_I_Low_Crewman: TACU_Mercenaries_U_I_Low_Rifleman {
         "hgun_Pistol_heavy_01_green_F",
         "Throw", "Put"
     };
-    EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Crewman);
+    //EDITORPREVIEW(TACU_Mercenaries_U_I_Low_Crewman);
 };

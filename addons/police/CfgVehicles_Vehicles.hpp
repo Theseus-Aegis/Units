@@ -19,7 +19,7 @@ class TACU_Police_V_B_Offroad_Blue: TACU_Offroad_Unarmed_Base {
         "HidePolice", 0
     };
     textureList[] = {"Police_Blue", 1};
-    EDITORPREVIEW(TACU_Police_V_B_Offroad_Blue);
+    //EDITORPREVIEW(TACU_Police_V_B_Offroad_Blue);
 };
 
 class TACU_Police_V_B_Van_Cargo_Blue: TACU_Cargo_Van_Base {
@@ -40,7 +40,7 @@ class TACU_Police_V_B_Van_Cargo_Blue: TACU_Cargo_Van_Base {
         "front_protective_frame_hide", 0
     };
     textureList[] = {"Police_Blue", 1};
-    EDITORPREVIEW(TACU_Police_V_B_Van_Cargo_Blue);
+    //EDITORPREVIEW(TACU_Police_V_B_Van_Cargo_Blue);
 };
 
 class TACU_Police_V_B_Van_Transport_Blue: TACU_Transport_Van_Base {
@@ -61,7 +61,7 @@ class TACU_Police_V_B_Van_Transport_Blue: TACU_Transport_Van_Base {
         "front_protective_frame_hide", 0
     };
     textureList[] = {"Police_Blue", 1};
-    EDITORPREVIEW(TACU_Police_V_B_Van_Transport_Blue);
+    //EDITORPREVIEW(TACU_Police_V_B_Van_Transport_Blue);
 };
 
 // Vehicles - Opfor
@@ -85,7 +85,7 @@ class TACU_Police_V_O_Offroad_Black: TACU_Offroad_Unarmed_Base {
         "HidePolice", 0
     };
     textureList[] = {"Police_Russian", 1};
-    EDITORPREVIEW(TACU_Police_V_O_Offroad_Black);
+    //EDITORPREVIEW(TACU_Police_V_O_Offroad_Black);
 };
 
 class TACU_Police_V_O_Van_Cargo_Black: TACU_Cargo_Van_Base {
@@ -106,7 +106,7 @@ class TACU_Police_V_O_Van_Cargo_Black: TACU_Cargo_Van_Base {
         "front_protective_frame_hide", 0
     };
     textureList[] = {"Police_Russian", 1};
-    EDITORPREVIEW(TACU_Police_V_O_Van_Cargo_Black);
+    //EDITORPREVIEW(TACU_Police_V_O_Van_Cargo_Black);
 };
 
 class TACU_Police_V_O_Van_Transport_Black: TACU_Transport_Van_Base {
@@ -127,7 +127,7 @@ class TACU_Police_V_O_Van_Transport_Black: TACU_Transport_Van_Base {
         "front_protective_frame_hide", 0
     };
     textureList[] = {"Police_Russian", 1};
-    EDITORPREVIEW(TACU_Police_V_O_Van_Transport_Black);
+    //EDITORPREVIEW(TACU_Police_V_O_Van_Transport_Black);
 };
 
 // Vehicles - Independent
@@ -151,7 +151,7 @@ class TACU_Police_V_I_Offroad_Black: TACU_Offroad_Unarmed_Base {
         "HidePolice", 0
     };
     textureList[] = {"Police_Black", 1};
-    EDITORPREVIEW(TACU_Police_V_I_Offroad_Black);
+    //EDITORPREVIEW(TACU_Police_V_I_Offroad_Black);
 };
 
 class TACU_Police_V_I_Van_Cargo_Black: TACU_Cargo_Van_Base {
@@ -172,7 +172,7 @@ class TACU_Police_V_I_Van_Cargo_Black: TACU_Cargo_Van_Base {
         "front_protective_frame_hide", 0
     };
     textureList[] = {"Police_Black", 1};
-    EDITORPREVIEW(TACU_Police_V_I_Van_Cargo_Black);
+    //EDITORPREVIEW(TACU_Police_V_I_Van_Cargo_Black);
 };
 
 class TACU_Police_V_I_Van_Transport_Black: TACU_Transport_Van_Base {
@@ -193,5 +193,5 @@ class TACU_Police_V_I_Van_Transport_Black: TACU_Transport_Van_Base {
         "front_protective_frame_hide", 0
     };
     textureList[] = {"Police_Black", 1};
-    EDITORPREVIEW(TACU_Police_V_I_Van_Transport_Black);
+    //EDITORPREVIEW(TACU_Police_V_I_Van_Transport_Black);
 };

@@ -64,7 +64,7 @@ class TACU_Proxy_Russia_U_O_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
         "G_Balaclava_blk", 0.2,
         "G_Balaclava_oli", 0.2
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Rifleman);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Rifleman);
 };
 
 class TACU_Proxy_Russia_U_O_Demolitions: TACU_Proxy_Russia_U_O_Rifleman {
@@ -84,7 +84,7 @@ class TACU_Proxy_Russia_U_O_Demolitions: TACU_Proxy_Russia_U_O_Rifleman {
         "TACU_Proxy_Russia_W_FNX",
         "Throw", "Put"
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Demolitions);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Demolitions);
 };
 
 class TACU_Proxy_Russia_U_O_Engineer: TACU_Proxy_Russia_U_O_Rifleman {
@@ -94,7 +94,7 @@ class TACU_Proxy_Russia_U_O_Engineer: TACU_Proxy_Russia_U_O_Rifleman {
     engineer = 1;
     uniformClass = "TACU_Proxy_Russia_Uniform_Combat_Fatigues_Rolled";
     backpack = "TACU_Proxy_Russia_B_Engineer";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Engineer);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Engineer);
 };
 
 class TACU_Proxy_Russia_U_O_Grenadier: TACU_Proxy_Russia_U_O_Rifleman {
@@ -124,7 +124,7 @@ class TACU_Proxy_Russia_U_O_Grenadier: TACU_Proxy_Russia_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Grenadier);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Grenadier);
 };
 
 class TACU_Proxy_Russia_U_O_Marksman: TACU_Proxy_Russia_U_O_Rifleman {
@@ -152,7 +152,7 @@ class TACU_Proxy_Russia_U_O_Marksman: TACU_Proxy_Russia_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Marksman);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Marksman);
 };
 
 class TACU_Proxy_Russia_U_O_Teamleader: TACU_Proxy_Russia_U_O_Rifleman {
@@ -183,7 +183,7 @@ class TACU_Proxy_Russia_U_O_Teamleader: TACU_Proxy_Russia_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Marksman);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Marksman);
 };
 
 class TACU_Proxy_Russia_U_O_Autorifleman: TACU_Proxy_Russia_U_O_Rifleman {
@@ -214,7 +214,7 @@ class TACU_Proxy_Russia_U_O_Autorifleman: TACU_Proxy_Russia_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Autorifleman);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Autorifleman);
 };
 
 class TACU_Proxy_Russia_U_O_Machinegunner: TACU_Proxy_Russia_U_O_Rifleman {
@@ -245,7 +245,7 @@ class TACU_Proxy_Russia_U_O_Machinegunner: TACU_Proxy_Russia_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Machinegunner);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Machinegunner);
 };
 
 class TACU_Proxy_Russia_U_O_Medic: TACU_Proxy_Russia_U_O_Rifleman {
@@ -255,7 +255,7 @@ class TACU_Proxy_Russia_U_O_Medic: TACU_Proxy_Russia_U_O_Rifleman {
     attendant = 1;
     uniformClass = "TACU_Proxy_Russia_Uniform_Deserter";
     backpack = "TACU_Proxy_Russia_B_Medic";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Medic);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Medic);
 };
 
 class TACU_Proxy_Russia_U_O_AT: TACU_Proxy_Russia_U_O_Rifleman {
@@ -289,7 +289,7 @@ class TACU_Proxy_Russia_U_O_AT: TACU_Proxy_Russia_U_O_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT);
 };
 
 class TACU_Proxy_Russia_U_O_AP: TACU_Proxy_Russia_U_O_AT {
@@ -314,7 +314,7 @@ class TACU_Proxy_Russia_U_O_AP: TACU_Proxy_Russia_U_O_AT {
 class TACU_Proxy_Russia_U_O_Driver: TACU_Proxy_Russia_U_O_Rifleman {
     displayName = "Driver";
     uniformClass = "U_I_L_Uniform_01_deserter_F";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Driver);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Driver);
 };
 
 class TACU_Proxy_Russia_U_O_Pilot: TACU_Proxy_Russia_U_O_Rifleman {
@@ -332,72 +332,72 @@ class TACU_Proxy_Russia_U_O_Pilot: TACU_Proxy_Russia_U_O_Rifleman {
         "V_CarrierRigKBT_01_light_Olive_F"
     };
     headgearList[] = {"H_PilotHelmetHeli_I_E", 1};
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Pilot);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Pilot);
 };
 
 // CBRN Units
 class TACU_Proxy_Russia_U_O_Rifleman_CBRN: TACU_Proxy_Russia_U_O_Rifleman {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Rifleman (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Rifleman_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Rifleman_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Demolitions_CBRN: TACU_Proxy_Russia_U_O_Demolitions {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Demolitions (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Demolitions_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Demolitions_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Engineer_CBRN: TACU_Proxy_Russia_U_O_Engineer {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Engineer (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Engineer_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Engineer_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Grenadier_CBRN: TACU_Proxy_Russia_U_O_Grenadier {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Grenadier (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Grenadier_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Grenadier_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Marksman_CBRN: TACU_Proxy_Russia_U_O_Marksman {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Marksman (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Marksman_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Marksman_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Teamleader_CBRN: TACU_Proxy_Russia_U_O_Teamleader {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Team Leader (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Teamleader_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Teamleader_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Autorifleman_CBRN: TACU_Proxy_Russia_U_O_Autorifleman {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Autorifleman (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Autorifleman_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Autorifleman_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Machinegunner_CBRN: TACU_Proxy_Russia_U_O_Machinegunner {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Machinegunner (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Machinegunner_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Machinegunner_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Medic_CBRN: TACU_Proxy_Russia_U_O_Medic {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Medic (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Medic_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Medic_CBRN);
 };
 class TACU_Proxy_Russia_U_O_AT_CBRN: TACU_Proxy_Russia_U_O_AT {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Rifleman (AT, CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT_CBRN);
 };
 class TACU_Proxy_Russia_U_O_AP_CBRN: TACU_Proxy_Russia_U_O_AP {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Rifleman (AP, CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_AT_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Driver_CBRN: TACU_Proxy_Russia_U_O_Driver {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Driver (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Driver_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Driver_CBRN);
 };
 class TACU_Proxy_Russia_U_O_Pilot_CBRN: TACU_Proxy_Russia_U_O_Pilot {
     MACRO_LINKED_ITEMS_CBRN;
     displayName = "Pilot (CBRN)";
-    EDITORPREVIEW(TACU_Proxy_Russia_U_O_Pilot_CBRN);
+    //EDITORPREVIEW(TACU_Proxy_Russia_U_O_Pilot_CBRN);
 };

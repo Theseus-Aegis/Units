@@ -28,7 +28,7 @@ class TACU_Chernobog_Children_U_I_Rifleman_01: TACU_Chernobog_Core_Unit {
         "CUP_G_TK_RoundGlasses_blk", 0.3,
         "", 0.6
     };
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_Rifleman_01);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_Rifleman_01);
 };
 class TACU_Chernobog_Children_U_I_Rifleman_02: TACU_Chernobog_Children_U_I_Rifleman_01 {
     uniformClass = "U_I_C_Soldier_Bandit_5_F";
@@ -46,7 +46,7 @@ class TACU_Chernobog_Children_U_I_Rifleman_02: TACU_Chernobog_Children_U_I_Rifle
     respawnWeapons[] = {"CUP_SKS", "Throw", "Put"};
     magazines[] = {mag_8("CUP_10Rnd_762x39_SKS_M")};
     respawnMagazines[] = {mag_8("CUP_10Rnd_762x39_SKS_M")};
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_Rifleman_02);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_Rifleman_02);
 };
 class TACU_Chernobog_Children_U_I_Rifleman_03: TACU_Chernobog_Children_U_I_Rifleman_01 {
     uniformClass = "U_lxWS_SFIA_deserter";
@@ -64,7 +64,7 @@ class TACU_Chernobog_Children_U_I_Rifleman_03: TACU_Chernobog_Children_U_I_Rifle
     respawnWeapons[] = {"CUP_sgun_CZ584", "Throw", "Put"};
     magazines[] = {mag_12("CUP_1Rnd_12Gauge_Pellets_No00_Buck"), mag_8("CUP_1Rnd_12Gauge_Pellets_No00_Buck")};
     respawnMagazines[] = {mag_12("CUP_1Rnd_12Gauge_Pellets_No00_Buck"), mag_8("CUP_1Rnd_12Gauge_Pellets_No00_Buck")};
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_Rifleman_03);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_Rifleman_03);
 };
 class TACU_Chernobog_Children_U_I_LAT: TACU_Chernobog_Children_U_I_Rifleman_01 {
     displayName = "Acolyte";
@@ -93,7 +93,7 @@ class TACU_Chernobog_Children_U_I_LAT: TACU_Chernobog_Children_U_I_Rifleman_01 {
     };
     magazines[] = {"CUP_RPG18_M", mag_7("TACU_Magazine_30Rnd_762_AK")};
     respawnMagazines[] = {"CUP_RPG18_M", mag_7("TACU_Magazine_30Rnd_762_AK")};
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_LAT);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_LAT);
 };
 class TACU_Chernobog_Children_U_I_Medic: TACU_Chernobog_Children_U_I_Rifleman_01 {
     displayName = "Healer of the Crimson Tears";
@@ -116,7 +116,7 @@ class TACU_Chernobog_Children_U_I_Medic: TACU_Chernobog_Children_U_I_Rifleman_01
     respawnWeapons[] = {"CUP_SKS", "Throw", "Put"};
     magazines[] = {mag_8("CUP_10Rnd_762x39_SKS_M")};
     respawnMagazines[] = {mag_8("CUP_10Rnd_762x39_SKS_M")};
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_Medic);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_Medic);
 };
 class TACU_Chernobog_Children_U_I_Squadleader: TACU_Chernobog_Children_U_I_Rifleman_01 {
     displayName = "Enlightened Monk";
@@ -137,7 +137,7 @@ class TACU_Chernobog_Children_U_I_Squadleader: TACU_Chernobog_Children_U_I_Rifle
     respawnWeapons[] = {"CUP_arifle_AKM_GL", "Throw", "Put"};
     magazines[] = {"CUP_1Rnd_HE_GP25_M", mag_7("TACU_Magazine_30Rnd_762_AK")};
     respawnMagazines[] = {"CUP_1Rnd_HE_GP25_M", mag_7("TACU_Magazine_30Rnd_762_AK")};
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_Squadleader);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_Squadleader);
 };
 class TACU_Chernobog_Children_U_I_Teamleader: TACU_Chernobog_Children_U_I_Rifleman_01 {
     displayName = "Monk";
@@ -157,7 +157,7 @@ class TACU_Chernobog_Children_U_I_Teamleader: TACU_Chernobog_Children_U_I_Riflem
     respawnWeapons[] = {"arifle_AKM_F", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_30Rnd_762_AK")};
     respawnMagazines[] = {mag_7("TACU_Magazine_30Rnd_762_AK")};
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_Teamleader);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_Teamleader);
 };
 class TACU_Chernobog_Children_U_I_Marksman: TACU_Chernobog_Children_U_I_Rifleman_01 {
     displayName = "True Sight Acolyte";
@@ -177,5 +177,5 @@ class TACU_Chernobog_Children_U_I_Marksman: TACU_Chernobog_Children_U_I_Rifleman
     respawnWeapons[] = {"CUP_srifle_CZ550", "Throw", "Put"};
     magazines[] = {mag_7("CUP_5x_22_LR_17_HMR_M")};
     respawnMagazines[] = {mag_7("CUP_5x_22_LR_17_HMR_M")};
-    EDITORPREVIEW(TACU_Chernobog_Children_U_I_Marksman);
+    //EDITORPREVIEW(TACU_Chernobog_Children_U_I_Marksman);
 };

@@ -49,7 +49,7 @@ class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
     };
     headgearList[] = {"TACU_Police_Helmet_PASGT_Neck_PoliceGreen", 1};
     CBA_facewearList[] = {"G_Balaclava_oli", 0.50, "G_Balaclava_blk", 0.50};
-    EDITORPREVIEW(TACU_Police_U_O_CT_Rifleman);
+    //EDITORPREVIEW(TACU_Police_U_O_CT_Rifleman);
 };
 
 class TACU_Police_U_O_CT_SMG_1: TACU_Police_U_O_CT_Rifleman {
@@ -76,7 +76,7 @@ class TACU_Police_U_O_CT_SMG_1: TACU_Police_U_O_CT_Rifleman {
         "HandGrenade",
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Police_U_O_CT_SMG_1);
+    //EDITORPREVIEW(TACU_Police_U_O_CT_SMG_1);
 };
 
 class TACU_Police_U_O_CT_SMG_2: TACU_Police_U_O_CT_Rifleman {
@@ -103,7 +103,7 @@ class TACU_Police_U_O_CT_SMG_2: TACU_Police_U_O_CT_Rifleman {
         "HandGrenade",
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Police_U_O_CT_SMG_2);
+    //EDITORPREVIEW(TACU_Police_U_O_CT_SMG_2);
 };
 
 class TACU_Police_U_O_CT_Breacher: TACU_Police_U_O_CT_Rifleman {
@@ -130,7 +130,7 @@ class TACU_Police_U_O_CT_Breacher: TACU_Police_U_O_CT_Rifleman {
         "HandGrenade",
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Police_U_O_CT_Breacher);
+    //EDITORPREVIEW(TACU_Police_U_O_CT_Breacher);
 };
 
 class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
@@ -147,7 +147,7 @@ class TACU_Police_U_O_CT_Marksman: TACU_Police_U_O_CT_Rifleman {
     };
     magazines[] = {mag_10("TACU_Magazine_10Rnd_VS121"), mag_3("TACU_Magazine_17Rnd_Walther")};
     respawnMagazines[] = {mag_10("TACU_Magazine_10Rnd_VS121"), mag_3("TACU_Magazine_17Rnd_Walther")};
-    EDITORPREVIEW(TACU_Police_U_O_CT_Marksman);
+    //EDITORPREVIEW(TACU_Police_U_O_CT_Marksman);
 };
 
 // Units - Police (Enforcers)
@@ -168,7 +168,7 @@ class TACU_Police_U_O_Enforcer_SMG_1: TACU_Police_U_O_CT_Rifleman {
     respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_Vityaz"), mag_2("TACU_Magazine_17Rnd_Walther")};
     headgearList[] = {"H_Beret_blk", 1};
     CBA_facewearList[] = {"G_Aviator", 0.8, "", 0.2};
-    EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_1);
+    //EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_1);
 };
 
 class TACU_Police_U_O_Enforcer_SMG_2: TACU_Police_U_O_Enforcer_SMG_1 {
@@ -185,7 +185,7 @@ class TACU_Police_U_O_Enforcer_SMG_2: TACU_Police_U_O_Enforcer_SMG_1 {
     };
     magazines[] = {mag_8("TACU_Magazine_64Rnd_Bizon"), mag_2("TACU_Magazine_17Rnd_Walther")};
     respawnMagazines[] = {mag_8("TACU_Magazine_64Rnd_Bizon"), mag_2("TACU_Magazine_17Rnd_Walther")};
-    EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_2);
+    //EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_2);
 };
 
 class TACU_Police_U_O_Enforcer_SMG_3: TACU_Police_U_O_Enforcer_SMG_1 {
@@ -202,7 +202,7 @@ class TACU_Police_U_O_Enforcer_SMG_3: TACU_Police_U_O_Enforcer_SMG_1 {
     };
     magazines[] = {mag_12("TACU_Magazine_30Rnd_SR3M"), mag_2("TACU_Magazine_17Rnd_Walther")};
     respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_SR3M"), mag_2("TACU_Magazine_17Rnd_Walther")};
-    EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_3);
+    //EDITORPREVIEW(TACU_Police_U_O_Enforcer_SMG_3);
 };
 
 class TACU_Police_U_O_Enforcer_Breacher: TACU_Police_U_O_Enforcer_SMG_1 {
@@ -219,5 +219,5 @@ class TACU_Police_U_O_Enforcer_Breacher: TACU_Police_U_O_Enforcer_SMG_1 {
     };
     magazines[] = {mag_6("CUP_12Rnd_B_Saiga12_Buck_00"), mag_2("TACU_Magazine_17Rnd_Walther")};
     respawnMagazines[] = {mag_6("CUP_12Rnd_B_Saiga12_Buck_00"), mag_2("TACU_Magazine_17Rnd_Walther")};
-    EDITORPREVIEW(TACU_Police_U_O_Enforcer_Breacher);
+    //EDITORPREVIEW(TACU_Police_U_O_Enforcer_Breacher);
 };

@@ -17,7 +17,7 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
     respawnWeapons[] = {"CUP_hgun_UZI", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_32Rnd_UZI"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("TACU_Magazine_32Rnd_UZI"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_01);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_01);
     headgearList[] = {
         "H_Cap_blk", 0.33,
         "H_Cap_oli", 0.33,
@@ -44,7 +44,7 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_02: TACU_Cartel_Greek_U_O_Grunt_Rifle
     respawnWeapons[] = {"CUP_hgun_TEC9_FA", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_32Rnd_TEC9"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("TACU_Magazine_32Rnd_TEC9"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_02);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_02);
 };
 
 class TACU_Cartel_Greek_U_O_Grunt_Rifleman_03: TACU_Cartel_Greek_U_O_Grunt_Rifleman_01 {
@@ -54,7 +54,7 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_03: TACU_Cartel_Greek_U_O_Grunt_Rifle
     respawnWeapons[] = {"CUP_hgun_Glock17_blk", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_17Rnd_Glock"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("TACU_Magazine_17Rnd_Glock"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_03);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_03);
 };
 
 class TACU_Cartel_Greek_U_O_Grunt_Rifleman_04: TACU_Cartel_Greek_U_O_Grunt_Rifleman_01 {
@@ -64,7 +64,7 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_04: TACU_Cartel_Greek_U_O_Grunt_Rifle
     respawnWeapons[] = {"CUP_hgun_SA61", "Throw", "Put"};
     magazines[] = {mag_7("CUP_20Rnd_B_765x17_Ball_M"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("CUP_20Rnd_B_765x17_Ball_M"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_04);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_04);
 };
 
 class TACU_Cartel_Greek_U_O_Grunt_Rifleman_05: TACU_Cartel_Greek_U_O_Grunt_Rifleman_01 {
@@ -74,7 +74,7 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_05: TACU_Cartel_Greek_U_O_Grunt_Rifle
     respawnWeapons[] = {"CUP_smg_Mac10", "Throw", "Put"};
     magazines[] = {mag_7("TACU_Magazine_30Rnd_MAC10"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_7("TACU_Magazine_30Rnd_MAC10"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_05);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_05);
 };
 
 class TACU_Cartel_Greek_U_O_Grunt_Rifleman_06: TACU_Cartel_Greek_U_O_Grunt_Rifleman_01 {
@@ -84,7 +84,7 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_06: TACU_Cartel_Greek_U_O_Grunt_Rifle
     respawnWeapons[] = {"hgun_PDW2000_F", "Throw", "Put"};
     magazines[] = {mag_4("TACU_Magazine_30Rnd_SMG"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_4("TACU_Magazine_30Rnd_SMG"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_06);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_06);
 };
 
 class TACU_Cartel_Greek_U_O_Grunt_Rifleman_07: TACU_Cartel_Greek_U_O_Grunt_Rifleman_01 {
@@ -94,7 +94,7 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_07: TACU_Cartel_Greek_U_O_Grunt_Rifle
     respawnWeapons[] = {"sgun_HunterShotgun_01_sawedoff_F", "Throw", "Put"};
     magazines[] = {mag_9("2Rnd_12Gauge_Pellets"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_9("2Rnd_12Gauge_Pellets"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_07);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_07);
 };
 
 class TACU_Cartel_Greek_U_O_Grunt_Rifleman_08: TACU_Cartel_Greek_U_O_Grunt_Rifleman_01 {
@@ -104,5 +104,5 @@ class TACU_Cartel_Greek_U_O_Grunt_Rifleman_08: TACU_Cartel_Greek_U_O_Grunt_Rifle
     respawnWeapons[] = {"CUP_hgun_MicroUzi", "Throw", "Put"};
     magazines[] = {mag_5("TACU_Magazine_32Rnd_UZI"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_5("TACU_Magazine_32Rnd_UZI"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_08);
+    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Grunt_Rifleman_08);
 };

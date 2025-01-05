@@ -27,7 +27,7 @@ class TACU_Chernobog_Sons_V_I_Marid_HMG: TACU_Otokar_ARMA_Armed_Base {
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
     textureList[] = {"Black", 1};
-    EDITORPREVIEW(TACU_Chernobog_Sons_V_I_Marid_HMG);
+    //EDITORPREVIEW(TACU_Chernobog_Sons_V_I_Marid_HMG);
 };
 class TACU_Chernobog_Sons_M113A1: TACU_M113A1_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;

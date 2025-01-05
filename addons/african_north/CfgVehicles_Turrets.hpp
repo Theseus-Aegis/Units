@@ -6,7 +6,7 @@ class TACU_African_North_V_B_M2HMG_Low: O_SFIA_HMG_02_lxWS {
     scopeCurator = 2;
     crew = "TACU_African_North_U_B_Repair";
     typicalCargo[] = {"TACU_African_North_U_B_Repair"};
-    EDITORPREVIEW(TACU_African_North_V_B_M2HMG_Low);
+    //EDITORPREVIEW(TACU_African_North_V_B_M2HMG_Low);
 };
 
 class TACU_African_North_V_B_M2HMG: O_SFIA_HMG_02_high_lxWS {
@@ -16,7 +16,7 @@ class TACU_African_North_V_B_M2HMG: O_SFIA_HMG_02_high_lxWS {
     scopeCurator = 2;
     crew = "TACU_African_North_U_B_Repair";
     typicalCargo[] = {"TACU_African_North_U_B_Repair"};
-    EDITORPREVIEW(TACU_African_North_V_B_M2HMG);
+    //EDITORPREVIEW(TACU_African_North_V_B_M2HMG);
 };
 
 class TACU_African_North_V_B_MK6: O_SFIA_Mortar_lxWS {
@@ -26,7 +26,7 @@ class TACU_African_North_V_B_MK6: O_SFIA_Mortar_lxWS {
     scopeCurator = 2;
     crew = "TACU_African_North_U_B_Repair";
     typicalCargo[] = {"TACU_African_North_U_B_Repair"};
-    EDITORPREVIEW(TACU_African_North_V_B_MK6);
+    //EDITORPREVIEW(TACU_African_North_V_B_MK6);
 };
 
 class TACU_African_North_V_B_ZU23: O_SFIA_ZU23_lxWS {
@@ -36,7 +36,7 @@ class TACU_African_North_V_B_ZU23: O_SFIA_ZU23_lxWS {
     scopeCurator = 2;
     crew = "TACU_African_North_U_B_Repair";
     typicalCargo[] = {"TACU_African_North_U_B_Repair"};
-    EDITORPREVIEW(TACU_African_North_V_B_ZU23);
+    //EDITORPREVIEW(TACU_African_North_V_B_ZU23);
 };
 
 // Turrets - Opfor

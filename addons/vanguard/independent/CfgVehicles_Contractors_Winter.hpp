@@ -45,7 +45,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01: TACU_Main_U_INDEP_Soldier
         "SmokeShell"
     };
     headgearList[] = {"tacs_Helmet_Enc_Ballistic_White", 1};
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01);
 };
 
 class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_02: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01 {
@@ -72,7 +72,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_02: TACU_Vanguard_U_I_Contrac
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Rifleman_02);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Rifleman_02);
 };
 
 class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01 {
@@ -106,7 +106,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT: TACU_Vanguard_U_I_Contrac
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT);
 };
 
 class TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AP: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_AT {
@@ -157,7 +157,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_Grenadier: TACU_Vanguard_U_I_Contracto
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Grenadier);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Grenadier);
 };
 
 class TACU_Vanguard_U_I_Contractor_Winter_Marksman: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01 {
@@ -185,7 +185,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_Marksman: TACU_Vanguard_U_I_Contractor
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Marksman);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Marksman);
 };
 
 class TACU_Vanguard_U_I_Contractor_Winter_TeamLeader: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01 {
@@ -213,7 +213,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_TeamLeader: TACU_Vanguard_U_I_Contract
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_TeamLeader);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_TeamLeader);
 };
 
 class TACU_Vanguard_U_I_Contractor_Winter_Autorifleman: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01 {
@@ -233,7 +233,7 @@ class TACU_Vanguard_U_I_Contractor_Winter_Autorifleman: TACU_Vanguard_U_I_Contra
     };
     magazines[] = {"TACU_Magazine_200Rnd_65_Box", mag_2("TACU_Magazine_11Rnd_FNX")};
     respawnMagazines[] = {"TACU_Magazine_200Rnd_65_Box", mag_2("TACU_Magazine_11Rnd_FNX")};
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Autorifleman);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Autorifleman);
 };
 
 class TACU_Vanguard_U_I_Contractor_Winter_Medic: TACU_Vanguard_U_I_Contractor_Winter_Rifleman_01 {
@@ -262,5 +262,5 @@ class TACU_Vanguard_U_I_Contractor_Winter_Medic: TACU_Vanguard_U_I_Contractor_Wi
         mag_2("TACU_Magazine_11Rnd_FNX"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Medic);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Winter_Medic);
 };

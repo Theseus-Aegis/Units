@@ -4,7 +4,7 @@ class TACU_Proxy_Russia_V_O_MK6: TACU_MK6_Base {
     side = 0;
     crew = "TACU_Proxy_Russia_U_O_Driver";
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
-    EDITORPREVIEW(TACU_Proxy_Russia_V_O_MK6);
+    //EDITORPREVIEW(TACU_Proxy_Russia_V_O_MK6);
 };
 class TACU_Proxy_Russia_V_O_MK6_CBRN: TACU_Proxy_Russia_V_O_MK6 {
     editorSubcategory = "TACU_Proxy_Russia_Turrets_CBRN";
@@ -18,7 +18,7 @@ class TACU_Proxy_Russia_V_O_HMG: TACU_HMG_50 {
     side = 0;
     crew = "TACU_Proxy_Russia_U_O_Driver";
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
-    EDITORPREVIEW(TACU_Proxy_Russia_V_O_HMG);
+    //EDITORPREVIEW(TACU_Proxy_Russia_V_O_HMG);
 };
 class TACU_Proxy_Russia_V_O_HMG_CBRN: TACU_Proxy_Russia_V_O_HMG {
     editorSubcategory = "TACU_Proxy_Russia_Turrets_CBRN";
@@ -33,7 +33,7 @@ class TACU_Proxy_Russia_V_O_Mini_Spike_AT: TACU_Mini_Spike_AT {
     crew = "TACU_Proxy_Russia_U_O_Driver";
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
     textureList[] = {"Green", 1};
-    EDITORPREVIEW(TACU_Proxy_Russia_V_O_Mini_Spike_AT);
+    //EDITORPREVIEW(TACU_Proxy_Russia_V_O_Mini_Spike_AT);
 };
 class TACU_Proxy_Russia_V_O_Mini_Spike_AT_CBRN: TACU_Proxy_Russia_V_O_Mini_Spike_AT {
     editorSubcategory = "TACU_Proxy_Russia_Turrets_CBRN";
@@ -48,7 +48,7 @@ class TACU_Proxy_Russia_V_O_ZU23: TACU_ZU23_base {
     crew = "TACU_Proxy_Russia_U_O_Driver";
     typicalCargo[] = {"TACU_Proxy_Russia_U_O_Driver"};
     textureList[] = {"Green", 1};
-    EDITORPREVIEW(TACU_Proxy_Russia_V_O_ZU23);
+    //EDITORPREVIEW(TACU_Proxy_Russia_V_O_ZU23);
 };
 class TACU_Proxy_Russia_V_O_ZU23_CBRN: TACU_Proxy_Russia_V_O_ZU23 {
     editorSubcategory = "TACU_Proxy_Russia_Turrets_CBRN";

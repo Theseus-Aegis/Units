@@ -52,7 +52,7 @@ class TACU_Vanguard_U_I_Specialist_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     CBA_facewearList[] = {
         "G_Balaclava_blk", 1
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Rifleman);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Rifleman);
 };
 
 class TACU_Vanguard_U_I_Specialist_Rifleman_AT: TACU_Vanguard_U_I_Specialist_Rifleman {
@@ -83,7 +83,7 @@ class TACU_Vanguard_U_I_Specialist_Rifleman_AT: TACU_Vanguard_U_I_Specialist_Rif
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Rifleman_AT);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Rifleman_AT);
 };
 
 class TACU_Vanguard_U_I_Specialist_Grenadier: TACU_Vanguard_U_I_Specialist_Rifleman {
@@ -112,7 +112,7 @@ class TACU_Vanguard_U_I_Specialist_Grenadier: TACU_Vanguard_U_I_Specialist_Rifle
         mag_3("1Rnd_HE_Grenade_shell"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Grenadier);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Grenadier);
 };
 
 class TACU_Vanguard_U_I_Specialist_Marksman: TACU_Vanguard_U_I_Specialist_Rifleman {
@@ -140,7 +140,7 @@ class TACU_Vanguard_U_I_Specialist_Marksman: TACU_Vanguard_U_I_Specialist_Riflem
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Marksman);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Marksman);
 };
 
 class TACU_Vanguard_U_I_Specialist_Driver: TACU_Vanguard_U_I_Specialist_Rifleman {
@@ -168,7 +168,7 @@ class TACU_Vanguard_U_I_Specialist_Driver: TACU_Vanguard_U_I_Specialist_Rifleman
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Driver);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Driver);
 };
 
 class TACU_Vanguard_U_I_Specialist_TeamLeader: TACU_Vanguard_U_I_Specialist_Rifleman {
@@ -198,7 +198,7 @@ class TACU_Vanguard_U_I_Specialist_TeamLeader: TACU_Vanguard_U_I_Specialist_Rifl
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_TeamLeader);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_TeamLeader);
 };
 
 class TACU_Vanguard_U_I_Specialist_Autorifleman: TACU_Vanguard_U_I_Specialist_Rifleman {
@@ -227,7 +227,7 @@ class TACU_Vanguard_U_I_Specialist_Autorifleman: TACU_Vanguard_U_I_Specialist_Ri
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Autorifleman);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Autorifleman);
 };
 
 class TACU_Vanguard_U_I_Specialist_Medic: TACU_Vanguard_U_I_Specialist_Rifleman {
@@ -258,5 +258,5 @@ class TACU_Vanguard_U_I_Specialist_Medic: TACU_Vanguard_U_I_Specialist_Rifleman 
         mag_2("SmokeShell"),
         "HandGrenade"
     };
-    EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Medic);
+    //EDITORPREVIEW(TACU_Vanguard_U_I_Specialist_Medic);
 };

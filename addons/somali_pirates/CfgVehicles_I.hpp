@@ -26,7 +26,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         "G_Shades_Red", 0.12,
         "G_Sport_Red", 0.12
     };
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_01);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_01);
 };
 
 class TACU_Somali_Pirates_U_I_Rifleman_02: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -36,7 +36,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_02: TACU_Somali_Pirates_U_I_Rifleman_01 {
     respawnWeapons[] = {"arifle_AK12U_arid_F", "Throw", "Put"};
     magazines[] = {mag_10("TACU_Magazine_30Rnd_762_AK"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_10("TACU_Magazine_30Rnd_762_AK"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_02);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_02);
 };
 
 class TACU_Somali_Pirates_U_I_Rifleman_03: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -46,7 +46,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_03: TACU_Somali_Pirates_U_I_Rifleman_01 {
     respawnWeapons[] = {"arifle_SLR_lxWS", "Throw", "Put"};
     magazines[] = {mag_12("TACU_Magazine_20Rnd_SLR"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_12("TACU_Magazine_20Rnd_SLR"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_03);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_03);
 };
 
 class TACU_Somali_Pirates_U_I_Rifleman_04: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -56,7 +56,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_04: TACU_Somali_Pirates_U_I_Rifleman_01 {
     respawnWeapons[] = {"CUP_hgun_TEC9_FA", "Throw", "Put"};
     magazines[] = {mag_12("CUP_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_12("CUP_32Rnd_9x19_TEC9"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_04);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_04);
 };
 
 class TACU_Somali_Pirates_U_I_Rifleman_05: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -65,7 +65,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_05: TACU_Somali_Pirates_U_I_Rifleman_01 {
     respawnWeapons[] = {"CUP_smg_M3A1_blk", "Throw", "Put"};
     magazines[] = {mag_12("TACU_Magazine_30Rnd_M3A1"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_M3A1"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_05);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_05);
 };
 
 class TACU_Somali_Pirates_U_I_Rifleman_06: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -74,7 +74,7 @@ class TACU_Somali_Pirates_U_I_Rifleman_06: TACU_Somali_Pirates_U_I_Rifleman_01 {
     respawnWeapons[] = {"arifle_VelkoR5_lxWS", "Throw", "Put"};
     magazines[] = {mag_12("TACU_Magazine_35Rnd_R4"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_12("TACU_Magazine_35Rnd_R4"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_06);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Rifleman_06);
 };
 
 class TACU_Somali_Pirates_U_I_Autorifleman: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -86,7 +86,7 @@ class TACU_Somali_Pirates_U_I_Autorifleman: TACU_Somali_Pirates_U_I_Rifleman_01 
     respawnWeapons[] = {"arifle_RPK12_F", "Throw", "Put"};
     magazines[] = {mag_5("TACU_Magazine_75Rnd_762_AK"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_5("TACU_Magazine_75Rnd_762_AK"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Autorifleman);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Autorifleman);
 };
 
 class TACU_Somali_Pirates_U_I_AT: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -115,7 +115,7 @@ class TACU_Somali_Pirates_U_I_AT: TACU_Somali_Pirates_U_I_Rifleman_01 {
         mag_2("HandGrenade"),
         "RPG7_F"
     };
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_AT);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_AT);
 };
 
 class TACU_Somali_Pirates_U_I_Driver: TACU_Somali_Pirates_U_I_Rifleman_01 {
@@ -126,5 +126,5 @@ class TACU_Somali_Pirates_U_I_Driver: TACU_Somali_Pirates_U_I_Rifleman_01 {
     respawnWeapons[] = {"arifle_AK12U_arid_F", "Throw", "Put"};
     magazines[] = {mag_12("TACU_Magazine_30Rnd_762_AK"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_12("TACU_Magazine_30Rnd_762_AK"), mag_2("HandGrenade")};
-    EDITORPREVIEW(TACU_Somali_Pirates_U_I_Driver);
+    //EDITORPREVIEW(TACU_Somali_Pirates_U_I_Driver);
 };

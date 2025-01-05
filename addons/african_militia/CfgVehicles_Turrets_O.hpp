@@ -4,7 +4,7 @@ class TACU_African_Militia_V_O_MK6: TACU_MK6_Base {
     side = 0;
     crew = "TACU_African_Militia_U_O_Rifleman";
     typicalCargo[] = {"TACU_African_Militia_U_O_Rifleman"};
-    EDITORPREVIEW(TACU_African_Militia_V_O_MK6);
+    //EDITORPREVIEW(TACU_African_Militia_V_O_MK6);
 };
 
 class TACU_African_Militia_V_O_HMG: TACU_HMG_50 {
@@ -13,7 +13,7 @@ class TACU_African_Militia_V_O_HMG: TACU_HMG_50 {
     side = 0;
     crew = "TACU_African_Militia_U_O_Rifleman";
     typicalCargo[] = {"TACU_African_Militia_U_O_Rifleman"};
-    EDITORPREVIEW(TACU_African_Militia_V_O_HMG);
+    //EDITORPREVIEW(TACU_African_Militia_V_O_HMG);
 };
 
 class TACU_African_Militia_V_O_ZU23: TACU_ZU23_base {
@@ -23,7 +23,7 @@ class TACU_African_Militia_V_O_ZU23: TACU_ZU23_base {
     crew = "TACU_African_Militia_U_O_Rifleman";
     typicalCargo[] = {"TACU_African_Militia_U_O_Rifleman"};
     textureList[] = {"SFIA", 1};
-    EDITORPREVIEW(TACU_African_Militia_V_O_ZU23);
+    //EDITORPREVIEW(TACU_African_Militia_V_O_ZU23);
 };
 
 class TACU_African_Militia_V_O_DSHKM: TACU_DSHKM_base {
@@ -32,5 +32,5 @@ class TACU_African_Militia_V_O_DSHKM: TACU_DSHKM_base {
     side = 0;
     crew = "TACU_African_Militia_U_O_Rifleman";
     typicalCargo[] = {"TACU_African_Militia_U_O_Rifleman"};
-    EDITORPREVIEW(TACU_African_Militia_V_O_DSHKM);
+    //EDITORPREVIEW(TACU_African_Militia_V_O_DSHKM);
 };

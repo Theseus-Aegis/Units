@@ -4,7 +4,7 @@ class TACU_African_South_V_B_MK6: TACU_MK6_Base {
     side = 1;
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
-    EDITORPREVIEW(TACU_African_South_V_B_MK6);
+    //EDITORPREVIEW(TACU_African_South_V_B_MK6);
 };
 class TACU_African_South_V_I_MK6: TACU_African_South_V_B_MK6 {
     faction = "TACU_African_South_I";
@@ -25,7 +25,7 @@ class TACU_African_South_V_B_HMG_50: TACU_HMG_50 {
     side = 1;
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
-    EDITORPREVIEW(TACU_African_South_V_B_HMG_50);
+    //EDITORPREVIEW(TACU_African_South_V_B_HMG_50);
 };
 class TACU_African_South_V_I_HMG_50: TACU_African_South_V_B_HMG_50 {
     faction = "TACU_African_South_I";
@@ -46,7 +46,7 @@ class TACU_African_South_V_B_HMG_50_Low: TACU_HMG_50_Low {
     side = 1;
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
-    EDITORPREVIEW(TACU_African_South_V_B_HMG_50_Low);
+    //EDITORPREVIEW(TACU_African_South_V_B_HMG_50_Low);
 };
 class TACU_African_South_V_I_HMG_50_Low: TACU_African_South_V_B_HMG_50_Low {
     faction = "TACU_African_South_I";
@@ -68,7 +68,7 @@ class TACU_African_South_V_B_Mini_Spike_Green: TACU_Mini_Spike_AT {
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
     textureList[] = {"Green", 1};
-    EDITORPREVIEW(TACU_African_South_V_B_Mini_Spike_Green);
+    //EDITORPREVIEW(TACU_African_South_V_B_Mini_Spike_Green);
 };
 class TACU_African_South_V_I_Mini_Spike_Green: TACU_African_South_V_B_Mini_Spike_Green {
     faction = "TACU_African_South_I";
@@ -90,7 +90,7 @@ class TACU_African_South_V_B_ZU23: TACU_ZU23_base {
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
     textureList[] = {"Sand", 1};
-    EDITORPREVIEW(TACU_African_South_V_B_ZU23);
+    //EDITORPREVIEW(TACU_African_South_V_B_ZU23);
 };
 class TACU_African_South_V_I_ZU23: TACU_African_South_V_B_ZU23 {
     faction = "TACU_African_South_I";
@@ -110,7 +110,7 @@ class TACU_African_South_V_B_D30: TACU_D30_base {
     side = 1;
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
-    EDITORPREVIEW(TACU_African_South_V_B_D30);
+    //EDITORPREVIEW(TACU_African_South_V_B_D30);
 };
 class TACU_African_South_V_I_D30: TACU_African_South_V_B_D30 {
     faction = "TACU_African_South_I";
@@ -131,7 +131,7 @@ class TACU_African_South_V_B_FIM92: TACU_FIM92_base {
     side = 1;
     crew = "TACU_African_South_U_B_Rifleman";
     typicalCargo[] = {"TACU_African_South_U_B_Rifleman"};
-    EDITORPREVIEW(TACU_African_South_V_B_FIM92);
+    //EDITORPREVIEW(TACU_African_South_V_B_FIM92);
 };
 class TACU_African_South_V_I_FIM92: TACU_African_South_V_B_FIM92 {
     faction = "TACU_African_South_I";
