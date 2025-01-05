@@ -1,4 +1,3 @@
-// Veterans Vehicles
 class TACU_Taliban_Veterans_V_I_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -17,13 +16,6 @@ class TACU_Taliban_Veterans_V_I_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
     };
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Kamaz_ZU23);
 };
-class TACU_Taliban_Veterans_V_O_Kamaz_ZU23: TACU_Taliban_Veterans_V_I_Kamaz_ZU23 {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
 class TACU_Taliban_Veterans_V_I_Kamaz_Transport: TACU_Kamaz_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -33,13 +25,6 @@ class TACU_Taliban_Veterans_V_I_Kamaz_Transport: TACU_Kamaz_Base {
     textureList[] = {"Brown", 1};
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Kamaz_Transport);
 };
-class TACU_Taliban_Veterans_V_O_Kamaz_Transport: TACU_Taliban_Veterans_V_I_Kamaz_Transport {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
 class TACU_Taliban_Veterans_V_I_Kamaz_Covered_Transport: TACU_Kamaz_Covered_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -49,13 +34,6 @@ class TACU_Taliban_Veterans_V_I_Kamaz_Covered_Transport: TACU_Kamaz_Covered_Base
     textureList[] = {"Brown", 1};
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Kamaz_Covered_Transport);
 };
-class TACU_Taliban_Veterans_V_O_Kamaz_Covered_Transport: TACU_Taliban_Veterans_V_I_Kamaz_Covered_Transport {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
 class TACU_Taliban_Veterans_V_I_Truck: TACU_Truck_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -65,15 +43,6 @@ class TACU_Taliban_Veterans_V_I_Truck: TACU_Truck_Base {
     textureList[] = {"Guerilla_03", 1};
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Truck);
 };
-class TACU_Taliban_Veterans_V_O_Truck: TACU_Taliban_Veterans_V_I_Truck {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-
-// Offroads
 class TACU_Taliban_Veterans_V_I_Offroad_Unarmed: TACU_Offroad_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -96,66 +65,6 @@ class TACU_Taliban_Veterans_V_I_Offroad_Unarmed: TACU_Offroad_Unarmed_Base {
     };
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_Unarmed);
 };
-class TACU_Taliban_Veterans_V_O_Offroad_Unarmed: TACU_Taliban_Veterans_V_I_Offroad_Unarmed {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-class TACU_Taliban_Veterans_V_I_Offroad_HMG: TACU_Offroad_Armed_M2_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
-    faction = "TACU_Taliban_Veterans_I";
-    side = 2;
-    crew = "TACU_Taliban_Veterans_U_I_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
-    textureList[] = {"Guerilla_03", 1};
-    animationList[] = {
-        "Hide_Shield", 0,
-        "Hide_Rail", 0,
-        "HideDoor1", 0,
-        "HideDoor2", 0,
-        "HideDoor3", 0,
-        "HideBackpacks", 1,
-        "HideBumper1", 1,
-        "HideBumper2", 0,
-        "HideConstruction", 0
-    };
-    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_HMG);
-};
-class TACU_Taliban_Veterans_V_O_Offroad_HMG: TACU_Taliban_Veterans_V_I_Offroad_HMG {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-class TACU_Taliban_Veterans_V_I_Offroad_AT: TACU_Offroad_Armed_AT_Base {
-    MACRO_FACTION_VEHICLE_DEFAULTS;
-    faction = "TACU_Taliban_Veterans_I";
-    side = 2;
-    crew = "TACU_Taliban_Veterans_U_I_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
-    textureList[] = {"Guerilla_03", 1};
-    animationList[] = {
-        "HideDoor1", 0,
-        "HideDoor2", 0,
-        "HideDoor3", 0,
-        "HideBackpacks", 1,
-        "HideBumper1", 1,
-        "HideBumper2", 0,
-        "HideConstruction", 0
-    };
-    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_AT);
-};
-class TACU_Taliban_Veterans_V_O_Offroad_AT: TACU_Taliban_Veterans_V_I_Offroad_AT {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-// UP-Armoured Offroads
 class TACU_Taliban_Veterans_V_I_Offroad_Unarmed_UP: TACU_Offroad_Unarmed_UP_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -179,13 +88,44 @@ class TACU_Taliban_Veterans_V_I_Offroad_Unarmed_UP: TACU_Offroad_Unarmed_UP_Base
     };
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_Unarmed_UP);
 };
-class TACU_Taliban_Veterans_V_O_Offroad_Unarmed_UP: TACU_Taliban_Veterans_V_I_Offroad_Unarmed_UP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
+class TACU_Taliban_Veterans_V_I_Offroad_HMG: TACU_Offroad_Armed_M2_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Taliban_Veterans_I";
+    side = 2;
+    crew = "TACU_Taliban_Veterans_U_I_Driver";
+    typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    textureList[] = {"Guerilla_03", 1};
+    animationList[] = {
+        "Hide_Shield", 0,
+        "Hide_Rail", 0,
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 0,
+        "HideConstruction", 0
+    };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_HMG);
 };
-
+class TACU_Taliban_Veterans_V_I_Offroad_AT: TACU_Offroad_Armed_AT_Base {
+    MACRO_FACTION_VEHICLE_DEFAULTS;
+    faction = "TACU_Taliban_Veterans_I";
+    side = 2;
+    crew = "TACU_Taliban_Veterans_U_I_Driver";
+    typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
+    textureList[] = {"Guerilla_03", 1};
+    animationList[] = {
+        "HideDoor1", 0,
+        "HideDoor2", 0,
+        "HideDoor3", 0,
+        "HideBackpacks", 1,
+        "HideBumper1", 1,
+        "HideBumper2", 0,
+        "HideConstruction", 0
+    };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_AT);
+};
 class TACU_Taliban_Veterans_V_I_Offroad_HMG_UP: TACU_Offroad_Armed_M2_UP_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -211,13 +151,6 @@ class TACU_Taliban_Veterans_V_I_Offroad_HMG_UP: TACU_Offroad_Armed_M2_UP_Base {
     };
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_HMG_UP);
 };
-class TACU_Taliban_Veterans_V_O_Offroad_HMG_UP: TACU_Taliban_Veterans_V_I_Offroad_HMG_UP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
 class TACU_Taliban_Veterans_V_I_Offroad_AT_UP: TACU_Offroad_Armed_AT_UP_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -241,14 +174,6 @@ class TACU_Taliban_Veterans_V_I_Offroad_AT_UP: TACU_Offroad_Armed_AT_UP_Base {
     };
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Offroad_AT_UP);
 };
-class TACU_Taliban_Veterans_V_O_Offroad_AT_UP: TACU_Taliban_Veterans_V_I_Offroad_AT_UP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-// Unarmed RAM 1500
 class TACU_Taliban_Veterans_V_I_Pickup_Unarmed: TACU_Ram1500_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -306,20 +231,6 @@ class TACU_Taliban_Veterans_V_I_Pickup_unarmed_UP: TACU_Taliban_Veterans_V_I_Pic
         "hide_sidesteps", 0
     };
 };
-class TACU_Taliban_Veterans_V_O_Pickup_Unarmed: TACU_Taliban_Veterans_V_I_Pickup_Unarmed {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-class TACU_Taliban_Veterans_V_O_Pickup_unarmed_UP: TACU_Taliban_Veterans_V_I_Pickup_unarmed_UP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-// HMG RAM 1500
 class TACU_Taliban_Veterans_V_I_Pickup_HMG: TACU_Ram1500_HMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -377,20 +288,6 @@ class TACU_Taliban_Veterans_V_I_Pickup_HMG_UP: TACU_Taliban_Veterans_V_I_Pickup_
         "hide_sidesteps", 0
     };
 };
-class TACU_Taliban_Veterans_V_O_Pickup_HMG: TACU_Taliban_Veterans_V_I_Pickup_HMG {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-class TACU_Taliban_Veterans_V_O_Pickup_HMG_UP: TACU_Taliban_Veterans_V_I_Pickup_HMG_UP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-// MMG RAM 1500
 class TACU_Taliban_Veterans_V_I_Pickup_MMG: TACU_Ram1500_MMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -444,20 +341,6 @@ class TACU_Taliban_Veterans_V_I_Pickup_MMG_UP: TACU_Taliban_Veterans_V_I_Pickup_
         "hide_sidesteps", 0
     };
 };
-class TACU_Taliban_Veterans_V_O_Pickup_MMG: TACU_Taliban_Veterans_V_I_Pickup_MMG {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-class TACU_Taliban_Veterans_V_O_Pickup_MMG_UP: TACU_Taliban_Veterans_V_I_Pickup_MMG_UP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-// BRDM-2
 class TACU_Taliban_Veterans_V_I_BRDM2: TACU_BRDM2_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -467,14 +350,6 @@ class TACU_Taliban_Veterans_V_I_BRDM2: TACU_BRDM2_Base {
     textureList[] = {"RU", 1};
     //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_BRDM2);
 };
-class TACU_Taliban_Veterans_V_O_BRDM2: TACU_Taliban_Veterans_V_I_BRDM2 {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-// Hilux
 class TACU_Taliban_Veterans_V_I_Hilux: TACU_Hilux_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -483,13 +358,6 @@ class TACU_Taliban_Veterans_V_I_Hilux: TACU_Hilux_Base {
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux);
 };
-class TACU_Taliban_Veterans_V_O_Hilux: TACU_Taliban_Veterans_V_I_Hilux {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
 class TACU_Taliban_Veterans_V_I_Hilux_Armored: TACU_Hilux_Armored_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -498,13 +366,6 @@ class TACU_Taliban_Veterans_V_I_Hilux_Armored: TACU_Hilux_Armored_Base {
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_Armored);
 };
-class TACU_Taliban_Veterans_V_O_Hilux_Armored: TACU_Taliban_Veterans_V_I_Hilux_Armored {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
 class TACU_Taliban_Veterans_V_I_Hilux_BMP: TACU_Hilux_BMP1_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -513,13 +374,6 @@ class TACU_Taliban_Veterans_V_I_Hilux_BMP: TACU_Hilux_BMP1_Base {
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_BMP);
 };
-class TACU_Taliban_Veterans_V_O_Hilux_BMP: TACU_Taliban_Veterans_V_I_Hilux_BMP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
 class TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored: TACU_Hilux_BMP1_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -528,14 +382,6 @@ class TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored: TACU_Hilux_BMP1_Base {
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored);
 };
-class TACU_Taliban_Veterans_V_O_Hilux_BMP_Armored: TACU_Taliban_Veterans_V_I_Hilux_BMP {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
-};
-
-// T72
 class TACU_Taliban_Veterans_V_I_T72: TACU_T72_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
@@ -544,10 +390,4 @@ class TACU_Taliban_Veterans_V_I_T72: TACU_T72_Base {
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     textureList[] = {"RU", 1};
     //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_T72);
-};
-class TACU_Taliban_Veterans_V_O_T72: TACU_Taliban_Veterans_V_I_T72 {
-    faction = "TACU_Taliban_Veterans_O";
-    side = 0;
-    crew = "TACU_Taliban_Veterans_U_O_Driver";
-    typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
 };
