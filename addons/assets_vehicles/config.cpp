@@ -150,7 +150,11 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "RF_Data_Loadorder"};
+        requiredAddons[] = {
+            "tacu_main",
+            "CUP_Vehicles_LoadOrder",
+            "RF_Data_Loadorder"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Mike, GilleeDoo"};
         url = ECSTRING(main,URL);
