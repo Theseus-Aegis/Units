@@ -1,0 +1,33 @@
+private _list = [
+    "TACU_Foreign_Legion_U_B_Rifleman",
+    "TACU_Foreign_Legion_U_B_Demolitions",
+    "TACU_Foreign_Legion_U_B_Engineer",
+    "TACU_Foreign_Legion_U_B_Autorifleman",
+    "TACU_Foreign_Legion_U_B_Machinegunner",
+    "TACU_Foreign_Legion_U_B_Marksman",
+    "TACU_Foreign_Legion_U_B_Medic",
+    "TACU_Foreign_Legion_U_B_AT",
+    "TACU_Foreign_Legion_U_B_Breacher",
+    "TACU_Foreign_Legion_U_B_TL",
+    "TACU_Foreign_Legion_U_B_Grenadier",
+    "TACU_Foreign_Legion_U_B_Driver",
+    "TACU_Foreign_Legion_U_B_Pilot",
+    "TACU_Foreign_Legion_V_B_Assault_Boat",
+    "TACU_Foreign_Legion_V_B_Speedboat_Minigun",
+    "TACU_Foreign_Legion_V_B_MATV",
+    "TACU_Foreign_Legion_V_B_MATV_HMG",
+    "TACU_Foreign_Legion_V_B_MATV_GMG",
+    "TACU_Foreign_Legion_V_B_Polaris",
+    "TACU_Foreign_Legion_V_B_Polaris_Armed",
+    "TACU_Foreign_Legion_V_B_Polaris_AT",
+    "TACU_Foreign_Legion_V_B_HEMTT",
+    "TACU_Foreign_Legion_V_B_HEMTT_Covered",
+    "TACU_Foreign_Legion_V_B_Little_Bird",
+    "TACU_Foreign_Legion_V_B_Ghosthawk",
+    "TACU_Foreign_Legion_V_B_Pandur",
+    "TACU_Foreign_Legion_V_B_MK6",
+    "TACU_Foreign_Legion_V_B_HMG",
+    "TACU_Foreign_Legion_V_B_Mini_Spike_AT"
+];
+
+[nil, "all", [], [], [], _list] spawn BIS_fnc_exportEditorPreviews;
