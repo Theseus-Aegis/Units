@@ -1,6 +1,5 @@
 class CfgVehicles {
-    #include "Vehicles\baseclasses.hpp"
-    #include "Vehicles_CUP\baseclasses.hpp"
+    #include "baseclasses.hpp"
 
     #ifdef DEBUG_MODE_FULL
         #include "Vehicles\Test_Unit.hpp"
