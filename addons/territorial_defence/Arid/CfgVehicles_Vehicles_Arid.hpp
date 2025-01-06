@@ -47,7 +47,7 @@ class TACU_Territorial_Defence_V_O_GAZ_233144_KORD_Arid: TACU_TIGR_233114_KORD_B
         "hide_ReserveWheel", 0,
         "hide_Front_Bumper", 0
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_KORD_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_KORD_Arid);
 };
 
 class TACU_Territorial_Defence_V_O_GAZ_233144_PK_Arid: TACU_TIGR_233114_PK_Base {
@@ -74,7 +74,7 @@ class TACU_Territorial_Defence_V_O_GAZ_233144_PK_Arid: TACU_TIGR_233114_PK_Base 
         "hide_ReserveWheel", 0,
         "hide_Front_Bumper", 0
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_PK_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_PK_Arid);
 };
 
 class TACU_Territorial_Defence_V_O_RAM_Arid: TACU_Ram1500_Unarmed_Base {
@@ -102,7 +102,7 @@ class TACU_Territorial_Defence_V_O_RAM_Arid: TACU_Ram1500_Unarmed_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_Arid);
 };
 class TACU_Territorial_Defence_V_O_RAM_HMG_Arid: TACU_Ram1500_HMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -129,7 +129,7 @@ class TACU_Territorial_Defence_V_O_RAM_HMG_Arid: TACU_Ram1500_HMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_HMG_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_HMG_Arid);
 };
 class TACU_Territorial_Defence_V_O_RAM_MMG_Arid: TACU_Ram1500_MMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -156,7 +156,7 @@ class TACU_Territorial_Defence_V_O_RAM_MMG_Arid: TACU_Ram1500_MMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_MMG_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_MMG_Arid);
 };
 
 class TACU_Territorial_Defence_V_O_BTR80_Arid: TACU_BTR80_Base {
@@ -167,7 +167,7 @@ class TACU_Territorial_Defence_V_O_BTR80_Arid: TACU_BTR80_Base {
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Crewman_Arid"};
     side = 0;
     textureList[] = {"RU_Green", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80);
 };
 class TACU_Territorial_Defence_V_O_BTR80A_Arid: TACU_BTR80A_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -177,7 +177,7 @@ class TACU_Territorial_Defence_V_O_BTR80A_Arid: TACU_BTR80A_Base {
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Crewman_Arid"};
     side = 0;
     textureList[] = {"RU_Green", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80A);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80A);
 };
 
 class TACU_Territorial_Militia_V_O_Mi8_Arid;
@@ -196,4 +196,5 @@ class TACU_Territorial_Defence_V_O_Mi8_MTV3_Arid: TACU_Mi8_MTV3_Base {
     crew = "TACU_Territorial_Defence_U_O_Pilot_Arid";
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Pilot_Arid"};
     textureList[] = {"CIV_TAN", 1};
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_Mi8_MTV3_Arid);
 };

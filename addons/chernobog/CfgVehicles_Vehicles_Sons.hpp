@@ -36,7 +36,7 @@ class TACU_Chernobog_Sons_M113A1: TACU_M113A1_Base {
     side = 2;
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_M113A1);
+    EDITORPREVIEW(TACU_Chernobog_Sons_M113A1);
 };
 class TACU_Chernobog_Sons_V_I_BRDM2: TACU_BRDM2_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -45,7 +45,7 @@ class TACU_Chernobog_Sons_V_I_BRDM2: TACU_BRDM2_Base {
     side = 2;
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_V_I_BRDM2);
+    EDITORPREVIEW(TACU_Chernobog_Sons_V_I_BRDM2);
 };
 class TACU_Chernobog_Sons_V_I_BTR60: TACU_BTR60_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -54,7 +54,7 @@ class TACU_Chernobog_Sons_V_I_BTR60: TACU_BTR60_Base {
     side = 2;
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_V_I_BTR60);
+    EDITORPREVIEW(TACU_Chernobog_Sons_V_I_BTR60);
 };
 class TACU_Chernobog_Sons_V_I_MTLB: TACU_MTLB_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -63,7 +63,7 @@ class TACU_Chernobog_Sons_V_I_MTLB: TACU_MTLB_Base {
     side = 2;
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_V_I_MTLB);
+    EDITORPREVIEW(TACU_Chernobog_Sons_V_I_MTLB);
 };
 // Tanks
 class TACU_Chernobog_Sons_V_I_T55: TACU_T55_Base {
@@ -73,7 +73,7 @@ class TACU_Chernobog_Sons_V_I_T55: TACU_T55_Base {
     side = 2;
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_V_I_T55);
+    EDITORPREVIEW(TACU_Chernobog_Sons_V_I_T55);
 };
 class TACU_Chernobog_Sons_V_I_Leopard1: TACU_Leopard_1_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -82,7 +82,7 @@ class TACU_Chernobog_Sons_V_I_Leopard1: TACU_Leopard_1_Base {
     side = 2;
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_V_I_Leopard1);
+    EDITORPREVIEW(TACU_Chernobog_Sons_V_I_Leopard1);
 };
 class TACU_Chernobog_Sons_V_I_UAZ: TACU_Chernobog_Children_V_I_UAZ {
     editorSubcategory = "TACU_Chernobog_Sons_Cars";
@@ -123,5 +123,5 @@ class TACU_Chernobog_Sons_V_I_Hilux_BMP1_Armored: TACU_Hilux_Armored_BMP1_Base {
     editorSubcategory = "TACU_Chernobog_Sons_Cars";
     crew = "TACU_Chernobog_Sons_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Sons_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Sons_V_I_Hilux_BMP1_Armored);
+    EDITORPREVIEW(TACU_Chernobog_Sons_V_I_Hilux_BMP1_Armored);
 };

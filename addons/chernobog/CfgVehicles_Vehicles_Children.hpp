@@ -43,7 +43,7 @@ class TACU_Chernobog_Children_V_I_UAZ: TACU_UAZ_Open_Base {
     side = 2;
     crew = "TACU_Chernobog_Children_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Chernobog_Children_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_UAZ);
+    EDITORPREVIEW(TACU_Chernobog_Children_V_I_UAZ);
 };
 class TACU_Chernobog_Children_V_I_UAZ_DSHKM: TACU_UAZ_DSHKM_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -52,7 +52,7 @@ class TACU_Chernobog_Children_V_I_UAZ_DSHKM: TACU_UAZ_DSHKM_Base {
     side = 2;
     crew = "TACU_Chernobog_Children_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Chernobog_Children_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_UAZ_DSHKM);
+    EDITORPREVIEW(TACU_Chernobog_Children_V_I_UAZ_DSHKM);
 };
 class TACU_Chernobog_Children_V_I_Skoda: TACU_S1203_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -61,7 +61,7 @@ class TACU_Chernobog_Children_V_I_Skoda: TACU_S1203_Base {
     side = 2;
     crew = "TACU_Chernobog_Children_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Chernobog_Children_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_Skoda);
+    EDITORPREVIEW(TACU_Chernobog_Children_V_I_Skoda);
 };
 class TACU_Chernobog_Children_V_I_Ural: TACU_Ural_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -70,7 +70,7 @@ class TACU_Chernobog_Children_V_I_Ural: TACU_Ural_Base {
     side = 2;
     crew = "TACU_Chernobog_Children_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Chernobog_Children_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_Ural);
+    EDITORPREVIEW(TACU_Chernobog_Children_V_I_Ural);
 };
 class TACU_Chernobog_Children_V_I_Hilux: TACU_Hilux_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -79,7 +79,7 @@ class TACU_Chernobog_Children_V_I_Hilux: TACU_Hilux_Base {
     side = 2;
     crew = "TACU_Chernobog_Children_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Chernobog_Children_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_Hilux);
+    EDITORPREVIEW(TACU_Chernobog_Children_V_I_Hilux);
 };
 class TACU_Chernobog_Children_V_I_Hilux_Armored: TACU_Hilux_Armored_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -88,5 +88,5 @@ class TACU_Chernobog_Children_V_I_Hilux_Armored: TACU_Hilux_Armored_Base {
     side = 2;
     crew = "TACU_Chernobog_Children_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Chernobog_Children_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Chernobog_Children_V_I_Hilux_Armored);
+    EDITORPREVIEW(TACU_Chernobog_Children_V_I_Hilux_Armored);
 };

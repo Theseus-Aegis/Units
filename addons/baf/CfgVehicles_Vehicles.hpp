@@ -76,14 +76,14 @@ class TACU_BAF_V_B_Arid_FV510_Warrior: TACU_FV510_Warrior_Base {
     EDITORPREVIEW(TACU_BAF_V_B_Arid_FV510_Warrior);
 };
 
-class TACU_BAF_V_Arid_FV510_Warrior_SLAT: TACU_BAF_V_B_Arid_FV510_Warrior {
+class TACU_BAF_V_B_Arid_FV510_Warrior_SLAT: TACU_BAF_V_B_Arid_FV510_Warrior {
     displayName = "FV510 Warrior SLAT (Arid)";
     animationList[] = {
         "showBags2", 1,
         "showSLATHull", 1,
         "showSLATTurret", 1
     };
-    EDITORPREVIEW(TACU_BAF_V_Arid_FV510_Warrior_SLAT);
+    EDITORPREVIEW(TACU_BAF_V_B_Arid_FV510_Warrior_SLAT);
 };
 
 // Tropic Vehicles
@@ -164,14 +164,14 @@ class TACU_BAF_V_B_Tropic_FV510_Warrior: TACU_FV510_Warrior_Base {
     EDITORPREVIEW(TACU_BAF_V_B_Tropic_FV510_Warrior);
 };
 
-class TACU_BAF_V_Tropic_FV510_Warrior_SLAT: TACU_BAF_V_B_Tropic_FV510_Warrior {
+class TACU_BAF_V_B_Tropic_FV510_Warrior_SLAT: TACU_BAF_V_B_Tropic_FV510_Warrior {
     displayName = "FV510 Warrior SLAT (Tropic)";
     animationList[] = {
         "showBags2", 1,
         "showSLATHull", 1,
         "showSLATTurret", 1
     };
-    EDITORPREVIEW(TACU_BAF_V_Tropic_FV510_Warrior_SLAT);
+    EDITORPREVIEW(TACU_BAF_V_B_Tropic_FV510_Warrior_SLAT);
 };
 
 // Urban Vehicles

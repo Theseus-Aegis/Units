@@ -1,0 +1,32 @@
+private _list = [
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_01",
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_02",
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_03",
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_04",
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_05",
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_06",
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_07",
+    "TACU_Cartel_Greek_U_O_Grunt_Rifleman_08",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_01",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_02",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_03",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_04",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_05",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_06",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_07",
+    "TACU_Cartel_Greek_U_O_Thug_Rifleman_08",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_03",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_05",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_06",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_07",
+    "TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08",
+    "TACU_Cartel_Greek_V_O_Grunt_Offroad",
+    "TACU_Cartel_Greek_V_O_Grunt_Van_Transport",
+    "TACU_Cartel_Greek_V_O_Thug_Offroad",
+    "TACU_Cartel_Greek_V_O_Thug_Offroad_Armed"
+];
+
+[nil, "all", [], [], [], _list] spawn BIS_fnc_exportEditorPreviews;

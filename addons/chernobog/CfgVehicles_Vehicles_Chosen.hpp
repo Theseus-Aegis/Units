@@ -82,5 +82,5 @@ class TACU_Chernobog_Chosen_V_I_Hilux_BMP1: TACU_Hilux_BMP1_Base {
     editorSubcategory = "TACU_Chernobog_Chosen_Cars";
     crew = "TACU_Chernobog_Chosen_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Chosen_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Hilux_BMP1);
+    EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Hilux_BMP1);
 };

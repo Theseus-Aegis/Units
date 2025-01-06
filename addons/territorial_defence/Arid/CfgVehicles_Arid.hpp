@@ -44,7 +44,7 @@ class TACU_Territorial_Defence_U_O_Rifleman_Arid: TACU_Main_U_OPFOR_Soldier_Base
         "CUP_H_RUS_6B47_headset_goggles_desert", 0.25,
         "CUP_H_RUS_6B47_headset_desert", 0.25
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Rifleman_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Rifleman_Arid);
 };
 class TACU_Territorial_Defence_U_O_Rifleman02_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     displayName = "Rifleman 02";
@@ -66,7 +66,7 @@ class TACU_Territorial_Defence_U_O_Rifleman02_Arid: TACU_Territorial_Defence_U_O
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Rifleman02_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Rifleman02_Arid);
 };
 class TACU_Territorial_Defence_U_O_AT_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     backpack = "TACU_Territorial_Defence_RPGPack";
@@ -95,7 +95,7 @@ class TACU_Territorial_Defence_U_O_AT_Arid: TACU_Territorial_Defence_U_O_Riflema
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_AT_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_AT_Arid);
 };
 class TACU_Territorial_Defence_U_O_Autorifleman_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     backpack = "TACU_Territorial_Defence_MG_AlicePack";
@@ -120,7 +120,7 @@ class TACU_Territorial_Defence_U_O_Autorifleman_Arid: TACU_Territorial_Defence_U
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Autorifleman_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Autorifleman_Arid);
 };
 class TACU_Territorial_Defence_U_O_Grenadier_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     displayName = "Grenadier";
@@ -145,7 +145,7 @@ class TACU_Territorial_Defence_U_O_Grenadier_Arid: TACU_Territorial_Defence_U_O_
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Grenadier_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Grenadier_Arid);
 };
 class TACU_Territorial_Defence_U_O_Engineer_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     backpack = "TACU_Territorial_Defence_Engineer_AlicePack";
@@ -154,7 +154,7 @@ class TACU_Territorial_Defence_U_O_Engineer_Arid: TACU_Territorial_Defence_U_O_R
     icon = "iconManEngineer";
     role = "Sapper";
     uavHacker = 1;
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Engineer_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Engineer_Arid);
 };
 class TACU_Territorial_Defence_U_O_Medic_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     attendant = 1;
@@ -162,7 +162,7 @@ class TACU_Territorial_Defence_U_O_Medic_Arid: TACU_Territorial_Defence_U_O_Rifl
     displayName = "Medic";
     icon = "iconManMedic";
     role = "CombatLifeSaver";
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Medic_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Medic_Arid);
 };
 class TACU_Territorial_Defence_U_O_Demolitions_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     backpack = "TACU_Territorial_Defence_Demolitions_AlicePack";
@@ -172,7 +172,7 @@ class TACU_Territorial_Defence_U_O_Demolitions_Arid: TACU_Territorial_Defence_U_
     icon = "iconManExplosive";
     role = "Sapper";
     uavHacker = 1;
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Demolitions_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Demolitions_Arid);
 };
 class TACU_Territorial_Defence_U_O_Marksman_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     displayName = "Marksman (VSS)";
@@ -196,7 +196,7 @@ class TACU_Territorial_Defence_U_O_Marksman_Arid: TACU_Territorial_Defence_U_O_R
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Marksman_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Marksman_Arid);
 };
 class TACU_Territorial_Defence_U_O_Marksman02_Arid: TACU_Territorial_Defence_U_O_Marksman_Arid {
     displayName = "Marksman (SVD)";
@@ -218,7 +218,7 @@ class TACU_Territorial_Defence_U_O_Marksman02_Arid: TACU_Territorial_Defence_U_O
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_Marksman02_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_Marksman02_Arid);
 };
 class TACU_Territorial_Defence_U_O_SquadLeader_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     displayName = "Squad Leader";
@@ -245,7 +245,7 @@ class TACU_Territorial_Defence_U_O_SquadLeader_Arid: TACU_Territorial_Defence_U_
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_SquadLeader_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_SquadLeader_Arid);
 };
 class TACU_Territorial_Defence_U_O_TeamLeader_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     displayName = "Team Leader";
@@ -270,7 +270,7 @@ class TACU_Territorial_Defence_U_O_TeamLeader_Arid: TACU_Territorial_Defence_U_O
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Territorial_Defence_U_O_TeamLeader_Arid);
+    EDITORPREVIEW(TACU_Territorial_Defence_U_O_TeamLeader_Arid);
 };
 class TACU_Territorial_Defence_U_O_Crewman_Arid: TACU_Territorial_Defence_U_O_Rifleman_Arid {
     displayName = "Crewman";

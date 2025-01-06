@@ -107,14 +107,17 @@ class TACU_Taliban_Militia_V_I_Pickup_Unarmed: TACU_Taliban_Veterans_V_I_Pickup_
     faction = "TACU_Taliban_Militia_I";
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Pickup_Unarmed);
 };
 class TACU_Taliban_Militia_V_I_Pickup_HMG: TACU_Taliban_Veterans_V_I_Pickup_HMG {
     faction = "TACU_Taliban_Militia_I";
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Pickup_HMG);
 };
 class TACU_Taliban_Militia_V_I_Pickup_MMG: TACU_Taliban_Veterans_V_I_Pickup_MMG {
     faction = "TACU_Taliban_Militia_I";
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_Pickup_MMG);
 };

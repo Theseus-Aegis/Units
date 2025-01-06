@@ -152,8 +152,8 @@ class CfgPatches {
             "TACU_Mercenaries_U_I_Medium_TeamLeader",
             "TACU_Mercenaries_U_I_Medium_SquadLeader",
             "TACU_Mercenaries_U_I_Medium_Crewman",
-            "TACU_Mercenaries_U_I_High_Rifleman",
             // Units - Independent, High
+            "TACU_Mercenaries_U_I_High_Rifleman",
             "TACU_Mercenaries_U_I_High_AT",
             "TACU_Mercenaries_U_I_High_AP",
             "TACU_Mercenaries_U_I_High_MG",

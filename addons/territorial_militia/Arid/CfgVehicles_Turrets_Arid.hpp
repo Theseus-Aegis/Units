@@ -5,7 +5,7 @@ class TACU_Territorial_Militia_V_O_AGS30_Arid: TACU_AGS_base {
     side = 0;
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
-    //EDITORPREVIEW(TACU_Territorial_Militia_V_O_AGS30);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_AGS30_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_DSHKM_Arid: TACU_DSHKM_base {
@@ -15,7 +15,7 @@ class TACU_Territorial_Militia_V_O_DSHKM_Arid: TACU_DSHKM_base {
     side = 0;
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
-    //EDITORPREVIEW(TACU_Territorial_Militia_V_O_DSHKM);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_DSHKM_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_DSHKM_Mini_Arid: TACU_DSHKM_Mini_base {
@@ -25,7 +25,7 @@ class TACU_Territorial_Militia_V_O_DSHKM_Mini_Arid: TACU_DSHKM_Mini_base {
     side = 0;
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
-    //EDITORPREVIEW(TACU_Territorial_Militia_V_O_DSHKM_Mini);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_DSHKM_Mini_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_KORD_Arid: TACU_KORD_base {
@@ -35,7 +35,7 @@ class TACU_Territorial_Militia_V_O_KORD_Arid: TACU_KORD_base {
     side = 0;
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
-    //EDITORPREVIEW(TACU_Territorial_Militia_V_O_KORD);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_KORD_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_KORD_Mini_Arid: TACU_KORD_Mini_base {
@@ -45,7 +45,7 @@ class TACU_Territorial_Militia_V_O_KORD_Mini_Arid: TACU_KORD_Mini_base {
     side = 0;
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
-    //EDITORPREVIEW(TACU_Territorial_Militia_V_O_KORD_Mini);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_KORD_Mini_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_ZU23_Arid: TACU_ZU23_base {
@@ -56,5 +56,5 @@ class TACU_Territorial_Militia_V_O_ZU23_Arid: TACU_ZU23_base {
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
     textureList[] = {"Sand", 1};
-    //EDITORPREVIEW(TACU_Territorial_Militia_V_O_ZU23);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_ZU23_Arid);
 };

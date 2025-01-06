@@ -207,6 +207,7 @@ class TACU_Taliban_Veterans_V_I_Pickup_Unarmed: TACU_Ram1500_Unarmed_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Pickup_Unarmed);
 };
 class TACU_Taliban_Veterans_V_I_Pickup_unarmed_UP: TACU_Taliban_Veterans_V_I_Pickup_Unarmed {
     displayName = "RAM 1500 (UP)";
@@ -230,6 +231,7 @@ class TACU_Taliban_Veterans_V_I_Pickup_unarmed_UP: TACU_Taliban_Veterans_V_I_Pic
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Pickup_unarmed_UP);
 };
 class TACU_Taliban_Veterans_V_I_Pickup_HMG: TACU_Ram1500_HMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -264,6 +266,7 @@ class TACU_Taliban_Veterans_V_I_Pickup_HMG: TACU_Ram1500_HMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Pickup_HMG);
 };
 class TACU_Taliban_Veterans_V_I_Pickup_HMG_UP: TACU_Taliban_Veterans_V_I_Pickup_HMG {
     displayName = "RAM 1500 (HMG, UP)";
@@ -287,6 +290,7 @@ class TACU_Taliban_Veterans_V_I_Pickup_HMG_UP: TACU_Taliban_Veterans_V_I_Pickup_
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Pickup_HMG_UP);
 };
 class TACU_Taliban_Veterans_V_I_Pickup_MMG: TACU_Ram1500_MMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -319,6 +323,7 @@ class TACU_Taliban_Veterans_V_I_Pickup_MMG: TACU_Ram1500_MMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Pickup_MMG);
 };
 class TACU_Taliban_Veterans_V_I_Pickup_MMG_UP: TACU_Taliban_Veterans_V_I_Pickup_MMG {
     displayName = "RAM 1500 (MMG, UP)";
@@ -340,6 +345,7 @@ class TACU_Taliban_Veterans_V_I_Pickup_MMG_UP: TACU_Taliban_Veterans_V_I_Pickup_
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Pickup_MMG_UP);
 };
 class TACU_Taliban_Veterans_V_I_BRDM2: TACU_BRDM2_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -348,7 +354,7 @@ class TACU_Taliban_Veterans_V_I_BRDM2: TACU_BRDM2_Base {
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     textureList[] = {"RU", 1};
-    //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_BRDM2);
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_BRDM2);
 };
 class TACU_Taliban_Veterans_V_I_Hilux: TACU_Hilux_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -356,7 +362,7 @@ class TACU_Taliban_Veterans_V_I_Hilux: TACU_Hilux_Base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux);
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux);
 };
 class TACU_Taliban_Veterans_V_I_Hilux_Armored: TACU_Hilux_Armored_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -364,7 +370,7 @@ class TACU_Taliban_Veterans_V_I_Hilux_Armored: TACU_Hilux_Armored_Base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_Armored);
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_Armored);
 };
 class TACU_Taliban_Veterans_V_I_Hilux_BMP: TACU_Hilux_BMP1_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -372,7 +378,7 @@ class TACU_Taliban_Veterans_V_I_Hilux_BMP: TACU_Hilux_BMP1_Base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_BMP);
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_BMP);
 };
 class TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored: TACU_Hilux_BMP1_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -380,7 +386,7 @@ class TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored: TACU_Hilux_BMP1_Base {
     side = 2;
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored);
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored);
 };
 class TACU_Taliban_Veterans_V_I_T72: TACU_T72_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -389,5 +395,5 @@ class TACU_Taliban_Veterans_V_I_T72: TACU_T72_Base {
     crew = "TACU_Taliban_Veterans_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     textureList[] = {"RU", 1};
-    //EDITORPREVIEW(TACU_Taliban_Veterans_V_I_T72);
+    EDITORPREVIEW(TACU_Taliban_Veterans_V_I_T72);
 };

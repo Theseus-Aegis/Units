@@ -189,6 +189,6 @@ class TACU_Proxy_China_V_O_T72: TACU_T72_Base {
     side = 0;
     crew = "TACU_Proxy_China_U_O_Driver";
     typicalCargo[] = {"TACU_Proxy_China_U_O_Driver"};
-    textureList[] = {"Opfor", 1};
-    //EDITORPREVIEW(TACU_Proxy_China_V_O_T72);
+    textureList[] = {"CSAT", 1};
+    EDITORPREVIEW(TACU_Proxy_China_V_O_T72);
 };

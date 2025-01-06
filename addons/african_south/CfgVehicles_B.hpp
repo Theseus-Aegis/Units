@@ -410,4 +410,5 @@ class TACU_African_South_U_B_Pilot: TACU_African_South_U_B_Rifleman {
         "V_Chestrig_oli"
     };
     CBA_facewearList[] = {};
+    EDITORPREVIEW(TACU_African_South_U_B_Pilot);
 };
