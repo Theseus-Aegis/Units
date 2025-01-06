@@ -64,7 +64,7 @@ class CfgPatches {
             "TACU_Chernobog_Sons_V_I_Hilux",
             "TACU_Chernobog_Sons_V_I_Hilux_Armored",
             "TACU_Chernobog_Sons_V_I_Hilux_BMP1",
-            "TACU_Chernobog_Sons_V_I_Hilux_BMP1_Armored"
+            "TACU_Chernobog_Sons_V_I_Hilux_BMP1_Armored",
             "TACU_Chernobog_Sons_V_I_Leopard1",
             "TACU_Chernobog_Sons_V_I_Marid_HMG",
             "TACU_Chernobog_Sons_V_I_MTLB",
@@ -76,7 +76,7 @@ class CfgPatches {
             "TACU_Chernobog_Sons_V_I_T55",
             "TACU_Chernobog_Sons_V_I_UAZ",
             "TACU_Chernobog_Sons_V_I_UAZ_DSHKM",
-            "TACU_Chernobog_Sons_V_I_Ural",
+            "TACU_Chernobog_Sons_V_I_Ural"
         };
         weapons[] = {
             "TACU_Chernobog_W_AK74M",
