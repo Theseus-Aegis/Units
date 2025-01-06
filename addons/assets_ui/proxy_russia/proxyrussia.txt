@@ -39,6 +39,7 @@ private _list = [
     "TACU_Proxy_Russia_V_O_Truck",
     "TACU_Proxy_Russia_V_O_Typhoon",
     "TACU_Proxy_Russia_V_O_Typhoon_Covered",
+    "TACU_Proxy_Russia_V_O_Typhoon_Device_CBRN",
     "TACU_Proxy_Russia_V_O_Tigris",
     "TACU_Proxy_Russia_V_O_Iskatel",
     "TACU_Proxy_Russia_V_O_Stalker",

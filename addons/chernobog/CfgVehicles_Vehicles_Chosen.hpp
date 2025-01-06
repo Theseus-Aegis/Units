@@ -25,7 +25,7 @@ class TACU_Chernobog_Chosen_V_I_Offroad_UP: TACU_Offroad_Unarmed_UP_Base {
         "Guerilla_09", 0.14,
         "Guerilla_12", 0.14
     };
-    //EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Offroad_UP);
+    EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Offroad_UP);
 };
 
 
@@ -46,7 +46,7 @@ class TACU_Chernobog_Chosen_V_I_Offroad_HMG_UP: TACU_Offroad_Armed_M2_UP_Base {
         "Guerilla_09", 0.14,
         "Guerilla_12", 0.14
     };
-    //EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Offroad_HMG_UP);
+    EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Offroad_HMG_UP);
 };
 class TACU_Chernobog_Chosen_V_I_UAZ: TACU_Chernobog_Children_V_I_UAZ {
     editorSubcategory = "TACU_Chernobog_Chosen_Cars";
@@ -82,5 +82,5 @@ class TACU_Chernobog_Chosen_V_I_Hilux_BMP1: TACU_Hilux_BMP1_Base {
     editorSubcategory = "TACU_Chernobog_Chosen_Cars";
     crew = "TACU_Chernobog_Chosen_U_I_Rifleman";
     typicalCargo[] = {"TACU_Chernobog_Chosen_U_I_Rifleman"};
-    //EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Hilux_BMP1);
+    EDITORPREVIEW(TACU_Chernobog_Chosen_V_I_Hilux_BMP1);
 };

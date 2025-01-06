@@ -10,7 +10,7 @@ class TACU_Mercenaries_U_O_Medium_Rifleman: TACU_Mercenaries_U_O_Low_Rifleman {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Rifleman);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Rifleman);
 };
 class TACU_Mercenaries_U_O_Medium_AT: TACU_Mercenaries_U_O_Low_AT {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -26,7 +26,7 @@ class TACU_Mercenaries_U_O_Medium_AT: TACU_Mercenaries_U_O_Low_AT {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_AT);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_AT);
 };
 class TACU_Mercenaries_U_O_Medium_AP: TACU_Mercenaries_U_O_Low_AP {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -42,7 +42,7 @@ class TACU_Mercenaries_U_O_Medium_AP: TACU_Mercenaries_U_O_Low_AP {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_AP);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_AP);
 };
 class TACU_Mercenaries_U_O_Medium_MG: TACU_Mercenaries_U_O_Low_MG {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -56,7 +56,7 @@ class TACU_Mercenaries_U_O_Medium_MG: TACU_Mercenaries_U_O_Low_MG {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_MG);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_MG);
 };
 class TACU_Mercenaries_U_O_Medium_Medic: TACU_Mercenaries_U_O_Low_Medic {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -70,7 +70,7 @@ class TACU_Mercenaries_U_O_Medium_Medic: TACU_Mercenaries_U_O_Low_Medic {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Medic);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Medic);
 };
 class TACU_Mercenaries_U_O_Medium_Engineer: TACU_Mercenaries_U_O_Low_Engineer {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -84,7 +84,7 @@ class TACU_Mercenaries_U_O_Medium_Engineer: TACU_Mercenaries_U_O_Low_Engineer {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Engineer);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Engineer);
 };
 class TACU_Mercenaries_U_O_Medium_Demolitions: TACU_Mercenaries_U_O_Low_Demolitions {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -98,7 +98,7 @@ class TACU_Mercenaries_U_O_Medium_Demolitions: TACU_Mercenaries_U_O_Low_Demoliti
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Demolitions);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Demolitions);
 };
 class TACU_Mercenaries_U_O_Medium_Grenadier: TACU_Mercenaries_U_O_Low_Grenadier {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -112,7 +112,7 @@ class TACU_Mercenaries_U_O_Medium_Grenadier: TACU_Mercenaries_U_O_Low_Grenadier 
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Grenadier);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Grenadier);
 };
 class TACU_Mercenaries_U_O_Medium_Marksman: TACU_Mercenaries_U_O_Low_Marksman {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -128,7 +128,7 @@ class TACU_Mercenaries_U_O_Medium_Marksman: TACU_Mercenaries_U_O_Low_Marksman {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Low_Marksman);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Low_Marksman);
 };
 class TACU_Mercenaries_U_O_Medium_TeamLeader: TACU_Mercenaries_U_O_Low_TeamLeader {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -142,7 +142,7 @@ class TACU_Mercenaries_U_O_Medium_TeamLeader: TACU_Mercenaries_U_O_Low_TeamLeade
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_TeamLeader);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_TeamLeader);
 };
 class TACU_Mercenaries_U_O_Medium_SquadLeader: TACU_Mercenaries_U_O_Low_SquadLeader {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -158,7 +158,7 @@ class TACU_Mercenaries_U_O_Medium_SquadLeader: TACU_Mercenaries_U_O_Low_SquadLea
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_SquadLeader);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_SquadLeader);
 };
 class TACU_Mercenaries_U_O_Medium_Crewman: TACU_Mercenaries_U_O_Low_Crewman {
     MACRO_OPFOR_MEDIUM_GEAR;
@@ -172,5 +172,5 @@ class TACU_Mercenaries_U_O_Medium_Crewman: TACU_Mercenaries_U_O_Low_Crewman {
         "hgun_Pistol_heavy_01_F",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Crewman);
+    EDITORPREVIEW(TACU_Mercenaries_U_O_Medium_Crewman);
 };

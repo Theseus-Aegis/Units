@@ -63,7 +63,7 @@ class TACU_Taliban_Veterans_U_I_Rifleman_01: TACU_Main_U_INDEP_Soldier_Base {
         "H_HelmetB_light_sand", 0.0625
     };
     CBA_facewearList[] = {};
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Rifleman_01);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Rifleman_01);
 };
 
 class TACU_Taliban_Veterans_U_I_Rifleman_02: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -91,7 +91,7 @@ class TACU_Taliban_Veterans_U_I_Rifleman_02: TACU_Taliban_Veterans_U_I_Rifleman_
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Rifleman_02);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Rifleman_02);
 };
 
 class TACU_Taliban_Veterans_U_I_Rifleman_03: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -119,7 +119,7 @@ class TACU_Taliban_Veterans_U_I_Rifleman_03: TACU_Taliban_Veterans_U_I_Rifleman_
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Rifleman_03);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Rifleman_03);
 };
 
 class TACU_Taliban_Veterans_U_I_Leader: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -150,7 +150,7 @@ class TACU_Taliban_Veterans_U_I_Leader: TACU_Taliban_Veterans_U_I_Rifleman_01 {
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Leader);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Leader);
 };
 
 class TACU_Taliban_Veterans_U_I_Grenadier: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -180,7 +180,7 @@ class TACU_Taliban_Veterans_U_I_Grenadier: TACU_Taliban_Veterans_U_I_Rifleman_01
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Grenadier);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Grenadier);
 };
 
 class TACU_Taliban_Veterans_U_I_Medic: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -212,7 +212,7 @@ class TACU_Taliban_Veterans_U_I_Medic: TACU_Taliban_Veterans_U_I_Rifleman_01 {
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Medic);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Medic);
 };
 
 class TACU_Taliban_Veterans_U_I_Demolitions: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -245,7 +245,7 @@ class TACU_Taliban_Veterans_U_I_Demolitions: TACU_Taliban_Veterans_U_I_Rifleman_
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Demolitions);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Demolitions);
 };
 
 class TACU_Taliban_Veterans_U_I_Scout: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -275,7 +275,7 @@ class TACU_Taliban_Veterans_U_I_Scout: TACU_Taliban_Veterans_U_I_Rifleman_01 {
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Scout);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Scout);
 };
 
 class TACU_Taliban_Veterans_U_I_Machinegunner: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -305,7 +305,7 @@ class TACU_Taliban_Veterans_U_I_Machinegunner: TACU_Taliban_Veterans_U_I_Riflema
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Machinegunner);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_Machinegunner);
 };
 
 class TACU_Taliban_Veterans_U_I_AT: TACU_Taliban_Veterans_U_I_Rifleman_01 {
@@ -340,7 +340,7 @@ class TACU_Taliban_Veterans_U_I_AT: TACU_Taliban_Veterans_U_I_Rifleman_01 {
         "HandGrenade",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Taliban_Veterans_U_I_AT);
+    EDITORPREVIEW(TACU_Taliban_Veterans_U_I_AT);
 };
 
 class TACU_Taliban_Veterans_U_I_AP: TACU_Taliban_Veterans_U_I_AT {

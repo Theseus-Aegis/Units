@@ -45,7 +45,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01: TACU_Main_U_INDEP_Soldier_B
         "SmokeShell"
     };
     headgearList[] = {"H_HelmetSpecB_sand", 1};
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_02: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -72,7 +72,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_02: TACU_Vanguard_U_I_Contracto
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_02);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_02);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -106,7 +106,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT: TACU_Vanguard_U_I_Contracto
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AP: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_AT {
@@ -157,7 +157,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Grenadier: TACU_Vanguard_U_I_Contractor_
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Grenadier);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Grenadier);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Marksman: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -185,7 +185,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Marksman: TACU_Vanguard_U_I_Contractor_S
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Marksman);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Marksman);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Driver: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -211,7 +211,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Driver: TACU_Vanguard_U_I_Contractor_San
         mag_2("TACU_Magazine_11Rnd_FNX"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Driver);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Driver);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_TeamLeader: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -239,7 +239,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_TeamLeader: TACU_Vanguard_U_I_Contractor
         mag_2("HandGrenade"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_TeamLeader);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_TeamLeader);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Autorifleman: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -259,7 +259,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Autorifleman: TACU_Vanguard_U_I_Contract
     };
     magazines[] = {mag_2("TACU_Magazine_200Rnd_65_Box"), mag_2("TACU_Magazine_11Rnd_FNX")};
     respawnMagazines[] = {mag_2("TACU_Magazine_200Rnd_65_Box"), mag_2("TACU_Magazine_11Rnd_FNX")};
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Autorifleman);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Autorifleman);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Medic: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -288,7 +288,7 @@ class TACU_Vanguard_U_I_Contractor_Sand_Medic: TACU_Vanguard_U_I_Contractor_Sand
         mag_2("TACU_Magazine_11Rnd_FNX"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Medic);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Medic);
 };
 
 class TACU_Vanguard_U_I_Contractor_Sand_Engineer: TACU_Vanguard_U_I_Contractor_Sand_Rifleman_01 {
@@ -317,5 +317,5 @@ class TACU_Vanguard_U_I_Contractor_Sand_Engineer: TACU_Vanguard_U_I_Contractor_S
         mag_2("TACU_Magazine_11Rnd_FNX"),
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Engineer);
+    EDITORPREVIEW(TACU_Vanguard_U_I_Contractor_Sand_Engineer);
 };

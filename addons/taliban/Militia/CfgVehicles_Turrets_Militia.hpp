@@ -5,7 +5,7 @@ class TACU_Taliban_Militia_V_I_ZU23: TACU_ZU23_base {
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
     textureList[] = {"Sand", 1};
-    //EDITORPREVIEW(TACU_Taliban_Militia_V_I_ZU23);
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_ZU23);
 };
 class TACU_Taliban_Militia_V_I_AGS30: TACU_AGS_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -13,7 +13,7 @@ class TACU_Taliban_Militia_V_I_AGS30: TACU_AGS_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Militia_V_I_AGS30);
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_AGS30);
 };
 class TACU_Taliban_Militia_V_I_D30: TACU_D30_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -21,7 +21,7 @@ class TACU_Taliban_Militia_V_I_D30: TACU_D30_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Militia_V_I_D30);
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_D30);
 };
 class TACU_Taliban_Militia_V_I_DSHKM: TACU_DSHKM_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -29,7 +29,7 @@ class TACU_Taliban_Militia_V_I_DSHKM: TACU_DSHKM_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Militia_V_I_DSHKM);
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_DSHKM);
 };
 class TACU_Taliban_Militia_V_I_DSHKM_Mini: TACU_DSHKM_Mini_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -37,7 +37,7 @@ class TACU_Taliban_Militia_V_I_DSHKM_Mini: TACU_DSHKM_Mini_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Militia_V_I_DSHKM_Mini);
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_DSHKM_Mini);
 };
 class TACU_Taliban_Militia_V_I_KORD: TACU_KORD_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -45,7 +45,7 @@ class TACU_Taliban_Militia_V_I_KORD: TACU_KORD_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Militia_V_I_KORD);
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_KORD);
 };
 class TACU_Taliban_Militia_V_I_KORD_Mini: TACU_KORD_Mini_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -53,7 +53,7 @@ class TACU_Taliban_Militia_V_I_KORD_Mini: TACU_KORD_Mini_base {
     side = 2;
     crew = "TACU_Taliban_Militia_U_I_Driver";
     typicalCargo[] = {"TACU_Taliban_Militia_U_I_Driver"};
-    //EDITORPREVIEW(TACU_Taliban_Militia_V_I_KORD_Mini);
+    EDITORPREVIEW(TACU_Taliban_Militia_V_I_KORD_Mini);
 };
 
 class TACU_Taliban_Militia_V_O_ZU23: TACU_Taliban_Militia_V_I_ZU23 {

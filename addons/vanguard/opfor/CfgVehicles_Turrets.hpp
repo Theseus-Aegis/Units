@@ -4,7 +4,7 @@ class TACU_Vanguard_V_O_MK6_Green: TACU_MK6_Base {
     side = 0;
     crew = "TACU_Vanguard_U_O_Contractor_Green_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_O_Contractor_Green_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Vanguard_V_O_MK6_Green);
+    EDITORPREVIEW(TACU_Vanguard_V_O_MK6_Green);
 };
 class TACU_Vanguard_V_O_MK6_Sand: TACU_Vanguard_V_O_MK6_Green {
     editorSubcategory = "TACU_Vanguard_EdSubCat_Turrets_Sand";
@@ -23,7 +23,7 @@ class TACU_Vanguard_V_O_HMG_Green: TACU_HMG_50 {
     side = 0;
     crew = "TACU_Vanguard_U_O_Contractor_Green_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_O_Contractor_Green_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Vanguard_V_O_HMG_Green);
+    EDITORPREVIEW(TACU_Vanguard_V_O_HMG_Green);
 };
 class TACU_Vanguard_V_O_HMG_Sand: TACU_Vanguard_V_O_HMG_Green {
     editorSubcategory = "TACU_Vanguard_EdSubCat_Turrets_Sand";
@@ -43,7 +43,7 @@ class TACU_Vanguard_V_O_Mini_Spike_AT_Green: TACU_Mini_Spike_AT {
     crew = "TACU_Vanguard_U_O_Contractor_Green_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_O_Contractor_Green_Rifleman_01"};
     textureList[] = {"Green", 1};
-    //EDITORPREVIEW(TACU_Vanguard_V_O_Mini_Spike_AT_Green);
+    EDITORPREVIEW(TACU_Vanguard_V_O_Mini_Spike_AT_Green);
 };
 class TACU_Vanguard_V_O_Mini_Spike_AT_Sand: TACU_Mini_Spike_AT {
     faction = "TACU_Vanguard_O";
@@ -52,7 +52,7 @@ class TACU_Vanguard_V_O_Mini_Spike_AT_Sand: TACU_Mini_Spike_AT {
     crew = "TACU_Vanguard_U_O_Contractor_Sand_Rifleman_01";
     typicalCargo[] = {"TACU_Vanguard_U_O_Contractor_Sand_Rifleman_01"};
     textureList[] = {"Sand", 1};
-    //EDITORPREVIEW(TACU_Vanguard_V_O_Mini_Spike_AT_Sand);
+    EDITORPREVIEW(TACU_Vanguard_V_O_Mini_Spike_AT_Sand);
 };
 
 class TACU_Vanguard_V_O_ZU23_Green: TACU_Vanguard_V_I_ZU23_Green {

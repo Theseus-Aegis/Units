@@ -56,7 +56,7 @@ class TACU_Foreign_Legion_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "G_Shades_Green", 0.2,
         "G_Shades_Red", 0.2
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Rifleman);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Rifleman);
 };
 
 class TACU_Foreign_Legion_U_B_Demolitions: TACU_Foreign_Legion_U_B_Rifleman {
@@ -88,7 +88,7 @@ class TACU_Foreign_Legion_U_B_Demolitions: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Demolitions);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Demolitions);
 };
 
 class TACU_Foreign_Legion_U_B_Engineer: TACU_Foreign_Legion_U_B_Rifleman {
@@ -119,7 +119,7 @@ class TACU_Foreign_Legion_U_B_Engineer: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Engineer);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Engineer);
 };
 
 class TACU_Foreign_Legion_U_B_Autorifleman: TACU_Foreign_Legion_U_B_Rifleman {
@@ -149,7 +149,7 @@ class TACU_Foreign_Legion_U_B_Autorifleman: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Autorifleman);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Autorifleman);
 };
 
 class TACU_Foreign_Legion_U_B_Machinegunner: TACU_Foreign_Legion_U_B_Rifleman {
@@ -179,7 +179,7 @@ class TACU_Foreign_Legion_U_B_Machinegunner: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Machinegunner);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Machinegunner);
 };
 
 class TACU_Foreign_Legion_U_B_Marksman: TACU_Foreign_Legion_U_B_Rifleman {
@@ -209,7 +209,7 @@ class TACU_Foreign_Legion_U_B_Marksman: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Marksman);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Marksman);
 };
 
 class TACU_Foreign_Legion_U_B_Medic: TACU_Foreign_Legion_U_B_Rifleman {
@@ -240,7 +240,7 @@ class TACU_Foreign_Legion_U_B_Medic: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Medic);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Medic);
 };
 
 class TACU_Foreign_Legion_U_B_AT: TACU_Foreign_Legion_U_B_Rifleman {
@@ -274,7 +274,7 @@ class TACU_Foreign_Legion_U_B_AT: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_AT);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_AT);
 };
 
 class TACU_Foreign_Legion_U_B_AP: TACU_Foreign_Legion_U_B_AT {
@@ -324,7 +324,7 @@ class TACU_Foreign_Legion_U_B_Breacher: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Breacher);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Breacher);
 };
 
 class TACU_Foreign_Legion_U_B_TL: TACU_Foreign_Legion_U_B_Rifleman {
@@ -352,7 +352,7 @@ class TACU_Foreign_Legion_U_B_TL: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_TL);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_TL);
 };
 
 class TACU_Foreign_Legion_U_B_Grenadier: TACU_Foreign_Legion_U_B_Rifleman {
@@ -382,12 +382,12 @@ class TACU_Foreign_Legion_U_B_Grenadier: TACU_Foreign_Legion_U_B_Rifleman {
         mag_2("HandGrenade"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Grenadier);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Grenadier);
 };
 
 class TACU_Foreign_Legion_U_B_Driver: TACU_Foreign_Legion_U_B_Rifleman {
     displayName = "Driver";
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Driver);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Driver);
 };
 
 class TACU_Foreign_Legion_U_B_Pilot: TACU_Foreign_Legion_U_B_Rifleman {
@@ -420,5 +420,5 @@ class TACU_Foreign_Legion_U_B_Pilot: TACU_Foreign_Legion_U_B_Rifleman {
     respawnMagazines[] = {mag_4("TACU_Magazine_30Rnd_SMG"), mag_2("SmokeShell")};
     headgearList[] = {"tacs_Helmet_PilotHeli_Tan", 1};
     CBA_facewearList[] = {"G_Aviator", 1};
-    //EDITORPREVIEW(TACU_Foreign_Legion_U_B_Pilot);
+    EDITORPREVIEW(TACU_Foreign_Legion_U_B_Pilot);
 };

@@ -4,7 +4,7 @@ class TACU_Seven_Rings_V_O_MK6: TACU_MK6_Base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_MK6);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_MK6);
 };
 
 class TACU_Seven_Rings_V_O_ZU23: TACU_ZU23_base {
@@ -14,7 +14,7 @@ class TACU_Seven_Rings_V_O_ZU23: TACU_ZU23_base {
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
     textureList[] = {"Sand", 1};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_ZU23);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_ZU23);
 };
 
 class TACU_Seven_Rings_V_O_AGS30: TACU_AGS_base {
@@ -23,7 +23,7 @@ class TACU_Seven_Rings_V_O_AGS30: TACU_AGS_base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_AGS30);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_AGS30);
 };
 
 class TACU_Seven_Rings_V_O_D30: TACU_D30_base {
@@ -32,7 +32,7 @@ class TACU_Seven_Rings_V_O_D30: TACU_D30_base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_D30);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_D30);
 };
 
 class TACU_Seven_Rings_V_O_DSHKM: TACU_DSHKM_base {
@@ -41,7 +41,7 @@ class TACU_Seven_Rings_V_O_DSHKM: TACU_DSHKM_base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_DSHKM);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_DSHKM);
 };
 class TACU_Seven_Rings_V_O_DSHKM_Mini: TACU_DSHKM_Mini_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -49,7 +49,7 @@ class TACU_Seven_Rings_V_O_DSHKM_Mini: TACU_DSHKM_Mini_base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_DSHKM_Mini);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_DSHKM_Mini);
 };
 
 class TACU_Seven_Rings_V_O_Igla: TACU_IGLA_base {
@@ -58,7 +58,7 @@ class TACU_Seven_Rings_V_O_Igla: TACU_IGLA_base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_Igla);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_Igla);
 };
 
 class TACU_Seven_Rings_V_O_KORD: TACU_KORD_base {
@@ -67,7 +67,7 @@ class TACU_Seven_Rings_V_O_KORD: TACU_KORD_base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_KORD);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_KORD);
 };
 class TACU_Seven_Rings_V_O_KORD_Mini: TACU_KORD_Mini_base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -75,5 +75,5 @@ class TACU_Seven_Rings_V_O_KORD_Mini: TACU_KORD_Mini_base {
     side = 0;
     crew = "TACU_Seven_Rings_Eastern_U_O_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Eastern_U_O_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_O_KORD_Mini);
+    EDITORPREVIEW(TACU_Seven_Rings_V_O_KORD_Mini);
 };

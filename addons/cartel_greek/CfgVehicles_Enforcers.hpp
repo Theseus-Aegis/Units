@@ -45,7 +45,7 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base
     };
     headgearList[] = {"H_PASGT_basic_black_F", 1};
     CBA_facewearList[] = {"G_Balaclava_blk", 1};
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01);
 };
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
     displayName = "Enforcer (G36A AG36)";
@@ -71,7 +71,7 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02: TACU_Cartel_Greek_U_O_Enforcer
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_02);
 };
 
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_03: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
@@ -96,7 +96,7 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_03: TACU_Cartel_Greek_U_O_Enforcer
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_03);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_03);
 };
 
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
@@ -125,7 +125,7 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04: TACU_Cartel_Greek_U_O_Enforcer
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_04);
 };
 
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_05: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
@@ -150,7 +150,7 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_05: TACU_Cartel_Greek_U_O_Enforcer
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_05);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_05);
 };
 
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_06: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
@@ -175,7 +175,7 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_06: TACU_Cartel_Greek_U_O_Enforcer
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_06);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_06);
 };
 
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_07: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
@@ -200,7 +200,7 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_07: TACU_Cartel_Greek_U_O_Enforcer
         mag_2("TACU_Magazine_15Rnd_M9"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_07);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_07);
 };
 
 class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08: TACU_Cartel_Greek_U_O_Enforcer_Rifleman_01 {
@@ -225,5 +225,5 @@ class TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08: TACU_Cartel_Greek_U_O_Enforcer
         mag_5("TACU_Magazine_40Rnd_MP7"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Enforcer_Rifleman_08);
 };

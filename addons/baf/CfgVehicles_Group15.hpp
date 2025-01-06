@@ -35,7 +35,7 @@ class TACU_BAF_U_B_Urban_Scout: TACU_BAF_U_B_Arid_Scout {
         "G_Bandanna_oli", 0.25,
         "G_Combat_Goggles_tna_F", 0.25
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_Scout);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_Scout);
 };
 
 class TACU_BAF_U_B_Urban_Demolitions: TACU_BAF_U_B_Urban_Scout {
@@ -69,7 +69,7 @@ class TACU_BAF_U_B_Urban_Demolitions: TACU_BAF_U_B_Urban_Scout {
         "Throw",
         "Put"
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_Demolitions);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_Demolitions);
 };
 
 class TACU_BAF_U_B_Urban_HeavyGunner: TACU_BAF_U_B_Urban_Scout {
@@ -113,7 +113,7 @@ class TACU_BAF_U_B_Urban_HeavyGunner: TACU_BAF_U_B_Urban_Scout {
         mag_2("SmokeShell"),
         mag_2("MiniGrenade")
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_HeavyGunner);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_HeavyGunner);
 };
 class TACU_BAF_U_B_Urban_JTAC: TACU_BAF_U_B_Urban_Scout {
     displayName = "JTAC";
@@ -144,7 +144,7 @@ class TACU_BAF_U_B_Urban_JTAC: TACU_BAF_U_B_Urban_Scout {
         "Throw",
         "Put"
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_JTAC);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_JTAC);
 };
 class TACU_BAF_U_B_Urban_Marksman: TACU_BAF_U_B_Urban_Scout {
     displayName = "Marksman";
@@ -185,7 +185,7 @@ class TACU_BAF_U_B_Urban_Marksman: TACU_BAF_U_B_Urban_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_Marksman);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_Marksman);
 };
 class TACU_BAF_U_B_Urban_Medic: TACU_BAF_U_B_Urban_Scout {
     displayName = "Paramedic";
@@ -217,7 +217,7 @@ class TACU_BAF_U_B_Urban_Medic: TACU_BAF_U_B_Urban_Scout {
         "Throw",
         "Put"
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_Medic);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_Medic);
 };
 class TACU_BAF_U_B_Urban_LAT: TACU_BAF_U_B_Urban_Scout {
     displayName = "Rifleman (AT)";
@@ -264,7 +264,7 @@ class TACU_BAF_U_B_Urban_LAT: TACU_BAF_U_B_Urban_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_LAT);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_LAT);
 };
 class TACU_BAF_U_B_Urban_Shotgun: TACU_BAF_U_B_Urban_Scout {
     displayName = "Rifleman (Shotgun)";
@@ -304,7 +304,7 @@ class TACU_BAF_U_B_Urban_Shotgun: TACU_BAF_U_B_Urban_Scout {
         mag_2("TACU_Magazine_17Rnd_Walther"),
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_Shotgun);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_Shotgun);
 };
 class TACU_BAF_U_B_Urban_TL: TACU_BAF_U_B_Urban_Scout {
     displayName = "Team Leader";
@@ -333,7 +333,7 @@ class TACU_BAF_U_B_Urban_TL: TACU_BAF_U_B_Urban_Scout {
         "Throw",
         "Put"
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_TL);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_TL);
 };
 
 class TACU_BAF_U_B_Urban_Grenadier: TACU_BAF_U_B_Urban_Scout {
@@ -377,5 +377,5 @@ class TACU_BAF_U_B_Urban_Grenadier: TACU_BAF_U_B_Urban_Scout {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_BAF_U_B_Urban_Grenadier);
+    EDITORPREVIEW(TACU_BAF_U_B_Urban_Grenadier);
 };

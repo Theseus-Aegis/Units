@@ -5,7 +5,7 @@ class TACU_African_Militia_V_O_BRDM2: TACU_BRDM2_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"NAPA", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_BRDM2);
+    EDITORPREVIEW(TACU_African_Militia_V_O_BRDM2);
 };
 class TACU_African_Militia_V_O_BMP2: TACU_BMP2_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -14,7 +14,7 @@ class TACU_African_Militia_V_O_BMP2: TACU_BMP2_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"NAPA", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_BMP2);
+    EDITORPREVIEW(TACU_African_Militia_V_O_BMP2);
 };
 class TACU_African_Militia_V_O_BTR60: TACU_BTR60_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -23,7 +23,7 @@ class TACU_African_Militia_V_O_BTR60: TACU_BTR60_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"RU_GREEN", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_BTR60);
+    EDITORPREVIEW(TACU_African_Militia_V_O_BTR60);
 };
 class TACU_African_Militia_V_O_BTR80: TACU_BTR80_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -32,7 +32,7 @@ class TACU_African_Militia_V_O_BTR80: TACU_BTR80_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"RU_Camo", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_BTR80);
+    EDITORPREVIEW(TACU_African_Militia_V_O_BTR80);
 };
 class TACU_African_Militia_V_O_Offroad: TACU_Offroad_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -54,7 +54,7 @@ class TACU_African_Militia_V_O_Offroad: TACU_Offroad_Unarmed_Base {
         "BeaconsStart", 0,
         "BeaconsServicesStart", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Offroad);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Offroad);
 };
 class TACU_African_Militia_V_O_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -74,7 +74,7 @@ class TACU_African_Militia_V_O_Offroad_Armed: TACU_Offroad_Armed_M2_Base {
         "HideBumper2", 0,
         "HideConstruction", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_Armed);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_Armed);
 };
 class TACU_African_Militia_V_O_Offroad_AT: TACU_Offroad_Armed_AT_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -92,7 +92,7 @@ class TACU_African_Militia_V_O_Offroad_AT: TACU_Offroad_Armed_AT_Base {
         "HideBumper2", 0,
         "HideConstruction", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_AT);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_AT);
 };
 class TACU_African_Militia_V_O_Offroad_UP: TACU_Offroad_Unarmed_UP_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -115,7 +115,7 @@ class TACU_African_Militia_V_O_Offroad_UP: TACU_Offroad_Unarmed_UP_Base {
         "HideConstruction", 0,
         "HideBackpacks", 1
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_UP);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_UP);
 };
 class TACU_African_Militia_V_O_Offroad_UP_Armed: TACU_Offroad_Armed_M2_UP_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -140,7 +140,7 @@ class TACU_African_Militia_V_O_Offroad_UP_Armed: TACU_Offroad_Armed_M2_UP_Base {
         "HideBackpacks", 1,
         "HideConstruction", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_UP_Armed);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_UP_Armed);
 };
 class TACU_African_Militia_V_O_Offroad_UP_AT: TACU_Offroad_Armed_AT_UP_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -163,7 +163,7 @@ class TACU_African_Militia_V_O_Offroad_UP_AT: TACU_Offroad_Armed_AT_UP_Base {
         "HideBackpacks", 1,
         "HideConstruction", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_UP_AT);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Offroad_UP_AT);
 };
 class TACU_African_Militia_V_O_Truck: TACU_Truck_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -172,7 +172,7 @@ class TACU_African_Militia_V_O_Truck: TACU_Truck_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"Guerilla_01", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Truck);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Truck);
 };
 class TACU_African_Militia_V_O_Kamaz: TACU_Kamaz_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -181,7 +181,7 @@ class TACU_African_Militia_V_O_Kamaz: TACU_Kamaz_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"Brown", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Kamaz);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Kamaz);
 };
 class TACU_African_Militia_V_O_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -199,7 +199,7 @@ class TACU_African_Militia_V_O_Kamaz_ZU23: TACU_Kamaz_ZU23_Base {
         "hideBumper", 0,
         "hideWindowProtector", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Kamaz_ZU23);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Kamaz_ZU23);
 };
 class TACU_African_Militia_V_O_Pickup_Unarmed: TACU_Ram1500_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -228,7 +228,7 @@ class TACU_African_Militia_V_O_Pickup_Unarmed: TACU_Ram1500_Unarmed_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Pickup_Unarmed);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Pickup_Unarmed);
 };
 class TACU_African_Militia_V_O_Pickup_HMG: TACU_Ram1500_HMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -257,7 +257,7 @@ class TACU_African_Militia_V_O_Pickup_HMG: TACU_Ram1500_HMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Pickup_HMG);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Pickup_HMG);
 };
 class TACU_African_Militia_V_O_Pickup_MMG: TACU_Ram1500_MMG_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -284,7 +284,7 @@ class TACU_African_Militia_V_O_Pickup_MMG: TACU_Ram1500_MMG_Base {
         "hide_frame", 0,
         "hide_sidesteps", 0
     };
-    //EDITORPREVIEW(TACU_African_Militia_V_O_Pickup_MMG);
+    EDITORPREVIEW(TACU_African_Militia_V_O_Pickup_MMG);
 };
 class TACU_African_Militia_V_O_T55: TACU_T55_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -293,7 +293,7 @@ class TACU_African_Militia_V_O_T55: TACU_T55_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"SLA", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_T55);
+    EDITORPREVIEW(TACU_African_Militia_V_O_T55);
 };
 class TACU_African_Militia_V_O_T72: TACU_T72_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -302,5 +302,5 @@ class TACU_African_Militia_V_O_T72: TACU_T72_Base {
     crew = "TACU_African_Militia_U_O_Repair";
     typicalCargo[] = {"TACU_African_Militia_U_O_Repair"};
     textureList[] = {"NAPA", 1};
-    //EDITORPREVIEW(TACU_African_Militia_V_O_T72);
+    EDITORPREVIEW(TACU_African_Militia_V_O_T72);
 };

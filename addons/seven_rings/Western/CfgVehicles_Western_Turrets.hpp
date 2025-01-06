@@ -4,7 +4,7 @@ class TACU_Seven_Rings_V_I_HMG: TACU_HMG_50 {
     side = 2;
     crew = "TACU_Seven_Rings_Western_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Western_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_I_HMG);
+    EDITORPREVIEW(TACU_Seven_Rings_V_I_HMG);
 };
 
 class TACU_Seven_Rings_V_I_MK6: TACU_MK6_Base {
@@ -13,7 +13,7 @@ class TACU_Seven_Rings_V_I_MK6: TACU_MK6_Base {
     side = 2;
     crew = "TACU_Seven_Rings_Western_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Western_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_I_MK6);
+    EDITORPREVIEW(TACU_Seven_Rings_V_I_MK6);
 };
 
 class TACU_Seven_Rings_V_I_ZU23: TACU_ZU23_base {
@@ -23,7 +23,7 @@ class TACU_Seven_Rings_V_I_ZU23: TACU_ZU23_base {
     crew = "TACU_Seven_Rings_Western_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Western_U_I_Rifleman_01"};
     textureList[] = {"Green", 1};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_I_ZU23);
+    EDITORPREVIEW(TACU_Seven_Rings_V_I_ZU23);
 };
 
 class TACU_Seven_Rings_V_I_Metis: TACU_Metis_base {
@@ -32,7 +32,7 @@ class TACU_Seven_Rings_V_I_Metis: TACU_Metis_base {
     side = 2;
     crew = "TACU_Seven_Rings_Western_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Western_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_I_Metis);
+    EDITORPREVIEW(TACU_Seven_Rings_V_I_Metis);
 };
 
 class TACU_Seven_Rings_V_I_MK19: TACU_MK19_base {
@@ -41,7 +41,7 @@ class TACU_Seven_Rings_V_I_MK19: TACU_MK19_base {
     side = 2;
     crew = "TACU_Seven_Rings_Western_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Western_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_I_MK19);
+    EDITORPREVIEW(TACU_Seven_Rings_V_I_MK19);
 };
 
 class TACU_Seven_Rings_V_I_TOW: TACU_M220_TOW_base {
@@ -50,5 +50,5 @@ class TACU_Seven_Rings_V_I_TOW: TACU_M220_TOW_base {
     side = 2;
     crew = "TACU_Seven_Rings_Western_U_I_Rifleman_01";
     typicalCargo[] = {"TACU_Seven_Rings_Western_U_I_Rifleman_01"};
-    //EDITORPREVIEW(TACU_Seven_Rings_V_I_TOW);
+    EDITORPREVIEW(TACU_Seven_Rings_V_I_TOW);
 };

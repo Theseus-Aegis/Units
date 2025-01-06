@@ -41,7 +41,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_01: TACU_Main_U_OPFOR_Soldier_Base {
         "G_Sport_Blackred", 1,
         "G_Balaclava_blk", 1
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_01);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_01);
 };
 
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_02: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
@@ -51,7 +51,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_02: TACU_Cartel_Greek_U_O_Thug_Riflema
     respawnWeapons[] = {"CUP_smg_MP5A5_Rail_VFG", "Throw", "Put"};
     magazines[] = {mag_10("TACU_Magazine_30Rnd_MP5"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_10("TACU_Magazine_30Rnd_MP5"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_02);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_02);
 };
 
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_03: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
@@ -61,7 +61,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_03: TACU_Cartel_Greek_U_O_Thug_Riflema
     respawnWeapons[] = {"arifle_AKS_F", "Throw", "Put"};
     magazines[] = {mag_10("TACU_Magazine_30Rnd_545_AK"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_10("TACU_Magazine_30Rnd_545_AK"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_03);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_03);
 };
 
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_04: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
@@ -87,7 +87,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_04: TACU_Cartel_Greek_U_O_Thug_Riflema
         mag_9("TACU_Magazine_30Rnd_MAC10"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_04);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_04);
 };
 
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_05: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
@@ -97,7 +97,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_05: TACU_Cartel_Greek_U_O_Thug_Riflema
     respawnWeapons[] = {"CUP_sgun_M1014_solidstock", "Throw", "Put"};
     magazines[] = {mag_12("CUP_8Rnd_12Gauge_Pellets_No00_Buck"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_12("CUP_8Rnd_12Gauge_Pellets_No00_Buck"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_05);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_05);
 };
 
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_06: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
@@ -107,7 +107,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_06: TACU_Cartel_Greek_U_O_Thug_Riflema
     respawnWeapons[] = {"CUP_smg_MP7", "Throw", "Put"};
     magazines[] = {mag_11("TACU_Magazine_40Rnd_MP7"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_11("TACU_Magazine_40Rnd_MP7"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_06);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_06);
 };
 
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_07: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
@@ -117,7 +117,7 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_07: TACU_Cartel_Greek_U_O_Thug_Riflema
     respawnWeapons[] = {"CUP_arifle_SR3M_Vikhr", "Throw", "Put"};
     magazines[] = {mag_10("TACU_Magazine_30Rnd_SR3M"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_10("TACU_Magazine_30Rnd_SR3M"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_07);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_07);
 };
 
 class TACU_Cartel_Greek_U_O_Thug_Rifleman_08: TACU_Cartel_Greek_U_O_Thug_Rifleman_01 {
@@ -127,6 +127,6 @@ class TACU_Cartel_Greek_U_O_Thug_Rifleman_08: TACU_Cartel_Greek_U_O_Thug_Riflema
     respawnWeapons[] = {"SMG_02_F", "Throw", "Put"};
     magazines[] = {mag_10("TACU_Magazine_30Rnd_SMG"), mag_2("HandGrenade")};
     respawnMagazines[] = {mag_10("TACU_Magazine_30Rnd_SMG"), mag_2("HandGrenade")};
-    //EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_08);
+    EDITORPREVIEW(TACU_Cartel_Greek_U_O_Thug_Rifleman_08);
 };
 

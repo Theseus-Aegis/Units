@@ -25,7 +25,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman01: TACU_Revolutionaries_U_I_Tanoa
     };
     headgearList[] = {};
     CBA_facewearList[] = {"G_Balaclava_blk", 1};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman01);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman01);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman02: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -43,7 +43,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman02: TACU_Revolutionaries_U_O_Tanoa
         "SmokeShellRed",
         "SmokeShellPurple"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman02);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman02);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman03: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -71,7 +71,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman03: TACU_Revolutionaries_U_O_Tanoa
         "SmokeShellGreen",
         "SmokeShellYellow"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman03);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman03);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Rifleman04: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -89,7 +89,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Rifleman04: TACU_Revolutionaries_U_O_Tanoa
         "SmokeShellBlue",
         "SmokeShellPurple"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman04);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rifleman04);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Paramedic: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -111,7 +111,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Paramedic: TACU_Revolutionaries_U_O_Tanoan
         "SmokeShell",
         "SmokeShellOrange"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Paramedic);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Paramedic);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Shotgunner: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -139,7 +139,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Shotgunner: TACU_Revolutionaries_U_O_Tanoa
         "SmokeShell",
         "SmokeShellGreen"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Shotgunner);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Shotgunner);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Marksman: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -167,7 +167,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Marksman: TACU_Revolutionaries_U_O_Tanoan_
         "SmokeShellRed",
         "SmokeShellBlue"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Marksman);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Marksman);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_SMG01: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -185,7 +185,7 @@ class TACU_Revolutionaries_U_O_Tanoan_SMG01: TACU_Revolutionaries_U_O_Tanoan_Rif
         "SmokeShellGreen",
         "SmokeShellYellow"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_SMG01);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_SMG01);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_SMG02: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -203,7 +203,7 @@ class TACU_Revolutionaries_U_O_Tanoan_SMG02: TACU_Revolutionaries_U_O_Tanoan_Rif
         "SmokeShellOrange",
         "SmokeShellPurple"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_SMG02);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_SMG02);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Grenadier: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -242,7 +242,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Grenadier: TACU_Revolutionaries_U_O_Tanoan
         "SmokeShell",
         "SmokeShellPurple"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Grenadier);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Grenadier);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Machinegunner: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -273,7 +273,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Machinegunner: TACU_Revolutionaries_U_O_Ta
         "SmokeShellOrange",
         "SmokeShellBlue"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Machinegunner);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Machinegunner);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Autorifleman: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -304,7 +304,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Autorifleman: TACU_Revolutionaries_U_O_Tan
         "SmokeShellYellow",
         "SmokeShellRed"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Autorifleman);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Autorifleman);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -319,7 +319,7 @@ class TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA: TACU_Revolutionaries_U_O_Tan
     respawnMagazines[] = {};
     headgearList[] = {"H_Beret_blk", 1};
     CBA_facewearList[] = {};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_FigureHead: TACU_Revolutionaries_U_O_Tanoan_FigureHeadUA {
@@ -337,7 +337,7 @@ class TACU_Revolutionaries_U_O_Tanoan_FigureHead: TACU_Revolutionaries_U_O_Tanoa
         "SmokeShellGreen",
         "SmokeShellOrange"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_FigureHead);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_FigureHead);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Leader: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -371,7 +371,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Leader: TACU_Revolutionaries_U_O_Tanoan_Ri
         "SmokeShellPurple"
     };
     headgearList[] = {"H_Booniehat_oil", 1};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Leader);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Leader);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -410,7 +410,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Rocketeer: TACU_Revolutionaries_U_O_Tanoan
         "SmokeShellRed",
         "SmokeShellOrange"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rocketeer);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Rocketeer);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Saboteur: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -432,7 +432,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Saboteur: TACU_Revolutionaries_U_O_Tanoan_
         "SmokeShellYellow",
         "SmokeShellPurple"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Saboteur);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Saboteur);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Pistoleer01: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -461,7 +461,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Pistoleer01: TACU_Revolutionaries_U_O_Tano
         "SmokeShellGreen",
         "SmokeShellPurple"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Pistoleer01);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Pistoleer01);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Pistoleer02: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -480,7 +480,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Pistoleer02: TACU_Revolutionaries_U_O_Tano
         "SmokeShellYellow",
         "SmokeShell"
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Pistoleer02);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Pistoleer02);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifleman01 {
@@ -512,7 +512,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Head: TACU_Revolutionaries_U_O_Tanoan_Rifl
     };
     headgearList[] = {"H_Hat_brown", 1};
     CBA_facewearList[] = {};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Head);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Head);
 };
 
 // Veterans
@@ -546,7 +546,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01: TACU_Revolutionaries_U_O_T
         mag_2("SmokeShell")
     };
     headgearList[] = {"H_HelmetB_plain_wdl", 1};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman02: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -565,7 +565,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman02: TACU_Revolutionaries_U_O_T
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman02);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman02);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman03: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -584,7 +584,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman03: TACU_Revolutionaries_U_O_T
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman03);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman03);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman04: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -605,7 +605,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman04: TACU_Revolutionaries_U_O_T
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman04);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman04);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Medic: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -628,7 +628,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Medic: TACU_Revolutionaries_U_O_Tanoan
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Medic);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Medic);
 
 };
 
@@ -650,7 +650,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Shotgunner: TACU_Revolutionaries_U_O_T
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Shotgunner);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Shotgunner);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Marksman: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -669,7 +669,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Marksman: TACU_Revolutionaries_U_O_Tan
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Marksman);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Marksman);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_SMG01: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -688,7 +688,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_SMG01: TACU_Revolutionaries_U_O_Tanoan
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_SMG01);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_SMG01);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_SMG02: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -707,7 +707,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_SMG02: TACU_Revolutionaries_U_O_Tanoan
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_SMG02);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_SMG02);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Grenadier: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -728,7 +728,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Grenadier: TACU_Revolutionaries_U_O_Ta
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Grenadier);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Grenadier);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Machinegunner: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -748,7 +748,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Machinegunner: TACU_Revolutionaries_U_
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Machinegunner);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Machinegunner);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Autorifleman: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -768,7 +768,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Autorifleman: TACU_Revolutionaries_U_O
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Autorifleman);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Autorifleman);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Figure_Head: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -791,7 +791,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Figure_Head: TACU_Revolutionaries_U_O_
     };
     headgearList[] = {"H_HelmetSpecO_blk", 1};
     CBA_facewearList[] = {};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Figure_Head);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Figure_Head);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Leader: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -815,7 +815,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Leader: TACU_Revolutionaries_U_O_Tanoa
         "SmokeShell"
     };
     headgearList[] = {"CUP_H_RUS_Altyn_Shield_Down_khaki", 1};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Leader);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Leader);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Rocketeer: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -845,7 +845,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Rocketeer: TACU_Revolutionaries_U_O_Ta
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rocketeer);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Rocketeer);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer01: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -864,7 +864,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer01: TACU_Revolutionaries_U_O_
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer01);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer01);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer02: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -883,7 +883,7 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer02: TACU_Revolutionaries_U_O_
         "HandGrenade",
         mag_2("SmokeShell")
     };
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer02);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Pistoleer02);
 };
 
 class TACU_Revolutionaries_U_O_Tanoan_Vet_Head: TACU_Revolutionaries_U_O_Tanoan_Vet_Rifleman01 {
@@ -906,5 +906,5 @@ class TACU_Revolutionaries_U_O_Tanoan_Vet_Head: TACU_Revolutionaries_U_O_Tanoan_
     };
     headgearList[] = {"H_HelmetAggressor_F", 1};
     CBA_facewearList[] = {};
-    //EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Head);
+    EDITORPREVIEW(TACU_Revolutionaries_U_O_Tanoan_Vet_Head);
 };

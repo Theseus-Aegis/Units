@@ -57,7 +57,7 @@ class TACU_UN_Autumn_U_B_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
         "G_Spectacles_Tinted", 0.2,
         "", 0.6
     };
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Rifleman);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Rifleman);
 };
 
 class TACU_UN_Autumn_U_B_Demolitions: TACU_UN_Autumn_U_B_Rifleman {
@@ -66,7 +66,7 @@ class TACU_UN_Autumn_U_B_Demolitions: TACU_UN_Autumn_U_B_Rifleman {
     role = "Sapper";
     canDeactivateMines = 1;
     backpack = "TACU_UN_B_Demolitions_Tan";
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Demolitions);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Demolitions);
 };
 
 class TACU_UN_Autumn_U_B_Grenadier: TACU_UN_Autumn_U_B_Rifleman {
@@ -83,7 +83,7 @@ class TACU_UN_Autumn_U_B_Grenadier: TACU_UN_Autumn_U_B_Rifleman {
         "TACU_UN_W_FNX45",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Grenadier);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Grenadier);
 };
 
 class TACU_UN_Autumn_U_B_Marksman: TACU_UN_Autumn_U_B_Rifleman {
@@ -110,7 +110,7 @@ class TACU_UN_Autumn_U_B_Marksman: TACU_UN_Autumn_U_B_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Marksman);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Marksman);
 };
 
 class TACU_UN_Autumn_U_B_Teamleader: TACU_UN_Autumn_U_B_Rifleman {
@@ -127,7 +127,7 @@ class TACU_UN_Autumn_U_B_Teamleader: TACU_UN_Autumn_U_B_Rifleman {
         "TACU_UN_W_FNX45",
         "Throw", "Put"
     };
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Teamleader);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Teamleader);
 };
 
 class TACU_UN_Autumn_U_B_Squadleader: TACU_UN_Autumn_U_B_Teamleader {
@@ -172,13 +172,13 @@ class TACU_UN_Autumn_U_B_Machinegunner: TACU_UN_Autumn_U_B_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Machinegunner);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Machinegunner);
 };
 
 class TACU_UN_Autumn_U_B_MGAsst: TACU_UN_Autumn_U_B_Rifleman {
     displayName = "Asst. Machinegunner";
     backpack = "TACU_UN_B_MG_Tan";
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_MGAsst);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_MGAsst);
 };
 
 class TACU_UN_Autumn_U_B_Medic: TACU_UN_Autumn_U_B_Rifleman {
@@ -187,7 +187,7 @@ class TACU_UN_Autumn_U_B_Medic: TACU_UN_Autumn_U_B_Rifleman {
     role = "CombatLifeSaver";
     attendant = 1;
     backpack = "TACU_UN_B_Medic_Tan";
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Medic);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Medic);
 };
 
 class TACU_UN_Autumn_U_B_AT: TACU_UN_Autumn_U_B_Rifleman {
@@ -221,7 +221,7 @@ class TACU_UN_Autumn_U_B_AT: TACU_UN_Autumn_U_B_Rifleman {
         mag_2("SmokeShell"),
         mag_2("HandGrenade")
     };
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_AT);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_AT);
 };
 
 class TACU_UN_Autumn_U_B_Driver: TACU_UN_Autumn_U_B_Rifleman {
@@ -257,5 +257,5 @@ class TACU_UN_Autumn_U_B_Driver: TACU_UN_Autumn_U_B_Rifleman {
         mag_2("SmokeShell")
     };
     headGearList[] = {"lxWS_H_HelmetCrew_Blue", 1};
-    //EDITORPREVIEW(TACU_UN_Autumn_U_B_Driver);
+    EDITORPREVIEW(TACU_UN_Autumn_U_B_Driver);
 };

@@ -26,29 +26,29 @@ class TACU_Territorial_Defence_V_O_GAZ_233144_KORD_Woodland: TACU_Territorial_De
     MACRO_WOODLAND_VEHICLES;
     MACRO_GAZ_233144_TEXTURES_WOODLAND;
     textureList[] = {"Guerilla_01", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_KORD_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_KORD_Woodland);
 };
 class TACU_Territorial_Defence_V_O_GAZ_233144_PK_Woodland: TACU_Territorial_Defence_V_O_GAZ_233144_PK_Arid {
     MACRO_WOODLAND_VEHICLES;
     MACRO_GAZ_233144_TEXTURES_WOODLAND;
     textureList[] = {"Guerilla_01", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_PK_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_GAZ_233144_PK_Woodland);
 };
 
 class TACU_Territorial_Defence_V_O_RAM_Woodland: TACU_Territorial_Defence_V_O_RAM_Arid {
     MACRO_WOODLAND_VEHICLES;
     textureList[] = {"Guerilla_01", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_Woodland);
 };
 class TACU_Territorial_Defence_V_O_RAM_HMG_Woodland: TACU_Territorial_Defence_V_O_RAM_HMG_Arid {
     MACRO_WOODLAND_VEHICLES;
     textureList[] = {"Guerilla_01", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_HMG_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_HMG_Woodland);
 };
 class TACU_Territorial_Defence_V_O_RAM_MMG_Woodland: TACU_Territorial_Defence_V_O_RAM_MMG_Arid {
     MACRO_WOODLAND_VEHICLES;
     textureList[] = {"Guerilla_01", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_MMG_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_RAM_MMG_Woodland);
 };
 
 class TACU_Territorial_Defence_V_O_BTR80_Woodland: TACU_Territorial_Defence_V_O_BTR80_Arid {
@@ -56,14 +56,14 @@ class TACU_Territorial_Defence_V_O_BTR80_Woodland: TACU_Territorial_Defence_V_O_
     crew = "TACU_Territorial_Defence_U_O_Crewman_Woodland";
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Crewman_Woodland"};
     textureList[] = {"RU_Camo", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80_Woodland);
 };
 class TACU_Territorial_Defence_V_O_BTR80A_Woodland: TACU_Territorial_Defence_V_O_BTR80A_Arid {
     editorSubcategory = "TACU_Territorial_Defence_EdSubCat_APCs_Woodland";
     crew = "TACU_Territorial_Defence_U_O_Crewman_Woodland";
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Crewman_Woodland"};
     textureList[] = {"RU_Camo", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80A_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80A_Woodland);
 };
 
 class TACU_Territorial_Militia_V_O_Mi8_Woodland;
@@ -79,5 +79,5 @@ class TACU_Territorial_Defence_V_O_Mi8_MTV3_Woodland: TACU_Territorial_Defence_V
     crew = "TACU_Territorial_Defence_U_O_Pilot_Woodland";
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Pilot_Woodland"};
     textureList[] = {"CIV_GREEN", 1};
-    //EDITORPREVIEW(TACU_Territorial_Defence_V_O_Mi8_MTV3_Woodland);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_Mi8_MTV3_Woodland);
 };
