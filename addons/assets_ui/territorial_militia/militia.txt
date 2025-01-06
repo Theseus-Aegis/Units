@@ -31,7 +31,7 @@ private _list = [
     "TACU_Territorial_Militia_V_O_Kamaz_Transport_Woodland",
     "TACU_Territorial_Militia_V_O_Kamaz_ZU23_Woodland",
     "TACU_Territorial_Militia_V_O_GAZ_233011_Woodland",
-    "TACU_Territorial_Militia_V_O_Mi8_Woodland"
+    "TACU_Territorial_Militia_V_O_Mi8_Woodland",
     "TACU_Territorial_Militia_U_O_Rifleman_Woodland",
     "TACU_Territorial_Militia_U_O_Rifleman02_Woodland",
     "TACU_Territorial_Militia_U_O_AT_Woodland",
