@@ -573,11 +573,11 @@ class CfgVehicles {
         hiddenSelections[] = {"camo", "ins1", "ins2", "ins3", "ins4", "ins5"};
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_orange_dirty_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\assets_uniform_prisoner_outfit_orange.rvmat)};
     };
@@ -586,11 +586,11 @@ class CfgVehicles {
         model = QPATHTOF(models\assets_uniform_prisoner_outfit.p3d);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_orange_muddy_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
     };
     class TACU_Assets_Unit_Prisoner_Outfit_Blue_Clean: TACU_Assets_Unit_Prisoner_Outfit_Orange_Clean {
@@ -598,11 +598,11 @@ class CfgVehicles {
         model = QPATHTOF(models\assets_uniform_prisoner_outfit.p3d);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_blue_clean_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\assets_uniform_prisoner_outfit_blue.rvmat)};
     };
@@ -611,11 +611,11 @@ class CfgVehicles {
         model = QPATHTOF(models\assets_uniform_prisoner_outfit.p3d);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_blue_dirty_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\assets_uniform_prisoner_outfit_blue.rvmat)};
     };
@@ -624,11 +624,11 @@ class CfgVehicles {
         model = QPATHTOF(models\assets_uniform_prisoner_outfit.p3d);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_blue_muddy_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\assets_uniform_prisoner_outfit_blue.rvmat)};
     };
@@ -637,11 +637,11 @@ class CfgVehicles {
         model = QPATHTOF(models\assets_uniform_prisoner_outfit.p3d);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_olive_clean_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\assets_uniform_prisoner_outfit_olive.rvmat)};
     };
@@ -650,11 +650,11 @@ class CfgVehicles {
         model = QPATHTOF(models\assets_uniform_prisoner_outfit.p3d);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_olive_dirty_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\assets_uniform_prisoner_outfit_olive.rvmat)};
     };
@@ -663,11 +663,11 @@ class CfgVehicles {
         model = QPATHTOF(models\assets_uniform_prisoner_outfit.p3d);
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\prison\assets_uniform_prisoner_outfit_olive_muddy_co.paa),
-            QPATHTOF(data\prison\ins\9.paa),
-            QPATHTOF(data\prison\ins\4.paa),
-            QPATHTOF(data\prison\ins\7.paa),
+            QPATHTOF(data\prison\ins\8.paa),
             QPATHTOF(data\prison\ins\0.paa),
-            QPATHTOF(data\prison\ins\2.paa)
+            QPATHTOF(data\prison\ins\0.paa),
+            QPATHTOF(data\prison\ins\8.paa),
+            QPATHTOF(data\prison\ins\5.paa)
         };
         hiddenSelectionsMaterials[] = {QPATHTOF(data\prison\assets_uniform_prisoner_outfit_olive.rvmat)};
     };
