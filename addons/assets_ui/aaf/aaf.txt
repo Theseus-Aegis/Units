@@ -1,0 +1,13 @@
+private _list = [
+    "TACU_AAF_U_I_Rifleman",
+    "TACU_AAF_U_I_Rifleman_AT",
+    "TACU_AAF_U_I_Grenadier",
+    "TACU_AAF_U_I_Marksman",
+    "TACU_AAF_U_I_TeamLeader",
+    "TACU_AAF_U_I_MG",
+    "TACU_AAF_U_I_Medic",
+    "TACU_AAF_U_I_Demolitions",
+    "TACU_AAF_U_I_Engineer"
+];
+
+[nil, "all", [], [], [], _list] spawn BIS_fnc_exportEditorPreviews;
