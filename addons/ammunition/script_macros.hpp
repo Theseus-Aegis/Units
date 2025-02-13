@@ -1,7 +1,7 @@
 //#define DEBUG_MODE_FULL
 
 #define MACRO_TRACERS \
-    model = "\a3\weapons_f\data\bullettracer\tracer_red"; \
+    model = "\a3\weapons_f\data\bullettracer\tracer_red.p3d"; \
     tracerEndTime = 1; \
     tracerScale = 0.5; \
     tracerstartTime = 0.05; \

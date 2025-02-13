@@ -322,7 +322,7 @@ class CfgWeapons {
     class TACU_Police_Uniform_Combat_Blue: TACU_Police_Uniform_Combat_Black {
         displayName = "Police Combat Uniform (Blue)";
         picture = QPATHTOF(ui\uniforms\Police_Uniform_Combat_Blue.paa);
-        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+        model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver.p3d";
         class ItemInfo: ItemInfo {
             uniformClass = "TACU_Police_Unit_Combat_Blue";
         };
