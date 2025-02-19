@@ -306,3 +306,46 @@ class O_Assault_Diver: B_FieldPack_blk {
         MACRO_ADDMAGAZINE(TACU_Magazine_30Rnd_STANAG,4);
     };
 };
+
+class I_Fieldpack_oli_Medic: B_FieldPack_oli {
+    class TransportItems {
+        delete _xx_Medikit;
+        delete _xx_FirstAidKit;
+        MACRO_ADDITEM(ACE_fieldDressing,20);
+        MACRO_ADDITEM(ACE_epinephrine,5);
+        MACRO_ADDITEM(ACE_morphine,5);
+        MACRO_ADDITEM(ACE_bloodIV,4);
+        MACRO_ADDITEM(ACE_bloodIV_500,4);
+        MACRO_ADDITEM(ACE_splint,4);
+        MACRO_ADDITEM(ACE_tourniquet,4);
+        MACRO_ADDITEM(ACE_bloodIV_250,2);
+    };
+};
+
+class I_Carryall_oli_Eng: B_Carryall_oli {
+    class TransportMagazines {
+        delete _xx_SatchelCharge_Remote_Mag;
+        delete _xx_DemoCharge_Remote_Mag;
+    };
+    class TransportItems {
+        delete _xx_MineDetector;
+        MACRO_ADDITEM(ACE_wirecutter,1);
+        MACRO_ADDITEM(ACE_EntrenchingTool,1);
+    };
+};
+
+class I_Carryall_oli_Exp: B_Carryall_oli {
+    class TransportMagazines {
+        delete _xx_APERSBoundingMine_Range_Mag;
+        delete _xx_ClaymoreDirectionalMine_Remote_Mag;
+        delete _xx_SLAMDirectionalMine_Wire_Mag;
+        delete _xx_Democharge_Remote_Mag;
+        MACRO_ADDMAGAZINE(DemoCharge_Remote_Mag,3);
+    };
+    class TransportItems {
+        delete _xx_ToolKit;
+        delete _xx_MineDetector;
+        MACRO_ADDITEM(ACE_DefusalKit,1);
+        MACRO_ADDITEM(ACE_M26_Clacker,1);
+    };
+};

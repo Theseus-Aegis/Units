@@ -7,7 +7,7 @@
 #include "script_version.hpp"
 
 // MINIMAL required version for the Mod. Components can specify others..
-#define REQUIRED_VERSION 1.94
+#define REQUIRED_VERSION 2.18
 
 #ifndef COMPONENT_BEAUTIFIED
     #define COMPONENT_BEAUTIFIED COMPONENT
