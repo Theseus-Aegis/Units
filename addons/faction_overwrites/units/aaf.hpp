@@ -36,8 +36,10 @@ class I_Soldier_M_F: I_Soldier_base_F {
     respawnMagazines[] = {mag_8("TACU_Magazine_20Rnd_M1A"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class I_Soldier_LAT_F: I_Soldier_base_F {
-    magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "NLAW_F", mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "NLAW_F", mag_2("SmokeShell")};
+    weapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    respawnWeapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
 };
 class I_Soldier_AT_F: I_Soldier_base_F {
     magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "Titan_AT", mag_2("SmokeShell")};
@@ -131,8 +133,10 @@ class I_Story_Officer_01_F: I_officer_F {
     respawnMagazines[] = {mag_4("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_3("APERSMineDispenser_Mag"), "SmokeShell"};
 };
 class I_Soldier_LAT2_F: I_Soldier_base_F {
-    magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "MRAWS_HEAT_F", mag_2("SmokeShell")};
-    respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "MRAWS_HEAT_F", mag_2("SmokeShell")};
+    weapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    respawnWeapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
 };
 class I_Story_Crew_F: I_crew_F {
     magazines[] = {mag_4("TACU_Magazine_30Rnd_STANAG"), mag_2("SmokeShellGreen")};

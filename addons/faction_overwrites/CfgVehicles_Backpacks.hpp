@@ -349,3 +349,18 @@ class I_Carryall_oli_Exp: B_Carryall_oli {
         MACRO_ADDITEM(ACE_M26_Clacker,1);
     };
 };
+
+class I_Fieldpack_oli_LAT: B_AssaultPack_dgtl {
+    class TransportMagazines {
+        delete _xx_NLAW_F;
+        MACRO_ADDMAGAZINE(PSRL1_AT_RF,2);
+    };
+};
+
+class I_Fieldpack_oli_LAT2: B_AssaultPack_dgtl {
+    class TransportMagazines {
+        delete _xx_MRAWS_HEAT_F;
+        delete _xx_MRAWS_HE_F;
+        MACRO_ADDMAGAZINE(PSRL1_AT_RF,2);
+    };
+};
