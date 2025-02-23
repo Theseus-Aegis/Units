@@ -1,15 +1,62 @@
-class TACU_AAF_U_I_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
+// Military Police
+class TACU_AAF_U_I_MP_Rifleman: TACU_Main_U_INDEP_Soldier_Base {
     author = "Mike";
-    displayName = "Rifleman";
-    editorSubcategory = "TACU_AAF_EdSubCat_Green_Daggers";
+    displayName = "MP (F2000)";
+    editorSubcategory = "TACU_AAF_EdSubCat_Military_Police";
     faction = "IND_F";
     scope = 2;
     scopeCurator = 2;
-    identityTypes[] = {"LanguageGRE_F", "Head_Greek_camo_semiarid"};
+    identityTypes[] = {"LanguageGRE_F", "Head_Greek"};
     genericNames = "GreekMen";
     icon = "iconMan";
     role = "Rifleman";
     uniformClass = "U_I_CombatUniform";
+    linkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_TacVest_blk_POLICE",
+        "H_MilCap_dgtl"
+    };
+    respawnLinkedItems[] = {
+        DEFAULT_ITEMS_RADIO,
+        "V_TacVest_blk_POLICE",
+        "H_MilCap_dgtl"
+    };
+    weapons[] = {"arifle_Mk20_F", "Throw", "Put"};
+    respawnWeapons[] = {"arifle_Mk20_F", "Throw", "Put"};
+    magazines[] = {mag_4("TACU_Magazine_30Rnd_STANAG"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_4("TACU_Magazine_30Rnd_STANAG"), mag_2("SmokeShell")};
+    EDITORPREVIEW(TACU_AAF_U_I_MP_Rifleman);
+};
+class TACU_AAF_U_I_MP_SMG: TACU_AAF_U_I_MP_Rifleman {
+    displayName = "MP (SMG)";
+    weapons[] = {"SMG_02_F", "Throw", "Put"};
+    respawnWeapons[] = {"SMG_02_F", "Throw", "Put"};
+    magazines[] = {mag_4("TACU_Magazine_30Rnd_SMG_02"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_4("TACU_Magazine_30Rnd_SMG_02"), mag_2("SmokeShell")};
+    EDITORPREVIEW(TACU_AAF_U_I_MP_SMG);
+};
+class TACU_AAF_U_I_MP_Shotgun: TACU_AAF_U_I_MP_Rifleman {
+    displayName = "MP (Shotgun)";
+    weapons[] = {"CUP_sgun_M1014_solidstock", "Throw", "Put"};
+    respawnWeapons[] = {"CUP_sgun_M1014_solidstock", "Throw", "Put"};
+    magazines[] = {mag_4("CUP_8Rnd_12Gauge_Pellets_No00_Buck"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_4("CUP_8Rnd_12Gauge_Pellets_No00_Buck"), mag_2("SmokeShell")};
+    EDITORPREVIEW(TACU_AAF_U_I_MP_Shotgun);
+};
+class TACU_AAF_U_I_MP_LongRifle: TACU_AAF_U_I_MP_Rifleman {
+    displayName = "MP (Long Rifle)";
+    weapons[] = {"srifle_DMR_06_hunter_F", "Throw", "Put"};
+    respawnWeapons[] = {"srifle_DMR_06_hunter_F", "Throw", "Put"};
+    magazines[] = {mag_4("TACU_Magazine_10Rnd_M1A"), mag_2("SmokeShell")};
+    respawnMagazines[] = {mag_4("TACU_Magazine_10Rnd_M1A"), mag_2("SmokeShell")};
+    EDITORPREVIEW(TACU_AAF_U_I_MP_LongRifle);
+};
+
+// Green Dagger Units
+class TACU_AAF_U_I_Rifleman: TACU_AAF_U_I_MP_Rifleman {
+    displayName = "Rifleman";
+    editorSubcategory = "TACU_AAF_EdSubCat_Green_Daggers";
+    identityTypes[] = {"LanguageGRE_F", "Head_Greek_camo_semiarid"};
     items[] = {"NVGoggles_INDEP"};
     respawnItems[] = {"NVGoggles_INDEP"};
     linkedItems[] = {
@@ -67,13 +114,13 @@ class TACU_AAF_U_I_Rifleman_AT: TACU_AAF_U_I_Rifleman {
     role = "MissileSpecialist";
     backpack = "TACU_AAF_B_AT_Carryall";
     weapons[] = {
-        "launch_PSRL1_digi_RF",
+        "launch_PSRL1_PWS_digi_RF",
         "TACU_AAF_W_F2000",
         "TACU_AAF_W_P99",
         "Throw", "Put"
     };
     respawnWeapons[] = {
-        "launch_PSRL1_digi_RF",
+        "launch_PSRL1_PWS_digi_RF",
         "TACU_AAF_W_F2000",
         "TACU_AAF_W_P99",
         "Throw", "Put"

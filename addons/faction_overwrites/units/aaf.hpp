@@ -16,6 +16,8 @@ class I_Soldier_A_F: I_Soldier_02_F {
     respawnMagazines[] = {mag_9("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class I_Soldier_GL_F: I_Soldier_base_F {
+    linkedItems[] = {"V_PlateCarrierIA1_dgtl", "H_HelmetIA", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGoggles_INDEP"};
+    respawnLinkedItems[] = {"V_PlateCarrierIA1_dgtl", "H_HelmetIA", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGoggles_INDEP"};
     magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_6("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell")};
     respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_6("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell")};
 };
@@ -28,6 +30,8 @@ class I_Soldier_SL_F: I_Soldier_02_F {
     respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class I_Soldier_TL_F: I_Soldier_base_F {
+    linkedItems[] = {"V_PlateCarrierIA1_dgtl", "H_HelmetIA", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGoggles_INDEP"};
+    respawnLinkedItems[] = {"V_PlateCarrierIA1_dgtl", "H_HelmetIA", "ItemGPS", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "NVGoggles_INDEP"};
     magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_6("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell")};
     respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("MiniGrenade"), mag_6("1Rnd_HE_Grenade_shell"), mag_4("1Rnd_Smoke_Grenade_shell")};
 };
@@ -36,8 +40,8 @@ class I_Soldier_M_F: I_Soldier_base_F {
     respawnMagazines[] = {mag_8("TACU_Magazine_20Rnd_M1A"), mag_3("TACU_Magazine_8Rnd_1911"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
 class I_Soldier_LAT_F: I_Soldier_base_F {
-    weapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
-    respawnWeapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    weapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_PWS_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    respawnWeapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_PWS_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
     magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
     respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
 };
@@ -133,8 +137,8 @@ class I_Story_Officer_01_F: I_officer_F {
     respawnMagazines[] = {mag_4("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), mag_3("APERSMineDispenser_Mag"), "SmokeShell"};
 };
 class I_Soldier_LAT2_F: I_Soldier_base_F {
-    weapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
-    respawnWeapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    weapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_PWS_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
+    respawnWeapons[] = {"arifle_Mk20_ACO_pointer_F", "launch_PSRL1_PWS_digi_RF", "hgun_ACPC2_F", "Throw", "Put"};
     magazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
     respawnMagazines[] = {mag_6("TACU_Magazine_30Rnd_STANAG"), mag_3("TACU_Magazine_8Rnd_1911"), "PSRL1_AT_RF", mag_2("SmokeShell")};
 };

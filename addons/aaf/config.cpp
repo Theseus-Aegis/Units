@@ -12,6 +12,10 @@ class CfgPatches {
             "TACU_AAF_B_Repair_AssaultPack",
             "TACU_AAF_B_MG_AssaultPack",
             // Units
+            "TACU_AAF_U_I_MP_Rifleman",
+            "TACU_AAF_U_I_MP_SMG",
+            "TACU_AAF_U_I_MP_Shotgun",
+            "TACU_AAF_U_I_MP_LongRifle",
             "TACU_AAF_U_I_Rifleman",
             "TACU_AAF_U_I_Rifleman_AT",
             "TACU_AAF_U_I_Rifleman_AP",
