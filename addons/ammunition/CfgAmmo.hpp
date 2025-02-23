@@ -269,6 +269,7 @@ class CfgAmmo {
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 30; // default 100
+        ace_frag_skip = 0;
         ace_frag_enabled = 1;
         ace_frag_metal = 350;
         ace_frag_charge = 210;
