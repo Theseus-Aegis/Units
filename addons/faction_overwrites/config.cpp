@@ -6,7 +6,11 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"tacu_main", "tacu_ammunition"};
+        requiredAddons[] = {
+            "tacu_main",
+            "tacu_ammunition",
+            "RF_Weapons_Launchers_PSRL1"
+        };
         author = ECSTRING(main,Author);
         authors[] = {"Mike"};
         url = ECSTRING(main,URL);

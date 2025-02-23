@@ -14,6 +14,7 @@ class SoldierEB;
 class SoldierGB;
 
 // Base classes - Backpacks
+class B_AssaultPack_dgtl;
 class B_Carryall_ghex_F;
 class B_Carryall_green_F;
 class B_Carryall_ocamo;

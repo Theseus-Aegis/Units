@@ -4,6 +4,9 @@
         <Key ID="STR_TACU_Main_Author">
             <English>Theseus Incorporated</English>
         </Key>
+        <Key ID="STR_TACU_Main_Name">
+            <English>Theseus Units</English>
+        </Key>
         <Key ID="STR_TACU_Main_URL">
             <English>https://github.com/Theseus-Aegis/Units</English>
         </Key>
