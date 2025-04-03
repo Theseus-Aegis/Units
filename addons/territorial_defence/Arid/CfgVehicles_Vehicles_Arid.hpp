@@ -167,7 +167,7 @@ class TACU_Territorial_Defence_V_O_BTR80_Arid: TACU_BTR80_Base {
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Crewman_Arid"};
     side = 0;
     textureList[] = {"RU_Green", 1};
-    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80_Arid);
 };
 class TACU_Territorial_Defence_V_O_BTR80A_Arid: TACU_BTR80A_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
@@ -177,7 +177,7 @@ class TACU_Territorial_Defence_V_O_BTR80A_Arid: TACU_BTR80A_Base {
     typicalCargo[] = {"TACU_Territorial_Defence_U_O_Crewman_Arid"};
     side = 0;
     textureList[] = {"RU_Green", 1};
-    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80A);
+    EDITORPREVIEW(TACU_Territorial_Defence_V_O_BTR80A_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_Mi8_Arid;
