@@ -11,7 +11,7 @@ class CfgAmmo {
     // 9mm
     class TACU_Ammunition_9x19: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.0016;
         airLock = 1;
         audibleFire = 30;
@@ -32,7 +32,7 @@ class CfgAmmo {
     // .45ACP
     class TACU_Ammunition_45ACP: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.0018;
         airLock = 1;
         audibleFire = 45;
@@ -53,7 +53,7 @@ class CfgAmmo {
     // 5.7x28
     class TACU_Ammunition_57x28: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.001412;
         airLock = 1;
         audibleFire = 25;
@@ -74,7 +74,7 @@ class CfgAmmo {
     // 5.45x39
     class TACU_Ammunition_545x39: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.0013;
         airLock = 1;
         caliber = 1.1;
@@ -92,7 +92,7 @@ class CfgAmmo {
     // 5.56x45
     class TACU_Ammunition_556x45: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.0012000001;
         airLock = 1;
         audibleFire = 35;
@@ -111,7 +111,7 @@ class CfgAmmo {
     // 5.8x42
     class TACU_Ammunition_58x52: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.0011;
         airLock = 1;
         caliber = 1.4;
@@ -130,7 +130,7 @@ class CfgAmmo {
     // 6.5x39
     class TACU_Ammunition_65x39: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.00089999998;
         airLock = 1;
         caliber = 1.8;
@@ -149,7 +149,7 @@ class CfgAmmo {
     // 7.62x39
     class TACU_Ammunition_762x39: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction=-0.0016;
         airLock = 1;
         caliber = 1.68;
@@ -168,7 +168,7 @@ class CfgAmmo {
     // 7.62x51
     class TACU_Ammunition_762x51: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.001;
         airLock = 1;
         audibleFire = 45;
@@ -196,7 +196,7 @@ class CfgAmmo {
     // CUP Ammo
     class TACU_Ammunition_46x30: BulletBase {
         MACRO_TRACERS;
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.0008;
         airLock = 1;
         audibleFire = 7;
@@ -213,7 +213,7 @@ class CfgAmmo {
 
     // 9x39, no tracer.
     class TACU_Ammunition_9x39: BulletBase {
-        aiAmmoUsageFlags = "64 + 128 + 256";
+        aiAmmoUsageFlags = 448;
         airFriction = -0.00075274;
         airLock = 1;
         audibleFire = 0.07;
@@ -234,14 +234,14 @@ class CfgAmmo {
 
     // PG-7VM HEAT Grenade
     class R_PG7_F: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 200
     };
     // RPG-42 Rocket
     class R_PG32V_F: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 75; // default 100
@@ -249,7 +249,7 @@ class CfgAmmo {
 
     // RPG-42 HE Rocket
     class R_TBG32V_F: R_PG32V_F {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 30; // default 100
@@ -257,7 +257,7 @@ class CfgAmmo {
 
     // MAAWS HEAT 75 Round
     class R_MRAAWS_HEAT_F: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 100
@@ -265,7 +265,7 @@ class CfgAmmo {
 
     // OG-7V (Frag) Rocket
     class CUP_R_OG7_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 30; // default 100
@@ -274,13 +274,13 @@ class CfgAmmo {
         ace_frag_metal = 350;
         ace_frag_charge = 210;
         ace_frag_gurney_c = 2800;
-        ace_Frag_gurney_k = "3/5";
+        ace_Frag_gurney_k = 3/5;
         ace_frag_classes[] = {"ACE_frag_medium"};
     };
 
     // PG-7V (HEAT) Rocket
     class CUP_R_PG7V_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 100
@@ -288,7 +288,7 @@ class CfgAmmo {
 
     // PG-7VL (HEAT) Rocket
     class CUP_R_PG7VL_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 200
@@ -296,7 +296,7 @@ class CfgAmmo {
 
     // PG-7VM HEAT Rocket
     class CUP_R_PG7VM_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 100
@@ -304,7 +304,7 @@ class CfgAmmo {
 
     // PG-7VR (T-HEAT) Rocket
     class CUP_R_PG7VR_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 30;
@@ -312,7 +312,7 @@ class CfgAmmo {
 
     // TBG-7V (Thermobaric) Rocket
     class CUP_R_TBG7V_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 300
@@ -320,7 +320,7 @@ class CfgAmmo {
 
     // RPG-26 Rocket
     class CUP_R_PG26_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 100
@@ -328,7 +328,7 @@ class CfgAmmo {
 
     // RPG-18 Rocket
     class CUP_R_RPG18_AT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 200
@@ -336,7 +336,7 @@ class CfgAmmo {
 
     // MAAWS HEAT 55 Round
     class R_MRAAWS_HEAT55_F: R_MRAAWS_HEAT_F {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 50; // default 100
@@ -344,7 +344,7 @@ class CfgAmmo {
 
     // MAAWS HE 44 Round
     class R_MRAAWS_HE_F: R_MRAAWS_HEAT_F {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 30; // default 100
@@ -353,7 +353,7 @@ class CfgAmmo {
 
     // SPG-9 HEAT
     class M_SPG9_HEAT: RocketBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         //cost = 30; Already default at 30.
@@ -365,13 +365,13 @@ class CfgAmmo {
         ace_frag_metal = 350;
         ace_frag_charge = 210;
         ace_frag_gurney_c = 2800;
-        ace_Frag_gurney_k = "3/5";
+        ace_Frag_gurney_k = 3/5;
         ace_frag_classes[] = {"ACE_frag_medium"};
     };
 
     // Vorona HEAT
     class M_Vorona_HEAT: MissileBase {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         cost = 250; // Default 500
@@ -379,7 +379,7 @@ class CfgAmmo {
 
     // Vorona HE
     class M_Vorona_HE: M_Vorona_HEAT {
-        aiAmmoUsageFlags = "64 + 128 + 256 + 512";
+        aiAmmoUsageFlags = 960;
         airLock = 1;
         allowAgainstInfantry = 1;
         //cost = 30; Already default at 30.
