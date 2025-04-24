@@ -1,7 +1,7 @@
 // Vehicles - Blufor
 class TACU_Police_V_B_Offroad_Blue: TACU_Offroad_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_B";
     side = 1;
     displayName = "Offroad Police (Blue)";
@@ -24,7 +24,7 @@ class TACU_Police_V_B_Offroad_Blue: TACU_Offroad_Unarmed_Base {
 
 class TACU_Police_V_B_Van_Cargo_Blue: TACU_Cargo_Van_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_B";
     side = 1;
     displayName = "Van Cargo Police (Blue)";
@@ -45,7 +45,7 @@ class TACU_Police_V_B_Van_Cargo_Blue: TACU_Cargo_Van_Base {
 
 class TACU_Police_V_B_Van_Transport_Blue: TACU_Transport_Van_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_B";
     side = 1;
     displayName = "Van Transport Police (Blue)";
@@ -67,7 +67,7 @@ class TACU_Police_V_B_Van_Transport_Blue: TACU_Transport_Van_Base {
 // Vehicles - Opfor
 class TACU_Police_V_O_Offroad_Black: TACU_Offroad_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_O";
     side = 0;
     displayName = "Offroad Police (Black)";
@@ -90,7 +90,7 @@ class TACU_Police_V_O_Offroad_Black: TACU_Offroad_Unarmed_Base {
 
 class TACU_Police_V_O_Van_Cargo_Black: TACU_Cargo_Van_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_O";
     side = 0;
     displayName = "Van Cargo Police (Black)";
@@ -111,7 +111,7 @@ class TACU_Police_V_O_Van_Cargo_Black: TACU_Cargo_Van_Base {
 
 class TACU_Police_V_O_Van_Transport_Black: TACU_Transport_Van_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_O";
     side = 0;
     displayName = "Van Transport Police (Black)";
@@ -133,7 +133,7 @@ class TACU_Police_V_O_Van_Transport_Black: TACU_Transport_Van_Base {
 // Vehicles - Independent
 class TACU_Police_V_I_Offroad_Black: TACU_Offroad_Unarmed_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_I";
     side = 2;
     displayName = "Offroad Police (Black)";
@@ -156,7 +156,7 @@ class TACU_Police_V_I_Offroad_Black: TACU_Offroad_Unarmed_Base {
 
 class TACU_Police_V_I_Van_Cargo_Black: TACU_Cargo_Van_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_I";
     side = 2;
     displayName = "Van Cargo Police (Black)";
@@ -177,7 +177,7 @@ class TACU_Police_V_I_Van_Cargo_Black: TACU_Cargo_Van_Base {
 
 class TACU_Police_V_I_Van_Transport_Black: TACU_Transport_Van_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
-    author = "Kresky";
+    author = "Emythiel";
     faction = "TACU_Police_I";
     side = 2;
     displayName = "Van Transport Police (Black)";

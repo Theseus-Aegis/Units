@@ -92,7 +92,7 @@ class TACU_Offroad_Unarmed_Base: B_G_Offroad_01_F {
         };
         class Police_Blue {
             displayName = "Police (Blue)";
-            author = "Kresky";
+            author = "Emythiel";
             textures[] = {QPATHTOF(data\offroad\police_v_offroad_blue_co.paa), QPATHTOF(data\offroad\police_v_offroad_blue_co.paa)};
             factions[] = {"TACU_Police_B"};
         };

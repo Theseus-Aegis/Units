@@ -57,7 +57,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"tacu_main", "tacu_assets_vehicles"};
         author = ECSTRING(main,Author);
-        authors[] = {"Kresky", "Mike"};
+        authors[] = {"Emythiel", "Mike"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;
     };
