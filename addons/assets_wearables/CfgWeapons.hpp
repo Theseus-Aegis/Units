@@ -294,7 +294,7 @@ class CfgWeapons {
     // Police Helmets
     class TACU_Police_Helmet_PASGT_Neck_PoliceBlack: H_PASGT_neckprot_blue_press_F {
         scope = 1;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = "Police Helmet (Neck Protection, Black)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\helmets\Police_Helmet_PASGT_Neck_PoliceBlack_co.paa)};
     };
@@ -306,7 +306,7 @@ class CfgWeapons {
 
     // Police Uniforms
     class TACU_Police_Uniform_Combat_Black: Uniform_Base {
-        author = "Kresky";
+        author = "Emythiel";
         scope = 1;
         scopeCurator = 1;
         displayName = "Police Combat Uniform (Black)";
@@ -345,7 +345,7 @@ class CfgWeapons {
     // Police Vests
     class TACU_Police_Vest_HeavyPlateCarrier_PoliceBlack: V_PlateCarrierIAGL_oli {
         scope = 1;
-        author = "Kresky";
+        author = "Emythiel";
         displayName = "Heavy Plate Carrier (Police, Black)";
         hiddenSelectionsTextures[] = {
             QPATHTOF(data\vests\Police_Vest_HeavyPlateCarrier_PoliceBlack_co.paa),
@@ -367,7 +367,7 @@ class CfgWeapons {
         };
     };
     class TACU_Police_Vest_PlateCarrier_PoliceBlack: V_PlateCarrier1_blk {
-        author = "Kresky";
+        author = "Emythiel";
         displayName = "Plate Carrier (Police, Black)";
         hiddenSelectionsTextures[] = {QPATHTOF(data\vests\Police_Vest_PlateCarrier_PoliceBlack_co.paa)};
     };

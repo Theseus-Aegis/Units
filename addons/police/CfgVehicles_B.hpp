@@ -1,6 +1,6 @@
 // Units - Police (Counter Terrorism)
 class TACU_Police_U_B_CT_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
-    author = "Kresky";
+    author = "Emythiel";
     displayName = "Rifleman";
     faction = "TACU_Police_B";
     editorSubcategory = "TACU_Police_EdSubCat_B_CT";
@@ -113,7 +113,7 @@ class TACU_Police_U_B_CT_RiotControl: TACU_Police_U_B_CT_Rifleman {
 
 // Units - Police (Enforcers)
 class TACU_Police_U_B_Enforcer_Rifleman: TACU_Main_U_BLUFOR_Soldier_Base {
-    author = "Kresky";
+    author = "Emythiel";
     displayName = "Rifleman";
     faction = "TACU_Police_B";
     editorSubcategory = "TACU_Police_EdSubCat_B_Enforcer";

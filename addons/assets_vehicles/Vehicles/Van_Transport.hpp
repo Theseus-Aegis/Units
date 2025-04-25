@@ -107,7 +107,7 @@ class TACU_Transport_Van_Base: B_G_Van_02_transport_F {
         };
         class Police_Blue: Syndikat {
             displayName = "Police (Blue)";
-            author = "Kresky";
+            author = "Emythiel";
             textures[] = {
                 QPATHTOF(data\transport_van\Police_V_Van_Blue_co.paa),
                 "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
@@ -118,7 +118,7 @@ class TACU_Transport_Van_Base: B_G_Van_02_transport_F {
         };
         class Police_Russian: Syndikat {
             displayName = "Police (Russian)";
-            author = "Kresky";
+            author = "Emythiel";
             textures[] = {
                 QPATHTOF(data\transport_van\Police_V_Van_BlackRus_co.paa),
                 "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
@@ -129,7 +129,7 @@ class TACU_Transport_Van_Base: B_G_Van_02_transport_F {
         };
         class Police_Black: Syndikat {
             displayName = "Police (Black)";
-            author = "Kresky";
+            author = "Emythiel";
             textures[] = {
                 QPATHTOF(data\transport_van\Police_V_Van_Black_co.paa),
                 "\a3\soft_f_orange\van_02\data\van_wheel_co.paa",

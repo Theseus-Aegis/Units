@@ -1,6 +1,6 @@
 // Units - Police (Counter-Terrorism)
 class TACU_Police_U_O_CT_Rifleman: TACU_Main_U_OPFOR_Soldier_Base {
-    author = "Kresky";
+    author = "Emythiel";
     displayName = "Rifleman (AS VAL)";
     faction = "TACU_Police_O";
     editorSubcategory = "TACU_Police_EdSubCat_O_CT";
