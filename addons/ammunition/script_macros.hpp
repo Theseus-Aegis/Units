@@ -11,7 +11,7 @@
     #define MACRO_HANDGUN_MAGAZINE \
         author = "Mike"; \
         descriptionShort = ""; \
-        tracersEvery = 0; \
+        tracersEvery = 4; \
         lastRoundsTracer = 2; \
         scope = 2; \
         scopeArsenal = 2
@@ -19,7 +19,7 @@
     #define MACRO_RIFLE_MAGAZINE \
         author = "Mike"; \
         descriptionShort = ""; \
-        tracersEvery = 0; \
+        tracersEvery = 4; \
         lastRoundsTracer = 4; \
         scope = 2; \
         scopeArsenal = 2
@@ -35,7 +35,7 @@
     #define MACRO_HANDGUN_MAGAZINE \
         author = "Mike"; \
         descriptionShort = ""; \
-        tracersEvery = 0; \
+        tracersEvery = 4; \
         lastRoundsTracer = 2; \
         scope = 1; \
         scopeArsenal = 1
@@ -43,7 +43,7 @@
     #define MACRO_RIFLE_MAGAZINE \
         author = "Mike"; \
         descriptionShort = ""; \
-        tracersEvery = 3; \
+        tracersEvery = 4; \
         lastRoundsTracer = 4; \
         scope = 1; \
         scopeArsenal = 1
