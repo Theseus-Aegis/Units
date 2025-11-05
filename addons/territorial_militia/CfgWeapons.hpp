@@ -3,7 +3,6 @@ class CfgWeapons {
     class CUP_arifle_AKM;
     class CUP_arifle_RPK74_45;
     class CUP_arifle_AKS74_GL;
-    class CUP_srifle_VSSVintorez;
 
     class TACU_Territorial_Militia_AKS_OKP7: CUP_arifle_AKS74 {
         MACRO_WEAPON_DEFAULTS;
