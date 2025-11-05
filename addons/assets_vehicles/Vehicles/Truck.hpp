@@ -1,8 +1,5 @@
 // Truck
-class B_G_Van_01_transport_F: I_G_Van_01_transport_F {
-    class EventHandlers;
-};
-
+class B_G_Van_01_transport_F;
 class TACU_Truck_Base: B_G_Van_01_transport_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;
