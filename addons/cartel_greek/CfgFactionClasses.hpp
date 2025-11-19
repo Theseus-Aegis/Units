@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_Cartel_Greek_O {
-        displayName = "Greek Cartel";
+        displayName = "[TACU] Greek Cartel";
         side = 0;
         priority = 2;
     };

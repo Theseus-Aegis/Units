@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_UN_B {
-        displayName = "United Nations";
+        displayName = "[TACU] United Nations";
         side = 1;
         priority = 1;
     };

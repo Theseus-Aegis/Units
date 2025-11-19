@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_Vanguard_I {
-        displayName = "Vanguard PMC";
+        displayName = "[TACU] Vanguard PMC";
         side = 2;
         priority = 2;
     };

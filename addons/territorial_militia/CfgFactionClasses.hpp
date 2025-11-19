@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_Territorial_Militia_O {
-        displayName = "Territorial Militia Forces";
+        displayName = "[TACU] Territorial Militia Forces";
         side = 0;
         priority = 2;
     };

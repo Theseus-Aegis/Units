@@ -1,7 +1,7 @@
 class CfgFactionClasses {
     // Taliban Militia
     class TACU_Taliban_Militia_I {
-        displayName = "Taliban Militia";
+        displayName = "[TACU] Taliban Militia";
         side = 2;
         priority = 1;
     };
@@ -11,7 +11,7 @@ class CfgFactionClasses {
 
     // Taliban Veterans
     class TACU_Taliban_Veterans_I {
-        displayName = "Taliban Veterans";
+        displayName = "[TACU] Taliban Veterans";
         side = 2;
         priority = 1;
     };

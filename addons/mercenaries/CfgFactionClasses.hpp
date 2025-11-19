@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_Mercenaries_O {
-        displayName = "Mercenaries";
+        displayName = "[TACU] Mercenaries";
         side = 0;
         priority = 2;
     };

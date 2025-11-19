@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_African_South_B {
-        displayName = "Southern Africa";
+        displayName = "[TACU] Southern Africa";
         side = 1;
         priority = 1;
     };
