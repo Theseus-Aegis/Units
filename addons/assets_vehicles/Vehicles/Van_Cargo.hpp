@@ -1,8 +1,5 @@
 // Van - Cargo
-class B_G_Van_02_vehicle_F: Van_02_vehicle_base_F {
-    class EventHandlers;
-};
-
+class B_G_Van_02_vehicle_F;
 class TACU_Cargo_Van_Base: B_G_Van_02_vehicle_F {
     MACRO_CLEAR_VEHICLE_CARGO;
     MACRO_DEFAULT_VEHICLE;

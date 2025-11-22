@@ -1,5 +1,4 @@
 // Vehicles
-class APC_Tracked_02_base_F;
 class APC_Wheeled_02_base_v2_F;
 class APC_Wheeled_02_hmg_base_lxws;
 class APC_Wheeled_02_unarmed_base_lxws;
@@ -29,7 +28,6 @@ class I_G_Offroad_01_armor_AT_lxWS;
 class I_G_Offroad_01_armor_base_lxWS;
 class I_G_Offroad_01_AT_F;
 class I_G_Offroad_01_F;
-class I_G_Van_01_transport_F;
 class I_MBT_03_base_F;
 class LSV_01_armed_base_F;
 class LSV_01_AT_base_F;
@@ -62,8 +60,6 @@ class Truck_02_base_F;
 class Truck_02_MRL_base_F;
 class Truck_02_transport_base_F;
 class Truck_03_base_F;
-class Van_02_transport_base_F;
-class Van_02_vehicle_base_F;
 class Wheeled_APC_F;
 
 // CUP Vehicles
