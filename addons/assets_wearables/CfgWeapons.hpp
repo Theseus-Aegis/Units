@@ -4,11 +4,6 @@ class CfgWeapons {
     class H_PASGT_basic_olive_F;
     class H_PASGT_neckprot_blue_press_F;
 
-    // Rifles
-    class arifle_SPAR_02_blk_F;
-    class arifle_SPAR_01_GL_blk_F;
-    class arifle_SPAR_03_blk_F;
-
     // Uniforms
     class Uniform_Base;
     class UniformItem;

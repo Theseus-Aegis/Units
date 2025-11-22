@@ -1,5 +1,6 @@
-// Included all in all faction CfgVehicles as a baseclass list.
+// Formerly included all in all faction CfgVehicles as a baseclass list. Now can be used as a quick reference
 // Backpacks
+/*
 class TACU_Assets_Fieldpack_Arid;
 class TACU_Assets_Fieldpack_Tropic;
 class TACU_Assets_Fieldpack_Urban;
@@ -150,3 +151,4 @@ class TACU_Metis_base;
 class TACU_MK19_base;
 class TACU_RBS70_base;
 class TACU_SearchLight_base;
+*/

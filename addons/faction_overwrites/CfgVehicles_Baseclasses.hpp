@@ -8,8 +8,6 @@ class I_Soldier_04_F;
 class I_Soldier_diver_base_F;
 class I_Soldier_sniper_base_F;
 class O_R_Soldier_Base_F;
-class O_SFIA_Soldier_AR_lxWS;
-class O_SFIA_soldier_lxWS;
 class SoldierEB;
 class SoldierGB;
 

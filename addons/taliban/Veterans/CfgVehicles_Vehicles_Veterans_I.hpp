@@ -380,7 +380,7 @@ class TACU_Taliban_Veterans_V_I_Hilux_BMP: TACU_Hilux_BMP1_Base {
     typicalCargo[] = {"TACU_Taliban_Veterans_U_I_Driver"};
     EDITORPREVIEW(TACU_Taliban_Veterans_V_I_Hilux_BMP);
 };
-class TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored: TACU_Hilux_BMP1_Base {
+class TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored: TACU_Hilux_Armored_BMP1_Base {
     MACRO_FACTION_VEHICLE_DEFAULTS;
     faction = "TACU_Taliban_Veterans_I";
     side = 2;
