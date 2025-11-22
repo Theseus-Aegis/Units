@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_BAF_B {
-        displayName = "British Armed Forces";
+        displayName = "[TACU] British Armed Forces";
         side = 1;
         priority = 1;
     };

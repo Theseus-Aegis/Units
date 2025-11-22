@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_Chernobog {
-        displayName = "Children of Chernobog";
+        displayName = "[TACU] Children of Chernobog";
         side = 2;
         priority = 1;
     };

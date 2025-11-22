@@ -19,7 +19,7 @@ class TACU_Territorial_Militia_V_O_Offroad_Unarmed_Arid: TACU_Offroad_Unarmed_Ba
         "BeaconsStart", 0,
         "BeaconsServicesStart", 0
     };
-    EDITORPREVIEW(TACU_Territorial_Militia_V_O_Offroad_Unarmed);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_Offroad_Unarmed_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_Offroad_M2_Arid: TACU_Offroad_Armed_M2_Base {
@@ -41,7 +41,7 @@ class TACU_Territorial_Militia_V_O_Offroad_M2_Arid: TACU_Offroad_Armed_M2_Base {
         "HideBumper2", 0,
         "HideConstruction", 1
     };
-    EDITORPREVIEW(TACU_Territorial_Militia_V_O_Offroad_M2);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_Offroad_M2_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_Truck_Arid: TACU_Truck_Base {
@@ -52,7 +52,7 @@ class TACU_Territorial_Militia_V_O_Truck_Arid: TACU_Truck_Base {
     crew = "TACU_Territorial_Militia_U_O_Crewman_Arid";
     typicalCargo[] = {"TACU_Territorial_Militia_U_O_Crewman_Arid"};
     textureList[] = {"Guerilla_08", 1};
-    EDITORPREVIEW(TACU_Territorial_Militia_V_O_Truck);
+    EDITORPREVIEW(TACU_Territorial_Militia_V_O_Truck_Arid);
 };
 
 class TACU_Territorial_Militia_V_O_Kamaz_Transport_Arid: TACU_Kamaz_Covered_Base {

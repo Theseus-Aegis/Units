@@ -1,6 +1,6 @@
 class CfgFactionClasses {
     class TACU_Proxy_China_O {
-        displayName = "Northern Asia";
+        displayName = "[TACU] Northern Asia";
         side = 0;
         priority = 1;
     };

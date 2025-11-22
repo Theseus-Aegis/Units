@@ -1,11 +1,11 @@
 class CfgFactionClasses {
     class TACU_Assets_Testing {
-        displayName = "TACU - Vehicle Testing";
+        displayName = "[TACU] Vehicle Testing";
         side = 1;
         priority = 1;
     };
     class TACU_Assets_Testing_CUP: TACU_Assets_Testing {
-        displayName = "TACU - Vehicle Testing (CUP)";
+        displayName = "[TACU] Vehicle Testing (CUP)";
     };
 };
 
