@@ -1,5 +1,5 @@
 class TACU_African_North_B {
-    name = "Northern Africa";
+    name = "[TACU] Northern Africa";
 
     class TACU_African_North_Infantry {
         name = "Infantry";

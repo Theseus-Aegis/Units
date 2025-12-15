@@ -1,5 +1,5 @@
 class TACU_Mercenaries {
-    name = "Mercenaries";
+    name = "[TACU] Mercenaries";
 
     class TACU_Mercenaries_Infantry_Low {
         name = "Infantry (Low Tier)";

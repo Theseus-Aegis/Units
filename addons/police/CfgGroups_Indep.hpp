@@ -1,5 +1,5 @@
 class TACU_Police_I {
-    name = "Law Enforcement";
+    name = "[TACU] Law Enforcement";
     class TACU_Police_G_I_CT {
         name = "Counter-Terrorists";
 

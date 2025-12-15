@@ -1,5 +1,5 @@
 class TACU_Somali_Pirates_I {
-    name = "Somali Pirates";
+    name = "[TACU] Somali Pirates";
 
     class TACU_Somali_Pirates_Infantry_I {
         name = "Infantry";

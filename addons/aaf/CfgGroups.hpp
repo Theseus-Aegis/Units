@@ -2,7 +2,7 @@ class CfgGroups {
     class INDEP {
         class IND_F {
             class TACU_AAF_Green_Daggers {
-                name = "Green Daggers";
+                name = "[TACU] Green Daggers";
                 class TACU_AAF_G_Patrol {
                     name = "Patrol";
                     side = 2;
