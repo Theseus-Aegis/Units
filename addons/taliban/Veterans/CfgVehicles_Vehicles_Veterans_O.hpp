@@ -118,7 +118,7 @@ class TACU_Taliban_Veterans_V_O_Hilux_BMP: TACU_Taliban_Veterans_V_I_Hilux_BMP {
     crew = "TACU_Taliban_Veterans_U_O_Driver";
     typicalCargo[] = {"TACU_Taliban_Veterans_U_O_Driver"};
 };
-class TACU_Taliban_Veterans_V_O_Hilux_BMP_Armored: TACU_Taliban_Veterans_V_I_Hilux_BMP {
+class TACU_Taliban_Veterans_V_O_Hilux_BMP_Armored: TACU_Taliban_Veterans_V_I_Hilux_BMP_Armored {
     faction = "TACU_Taliban_Veterans_O";
     side = 0;
     crew = "TACU_Taliban_Veterans_U_O_Driver";
