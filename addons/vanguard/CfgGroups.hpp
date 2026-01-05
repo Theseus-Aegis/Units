@@ -1,7 +1,7 @@
 class CfgGroups {
     class INDEP {
         class TACU_Vanguard {
-            name = "Vanguard PMC";
+            name = "[TACU] Vanguard PMC";
             #include "independent\CfgGroups_Green.hpp"
             #include "independent\CfgGroups_Sand.hpp"
             #include "independent\CfgGroups_Winter.hpp"
@@ -10,7 +10,7 @@ class CfgGroups {
     };
     class EAST {
         class TACU_Vanguard {
-            name = "Vanguard PMC";
+            name = "[TACU] Vanguard PMC";
             #include "opfor\CfgGroups_Green.hpp"
             #include "opfor\CfgGroups_Sand.hpp"
             #include "opfor\CfgGroups_Winter.hpp"

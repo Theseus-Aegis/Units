@@ -1,5 +1,5 @@
 class TACU_Seven_Rings_O {
-    name = "Seven Rings (East)";
+    name = "[TACU] Seven Rings (East)";
 
     class TACU_Seven_Rings_Infantry_O {
         name = "Infantry";
